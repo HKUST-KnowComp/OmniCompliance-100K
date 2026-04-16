@@ -1,0 +1,16 @@
+[
+    "Enterprise | T1495 | Firmware Corruption | Check the integrity of the existing BIOS and device firmware to determine if it is vulnerable to modification.",
+    "Enterprise | T1601 | Modify System Image | Some vendors of embedded network devices provide cryptographic signing to ensure the integrity of operating system images at boot time.  Implement where available, following vendor guidelines.[1]",
+    " |  | .001 | Patch System Image | Some vendors of embedded network devices provide cryptographic signing to ensure the integrity of operating system images at boot time.  Implement where available, following vendor guidelines.[1]",
+    " |  | .002 | Downgrade System Image | Some vendors of embedded network devices provide cryptographic signing to ensure the integrity of operating system images at boot time.  Implement where available, following vendor guidelines.[1]",
+    "Enterprise | T1542 | Pre-OS Boot | Use Trusted Platform Module technology and a secure or trusted boot process to prevent system integrity from being compromised. Check the integrity of the existing BIOS or EFI to determine if it is vulnerable to modification.[2][3]",
+    " |  | .001 | System Firmware | Check the integrity of the existing BIOS or EFI to determine if it is vulnerable to modification. Use Trusted Platform Module technology.[2]Move system's root of trust to hardware to prevent tampering with the SPI flash memory.[4]Technologies such as Intel Boot Guard can assist with this.[5]",
+    " |  | .003 | Bootkit | Use Trusted Platform Module technology and a secure or trusted boot process to prevent system integrity from being compromised.[2][3]",
+    " |  | .004 | ROMMONkit | Enable secure boot features to validate the digital signature of the boot environment and system image using a special purpose hardware device. If the validation check fails, the device will fail to boot preventing loading of unauthorized software.[1]",
+    " |  | .005 | TFTP Boot | Enable secure boot features to validate the digital signature of the boot environment and system image using a special purpose hardware device. If the validation check fails, the device will fail to boot preventing loading of unauthorized software.[1]",
+    "Enterprise | T1505 | Server Software Component | Enabling secure boot allows validation of software and drivers during initial system boot.",
+    " |  | .006 | vSphere Installation Bundles | Enabling secure boot allows ESXi to validate software and drivers during initial system boot.[6]",
+    "Enterprise | T1553 | .006 | Subvert Trust Controls:Code Signing Policy Modification | Use of Secure Boot may prevent some implementations of modification to code signing policies.[7]",
+    "Enterprise | T1195 | Supply Chain Compromise | Use secure methods to boot a system and verify the integrity of the operating system and loading mechanisms.",
+    " |  | .003 | Compromise Hardware Supply Chain | Use Trusted Platform Module technology and a secure or trusted boot process to prevent system integrity from being compromised. Check the integrity of the existing BIOS or EFI to determine if it is vulnerable to modification.[2][3]"
+]

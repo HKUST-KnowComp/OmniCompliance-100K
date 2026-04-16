@@ -1,0 +1,14 @@
+[
+    "Enterprise | T1020 | .001 | Automated Exfiltration:Traffic Duplication | Implement Data Loss Prevention (DLP) solutions to monitor, detect, and control the flow of sensitive information. DLP tools can be configured to block unauthorized attempts to exfiltrate data, such as preventing emails from being forwarded to external recipients or monitoring for suspicious data transfers. By creating email flow rules and applying policies to detect anomalies, DLP solutions help mitigate the risk of data exfiltration over alternative protocols.",
+    "Enterprise | T1005 | Data from Local System | Data loss prevention can restrict access to sensitive data and detect sensitive data that is unencrypted.",
+    "Enterprise | T1025 | Data from Removable Media | Data loss prevention can restrict access to sensitive data and detect sensitive data that is unencrypted.",
+    "Enterprise | T1048 | Exfiltration Over Alternative Protocol | Data loss prevention can detect and block sensitive data being uploaded via web browsers.",
+    " |  | .002 | Exfiltration Over Asymmetric Encrypted Non-C2 Protocol | Data loss prevention can detect and block sensitive data being uploaded via web browsers.",
+    " |  | .003 | Exfiltration Over Unencrypted Non-C2 Protocol | Data loss prevention can detect and block sensitive data being sent over unencrypted protocols.",
+    "Enterprise | T1041 | Exfiltration Over C2 Channel | Data loss prevention can detect and block sensitive data being sent over unencrypted protocols.",
+    "Enterprise | T1052 | Exfiltration Over Physical Medium | Data loss prevention can detect and block sensitive data being copied to physical mediums.",
+    " |  | .001 | Exfiltration over USB | Data loss prevention can detect and block sensitive data being copied to USB devices.",
+    "Enterprise | T1567 | Exfiltration Over Web Service | Data loss prevention can be detect and block sensitive data being uploaded to web services via web browsers.",
+    " |  | .004 | Exfiltration Over Webhook | Data loss prevention can be detect and block sensitive data being uploaded to web services via web browsers.",
+    "Enterprise | T1537 | Transfer Data to Cloud Account | Data loss prevention can prevent and block sensitive data from being shared with individuals outside an organization.[2][3]"
+]

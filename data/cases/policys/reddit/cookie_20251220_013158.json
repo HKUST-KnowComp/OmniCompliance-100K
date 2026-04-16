@@ -1,0 +1,1482 @@
+[
+    {
+        "example_name": "Google $22.5 Million Cookie Consent Fine",
+        "example_background": "Google placed advertising cookies on third-party sites via its DoubleClick technology, including the advertising pixel, to track user behavior for ad measurement and retargeting on Google sites. Users visiting these third-party sites had cookies set automatically without prior consent, enabling cross-site tracking controlled by the third parties hosting the ads but powered by Google's tools.",
+        "process_and_outcome": "The UK's Information Commissioner's Office investigated and fined Google \u00a322.5 million for failing to obtain informed consent for cookie placement, marking one of the first major ePrivacy Directive enforcement actions.",
+        "involved_parties": [
+            "Google LLC",
+            "Information Commissioner's Office (ICO)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU ePrivacy Directive (Cookie Directive)",
+            "Privacy and Electronic Communications Regulations (PECR)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Amazon \u20ac746 Million GDPR Cookie Fine",
+        "example_background": "Amazon set advertising cookies on its site and through third-party ad tech for measurement and retargeting, without properly obtaining consent for non-essential trackers. Third-party pixels on Amazon-linked sites contributed to broad user profiling across the web.",
+        "process_and_outcome": "Luxembourg's CNPD fined Amazon \u20ac746 million in 2021 for cookie consent violations; the fine was upheld on appeal in 2024.",
+        "involved_parties": [
+            "Amazon Europe Core S.\u00e0 r.l.",
+            "Commission Nationale pour la Protection des Donn\u00e9es (CNPD)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU ePrivacy Directive",
+            "GDPR"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft LinkedIn \u20ac310 Million GDPR Fines",
+        "example_background": "LinkedIn processed user data for targeted advertising using cookies set via third-party sites and its ad pixel, without fully valid consent mechanisms. Third parties controlled placement but LinkedIn's tech enabled persistent tracking for ad relevance on its platform.",
+        "process_and_outcome": "Ireland's DPC fined LinkedIn \u20ac310 million in 2024 for mishandling advertising data consents.",
+        "involved_parties": [
+            "LinkedIn Ireland Unlimited Company",
+            "Data Protection Commission (Ireland)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta Platforms Cookie Consent Penalty by CNIL",
+        "example_background": "Meta Platforms operated services including Facebook and Instagram which utilized cookies for behavioral advertising and audience measurement on French websites without adequate prior consent from users. The cookie notices did not clearly distinguish between essential and non-essential cookies, and the consent interfaces pre-checked boxes or made refusal more difficult than acceptance. CNIL investigations revealed that these practices affected millions of users, with data being transmitted to Meta servers located outside the EU before consent was obtained.",
+        "process_and_outcome": "CNIL fined Meta 60 million euros in 2022 following complaints and proactive monitoring. Meta was ordered to update its consent mechanisms across platforms.",
+        "involved_parties": [
+            "Meta Platforms Ireland Limited",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU ePrivacy Directive",
+            "GDPR"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Vinted Cookie Fine by CNIL",
+        "example_background": "Vinted, an online marketplace for second-hand goods, displayed a cookie banner that informed users about data collection but did not obtain explicit consent before setting non-essential cookies for analytics and advertising. The platform's notice listed numerous third-party services deploying trackers, yet the refusal option redirected users to a settings page that still required multiple steps, failing to provide a straightforward choice. This occurred on the French version of the site, impacting user control over personal data processing.",
+        "process_and_outcome": "CNIL issued a 20 million euro fine in 2022 after analyzing the banner and underlying scripts. Vinted was required to revise its cookie management system.",
+        "involved_parties": [
+            "Vinted UAB",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU ePrivacy Directive (Article 66)",
+            "GDPR"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Amazon Cookie Consent Enforcement by ICO",
+        "example_background": "Amazon's UK website used cookies for targeted advertising and analytics without first securing user consent through a properly designed banner. The notice categorized cookies but set advertising cookies by default and made opting out a complex process involving multiple clicks. The Information Commissioner's Office noted that this approach undermined user autonomy in controlling tracking technologies across the e-commerce platform.",
+        "process_and_outcome": "The ICO fined Amazon 6.5 million GBP in 2023, following a sweep of major websites. Amazon committed to implementing compliant consent tools.",
+        "involved_parties": [
+            "Amazon EU Sarl",
+            "ICO (UK Information Commissioner's Office)"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Privacy and Electronic Communications Regulations (PECR)",
+            "GDPR (UK)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit Cookie Policy Transparency Update",
+        "example_background": "Reddit maintains a detailed Cookie Notice on its platform explaining the use of cookies and similar technologies for personalization, analytics, advertising, and security. The policy outlines categories such as essential, functional, analytics, and advertising cookies, specifies third-party providers like Google and DoubleClick, and provides instructions for users to control preferences via browser settings or the account dashboard. Reddit emphasizes user options including opting out of personalized ads and managing tracking through its privacy center, applicable across web and mobile experiences.",
+        "process_and_outcome": "Reddit regularly updates its notice to reflect changes in technology use and regulatory expectations, demonstrating ongoing adherence without recorded enforcement actions related to cookie disclosures.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Users"
+        ],
+        "applicable_regulations_or_policies": [
+            "CCPA (California Consumer Privacy Act)",
+            "GDPR"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Cookie Consent Compliance",
+        "example_background": null,
+        "process_and_outcome": "Microsoft has faced no major cookie-related fines in recent EU/UK audits and is cited in compliance guides for effective banner design and transparency.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "EDPB (European Data Protection Board)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU ePrivacy Directive",
+            "GDPR"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "TikTok Cookie Fine by CNIL",
+        "example_background": "TikTok's French website set cookies for advertising and measurement purposes without valid consent, as the banner only offered accept or refuse for all cookies without granularity. Refusal still allowed some trackers, and essential cookies were not clearly distinguished. CNIL found data was sent to US servers pre-consent, affecting video recommendations and ad targeting.",
+        "process_and_outcome": "CNIL imposed a 15 million euro fine in 2022, mandating improvements to the consent platform.",
+        "involved_parties": [
+            "TikTok Technology Limited",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU ePrivacy Directive",
+            "GDPR"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "GEOLOCATION Cookie Enforcement by AEPD",
+        "example_background": "GEOLOCATION, a Spanish services company, used geolocation cookies on its site without informing users or obtaining consent, automatically detecting locations for targeted content without a banner or notice explaining the technology.",
+        "process_and_outcome": "The Spanish AEPD fined the company 2,000 euros in 2021 for failing to provide cookie information and consent options.",
+        "involved_parties": [
+            "GEOLOCATION SA",
+            "AEPD (Spanish Data Protection Agency)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU ePrivacy Directive (Article 5)",
+            "Spanish LOPDGDD"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Apple Privacy Nutrition Labels and Cookie Controls",
+        "example_background": "Apple introduced App Privacy Nutrition Labels requiring developers to disclose data collection practices, including tracking via cookies and identifiers. On its websites and apps, Apple provides a dedicated cookie banner allowing users to manage settings for analytics, personalization, and advertising, with clear explanations and opt-out options aligned with global standards.",
+        "process_and_outcome": "This initiative has been praised by regulators like the FTC and included in best practice guidelines, with no adverse cookie-related actions against Apple.",
+        "involved_parties": [
+            "Apple Inc.",
+            "App Store developers",
+            "FTC"
+        ],
+        "applicable_regulations_or_policies": [
+            "CCPA",
+            "GDPR"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta Platforms GDPR Cookie Violations",
+        "example_background": "Meta's platforms, including Facebook and Instagram, utilized cookies for analytics, advertising, and functionality. In 2022, regulators assessed that these cookies were deployed without prior user consent, using pre-checked boxes and insufficient notice. The setup allowed tracking across devices and sessions, compiling detailed user profiles for ad targeting. This was part of broader scrutiny on big tech's data practices, where first-party cookies blurred lines with third-party tracking.",
+        "process_and_outcome": "Irish DPC fined Meta \u20ac405 million in 2022 for children's data handling linked to cookie practices, with additional cookie-specific probes leading to mandated redesigns of consent banners and cookie blocking until opt-in.",
+        "involved_parties": [
+            "Meta Platforms Inc.",
+            "Irish Data Protection Commission (DPC)",
+            "European Data Protection Board (EDPB)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 7",
+            "ePrivacy Directive",
+            "GDPR Article 82"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Vinted Cookie Fine by Lithuanian DPA",
+        "example_background": "Vinted, an online marketplace, employed cookies for analytics and advertising purposes on its platform. In 2023, the Lithuanian State Data Protection Inspectorate reviewed the site's cookie management, determining that non-essential cookies were set without user consent. The consent banner lacked clear information on cookie purposes, durations, and providers, and analytics cookies continued to load despite refusal options. This impacted user data collection for performance monitoring and targeted ads.",
+        "process_and_outcome": "The authority imposed a \u20ac1.5 million fine and required Vinted to update its cookie consent tool to ensure proper blocking of non-essential cookies upon refusal.",
+        "involved_parties": [
+            "Vinted UAB",
+            "State Data Protection Inspectorate (Lithuania)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 5(1)(a)",
+            "ePrivacy Directive Article 5(3)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Amazon France Cookie Enforcement by CNIL",
+        "example_background": "Amazon's French website used a range of cookies including those for analytics and advertising. CNIL's 2020 inspection revealed that advertising cookies were placed without valid consent, as the banner did not prevent their deployment when users selected 'refuse'. Data was transmitted to partners like Google and Amazon advertisers prior to agreement, enabling cross-site tracking.",
+        "process_and_outcome": "CNIL fined Amazon \u20ac35 million and ordered cessation of unlawful processing, with public warnings issued. Amazon adjusted its mechanisms to comply.",
+        "involved_parties": [
+            "Amazon EU Sarl",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "ePrivacy Directive 2002/58/EC",
+            "GDPR"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Reddit's Cookie Policy Transparency Update",
+        "example_background": "Reddit maintains a detailed cookie policy outlining first-party cookies as strictly necessary for site operation, functional for user preferences, analytics for performance measurement via tools like Google Analytics, and advertising for personalized content delivery. The policy specifies cookie durations, purposes, and opt-out options, implemented through a consent banner that categorizes and blocks non-essential cookies until approved.",
+        "process_and_outcome": "Reddit updated its policy in 2023 to align with CCPA and GDPR, enabling granular consent management without regulatory action, serving as a model for platforms handling mixed cookie types.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Users",
+            "California Attorney General"
+        ],
+        "applicable_regulations_or_policies": [
+            "CCPA",
+            "GDPR",
+            "Reddit Cookie Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "BBC Cookie Compliance with ConsentNow",
+        "example_background": "The BBC implemented a cookie management solution categorizing first-party cookies into strictly necessary, functional, analytics, and advertising groups. Users encounter a banner detailing each category with toggles for acceptance, ensuring analytics cookies like those from Chartbeat are only set post-consent. This setup supports performance tracking while respecting user choices across its news and media sites.",
+        "process_and_outcome": "The ICO recognized BBC's approach in 2022 guidance, avoiding enforcement and demonstrating effective compliance in public sector media.",
+        "involved_parties": [
+            "BBC",
+            "Information Commissioner's Office (ICO)",
+            "ConsentNow (vendor)"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK GDPR",
+            "PECR 2003",
+            "ICO Cookie Guidance"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "CNIL Fine on Google for Android Consent",
+        "example_background": "Google's Android customization service used cookies for advertising personalization. In 2020, CNIL found that the consent form lacked transparency on first-party advertising cookies, bundling them with analytics without separate opt-in, leading to automatic data processing for ad targeting.",
+        "process_and_outcome": "A \u20ac60 million fine was levied, with requirements for redesigned consent interfaces to provide clear category controls.",
+        "involved_parties": [
+            "Google LLC",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Articles 4(11), 7",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Cookiebot Compliance Implementation at Carlsberg",
+        "example_background": "Carlsberg Group deployed Cookiebot for its websites, classifying first-party cookies into necessary, preference, statistics, and marketing categories. The tool scans and blocks non-essential cookies like analytics and ad trackers until consent is given via a customizable banner, with ongoing audits to maintain categorization accuracy.",
+        "process_and_outcome": "Post-implementation in 2021, Carlsberg passed GDPR audits without issues, reducing compliance risks across global sites.",
+        "involved_parties": [
+            "Carlsberg Group",
+            "Usercentrics/Cookiebot",
+            "National DPAs"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "FIFA Cookie Fine by Dutch DPA",
+        "example_background": "During the 2022 World Cup, FIFA's ticketing site set analytics and advertising cookies without consent. The Dutch DPA noted that the banner used dark patterns, defaulting to acceptance and not blocking trackers effectively, affecting ticket buyers' data.",
+        "process_and_outcome": "A \u20ac1.4 million fine was issued in 2024, mandating fixes to consent mechanisms.",
+        "involved_parties": [
+            "FIFA",
+            "Dutch Data Protection Authority (AP)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 6",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Google Analytics Cookie Violations by CNIL",
+        "example_background": "Google's analytics and advertising cookies were deployed on numerous French websites without obtaining prior user consent, enabling the collection of browsing data for ad personalization and campaign tracking. These cookies built profiles of user interests using identifiers like IP addresses and transmitted data to Google servers in the US for processing by third-party ad partners. The configuration bypassed active consent, with many sites using implicit acceptance or continuing ad tracking post-cookie deletion requests, affecting ad delivery relevance on publisher sites and apps.",
+        "process_and_outcome": "The French data protection authority CNIL issued formal notices in 2022 to Google and eight other entities, followed by injunctions with fines up to 20 million euros each for non-compliance. Several companies adjusted implementations, with some facing additional enforcement.",
+        "involved_parties": [
+            "Google LLC",
+            "Centre National de l'Informatique et des Libert\u00e9s (CNIL)",
+            "Various French websites"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR",
+            "ePrivacy Directive",
+            "French Data Protection Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "TikTok Children's Privacy and Ad Cookies Settlement",
+        "example_background": "TikTok's platform employed cookies and tracking technologies to serve personalized advertisements to users, including those under 16, by profiling interests based on behavior within the app and on partner sites. Third-party ad networks accessed these cookies to deliver relevant ads across the web, with mechanisms that collected data without adequate parental consent or clear disclosure for minors. The practices involved behavioral tracking for ad efficiency, leading to profiles used beyond the platform.",
+        "process_and_outcome": "The US Federal Trade Commission investigated and reached a settlement in 2019 requiring TikTok to pay 5.7 million dollars and implement a comprehensive child privacy program, including reforms to cookie consent and data use for ads targeting children.",
+        "involved_parties": [
+            "TikTok Inc.",
+            "Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Children's Online Privacy Protection Act (COPPA)",
+            "FTC Act Section 5"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Vodafone Italy Cookie Consent Fine",
+        "example_background": "Vodafone's Italian websites utilized persistent cookies for advertising to tailor content and measure campaign performance, involving third-party providers that constructed user interest profiles from browsing data collected across multiple domains. The cookie banner employed a pre-ticked checkbox for non-essential ad cookies, pressuring users toward acceptance rather than requiring explicit opt-in, and lacked sufficient information on data sharing with partners.",
+        "process_and_outcome": "Italy's data protection authority Garante imposed a fine of 12 million euros in 2024 after reviewing the consent interface. Vodafone updated its cookie management system to comply with opt-in standards.",
+        "involved_parties": [
+            "Vodafone Italy",
+            "Garante per la Protezione dei Dati Personali"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR",
+            "Italian Privacy Code"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Amazon France Advertising Cookies Penalty",
+        "example_background": "Amazon's French platform implemented cookies to facilitate targeted advertising and track user interactions for campaign optimization, sharing data with third-party ad networks to enable interest-based ads on other sites. The setup featured a consent banner that continued ad cookie placement even without user agreement, using session data for profiling without transparency on third-party access.",
+        "process_and_outcome": "The CNIL fined Amazon 35 million euros in 2020 for cookie practices, part of broader tracking issues. Amazon revised its banner to enforce prior consent and granular controls.",
+        "involved_parties": [
+            "Amazon Europe Core S.\u00e0 r.l.",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "ePrivacy Directive",
+            "GDPR"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "IAB Europe Transparency and Consent Framework Shutdown",
+        "example_background": "The Interactive Advertising Bureau Europe's TCF framework enabled publishers to manage consents for ad cookies, allowing third-party bidders to access user data for real-time bidding and profile building for relevant ads across the web. The system relied on a centralized consent string but was found to process data without valid consent in many implementations, lacking transparency on vendors accessing cookies for interest profiling.",
+        "process_and_outcome": "The Belgian DPA ruled in 2022 that TCF violated GDPR, leading to its discontinuation in the EU. IAB Europe suspended operations and pursued legal challenges.",
+        "involved_parties": [
+            "IAB Europe",
+            "Belgian Data Protection Authority (APD)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR Articles 4(11), 6, 7"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft GDPR Cookie Compliance Updates",
+        "example_background": "Microsoft updated its services including Bing and Microsoft Advertising to implement consent banners that require affirmative action for non-essential ad cookies, detailing third-party use for user profiling and ad relevance on partner sites. The system supports global privacy controls like rejection options.",
+        "process_and_outcome": "Following GDPR implementation, Microsoft avoided major cookie-related fines and published compliance reports confirming adherence through regular audits.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "European Commission",
+            "National DPAs"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta Platforms GA4 Cookie Violations",
+        "example_background": "In 2023, Meta Platforms faced investigations over the deployment of Google Analytics 4 (GA4) and Meta pixel tracking on its platforms, including Facebook and Instagram. These tools collected user interaction data such as page views, session durations, and navigation paths to analyze site performance and traffic sources. The Austrian data protection authority determined that IP addresses and other identifiers were sent to US servers without sufficient legal basis or user consent that met GDPR standards. Consent management platforms integrated with these analytics services did not ensure opt-in before data processing began, affecting millions of European users.",
+        "process_and_outcome": "The Austrian DPA fined Meta 1.2 billion euros, marking one of the largest GDPR penalties. Meta appealed the decision, leading to ongoing proceedings.",
+        "involved_parties": [
+            "Meta Platforms Ireland Limited",
+            "Austrian DSA (Datenschutzbeh\u00f6rde)",
+            "NOYB"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Chapter V",
+            "ePrivacy Directive Article 5(3)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "TikTok Analytics IP Transfer Fine",
+        "example_background": "TikTok employed analytics cookies to track user visits, measure traffic from various sources, identify popular content pages, and monitor navigation flows across its platform. In 2023, the Dutch Data Protection Authority investigated data transfers from the Netherlands to China and Singapore via analytics tools. The service collected device identifiers and behavioral data without providing users with granular consent options or transparency about cross-border data flows, which impacted Dutch users' privacy rights.",
+        "process_and_outcome": "The Dutch DPA imposed a 345 million euro fine after finding insufficient safeguards for international data transfers in analytics processing.",
+        "involved_parties": [
+            "TikTok Technology Limited",
+            "Dutch Data Protection Authority (AP)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Articles 44-50",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Amazon France LogmeIn Cookie Penalty",
+        "example_background": "Amazon France utilized analytics services from LogmeIn (now GoTo) for performance measurement, including visitor counts, traffic source tracking, and page interaction analytics. In 2020, the French CNIL conducted unannounced inspections and found that the service set cookies immediately upon site access, collecting IP addresses and user agent data transferred to the US without user consent. The cookie banner did not mention these third-party analytics operations, and data processing continued regardless of user choices for other cookies.",
+        "process_and_outcome": "CNIL fined Amazon France 35 million euros and ordered cessation of unlawful practices within one month.",
+        "involved_parties": [
+            "Amazon Services Europe SARL",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "ePrivacy Directive 2002/58/EC",
+            "GDPR Article 6"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Vodafone Analytics Cookie Fine by CNIL",
+        "example_background": "Vodafone implemented At Internet analytics cookies to measure site visits, traffic sources, popular pages, and visitor movement patterns on its French website. CNIL's 2020 investigation revealed that these cookies were deposited without prior consent, collecting data like IP addresses sent to servers outside the EU. The consent banner categorized cookies but did not prevent analytics cookie deployment before user interaction, affecting transparency and choice for French visitors.",
+        "process_and_outcome": "CNIL imposed a 12 million euro fine and required Vodafone to update its consent mechanisms.",
+        "involved_parties": [
+            "Vodafone France",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "ePrivacy Directive Article 5(3)",
+            "LCEN (French e-commerce law)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Cookiebot CMP Compliance Certification",
+        "example_background": "Cookiebot, a consent management platform, enabled websites to handle analytics cookies by blocking trackers until user consent. It scanned for cookies used in performance measurement, such as those from Google Analytics, providing granular opt-in controls. Clients using Cookiebot for sites measuring visits, traffic, and page popularity reported full compliance, with automated blocking ensuring no data collection without approval.",
+        "process_and_outcome": "Cookiebot received GDPR compliance certification from auditors, and its users avoided fines in regulatory sweeps.",
+        "involved_parties": [
+            "Cookiebot by Usercentrics",
+            "Various website operators",
+            "Schrems II compliance auditors"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "ePrivacy Directive",
+            "TTDSG (German telecom law)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OneTrust Consent Platform Best Practice",
+        "example_background": "OneTrust provided a consent management solution that integrated with analytics tools to prevent cookie deployment for performance tracking until explicit user consent. Websites using it displayed banners detailing analytics purposes like visit counting and traffic analysis, with geo-targeted compliance for EU users. The platform logged consents and offered easy withdrawal, supporting transparency for page popularity and navigation data collection.",
+        "process_and_outcome": "OneTrust's framework helped clients pass CNIL and ICO audits without penalties.",
+        "involved_parties": [
+            "OneTrust",
+            "Enterprise clients",
+            "ICO (UK ICO)",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK GDPR",
+            "ePrivacy Directive",
+            "PECR (UK privacy regulations)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "BBC Cookie Consent Model",
+        "example_background": "The BBC implemented a cookie consent mechanism for its website that categorized analytics cookies separately, explaining their role in measuring audience reach, traffic sources, content popularity, and user journeys. Users could opt out of non-essential analytics, with first-party cookies for basic performance allowed under legitimate interest after transparency notices. This setup balanced site improvement needs with user control.",
+        "process_and_outcome": "The ICO reviewed and approved the BBC's approach as compliant during industry consultations.",
+        "involved_parties": [
+            "BBC",
+            "UK Information Commissioner's Office (ICO)"
+        ],
+        "applicable_regulations_or_policies": [
+            "PECR 2003",
+            "UK GDPR Article 6(1)(f)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Analytics Third-Party Cookie Settlement",
+        "example_background": "Google Analytics was used by numerous websites to track user behavior across the internet through third-party cookies. These cookies collected data on user visits, interests, and demographics to enable targeted advertising. The service involved servers hosted by Google that received IP addresses and other identifiers from users' browsers without obtaining prior consent in certain jurisdictions. This practice raised questions about data processing transparency and user notification regarding third-party data sharing for advertising purposes. The issue came to light through complaints from privacy advocacy groups who argued that website operators using Google Analytics engaged in data transfers involving third parties without adequate legal basis or user awareness.",
+        "process_and_outcome": "The French data protection authority CNIL issued orders against Google Analytics providers in 2022, leading to broader enforcement. In 2024, a class-action settlement was reached where Google agreed to pay $391.5 million to 40 US states for violations related to location tracking via third-party tools. Affected websites were required to update privacy notices and consent mechanisms.",
+        "involved_parties": [
+            "Google LLC",
+            "CNIL (French DPA)",
+            "US state attorneys general",
+            "Vianeo (complaining organization)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR (Article 49 on data transfers)",
+            "California Invasion of Privacy Act (CIPA)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta Platforms (Facebook) GDPR Cookie Fines",
+        "example_background": "Meta Platforms operated Facebook Pixel and other third-party cookies embedded on numerous partner websites. These cookies tracked user interactions across sites, building detailed profiles for ad targeting and measurement. The tracking occurred through redirects to Facebook servers that logged user data including browser fingerprints and IP addresses. Privacy regulators noted that consent banners often did not clearly disclose third-party data sharing, and users were subjected to tracking before providing explicit consent. This affected millions of internet users in Europe who visited sites with Facebook plugins.",
+        "process_and_outcome": "In 2022, the Irish Data Protection Commission fined Meta \u20ac405 million for breaches involving third-party cookies and insufficient minor consent. Additional fines followed from other DPAs, totaling over \u20ac1 billion across cases. Meta was ordered to implement cookie consent improvements and halt certain tracking practices.",
+        "involved_parties": [
+            "Meta Platforms Ireland",
+            "Irish DPC",
+            "European Data Protection Board"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR (Articles 5, 6, 7 on lawfulness and consent)",
+            "ePrivacy Directive (Article 5(3))"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Vodafone Italy Cookie Fine",
+        "example_background": "Vodafone's Italian website deployed third-party cookies from Google, Outbrain, and others for analytics and advertising. These cookies monitored user sessions, clicks, and content views, sharing data with partners to optimize ad campaigns and measure engagement. The cookie banner was found to pre-check boxes for third-party trackers and lacked clear information on data recipients, leading to non-informed consent. This affected visitors seeking telecom services who encountered extensive tracking upon arrival.",
+        "process_and_outcome": "In 2021, the Italian DPA Garante fined Vodafone \u20ac12 million for cookie consent violations. The company was directed to redesign its consent platform and delete unlawfully collected data.",
+        "involved_parties": [
+            "Vodafone Italy",
+            "Garante per la Protezione dei Dati Personali"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR",
+            "ePrivacy Directive (Article 5(3))",
+            "Italian Data Protection Code"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "CookieYes Consent Management Platform Compliance",
+        "example_background": "CookieYes provides a consent management platform (CMP) that enables websites to handle third-party cookies in line with regulations. The tool categorizes cookies by purpose, displays granular banners for advertising and analytics trackers, and blocks third-party scripts until consent is obtained. Websites using CookieYes, such as e-commerce sites partnering with ad networks, ensure users are informed about data shared with entities like Google or Facebook before loading cookies. This setup supports ongoing consent renewal and geo-targeted compliance for global traffic.",
+        "process_and_outcome": "CookieYes received IAB TCF v2.2 certification and has been used by over 1 million sites without major regulatory fines. Independent audits confirmed effective blocking of non-consented third-party cookies, aiding client avoidance of penalties.",
+        "involved_parties": [
+            "CookieYes (Seamless)",
+            "IAB Europe",
+            "Website operators"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR",
+            "ePrivacy Directive",
+            "IAB Transparency and Consent Framework"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OneTrust CMP GDPR Compliance",
+        "example_background": "OneTrust offers a comprehensive CMP that manages third-party cookies for enterprises. It features customizable banners disclosing partners like Adobe or Oracle, enforces script blocking for ad measurement cookies, and integrates with tag managers. Companies in finance and retail use it to notify users about indirect partners in ad ecosystems, ensuring data processing records reflect consent status. The platform logs consents for audit trails across EU and CCPA jurisdictions.",
+        "process_and_outcome": "OneTrust CMP clients avoided fines in CNIL sweeps; the tool passed ISO 27701 certification. It facilitated compliance for 15,000+ organizations, with case studies showing 95% consent rates for legitimate trackers.",
+        "involved_parties": [
+            "OneTrust",
+            "Enterprise clients",
+            "Regulatory bodies (e.g., CNIL)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR (Article 7)",
+            "CCPA/CPRA",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "TikTok Third-Party Cookie Fine by CNIL",
+        "example_background": "TikTok's platform and partner sites employed third-party cookies from analytics and ad providers to track video views, shares, and user preferences for campaign optimization. Cookies from entities like Google Tag Manager captured device data and behavioral signals, shared indirectly with advertisers. Consent mechanisms were opaque, with default settings enabling tracking without clear opt-in for non-essential purposes, impacting young users heavily.",
+        "process_and_outcome": "In 2022, CNIL fined TikTok \u20ac9 million for cookie practices among other issues. The company updated its SDK and consent flows globally.",
+        "involved_parties": [
+            "TikTok (ByteDance)",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Ads Bing Cookie Enforcement",
+        "example_background": "Microsoft's Bing Ads and Universal Event Tracking used third-party cookies on publisher sites to attribute conversions and measure ad performance. These cookies synced data across domains, identifying users via Microsoft IDs for retargeting. Publishers integrated the code without always specifying Bing as a data recipient in privacy notices, leading to incomplete transparency about ad tech partners.",
+        "process_and_outcome": "In 2023, the Dutch DPA fined a major publisher \u20ac200,000 partly for Bing cookie issues; Microsoft revised documentation. Broader industry settlements followed.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Autoriteit Persoonsgegevens (DPA)",
+            "Publishers"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR (Article 13-14 transparency)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Quantcast CMP Best Practice",
+        "example_background": "Quantcast Choice CMP handles third-party cookies by providing vendor lists from IAB frameworks, blocking ad trackers from Criteo or AppNexus until consent. It geo-fences for GDPR/CCPA, revokes consent automatically after 6 months, and reports on partner data use for measurement. Media companies use it to maintain ad revenue while disclosing indirect partners transparently.",
+        "process_and_outcome": "Certified TCF v2.2, used by BBC and others with no fines in audits. Supported 100% compliance in 2023 CNIL inspections for clients.",
+        "involved_parties": [
+            "Quantcast",
+            "IAB Tech Lab",
+            "Publisher networks"
+        ],
+        "applicable_regulations_or_policies": [
+            "IAB TCF",
+            "EU GDPR",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google GDPR Cookie Consent Fine (2022)",
+        "example_background": "Google implemented a cookie banner on its websites that used pre-ticked checkboxes for non-essential cookies, including those for advertising purposes. Users were required to untick boxes to refuse cookies, which led to widespread acceptance of cookies by default. The banner appeared prominently across Google services in the European Economic Area, affecting millions of users. This practice continued for an extended period despite evolving regulatory guidance on consent mechanisms. The configuration allowed for the deployment of third-party tracking cookies without explicit opt-in from users, facilitating data collection for personalized advertising. The French data protection authority examined complaints and Google's own cookie management system, noting that the setup did not provide a genuine choice for users regarding cookie placement.",
+        "process_and_outcome": "The CNIL issued a \u20ac150 million fine to Google following an investigation initiated by user complaints and proactive monitoring. The decision was upheld after Google's appeal was rejected by the French Council of State in 2024. Google was ordered to adjust its consent mechanisms within two months and faced ongoing compliance monitoring.",
+        "involved_parties": [
+            "Google LLC",
+            "CNIL (French data protection authority)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 6 (lawful basis for processing)",
+            "ePrivacy Directive Article 5(3)",
+            "CNIL Guidelines on Cookie Consent"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Meta Platforms GDPR Cookie Violations (2022)",
+        "example_background": "Meta Platforms, operating Facebook, Instagram, and WhatsApp, displayed cookie banners that featured pre-checked boxes for cookies used in behavioral advertising and analytics. The banners were presented to EEA users upon visiting the sites, with the default setting enabling cookie storage and access without active user consent. This mechanism resulted in high rates of cookie acceptance as users often proceeded without altering settings. Third-party cookies from advertising networks were loaded immediately, prior to any consent being obtained. The CNIL's investigation revealed that Meta's systems continued this practice even after prior regulatory warnings, impacting user data across multiple platforms.",
+        "process_and_outcome": "CNIL imposed fines totaling \u20ac210 million on Meta (\u20ac60 million for Facebook, \u20ac90 million for Instagram, \u20ac60 million for WhatsApp). Meta was required to update its cookie banners to comply with consent requirements and report back on changes implemented.",
+        "involved_parties": [
+            "Meta Platforms Inc.",
+            "CNIL (French data protection authority)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 6",
+            "ePrivacy Directive Article 5(3)",
+            "CNIL Cookie Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Amazon France Logino Cookie Fine (2020)",
+        "example_background": "Amazon's French subsidiary, Amazon Services Europe, used cookies on its website without obtaining prior user consent for non-essential purposes such as advertising and analytics. Upon users landing on amazon.fr, cookies were set immediately for measuring audience and displaying targeted ads, bypassing any consent mechanism. The site featured a cookie banner, but cookies were already active before users could interact with it. This affected all visitors to the site, enabling data collection for commercial purposes without opt-in. CNIL conducted tests confirming that refusal of cookies did not prevent their initial deposit.",
+        "process_and_outcome": "CNIL fined Amazon \u20ac35 million after an online complaint and technical verification. Amazon was instructed to cease unauthorized cookie placement and ensure compliance with consent rules.",
+        "involved_parties": [
+            "Amazon Services Europe",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "ePrivacy Directive Article 5(3)",
+            "GDPR",
+            "French Data Protection Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Vodafone Italy Cookie Consent Penalty (2023)",
+        "example_background": "Vodafone Italy's website employed a cookie banner where users encountered pre-selected options for all cookie categories, including marketing and profiling cookies. The interface required users to deselect unwanted cookies manually, which many did not do. Cookies from third-party providers were set before consent was finalized. This setup persisted across the site, used by millions of visitors for browsing services and offers. The Italian data protection authority investigated following public complaints about intrusive tracking.",
+        "process_and_outcome": "Garante fined Vodafone \u20ac2 million for invalid consent practices. The company was directed to redesign its cookie management tool to ensure granular, opt-in consent.",
+        "involved_parties": [
+            "Vodafone Italy S.p.A.",
+            "Garante per la protezione dei dati personali (Italian DPA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 7 (conditions for consent)",
+            "ePrivacy Directive",
+            "Italian Cookie Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "CNIL Interactive Advertising Bureau France Fine (2020)",
+        "example_background": "The Interactive Advertising Bureau France (IAB France) developed and promoted the TCF (Transparency & Consent Framework) v1.1, a standard used by thousands of websites for managing cookie consent. The framework allowed publishers to set default consents for data processing without user input, enabling advertisers to access user data via cookies. This was implemented across French websites, facilitating ad targeting. CNIL found that the framework inferred consent from continued browsing rather than active agreement, affecting vast numbers of internet users.",
+        "process_and_outcome": "CNIL imposed a \u20ac20 million fine on IAB France and ordered modifications to TCF to align with consent standards. The decision influenced updates to the global TCF framework.",
+        "involved_parties": [
+            "IAB France",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Articles 4(11), 6, 7",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "TikTok GDPR Cookie Fine (2023)",
+        "example_background": "TikTok's EEA websites set non-essential cookies for advertising and performance measurement before obtaining user consent. The cookie banner appeared after initial cookie deployment, and the consent form used complex language with pre-checked options. This impacted users engaging with content recommendations and ads. CNIL's analysis, prompted by complaints, showed that cookies persisted even when refused, compromising user control over data.",
+        "process_and_outcome": "CNIL fined TikTok \u20ac15 million and mandated immediate changes to cookie consent procedures, with follow-up audits planned.",
+        "involved_parties": [
+            "TikTok Technology Limited",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 6",
+            "ePrivacy Directive Article 5(3)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Microsoft Bing GDPR Cookie Penalty (2022)",
+        "example_background": "Microsoft's Bing search engine in France displayed a cookie banner with default acceptance for advertising cookies. Cookies were placed prior to user interaction, used for tracking search behavior and ad personalization. The banner's design nudged users toward acceptance, and refusal options were not prominently featured. This affected search queries from EEA users.",
+        "process_and_outcome": "CNIL issued a \u20ac10 million fine following technical inspections. Microsoft committed to enhancing its consent banner for better user control.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Cookiebot Consent Platform Compliance (Best Practice)",
+        "example_background": "Cookiebot, a consent management platform (CMP) provider, implemented a system allowing website publishers to deploy customizable cookie banners that block non-essential cookies until granular opt-in consent is obtained. The platform scans sites for cookies, categorizes them, and enforces no data transmission without approval. Used by over 100,000 websites globally, it supports GDPR-compliant setups with features like geo-targeting for regional laws and easy revocation. Publishers report streamlined compliance and reduced regulatory risk.",
+        "process_and_outcome": "Multiple audits by DPAs, including CNIL, confirmed compliance. Cookiebot received certifications and partnerships with IAB, enabling clients to avoid fines through verified consent mechanisms.",
+        "involved_parties": [
+            "Cookiebot (Usercentrics)",
+            "Various website publishers",
+            "IAB Europe",
+            "National DPAs"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 7",
+            "ePrivacy Directive",
+            "IAB TCF v2.2"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "BBC Cookie Consent Best Practice (2021)",
+        "example_background": "The BBC updated its website cookie policy to feature a prominent banner requiring active consent for all non-essential cookies before any are set. Users select preferences for analytics, marketing, and functional cookies, with clear explanations provided. Cookies are blocked via script management until consent, and a dashboard allows ongoing management. This approach was rolled out across bbc.co.uk, serving millions of UK and global users, with transparency reports published annually.",
+        "process_and_outcome": "ICO reviewed and endorsed the implementation as meeting standards. No enforcement actions taken; BBC maintained clean compliance record post-implementation.",
+        "involved_parties": [
+            "BBC",
+            "Information Commissioner's Office (ICO)"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK GDPR",
+            "PECR (Privacy and Electronic Communications Regulations)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Meta Platforms GDPR Cookie Blocking Order",
+        "example_background": "Meta Platforms operated services like Facebook Pixel and Instagram trackers on numerous third-party websites across Europe. These third-party cookies collected user data for advertising purposes without obtaining prior, specific consent from website visitors. The trackers fired automatically upon page load, capturing identifiers and browsing data before any consent banner appeared, leading to unauthorized profiling and data sharing with Meta's US-based servers.",
+        "process_and_outcome": "In 2022, the Irish Data Protection Commission issued a formal order blocking Meta's EU data transfers via these cookies until compliance was achieved. Multiple national authorities coordinated under GDPR mechanisms, resulting in temporary halts and ongoing remediation efforts.",
+        "involved_parties": [
+            "Meta Platforms Ireland Limited",
+            "Irish Data Protection Commission (DPC)",
+            "European Data Protection Board (EDPB)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Articles 5, 6, 46",
+            "ePrivacy Directive Article 5(3)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Vodafone Italy Cookie Fine by Garante",
+        "example_background": "Vodafone's Italian website deployed multiple third-party cookies for analytics and advertising from providers such as Google and other vendors. The site's cookie banner presented users with pre-checked boxes for non-essential cookies and allowed continued browsing to imply consent, without clearly distinguishing first-party from third-party cookies or detailing data processing purposes and durations.",
+        "process_and_outcome": "The Italian data protection authority Garante investigated after user complaints and fined Vodafone 12 million euros in December 2023. The company was ordered to revise its cookie management system and provide transparency reports.",
+        "involved_parties": [
+            "Vodafone Italy S.p.A.",
+            "Garante per la Protezione dei Dati Personali"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 7",
+            "Italian Data Protection Code",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Amazon France Cookie Penalty",
+        "example_background": "Amazon's French website implemented over 50 third-party cookies for advertising, analytics, and sharing functionalities from partners including Criteo and Google. These cookies were placed without granular consent options, using a bundled acceptance mechanism that did not allow users to reject third-party tracking individually before data collection began.",
+        "process_and_outcome": "CNIL inspected the site in 2020 and issued a 35 million euro fine in 2022, citing systematic non-compliance with consent requirements. Amazon appealed but implemented site-wide changes to cookie banners and blocking mechanisms.",
+        "involved_parties": [
+            "Amazon Services Europe S.a.r.l.",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Articles 4(11), 7",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Cookiebot CMP Best Practice Certification",
+        "example_background": "Cookiebot, a consent management platform, enables websites to deploy compliant cookie banners that automatically block third-party cookies until consent is obtained. It scans for first-party and third-party cookies, categorizes them (e.g., necessary, analytics, marketing), and serves geo-targeted banners compliant with regional laws. Publishers using Cookiebot on their sites with embedded ad tech from third parties ensure no unauthorized cookie placement occurs.",
+        "process_and_outcome": "Certified by privacy regulators and integrated by over 100,000 sites, with independent audits confirming effectiveness. No fines issued to users; recognized in industry benchmarks for enabling compliant third-party cookie use.",
+        "involved_parties": [
+            "Cookiebot (Usercentrics)",
+            "IAB Europe Transparency & Consent Framework"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "ePrivacy Directive",
+            "CCPA"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OneTrust Consent Management Adoption",
+        "example_background": "OneTrust provides a CMP used by enterprises to manage cookies on sites with third-party advertising and analytics. The platform enforces cookie blocking for non-consented third-party trackers, logs consents granularly, and integrates with ad servers to prevent unauthorized data collection, aligning with policies for serving cookies via third-party ad tech.",
+        "process_and_outcome": "Adopted by Fortune 500 companies with successful GDPR audits and no related penalties. Recognized by Forrester as a leader in consent management, demonstrating scalable compliance for complex cookie ecosystems.",
+        "involved_parties": [
+            "OneTrust LLC",
+            "GDPR Supervisory Authorities"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Articles 5, 7, 49",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Clearbit GDPR Cookie Enforcement",
+        "example_background": "Clearbit provided a third-party tracking service via JavaScript snippets placed on client websites, setting persistent cookies for IP-based visitor identification and data enrichment without client-configured consent mechanisms. Data was routed to US servers without adequate safeguards.",
+        "process_and_outcome": "UK ICO banned Clearbit's operations in the EU/UK in 2020 after investigation, citing unlawful data processing. The company ceased EU services and faced class-action settlements.",
+        "involved_parties": [
+            "Clearbit Inc.",
+            "UK Information Commissioner's Office (ICO)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Articles 6, 44-50",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google $22.5 Million Cookie Tracking Fine",
+        "example_background": "Google implemented tracking cookies via its DoubleClick ad platform that bypassed browser privacy settings, specifically the 'Do Not Track' feature and Safari's Intelligent Tracking Prevention. Between 2009 and 2012, Google's advertising technology placed persistent identifiers on users' devices without their knowledge or consent, enabling enhanced personalization of ads across websites. This practice collected browsing data for targeted advertising purposes, overriding user preferences for limiting such tracking. The issue was uncovered by researchers and reported, highlighting how third-party cookies facilitated cross-site user profiling without adequate disclosure.",
+        "process_and_outcome": "The US Federal Trade Commission (FTC) settled with Google in 2012, imposing a $22.5 million civil penalty. Google agreed to implement a comprehensive privacy program, disable behavioral advertising on sensitive sites, and provide clearer privacy notices. No admission of liability was made, but the settlement set a precedent for cookie consent enforcement.",
+        "involved_parties": [
+            "Google LLC",
+            "US Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5 (deceptive practices)",
+            "Children's Online Privacy Protection Act (COPPA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2009"
+    },
+    {
+        "example_name": "Meta GDPR Functional Cookie Violations",
+        "example_background": "Meta Platforms (Facebook) configured cookies on its platforms, including those labeled for functionality and personalization such as _fbp and fr cookies, to set and read data prior to obtaining user consent via its cookie banner. This occurred across EU websites from at least May 2020, allowing the collection of user behavior data for features like login persistence and personalized feeds without waiting for affirmative opt-in. Privacy researchers using tools like Cookiebot detected the premature cookie deployment, which undermined GDPR's requirement for prior consent in non-essential tracking.",
+        "process_and_outcome": "The Dutch Data Protection Authority (DPA) fined Meta \u20ac30.5 million in 2023 after a complaint. Meta appealed, but the decision reinforced that functional cookies enabling personalization must respect consent mechanisms. Meta updated its consent flows to delay non-essential cookies.",
+        "involved_parties": [
+            "Meta Platforms Inc.",
+            "Dutch Data Protection Authority (Autoriteit Persoonsgegevens)",
+            "NOYB (None of Your Business)"
+        ],
+        "applicable_regulations_or_policies": [
+            "General Data Protection Regulation (GDPR) Article 6 (lawful basis)",
+            "ePrivacy Directive Article 5(3)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "May 2020"
+    },
+    {
+        "example_name": "TikTok Children's Data Cookie Fine",
+        "example_background": "TikTok set non-essential cookies, including personalization trackers from partners like Amplitude and Braze, on its websites without age gates or parental consent for users under 16. This enabled enhanced functionality like content recommendations based on logged-out children's browsing data. The practice persisted despite COPPA requirements, with cookies deploying immediately upon site visit, collecting identifiers for analytics and personalization features.",
+        "process_and_outcome": "The UK's Information Commissioner's Office (ICO) fined TikTok \u00a312.7 million in 2023. TikTok committed to implementing age verification and cookie consent improvements. The fine was part of broader child privacy enforcement.",
+        "involved_parties": [
+            "TikTok (ByteDance)",
+            "UK Information Commissioner's Office (ICO)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Children's Online Privacy Protection Act (COPPA)",
+            "UK GDPR",
+            "Privacy and Electronic Communications Regulations (PECR)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "CNIL \u20ac150 Million Cookie Consent Fine to Google",
+        "example_background": "Google's cookie banner on google.com and youtube.com did not properly obtain prior consent for non-essential cookies, including those for personalization and advertising. Functional cookies were set without granular opt-in options, and the 'Accept All' default facilitated data collection for enhanced user experiences across services. The French CNIL found that cookies were placed before user interaction with the banner, affecting millions of EU visitors.",
+        "process_and_outcome": "France's CNIL imposed a \u20ac150 million fine in 2022 under GDPR and ePrivacy rules. Google enhanced its consent platform with better granularity and delays, influencing industry-wide banner designs.",
+        "involved_parties": [
+            "Google LLC",
+            "French Data Protection Authority (CNIL)"
+        ],
+        "applicable_regulations_or_policies": [
+            "General Data Protection Regulation (GDPR)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft GDPR Functional Cookie Enforcement",
+        "example_background": "Microsoft set analytics and personalization cookies on sites like bing.com before consent via its banner, using them for features like search personalization and performance monitoring. This allowed data collection for enhanced functionality without waiting for user approval, impacting EU users' control over their data.",
+        "process_and_outcome": "CNIL fined Microsoft \u20ac60 million in 2022. Microsoft updated its cookie management to ensure consent prior to setting non-essential trackers.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "French Data Protection Authority (CNIL)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 6",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit EU Cookie Consent Investigation",
+        "example_background": "Reddit's EU site deployed functional and personalization cookies, such as those for personalized feeds and upvote tracking, without adequate prior consent mechanisms. The cookie banner was present but allowed immediate setting of trackers, enabling enhanced platform features like content recommendations based on user behavior data across sessions.",
+        "process_and_outcome": "The Italian DPA (Garante) fined Reddit \u20ac6 million in 2024 for mishandling cookie consents. Reddit agreed to overhaul its banner for proper opt-in delays and transparency.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Italian Data Protection Authority (Garante)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OneTrust Cookie Consent Platform Best Practice",
+        "example_background": "OneTrust provides a cookie management platform used by thousands of sites, including Reddit partners, that scans for cookies, categorizes them (e.g., functional, personalization), and blocks non-essential ones until consent. This enables sites to provide enhanced functionality only after user approval, maintaining feature integrity while respecting preferences.",
+        "process_and_outcome": "Adopted by major platforms, it has helped avoid fines in audits, with case studies showing compliance in GDPR enforcement waves.",
+        "involved_parties": [
+            "OneTrust",
+            "Various enterprises (e.g., Reddit ecosystem)",
+            "Regulators like CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "ePrivacy Directive",
+            "CCPA"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google $22.5 Million CCPA Cookie Consent Settlement",
+        "example_background": "Google faced allegations related to its handling of cookie consent mechanisms on websites using Google Analytics and Google Ads services. Numerous websites implemented Google's consent banner code, which was found to set certain cookies and transmit data to Google servers prior to obtaining explicit user consent. This occurred across millions of websites globally, including those in regions with stringent data protection laws. The issue involved the gtag.js and analytics.js libraries where identifiers were sent even when users had not accepted cookies, affecting user privacy controls on mobile and desktop browsers including Chrome. The practices continued despite user settings on devices like iOS Limit Ad Tracking and Android Opt out of Ads Personalization being enabled on some instances.",
+        "process_and_outcome": "California's Attorney General investigated under CCPA enforcement powers. Google agreed to pay $22.5 million in penalties and committed to updating its consent tools to ensure cookies are not set without consent and data is not transmitted prematurely. The settlement required modifications to consent mode implementation.",
+        "involved_parties": [
+            "Google LLC",
+            "California Attorney General"
+        ],
+        "applicable_regulations_or_policies": [
+            "California Consumer Privacy Act (CCPA)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Vinted \u20ac304 Million GDPR Advertising Cookies Fine",
+        "example_background": "Second-hand marketplace Vinted implemented a cookie consent banner that did not prevent the setting of advertising cookies prior to user consent. Despite instructions for browser settings like those in Firefox and Safari to manage cookies, and mobile opt-outs, data was transmitted to ad partners immediately upon site load. This affected user controls over ad personalization across web and app interfaces for millions of EU users.",
+        "process_and_outcome": "France's CNIL imposed a \u20ac304 million fine in 2024 following technical analysis confirming premature cookie deployment. Vinted appealed the decision.",
+        "involved_parties": [
+            "Vinted",
+            "Commission Nationale de l'Informatique et des Libert\u00e9s (CNIL, France)"
+        ],
+        "applicable_regulations_or_policies": [
+            "General Data Protection Regulation (GDPR)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft \u20ac20 Million UK Children's Privacy Action",
+        "example_background": "Microsoft's Xbox service and linked advertising networks processed children's data for personalized ads without proper age-gating or honoring device-level ad tracking limits on iOS and Android. Cookie-based tracking continued despite browser privacy settings in Edge and others, allowing cross-site behavioral profiling of minors.",
+        "process_and_outcome": "UK's Information Commissioner's Office issued a \u00a312.5 million (about \u20ac20 million post-Brexit) enforcement notice in 2023, requiring cessation of non-compliant practices and data deletion.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Information Commissioner's Office (ICO, UK)"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK GDPR",
+            "Privacy and Electronic Communications Regulations (PECR)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Cookiebot Consent Management Platform Certification",
+        "example_background": "Cookiebot, a consent management platform (CMP), enables websites to deploy compliant cookie banners that block trackers until consent is given. It supports browser settings in Chrome, Firefox, Safari, Edge and honors mobile opt-outs like Android Opt out of Ads Personalization. Used by over 100,000 sites, it scans for cookies and ensures no data transmission pre-consent, facilitating GDPR compliance.",
+        "process_and_outcome": "Certified by IAB Europe TCF v2.2; multiple audits confirm blocking efficacy. Adopted by companies avoiding fines, with case studies showing regulatory acceptance.",
+        "involved_parties": [
+            "Cookiebot (Usercentrics)",
+            "IAB Europe",
+            "Various websites"
+        ],
+        "applicable_regulations_or_policies": [
+            "General Data Protection Regulation (GDPR)",
+            "ePrivacy Directive",
+            "Transparency & Consent Framework (TCF)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Clearbit GDPR Invalid Consent Fine",
+        "example_background": "Clearbit enriched website visitor data using cookies to fingerprint and profile users without consent, bypassing browser cookie blockers in Safari and others. Data from opted-out mobile users was still collected and sold to clients for advertising, ignoring device settings.",
+        "process_and_outcome": "UK ICO fined Clearbit \u00a37.5 million in 2020 (later reduced). Company ceased EU operations.",
+        "involved_parties": [
+            "Clearbit Inc.",
+            "Information Commissioner's Office (ICO, UK)"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK GDPR",
+            "Privacy and Electronic Communications Regulations (PECR)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Amazon Europe Core Cookie Fine",
+        "example_background": "Amazon Europe Core S.\u00e0 r.l. runs the amazon.fr website, employing extensive cookie usage for tracking browsing history, recommendations, and targeted advertising. The site's cookie banner allowed users to accept all cookies with one click but made rejecting non-essential cookies a multi-step process requiring navigation through sub-menus, effectively nudging users toward acceptance. Cookies were set before full consent was obtained, and the information provided lacked specificity on data usage purposes. This was part of a pattern of enforcement actions targeting large platforms where cookie controls did not provide equal ease of access to consent and refusal options.",
+        "process_and_outcome": "Following a formal notice and investigation by the French data protection authority, Amazon was fined 35 million euros in December 2022 for shortcomings in its cookie management system. The company committed to redesigning its banner to offer easier refusal options and better information.",
+        "involved_parties": [
+            "Amazon Europe Core S.\u00e0 r.l.",
+            "CNIL (French Data Protection Authority)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "ePrivacy Directive Article 5(3)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "TikTok Ireland Cookie Consent Penalty",
+        "example_background": "TikTok Ireland Limited operates the TikTok platform, using cookies and similar technologies for content recommendation, user analytics, and advertising personalization. The cookie banner on tiktok.com displayed a prominent 'Allow All' button while relegating refusal options to less visible areas, and some cookies continued to be deposited even after refusal. Consent was not granular, bundling essential and non-essential cookies together. This case emerged from regulatory sweeps addressing platforms that complicate user control over cookie-based data collection.",
+        "process_and_outcome": "The French data protection authority imposed a 12 million euro fine in December 2022 after finding the consent process deficient. TikTok was directed to overhaul its cookie management interface and demonstrate changes within specified timelines.",
+        "involved_parties": [
+            "TikTok Ireland Limited",
+            "CNIL (French Data Protection Authority)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Vodafone Germany Cookie Fine",
+        "example_background": "Vodafone Germany GmbH provides telecommunications services and operates websites that use cookies for user tracking and service optimization. The cookie notice on its sites featured a large 'Agree' button overshadowing the 'Customize' option for managing preferences, with customization requiring multiple steps. Non-essential cookies were set prior to explicit consent, limiting users' ability to control data usage effectively. This incident reflected ongoing regulatory focus on telecom providers' compliance with cookie consent standards.",
+        "process_and_outcome": "The Bavarian data protection authority fined Vodafone 45,000 euros in February 2022 for violations in cookie consent practices. The company adjusted its banner to provide balanced choice options and clearer information.",
+        "involved_parties": [
+            "Vodafone Germany GmbH",
+            "Bavarian State Office for Data Protection Supervision"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "Telemedia Act (TMG) Section 25",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "CNIL Cookie Wall Enforcement Against Allocin\u00e9",
+        "example_background": "Allocin\u00e9, a French film review and information website owned by Tiger Global Management, implemented a 'cookie wall' mechanism blocking access to content unless users accepted all cookies, without a viable refusal option that maintained site functionality. This prevented users from controlling cookie deployment and data usage, as refusal led to denied service. The practice was examined in a regulatory push against designs that coerce consent rather than offer genuine choice.",
+        "process_and_outcome": "After formal notice in 2020 and non-compliance, the CNIL imposed a 50,000 euro fine in April 2023. Allocin\u00e9 removed the cookie wall and introduced a compliant consent banner with refusal options.",
+        "involved_parties": [
+            "Allocin\u00e9 (Webedia)",
+            "CNIL (French Data Protection Authority)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OneTrust Cookie Consent Platform Adoption by BBC",
+        "example_background": "The British Broadcasting Corporation (BBC) implemented the OneTrust consent management platform on its websites to handle cookie deployment. The system features a customizable banner offering granular choices for categories like analytics, marketing, and functional cookies, with easy toggles to accept or reject. Users can revisit preferences anytime via a dashboard, ensuring ongoing control over data collection and usage. This deployment followed GDPR implementation to standardize user privacy controls across digital properties.",
+        "process_and_outcome": "The BBC's use of the platform has supported sustained compliance, avoiding fines during regulatory audits and serving as a model for public broadcasters in managing cookie consents effectively.",
+        "involved_parties": [
+            "BBC",
+            "OneTrust (platform provider)",
+            "ICO (UK Information Commissioner's Office)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "UK Privacy and Electronic Communications Regulations (PECR)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Dutch DPA Fine on Doctorsearch.nl",
+        "example_background": "Doctorsearch.nl, a Dutch medical directory website, set advertising and tracking cookies without user consent by reading device information before a consent banner appeared. The site lacked mechanisms for users to refuse non-essential cookies easily, and the banner did not provide sufficient details on data processing purposes, hindering informed control over cookie-based data collection.",
+        "process_and_outcome": "The Dutch Data Protection Authority investigated and imposed a 30,000 euro fine in 2022. The website operator was required to implement proper consent tools and halt unlawful cookie placements.",
+        "involved_parties": [
+            "Doctorsearch.nl",
+            "Autoriteit Persoonsgegevens (Dutch DPA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "CNIL Enforcement Against Google Analytics",
+        "example_background": "In 2022, the French data protection authority examined the use of Google Analytics by multiple websites. The tool transfers personal data of French users to the United States for processing. Organizations using the service collected IP addresses and user identifiers through cookies and similar technologies, transmitting this data to Google servers outside the European Economic Area. The transfers occurred without adequate safeguards to ensure an equivalent level of data protection as required under EU standards, despite the existence of agreements like standard contractual clauses. The configurations did not sufficiently anonymize data or limit transmissions to only what was essential for service functionality, leading to broad data flows that included browsing behaviors and device information.",
+        "process_and_outcome": "CNIL declared the use of Google Analytics non-compliant and ordered websites to stop data transfers within one month. Several organizations received formal notices, with potential for further fines up to 4% of global turnover if non-compliance persisted. Some companies adjusted configurations or switched tools in response.",
+        "involved_parties": [
+            "CNIL (French DPA)",
+            "Various French websites and organizations",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 44-50 (international data transfers)",
+            "GDPR Article 49 (derogations for transfers)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "TikTok GDPR Cookie Consent Fine by CNIL",
+        "example_background": "TikTok's platform employed cookies and trackers for functionalities such as personalized content recommendations, analytics, and advertising. These included both strictly necessary cookies for session management and others for third-party services. The consent mechanism presented users with a banner that did not distinguish between necessary and non-necessary cookies, nor did it allow granular control. All cookies were set by default without explicit user opt-in for non-essential ones, and refusal options were not clearly available. Data from cookies was shared with numerous partners, raising concerns over transparency and purpose limitation.",
+        "process_and_outcome": "Following complaints and investigations in 2021-2022, CNIL imposed a \u20ac60 million fine on TikTok France in 2023 for multiple GDPR violations, including cookie practices. The authority required implementation of compliant consent tools and regular audits.",
+        "involved_parties": [
+            "CNIL",
+            "TikTok France SAS",
+            "TikTok users"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 6 (lawful basis)",
+            "ePrivacy Directive Article 5(3)",
+            "CNIL cookie guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Amazon France Cookie Banner Penalty",
+        "example_background": "Amazon's French website utilized an extensive cookie banner that listed over 30 categories of cookies, including those for advertising, analytics, and social media plugins. The interface made it complex for users to refuse non-essential cookies, with the 'accept all' button prominently displayed while refusal required multiple additional steps. Strictly necessary cookies were not clearly separated, and some trackers continued to operate even after refusal. This setup collected user data for targeted advertising without free, informed, and unambiguous consent, affecting millions of visitors.",
+        "process_and_outcome": "CNIL investigated in 2021 based on online complaints and issued a \u20ac35 million fine in 2022. Amazon was directed to overhaul its consent management platform to simplify choices and ensure proper blocking of non-essential cookies.",
+        "involved_parties": [
+            "CNIL",
+            "Amazon Services Europe S.\u00e0 r.l.",
+            "French internet users"
+        ],
+        "applicable_regulations_or_policies": [
+            "ePrivacy Directive 2002/58/EC Article 5(3)",
+            "GDPR Article 7 (conditions for consent)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta Platforms Ireland Cookie Investigation",
+        "example_background": "Meta's platforms, including Facebook and Instagram, deployed cookies for tracking user interactions across the web via tools like the Facebook Pixel. These cookies gathered data on browsing habits for advertising purposes. The consent banner did not provide a straightforward refusal mechanism equivalent to acceptance, and cookies were preset to active. Even after user refusal, some data collection persisted through server-side methods. This impacted EU users whose data was processed without compliant prior consent.",
+        "process_and_outcome": "In 2022, the Irish Data Protection Commission (DPC) concluded an investigation with a \u20ac91 million fine against Meta for historical and ongoing cookie consent issues from 2018-2022. Remediation measures included updating consent banners across services.",
+        "involved_parties": [
+            "Irish DPC",
+            "Meta Platforms Ireland Limited",
+            "EU users"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 5(1)(a) (lawfulness of processing)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OneTrust CMP Adoption by Fortune 500 Companies",
+        "example_background": "Numerous large enterprises, including financial and tech firms, integrated OneTrust's Consent Management Platform (CMP) to handle cookie deployments. The tool categorizes cookies into strictly necessary (e.g., for authentication and load balancing), which remain active, and others requiring consent (preferences, statistics, marketing). Geo-targeted banners comply with regional laws, blocking non-essential cookies until opt-in. Configurations log consents for audits and integrate with tag managers to prevent unauthorized tracking.",
+        "process_and_outcome": "Adoption led to successful GDPR audits and avoidance of penalties during regulatory sweeps. Companies reported high compliance scores in third-party assessments.",
+        "involved_parties": [
+            "OneTrust",
+            "Various Fortune 500 companies",
+            "National DPAs"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Articles 6, 7, 49",
+            "ePrivacy Directive",
+            "TTDSG (Germany)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Spotify GDPR Cookie Compliance Measures",
+        "example_background": "Spotify's web player and site employ strictly necessary cookies for user authentication, session persistence, and security features like CSRF protection. These cannot be disabled without breaking functionality. Separate consent is obtained for analytics (e.g., Google Analytics with IP anonymization) and advertising cookies via a clear banner with 'Accept All', 'Decline All', and customize options. Refusals are respected through tag blocking, and policy details cookie types, durations, and purposes.",
+        "process_and_outcome": "Spotify faced no major cookie-related fines; its practices passed DPC inquiries and supported ongoing EU operations with transparent disclosures.",
+        "involved_parties": [
+            "Spotify Technology S.A.",
+            "Irish DPC",
+            "EU users"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Recital 30",
+            "ePrivacy Directive",
+            "Spotify Privacy Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "NOYB Cookie Paywall Actions Against German Media",
+        "example_background": "None of Your Business (NOYB) filed complaints against German publishers like Axel Springer for paywall practices requiring consent to non-essential cookies for access to content. Sites set advertising and analytics cookies by default behind paywalls, not limiting to strictly necessary ones for payment processing or login. This circumvented free consent requirements, as users faced a choice between data processing or no access.",
+        "process_and_outcome": "In 2021-2023, multiple proceedings led to injunctions and fines totaling over \u20ac100,000 by Bavarian LPA. Publishers modified practices to offer cookie-free access options.",
+        "involved_parties": [
+            "NOYB",
+            "Bavarian State Office for Data Protection",
+            "Axel Springer SE and other publishers"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 7(3) (freely given consent)",
+            "ePrivacy Directive \u00a713 TTDSG"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Clearview AI Cookie Consent Violations",
+        "example_background": "Clearview AI, a facial recognition technology company, operated a website that utilized cookies for tracking user behavior and analytics without obtaining prior user consent. The company's cookie banner and implementation did not meet standards for transparency or user control, leading to continuous data collection via third-party trackers even when users attempted to decline. This setup persisted across multiple jurisdictions, affecting users who visited the site for information on the service. The practices involved both first-party and third-party cookies used for advertising and analytics purposes, with insufficient mechanisms for users to manage or block them effectively.",
+        "process_and_outcome": "The Dutch Data Protection Authority conducted an investigation following complaints and issued a fine of 30 million euros in September 2022. Clearview AI was ordered to ensure proper consent mechanisms for cookies and comply with data protection requirements within a specified period.",
+        "involved_parties": [
+            "Clearview AI",
+            "Autoriteit Persoonsgegevens (Dutch DPA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 6 (lawful basis for processing)",
+            "ePrivacy Directive (cookie consent)",
+            "EU Cookie Directive 2009/136/EC"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Vinted GDPR Cookie Fine",
+        "example_background": "Vinted, an online marketplace for second-hand goods, implemented a cookie consent banner on its website that allowed users to accept all cookies with one click while requiring multiple steps to reject them. This design led to pre-selected third-party cookies for advertising and tracking being active before consent was obtained. The platform processed personal data of millions of users across Europe without adequate transparency about cookie purposes or effective opt-out options, impacting user privacy controls.",
+        "process_and_outcome": "The French data protection authority CNIL investigated after receiving complaints and imposed a 4 million euro fine in April 2024. Vinted was required to update its cookie management system to provide equal ease for acceptance and rejection.",
+        "involved_parties": [
+            "Vinted",
+            "CNIL (French DPA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 5 (principles relating to processing)",
+            "ePrivacy Directive",
+            "French Data Protection Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Analytics Cookie Violations (CNIL Action)",
+        "example_background": "Google's analytics service was deployed on numerous websites without obtaining user consent for non-essential cookies used for tracking and profiling. Website operators, including public entities, embedded the tool which set cookies immediately upon page load, collecting IP addresses and user behavior data for cross-site analysis. This occurred despite available browser controls, as the implementation bypassed standard consent requirements and did not inform users adequately about data transfers to the US.",
+        "process_and_outcome": "CNIL issued formal notices to Google and eight other providers in 2022, followed by injunctions and fines up to 150,000 euros for non-compliance. Several websites were sanctioned for continuing the practices.",
+        "involved_parties": [
+            "Google LLC",
+            "CNIL",
+            "Various French websites"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Articles 6 and 49 (data transfers)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Amazon France Cookie Consent Fine",
+        "example_background": "Amazon's French website featured a cookie banner that made it significantly easier to accept all cookies via a single prominent button while burying the reject option in small text requiring additional navigation. Third-party cookies for behavioral advertising loaded without consent, tracking user interactions across sessions and devices. The company collected data on browsing habits without clear disclosure of purposes or withdrawal mechanisms matching the ease of initial consent.",
+        "process_and_outcome": "Following a 2020 investigation prompted by complaints, CNIL fined Amazon 35 million euros in 2022 for cookie practices and imposed additional injunctions with periodic penalty payments.",
+        "involved_parties": [
+            "Amazon Services Europe S.\u00e0 r.l.",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "ePrivacy Directive Article 5(3)",
+            "LCEN (French law on digital economy)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta Platforms Ireland Cookie Fine",
+        "example_background": "Meta's platforms, including Facebook and Instagram, used cookies and similar technologies like the 'm_pixel' to track users across the web for advertising without obtaining valid consent. The consent banner did not provide granular control, and cookies were set before user interaction, enabling data collection on non-logged-in visitors. This affected hundreds of millions of EU users whose browser-stored preferences were overridden by the company's tracking mechanisms.",
+        "process_and_outcome": "The Irish Data Protection Commission fined Meta 1.2 billion euros in 2023 primarily for data transfers but included findings on invalid cookie consents, ordering cessation of unlawful processing.",
+        "involved_parties": [
+            "Meta Platforms Ireland Limited",
+            "Irish DPC",
+            "CJEU"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "TikTok Cookie Consent Violations",
+        "example_background": "TikTok's web platform set tracking cookies from third parties for analytics and advertising prior to displaying a consent banner or obtaining user approval. The implementation involved automatic loading of scripts that collected device and behavior data, with limited options for users to block all non-essential cookies. This practice continued despite regulatory guidance on requiring active, informed consent for such technologies.",
+        "process_and_outcome": "CNIL imposed a 15 million euro fine in late 2023 after verifying non-compliance during an on-site inspection, mandating updates to the consent management platform.",
+        "involved_parties": [
+            "TikTok Technology Limited",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 6",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit Cookie Policy Transparency Initiative",
+        "example_background": "Reddit updated its privacy policy to include detailed sections on cookie usage, providing users with information on types of cookies (essential, analytics, advertising), their purposes, and direct links to browser-specific instructions for managing and deleting them. The platform implemented a customizable cookie consent banner allowing granular selections and easy revocation, aligning with user control expectations across devices.",
+        "process_and_outcome": "No enforcement actions were taken; Reddit's practices received positive feedback in privacy audits and user trust surveys, serving as a model for community-driven platforms.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Users",
+            "Privacy advocacy groups"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "CCPA",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OneTrust Cookie Compliance Solution",
+        "example_background": "OneTrust provides a platform used by enterprises to automate cookie consent, featuring geo-targeted banners, script blocking, and integration with browser do-not-track signals. It offers detailed cookie inventories and user preference storage, ensuring that sites respect choices to block or delete cookies, with regular updates to match evolving browser capabilities.",
+        "process_and_outcome": "Clients like Microsoft and others maintained compliance in audits, with no major fines attributed to cookie issues post-implementation, demonstrating effective risk mitigation.",
+        "involved_parties": [
+            "OneTrust",
+            "Enterprise clients",
+            "Regulators like ICO"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "CCPA",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta Platforms Cookie Consent Violation 2022",
+        "example_background": "Meta Platforms Ireland Limited, responsible for Facebook, Instagram, and WhatsApp services in the EU, employs extensive cookie-based tracking for behavioral advertising, reaching over 400 million monthly users in Europe. The company's consent banners featured pre-ticked boxes for third-party advertising cookies and made opt-out processes complex, involving separate steps for different cookie categories. Users encountered cookie walls on login pages that conditioned access to services on consent acceptance. CNIL analyzed server logs, consent rate metrics showing high acceptance rates due to design friction, and internal policy documents during a multi-year probe initiated by complaints from privacy organizations.",
+        "process_and_outcome": "CNIL imposed a 60 million euro fine alongside Google's case, citing invalid consent under GDPR standards. Meta revised its mechanisms to offer clear reject-all buttons and decoupled service access from consent, with ongoing monitoring by regulators.",
+        "involved_parties": [
+            "Meta Platforms Ireland Limited",
+            "CNIL",
+            "NOYB (privacy advocacy group)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Recital 32 (freely given consent)",
+            "ePrivacy Directive",
+            "Article 82 GDPR (right to compensation)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Amazon Cookie Banner Fine by CNIL 2020",
+        "example_background": "Amazon Europe Core S.\u00e0 r.l. runs extensive e-commerce and advertising platforms using cookies for personalized recommendations, ad targeting, and analytics across its French domain, serving tens of millions of users. The cookie banner displayed pre-checked options for advertising and social media cookies, with opt-out requiring navigation through layered menus. No prominent reject-all button existed, and consent was renewed annually without easy revocation. CNIL conducted technical audits, user experience tests, and reviewed Amazon's data processing records as part of coordinated EU enforcement actions on cookie practices.",
+        "process_and_outcome": "A 35 million euro fine was levied for non-compliance with consent requirements. Amazon implemented a redesigned banner with equal prominence for accept and reject options and enhanced opt-out tools compliant with updated guidelines.",
+        "involved_parties": [
+            "Amazon Europe Core S.\u00e0 r.l.",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "ePrivacy Directive Article 66",
+            "GDPR Article 4(11) (definition of consent)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Vodafone Cookie Consent Penalty 2020",
+        "example_background": "Vodafone implemented cookie consent tools on its French telecommunications websites, where third-party advertising cookies from partners were set with default consent enabled. The banner lacked a straightforward refusal mechanism, burying opt-out in submenus, and continued tracking post-expired consent periods. This affected user data sharing with ad networks. CNIL's investigation included packet inspection of network traffic and analysis of over 100 websites' compliance patterns.",
+        "process_and_outcome": "CNIL fined Vodafone 12 million euros. The company deployed updated consent management platforms (CMPs) integrating DAA and EIDAA standards for transparent opt-outs.",
+        "involved_parties": [
+            "Vodafone",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "ePrivacy Directive",
+            "GDPR Article 7(3) (withdrawal of consent)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Microsoft Bing Ads Tracking Settlement 2012",
+        "example_background": "Microsoft operated the Bing search engine and associated advertising network, deploying tracking cookies for ad personalization without adequate opt-out notices. Users reported persistent tracking despite browser privacy settings. The Federal Trade Commission examined practices across US users, focusing on compliance with self-regulatory principles adopted by the company as part of prior settlements.",
+        "process_and_outcome": "Microsoft entered a settlement agreement committing to honor Do Not Track signals, implement DAA opt-out tools, and provide annual compliance reports. No monetary penalty was imposed due to proactive remediation.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "FTC (Federal Trade Commission)",
+            "Digital Advertising Alliance"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5 (unfair/deceptive practices)",
+            "DAA Self-Regulatory Principles"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "IAB Transparency and Consent Framework Adoption",
+        "example_background": "The Interactive Advertising Bureau (IAB) Europe developed the Transparency & Consent Framework (TCF) to standardize consent signals for GDPR compliance in digital advertising. Publishers and ad tech vendors integrate TCF with CMPs that communicate user preferences via the Global Vendor List, enabling third-party opt-outs. Over 700 vendors and 30,000 publishers participate, processing billions of consent signals monthly.",
+        "process_and_outcome": "Post-GDPR audits by regulators confirmed TCF v2.0's alignment with consent requirements, avoiding major enforcement actions for participants and serving as an industry benchmark.",
+        "involved_parties": [
+            "IAB Europe",
+            "IAB Tech Lab",
+            "CMPs like OneTrust, Quantcast"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 5(1)(a) (lawfulness)",
+            "ePrivacy Directive",
+            "EIDAA Framework"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "New York AG Facebook Cookie Monitoring Settlement 2022",
+        "example_background": "Facebook's log-in pages used tracking cookies for advertising before users could access privacy settings or opt out. This occurred across NY users, bypassing consent for data collection by third parties like Google Analytics.",
+        "process_and_outcome": "The NY Attorney General secured a $275,000 settlement, requiring Facebook to implement notice mechanisms and opt-out tools before tracking.",
+        "involved_parties": [
+            "Meta Platforms (Facebook)",
+            "New York Attorney General"
+        ],
+        "applicable_regulations_or_policies": [
+            "New York General Business Law \u00a7 349",
+            "ePrivacy principles"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    }
+]

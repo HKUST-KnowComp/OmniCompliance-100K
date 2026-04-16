@@ -1,0 +1,9 @@
+[
+    "Enterprise | T1547 | .002 | Boot or Logon Autostart Execution:Authentication Package | Windows 8.1, Windows Server 2012 R2, and later versions, may make LSA run as a Protected Process Light (PPL) by setting the Registry keyHKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\RunAsPPL, which requires all DLLs loaded by LSA to be signed by Microsoft.[1][2]",
+    " |  | .005 | Boot or Logon Autostart Execution:Security Support Provider | Windows 8.1, Windows Server 2012 R2, and later versions may make LSA run as a Protected Process Light (PPL) by setting the Registry keyHKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\RunAsPPL, which requires all SSP DLLs to be signed by Microsoft.[1][2]",
+    " |  | .008 | Boot or Logon Autostart Execution:LSASS Driver | On Windows 8.1 and Server 2012 R2, enable LSA Protection by setting the Registry keyHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\RunAsPPLtodword:00000001.[3]LSA Protection ensures that LSA plug-ins and drivers are only loaded if they are digitally signed with a Microsoft signature and adhere to the Microsoft Security Development Lifecycle (SDL) process guidance.",
+    "Enterprise | T1556 | Modify Authentication Process | Enabled features, such as Protected Process Light (PPL), for LSA.[4]",
+    " |  | .001 | Domain Controller Authentication | Enabled features, such as Protected Process Light (PPL), for LSA.[4]",
+    "Enterprise | T1003 | OS Credential Dumping | On Windows 8.1 and Windows Server 2012 R2, enable Protected Process Light for LSA.[4]",
+    " |  | .001 | LSASS Memory | On Windows 8.1 and Windows Server 2012 R2, enable Protected Process Light for LSA.[4]"
+]

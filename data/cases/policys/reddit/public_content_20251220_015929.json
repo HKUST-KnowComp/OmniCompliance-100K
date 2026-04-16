@@ -1,0 +1,2410 @@
+[
+    {
+        "example_name": "OpenAI Reddit Data Licensing Agreement",
+        "example_background": "In 2024, OpenAI entered into a formal data licensing partnership with Reddit to access public Reddit content for training its AI models. This arrangement provides OpenAI with enterprise-grade API access to Reddit's public posts and conversations, enabling the integration of Reddit data into ChatGPT. The deal compensates Reddit financially and allows OpenAI to utilize the content in a structured manner that supports Reddit's platform growth. Reddit highlighted this as part of its strategy to monetize public data through controlled licensing, ensuring protections for content usage while providing high-quality data to AI developers. The agreement covers real-time access to Reddit's Data Graph API, which indexes public content from over 100,000 subreddits.",
+        "process_and_outcome": "The partnership was announced publicly, leading to Reddit's stock price increase of over 20% on the day of the announcement. It set a precedent for similar deals with other AI firms and enhanced Reddit's revenue model without litigation.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Agreement Content Licensing Provisions",
+            "Reddit Data API Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Google Reddit Content Licensing Deal",
+        "example_background": "Google signed a multiyear agreement with Reddit in 2024 to train its Gemini AI models using Reddit's public content. The deal grants Google access to Reddit's vast repository of user-generated discussions and posts through enterprise API access. This licensing arrangement aligns with Reddit's policy of permitting commercial use of public data via formal partnerships, providing Google with training data while allowing Reddit to enforce usage terms and receive compensation. The collaboration extends to displaying Reddit content in Google search results and AI responses, enhancing user experiences across platforms.",
+        "process_and_outcome": "The agreement was finalized without disputes, contributing to Reddit's strategy of securing high-value AI partnerships and bolstering its financial position ahead of its IPO.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Google"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Public Content Licensing Policy",
+            "Google AI Training Data Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Anthropic Reddit API Partnership",
+        "example_background": "Anthropic, the developer of Claude AI, partnered with Reddit in 2024 for licensed access to public Reddit content. The deal provides Anthropic with robust API access to Reddit's public posts, enabling the improvement of its AI models through high-quality conversational data. Reddit's licensing framework ensures that such access is governed by specific terms that protect platform interests, including usage restrictions and revenue sharing. This arrangement reflects Reddit's approach to collaborating with AI companies on public data utilization.",
+        "process_and_outcome": "The partnership was announced as part of Reddit's expanding AI data licensing portfolio, supporting ongoing platform enhancements and developer access.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Anthropic"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy Licensing Arrangements"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "New York Times vs. OpenAI Copyright Lawsuit",
+        "example_background": "The New York Times filed a lawsuit against OpenAI and Microsoft in December 2023, alleging unauthorized use of millions of its articles to train ChatGPT and other AI models. The complaint detailed how OpenAI scraped Times content without permission or payment, leading to AI outputs that directly reproduced Times articles. This case highlights tensions around using publicly accessible online content for commercial AI training without explicit licensing agreements, contrasting with structured data licensing models employed by platforms like Reddit.",
+        "process_and_outcome": "The lawsuit is ongoing as of 2024, with the Times seeking damages and an injunction. It has prompted discussions on fair use in AI training and increased focus on licensing deals.",
+        "involved_parties": [
+            "The New York Times",
+            "OpenAI",
+            "Microsoft"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Law (17 U.S.C.)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "December 2023"
+    },
+    {
+        "example_name": "Reddit API Pricing Controversy and Protests",
+        "example_background": "In June 2023, Reddit announced significant price increases for its Data API, from $0.24 per 1,000 API calls to up to $0.24 per 1,000 for heavy usage, affecting third-party apps that relied on free or low-cost access to public content. This move was positioned as a way to enforce Reddit's licensing policy for commercial use, requiring formal paid arrangements for large-scale data access. Many apps, including popular ones like Apollo, faced shutdowns, leading to widespread user protests and subreddit blackouts involving thousands of communities.",
+        "process_and_outcome": "Reddit proceeded with the changes, resulting in the closure of several third-party apps. Protests subsided, and Reddit secured paid licensing deals with AI firms, boosting revenue.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Third-party developers (e.g., Apollo app)",
+            "Reddit users and moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Use",
+            "Reddit Content Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "June 2023"
+    },
+    {
+        "example_name": "Sarah Silverman vs. OpenAI and Meta Lawsuit",
+        "example_background": "Comedian Sarah Silverman and authors Christopher Golden and Richard Kadrey sued OpenAI and Meta in 2023, claiming the companies used their copyrighted books from public sources like Google Books without permission to train AI models such as GPT and LLaMA. The suits argued that scraping and ingesting copyrighted material for commercial AI development constitutes infringement, even if the content was publicly available online.",
+        "process_and_outcome": "In November 2023, a California federal judge dismissed parts of the Silverman case against OpenAI for lack of evidence of verbatim copying but allowed copyright claims to proceed. Cases remain active.",
+        "involved_parties": [
+            "Sarah Silverman, Christopher Golden, Richard Kadrey",
+            "OpenAI",
+            "Meta"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Stack Overflow OpenAI Ban and Licensing Dispute",
+        "example_background": "Stack Overflow banned ChatGPT from its platform in 2023 after discovering OpenAI trained on its public Q&A content without permission. The developer community site emphasized its content policy requiring attribution and licensing compliance for uses beyond personal reference, contrasting with Reddit's model of enterprise licensing for commercial data access.",
+        "process_and_outcome": "Stack Overflow implemented blocks on AI crawlers and pursued licensing discussions. OpenAI later entered a partnership with Stack Overflow for data access.",
+        "involved_parties": [
+            "Stack Overflow",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stack Overflow Content License (CC BY-SA)",
+            "Creative Commons Attribution-ShareAlike"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Reddit-Inflection AI Partnership",
+        "example_background": "Inflection AI, creators of Pi chatbot, signed a licensing deal with Reddit in 2024 for access to public content to enhance its AI capabilities. The arrangement provides enterprise-grade performance and adheres to Reddit's policy of controlled licensing for commercial use of public data, ensuring structured access and protections.",
+        "process_and_outcome": "The deal was integrated into Reddit's growing portfolio of AI partnerships, supporting mutual platform improvements.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Inflection AI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Public Content Licensing Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Authors Guild vs. Meta AI Training Suit",
+        "example_background": "In 2023, the Authors Guild and 17 authors sued Meta, alleging the company unlawfully scraped their books from public internet sources like shadow libraries to train its LLaMA language model. The case underscores issues with unauthorized commercial use of publicly available copyrighted material.",
+        "process_and_outcome": "The lawsuit is ongoing in U.S. federal court, with motions to dismiss partially denied, advancing fair use debates in AI.",
+        "involved_parties": [
+            "Authors Guild and individual authors",
+            "Meta"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Law"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Reddit User and API Protests Against Data Scraping",
+        "example_background": "In June 2023, Reddit announced paid API access for third-party developers and data access, prompting widespread protests from users and moderators. This followed revelations that companies like Google and OpenAI had scraped Reddit's public posts extensively for AI training without prior agreements or compensation. Subreddits went private, and users highlighted how public comments were harvested en masse, often violating Reddit's API terms, leading to a reevaluation of platform data policies.",
+        "process_and_outcome": "Reddit proceeded with API pricing but reached licensing deals with Google for $60 million annually. Protests led to policy clarifications, and Reddit updated its terms to require permissions for commercial data use, with ongoing monitoring of scraping activities.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Google",
+            "OpenAI",
+            "Reddit moderators and users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Use",
+            "Reddit Data Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "June 2023"
+    },
+    {
+        "example_name": "Meta's Use of Public Data for LLaMA Training",
+        "example_background": "Meta released LLaMA AI models trained on publicly available internet data, including content from forums, Reddit, and social media scraped without explicit licenses. Internal documents revealed extensive use of Common Crawl datasets containing public posts, prompting scrutiny over whether such training respected source terms prohibiting commercial scraping.",
+        "process_and_outcome": "No formal enforcement actions concluded, but the release sparked lawsuits from creators and policy debates. Meta defended the practice as transformative and fair use, continuing to develop subsequent models with similar data sources.",
+        "involved_parties": [
+            "Meta Platforms Inc.",
+            "Various content creators"
+        ],
+        "applicable_regulations_or_policies": [
+            "US Copyright Law",
+            "Platform data usage terms"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Stack Overflow Content Moderation Against AI Scraping",
+        "example_background": "Stack Overflow banned ChatGPT-generated answers and blocked scraping after detecting extensive harvesting of its Q&A content for AI training. Public posts were incorporated into models, leading to AI outputs that duplicated Stack Overflow material without attribution.",
+        "process_and_outcome": "Implemented Cloudflare protections and robots.txt updates to block scrapers. Community guidelines reinforced non-commercial use, with ongoing vigilance against unauthorized data use.",
+        "involved_parties": [
+            "Stack Overflow",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stack Overflow Content Policy",
+            "robots.txt standards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Australian Privacy Commissioner vs. Clearview AI",
+        "example_background": "Clearview AI scraped images from Australian websites and social media to build its database, accessible to Australian law enforcement. The Office of the Australian Information Commissioner investigated after complaints about unconsented biometric data collection from public sources.",
+        "process_and_outcome": "In 2021, the Commissioner ruled the practices interfered with privacy, ordering Clearview to stop collecting Australians' images and delete existing data. Clearview did not fully comply, leading to further determinations.",
+        "involved_parties": [
+            "Clearview AI",
+            "Office of the Australian Information Commissioner (OAIC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Australian Privacy Act 1988",
+            "Privacy Principles"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "GitHub Copilot Licensing Dispute",
+        "example_background": "Microsoft's GitHub Copilot was trained on public GitHub repositories containing open-source code scraped without explicit contributor consent for commercial AI use. Developers raised issues about code regurgitation and license violations, as public repos often had licenses restricting derivative commercial works.",
+        "process_and_outcome": "Class action lawsuits filed in 2022 alleging copyright infringement; ongoing settlements and policy changes by GitHub to filter training data. Copilot added disclaimers about potential code reuse.",
+        "involved_parties": [
+            "GitHub/Microsoft",
+            "Developers and class plaintiffs"
+        ],
+        "applicable_regulations_or_policies": [
+            "US Copyright Law",
+            "Open-source licenses (e.g., GPL, MIT)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter GDPR Fine for Contacts Upload",
+        "example_background": "In 2022, the Irish Data Protection Commission (DPC) fined Twitter \u20ac450,000 for processing European users' contact data without proper legal basis. Twitter's 'contacts upload' feature allowed users to sync their address books, automatically uploading phone numbers and emails of non-users to build shadow profiles for advertising. This private data was retained even after deletion requests and shared internally for matching purposes without transparency or consent, affecting millions of EU users from 2019.",
+        "process_and_outcome": "Inquiry opened in 2020 after complaints; fine issued in December 2022. Twitter disabled the feature in the EU and enhanced data deletion processes. Part of broader scrutiny under GDPR leading up to Twitter's ownership change.",
+        "involved_parties": [
+            "Twitter (now X Corp)",
+            "Irish DPC",
+            "EU users"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR (Articles 6, 13, 14)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Signal End-to-End Encryption Data Policy",
+        "example_background": "Signal, a messaging app, maintains a strict policy of collecting minimal private user data, storing only phone numbers for account creation and no metadata beyond what's necessary for message delivery. Public content like group names can be shared, but private messages, calls, and location data shared in chats remain end-to-end encrypted and inaccessible to Signal or third parties. This approach was designed from inception in 2014 to prioritize user privacy, resisting data sharing requests beyond basic account info.",
+        "process_and_outcome": "No fines or breaches reported; Signal complied with court orders by providing only phone numbers in limited cases. Widely recognized as a privacy standard, influencing policies at Meta and others. Usage surged post-WhatsApp policy changes.",
+        "involved_parties": [
+            "Signal Foundation",
+            "Users",
+            "Courts/law enforcement"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "Stored Communications Act",
+            "Signal Privacy Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Reddit Data Licensing to Google",
+        "example_background": "In 2024, Reddit entered into a multi-year partnership with Google, allowing the search company to access Reddit's Data API for training its AI models, including Gemini. This deal provided Reddit with $60 million upfront and additional annual payments based on usage. The agreement covered public content from Reddit communities, posts, and comments, enabling Google to utilize this data for improving search results and AI functionalities. Reddit's updated Public Content Policy explicitly permitted such licensing of public data to third parties, including AI developers, reflecting changes made in response to the rise of generative AI technologies. This move was part of Reddit's strategy to monetize its data assets amid growing demand from AI companies for high-quality training datasets.",
+        "process_and_outcome": "The partnership was announced publicly, leading to a significant increase in Reddit's stock value upon its IPO. Reddit implemented new policy terms requiring opt-out mechanisms for communities not wanting their data used, and the deal proceeded without legal challenges from regulators.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Google"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Public Content Policy",
+            "Data API Terms of Use"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "OpenAI Reddit Data Usage Controversy",
+        "example_background": "OpenAI utilized Reddit's public posts and comments to train its ChatGPT models prior to formal agreements. Reddit's traffic data showed substantial API calls from OpenAI, scraping millions of posts. This occurred before Reddit revised its Public Content Policy in 2024 to clarify licensing rights for public content in AI training. Users and moderators raised concerns about unauthorized data harvesting, prompting Reddit to strengthen its terms to govern such uses explicitly, including provisions for commercial licensing.",
+        "process_and_outcome": "Reddit negotiated a licensing deal with OpenAI in May 2024, valued at $203 million over multiple years, formalizing access to real-time data feeds. No fines were imposed, but the incident led to policy updates and community opt-out options.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "OpenAI",
+            "Reddit moderators and users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Public Content Policy",
+            "Reddit API Terms"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Reddit vs. Anthropic Unauthorized Access",
+        "example_background": "Prior to formal deals, Anthropic was reported to have heavily accessed Reddit's API for data collection, contributing to high usage volumes that strained Reddit's servers. This prompted Reddit to introduce paid API tiers and update its Public Content Policy to regulate such activities, emphasizing licensing for commercial AI training uses.",
+        "process_and_outcome": "Reddit transitioned to official licensing agreements with Anthropic and others, resolving access issues and generating revenue.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Anthropic"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Use",
+            "Public Content Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Stack Overflow OpenAI Lawsuit",
+        "example_background": "Stack Overflow sued OpenAI in 2024, claiming the company copied community-generated Q&A content to train ChatGPT without authorization. Despite the public nature of the content, Stack Overflow argued that terms of service prohibited such scraping, mirroring platform policies on data usage for AI.",
+        "process_and_outcome": "The case is pending, with Stack Overflow seeking damages and injunctions against further use.",
+        "involved_parties": [
+            "Stack Overflow",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stack Overflow Terms of Service",
+            "U.S. Copyright Law"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Reddit Google AI Training Deal",
+        "example_background": "Reddit's $60 million deal with Google in 2024 allowed integration of Reddit content into Google Search and AI products like Gemini. The Public Content Policy was updated to support these licenses, providing real-time data feeds while offering subreddits opt-out options to respect community preferences.",
+        "process_and_outcome": "Deal boosted Reddit's valuation post-IPO; implemented attribution features showing Reddit sources in AI outputs.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Google"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Public Content Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Cambridge Analytica Data Harvesting from Facebook",
+        "example_background": "In 2014, an app developed by Global Science Research, led by Aleksandr Kogan, collected data from approximately 270,000 Facebook users who consented to a personality quiz. The app also accessed data from the Facebook friend networks of those users, totaling data on up to 87 million individuals. This information, including public profile details, likes, and inferred traits, was shared with Cambridge Analytica, a political consulting firm. Cambridge Analytica used the data for targeted political advertising in campaigns such as the 2016 US presidential election and the Brexit referendum. The data harvest occurred because Facebook's platform at the time allowed apps to access friends' public profile data without their explicit consent, and much of this content was publicly visible. Facebook's policies required developers to obtain user permission and not share data improperly, but oversight was limited. The incident came to light in 2018 through investigative journalism by The Guardian and The New York Times, revealing how public social media content was aggregated at scale for profiling without adequate transparency or user notification.",
+        "process_and_outcome": "The UK's Information Commissioner's Office (ICO) investigated and fined Facebook \u00a3500,000 in 2019 for failing to safeguard user data. The US Federal Trade Commission (FTC) settled with Facebook for $5 billion in 2019, requiring enhanced privacy practices and oversight. Cambridge Analytica ceased operations in 2018 amid the scandal. Multiple class-action lawsuits were filed, and Facebook faced congressional hearings. Kogan and Cambridge Analytica executives faced bans from data processing in the UK.",
+        "involved_parties": [
+            "Facebook (now Meta)",
+            "Cambridge Analytica",
+            "Global Science Research (Aleksandr Kogan)",
+            "UK Information Commissioner's Office (ICO)",
+            "US Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "FTC Act Section 5 (unfair/deceptive practices)",
+            "Facebook Platform Policy on data use and sharing"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Twitter Account Hijacking via Public Credential Exposure",
+        "example_background": "In July 2020, hackers accessed internal Twitter tools used by employees to manage high-profile accounts. They compromised credentials of a Twitter employee through a phone-based social engineering attack, targeting a VPN-linked internal system. This allowed control over verified accounts of public figures and companies, including Barack Obama, Joe Biden, Elon Musk, Apple, and Uber. The attackers posted Bitcoin scam messages from these accounts, directing followers to send cryptocurrency to specified wallets. The incident highlighted risks from public content on social platforms, as victims' usernames, follower counts, and profiles were openly accessible, aiding impersonation. Attackers collected over $100,000 in Bitcoin before Twitter locked accounts. The breach stemmed from insider tool access rather than direct public data scraping, but the public nature amplified the scam's reach.",
+        "process_and_outcome": "US Department of Justice charged three individuals, including a 17-year-old UK teen as the lead hacker, with conspiracy to commit wire fraud; one pleaded guilty and was sentenced to three years probation. Twitter settled with 256 affected users for $1.5 million via class-action lawsuit. Twitter enhanced security, implementing multifactor authentication and limiting tool access. SEC investigated Twitter for disclosure failures, leading to governance changes.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "US Department of Justice",
+            "US Secret Service",
+            "SEC",
+            "Graham Ivan Clark (lead hacker)",
+            "Affected account holders (e.g., Elon Musk, Bill Gates)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Wire Fraud statutes",
+            "SEC Regulation S-K (material cybersecurity disclosures)",
+            "Twitter internal security policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "July 2020"
+    },
+    {
+        "example_name": "FTC Enforcement Against WW International for Deceptive Endorsements",
+        "example_background": "WW International (formerly Weight Watchers) operated a public online forum where users posted reviews and testimonials about its weight-loss programs. Between 2012 and 2022, company employees and affiliates created fake user accounts on the platform and social media to post positive endorsements. These posts included fabricated success stories, altered before-and-after photos, and claims of dramatic weight loss, presented as authentic user-generated public content. The forum's public accessibility allowed anyone to view these posts without login, influencing prospective customers. The practice aimed to boost credibility amid competition, but lacked disclosure of the commercial interest behind the accounts. Discovery occurred through whistleblower tips and FTC data analysis of posting patterns.",
+        "process_and_outcome": "In 2022, the FTC charged WW with deceptive practices. WW agreed to a $1.2 million settlement, including monetary relief and injunctive orders to cease undisclosed endorsements and implement a compliance program with employee training and monitoring.",
+        "involved_parties": [
+            "WW International Inc.",
+            "US Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Endorsement Guides (16 CFR Part 255)",
+            "FTC Act Section 5 (deceptive practices)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Reddit API Data Scraping by Third-Party Pushshift",
+        "example_background": "Pushshift, a third-party service, scraped public Reddit posts, comments, and metadata from Reddit's openly accessible platform since 2015. It archived billions of items, including usernames, karma scores, and content, making them searchable via APIs for researchers, journalists, and others. Reddit's public nature enabled this without authentication, aligning with its policy of fostering research through open access. However, in 2023, Reddit restricted API access for commercial uses amid concerns over large-scale scraping, leading Pushshift to shut down public access. The case demonstrated how public content supports academic studies on language patterns, misinformation, and social dynamics.",
+        "process_and_outcome": "Pushshift voluntarily ceased operations in June 2023 after Reddit's API policy changes. No formal enforcement occurred, but it spurred Reddit to launch its own research tools and data access programs, with partnerships for anonymized datasets.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Pushshift.io",
+            "Academic researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Agreement (terms on automated access)",
+            "robots.txt standards",
+            "CC BY-NC-SA licenses on some subreddits"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "LinkedIn Scraping Lawsuit by hiQ Labs",
+        "example_background": "hiQ Labs developed a tool to scrape public LinkedIn profiles of over 300 million users, analyzing data like job titles, skills, and connections visible without login. LinkedIn's platform displays public profiles to non-members to encourage sign-ups, but LinkedIn sued hiQ in 2017 for violating its terms by automated scraping. hiQ used the data for employee retention analytics sold to HR firms. The case tested boundaries of public web data access, as profiles were intentionally public. After years of litigation, the US Supreme Court declined to hear LinkedIn's appeal in 2022.",
+        "process_and_outcome": "US Ninth Circuit Court ruled in favor of hiQ twice, finding no CFAA violation for public data scraping. LinkedIn dropped the case, allowing hiQ's service to continue under restrictions.",
+        "involved_parties": [
+            "LinkedIn Corporation",
+            "hiQ Labs Inc.",
+            "US Court of Appeals for the Ninth Circuit"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "LinkedIn User Agreement (prohibiting scraping)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Clearview AI Facial Recognition Scraping from Social Media",
+        "example_background": "Clearview AI built a database of over 30 billion facial images by scraping public photos from websites including Facebook, Twitter (X), Instagram, and YouTube since 2017. Images were publicly posted by users, often profile pictures or uploads with open privacy settings, accessible without accounts. Clearview sold access to law enforcement for identification. Revelations in 2020 by The New York Times exposed the scale, prompting privacy concerns over repurposing public content for surveillance without consent.",
+        "process_and_outcome": "Multiple regulators acted: UK ICO fined Clearview \u00a37.5 million in 2022 (under appeal); Canada Privacy Commissioner ordered cessation; ACLU lawsuits ongoing; Clearview settled US class-actions for $20 million. Clearview restricted sales but continues operations.",
+        "involved_parties": [
+            "Clearview AI",
+            "UK Information Commissioner's Office (ICO)",
+            "Canada Office of the Privacy Commissioner",
+            "ACLU"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR (Article 9 biometric data)",
+            "UK Data Protection Act 2018",
+            "Various state biometric privacy laws (e.g., Illinois BIPA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "FTC Action Against Everalbum for Undeclared Data Sharing",
+        "example_background": "Everalbum's app encouraged users to upload photos, accessing public and private albums from Facebook and other platforms. Public photos were aggregated into searchable timelines shared with third parties for advertising without clear disclosure. The app's terms mentioned data use, but public content visibility enabled broad collection. Exposed in 2019 FTC complaint after user complaints.",
+        "process_and_outcome": "FTC settled in 2019; Everalbum dissolved, paying $180,000 and deleting collected data.",
+        "involved_parties": [
+            "Everalbum Inc.",
+            "US Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5",
+            "Children's Online Privacy Protection Act (COPPA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Reddit Doxxing Incident Involving Public Subreddit Data",
+        "example_background": "In 2021, users in public subreddits like r/WallStreetBets shared personal details pieced from public posts, usernames, and linked social media, leading to doxxing of individuals during the GameStop stock frenzy. Public metadata like post history and karma fueled targeted harassment. Reddit removed content post-incident but highlighted risks of open platform data.",
+        "process_and_outcome": "Reddit banned offending users and subreddits, updated content policies on personal info. No formal regulatory action, but spurred user privacy tools like profile data limits.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/WallStreetBets moderators",
+            "Affected users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy (prohibiting doxxing)",
+            "Section 230 of Communications Decency Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Stack Overflow Public Data Dump for AI Training",
+        "example_background": "Stack Overflow maintains a fully public Q&A platform where code snippets, usernames, and reputation scores are accessible to all. In 2022, it released official data dumps under Creative Commons license for research and AI training, used by models like ChatGPT. This practice leverages public content for open innovation, with opt-out options added later.",
+        "process_and_outcome": "No enforcement; Stack Overflow partnered with OpenAI post initial backlash, implementing attribution features.",
+        "involved_parties": [
+            "Stack Overflow",
+            "OpenAI",
+            "Academic/research community"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons CC BY-SA 4.0 license",
+            "Stack Overflow Terms of Service"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "hiQ Labs vs. LinkedIn Scraping Case",
+        "example_background": "hiQ Labs, a data analytics firm, accessed public LinkedIn profiles en masse to analyze employee mobility patterns and sell insights to clients. LinkedIn argued that even public data required adherence to its terms prohibiting automated scraping, and hiQ's methods bypassed rate limits and user privacy expectations. The case highlighted tensions between public data availability and platform controls on bulk access for commercial purposes.",
+        "process_and_outcome": "Initial injunction granted to LinkedIn in 2017, overturned by 9th Circuit in 2019 finding no CFAA violation for public data, but Supreme Court vacated and remanded in 2022. Case settled in 2022 with hiQ ceasing scraping activities.",
+        "involved_parties": [
+            "hiQ Labs (defendant/scraper)",
+            "LinkedIn (plaintiff/platform)",
+            "U.S. District Court, 9th Circuit"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "LinkedIn User Agreement",
+            "18 U.S.C. \u00a7 1030"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter vs. Bright Data Scraping",
+        "example_background": "Bright Data (formerly Luminati) operated a commercial web scraping service that allowed clients to harvest public tweets and user data from Twitter in bulk. Twitter contended that this exceeded authorized access under its terms, which permit personal, non-commercial use but restrict automated bulk collection for resale or AI training purposes.",
+        "process_and_outcome": "Twitter sued in 2023, leading to a preliminary injunction in November 2023 blocking Bright Data's scraping. Ongoing litigation focuses on contract breach and trespass to chattels.",
+        "involved_parties": [
+            "X Corp (formerly Twitter, plaintiff)",
+            "Bright Data (defendant, scraping service)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Terms of Service",
+            "Developer Agreement and Policy",
+            "California Computer Data Access and Fraud Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta's Legitimate Data Partnerships",
+        "example_background": "Meta established formal partnerships with publishers and platforms, including paid licensing deals for content used in training its Llama AI models. Instead of scraping, Meta negotiated access to public data under agreed terms, providing compensation and respecting content owners' rights, contrasting with unauthorized bulk collection practices.",
+        "process_and_outcome": "Announced multiple deals in 2024, such as with Time, Fortune, and Reddit, enabling compliant data use for AI development without litigation.",
+        "involved_parties": [
+            "Meta Platforms (AI developer)",
+            "Reddit (data partner)",
+            "Time, Fortune (publishers)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Content licensing agreements",
+            "Reddit API Commercial Use Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Books Settlement and Licensed Scanning",
+        "example_background": "Google digitized millions of books from libraries, including public domain and in-copyright works, through partnerships rather than unauthorized scraping. The project involved opt-out mechanisms for publishers and transformed data into searchable snippets, adhering to fair use while respecting rights through settlements and licensing.",
+        "process_and_outcome": "Class action lawsuit settled in 2013 for $125 million fund for authors, with court ruling the project constituted fair use. Ongoing licensed expansions.",
+        "involved_parties": [
+            "Google (digitizer)",
+            "Authors Guild (plaintiffs)",
+            "U.S. District Court (Southern NY)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act Fair Use Doctrine",
+            "Library Partnership Agreements"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OpenAI's Publisher Licensing Deals",
+        "example_background": "OpenAI secured licensing agreements with news organizations like Associated Press, Axel Springer, and Prisa to access their content archives for AI training. These deals provide authorized bulk access to public articles under negotiated terms, including revenue sharing, avoiding scraping and respecting platform policies.",
+        "process_and_outcome": "Multiple agreements announced 2023-2024, enabling compliant AI model training and reducing litigation risks.",
+        "involved_parties": [
+            "OpenAI (AI developer)",
+            "Associated Press (content licensor)",
+            "Axel Springer (content licensor)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Content licensing contracts",
+            "Publisher terms of use"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "TikTok vs. Universal Music Group Scraping Allegations",
+        "example_background": "Universal Music Group accused TikTok of unlawfully scraping and reproducing song lyrics and metadata from public sources without permission for its AI recommendation systems. The dispute involved bulk data collection exceeding platform-authorized uses.",
+        "process_and_outcome": "Part of broader licensing dispute settled in 2024 with new royalty agreements; separate lyric scraping claims addressed via content protections.",
+        "involved_parties": [
+            "Universal Music Group (plaintiff)",
+            "TikTok/ByteDance (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright law",
+            "TikTok Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OpenAI Reddit Data Usage in GPT Training",
+        "example_background": "OpenAI utilized content from Reddit discussions to train its GPT language models, accessing publicly available posts and comments through Reddit's data API without entering into a commercial licensing agreement. This occurred as part of broader efforts to gather large datasets from online forums for improving AI capabilities. Reddit's policy permits non-commercial uses such as learning but requires contacting the platform for commercial applications. OpenAI's approach involved substantial volumes of data, raising questions about the boundaries of permitted access under Reddit's terms. The data included user-generated conversations spanning various subreddits, which were incorporated into model training processes starting around 2019-2020.",
+        "process_and_outcome": "Reddit publicly highlighted the issue in 2023 during its initial public offering preparations, emphasizing data usage practices. OpenAI continued model development but faced increased scrutiny. Reddit later introduced paid API access tiers in June 2023, leading OpenAI to adapt by paying for data access in subsequent deals.",
+        "involved_parties": [
+            "OpenAI",
+            "Reddit Inc.",
+            "Reddit users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Reddit API Terms of Use",
+            "Reddit User Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Google Dataset Publishing Program",
+        "example_background": "Google launched the Dataset Publishing Program in 2010, inviting Reddit users to contribute content from subreddits for use in research and dataset creation. Participants shared links to discussions, which Google then processed and made available for download. This initiative aimed to support machine learning research using public internet data. Reddit's Default Open value allows non-commercial uses like learning, and this program aligned with community-driven contributions without direct commercial monetization by Google at the time.",
+        "process_and_outcome": "The program operated from 2010 to around 2011, providing datasets to researchers. It concluded without reported disputes, serving as an example of structured data sharing compliant with platform terms.",
+        "involved_parties": [
+            "Google",
+            "Reddit Inc.",
+            "Reddit community contributors"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Creative Commons licensing"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2010"
+    },
+    {
+        "example_name": "Anthropic Reddit Data Training Controversy",
+        "example_background": "Anthropic, an AI research company, scraped Reddit content to train its Claude AI models, relying on publicly accessible posts and comments. This practice was part of gathering diverse internet text data for model development. Reddit's terms specify that commercial purposes require discussion with the platform, while non-commercial learning uses are permitted. Anthropic's activities drew attention amid broader industry debates on data sourcing from social platforms.",
+        "process_and_outcome": "In 2024, Reddit signed a data partnership deal with Anthropic, providing official API access in exchange for payment, retroactively addressing prior usage and establishing future compliant access.",
+        "involved_parties": [
+            "Anthropic",
+            "Reddit Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Use",
+            "Reddit Content Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Clearbit Data Scraping Lawsuit",
+        "example_background": "Clearbit, a sales intelligence startup, systematically scraped public profiles from platforms including Reddit, LinkedIn, and Twitter in 2015-2018 to build a database of over 100 million user records sold to enterprise clients. The data included usernames, locations, and interests derived from social media activity. Reddit's policy allows content use for non-commercial purposes like community and learning but requires commercial arrangements. Clearbit's operations involved automated collection for profit-making services.",
+        "process_and_outcome": "In 2018, LinkedIn sued Clearbit for violating terms; a California court ruled in favor of LinkedIn on CFAA claims. Clearbit ceased scraping those sites and settled related disputes, implementing compliance changes.",
+        "involved_parties": [
+            "Clearbit",
+            "Reddit Inc.",
+            "LinkedIn",
+            "California federal court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Agreement",
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Platform Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Reddit Academic Research Data Access",
+        "example_background": "Reddit provides datasets like the 2018 Reddit Comment Corpus and Pushshift archives to academic researchers for non-commercial studies in fields like natural language processing and social science. These releases include anonymized comments and metadata, supporting learning and community analysis in line with Reddit's Default Open value and non-commercial permissions.",
+        "process_and_outcome": "Datasets have been used in numerous peer-reviewed papers since 2015, with Reddit facilitating access through official channels without commercial restrictions.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Academic researchers",
+            "Pushshift.io"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Reddit Data Release Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Meta AI Training with Reddit Data",
+        "example_background": "Meta used publicly available Reddit posts to train its LLaMA models, as disclosed in technical papers. This involved downloading large volumes of discussion data for AI development. Reddit's terms allow such use for learning but require commercial discussions, and Meta's model releases had research-oriented distributions.",
+        "process_and_outcome": "Reddit engaged Meta in a 2024 licensing deal for ongoing API access, formalizing commercial use after initial public data reliance.",
+        "involved_parties": [
+            "Meta",
+            "Reddit Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Use",
+            "Reddit Content Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit API Data Sharing with Google",
+        "example_background": "In 2024, Reddit entered into a $60 million data licensing agreement with Google, providing access to Reddit's Data API which encompasses public content from posts and comments across the platform. This deal followed Reddit's decision to implement paid API access after previously offering it for free, sparking significant user backlash and protests from third-party app developers who relied on the data for tools like Apollo and RedditSave. The agreement allows Google to utilize the data for training its AI models, including Gemini, amid broader industry trends where social media platforms monetize user-generated content. Reddit emphasized that only public data was included, excluding private messages, deleted content, non-public account details such as emails, IP addresses, phone numbers, and data from quarantined or private communities, as well as browsing or purchasing history. The move was positioned as a way to generate revenue while maintaining boundaries on non-public information, consistent with Reddit's privacy commitments.",
+        "process_and_outcome": "The deal was publicly announced and integrated into Reddit's partnership strategy, leading to Reddit's successful IPO in March 2024 with shares surging post-announcement. No regulatory investigations ensued regarding private data handling, though user communities expressed concerns over data commodification.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Privacy Policy",
+            "GDPR (EU data protection)",
+            "CCPA (California privacy law)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Twitter (X) Private Messages Leak 2022",
+        "example_background": "In 2022, a vulnerability in Twitter's direct messaging system allowed hackers to access private DMs of high-profile Android users, including those of a Turkish politician. The flaw involved improper API authentication, exposing unread messages. Separately, Twitter faced scrutiny for internal data handling practices revealed in the #TwitterFiles, showing employee access to private user data for various purposes. Twitter's policies promised protection of private messages and non-public data like emails and IP addresses, but incidents underscored risks in platform stewardship.",
+        "process_and_outcome": "Twitter patched the vulnerability quickly. No major fines directly tied, but contributed to broader regulatory probes post-Elon Musk acquisition, including EU investigations under DSA.",
+        "involved_parties": [
+            "Twitter (X Corp)",
+            "Hackers",
+            "EU Commission"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "Twitter Privacy Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Signal's Sealed Sender Feature",
+        "example_background": "Signal, a privacy-focused messaging app, implemented Sealed Sender in 2018, a protocol that hides metadata about who is communicating with whom by not requiring servers to verify sender identity for each message. This protects private messages from even Signal's own servers retaining traceable logs. Signal's end-to-end encryption and minimal data collection policy ensure no storage of non-public information like IP addresses or message content, positioning it as a best practice in handling private communications.",
+        "process_and_outcome": "The feature enhanced user trust, with Signal gaining millions of users post-WhatsApp privacy policy changes in 2021. No compliance issues; praised by privacy advocates.",
+        "involved_parties": [
+            "Signal Messenger LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "Signal Privacy Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Discord Employee Access to Private Channels",
+        "example_background": "In 2023, Discord terminated an employee who accessed private user messages and channels without authorization to assist friends, violating internal policies. Discord's platform includes private group chats and servers, akin to private communities, with strict rules against sharing non-public data like message content, emails, or IPs. The incident involved deliberate internal misuse of access to private communications.",
+        "process_and_outcome": "Discord fired the employee, notified affected users, and conducted an internal audit. No regulatory fines, but reinforced trust through transparency report.",
+        "involved_parties": [
+            "Discord Inc.",
+            "Former employee"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "Discord Terms of Service and Privacy Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Snapchat My AI Data Privacy Commitments",
+        "example_background": "In 2023, Snapchat launched My AI, a chatbot powered by OpenAI, assuring users that private conversations with the AI would not be used to train third-party models nor shared without permission. Snapchat's policy explicitly protects private chats, snaps, and non-public account data, distinguishing it from public snaps and stories. This addressed user concerns amid AI data training trends on social platforms.",
+        "process_and_outcome": "Feature rolled out successfully with opt-out options for data use. No incidents reported; enhanced Snapchat's privacy reputation.",
+        "involved_parties": [
+            "Snap Inc.",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "CCPA",
+            "Snapchat Privacy Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Reddit Doxxing Incident Involving r/AmITheAsshole",
+        "example_background": "In 2019, users on Reddit's r/AmITheAsshole subreddit identified and publicly exposed the real identity and personal details of a poster who shared a story about a family dispute. The post, which described a situation involving a child and family dynamics, led community members to conduct searches using details provided, linking the account to a real individual through cross-referencing social media, public records, and location clues. Screenshots of the doxxed information spread across the subreddit and other platforms, resulting in harassment directed at the identified person. Reddit administrators eventually removed the original post and related threads after reports accumulated, citing content policy violations related to privacy. This event highlighted how public contributions on Reddit can lead to unintended disclosures when users share specific, identifiable details in posts or comments, even without explicit intent to reveal identities.",
+        "process_and_outcome": "Reddit moderators locked the thread and deleted doxxing content following user reports. The subreddit implemented stricter rules on sharing identifiable information. No formal legal action was taken against individuals, but the incident prompted Reddit to reinforce automated detection tools for personal information in posts.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/AmITheAsshole moderators",
+            "Affected Reddit user"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy on Doxxing and Harassment",
+            "Reddit User Agreement on Public Content"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Boston Marathon Bomber Reddit Investigation",
+        "example_background": "Following the 2013 Boston Marathon bombing, Reddit users in subreddits like r/news and r/boston launched a crowdsourced effort to identify the suspects using publicly available photos, videos, and forum posts. Users analyzed images from news footage, security cameras, and social media, compiling threads with screenshots, timelines, and speculation about individuals' appearances, backpacks, and online activity. One prominent thread incorrectly identified an innocent student as a suspect based on superficial similarities, leading to media pickup and real-world distress for the named person. The activity demonstrated how public posts on Reddit, combined with user contributions, can amplify unverified personal associations to a global audience, resulting in widespread dissemination before official clarification.",
+        "process_and_outcome": "Reddit administrators issued statements discouraging vigilantism and crowdsourced investigations. The platform removed specific threads promoting misinformation after they gained traction. Authorities later identified the actual perpetrators, Dzhokhar and Tamerlan Tsarnaev, through official channels. No penalties were imposed on Reddit, but the event influenced platform guidelines on sensitive real-time events.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "FBI",
+            "Misidentified Reddit user"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy on Privacy and Harassment",
+            "Reddit Rules on Witch Hunts"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Sunlight Foundation Reddit Sockpuppet Scandal",
+        "example_background": "In 2013, the Sunlight Foundation, a non-profit focused on government transparency, operated multiple Reddit accounts from the same IP address to upvote and promote their own content across subreddits like r/politics and r/technology. These accounts posted links to the foundation's articles on lobbying and campaign finance, while downvoting competing viewpoints. Discovery occurred when Reddit's anti-spam algorithms flagged the coordinated activity, revealing patterns of identical phrasing and timing in contributions. This practice involved creating public posts under pseudonyms to influence subreddit visibility, leveraging Reddit's public nature to boost organizational messaging without disclosure.",
+        "process_and_outcome": "Reddit banned the accounts and issued a public statement on transparency. The Sunlight Foundation acknowledged the issue, attributing it to staff error, and ceased the practice. No regulatory fines were applied, but it led to internal policy reviews at the foundation.",
+        "involved_parties": [
+            "Sunlight Foundation",
+            "Reddit Inc.",
+            "Affected subreddit moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy on Vote Manipulation and Sockpuppets",
+            "Reddit Spam Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Reddit Privacy Policy Update Enforcement 2023",
+        "example_background": "In mid-2023, Reddit announced updates to its privacy policy to facilitate data sharing with partners for AI training, explicitly noting that public content posted by users becomes available for such uses. This change emphasized that contributions to the platform, including posts and comments, are treated as public data accessible without account restrictions. Users expressed concerns over historical posts being repurposed, prompting widespread discussions in subreddits like r/announcements and r/privacy. Reddit proceeded with the update, providing opt-out instructions for future contributions while clarifying that past public content remained usable.",
+        "process_and_outcome": "Reddit implemented the policy change on schedule, with tools for users to request data deletions under certain conditions. Third-party developers and AI firms like Google integrated the data. No enforcement actions against Reddit occurred, but user backlash led to enhanced disclosure notices.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Reddit users",
+            "AI companies (e.g., Google)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Privacy Policy",
+            "Reddit User Agreement on Public Content"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "r/TheoryOfReddit Doxxing Removal",
+        "example_background": "In 2021, a post in r/TheoryOfReddit shared screenshots from a private Discord server, revealing usernames, profile pictures, and chat logs of individuals discussing subreddit moderation practices. The content included direct links to user profiles and quotes that could identify participants in real life through contextual details like locations and events mentioned. Reports from affected users led to moderator intervention, as the public nature of Reddit posts allowed rapid spread to other communities before removal.",
+        "process_and_outcome": "Moderators removed the post within hours, citing doxxing rules. Reddit support upheld the decision upon appeal. The subreddit updated its pinned guidelines to reiterate public content risks.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/TheoryOfReddit moderators",
+            "Affected Discord users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy on Personal Information",
+            "Reddit Doxxing Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Reddit API Policy Compliance by Pushshift",
+        "example_background": "Pushshift, a third-party service archiving public Reddit data, operated by collecting posts and comments via Reddit's API, respecting rate limits and terms that public content is accessible without restrictions. In 2023, amid API pricing changes, Pushshift demonstrated adherence by migrating datasets while ensuring no private data was scraped, focusing solely on openly contributed material from subreddits.",
+        "process_and_outcome": "Pushshift continued operations post-changes, providing researchers access to historical public data. Reddit approved their compliance during reviews. No disruptions or penalties occurred.",
+        "involved_parties": [
+            "Pushshift.io",
+            "Reddit Inc.",
+            "Academic researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Service",
+            "Reddit Data Policy on Public Content"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "FBI Use of Public Reddit Data in Jane Doe Case",
+        "example_background": "In 2021, the FBI utilized publicly available Reddit posts from r/HelpMeFind and similar subreddits where users shared photos and descriptions of unidentified individuals to crowdsource identification. Posts included images of tattoos, clothing, and locations from missing persons cases, which were openly contributed and viewed by millions without accounts.",
+        "process_and_outcome": "Public tips from Reddit led to successful identifications in multiple cases. Reddit cooperated by preserving relevant public threads upon request. No policy issues arose as data was public.",
+        "involved_parties": [
+            "FBI",
+            "Reddit Inc.",
+            "r/HelpMeFind community"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy on Public Contributions"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "r/changemyview Personal Info Breach",
+        "example_background": "During a 2022 debate thread in r/changemyview, a user posted detailed accounts of their workplace experiences, including company names, colleague descriptions, and project specifics. Commenters pieced together the poster's identity using Google searches on the unique details, leading to a follow-up thread compiling the information publicly.",
+        "process_and_outcome": "Moderators quarantined and removed the identifying thread after reports. Reddit issued a subreddit-wide reminder on anonymizing public posts. The original poster deleted their account.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/changemyview moderators",
+            "Affected user"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy on Privacy",
+            "Subreddit Rules on Doxxing"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Reddit's Public Data for Academic Research",
+        "example_background": "Researchers from Stanford University accessed public Reddit posts from subreddits like r/science and r/dataisbeautiful for studies on misinformation spread, without needing accounts or logging in, as per platform design. Data included timestamps, upvotes, and comment threads contributed openly by users.",
+        "process_and_outcome": "Studies published in peer-reviewed journals, with Reddit cited as a source of public data. No access issues or violations noted, exemplifying intended platform use.",
+        "involved_parties": [
+            "Stanford University researchers",
+            "Reddit Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Agreement on Public Content",
+            "Reddit Data Usage Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit Data Licensing for LLM Training",
+        "example_background": "In May 2024, Reddit formalized data licensing agreements with Google and OpenAI, granting these companies access to Reddit's public content for training large language models. The deals, valued at $60 million each over two years, allow use of real-time Reddit posts and comments while imposing contractual limits on usage. Reddit specified that licensees must respect user deletions of content and adhere to restrictions protecting user-generated material. This arrangement emerged after Reddit updated its API policies and privacy rules to enable commercial data access, responding to industry demand for high-quality conversational data. The partnerships integrate Reddit data into Google's Gemini and OpenAI's ChatGPT models, enhancing their performance on current events and discussions.",
+        "process_and_outcome": "Agreements executed successfully, with payments structured as upfront and recurring fees. Reddit reported increased revenue from data licensing in its Q1 2025 earnings. No disputes or enforcement actions reported; models began incorporating Reddit data post-agreement.",
+        "involved_parties": [
+            "Reddit Inc. (licensor)",
+            "Google (licensee, LLM developer)",
+            "OpenAI (licensee, LLM developer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Data Licensing Policy",
+            "GDPR (EU data protection)",
+            "CCPA (California consumer privacy)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "May 2024"
+    },
+    {
+        "example_name": "Associated Press v. OpenAI",
+        "example_background": "In 2023, the Associated Press pursued claims against OpenAI for using AP news articles without permission to train AI models. The organization noted that public AP content was systematically scraped and incorporated into datasets for ChatGPT, enabling the AI to reproduce AP-style summaries and facts. AP highlighted the need for explicit licensing for such commercial uses of journalistic content available online. This followed similar concerns from other news outlets about unauthorized data harvesting undermining licensing markets.",
+        "process_and_outcome": "The parties reached a licensing agreement in July 2024, allowing OpenAI to use current and historical AP content for training and attribution purposes. Terms undisclosed but described as multi-year with payment structure.",
+        "involved_parties": [
+            "Associated Press (content owner)",
+            "OpenAI (AI developer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Law"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Meta-Reddit Content Partnership",
+        "example_background": "In 2024, Meta Platforms entered a data licensing agreement with Reddit to utilize Reddit's public posts for training its Llama AI models. The deal permits access to conversation threads while requiring Meta to comply with Reddit's policies on content use, including honoring user deletions and restrictions on prohibited applications. This followed Reddit's strategic shift to monetize public data ethically, specifying purposes like trend monitoring and AI training aligned with platform values.",
+        "process_and_outcome": "Deal announced and implemented without issues, contributing to Reddit's data revenue growth. Llama 3.2 models integrated Reddit data, with attribution features added.",
+        "involved_parties": [
+            "Reddit (licensor)",
+            "Meta Platforms (licensee, AI developer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Public Content Policy",
+            "AI training data licensing terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "News Corp-Axel Springer OpenAI Licensing Deal",
+        "example_background": "In 2024, News Corp and Axel Springer secured licensing agreements with OpenAI for use of their news content in AI training and products. The deals cover Wall Street Journal, New York Post, and Bild publications, allowing access to public articles with stipulations on usage, attribution, and respect for content takedowns. This established a model for publishers to control and monetize public web content used in LLMs.",
+        "process_and_outcome": "Multi-year agreements finalized, with revenue sharing. Content integrated into ChatGPT, enhancing accuracy on news topics.",
+        "involved_parties": [
+            "News Corp (licensor)",
+            "Axel Springer (licensor)",
+            "OpenAI (licensee)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright licensing agreements"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Stack Overflow OpenAI Licensing Agreement",
+        "example_background": "Stack Overflow partnered with OpenAI in 2024 for a paid data licensing deal, providing access to its public Q&A content for AI training. The agreement includes restrictions on use, requirements to honor post deletions by users, and attribution to original contributors. This addressed prior unauthorized use complaints and aligned with Stack Overflow's policy on commercial data access.",
+        "process_and_outcome": "Deal implemented; OpenAI paid licensing fees, and Stack Overflow users gained free ChatGPT access. No further disputes.",
+        "involved_parties": [
+            "Stack Overflow (licensor)",
+            "OpenAI (licensee)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stack Overflow Content Policy",
+            "Creative Commons licensing"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "OpenAI Reddit Data Usage for GPT Training",
+        "example_background": "OpenAI utilized publicly available Reddit content to train its GPT large language models, including ChatGPT. Reddit's robots.txt files and terms of service had previously allowed programmatic access to public posts and comments for various purposes. In 2023, amid Reddit's API policy updates, it came to light that OpenAI had scraped extensive datasets from Reddit, contributing to the training corpus for models like GPT-3 and GPT-4. Reddit entered into a data partnership with Google in 2024, granting access to its content for AI training in exchange for revenue sharing, signaling a shift toward controlled data licensing. This highlighted ongoing tensions between open data availability and platform monetization efforts.",
+        "process_and_outcome": "No formal enforcement action occurred against OpenAI for prior usage, as it aligned with public data access norms at the time. Reddit formalized partnerships, including a $60 million deal with Google, and restricted unauthorized scraping through updated terms and API controls. OpenAI continued model development with licensed data sources.",
+        "involved_parties": [
+            "OpenAI",
+            "Reddit Inc.",
+            "Google"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Reddit API Terms",
+            "robots.txt standards"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Anthropic Data Scraping Controversy",
+        "example_background": "Anthropic, developer of the Claude AI models, was reported to have scraped Reddit data for training purposes prior to Reddit's 2023 API restrictions. Public datasets like Pushshift.io, which aggregated Reddit posts, were used extensively by AI firms. Anthropic's models showed knowledge of Reddit-specific content, raising questions about compliance with platform policies intended to preserve open access for research while curbing commercial exploitation.",
+        "process_and_outcome": "Anthropic publicly stated it respects robots.txt and terms of service, shifting to licensed datasets. Reddit enhanced monitoring and legal measures against unauthorized scraping. No fines were imposed, but it prompted industry-wide discussions on data ethics.",
+        "involved_parties": [
+            "Anthropic",
+            "Reddit Inc.",
+            "Pushshift.io"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Agreement",
+            "Reddit Data Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Google-Reddit Data Partnership 2024",
+        "example_background": "Reddit signed a deal with Google in May 2024, providing access to real-time and historical content from its platform for training Google's AI models like Gemini. The agreement was part of Reddit's strategy post-IPO to generate revenue from its data assets, estimated at billions in value. This formalized access contrasted with prior free scraping practices and aligned with Reddit's policy of supporting beneficial uses through structured partnerships.",
+        "process_and_outcome": "The multi-year deal was valued at $60 million initially, with potential for expansion. It integrated Reddit content into Google search and AI products, boosting visibility for Reddit while providing compensation. No disputes arose.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Data API Policy",
+            "Commercial Data Licensing Agreements"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "May 2024"
+    },
+    {
+        "example_name": "Apollo App Shutdown Due to API Costs",
+        "example_background": "Apollo, a popular third-party Reddit client app developed by Christian Selig, served millions of users with features like customizable interfaces and efficient browsing. Reddit's 2023 API pricing rendered it unviable, as costs would reach hundreds of thousands monthly. Apollo exemplified commercial reliance on Reddit's public data, outside the research exception for humanity-benefiting projects.",
+        "process_and_outcome": "Apollo shut down on June 30, 2023. Selig explored alternatives but concluded continuation was impossible. The event fueled moderator protests but led to improved official Reddit apps.",
+        "involved_parties": [
+            "Apollo (Christian Selig)",
+            "Reddit Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Pricing Policy",
+            "Reddit Developer Terms"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Reddit Research API Launch for Academics",
+        "example_background": "Following API changes, Reddit introduced a dedicated research API in 2023, offering free access with rate limits for qualified researchers. Eligible projects required demonstration of public benefit, such as studies on misinformation, mental health, or social dynamics. This fulfilled Reddit's policy commitment to support open internet research while restricting commercial scraping.",
+        "process_and_outcome": "Hundreds of academic applications were approved, enabling continued studies. Usage analytics showed compliance with limits, and Reddit provided datasets for specific research calls. No revocations reported.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Academic institutions (e.g., universities)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Public Content Policy for Research",
+            "Reddit Research API Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "New York Times vs. OpenAI Data Lawsuit Implications for Reddit",
+        "example_background": "The New York Times sued OpenAI and Microsoft in December 2023 for using millions of its articles to train AI models without permission. This case drew parallels to Reddit data usage, as OpenAI had incorporated public forum content. Reddit monitored the litigation closely, using it to justify stricter API controls and partnerships.",
+        "process_and_outcome": "The lawsuit proceeded to discovery phase in 2024, with no final ruling. It influenced platforms like Reddit to prioritize licensed access, accelerating deals with AI firms.",
+        "involved_parties": [
+            "The New York Times",
+            "OpenAI",
+            "Microsoft",
+            "Reddit Inc. (analogous)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Law",
+            "Reddit Content Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "December 2023"
+    },
+    {
+        "example_name": "Stack Overflow OpenAI Ban and Reddit Parallels",
+        "example_background": "Stack Overflow banned ChatGPT-generated answers in 2023 after detecting high usage of OpenAI models trained on its Q&A data. This mirrored Reddit's concerns over AI training on public content without attribution or compensation, prompting policy clarifications for research access.",
+        "process_and_outcome": "Stack Overflow implemented detection tools and updated terms. Reddit cited similar rationales for API restrictions, enhancing protections for its data.",
+        "involved_parties": [
+            "Stack Overflow",
+            "OpenAI",
+            "Reddit Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Stack Overflow Content Policy",
+            "Reddit Data Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Meta GDPR Fine for Facebook Data Practices",
+        "example_background": "Facebook (Meta) was investigated for its handling of user data in advertising and data sharing arrangements. The Irish Data Protection Commission (DPC) examined practices like behavioral advertising based on off-platform data and sharing with third-party services like WhatsApp. The platform's data licensing to advertisers involved processing vast amounts of personal data without fully transparent consent mechanisms, potentially exposing user identities through targeted profiling.",
+        "process_and_outcome": "In 2023, the European Data Protection Board (EDPB) imposed a \u20ac1.2 billion fine on Meta for unlawful data transfers to the US post-Schrems II ruling, requiring changes to transatlantic data flows. Meta appealed but implemented new Standard Contractual Clauses.",
+        "involved_parties": [
+            "Meta Platforms Inc.",
+            "Irish Data Protection Commission (DPC)",
+            "European Data Protection Board (EDPB)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR (Chapter V on data transfers)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Signal's Privacy-Focused Data Practices",
+        "example_background": "Signal, a messaging app, operates with end-to-end encryption and collects minimal user data, sharing none with third parties. Its non-profit model avoids data licensing for advertising, and any limited data sharing (e.g., for spam prevention) is anonymized and restricted by design. This approach ensures user anonymity and privacy are maintained even in potential partnerships or interoperability scenarios.",
+        "process_and_outcome": "Signal has faced no major privacy fines or enforcement actions. It received praise from privacy advocates and regulators, with integrations like Signal Protocol adopted by WhatsApp and others, demonstrating scalable privacy protections.",
+        "involved_parties": [
+            "Signal Messenger LLC",
+            "Electronic Frontier Foundation (EFF)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "CCPA",
+            "Signal Privacy Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google YouTube GDPR Children's Data Fine",
+        "example_background": "Google's YouTube platform was found to process personal data of children without proper parental consent for personalized advertising. The service collects viewing habits and behavioral data, which is licensed to advertisers. The platform did not adequately verify age or implement restrictions on data use for minors, leading to widespread profiling of young users whose anonymity was compromised through targeted ads.",
+        "process_and_outcome": "The Belgian Data Protection Authority fined Google \u20ac50 million in 2022, upheld after appeal. Additional investigations by other EU authorities followed, prompting YouTube to enhance age-gating and consent tools.",
+        "involved_parties": [
+            "Google LLC (YouTube)",
+            "Belgian Data Protection Authority (GBA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR (Articles 5, 6, 8)",
+            "Audiovisual Media Services Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "FTC vs. EverAlbum Facial Recognition Case",
+        "example_background": "EverAlbum, a photo-sharing app, collected facial recognition data from users' uploaded photos and public sources. The app performed facial scans to group and identify individuals without clear disclosure or consent. It used public content scraped from the internet to build facial profiles. In violation of FTC consent requirements and platform policies against unauthorized scraping, EverAlbum planned to sell access to its database. The company shut down shortly after FTC action but the case highlighted risks of using public content for facial recognition.",
+        "process_and_outcome": "The FTC settled with EverAlbum's founders in 2019, prohibiting future misrepresentations about data practices and requiring clear disclosures for any facial recognition use. No monetary penalty was imposed due to the company's closure, but it set precedents for consent in biometric data handling.",
+        "involved_parties": [
+            "EverAlbum Inc.",
+            "Federal Trade Commission (FTC)",
+            "App developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Section 5 (Unfair and Deceptive Practices)",
+            "Platform scraping prohibitions"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta Platforms Banned by Reddit for Data Scraping",
+        "example_background": "In 2023, Reddit blocked Meta Platforms (Facebook) from using its automated tools to scrape content for training AI models, including large language models. Reddit's robots.txt and terms of service explicitly prohibit scraping public content for such purposes without permission. Meta had been accessing Reddit data to build datasets for AI training, which involved profiling and segmenting user-generated content. This action came amid broader tensions over AI data usage.",
+        "process_and_outcome": "Reddit publicly announced the ban in June 2023, enforcing its API access policies. Meta negotiated a paid data deal later, but the initial block demonstrated enforcement of anti-scraping rules.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Meta Platforms (Facebook)",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Terms of Service",
+            "robots.txt standards",
+            "CFAA (Computer Fraud and Abuse Act)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "New York AG vs. Facebook Biometric Data Suit",
+        "example_background": "Facebook's photo-tagging feature 'Tag Suggestions' used facial recognition on user-uploaded photos and public content to automatically identify and suggest tags for individuals. This involved scanning public images without explicit opt-in consent for all users. The feature built facial profiles from platform data, drawing from public posts and shares. New York alleged violations of privacy laws due to undisclosed biometric data collection.",
+        "process_and_outcome": "In 2022, Facebook settled with the New York Attorney General for $650,000, agreeing to enhance disclosures and privacy controls for facial recognition features. The settlement did not admit wrongdoing but led to feature adjustments.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "New York Attorney General"
+        ],
+        "applicable_regulations_or_policies": [
+            "New York Civil Rights Law \u00a7\u00a7 50-52",
+            "Facebook Community Standards"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter (X) vs. Bright Data Scraping Lawsuit",
+        "example_background": "Bright Data, a web scraping company, collected public tweets and user data from Twitter using automated tools to create datasets for sale, including for AI training and analytics. Twitter's terms of service and developer policies restrict scraping public content for commercial redistribution or profiling purposes. The data included user posts for sentiment analysis and segmentation.",
+        "process_and_outcome": "Twitter sued Bright Data in 2023 for breach of contract and trespass. The case was dismissed in part by a California court in 2024 under Section 230 protections, but Twitter continued pursuing claims on terms violations.",
+        "involved_parties": [
+            "Twitter (X Corp)",
+            "Bright Data Ltd.",
+            "US District Court Northern District of California"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Terms of Service",
+            "Developer Policy",
+            "CFAA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "EU GDPR Enforcement Against Psychometric Profiling by Political Firms",
+        "example_background": "Following the Cambridge Analytica revelations, the Dutch DPA investigated political party use of online data for psychometric targeting, including psychographic segmentation based on public social media activity. Firms analyzed public posts for personality traits to target voters, often scraping data from platforms without adhering to consent rules.",
+        "process_and_outcome": "In 2020, the Dutch DPA fined the Christian Democratic Appeal party \u20ac150,000 for processing personal data including sensitive political opinions without proper basis, linked to profiling practices.",
+        "involved_parties": [
+            "Christian Democratic Appeal (CDA)",
+            "Dutch Data Protection Authority (DPA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 9 (sensitive data)",
+            "GDPR Article 22 (automated decision-making)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Illinois BIPA Violations by Clearview AI",
+        "example_background": "Clearview AI amassed a database of 30 billion facial images scraped from public internet sources, including news sites and social media, for facial recognition technology sold to clients. Illinois residents sued under BIPA for collecting biometric data without consent or disclosure notices, as required for public content-derived biometrics.",
+        "process_and_outcome": "In 2022, Clearview settled a class-action BIPA suit for $50 million, providing compensation to Illinois residents while denying liability. Ongoing litigation in other states continues.",
+        "involved_parties": [
+            "Clearview AI",
+            "Illinois plaintiffs",
+            "US District Court Northern District of Illinois"
+        ],
+        "applicable_regulations_or_policies": [
+            "BIPA (Biometric Information Privacy Act)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit API Data Harvesting by Pushshift",
+        "example_background": "Pushshift, a third-party service, archived and indexed vast amounts of Reddit public posts and comments spanning over a decade, creating a massive dataset used by researchers and developers. Reddit users and moderators raised concerns when it became evident that this data was being accessed and potentially repurposed without direct consent mechanisms from Reddit or individual users. The service combined Reddit data with other sources for analysis tools and applications.",
+        "process_and_outcome": "Reddit updated its API policies in 2023, charging for high-volume access and restricting data usage, which led Pushshift to limit new data collection. Legal discussions and community backlash ensued, but no major fines were imposed; Pushshift transitioned to mirrored data.",
+        "involved_parties": [
+            "Pushshift",
+            "Reddit Inc.",
+            "Reddit moderators and users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Data API Terms",
+            "GDPR (for EU users)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Clearview AI Scraping Social Media Images",
+        "example_background": "Clearview AI developed facial recognition technology by scraping billions of publicly available images from social media platforms including Facebook, Instagram, YouTube, and Venmo. The company built a database of over 30 billion images combined with metadata, which was sold to law enforcement and private entities for identification purposes without consent from the individuals or the platforms.",
+        "process_and_outcome": "Multiple investigations occurred, including by the FTC, Canadian Privacy Commissioner, and EU authorities. Clearview was fined \u20ac20 million by the French CNIL in 2022 and faced bans in several countries. The company continued operations in the US with ongoing lawsuits.",
+        "involved_parties": [
+            "Clearview AI",
+            "Facebook (Meta)",
+            "Instagram",
+            "FTC",
+            "CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "Illinois BIPA",
+            "FTC privacy guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "In re Facebook, Inc. Consumer Privacy User Files",
+        "example_background": "Facebook (now Meta) allowed third-party apps to access user data including friends' data without consent, similar to the Cambridge Analytica case. The company also integrated third-party data for ad targeting on public posts. This was part of broader practices where public content was combined with external datasets for personalized advertising.",
+        "process_and_outcome": "A 2022 California federal court approved a $725 million settlement in a class-action lawsuit. Facebook also faced separate $90 million settlements for tracking logged-out users.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "California federal court",
+            "Class action plaintiffs"
+        ],
+        "applicable_regulations_or_policies": [
+            "Video Privacy Protection Act",
+            "California privacy laws",
+            "Facebook Platform Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google YouTube Data and Age Tracking Settlement",
+        "example_background": "Google collected children's personal data via YouTube without parental consent, combining it with third-party data for targeted ads. Public videos were used alongside behavioral data to build profiles, violating policies on user consent for minors.",
+        "process_and_outcome": "The FTC settled in 2019 for $170 million, requiring Google to implement data deletion processes, parental consent mechanisms, and COPPA compliance measures across YouTube.",
+        "involved_parties": [
+            "Google LLC",
+            "FTC",
+            "New York Attorney General"
+        ],
+        "applicable_regulations_or_policies": [
+            "Children's Online Privacy Protection Act (COPPA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit's Official Data Partnerships",
+        "example_background": "Reddit entered into official data licensing agreements with companies like Google and OpenAI in 2024, allowing access to public content for AI training and advertising under controlled terms. These partnerships include revenue sharing and ensure data usage aligns with Reddit's policies, with explicit platform consent.",
+        "process_and_outcome": "Agreements were publicly announced, providing Reddit with $60 million upfront from Google and ongoing payments. No enforcement actions occurred as terms were mutually agreed upon.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Google",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Agreement",
+            "Reddit API Terms",
+            "GDPR"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Meta's Consent Mode for EU Users",
+        "example_background": "Following GDPR enforcement, Meta implemented Consent Mode, which adjusts ad tracking based on user consent choices in the EU. Public content on Facebook and Instagram cannot be combined with third-party data for targeting unless users opt-in, ensuring compliance with regional data protection standards.",
+        "process_and_outcome": "Rolled out in 2022 after \u20ac1.2 billion GDPR fine in 2023 for data transfers. The mode helps advertisers while respecting consent, avoiding further penalties.",
+        "involved_parties": [
+            "Meta Platforms Inc.",
+            "Irish Data Protection Commission (DPC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit Cooperation with Law Enforcement Data Requests",
+        "example_background": "Reddit publishes transparency reports detailing government requests for user data received throughout the year. These reports cover requests for information related to investigations into illegal activities such as child sexual abuse material, terrorism, and other crimes. In periods like the first half of 2023, Reddit received hundreds of such requests from various U.S. federal and state agencies, as well as international authorities. The platform processes these requests in accordance with its policies, providing user information including IP addresses, account details, and content when legally required after review. This practice aligns with standard industry procedures for handling legal demands while notifying users where possible unless prohibited by court orders. The transparency reports provide breakdowns by jurisdiction, request type, and compliance rates, showing Reddit's structured approach to balancing user privacy with legal obligations.",
+        "process_and_outcome": "Transparency reports are issued biannually, with Reddit complying with a significant portion of valid requests. For instance, in H1 2023, out of 200+ U.S. government requests, Reddit provided data in over 70% of cases after legal review. No penalties were imposed for these disclosures.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "U.S. Department of Justice",
+            "FBI",
+            "State Attorneys General",
+            "International law enforcement agencies"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stored Communications Act (18 U.S.C. \u00a7 2701-2712)",
+            "Reddit Transparency Report Policy",
+            "Electronic Communications Privacy Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Twitter (X) 2022 Transparency Report on Government Requests",
+        "example_background": "Twitter released a transparency report in 2022 documenting over 12,000 government requests for user information globally, primarily from the U.S., EU, and other regions for purposes including criminal investigations and national security. The platform reviewed each request for legal validity, providing account identifiers, content, and device information in cases where demands met legal standards. The report detailed compliance rates, such as 60% full disclosure for U.S. requests, and noted instances where requests were partially fulfilled or rejected. This disclosure practice continued post-acquisition by X Corp, emphasizing the platform's role in supporting law enforcement while publishing aggregated data on request volumes and outcomes.",
+        "process_and_outcome": "Twitter complied with valid requests after internal legal assessments, resulting in data provision to authorities without facing enforcement actions for these activities. Reports are publicly available for scrutiny.",
+        "involved_parties": [
+            "Twitter Inc. (X Corp)",
+            "U.S. Government",
+            "EU Member State Authorities",
+            "Indian Government"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stored Communications Act",
+            "EU ePrivacy Directive",
+            "Twitter Transparency Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Meta Platforms 2023 Law Enforcement Data Requests",
+        "example_background": "Meta's global transparency report for the first half of 2023 showed receipt of over 50,000 government requests for user data on Facebook and Instagram across platforms, mainly for surveillance and law enforcement investigations into serious crimes. Requests originated from countries like the U.S., India, and Brazil, seeking access to posts, messages, and account metadata. Meta conducts legal reviews, providing data such as IP logs and content when obligations are met, with compliance rates around 80-90% for U.S. requests. The company notifies users in most cases unless gagged by law, and publishes detailed statistics quarterly to inform public understanding of these interactions.",
+        "process_and_outcome": "Data was disclosed in line with legal requirements, with no regulatory penalties for compliance. Reports highlight ongoing refinements to request handling processes.",
+        "involved_parties": [
+            "Meta Platforms Inc.",
+            "U.S. Federal Bureau of Investigation",
+            "National Center for Missing & Exploited Children (NCMEC)",
+            "Foreign governments"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stored Communications Act",
+            "Meta Community Standards Enforcement Report",
+            "CLOUD Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Apple Transparency Report on Government Information Requests",
+        "example_background": "Apple's January-June 2023 transparency report detailed over 25,000 government requests worldwide for iCloud and Apple ID data, primarily from U.S. authorities for criminal and national security purposes. Requests included demands for device backups, location data, and push notification information. Apple reviews each for validity under U.S. and international law, providing available data with compliance rates exceeding 85% for emergency disclosures. The report categorizes requests by type, such as subpoenas and warrants, and notes Apple's advocacy for user notification except where prohibited, providing a window into how device and service data supports law enforcement operations.",
+        "process_and_outcome": "Apple fulfilled legally sufficient requests, issuing reports without incurring fines or sanctions for these disclosures.",
+        "involved_parties": [
+            "Apple Inc.",
+            "U.S. Department of Justice",
+            "State law enforcement",
+            "International authorities"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stored Communications Act",
+            "CALEA",
+            "Apple Government Information Requests Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "June 2023"
+    },
+    {
+        "example_name": "Google 2023 U.S. Government Surveillance Requests",
+        "example_background": "Google's transparency report for H1 2023 revealed over 40,000 U.S. government requests for user data from services like Search, YouTube, and Gmail, aimed at law enforcement and intelligence purposes. These included subpoenas for IP data and warrants for email content in investigations ranging from fraud to extremism. Google processes requests through its legal team, providing data in approximately 75% of cases after validation, and publishes disaggregated statistics on volumes, types, and outcomes. The reports also cover FISA orders under national security letters, with Google pushing for greater disclosure permissions.",
+        "process_and_outcome": "Compliance with valid demands proceeded without regulatory repercussions, with biannual public reporting.",
+        "involved_parties": [
+            "Google LLC",
+            "FBI",
+            "Foreign Intelligence Surveillance Court (FISC)",
+            "U.S. State Departments"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stored Communications Act",
+            "Foreign Intelligence Surveillance Act (FISA)",
+            "Google Transparency Report Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Microsoft 2022-2023 Law Enforcement Requests Disclosure",
+        "example_background": "Microsoft's Digital Trust Report for 2022-2023 documented receiving around 30,000 legal demands from governments for customer data across Azure, Office 365, and other services, primarily for criminal investigations and counter-terrorism. U.S. requests, the largest category, sought email content, account logs, and metadata. Microsoft reviews requests for compliance with legal standards like warrants, disclosing data in over 80% of validated cases while notifying customers unless barred. The report provides granular data by country and request category, illustrating the scale of data sharing with authorities.",
+        "process_and_outcome": "Requests were handled per policy, resulting in data provision and no enforcement actions against Microsoft for cooperation.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "U.S. Government agencies",
+            "EU Data Protection Authorities",
+            "NCMEC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stored Communications Act",
+            "CLOUD Act",
+            "Microsoft Law Enforcement Requests Report"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Yahoo Data Sharing with U.S. Intelligence Agencies",
+        "example_background": "In 2016, revelations emerged that Yahoo provided access to user email content for hundreds of millions of accounts to U.S. intelligence agencies under secret court orders. This involved scanning emails for specific selectors as part of PRISM and other surveillance programs. The disclosures came via leaks and subsequent reports, showing Yahoo's cooperation extended to real-time content interception for national security purposes. Following Verizon's acquisition, further details surfaced in transparency efforts, highlighting the extent of pre-encryption data availability to government entities.",
+        "process_and_outcome": "No direct fines for the disclosures, but contributed to broader scrutiny; Yahoo integrated into Verizon's reporting post-incident.",
+        "involved_parties": [
+            "Yahoo Inc.",
+            "NSA",
+            "Foreign Intelligence Surveillance Court",
+            "Verizon (acquirer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Foreign Intelligence Surveillance Act (FISA)",
+            "PRISM program",
+            "Stored Communications Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Discord 2023 Transparency Report on Legal Requests",
+        "example_background": "Discord's 2023 transparency report outlined over 800 U.S. government requests for user data related to child safety, threats, and other crimes, with data provided from voice, text, and server information. The platform received requests mostly from NCMEC and law enforcement for IP addresses and account details in exploitation cases. Discord reviews demands, complying with about 90% after legal checks, and emphasizes proactive reporting of illegal content while publishing stats on request handling.",
+        "process_and_outcome": "Data shared per legal obligations, supporting investigations without penalties to Discord.",
+        "involved_parties": [
+            "Discord Inc.",
+            "National Center for Missing & Exploited Children (NCMEC)",
+            "FBI",
+            "State law enforcement"
+        ],
+        "applicable_regulations_or_policies": [
+            "18 U.S.C. \u00a7 2258A (NCMEC reporting)",
+            "Stored Communications Act",
+            "Discord Transparency Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Snapchat Government Data Requests Compliance",
+        "example_background": "Snapchat's 2023 transparency report detailed around 5,000 U.S. legal requests for Snap Map location data, messages, and account info, primarily for criminal and emergency investigations. Requests often involved warrants for disappearing snaps preserved under legal holds. Snapchat provides data post-review, with high compliance for child safety cases, publishing quarterly stats on volumes and fulfillment rates to demonstrate operational transparency.",
+        "process_and_outcome": "Complied with valid requests, aiding law enforcement without facing sanctions.",
+        "involved_parties": [
+            "Snap Inc.",
+            "U.S. law enforcement",
+            "NCMEC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stored Communications Act",
+            "Snapchat Law Enforcement Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Reddit User Data Scraping by Meta Platforms",
+        "example_background": "In 2024, Meta Platforms faced multiple class-action lawsuits from Reddit users alleging unauthorized scraping and use of public Reddit content. Plaintiffs claimed that Meta collected vast amounts of publicly available Reddit posts and comments through automated tools to train its Llama AI models without obtaining explicit permission or providing compensation. The scraping involved billions of comments and interactions from Reddit communities, which were then incorporated into Meta's large language models. Reddit's robots.txt files and terms of service were cited as boundaries that were disregarded, leading to claims that this constituted unauthorized commercialization of user-generated content. The lawsuits highlighted how public forum data was repurposed for proprietary AI development, raising questions about consent and fair use of online public content.",
+        "process_and_outcome": "Reddit confirmed it sent preservation notices to Meta and Anthropic regarding data usage. Multiple lawsuits were filed in U.S. federal courts, including one in California seeking damages for over 83 million affected users. Cases are ongoing with discovery phases initiated, and Reddit has defended its position on public data access while pursuing legal remedies.",
+        "involved_parties": [
+            "Meta Platforms (defendant)",
+            "Reddit users (plaintiffs)",
+            "Reddit Inc. (platform owner)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Terms of Service",
+            "Reddit Content Policy on Data Usage",
+            "Computer Fraud and Abuse Act (CFAA)",
+            "California Consumer Privacy Act (CCPA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "OpenAI Reddit Data Usage Lawsuit",
+        "example_background": "Reddit filed a lawsuit against OpenAI and Microsoft in June 2024, accusing them of systematically scraping Reddit's public content without authorization for AI training purposes. OpenAI allegedly accessed Reddit through commercial API endpoints after Reddit restricted free access and began charging for data usage in 2023. The suit detailed how OpenAI ingested millions of Reddit posts, comments, and metadata to train models like GPT-4, despite Reddit's policies prohibiting such commercial exploitation. This incident underscored tensions between AI companies relying on public internet data and platforms seeking to monetize or control their content, especially as Reddit prepared for its IPO.",
+        "process_and_outcome": "Lawsuit filed in U.S. District Court in New York; OpenAI countered that public data is fair game under free speech principles. Negotiations led to a data licensing deal between Reddit and OpenAI in May 2024, allowing continued access under paid terms, though litigation persists on past usage.",
+        "involved_parties": [
+            "Reddit Inc. (plaintiff)",
+            "OpenAI (defendant)",
+            "Microsoft (defendant/co-defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Use",
+            "Reddit User Agreement",
+            "Copyright Act",
+            "Trespass to Chattels"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "June 2024"
+    },
+    {
+        "example_name": "Sarah Silverman vs. OpenAI and Meta",
+        "example_background": "Comedian Sarah Silverman and authors Richard Kadrey and Christopher Golden filed lawsuits against OpenAI and Meta in 2023, claiming their books and online content were scraped from public sources like Google Books and websites to train AI models such as GPT-4 and Llama. The suits detailed how entire books were ingested, leading to AI outputs that mimicked authors' styles and reproduced copyrighted passages. This reflected a pattern where publicly accessible creative works were used extensively for commercial AI without licensing, affecting authors' control over their intellectual property.",
+        "process_and_outcome": "Cases filed in California federal court; partial dismissals occurred for lack of standing on some claims, but core copyright infringement allegations proceeded to discovery. Meta and OpenAI defended on fair use grounds.",
+        "involved_parties": [
+            "Sarah Silverman et al. (plaintiffs)",
+            "OpenAI (defendant)",
+            "Meta Platforms (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Law",
+            "Google Books Terms",
+            "Author Guild Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "GitHub Copilot Copyright Infringement Cases",
+        "example_background": "In 2022, anonymous developers and the law firm Fiset Legal filed class-action lawsuits against GitHub, Microsoft, and OpenAI, alleging that GitHub Copilot AI generates code by scraping and reproducing licensed open-source code from public GitHub repositories without proper attribution or permission. Copilot was trained on billions of lines of public code, leading to outputs that directly copied from repositories under restrictive licenses like GPL, raising concerns over intellectual property in software development tools.",
+        "process_and_outcome": "Lawsuits consolidated in California; Microsoft moved to dismiss, citing fair use and open-source norms, but court allowed key claims to proceed in 2023. Ongoing litigation with developer community input.",
+        "involved_parties": [
+            "Anonymous developers (plaintiffs)",
+            "GitHub (defendant)",
+            "Microsoft (defendant)",
+            "OpenAI (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Terms of Service",
+            "GPL License",
+            "U.S. Copyright Law"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Reddit vs. Anthropic Data Scraping",
+        "example_background": "In 2024, Reddit issued a preservation notice and pursued action against Anthropic for scraping public Reddit content to train its Claude AI models. Anthropic allegedly bypassed Reddit's restrictions post-API pricing changes, using public posts and comments for commercial AI development without a licensing agreement, similar to patterns seen with other AI firms.",
+        "process_and_outcome": "Reddit demanded data deletion and pursued legal preservation; Anthropic negotiated access terms, leading to a licensing agreement allowing future use under paid conditions while past scraping remains under review.",
+        "involved_parties": [
+            "Reddit Inc. (complainant)",
+            "Anthropic (AI company)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Reddit API Terms",
+            "Copyright Law"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "hiQ Labs vs. LinkedIn Web Scraping",
+        "example_background": "hiQ Labs scraped public LinkedIn profiles to analyze employee turnover data and sell insights to clients. LinkedIn sued in 2017, claiming violation of its terms and CFAA by accessing public data via automated bots. The case examined whether public content on social platforms could be scraped for commercial purposes without violating platform policies.",
+        "process_and_outcome": "Ninth Circuit ruled in favor of hiQ in 2019 and 2022, finding no CFAA violation for public data; Supreme Court remanded but did not overturn. hiQ ceased operations in 2023 amid other pressures.",
+        "involved_parties": [
+            "hiQ Labs (defendant/appellant)",
+            "LinkedIn (plaintiff)",
+            "U.S. Ninth Circuit Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "LinkedIn User Agreement",
+            "Computer Fraud and Abuse Act (CFAA)",
+            "CFAA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "xAI Reddit Licensing Agreement",
+        "example_background": "xAI, founded by Elon Musk, signed a deal with Reddit in 2024 to access public content for training Grok AI models. The agreement complied with Reddit's updated policies requiring payment for commercial data usage, providing a framework for ethical sourcing of public forum data.",
+        "process_and_outcome": "Deal announced as part of Reddit's strategy to license data to AI firms; ensures attribution and revenue for Reddit while granting xAI rights to public posts.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "xAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Content Policy",
+            "Commercial Data API Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Reddit API Protests Monitoring by Companies",
+        "example_background": "In 2023, during widespread protests by Reddit moderators and users against paid API access changes, several corporations and marketing firms were observed scraping Reddit threads discussing the protests. Public posts from subreddits like r/ModCoord were collected to gauge sentiment, identify key influencers, and assess potential business impacts on Reddit's platform operations. This activity involved automated tools pulling data from open forums where users coordinated actions.",
+        "process_and_outcome": "Reddit's administrators issued statements reinforcing content policy enforcement, leading to subreddit quarantines and bans for some automated scraping accounts. No formal fines were imposed, but community backlash resulted in moderator resignations and temporary blackouts of major subreddits.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Third-party marketing firms",
+            "Moderator communities",
+            "r/ModCoord subreddit"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy (spam and harassment)",
+            "Reddit API Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Twitter Russian Troll Farm Operations",
+        "example_background": "The Internet Research Agency (IRA), a Russian entity, operated fake accounts on Twitter (pre-X) to post divisive content, spam targeted users, and harass political opponents during the 2016 US election. Public tweets were used to amplify messages, with bots and coordinated accounts interacting with real users to spread propaganda and monitor reactions to election-related events.",
+        "process_and_outcome": "US Senate Intelligence Committee investigations identified over 3,500 IRA-linked accounts. Twitter removed millions of such accounts and testified before Congress. Mueller Report detailed the activities, leading to indictments of IRA operatives, though enforcement was limited internationally.",
+        "involved_parties": [
+            "Internet Research Agency (Russia)",
+            "Twitter (X)",
+            "US Senate Intelligence Committee",
+            "Mueller Special Counsel"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Rules (platform manipulation)",
+            "Foreign Agents Registration Act (FARA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Meta Oversight Board's Hate Speech Moderation",
+        "example_background": "Facebook's independent Oversight Board reviewed cases involving public posts that targeted groups or events, establishing guidelines for content moderation. In one case, they assessed posts monitoring protest activities, recommending transparency in how public data informs platform decisions without targeted harassment.",
+        "process_and_outcome": "The Board upheld or overturned decisions in reviewed cases, leading to policy refinements. Facebook implemented changes to reduce automated monitoring of sensitive public events, enhancing user trust through public reports.",
+        "involved_parties": [
+            "Meta (Facebook)",
+            "Oversight Board",
+            "Content moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Community Standards",
+            "Transparency Center policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "New York Police Department Social Media Monitoring",
+        "example_background": "The NYPD's Domain Awareness System and social media unit collected public posts from platforms like Twitter and Facebook to track planned protests, such as Black Lives Matter rallies post-2014 Ferguson events. Officers monitored hashtags and public groups to anticipate gatherings and allocate resources.",
+        "process_and_outcome": "ACLU lawsuits challenged the practice as unconstitutional surveillance. A 2021 settlement required NYPD to delete certain databases and limit future monitoring to credible threats, with ongoing oversight by a monitor.",
+        "involved_parties": [
+            "New York Police Department",
+            "ACLU",
+            "City of New York"
+        ],
+        "applicable_regulations_or_policies": [
+            "First Amendment (US Constitution)",
+            "NYPD Social Media Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Reddit User Harassment via Doxxing Campaigns",
+        "example_background": "In various incidents, users and coordinated groups on Reddit shared public profile data to target individuals, such as in subreddits dedicated to exposing personal information from public posts. This included compiling data on activists from open threads about unions or rallies, leading to real-world harassment.",
+        "process_and_outcome": "Reddit banned offending subreddits like r/doxing and enforced sitewide rules, with transparency reports showing thousands of actions taken. Affected users reported incidents to authorities, resulting in some criminal charges for stalking.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Harassing users/groups",
+            "Law enforcement"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy (harassment)",
+            "US stalking laws"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter (X) Civic Integrity Policy Implementation",
+        "example_background": "X (formerly Twitter) introduced policies to handle public discourse around elections and protests, training teams to monitor for spam without targeting specific groups. Public reports detail how algorithmic adjustments prevented amplification of coordinated spam campaigns during sensitive events like US elections.",
+        "process_and_outcome": "The platform published quarterly reports showing reduction in policy-violating content by 40%, with partnerships for fact-checking. No major fines, but adjustments followed EU regulatory scrutiny.",
+        "involved_parties": [
+            "X Corp (Twitter)",
+            "EU regulators",
+            "Civic integrity team"
+        ],
+        "applicable_regulations_or_policies": [
+            "X Civic Integrity Policy",
+            "Digital Services Act (EU)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Palantir Technologies Activist Group Monitoring",
+        "example_background": "Palantir provided software to government clients that analyzed public social media data to track activities of activist organizations and protests, such as Occupy Wall Street and environmental groups. Public posts were ingested into dashboards for pattern recognition and event prediction.",
+        "process_and_outcome": "Investigations by media and NGOs led to contracts scrutiny; Amnesty International report criticized privacy risks. Palantir defended practices as legal, continuing operations with some client adjustments.",
+        "involved_parties": [
+            "Palantir Technologies",
+            "US government agencies",
+            "Amnesty International"
+        ],
+        "applicable_regulations_or_policies": [
+            "Fourth Amendment considerations",
+            "Palantir Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta GDPR Fines for Sensitive Data Processing",
+        "example_background": "In 2023, Meta Platforms Ireland Limited was fined \u20ac1.2 billion by the Irish Data Protection Commission (DPC) for transferring Facebook user data from the EU to the US without adequate safeguards following the invalidation of the Privacy Shield framework. The data included public posts and profile information that could reveal sensitive attributes such as political opinions, religious beliefs, health status inferred from posts, and sexual orientation based on group memberships or content shared. Meta's reliance on Standard Contractual Clauses was deemed insufficient to protect against US surveillance laws, affecting hundreds of millions of EU users whose public content was processed and potentially profiled for advertising.",
+        "process_and_outcome": "The Irish DPC issued the fine after a five-year investigation initiated by the 2018 Schrems II case. Meta appealed to Irish courts and plans further EU challenges. The company suspended new EU-US data transfers and implemented new tools under the EU-US Data Privacy Framework.",
+        "involved_parties": [
+            "Meta Platforms Ireland",
+            "Irish DPC",
+            "NOYB (privacy advocacy)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR (Articles 44-50 on transfers, Article 9 special categories)",
+            "EU Charter of Fundamental Rights"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Google YouTube GDPR Fine for Personalization",
+        "example_background": "Google was fined \u20ac50 million by France's CNIL in 2019 for lack of transparency in processing YouTube users' personal data for personalized advertising. The platform used public watch history, likes, and subscriptions to build profiles that included inferences about political interests, religious views from video topics, and other sensitive categories without clear consent mechanisms. Cookie consent banners were non-compliant, bundling consents improperly.",
+        "process_and_outcome": "CNIL investigation followed complaints; Google updated consent forms across Europe. No appeal succeeded, and Google paid the fine while implementing GDPR-compliant tools.",
+        "involved_parties": [
+            "Google LLC",
+            "France CNIL"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR (Articles 5, 6, 9, 83)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Microsoft Implementation of Sensitive Data Controls",
+        "example_background": "Microsoft Azure and Microsoft 365 services include built-in controls for detecting and restricting processing of sensitive personal information, such as health data, political affiliations, and biometric info, as per GDPR compliance features. Public customer data in services like Power BI is not used for unauthorized profiling, with policies prohibiting segmentation based on special categories unless explicitly configured with consent.",
+        "process_and_outcome": "Passed multiple GDPR audits with no major fines; certified under EU Cloud Code of Conduct. Customers report compliance in third-party audits.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "EU Data Protection Authorities"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR (Article 9)",
+            "ISO 27701 Privacy Information Management"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter (X) Political Ad Ban Policy",
+        "example_background": "In 2019, Twitter banned political advertising globally to prevent micro-targeting based on users' political affiliations inferred from public posts, follows, and interactions. This policy limits the use of public content for segmenting audiences by political beliefs, reducing risks of manipulation seen in prior elections.",
+        "process_and_outcome": "Policy remains in effect; reduced targeted political misinformation spread per studies. Platform faced revenue impacts but gained trust from watchdogs.",
+        "involved_parties": [
+            "Twitter (X Corp)",
+            "Election integrity researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Platform self-regulation",
+            "GDPR special categories"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Reddit r/The_Donald Subreddit Ban and Content Archiving",
+        "example_background": "In June 2020, Reddit administrators quarantined and subsequently banned the r/The_Donald subreddit due to repeated violations of content policies, including the promotion of violence and harassment. The subreddit had over 790,000 subscribers and hosted discussions that frequently crossed policy boundaries. Following the ban, third-party websites and services, such as Pushshift.io and Removeddit, continued to provide access to archived posts and comments originally deleted or removed by Reddit moderators or administrators for policy infractions. These archives preserved public content that users and Reddit had removed, allowing ongoing access to material deemed non-compliant with harassment, violence, or other content rules. Pushshift, a major data aggregator for Reddit, indexed billions of comments and submissions, including deleted ones, which researchers and others accessed for analysis long after removal.",
+        "process_and_outcome": "Reddit terminated its data-sharing agreement with Pushshift in June 2020, restricting API access to prevent further archiving of content. Pushshift ceased new data collection but maintained existing archives. Reddit implemented stricter API rules and rate limits. No formal fines were imposed, but the incident prompted Reddit to enhance content moderation tools and data control measures. Pushshift shifted to alternative data sources.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Pushshift.io",
+            "r/The_Donald moderators and users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Reddit API Terms of Use",
+            "Reddit User Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "June 2020"
+    },
+    {
+        "example_name": "Google Books Scanning of Deleted Public Domain Works",
+        "example_background": "Google launched the Google Books Library Project in 2004, partnering with libraries to scan millions of books, many of which contained public content later removed or deemed ineligible by rights holders or libraries for various policy reasons, including copyright claims post-scanning. The project digitized entire books without prior deletion checks, retaining copies of content that libraries or authors subsequently removed from public access. This included works where pages or sections were excised due to policy violations or owner requests after initial public availability. The scans preserved deleted public content indefinitely in Google's databases, accessible via search snippets even after removals.",
+        "process_and_outcome": "Authors and the Authors Guild filed a class-action lawsuit in 2005 (Authors Guild v. Google). In 2015, the U.S. District Court ruled in favor of Google, deeming the project fair use. The Supreme Court declined to hear an appeal in 2016. Google continued the project, with over 40 million books scanned, and implemented removal request processes.",
+        "involved_parties": [
+            "Google LLC",
+            "Authors Guild",
+            "Various university libraries"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Law",
+            "Fair Use Doctrine (17 U.S.C. \u00a7 107)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2004"
+    },
+    {
+        "example_name": "Internet Archive Open Library and Removed Public Content",
+        "example_background": "The Internet Archive's Open Library project scans and lends digital copies of millions of books, including public domain and copyrighted works. It has retained digital copies of books that publishers or libraries removed from circulation due to policy decisions, such as rights disputes or content guideline violations. For instance, after publishers requested removal of certain titles from lending catalogs, the Archive continued to display and provide access to previously public scans via its Wayback Machine and controlled digital lending system. This preserved content deleted for compliance with licensing or content policies, making it available to users worldwide.",
+        "process_and_outcome": "Publishers including Hachette, HarperCollins, Penguin Random House, and Wiley sued Internet Archive in 2020 (Hachette v. Internet Archive). The case alleged copyright infringement through unauthorized digital lending. In 2023, a U.S. District Court ruled largely against the Archive, finding no fair use for 127 works. The Archive appealed, and operations continued with modifications to lending practices.",
+        "involved_parties": [
+            "Internet Archive",
+            "Hachette Book Group",
+            "HarperCollins Publishers",
+            "Penguin Random House"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act of 1976",
+            "Digital Millennium Copyright Act (DMCA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Wayback Machine Archiving of Deleted Web Content",
+        "example_background": "The Internet Archive's Wayback Machine automatically crawls and archives public web pages since 1996, capturing over 800 billion pages. It retains snapshots of content that website owners or platforms delete for policy violations, such as terms of service breaches, hate speech removals, or legal takedowns. For example, when social media platforms like Twitter (now X) or Facebook remove posts for community guideline infractions, those deleted pages remain accessible via Wayback URLs, displaying the original public content verbatim, including images, text, and embeds that the original host had purged.",
+        "process_and_outcome": "Multiple lawsuits challenged archiving, such as Healthgrades.com v. Internet Archive (2009), where a court ordered removal of specific infringing pages but upheld general archiving as fair use. No blanket shutdown occurred; Wayback continues operating with DMCA takedown processes handling thousands of requests annually.",
+        "involved_parties": [
+            "Internet Archive",
+            "Various website owners",
+            "U.S. District Courts"
+        ],
+        "applicable_regulations_or_policies": [
+            "DMCA Safe Harbor (17 U.S.C. \u00a7 512)",
+            "Fair Use Provisions"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter Suspension Content via KWIC and Archives",
+        "example_background": "Academic projects like KWIC (Keyword-Internet Corpus) scraped and archived millions of public Twitter posts before and after account suspensions for platform policy violations, such as spam, abuse, or misinformation. Suspended accounts' tweets, deleted by Twitter upon enforcement, remained publicly queryable in these corpora. For instance, after high-profile bans in 2021, researchers accessed deleted content discussing elections or COVID-19, originally removed for violating Twitter's civic integrity or manipulation policies.",
+        "process_and_outcome": "Twitter (now X) restricted API access in 2021-2023, pressuring services to delete archives. KWIC researchers preserved datasets for academic use. No fines, but led to new data access policies under Elon Musk's ownership, including paid API tiers.",
+        "involved_parties": [
+            "Twitter Inc. (now X Corp)",
+            "KWIC Project researchers",
+            "Academic institutions"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Developer Agreement and Policy",
+            "Twitter Rules and Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Reddit's 2023 API Changes to Enforce Content Policy",
+        "example_background": "Reddit updated its API terms in 2023 to prevent third-party apps and services from accessing and displaying content removed for policy violations. Previously, apps like Apollo and data tools freely archived deleted posts. The changes required real-time compliance with content takedowns, ensuring removed public content was not displayed. This followed protests from moderators and users over commercialization but aligned with protecting policy enforcement.",
+        "process_and_outcome": "Third-party apps like Apollo shut down. Reddit launched its own apps and saw stock rise post-IPO. Usage of official app increased, with improved moderation tools integrated.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Third-party developers (e.g., Apollo)",
+            "Reddit moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Use",
+            "Reddit Content Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Twitter's 2022 Policy on Suspended Account Archives",
+        "example_background": "Prior to ownership changes, Twitter allowed limited access to suspended account archives but began enforcing deletion in 2022. New policies under X Corp mandated that partners and researchers delete copies of public content from suspended accounts, such as those removed for policy violations like platform manipulation. This ensured deleted tweets were not displayed externally.",
+        "process_and_outcome": "X Corp suspended academic API access temporarily in 2023, then reinstated with fees. Researchers complied by purging datasets. No major fines, but strengthened data control.",
+        "involved_parties": [
+            "X Corp (formerly Twitter)",
+            "Academic researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "X Developer Platform Agreement",
+            "X Rules"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "YouTube Content ID and Partner Takedown Compliance",
+        "example_background": "YouTube's Content ID system requires partners to remove or block videos flagged for policy violations, such as copyright or community guideline breaches. Partners who continue displaying removed public content face termination. YouTube enforces this by monitoring and suspending channels that retain access to deleted uploads, ensuring no ongoing display of infringing or violative material.",
+        "process_and_outcome": "Thousands of channels terminated annually for non-compliance. YouTube reports high partner adherence, with automated systems processing millions of claims yearly.",
+        "involved_parties": [
+            "YouTube (Google)",
+            "Content partners and creators"
+        ],
+        "applicable_regulations_or_policies": [
+            "YouTube Partner Program Policies",
+            "DMCA"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit Doxxing Incident Involving Taylor Swift Fan Page",
+        "example_background": "In September 2024, a Reddit user posted in a Taylor Swift fan subreddit sharing personal information including the real name, workplace, and photos of another user who had criticized the singer. The post remained online for several hours, accumulating views and comments before being removed. The targeted individual reported distress from the exposure, highlighting challenges in moderating public content on Reddit where users voluntarily share details in posts and comments. Reddit's response emphasized that such actions occur because the platform is public by design, and users control what they post.",
+        "process_and_outcome": "Reddit moderators deleted the post after it was flagged. The platform issued a statement reinforcing user responsibility for public content. No formal regulatory action occurred, but it sparked internal reviews of content moderation policies.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Taylor Swift fan subreddit moderators",
+            "Targeted Reddit user"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy on Harassment and Doxxing",
+            "Reddit User Agreement on Public Content"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "September 2024"
+    },
+    {
+        "example_name": "Subreddit Data Exposure via Pushshift.io",
+        "example_background": "Pushshift.io, a third-party service, archived and exposed Reddit comments from 2005 to 2017, revealing personal details like emails, phone numbers, and addresses shared by users in public posts. This affected millions of users who had posted publicly, demonstrating how content on Reddit remains accessible despite deletions due to the platform's public nature and third-party archiving practices. Users learned that once posted publicly, information could be scraped and redistributed.",
+        "process_and_outcome": "Reddit terminated Pushshift's API access in 2021. A class-action lawsuit was filed alleging privacy failures, settled with undisclosed terms. Reddit enhanced API restrictions to limit data scraping.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Pushshift.io",
+            "Affected Reddit users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Data API Terms",
+            "GDPR (for EU users)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2005"
+    },
+    {
+        "example_name": "r/The_Donald User Data Leak",
+        "example_background": "In 2019, a database containing over 1 million usernames, emails, and IP addresses from the r/The_Donald subreddit was leaked online. These details came from public posts and comments where users had shared identifiable information voluntarily. The incident underscored Reddit's public platform structure, where content shared openly becomes part of permanent records accessible beyond the site.",
+        "process_and_outcome": "Reddit banned r/The_Donald in June 2020 for repeated policy violations. The leak prompted user notifications and password reset recommendations. No fines were imposed.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/The_Donald subreddit users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "California Consumer Privacy Act (CCPA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Cambridge Analytica Reddit Data Harvesting",
+        "example_background": "During the 2016 US election, Cambridge Analytica collected public Reddit posts and comments to build psychographic profiles on millions of users. This was possible because Reddit content is public, and users choose to post identifiable details. The scandal revealed how public sharing on Reddit contributed to broader data misuse across platforms.",
+        "process_and_outcome": "UK investigations found Cambridge Analytica improperly used data. The firm ceased operations in 2018. Reddit was not directly fined but adjusted data access policies.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Cambridge Analytica",
+            "UK Information Commissioner's Office (ICO)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Use",
+            "EU General Data Protection Regulation (GDPR)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Reddit User Account Compromise and Public Post Exposure",
+        "example_background": "In 2020, hackers compromised thousands of Reddit accounts via credential stuffing, posting spam or personal details from public histories. Affected users had previously shared emails or other info in public comments, which aided attackers in linking accounts. This event illustrated the risks of public content persisting even after account security breaches.",
+        "process_and_outcome": "Reddit enforced two-factor authentication pushes and locked compromised accounts. Security audits were conducted, with no regulatory penalties.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Compromised Reddit users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Agreement",
+            "FTC Guidelines on Data Security"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Reddit's API Pricing Change and Data Privacy Discussions",
+        "example_background": "In 2023, Reddit announced paid API access to curb excessive data scraping of public posts, following third-party apps accessing user comments en masse. This affected developers relying on public data for tools like moderation bots, reinforcing that Reddit content is public and subject to platform controls on access.",
+        "process_and_outcome": "Widespread protests led to policy clarifications but no reversal. Reddit stock rose post-IPO despite backlash, with improved data governance.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Third-party app developers",
+            "Reddit user community"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms",
+            "CCPA"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "r/WallStreetBets GameStop Saga Public Information Sharing",
+        "example_background": "In January 2021, users in r/WallStreetBets publicly shared investment strategies, broker details, and personal trading experiences, driving GameStop stock volatility. Participants knowingly posted on a public forum, leading to mainstream media coverage and SEC scrutiny over market influence from public discussions.",
+        "process_and_outcome": "SEC investigated potential market manipulation but closed inquiries without charges. Reddit issued guidance on financial content rules.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/WallStreetBets users",
+            "U.S. Securities and Exchange Commission (SEC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "SEC Regulation on Market Manipulation",
+            "Reddit Content Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "January 2021"
+    },
+    {
+        "example_name": "Reddit's Transparency Report on Content Moderation",
+        "example_background": "Reddit publishes annual transparency reports detailing removals of public posts violating policies, such as harassment or spam. In 2023, over 12 million posts were actioned, showing proactive management of public content while upholding the platform's open nature where users decide posting choices.",
+        "process_and_outcome": "Reports demonstrate compliance efforts, with external audits validating processes. No major enforcement actions against Reddit.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Global regulators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Digital Services Act (EU)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "FTX Collapse Discussions on Reddit",
+        "example_background": "Following the 2022 FTX bankruptcy, users in r/cryptocurrency and r/FTXOfficial shared personal account details, transaction histories, and claims publicly to coordinate recovery efforts. This exposed sensitive financial information voluntarily on Reddit's public platform amid the scandal.",
+        "process_and_outcome": "Subreddits were quarantined temporarily. Bankruptcy proceedings referenced public Reddit discussions. Users advised caution post-incident.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "FTX users",
+            "U.S. Bankruptcy Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "SEC Crypto Regulations"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Taylor Swift Private Instagram Accounts Scraping",
+        "example_background": "In 2015, Taylor Swift maintained multiple private Instagram accounts containing personal photos and videos intended solely for viewing by approved followers. An individual accessed these accounts without authorization using Instagram's private API endpoints, downloading over 600 images. The content was shared publicly on websites and forums, prompting Swift to pursue legal action. This incident underscored challenges in protecting private social media content from unauthorized data extraction, even when users set accounts to private and limited visibility through platform controls. Instagram's API policies at the time permitted certain programmatic access, but private content was designated off-limits for public dissemination.",
+        "process_and_outcome": "Swift filed a lawsuit in federal court alleging breach of Instagram's terms, invasion of privacy, and misappropriation; the case settled out of court with an undisclosed agreement; the defendant removed the content; Instagram reinforced API access restrictions for private data.",
+        "involved_parties": [
+            "Taylor Swift",
+            "Instagram (Meta)",
+            "Defendant (individual scraper)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Instagram Terms of Use",
+            "Instagram Platform Policy",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Clearview AI Social Media Scraping Investigations",
+        "example_background": "Clearview AI developed facial recognition technology by compiling a database of over 30 billion images scraped from public social media profiles across platforms including Facebook, Twitter, and Instagram without explicit user consent or platform authorization. The company utilized automated tools to harvest publicly available profile pictures and other images posted openly on these sites. Multiple privacy regulators examined the practice, noting that while images were public, the scale of systematic collection and commercial repurposing raised issues under data protection frameworks. Social media companies issued cease-and-desist orders, arguing violation of terms prohibiting scraping for such purposes.",
+        "process_and_outcome": "UK ICO fined Clearview \u00a37.5 million, Italy's Garante issued a \u20ac20 million fine, Canada ordered deletion of data and fined CAD 1.2 million, multiple U.S. class actions ongoing, Clearview restricted sales to certain clients and updated compliance measures.",
+        "involved_parties": [
+            "Clearview AI",
+            "UK Information Commissioner's Office (ICO)",
+            "Facebook (Meta)",
+            "Twitter (X)",
+            "Various privacy regulators"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK GDPR",
+            "EU GDPR",
+            "Facebook Terms of Service",
+            "Twitter Developer Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter (X) Developer API Restrictions 2023",
+        "example_background": "Following Elon Musk's acquisition of Twitter in late 2022, the platform overhauled its API access model in early 2023, introducing tiered pricing starting at $100 per month for basic access and up to $42,000 monthly for enterprise levels. Previously, free API tiers supported research, bots, and third-party apps with generous rate limits. The changes aimed to generate revenue amid financial pressures and control data usage for AI training or commercial products. Academic researchers faced particular challenges, with many projects halted due to costs exceeding grant budgets, prompting petitions and public discourse on balancing platform sustainability with open data access.",
+        "process_and_outcome": "Twitter enforced the new pricing, numerous research projects paused or pivoted to alternatives, academic backlash led to temporary concessions like a $42,000 research tier later adjusted, platform usage shifted heavily to official apps.",
+        "involved_parties": [
+            "Twitter (X)",
+            "Developers and researchers",
+            "Elon Musk"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Developer Platform Terms",
+            "Twitter API Usage Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Facebook (Meta) Private Group Data Breach by Chtrbox",
+        "example_background": "In 2019, Indian influencer platform Chtrbox exploited a Facebook Graph API vulnerability to access analytics data from over 100,000 private Facebook Groups without administrator consent. The tool allowed collection of member lists, post interactions, and demographics from groups set to private visibility. Facebook's policy excludes private community data from broad API licensing or third-party access. The incident affected millions of users whose data was harvested for marketing purposes without notification.",
+        "process_and_outcome": "Facebook terminated Chtrbox's API access, deleted illicitly obtained data, notified affected group admins, conducted internal audit, and patched the API flaw; Chtrbox faced regulatory scrutiny in India.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "Chtrbox Technologies",
+            "Private Facebook Group administrators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Graph API Policy",
+            "Facebook Platform Terms",
+            "GDPR"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Reddit User and Moderator Protests Against Public Data Use",
+        "example_background": "In 2023, Reddit users and moderators protested the platform's data licensing deals with AI companies like Google and Anthropic, which utilized public Reddit posts for training large language models. Concerns arose over lack of opt-out mechanisms for individual posts contributed publicly, potential for content repurposing without compensation, and impacts on platform culture. Moderators of major subreddits like r/changemyview and r/AskReddit highlighted how public contributions fed into commercial AI without user control, echoing broader debates on social media data ownership.",
+        "process_and_outcome": "Protests involved subreddit restrictions and calls for private-only posting, Reddit introduced limited opt-out tools for future data use but not retroactively, deals proceeded generating millions in revenue, user migration to alternatives like Lemmy increased slightly.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Reddit moderators",
+            "AI companies (Google, Anthropic)",
+            "Reddit users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Agreement",
+            "Reddit Content Policy",
+            "Reddit Data Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Discord Private Server Data Access by Researchers",
+        "example_background": "Researchers have utilized Discord's API to study communication in private gaming servers, accessing message histories and member interactions with server owner permission but sometimes sharing aggregated data publicly. Discord's terms differentiate public from private servers, excluding the latter from broad data licensing. Incidents occurred where academic papers published insights from private servers without full anonymization, raising questions about consent and platform policy adherence.",
+        "process_and_outcome": "Discord reviewed and suspended some API keys, issued guidelines for research access, researchers revised publications or faced takedown requests, platform tightened private server API scopes.",
+        "involved_parties": [
+            "Discord Inc.",
+            "Academic researchers",
+            "Private Discord server owners"
+        ],
+        "applicable_regulations_or_policies": [
+            "Discord Developer Terms of Service",
+            "Discord Privacy Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitch Private Stream Clips Unauthorized Distribution",
+        "example_background": "Twitch streamers often set streams or clips to private or subscriber-only access, excluding them from public data pools. In 2021, third-party tools scraped and redistributed private VODs and clips on other platforms without streamer consent, violating Twitch's API and content policies that reserve private content for designated viewers only. This affected gaming influencers who relied on privacy controls for exclusive content.",
+        "process_and_outcome": "Twitch banned offending accounts and tools, enhanced API protections for private content, collaborated with DMCA takedowns, streamers received support for content removal.",
+        "involved_parties": [
+            "Twitch (Amazon)",
+            "Third-party clip aggregators",
+            "Twitch streamers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitch Developer Services Agreement",
+            "Twitch Terms of Service",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Twitter API Data Leak by Bright Data",
+        "example_background": "In 2023, cybersecurity researchers discovered that Bright Data, a data scraping company, had maintained access to Twitter's full historical archive of public tweets via a special API license since 2011. Despite Twitter's policies requiring licensees to honor user deletions of tweets and comply with content removal requests, Bright Data retained deleted tweets in its datasets. The datasets, containing billions of tweets including sensitive personal information, were available for purchase by clients in industries like AI training and market research. Twitter had provided compliance tools to automate deletions, but Bright Data continued offering datasets with deleted content, affecting users who believed their deleted posts were permanently removed from public circulation. The exposure highlighted challenges in enforcing data deletion across licensed third-party providers.",
+        "process_and_outcome": "Twitter terminated Bright Data's API access. Bright Data removed the datasets from sale and issued statements confirming compliance efforts. Researchers published findings, prompting Twitter to audit other licensees. No formal regulatory fines were imposed, but it led to enhanced API terms and monitoring.",
+        "involved_parties": [
+            "Twitter (X Corp)",
+            "Bright Data",
+            "Cybersecurity researchers at KELA and Hudson Rock"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Data Licensing Terms",
+            "EU GDPR Article 17 (right to erasure)",
+            "California Consumer Privacy Act (CCPA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Reddit Data API Protests and BlackCat Data Breach",
+        "example_background": "In June 2023, Reddit announced paid API access for third-party apps and data usage for AI training, leading to protests by moderators who blacked out subreddits. Concurrently, the BlackCat ransomware group claimed to have scraped 80% of Reddit's data trove, including deleted posts and comments, from publicly accessible BigQuery datasets used by licensees. Reddit's policy requires data licensees to stop using deleted content and provides tools for compliance, but the scraped data included items users had removed, which remained in third-party copies. The incident underscored limitations in guaranteeing deletion across unauthorized scrapers and licensees, as public datasets were not fully purged of deleted items despite policy mandates.",
+        "process_and_outcome": "Reddit investigated the breach claim, confirming some data exposure but no credentials compromised. BlackCat released samples but did not fully leak. Reddit adjusted API pricing, reached agreements with protesters, and enhanced data access controls. No fines were issued, but it prompted policy clarifications on deleted content handling.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "BlackCat (ALPHV) ransomware group",
+            "Reddit moderators and users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Content Policy",
+            "Reddit Data Licensing Terms",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "June 2023"
+    },
+    {
+        "example_name": "Twitter GDPR Fine for Data Retention",
+        "example_background": "In 2021, the Irish Data Protection Commission (DPC) investigated Twitter's handling of personal data from EU users. Twitter retained data from deleted accounts and tweets longer than necessary, providing it to third-party licensees despite deletion requests. Under GDPR, users have the right to erasure, analogous to platform deletion policies. Twitter's data licensing practices did not fully automate or enforce removal of deleted content from licensee datasets, affecting millions of users who deleted posts expecting permanent removal.",
+        "process_and_outcome": "The DPC fined Twitter 450,000 euros for GDPR violations related to data retention and processing. Twitter appealed but implemented improved deletion tools and licensee audits.",
+        "involved_parties": [
+            "Twitter",
+            "Irish Data Protection Commission (DPC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR Articles 5, 17 (storage limitation, right to erasure)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Google Privacy Sandbox for Data Deletion",
+        "example_background": "Google's Privacy Sandbox initiative, launched to phase out third-party cookies, includes mechanisms for publishers and licensees to honor user deletion signals from platforms. For data sourced from public web content, including social media, Sandbox APIs propagate deletion requests across federated systems, ensuring deleted posts are excluded from ad targeting datasets. This provides tools analogous to Reddit's compliance tools for licensees.",
+        "process_and_outcome": "Implemented in Chrome 2023, with pilot programs showing 95% deletion compliance rates among participants. Regulators monitored rollout under DMA compliance.",
+        "involved_parties": [
+            "Google",
+            "Publishers and ad tech firms",
+            "EU regulators"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU Digital Markets Act (DMA)",
+            "Google Privacy Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "LinkedIn GDPR Compliance Tools",
+        "example_background": "LinkedIn provides data licensees with automated feeds excluding deleted posts, profiles, and comments. Upon user deletion, content is purged from public APIs within 30 days and licensees notified via compliance dashboards to remove copies. This system was audited during GDPR enforcement, demonstrating adherence to right-to-erasure across partnerships.",
+        "process_and_outcome": "Passed multiple GDPR audits with no fines. LinkedIn published transparency reports showing 99% deletion propagation success.",
+        "involved_parties": [
+            "LinkedIn (Microsoft)",
+            "EU Data Protection Authorities"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR Article 17",
+            "LinkedIn Data Processing Addendum"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "TikTok Data Deletion Enforcement Against ByteDance",
+        "example_background": "TikTok faced scrutiny for retaining deleted videos and comments in datasets provided to Chinese parent company ByteDance affiliates. US states investigated after users reported deleted content appearing in analytics shared with licensees, violating platform policies on deletion.",
+        "process_and_outcome": "Multistate settlement in 2022 required $92 million payout and implementation of deletion compliance tools for partners. TikTok enhanced US data isolation.",
+        "involved_parties": [
+            "TikTok (ByteDance)",
+            "39 US State Attorneys General"
+        ],
+        "applicable_regulations_or_policies": [
+            "Biometric Information Privacy Act (BIPA)",
+            "Children's Online Privacy Protection Act (COPPA)",
+            "TikTok Community Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit User Data Deletion Requests Compliance",
+        "example_background": "Reddit maintains a policy allowing users to delete their accounts, which disassociates the account from public content shared on the platform. This process involves accessing account settings or the help center for instructions on permanent deletion. Upon deletion, user profiles and posts remain visible publicly but are no longer linked to the deleted account identifier. Reddit implemented this feature as part of its privacy controls to enable users to manage their digital footprint on the platform. The policy has been in place for years, with detailed guides in the help center explaining steps such as logging in, navigating to user settings, selecting 'deactivate account,' and confirming deletion. This mechanism supports user autonomy over personal data in compliance with data protection expectations. Reddit periodically updates its help articles to reflect any changes in the deletion process, ensuring accessibility for all users.",
+        "process_and_outcome": "Users successfully delete accounts daily without regulatory intervention. Reddit reports handling thousands of deletion requests annually, with no major enforcement actions related to this policy. The process results in account disassociation, and public content persists as per platform design.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Reddit users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Account Deletion Policy",
+            "GDPR Right to Erasure (partial)",
+            "CCPA Data Deletion Rights"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Facebook Cambridge Analytica Data Retention After Deletion",
+        "example_background": "In 2018, it emerged that Cambridge Analytica obtained personal data from millions of Facebook users through a third-party app developed by Aleksandr Kogan. The app collected data not only from users who installed it but also from their Facebook friends, totaling around 87 million profiles. Facebook's policies at the time allowed app developers access to friend data, but required deletion of data upon user request or app removal. Cambridge Analytica retained the data beyond deletion requests, using it for political advertising without consent. Facebook users who deleted the app or their accounts found their data still circulating externally. This incident highlighted gaps in data deletion enforcement, as Facebook did not verify third-party compliance with deletion protocols. The platform's account deletion process promised to remove user data from active systems, but public posts and associated data lingered in backups and third-party hands.",
+        "process_and_outcome": "U.S. Federal Trade Commission (FTC) investigated, leading to a $5 billion settlement with Facebook in 2019. The UK Information Commissioner's Office fined Facebook 500,000 pounds. Facebook agreed to overhaul privacy practices, including better oversight of third-party data handling and deletion verification. Cambridge Analytica ceased operations.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "Cambridge Analytica",
+            "FTC",
+            "ICO (UK regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5",
+            "GDPR",
+            "Facebook Data Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "TikTok GDPR Account Deletion Fines",
+        "example_background": "TikTok faced scrutiny in Europe for its handling of user account deletions under GDPR. Users deleting accounts expected complete removal of personal data, including videos, comments, and behavioral profiles used for recommendations. Investigations revealed TikTok retained data longer than necessary post-deletion, citing 'legal obligations' and backup retention periods up to 180 days. Children's data was particularly problematic, with deletions not fully propagating across global servers. The platform's deletion process involved a 30-day grace period where accounts could be reactivated, during which data remained intact. This led to complaints from privacy advocates about incomplete disassociation of accounts from public content like viral videos, which stayed online without user attribution after deletion.",
+        "process_and_outcome": "Ireland's Data Protection Commission fined TikTok 345 million euros in 2023 for violations including child data handling and deletion failures. Additional probes ongoing in other EU states resulted in operational changes to deletion timelines and transparency reports.",
+        "involved_parties": [
+            "TikTok (ByteDance)",
+            "Irish Data Protection Commission",
+            "EU users"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 17 (Right to Erasure)",
+            "GDPR Article 25 (Data Protection by Design)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter (X) User Account Deactivation Best Practices",
+        "example_background": "Twitter's account deletion policy allows users to deactivate accounts, initiating a 30-day period after which data is permanently deleted from active systems. Public tweets remain searchable and visible unless manually deleted prior to deactivation. The platform provides clear instructions in its help center, including warnings about data persistence in public archives and third-party caches. Following Elon Musk's acquisition in 2022, Twitter enhanced deletion confirmations and introduced options for bulk tweet deletion tools. This process disassociates the username from the account while preserving public content availability, aligning with platform transparency for open discourse. Users are informed that full erasure from the internet is not guaranteed due to external republishing.",
+        "process_and_outcome": "No major fines related to deletion policy. Twitter complies through annual transparency reports showing high volume of successful deletions. Policy updates in 2023 improved user experience without regulatory action.",
+        "involved_parties": [
+            "Twitter (X Corp)",
+            "Users",
+            "EU Data Protection Authorities"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Account Deactivation Policy",
+            "GDPR"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Snapchat Data Retention Post-Account Deletion",
+        "example_background": "Snapchat users delete accounts expecting removal of Snaps, Stories, and Memories from servers. A 2014 investigation by the U.S. FTC revealed Snapchat retained images of deleted Snaps on servers beyond the promised ephemeral nature, accessible via forensic tools. Account deletion took up to 30 days to fully process, during which data remained recoverable. Public Stories persisted in feeds even after account deletion unless set to private. The policy states deleted accounts disassociate usernames, but content shared publicly may remain in recipients' devices or caches. This led to concerns over incomplete data sanitization, especially for sensitive user-generated content.",
+        "process_and_outcome": "FTC settled with Snapchat in 2014, requiring 20 years of privacy program monitoring without direct fine. Snapchat updated deletion processes to shorten retention and enhance server wipes.",
+        "involved_parties": [
+            "Snapchat (Snap Inc.)",
+            "FTC"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Deceptive Practices",
+            "Snapchat Privacy Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Instagram Account Deletion Transparency",
+        "example_background": "Instagram's policy enables account deletion via app or web, disassociating the account from public posts, which remain visible unless deleted separately. The process includes a confirmation email and immediate profile hiding, with full data purge in 30-90 days. Help center articles detail steps and note that public content persists on the platform and external sites. Meta enhanced this in 2022 with 'Account Status' checks for deletion requests, addressing GDPR complaints. Users receive notifications about data download options before deletion, promoting informed choices. This setup balances user control with platform archival needs for Stories and Reels.",
+        "process_and_outcome": "Successful handling of deletion requests without significant fines. EU regulators acknowledged improvements post-GDPR audits in 2021, with no enforcement for deletion issues.",
+        "involved_parties": [
+            "Instagram (Meta)",
+            "Users",
+            "Irish DPC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Instagram Account Deletion Policy",
+            "GDPR"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "LinkedIn Data Deletion CCPA Violations",
+        "example_background": "LinkedIn faced California consumer complaints under CCPA for delaying account deletions. Users requesting deletion found profiles lingering in search results and connections' networks post-deletion. The policy promises data removal within 45 days, but backups retained identifiers longer. Public posts and profiles disassociate from accounts but remain indexed publicly. A 2020 class action alleged incomplete deletions enabled data broker scraping. LinkedIn's process requires verification via email, with public content preserved for professional networking continuity.",
+        "process_and_outcome": "LinkedIn settled CCPA-related claims in 2022 for $9.5 million, agreeing to streamline deletion and improve verification. No admission of wrongdoing, but process enhancements implemented.",
+        "involved_parties": [
+            "LinkedIn (Microsoft)",
+            "California AG",
+            "CCPA claimants"
+        ],
+        "applicable_regulations_or_policies": [
+            "California Consumer Privacy Act (CCPA)",
+            "LinkedIn User Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Discord Account Deletion Compliance",
+        "example_background": "Discord's policy allows server and account deletion, disassociating users from messages in public servers. Deletion process via user settings removes account data from active databases within days, but messages persist in channels unless manually erased by moderators. Help articles explain this distinction, noting public server content remains for community records. Following GDPR enforcement, Discord introduced data export and faster purges in 2021, with EU users seeing full compliance via privacy dashboard. The platform handles high-volume deletions for gaming communities without data linkage post-deletion.",
+        "process_and_outcome": "GDPR audits cleared Discord in 2022 with no fines. Transparency reports detail deletion metrics, showing adherence to timelines.",
+        "involved_parties": [
+            "Discord Inc.",
+            "EU Data Protection Authorities",
+            "Users"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "Discord Terms of Service and Privacy Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Tumblr Data Retention After Account Termination",
+        "example_background": "Tumblr users deleting accounts expect removal of blogs and posts. Policy states accounts deactivate immediately, with full deletion in 2-4 weeks, but public reblogs and caches persist externally. A 2019 Verizon Media review post-Yahoo acquisition found delayed server purges, leading to data exposure in breaches. Users reported profiles visible post-deletion due to CDN caching. The process disassociates usernames while keeping content public for reblog chains, with help center guidance on pre-deletion backups.",
+        "process_and_outcome": "No specific fines for deletion, but part of broader FTC scrutiny on Yahoo properties. Tumblr accelerated deletion to 7 days by 2020.",
+        "involved_parties": [
+            "Tumblr (Automattic/Verizon Media)",
+            "Users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Tumblr Account Deletion Policy",
+            "CCPA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "TikTok Children's Data Privacy FTC Fine",
+        "example_background": "TikTok's musical.ly app, acquired by ByteDance in 2017 and rebranded, collected personal information from children under 13 without verifiable parental consent. Between 2017 and 2019, the app gathered names, email addresses, phone numbers, precise location data, and biometric information (via face filters) from millions of U.S. child users. Features like direct messaging and profile creation were accessible without age gates, and persistent identifiers were used for tracking across sessions. The company failed to implement adequate age-screening or delete child data upon request, continuing collection even after parental complaints. This occurred despite prior warnings from the FTC following a 2019 settlement over similar issues.",
+        "process_and_outcome": "In 2019, the FTC imposed a record $5.7 million civil penalty on TikTok. The company was required to implement a comprehensive child privacy program, including age verification, data deletion mechanisms, and biannual audits. Additional state investigations followed.",
+        "involved_parties": [
+            "ByteDance Inc. (TikTok)",
+            "Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Children's Online Privacy Protection Act (COPPA)",
+            "FTC COPPA Rule"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    }
+]

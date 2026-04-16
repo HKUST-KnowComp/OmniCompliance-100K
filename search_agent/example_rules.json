@@ -1,0 +1,5 @@
+[
+    "Data must be encrypted in transit and at rest to meet security requirements",
+    "User consent must be explicitly obtained before collecting any personal information",
+    "Data retention periods must not exceed what is necessary for the stated purpose"
+]

@@ -1,0 +1,1551 @@
+[
+    {
+        "example_name": "hiQ Labs v. LinkedIn Scraping Case",
+        "example_background": "hiQ Labs used automated bots to scrape public LinkedIn profiles for data analytics services sold to clients, accessing data without using official APIs or embeds. LinkedIn's terms prohibited scraping, similar to Reddit's restrictions on automated access beyond approved methods like embeds. The case tested boundaries of public data access under CFAA.",
+        "process_and_outcome": "US Supreme Court declined to hear appeal in 2022, upholding Ninth Circuit ruling that public scraping does not violate CFAA; however, platforms enforced terms via cease-and-desist.",
+        "involved_parties": [
+            "hiQ Labs (scraper)",
+            "LinkedIn (platform)",
+            "US Ninth Circuit Court",
+            "US Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "LinkedIn User Agreement",
+            "Terms prohibiting scraping"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit API Pricing Enforcement 2023",
+        "example_background": "Reddit introduced paid API access tiers in 2023 to enforce its terms on data usage, following years of third-party apps and scrapers accessing content without compensation or adherence to rate limits. Previously, apps like Apollo used unofficial methods bypassing restrictions, prompting Reddit to align commercial use with its developer terms, which mirror embed policies by requiring compliance with access rules.",
+        "process_and_outcome": "Popular third-party apps like Apollo and Reddit is Fun shut down; Reddit stock rose post-announcement; ongoing developer compliance with new terms.",
+        "involved_parties": [
+            "Reddit Inc. (platform)",
+            "Apollo app developers",
+            "Pushshift (data aggregator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Use",
+            "Reddit Content Policy",
+            "Developer Distribution Agreement"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Twitter API Policy Changes Post-Musk",
+        "example_background": "After acquisition by Elon Musk in 2022, Twitter (now X) restricted free API access and introduced paid tiers to prevent unauthorized scraping and data use for AI training, similar to Reddit's embed and access restrictions. Academic and third-party developers faced new limits, enforcing compliance with terms that prohibit non-approved automated access.",
+        "process_and_outcome": "Many bots and apps deactivated; X enforced via suspensions; revenue from API subscriptions increased.",
+        "involved_parties": [
+            "X Corp (formerly Twitter)",
+            "Third-party developers",
+            "Academic researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "X Developer Agreement",
+            "X API Rules",
+            "Terms of Service on automation"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "New York Times v. OpenAI Copyright Scraping",
+        "example_background": "OpenAI trained GPT models on vast internet datasets including articles scraped from news sites without permission, prompting lawsuits alleging violation of terms of service on many platforms. Reddit content was also implicated in training data, where policies limit use to approved embeds or APIs.",
+        "process_and_outcome": "NYT filed lawsuit in Dec 2023; ongoing discovery; multiple publishers joined similar actions against AI firms.",
+        "involved_parties": [
+            "The New York Times (plaintiff)",
+            "OpenAI (defendant)",
+            "Microsoft (partner)",
+            "Reddit (implicated platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "US Copyright Law",
+            "Platform terms of service",
+            "Reddit Content Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta Embed Compliance in Facebook Instant Articles",
+        "example_background": "Facebook developed Instant Articles with embed features from partners like Reddit, ensuring all usage adhered to source platform terms, rate limits, and content policies. This allowed seamless sharing while respecting restrictions on data access and display.",
+        "process_and_outcome": "Program ran successfully from 2015-2022; transitioned to web previews without incidents; praised for policy adherence.",
+        "involved_parties": [
+            "Meta (Facebook)",
+            "Reddit (content partner)",
+            "Publisher partners"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "Facebook Partner Guidelines",
+            "Content usage policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google News Embed Practices",
+        "example_background": "Google News uses approved embeds and APIs from publishers including Reddit to display snippets and links, complying with robots.txt, rate limits, and terms that restrict full content scraping or unauthorized access.",
+        "process_and_outcome": "Ongoing compliance; avoided major lawsuits unlike aggregators; partnerships renewed regularly.",
+        "involved_parties": [
+            "Google",
+            "Reddit",
+            "News publishers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit robots.txt",
+            "Publisher terms",
+            "EU Digital Services Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Chegg Data Scraping Incident",
+        "example_background": "Chegg, an online education platform, experienced unauthorized access to its content through automated scraping methods. Third-party services and apps extracted study materials, questions, and solutions from Chegg's website by bypassing structural elements and injecting scripts to capture data not intended for external display or embedding. This occurred over several months in 2022, affecting millions of resources and leading to widespread redistribution on competing platforms. The process involved tools that altered page rendering to systematically harvest information, disrupting Chegg's content control mechanisms.",
+        "process_and_outcome": "Chegg identified the scraping patterns through traffic analysis and pursued legal action in federal court. The company obtained injunctions against multiple defendants and pursued damages for breach of terms of service and copyright infringement. Settlements were reached with some parties, and ongoing monitoring was implemented.",
+        "involved_parties": [
+            "Chegg Inc.",
+            "Various scraping services and app developers",
+            "U.S. District Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Chegg Terms of Service (anti-scraping provisions)",
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Copyright Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Twitter API ToS Embed Modifications (2019)",
+        "example_background": "Developers of a third-party analytics app integrated Twitter's embedded timelines and tweets into their dashboard. To customize the appearance for branding purposes, the app's code removed Twitter's attribution links, altered CSS styles on embed elements, and disabled interactive features like reply buttons. This modification occurred to fit the app's interface design, affecting thousands of users who relied on the app for social media monitoring between 2018 and 2019.",
+        "process_and_outcome": "Twitter's enforcement team detected the changes via automated audits and manual reviews. The app received multiple warnings, followed by suspension of API access. The developers appealed but ultimately discontinued the modified embeds after negotiations.",
+        "involved_parties": [
+            "Twitter Inc. (now X)",
+            "Third-party analytics app developer",
+            "Twitter Developer Platform team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Developer Agreement (embed policies)",
+            "Twitter Display Requirements"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "YouTube Embedded Player Tampering Case",
+        "example_background": "A web application providing video playlists modified YouTube's iframe embeds by injecting JavaScript to remove branding overlays, player controls, and related video thumbnails. This was done to create a seamless, ad-free viewing experience within the app's custom player interface. The modifications affected embeds from thousands of videos, used by the app's user base starting in 2020, and circumvented YouTube's standard player behaviors.",
+        "process_and_outcome": "YouTube's systems flagged irregular embed usage patterns. The app was demonetized, and developers received cease-and-desist notices. Legal proceedings resulted in a settlement where the app reverted to unmodified embeds and paid licensing fees.",
+        "involved_parties": [
+            "Google LLC (YouTube)",
+            "Playlist app developer",
+            "YouTube Partner Program"
+        ],
+        "applicable_regulations_or_policies": [
+            "YouTube Embed Guidelines",
+            "YouTube Terms of Service",
+            "iframe API policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Reddit API Third-Party Client Suspension (2023)",
+        "example_background": "Popular third-party Reddit clients like Apollo modified embedded content displays pulled via Reddit's API, which included altering visible post elements, removing attribution footers, and disabling upvote/downvote interactions in aggregated feeds. These changes were implemented to streamline mobile experiences and add custom themes, impacting millions of users during a period of API pricing changes in mid-2023.",
+        "process_and_outcome": "Reddit enforced its API terms, leading to protests and client shutdowns. Apollo's developer ceased operations after failing to meet new terms, while Reddit adjusted policies post-incident to clarify embed and data usage.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Apollo developer (Christian Selig)",
+            "Other third-party clients"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Use",
+            "Reddit Content Policy (data usage)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Disqus Comment Embed Alteration Enforcement",
+        "example_background": "A news website customized Disqus comment embeds by hiding the Disqus logo, modifying thread styling via CSS overrides, and disabling certain moderation tools visible in the embed. This was to match the site's design language and occurred across hundreds of pages from 2017 to 2021.",
+        "process_and_outcome": "Disqus support notified the site of violations during a routine compliance check. After non-compliance, embed functionality was restricted for the domain until corrections were made.",
+        "involved_parties": [
+            "Disqus Inc.",
+            "News website operator"
+        ],
+        "applicable_regulations_or_policies": [
+            "Disqus Embed Customization Guidelines",
+            "Disqus Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "WordPress Embed Block Compliance Guide Implementation",
+        "example_background": "A major WordPress theme developer released plugins supporting oEmbed standards for platforms like Twitter, YouTube, and Reddit. The themes rendered embeds without altering visible elements, preserving all branding, controls, and interactive features as specified by the providers. This practice was adopted across thousands of sites since 2019, ensuring seamless integration.",
+        "process_and_outcome": "No enforcement actions occurred; the approach received positive feedback from embed providers and contributed to WordPress's reputation for standards compliance.",
+        "involved_parties": [
+            "Automattic (WordPress)",
+            "Twitter, YouTube, Reddit (embed providers)"
+        ],
+        "applicable_regulations_or_policies": [
+            "oEmbed Specification",
+            "WordPress Embed Block guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "New York Times Social Embed Standards",
+        "example_background": "The New York Times integrated Reddit and Twitter embeds into articles using unmodified iframe code, displaying all original elements including attribution, timestamps, and interaction buttons. This maintained transparency and user experience consistency across digital publications since 2018.",
+        "process_and_outcome": "Internal audits confirmed adherence, avoiding any platform-side issues or warnings from content providers.",
+        "involved_parties": [
+            "The New York Times",
+            "Reddit Inc.",
+            "Twitter Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Policy",
+            "Twitter Embeds Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "BBC News Third-Party Content Embeds",
+        "example_background": "BBC News websites used standard embeds from YouTube, Instagram, and similar services without CSS modifications or JavaScript interventions that obscured logos or controls. All visible data elements remained intact, supporting accurate content sourcing for global audiences over the past decade.",
+        "process_and_outcome": "Compliance was verified through regular digital standards reviews, with no incidents reported.",
+        "involved_parties": [
+            "BBC",
+            "YouTube, Instagram, Reddit"
+        ],
+        "applicable_regulations_or_policies": [
+            "BBC Editorial Guidelines (third-party content)",
+            "oEmbed standards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "LinkedIn Embed Policy Enforcement (2021)",
+        "example_background": "A career analytics dashboard app altered LinkedIn post embeds by removing profile badges, connection prompts, and resizing frames to fit compact views. This affected data from professional networks displayed to enterprise clients from 2020 to 2021.",
+        "process_and_outcome": "LinkedIn suspended the app's embed access following a terms violation report. The developer updated to compliant rendering after remediation.",
+        "involved_parties": [
+            "LinkedIn Corporation",
+            "Career analytics app"
+        ],
+        "applicable_regulations_or_policies": [
+            "LinkedIn Developer Terms (embeds)",
+            "Profile API policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Embedly Unauthorized Reddit Content Embedding",
+        "example_background": "Embedly, a service providing oEmbed and embedding capabilities for various platforms, incorporated Reddit content into its embedding service without explicit permission from Reddit. This allowed websites and apps to display Reddit posts and comments via Embedly's API, effectively making Reddit user content visible across numerous third-party sites. The practice raised concerns as it extended beyond direct, approved uses and involved caching and displaying Reddit data in ways that Reddit's embedding policies intended to restrict to specific, approved applications. Reddit's policy explicitly limits embeds to making user content visible on apps with prior approval and prohibits uses that could indirectly monetize or distribute access to Reddit services.",
+        "process_and_outcome": "Reddit terminated Embedly's access to its oEmbed endpoint in 2016, blocking further embedding of Reddit content. Embedly challenged the decision publicly but ultimately ceased Reddit embeds after negotiations failed.",
+        "involved_parties": [
+            "Embedly (embedding service provider)",
+            "Reddit Inc. (platform owner)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embedding Policy",
+            "Reddit API Terms of Use"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Apollo App Reddit Data Overuse",
+        "example_background": "Apollo, a popular third-party Reddit client app for iOS developed by Christian Selig, utilized Reddit's API extensively to fetch and display user content, including embeds and data streams. Over time, the app's high usage volume and features that mirrored core Reddit services, such as search and content discovery, led to scrutiny. Reddit's policies restrict embeds and data access to non-commercial mirroring or approved visibility purposes, prohibiting uses that replicate or facilitate broad access to Reddit services without permission. Apollo's model involved direct monetization through app store purchases, raising issues with unauthorized facilitation of Reddit data access.",
+        "process_and_outcome": "Following Reddit's API policy changes in 2023, Apollo was forced to shut down due to unsustainable costs from rate-limited API access. Selig publicly discussed the challenges of compliance with Reddit's evolving embed and data policies.",
+        "involved_parties": [
+            "Apollo (Christian Selig)",
+            "Reddit Inc.",
+            "Apple App Store"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms",
+            "Reddit Data Policy",
+            "Reddit Embedding Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit API Revolt and Third-Party App Restrictions",
+        "example_background": "In 2023, Reddit announced significant changes to its API pricing and access rules, which included stricter enforcement of embedding and data usage policies. Numerous third-party apps and services, such as those providing alternative front-ends or embed-heavy tools, had been using Reddit's oEmbed endpoints and data feeds to display content on external platforms. These uses often went beyond merely making user content visible and included features that effectively sold or facilitated paid access to Reddit-like experiences, contravening Reddit's rules requiring prior written approval for such purposes.",
+        "process_and_outcome": "Reddit enforced the changes, leading to the shutdown of many apps including RIF, Infinity, and others. Protests occurred with blackouts across subreddits, and Reddit proceeded with paid API tiers while blocking unauthorized embeds.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Third-party developers (RIF, Apollo, etc.)",
+            "Reddit moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit API Terms of Use",
+            "Reddit Embedding Policy",
+            "Reddit Data API Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Quora Embedly Reddit Content Dispute",
+        "example_background": "Quora integrated Embedly's services to embed content from various sources, including Reddit posts, across its question-and-answer platform. This allowed Reddit user-generated content to be displayed inline within Quora answers and discussions, enhancing visibility but operating without specific approval from Reddit for such cross-platform use. Reddit's policy delineates that embeds are solely for making content visible on the embedding app and explicitly bars their use in contexts that could promote or enable sales of access to Reddit data or services.",
+        "process_and_outcome": "Embedly's broader ban from Reddit in 2016 impacted Quora's ability to embed Reddit content seamlessly, prompting Quora to adjust its embedding practices and rely less on Reddit-sourced embeds.",
+        "involved_parties": [
+            "Quora Inc.",
+            "Embedly",
+            "Reddit Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embedding Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Snapchat Discover Unauthorized Reddit Embeds",
+        "example_background": "Snapchat's Discover feature partnered with publishers to display content, occasionally incorporating Reddit embeds or content previews without direct approval for such integrations. This practice made Reddit user content visible within Snapchat's ecosystem, but extended into promotional contexts that could be seen as facilitating broader access to Reddit services through Snapchat's user base, potentially for monetized discovery.",
+        "process_and_outcome": "Reddit restricted such unauthorized uses through API controls, leading Snapchat publishers to remove or replace Reddit embeds to comply with platform policies.",
+        "involved_parties": [
+            "Snapchat (Snap Inc.)",
+            "Reddit Inc.",
+            "Media publishers on Discover"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embedding Policy",
+            "Reddit API Terms"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Official Reddit Mobile App Embed Compliance",
+        "example_background": "Reddit's own official iOS and Android apps utilize embeds and previews for user content strictly within the app environment. These embeds serve to make posts, comments, and media visible directly to users on the platform, adhering to the policy's allowance for such purposes without extending to external sales or unauthorized data access facilitation.",
+        "process_and_outcome": "The app continues to operate without restrictions, serving as a model for policy-compliant embedding within approved contexts.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Reddit users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embedding Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Discord Approved Reddit Embeds",
+        "example_background": "Discord, a communication platform, supports Reddit embeds through official oEmbed integration, allowing users to paste Reddit links that preview posts and images directly in channels. This implementation is limited to making user content visible within Discord servers, without features that sell access to Reddit services or data, and operates under Reddit's approved embedding guidelines.",
+        "process_and_outcome": "The integration remains active and supported, with no enforcement actions taken by Reddit.",
+        "involved_parties": [
+            "Discord Inc.",
+            "Reddit Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embedding Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter (X) Reddit Embed Restrictions",
+        "example_background": "Twitter historically allowed Reddit link previews and embeds in tweets, displaying content snippets to users. However, following policy enforcement, Reddit blocked such embeds on Twitter due to concerns over unauthorized use beyond simple visibility, particularly in a context where Twitter's algorithms could promote or monetize Reddit content indirectly.",
+        "process_and_outcome": "Reddit ceased providing oEmbed data to Twitter in 2016 as part of broader third-party restrictions, requiring users to access Reddit directly.",
+        "involved_parties": [
+            "Twitter (X Corp.)",
+            "Reddit Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embedding Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit v. r/place Advertiser Incident",
+        "example_background": "During Reddit's r/place community art event in April 2022, participants collaborated to create pixel art on a shared canvas. Several companies, including cryptocurrency projects and brands, directed users to build their logos or advertisements on the canvas. Reddit staff intervened multiple times to erase these corporate designs, noting that the event was intended for non-commercial community creativity. One prominent example involved a Bitcoin-related entity attempting to embed promotional imagery, which was undone by Reddit moderators and community efforts. This occurred amid high user engagement, with over 1 million participants contributing pixels.",
+        "process_and_outcome": "Reddit administrators manually reset sections of the canvas containing unauthorized commercial content. No formal fines were issued, but Reddit publicly reinforced event rules against advertising. The incident highlighted enforcement challenges during large-scale events.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Various advertisers (e.g., crypto projects)",
+            "Reddit moderators and users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Reddit Advertising Policy",
+            "r/place Event Rules"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "April 2022"
+    },
+    {
+        "example_name": "Volkswagen Fake Endorsement Campaign",
+        "example_background": "In 2016, Volkswagen ran a social media campaign featuring altered screenshots from Reddit threads to suggest that users endorsed their Dieselgate-affected vehicles. The images implied community support for the company's emissions technology, using Reddit's embed feature to display seemingly organic user posts in paid advertisements across platforms. This occurred post the emissions scandal revelation, during efforts to rebuild brand image amid widespread criticism.",
+        "process_and_outcome": "Reddit users identified and reported the misleading embeds. Reddit removed the violating ads upon notification. Volkswagen faced public backlash and additional scrutiny from consumer protection authorities, though no specific fine tied directly to this incident.",
+        "involved_parties": [
+            "Volkswagen",
+            "Reddit Inc.",
+            "Reddit user community"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Advertising Standards",
+            "FTC Endorsement Guidelines",
+            "Lanham Act (false advertising)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Burger King Reddit Ads Guideline Compliance",
+        "example_background": "Burger King launched a 2019 Reddit advertising campaign promoting their plant-based Impossible Whopper. The ads used Reddit's native ad formats with clear 'Promoted' labels and avoided embedding user-generated subreddit content or implying endorsements from communities. Creative elements included subreddit-themed visuals created by BK's team, ensuring no unauthorized use of rightsholder content.",
+        "process_and_outcome": "The campaign ran successfully without complaints or takedowns. It achieved high engagement rates and served as a case study in Reddit's advertiser resources for compliant native advertising.",
+        "involved_parties": [
+            "Burger King",
+            "Reddit Inc.",
+            "r/BurgerKing subreddit moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Advertising Policy",
+            "Reddit Content Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Crypto Scam Embed Abuse on Reddit",
+        "example_background": "In 2021, multiple cryptocurrency scams utilized Reddit embeds of user posts from r/cryptocurrency and similar subreddits in phishing sites and Telegram ads. These embeds displayed seemingly authentic discussions to lure users into fake investment schemes, implying community endorsement without permission from post authors or subreddit moderators.",
+        "process_and_outcome": "Reddit's Trust and Safety team collaborated with subreddit moderators to report embeds to hosting platforms. Several scam sites were taken down, and Reddit issued guidance on embed misuse. Affected users reported losses, leading to FTC complaints.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Scam operators",
+            "Subreddit moderators",
+            "FTC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Reddit Embed Guidelines",
+            "FTC Deceptive Advertising Rules"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Old Spice Reddit Sponsored Content",
+        "example_background": "Procter & Gamble's Old Spice brand conducted a 2018 Reddit campaign featuring sponsored posts in r/videos and r/funny. All content was original video scripts performed by actors, with prominent disclosures. No user content embeds were used, and subreddit rules were followed by obtaining mod permissions for sticky promotions.",
+        "process_and_outcome": "Campaign generated millions of views and positive feedback. No violations reported, positioning it as an example in Reddit's best practices for brands.",
+        "involved_parties": [
+            "Procter & Gamble (Old Spice)",
+            "Reddit Inc.",
+            "Subreddit moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Advertising Policy",
+            "FTC Native Advertising Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "r/WallStreetBets Meme Stock Ad Misuse",
+        "example_background": "During the 2021 GameStop stock surge, financial services firms including Robinhood competitors embedded r/WallStreetBets posts in their promotional materials to capitalize on the meme stock hype. Ads displayed user comments implying endorsement of their trading platforms, without securing permissions from post rightsholders or subreddit administrators.",
+        "process_and_outcome": "Reddit issued takedown notices for unauthorized embeds. Public outcry from the subreddit community led to ad platform removals. Firms faced SEC inquiries into promotional practices.",
+        "involved_parties": [
+            "Various trading apps (e.g., Webull)",
+            "Reddit Inc.",
+            "r/WallStreetBets moderators",
+            "SEC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Reddit Advertising Standards",
+            "SEC Advertising Regulations"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Reddit Official Embed Best Practices Guide",
+        "example_background": "Reddit published detailed guidelines in 2020 for advertisers on proper embed usage, emphasizing requirements for explicit permissions from content creators before featuring user posts in ads. The policy includes examples of compliant vs. non-compliant implementations, used in advertiser onboarding and training sessions.",
+        "process_and_outcome": "Adoption of the guidelines reduced violation reports by 40% per Reddit's internal metrics. Serves as an industry standard referenced by marketing agencies.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Reddit advertisers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Advertising Policy",
+            "Reddit Embed Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Influencer Brand Reddit Embed Violation",
+        "example_background": "Fitness influencer David Laid featured Reddit embeds of r/Fitness user transformation posts in a 2022 sponsored Instagram ad for a supplement brand. The embeds suggested product endorsement by the subreddit community without obtaining permissions from individual posters or subreddit leadership.",
+        "process_and_outcome": "r/Fitness moderators contacted Reddit and the brand, leading to ad removal. Influencer issued an apology, and the incident was cited in FTC influencer disclosure enforcement discussions.",
+        "involved_parties": [
+            "David Laid",
+            "Supplement brand",
+            "Reddit Inc.",
+            "r/Fitness moderators",
+            "FTC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "FTC Endorsement Guides"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Duolingo Compliant Reddit Partnership",
+        "example_background": "Duolingo partnered with Reddit in 2023 for a co-branded campaign in language learning subreddits. Ads used custom illustrations mimicking subreddit styles but contained no user content embeds. Permissions were secured from mods for themed takeovers, with all promotions clearly labeled.",
+        "process_and_outcome": "Campaign boosted app downloads by 25% in target demographics. Praised by Reddit as a model for subreddit collaborations.",
+        "involved_parties": [
+            "Duolingo",
+            "Reddit Inc.",
+            "Language subreddit moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Advertising Policy",
+            "Subreddit Custom Rules"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Twitter API Policy Enforcement Against Aggregators",
+        "example_background": "Twitter (now X) terminated API access for multiple third-party apps and services, including news aggregators like AP News and Sportsnet, which were found to exceed the permitted non-commercial, display-only usage under Twitter's Developer Agreement. These services had been embedding or republishing Twitter content extensively on their sites, often for commercial purposes, without obtaining explicit licenses for broader redistribution. The Developer Agreement granted revocable access strictly limited to approved scopes, mirroring Reddit's non-exclusive, non-transferable license terms.",
+        "process_and_outcome": "Twitter enforced its policies by revoking API keys and demanding compliance or cessation. Affected parties either shut down features, negotiated paid access, or migrated away, with no further public litigation but widespread industry impact.",
+        "involved_parties": [
+            "Twitter Inc. (now X)",
+            "AP News",
+            "Sportsnet",
+            "Other third-party developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Developer Agreement and Policy",
+            "Terms of Service API usage restrictions"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "New York Times vs. OpenAI Data Usage Lawsuit",
+        "example_background": "The New York Times alleged that OpenAI and Microsoft systematically scraped and ingested vast amounts of NYT articles into training datasets for ChatGPT and other AI models without authorization. NYT's terms of service reserved all rights to content and prohibited automated access, copying, or derivative uses beyond personal, non-commercial reading. This case highlighted tensions around revocable licenses for platform content and limits on programmatic reuse.",
+        "process_and_outcome": "NYT filed a lawsuit in December 2023 in the Southern District of New York, seeking damages, injunctions, and destruction of infringing models. The case is ongoing, with discovery phases revealing internal documents on scraping methods.",
+        "involved_parties": [
+            "The New York Times",
+            "OpenAI",
+            "Microsoft"
+        ],
+        "applicable_regulations_or_policies": [
+            "NYT Terms of Service (no scraping)",
+            "Copyright Act",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta Embed Partner Program Compliance",
+        "example_background": "Meta (Facebook) maintains a structured Embed API and Partner Program where approved publishers integrate Facebook posts via oEmbed endpoints, strictly adhering to non-commercial display limits, attribution requirements, and no modifications. Partners like news outlets follow documentation to use embeds without exceeding scopes, demonstrating adherence to revocable, non-transferable licenses.",
+        "process_and_outcome": "Meta monitors compliance through API usage logs; compliant partners retain access and benefit from seamless integration. Non-compliant uses result in access revocation, but program participants maintain ongoing adherence.",
+        "involved_parties": [
+            "Meta Platforms Inc.",
+            "Approved Embed Partners (e.g., news publishers)",
+            "oEmbed standard bodies"
+        ],
+        "applicable_regulations_or_policies": [
+            "Meta Developer Documentation and Embed Policy",
+            "oEmbed Specification"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "YouTube Embedded Player Compliance by Publishers",
+        "example_background": "Major publishers such as BBC and The Guardian integrate YouTube videos using official iframe embeds, following YouTube's API Terms which grant a limited, revocable license for display-only embedding on websites. They avoid downloading, modifying, or repurposing content, ensuring all uses stay within documented scopes and include required branding.",
+        "process_and_outcome": "No enforcement actions against these publishers; they maintain trusted partner status with YouTube, enabling reliable access and avoiding disruptions.",
+        "involved_parties": [
+            "YouTube (Google)",
+            "BBC",
+            "The Guardian",
+            "Other media publishers"
+        ],
+        "applicable_regulations_or_policies": [
+            "YouTube API Services Terms of Service",
+            "YouTube Embed Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Disney vs. AI Scrapers for Unauthorized Embed-Like Use",
+        "example_background": "Disney pursued legal action against AI companies scraping Disney+ trailers and content previews, which were embedded or repurposed in training data. Disney's terms limit embeds to promotional iframes with strict no-download, no-modify rules, reserving all other rights.",
+        "process_and_outcome": "Disney sent cease-and-desist notices and contributed to industry lawsuits; some scrapers removed data, though broader litigation continues.",
+        "involved_parties": [
+            "The Walt Disney Company",
+            "AI training firms",
+            "Disney+ platform"
+        ],
+        "applicable_regulations_or_policies": [
+            "Disney Terms of Use (embed restrictions)",
+            "Copyright Act",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Stack Overflow Content License Compliance by Embed Users",
+        "example_background": "Developers and sites embed Stack Overflow Q&A via official badges and links, adhering to the Creative Commons license and platform rules that permit attribution-based reuse but prohibit bulk scraping or unapproved programmatic access.",
+        "process_and_outcome": "Stack Overflow enforces through moderation and bans; compliant embeds continue without issue, supporting community growth.",
+        "involved_parties": [
+            "Stack Overflow",
+            "Developer communities",
+            "Embed-integrating sites"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stack Overflow Content License (CC BY-SA)",
+            "API Terms (limited access)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Clearview AI Scraping Reddit Data",
+        "example_background": "Clearview AI developed facial recognition technology by compiling a database of billions of facial images scraped from public websites and social media platforms, including Reddit. The company used automated tools to collect images posted by Reddit users without obtaining explicit permission from the platform or individuals. Reddit's robots.txt file and terms of service prohibit such systematic scraping, and Reddit publicly stated that Clearview AI's actions were unauthorized. This incident came to light through investigations into Clearview's data practices, revealing that Reddit content was part of the dataset sold to law enforcement agencies worldwide. Clearview defended its practices by claiming images were publicly available, but platforms like Reddit emphasized the need for adherence to published policies on data access and embedding.",
+        "process_and_outcome": "Reddit banned Clearview AI from its platform in 2020. Multiple lawsuits were filed against Clearview in the US and Europe, leading to a temporary injunction in Illinois and ongoing privacy litigation. Clearview agreed to delete data from certain EU users following GDPR complaints but continued operations elsewhere.",
+        "involved_parties": [
+            "Clearview AI (data aggregator)",
+            "Reddit Inc. (platform owner)",
+            "ACLU (plaintiff in lawsuits)",
+            "Illinois Attorney General (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Terms of Service",
+            "Reddit robots.txt",
+            "GDPR (EU)",
+            "Illinois Biometric Information Privacy Act (BIPA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "HiQ Labs v. LinkedIn Scraping Case Analogous to Reddit",
+        "example_background": "HiQ Labs used automated bots to scrape public LinkedIn profiles for data analytics services sold to clients. Although focused on LinkedIn, the case established precedents for scraping public social media data, directly applicable to platforms like Reddit where public posts are accessible but governed by terms prohibiting automated extraction without permission. LinkedIn's terms mirrored Reddit's restrictions on bots and embeds, and HiQ argued public data was fair game. The Ninth Circuit ruled that scraping public profiles did not violate the CFAA, influencing debates on Reddit's similar policies.",
+        "process_and_outcome": "US Ninth Circuit Court of Appeals ruled in favor of HiQ in 2019 and 2022, stating no CFAA violation for public data scraping. Supreme Court vacated and remanded in 2021, but precedent favored scrapers unless terms explicitly ban.",
+        "involved_parties": [
+            "HiQ Labs (scraper)",
+            "LinkedIn (platform)",
+            "US Ninth Circuit (court)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "LinkedIn User Agreement (analogous to Reddit Terms)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit's Response to Doxxing via Embeds",
+        "example_background": "In 2021, users on platforms like Twitter embedded Reddit posts containing personal information, leading to doxxing incidents where private details were amplified outside Reddit's moderation. Reddit's embed terms require users to respect content policies, including prohibitions on harassment and privacy invasions. Several cases involved news outlets and social media users embedding threads that revealed addresses or photos without context, prompting Reddit to investigate and remove offending content. This highlighted the responsibility of embed users to comply with linked terms.",
+        "process_and_outcome": "Reddit suspended accounts and removed embeds violating policies. Public backlash led to platform-wide reminders on embed usage, with some third-party sites delisting problematic embeds.",
+        "involved_parties": [
+            "Reddit Inc. (platform)",
+            "Twitter users (embedders)",
+            "Doxxed individuals (victims)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Reddit Embeds Terms",
+            "User Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "BBC News Embed Compliance During Coverage",
+        "example_background": "The BBC routinely embeds Reddit threads in articles covering viral stories, such as gaming controversies or social movements, ensuring attribution and no alteration of content. This practice adheres to Reddit's embed terms by using official tools, providing source links, and avoiding commercial exploitation beyond journalism. During the 2021 GameStop saga, BBC articles featured Reddit embeds from r/WallStreetBets with full context, demonstrating proper use of public content under platform guidelines.",
+        "process_and_outcome": "No enforcement actions; BBC coverage praised for ethical sourcing. Reddit acknowledged proper usage in developer forums.",
+        "involved_parties": [
+            "BBC News (media outlet)",
+            "Reddit Inc. (platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "Reddit Press & Broadcast Guidelines",
+            "BBC Editorial Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "New York Times Reddit Embeds in Reporting",
+        "example_background": "The New York Times incorporated Reddit embeds in investigative pieces on topics like misinformation and online communities, such as articles on QAnon forums. Journalists used the official embed code, preserved original formatting, and included disclaimers about user-generated content. This followed Reddit's terms for press usage, avoiding data scraping or redistribution, and focused on highlighting public discussions with proper attribution.",
+        "process_and_outcome": "Articles published without incident; NYT maintained ongoing compliance with social media sourcing policies.",
+        "involved_parties": [
+            "New York Times (publisher)",
+            "Reddit Inc. (platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "Reddit Brand Guidelines",
+            "NYT Ethical Journalism Handbook"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta's Unauthorized Use of Reddit Data for AI Training",
+        "example_background": "In 2024, reports surfaced that Meta scraped Reddit posts en masse to train its Llama AI models without explicit permission, despite Reddit's terms restricting automated access and requiring licenses for large-scale data use. Reddit's CEO publicly addressed the issue, noting that public content does not equate to free commercial use, especially under developer and embed terms that govern access methods.",
+        "process_and_outcome": "Reddit entered data licensing deals with Google and others, excluding non-compliant firms like Meta initially. Ongoing negotiations and lawsuits in the AI scraping space.",
+        "involved_parties": [
+            "Meta (AI developer)",
+            "Reddit Inc. (platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Developer Terms",
+            "Reddit User Agreement",
+            "Copyright Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Washington Post Proper Attribution in Embeds",
+        "example_background": "The Washington Post used Reddit embeds in coverage of political discussions, such as election-related subreddits, by implementing the official iframe code and linking back to source threads. This ensured compliance with Reddit's guidelines on non-commercial use for journalism, maintaining content integrity and user anonymity where applicable.",
+        "process_and_outcome": "Coverage proceeded smoothly; no policy violations noted by Reddit.",
+        "involved_parties": [
+            "Washington Post (media)",
+            "Reddit Inc. (platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "Press & Broadcast Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "YouTube Creators Embedding Reddit Without Permission",
+        "example_background": "Several YouTube channels downloaded Reddit threads and reposted them as videos without using official embeds, violating terms by altering content and removing attribution. Cases involved reaction videos to viral posts, where creators screenshotted or scraped content for monetized views, bypassing Reddit's controlled embed service.",
+        "process_and_outcome": "Reddit issued DMCA takedowns and demonetized channels. YouTube removed videos following complaints.",
+        "involved_parties": [
+            "YouTube creators (content reposters)",
+            "Reddit Inc. (platform)",
+            "YouTube (host)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "DMCA",
+            "YouTube Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Embedded.com Copyright Infringement Lawsuit",
+        "example_background": "Embedded.com, a technology news website, utilized embedded videos from YouTube without obtaining proper permissions from the content owners. The site copied and pasted embed codes directly into their pages, displaying full-length videos owned by film studios such as Paramount Pictures and Universal City Studios. This practice occurred across numerous articles from 2011 to 2013, where the embeds were presented as part of the site's content without licensing agreements or direct hosting. The content included movie trailers and full films, drawing significant traffic to Embedded.com through the visual elements. The case highlighted issues with third-party content integration on websites, where the appearance of content on a page raised questions about control and public display rights under copyright law. Embedded.com argued that embedding did not constitute copying, but the court examined the technical delivery and user experience.",
+        "process_and_outcome": "The United States District Court for the Southern District of New York ruled in favor of the plaintiffs in 2013, determining that embedding YouTube videos infringed copyright by publicly displaying the works. Embedded.com was ordered to pay damages and remove the embeds. The decision was appealed but upheld, setting a precedent for embed liability.",
+        "involved_parties": [
+            "Embedded.com (defendant)",
+            "Paramount Pictures Corporation",
+            "Universal City Studios Productions LLLP",
+            "U.S. District Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act of 1976 (17 U.S.C. \u00a7 106)",
+            "Digital Millennium Copyright Act (DMCA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "Twitter v. Mashable Embed Dispute",
+        "example_background": "Mashable, a digital media company, embedded over 450 Twitter posts containing Getty Images photographs on its website between 2011 and 2015. Mashable copied embed codes from Twitter timelines and pasted them into articles, displaying high-resolution images owned by Getty without direct licensing from the image owner. This practice was widespread in online journalism to enhance articles with visual content. Twitter provided an official embed feature allowing users to generate URLs for displaying tweets, including attached media, but the case questioned whether the embedding site assumed responsibility for displaying licensed content. The embeds functioned by pulling content from Twitter's servers, yet appeared integrated into Mashable's pages, generating revenue through ads around the content.",
+        "process_and_outcome": "In 2017, the U.S. District Court for the Southern District of New York granted summary judgment to Getty Images, ruling that Mashable's embeds displayed copyrighted images without authorization. Mashable settled the case confidentially, removed the embeds, and updated content policies. The ruling influenced media sites' use of social embeds.",
+        "involved_parties": [
+            "Mashable (defendant)",
+            "Getty Images (US), Inc. (plaintiff)",
+            "Twitter, Inc. (third-party service)",
+            "U.S. District Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Act (17 U.S.C. \u00a7 106(1), \u00a7 106(3), \u00a7 106(5))"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "Agence France-Presse v. Morel Photographer Case",
+        "example_background": "Photographer Daniel Morel sued Agence France-Presse (AFP) and Getty Images after they distributed and allowed embedding of his Haiti earthquake photos without permission. In 2010, Morel uploaded images to his Flickr account with restrictions, but AFP licensed them improperly to Getty. Numerous websites, including news outlets, copied embed codes from Getty's site or Twitter, displaying Morel's photos framed as part of their content. This included CNN.com, which embedded the images directly. The embeds transmitted image data from Getty's servers to users' browsers via the embedding sites' pages, raising issues of unauthorized public display and distribution in a chain of online sharing.",
+        "process_and_outcome": "The U.S. District Court for the Southern District of New York found AFP and Getty liable for copyright infringement in 2012. CNN was ordered to pay $1.2 million in damages for displaying the embedded images. Appeals confirmed liability, with final settlements in 2014 emphasizing responsibility for embedded content.",
+        "involved_parties": [
+            "Daniel Morel (plaintiff)",
+            "Agence France-Presse (AFP)",
+            "Getty Images",
+            "CNN (embedding site)",
+            "U.S. District Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Act 17 U.S.C. \u00a7 106",
+            "Berne Convention"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2010"
+    },
+    {
+        "example_name": "YouTube Embed Safe Harbor in Lenz v. Universal",
+        "example_background": "Stephanie Lenz uploaded a home video to YouTube featuring her children dancing to Prince's 'Let's Go Crazy.' Universal Music issued a DMCA takedown notice, leading YouTube to remove the video. Lenz sued, arguing fair use. YouTube's embed feature allows users to generate URLs for displaying videos on external sites, with YouTube hosting the content. Sites embedding these videos rely on YouTube's iframe technology, which streams content without downloading to the embedder's servers. This case examined platform policies for embeds amid copyright claims.",
+        "process_and_outcome": "The Ninth Circuit Court of Appeals ruled in 2015 that copyright holders must consider fair use before DMCA notices. The case settled, affirming YouTube's embed tool as compliant when hosting licensed or user content. It reinforced safe practices for embed usage.",
+        "involved_parties": [
+            "Stephanie Lenz (plaintiff)",
+            "Universal Music Corp. (defendant)",
+            "YouTube/Google (platform)",
+            "Ninth Circuit Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "DMCA (17 U.S.C. \u00a7 512)",
+            "Copyright Act Fair Use Doctrine"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "New York Times Embed Policy Compliance",
+        "example_background": "The New York Times developed guidelines for using social media embeds, including Twitter and Instagram posts, in its journalism. Reporters generate embed codes from official platforms and integrate them into articles, ensuring attribution to original posters. From 2014 onward, the Times trained staff on obtaining permissions for sensitive content and avoiding unlicensed third-party media. This practice displays user-generated content like photos and videos via iframes, maintaining separation from NYT servers while enhancing stories.",
+        "process_and_outcome": "No enforcement actions occurred. The policy has been upheld in multiple audits, with the Times recognized for ethical embed use in industry reports, avoiding lawsuits through proactive compliance.",
+        "involved_parties": [
+            "The New York Times Company",
+            "Twitter Inc.",
+            "Instagram (Meta)"
+        ],
+        "applicable_regulations_or_policies": [
+            "NYT Social Media Guidelines",
+            "Copyright Act",
+            "Platform Terms of Service"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "BBC News Embed Best Practices",
+        "example_background": "BBC News implemented a standardized process for embedding content from platforms like Reddit, Twitter, and YouTube in its digital articles. Journalists copy official embed URLs provided by the platforms and paste them into CMS, displaying content such as user posts, videos, and images. This began with policy updates in 2016, requiring verification of content ownership and terms compliance before publication. The approach ensures content loads from origin servers, with BBC providing context and credit.",
+        "process_and_outcome": "Internal compliance reviews and external media awards confirmed adherence, with zero related copyright claims reported. The practice serves as an industry benchmark.",
+        "involved_parties": [
+            "BBC News",
+            "Reddit Inc.",
+            "Twitter Inc.",
+            "YouTube"
+        ],
+        "applicable_regulations_or_policies": [
+            "BBC Editorial Guidelines",
+            "Platform Embed Terms",
+            "EU Copyright Directive"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Perfect 10 v. Amazon Embed Ruling",
+        "example_background": "Perfect 10 magazine sued Amazon (operating A9 image search) for inline linking and embedding thumbnails of its copyrighted images hosted on third-party adult sites. Users searching via Amazon's tool saw reduced-size images appear inline within search results, framed by Amazon's interface. This occurred from 2000s, where the technology fetched and displayed images without storing them on Amazon servers.",
+        "process_and_outcome": "The Ninth Circuit Court of Appeals ruled in 2007 that inline linking thumbnails did not infringe display rights if not hosted by the linker. Amazon prevailed, establishing safe harbor for certain embeds.",
+        "involved_parties": [
+            "Perfect 10, Inc. (plaintiff)",
+            "Amazon.com, Inc. (defendant)",
+            "Ninth Circuit Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Act 17 U.S.C. \u00a7 106(5)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Washington Post Twitter Embed Settlement",
+        "example_background": "The Washington Post embedded Justin Goldman\u2019s leaked NBA draft photos from Twitter in 2013, originating from Snapchat. The Post copied embed codes, displaying images in articles viewed millions of times, generating traffic. Goldman sued multiple outlets for unauthorized display.",
+        "process_and_outcome": "The case settled out of court in 2015, with the Post updating embed policies. It underscored chain-of-distribution risks for embeds.",
+        "involved_parties": [
+            "Justin Goldman (plaintiff)",
+            "Washington Post (defendant)",
+            "Twitter Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Reddit Embed Usage in Vice Media Articles",
+        "example_background": "Vice Media routinely uses Reddit's official embed feature to incorporate user posts into articles. Staff generate URLs from Reddit posts and paste them into Vice's platform, displaying comments, images, and videos from Reddit's servers. This practice, documented since 2015, includes sourcing permissions where needed and crediting originals.",
+        "process_and_outcome": "No disputes arose; Vice's approach aligns with Reddit's terms, earning recognition in journalism ethics panels.",
+        "involved_parties": [
+            "Vice Media",
+            "Reddit Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Reddit API Terms",
+            "Copyright Fair Use"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Reddit v. Anthropic Copyright and Endorsement Suit",
+        "example_background": "Anthropic, developer of the AI model Claude, trained its large language model using extensive datasets scraped from Reddit's platform without obtaining a license or permission from Reddit. This data inclusion enabled Claude to generate responses referencing Reddit content, user posts, and subreddit-specific information. Reddit observed instances where Claude's outputs suggested a connection to Reddit's services, including direct quotes and stylistic imitations of Reddit discussions. Reddit's investigation revealed that Anthropic's approach involved systematic copying of public Reddit data, which was then integrated into the AI's knowledge base, leading to outputs that incorporated Reddit's branding and community elements in ways that could be perceived as an official integration. This occurred amid a broader trend of AI companies accessing social media data for training purposes without explicit agreements.",
+        "process_and_outcome": "Reddit filed a lawsuit against Anthropic in June 2024 in the U.S. District Court for the Northern District of California, alleging breach of contract, trespass to chattels, and unjust enrichment. The complaint highlighted how Anthropic's data usage violated Reddit's terms of service, which prohibit scraping and require licenses for commercial redistribution. The case remains ongoing, with Reddit seeking injunctive relief, damages, and a declaration that Anthropic's practices infringe on Reddit's rights.",
+        "involved_parties": [
+            "Reddit, Inc. (plaintiff, platform owner)",
+            "Anthropic PBC (defendant, AI developer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Agreement (Terms of Service)",
+            "Reddit API Terms of Use",
+            "Copyright Act (17 U.S.C.)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit v. OpenAI Copyright Infringement Action",
+        "example_background": "OpenAI utilized vast amounts of Reddit content to train its ChatGPT model and other GPT-series AI systems. This included posts, comments, and metadata from numerous subreddits, scraped through third-party tools and direct API access prior to Reddit's updated data policies in 2023. ChatGPT frequently generated responses that mirrored Reddit's conversational style, referenced specific subreddits, and reproduced user-generated content verbatim or paraphrased, creating an impression in some outputs of an authorized partnership between OpenAI and Reddit. Reddit's content licensing team identified this after monitoring AI-generated text across platforms, noting that OpenAI continued data usage even after Reddit announced paid API access requirements for commercial purposes.",
+        "process_and_outcome": "In June 2024, Reddit initiated legal proceedings against OpenAI in federal court, claiming violations of its terms prohibiting unauthorized data scraping and commercial exploitation. Reddit demanded compensation for unlicensed use and cessation of further training on its data. OpenAI responded by asserting fair use defenses, but the litigation continues with discovery phases underway.",
+        "involved_parties": [
+            "Reddit, Inc. (plaintiff)",
+            "OpenAI, Inc. (defendant)",
+            "Microsoft Corporation (OpenAI partner)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Reddit API Terms",
+            "Digital Millennium Copyright Act (DMCA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Google Books Unauthorized Digitization Case",
+        "example_background": "Google scanned and digitized millions of books from libraries without permission from copyright holders, creating a searchable database via Google Books. The service displayed snippets of book content in search results, which included references to publishers' branding and implied an official collaboration through the seamless integration of book previews into Google's ecosystem. Publishers and authors contended that this presentation suggested endorsement or partnership, as Google's prominent branding alongside the content blurred lines between licensed and unauthorized use. The project began in 2004 and involved partnerships with major libraries, but lacked individual author consents.",
+        "process_and_outcome": "The Authors Guild and publishers sued Google in 2005 (Authors Guild v. Google). After a decade of litigation, the U.S. District Court ruled in 2015 that Google's snippet view constituted fair use under copyright law. The Second Circuit affirmed the decision in 2016, allowing the service to continue without penalties.",
+        "involved_parties": [
+            "Google LLC (defendant, tech company)",
+            "Authors Guild (plaintiff, representing authors)",
+            "Association of American Publishers (plaintiff)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act (17 U.S.C. \u00a7 107 fair use)",
+            "Google Books Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2004"
+    },
+    {
+        "example_name": "Meta-Facebook Cambridge Analytica Data Misuse",
+        "example_background": "In 2014, Cambridge Analytica obtained data from millions of Facebook users via a third-party app called thisisyourdigitallife, which collected profile information and extended to friends' data without consent. The data was used for political advertising, and subsequent reporting revealed Facebook's platform design allowed such extensive harvesting. Media coverage and app outputs sometimes framed results with Facebook's branding, implying platform endorsement of the analytics service. Facebook's review found the data was shared widely within Cambridge Analytica's network, including for Trump campaign targeting.",
+        "process_and_outcome": "FTC investigated and settled in 2019, imposing a $5 billion penalty on Facebook for privacy violations. UK and EU regulators also probed, leading to GDPR fines and operational reforms. Cambridge Analytica ceased operations in 2018 amid scandals.",
+        "involved_parties": [
+            "Meta Platforms, Inc. (Facebook, platform)",
+            "Cambridge Analytica (data user)",
+            "Federal Trade Commission (FTC, regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Platform Policy",
+            "EU GDPR",
+            "FTC Act Section 5 (unfair practices)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Twitter API Access Revocation Against Third Parties",
+        "example_background": "Following Elon Musk's acquisition in 2022, Twitter (now X) terminated API access for multiple third-party apps that repurposed tweet data into competing services, such as TweetDeck clones and analytics tools. Some apps displayed Twitter content with layouts mimicking the official interface, incorporating Twitter's branding and handles in ways that suggested affiliation. Twitter enforced its developer policies to prioritize official apps and monetize API usage.",
+        "process_and_outcome": "In early 2023, Twitter announced paid API tiers and revoked free access, shutting down apps like Twitterrific and Talon. Developers protested but complied, with no major litigation succeeding against Twitter's terms.",
+        "involved_parties": [
+            "X Corp. (formerly Twitter, platform)",
+            "Third-party developers (e.g., Tweetbot team)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Developer Agreement",
+            "X API Rules"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Reddit Official API Partnerships",
+        "example_background": "Reddit established paid API licensing agreements with companies like Google and OpenAI in 2024, following policy updates that ended free commercial access. These partners integrate Reddit data into search results and AI models with explicit permissions, displaying attribution like 'Powered by Reddit' only under licensed terms. This structure ensures all uses clearly indicate authorized collaboration, with Reddit controlling branding and data quotas to prevent unauthorized implication of broader endorsement.",
+        "process_and_outcome": "Agreements signed in May 2024 provided Reddit with $60 million upfront and revenue shares. Pushshift and other scrapers faced blocks, reinforcing policy adherence among licensees.",
+        "involved_parties": [
+            "Reddit, Inc. (licensor)",
+            "Google (licensee)",
+            "OpenAI (licensee) (for compliant portions)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Data API Terms",
+            "Reddit Commercial Use Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "HotNews.it Copyright Infringement Case",
+        "example_background": "HotNews.it, an Italian news website, embedded over 5,000 New York Times articles using inline linking and framing techniques without permission from 2012 to 2018. The method involved displaying full articles within the site's layout by pulling content from NYT servers, generating ad revenue for HotNews.it through increased traffic and display ads. This practice continued despite cease-and-desist notices, affecting thousands of articles across various topics. The embeds were not transformative and directly reproduced NYT's formatted content, including images and text, without hosting files locally. HotNews.it argued that the technique was standard for news aggregation and did not constitute copying since data was streamed from the original source.",
+        "process_and_outcome": "The U.S. District Court for the Southern District of New York ruled in favor of The New York Times in 2020, finding that inline linking and framing infringed copyrights by communicating entire works publicly. HotNews.it was ordered to pay $30,000 in damages plus attorney fees and permanently enjoined from further use. The decision was upheld on appeal.",
+        "involved_parties": [
+            "HotNews.it (defendant, news aggregator)",
+            "The New York Times Company (plaintiff, content owner)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act (17 U.S.C. \u00a7 106)",
+            "Right of Public Display and Distribution"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Agence France-Presse v. Morel",
+        "example_background": "Photographer Daniel Morel sued Agence France-Presse (AFP) and Getty Images after they distributed and embedded his Haiti earthquake photos without authorization in 2010. AFP licensed Morel's images from Twitter, where he had posted them exclusively, then allowed Getty to sell and embed them on news sites worldwide. Embed codes enabled sites to display high-resolution versions directly from Getty servers, bypassing Morel's rights. This occurred during breaking news coverage, with embeds appearing on major outlets, generating licensing fees for AFP and Getty while Morel received nothing. The practice ignored Morel's Twitter terms prohibiting commercial use.",
+        "process_and_outcome": "The Southern District of New York found direct and secondary infringement in 2014, awarding Morel $1.2 million in damages against AFP and Getty. A jury later adjusted to $320,000 statutory damages per image. Appeals affirmed liability for unauthorized embedding as public display.",
+        "involved_parties": [
+            "Daniel Morel (plaintiff, photographer)",
+            "Agence France-Presse (AFP) (defendant, distributor)",
+            "Getty Images (defendant, licensor and embed provider)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Act of 1976 (17 U.S.C. \u00a7\u00a7 106, 501)",
+            "DMCA anti-circumvention provisions"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2010"
+    },
+    {
+        "example_name": "Nicklen v. Sinclair Broadcast Group",
+        "example_background": "National Geographic photographer Paul Nicklen posted Instagram photos of Canadian polar bears to raise environmental awareness. Sinclair Broadcast Group embedded the images on its websites using Instagram's official embed tool without seeking permission, displaying the full-resolution photos alongside articles. This occurred in 2017, with multiple Sinclair stations using the embeds to illustrate stories, driving traffic to their sites via ads. Nicklen's images were protected by copyright, and Instagram's terms clarified that embeds do not grant ownership or usage rights beyond display on the embedding page.",
+        "process_and_outcome": "In 2019, the U.S. District Court for the Southern District of New York granted partial summary judgment to Nicklen, ruling that Instagram embeds constituted copyright infringement via unauthorized public display. The case settled confidentially thereafter.",
+        "involved_parties": [
+            "Paul Nicklen (plaintiff, photographer)",
+            "Sinclair Broadcast Group (defendant, media company)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Law (17 U.S.C. \u00a7 106(5))",
+            "Instagram Embed Terms of Use"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Mashable v. YouTube Embed Enforcement",
+        "example_background": "Mashable, a media company, systematically embedded YouTube videos in its articles from 2008 onward, adhering to YouTube's iframe embed guidelines. Videos were sourced via official share links, displayed in read-only players without downloading or modifying content, and attributed to creators. This practice integrated third-party videos into thousands of posts, enhancing user experience while respecting creator controls like region restrictions and monetization. Mashable's internal policies required verification of public availability and avoidance of private or restricted content.",
+        "process_and_outcome": "No enforcement actions occurred; YouTube and creators continued partnerships with Mashable. The company expanded embed usage, contributing to industry standards without disputes.",
+        "involved_parties": [
+            "Mashable (media company using embeds)",
+            "YouTube/Google (platform provider)",
+            "Content creators (rightsholders)"
+        ],
+        "applicable_regulations_or_policies": [
+            "YouTube Embed Terms",
+            "DMCA Safe Harbor (17 U.S.C. \u00a7 512)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2008"
+    },
+    {
+        "example_name": "BBC Rightsholder Compliance Program",
+        "example_background": "The BBC implemented strict protocols for embedding third-party content, including user-generated videos from platforms like Reddit and YouTube, starting in 2015. Embed processes involved legal review of terms, verification of public status, and direct contact with rightsholders for permissions when required. For Reddit embeds, BBC news teams used official oEmbed endpoints only for public posts, crediting users and monitoring for takedown requests. This applied to coverage of events like protests and disasters, ensuring over 10,000 embeds annually complied with attribution and non-commercial clauses.",
+        "process_and_outcome": "Internal audits and no regulatory complaints confirmed adherence. BBC avoided lawsuits and maintained partnerships with platforms.",
+        "involved_parties": [
+            "BBC (broadcaster)",
+            "Reddit (embed provider)",
+            "User content creators (rightsholders)"
+        ],
+        "applicable_regulations_or_policies": [
+            "BBC Editorial Guidelines on Fair Dealing",
+            "EU Copyright Directive (2019/790)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Perfect 10 v. Amazon (Embed Precedent)",
+        "example_background": "Perfect 10 sued Amazon and Google in 2004 over thumbnail images and inline links to their adult magazine photos hosted on third-party sites. Amazon's 'A9' search used inline frames to display full-size images from infringers' servers within search results. Perfect 10 claimed this enabled public display without rights, affecting their exclusive low-resolution thumbnails. The case spanned years, examining framing as equivalent to embedding copyrighted thumbnails.",
+        "process_and_outcome": "The Ninth Circuit ruled in 2007 that inline linking to inline links did not infringe display rights for full images, but thumbnails could under fair use limits. Supreme Court denied certiorari.",
+        "involved_parties": [
+            "Perfect 10 (plaintiff, publisher)",
+            "Amazon (defendant, search service)",
+            "Google (defendant, search engine)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Act (17 U.S.C. \u00a7 106)",
+            "Fair Use Doctrine"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2004"
+    },
+    {
+        "example_name": "Washington Post Reddit Embed Practices",
+        "example_background": "Since 2016, The Washington Post has embedded Reddit user content in investigative journalism, such as r/all posts during elections and social movements. Protocols include using Reddit's official embed code, verifying post ownership via usernames, and seeking creator consent for sensitive material. Embeds display posts as interactive elements with upvote counts and comments, always hyperlinked to originals, ensuring traffic benefits Reddit users without altering content.",
+        "process_and_outcome": "No violations reported; practices praised in industry reports for balancing journalism and compliance.",
+        "involved_parties": [
+            "The Washington Post (publisher)",
+            "Reddit Inc. (platform)",
+            "Reddit users (content owners)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Developer Terms",
+            "Society of Professional Journalists Code of Ethics"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "VHT Inc. v. Zillow Group",
+        "example_background": "VHT provided real estate photos to agents who uploaded them to Zillow without permission for full listings. Zillow's software automatically generated embeddable slideshows and thumbnails displayed on agent profile pages, pulling images from listing servers. This affected hundreds of thousands of photos from 2012-2015, with Zillow profiting from traffic and leads.",
+        "process_and_outcome": "Western District of Washington jury awarded VHT $4 million in 2018 for direct infringement via unauthorized display; Zillow's fair use defense failed. Ninth Circuit affirmed in 2021.",
+        "involved_parties": [
+            "VHT Inc. (plaintiff, photographer)",
+            "Zillow Group (defendant, platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Act \u00a7106(5) (Display Right)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "New York Times Developer Embed Guidelines Compliance",
+        "example_background": "The New York Times provides official embed tools for its articles and multimedia via the NYT Developer Portal since 2014. Partner sites like educational platforms and news aggregators use these iframes to display NYT content responsively, with watermarks and attribution enforced. Usage logs track embeds, and violations trigger blocks. This supports thousands of integrations annually while restricting to non-commercial, editorial contexts.",
+        "process_and_outcome": "Sustained compliance with zero major disputes; model for publisher-platform agreements.",
+        "involved_parties": [
+            "The New York Times (content provider)",
+            "Third-party developers (embed users)"
+        ],
+        "applicable_regulations_or_policies": [
+            "NYT Embedding Terms",
+            "Creative Commons Attribution Policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "FTC Action Against GoodRx for Data Tracking",
+        "example_background": "GoodRx, a platform providing prescription drug price comparisons, embedded third-party tracking pixels from companies like Facebook, Google, and Criteo on its website and mobile app. These trackers accessed and transmitted sensitive health information, including prescription records and personal identifiers, to advertisers without users' explicit knowledge or consent. The service allowed users to search for medication prices, but the embedded tools facilitated cross-site tracking and data sharing, enabling targeted advertising based on health data. This occurred between 2017 and 2020, affecting millions of users who believed their pharmacy searches were private.",
+        "process_and_outcome": "The US Federal Trade Commission (FTC) investigated and charged GoodRx with unfair and deceptive practices under Section 5 of the FTC Act. In February 2023, GoodRx agreed to a settlement requiring it to stop sharing health data for advertising, implement a comprehensive privacy program, undergo biennial audits for 20 years, and pay no monetary penalty but provide ongoing compliance reports.",
+        "involved_parties": [
+            "GoodRx Holdings, Inc.",
+            "Federal Trade Commission (FTC)",
+            "Facebook (Meta)",
+            "Google LLC",
+            "Criteo"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5 (Unfair and Deceptive Acts)",
+            "HIPAA Notice of Privacy Practices requirements",
+            "Website Terms of Service on data sharing"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Meta Platforms Embed Consent Order",
+        "example_background": "Meta Platforms (formerly Facebook) provided embedding tools allowing third-party websites to display Facebook posts and videos via iframes. Investigations revealed that these embeds transmitted unique Facebook IDs and other user data to Meta servers every time a webpage loaded, even if the user was not logged in or had not consented. This occurred across millions of websites using the embeds, facilitating tracking across the web without disclosure. From at least 2011 to 2018, this practice involved caching and accessing embed content to monitor usage and deliver personalized ads.",
+        "process_and_outcome": "The Belgian Court of Appeal ruled in 2020 that Facebook's embed practices violated GDPR by processing personal data without a legal basis. The court ordered Meta to cease tracking non-users via embeds in Belgium. Separately, the Dutch Data Protection Authority fined Meta \u20ac725,000 in 2019 for similar tracking. Meta adjusted its embed policies globally to require consent prompts.",
+        "involved_parties": [
+            "Meta Platforms, Inc. (Facebook)",
+            "Belgian Data Protection Authority (Gegevensbeschermingsautoriteit)",
+            "Dutch Data Protection Authority (Autoriteit Persoonsgegevens)",
+            "Various website publishers"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "ePrivacy Directive",
+            "Facebook Platform Policy on Embeds"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "Twitter API ToS Enforcement Against Scrapers",
+        "example_background": "Twitter (now X Corp) updated its developer terms in 2023 to restrict third-party access to public tweets via APIs and prohibit unauthorized scraping. Companies like Bright Data and academic researchers faced suspensions for using bots to crawl and index millions of tweets for datasets used in AI training and analytics. Twitter's policy allowed limited API access but required compliance with rate limits and attribution, while banning bulk crawling that bypassed these controls to cache content for external use.",
+        "process_and_outcome": "Twitter suspended thousands of developer accounts and sent cease-and-desist letters. In 2023, it sued Bright Data for violating ToS through scraping. The company won injunctions against some scrapers and revamped its API into a paid tier model, drastically reducing free access. Ongoing lawsuits continue in US courts.",
+        "involved_parties": [
+            "X Corp (formerly Twitter)",
+            "Bright Data Ltd.",
+            "Various developers and researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Developer Agreement and Policy (anti-scraping)",
+            "DMCA",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Google Cache Monitoring and DMCA Cases",
+        "example_background": "Google's search engine maintains a public cache of indexed web pages, accessible via search results, allowing users to view snapshots of sites. Website owners have used DMCA notices to request removal of cached versions containing copyrighted material. Google's systems crawl and store copies of pages to serve cache views, which it monitors for compliance with takedown requests. This practice has been central to numerous disputes where site operators sought to control access to archived content post-removal.",
+        "process_and_outcome": "In cases like Agence France Presse v. Google (2009), courts ruled Google's caching was fair use. Google processes over 70% of DMCA notices for caches, removing them promptly upon request, demonstrating adherence to legal obligations. No major fines were imposed, and Google updated processes to expedite cache deletions.",
+        "involved_parties": [
+            "Google LLC",
+            "Various copyright holders (e.g., Agence France Presse)",
+            "US District Courts",
+            "DMCA Safe Harbor administrators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Digital Millennium Copyright Act (DMCA)",
+            "Google Webmaster Guidelines",
+            "Copyright fair use doctrine"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Common Crawl Non-Profit Web Archive Compliance",
+        "example_background": "Common Crawl operates a non-profit web archive crawling the open web monthly, creating petabyte-scale datasets of public pages for researchers. It respects robots.txt directives, rate limits, and excludes sites opting out, while notifying operators of crawls. The project indexes and caches content transparently, providing attribution and access only for non-commercial research, aligning with platform policies that permit respectful automated access.",
+        "process_and_outcome": "No enforcement actions against Common Crawl; it has operated since 2008 with cooperation from sites like Reddit and Wikipedia. Used by AI firms like OpenAI with proper attribution, it serves as an industry best practice for compliant large-scale crawling.",
+        "involved_parties": [
+            "Common Crawl Foundation",
+            "Various websites (e.g., Reddit)",
+            "Researchers and AI developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "robots.txt standard",
+            "Website Terms of Service",
+            "FAIR data principles"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "New York Times v. OpenAI Copyright Scraping Suit",
+        "example_background": "OpenAI trained GPT models using vast datasets including articles scraped from news sites like The New York Times via tools that crawled and cached content without explicit licenses. The Times alleged billions of words were ingested, enabling AI to reproduce paywalled articles verbatim. This involved automated access to public and login-protected pages, bypassing terms prohibiting scraping for commercial AI training.",
+        "process_and_outcome": "In December 2023, The New York Times sued OpenAI and Microsoft in US District Court for copyright infringement, DMCA violations, and breach of terms. The case is ongoing as of 2024, with discovery focused on training data sources. Similar suits by authors were filed.",
+        "involved_parties": [
+            "The New York Times Company",
+            "OpenAI, Inc.",
+            "Microsoft Corporation",
+            "US Southern District of New York"
+        ],
+        "applicable_regulations_or_policies": [
+            "US Copyright Act",
+            "DMCA",
+            "New York Times Terms of Service (anti-scraping)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "EU GDPR Cookie Consent for Embedded Content",
+        "example_background": "Under GDPR, websites embedding YouTube videos or Twitter feeds must obtain user consent before trackers in iframes load, as they access device data. Many sites initially loaded embeds without consent banners, transmitting IP addresses and identifiers to Google or Twitter for profiling. Regulators audited thousands of EU sites, finding widespread non-compliance with ePrivacy rules on third-party embeds.",
+        "process_and_outcome": "CNIL (French DPA) fined Google \u20ac150 million in 2022 for cookie practices including embeds. Sites like Le Monde faced audits and implemented consent management platforms (CMPs) like OneTrust, achieving compliance through pre-load banners and vendor lists.",
+        "involved_parties": [
+            "Google LLC",
+            "CNIL (French Data Protection Authority)",
+            "Various EU websites",
+            "IAB Europe (Transparency & Consent Framework)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR Article 6 (lawful basis)",
+            "ePrivacy Directive (Article 5)",
+            "IAB TCF for embeds"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit Content Moderation Subpoena Non-Compliance",
+        "example_background": "In 2018, Reddit received a federal grand jury subpoena from the U.S. Department of Justice seeking information on users who posted content related to the sale of drugs on the platform. The subpoena requested account details, IP addresses, and other identifying information for approximately 100 accounts suspected of facilitating illegal transactions. Reddit's legal team reviewed the request and determined it did not meet the threshold for compelled disclosure under applicable laws, as the content in question was protected speech or did not violate Reddit's specific content policies warranting removal. Instead of providing the data, Reddit chose to notify affected users where legally permissible and publicly disclosed the aggregate number of such government requests in its transparency reports to maintain accountability.",
+        "process_and_outcome": "Reddit did not release the requested user data, citing legal protections. The DOJ did not pursue further enforcement against Reddit for this instance. Reddit continued publishing transparency reports detailing government requests for user data, with this case noted in their 2018 report.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "U.S. Department of Justice"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stored Communications Act (SCA)",
+            "Reddit Transparency Report Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Twitter Government Takedown Request Handling",
+        "example_background": "Twitter (now X) received numerous government requests in 2021 to remove content deemed political misinformation or critical of officials, particularly from countries like Turkey and India. For instance, Turkey requested removal of over 1,000 pieces of content criticizing President Erdogan. Twitter evaluated each request against its own rules on abuse, harassment, and authenticity rather than complying automatically. Content was removed only if it independently violated Twitter's policies, such as direct threats or spam. Twitter rejected requests that solely cited national laws without platform rule violations and appealed invalid ones through formal channels.",
+        "process_and_outcome": "Twitter complied with 50% of removal requests where platform rules were breached but rejected others, suspending accounts only for independent violations. This led to temporary blocks in some countries but upheld free expression principles. Detailed in Twitter's 2021 Transparency Report.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "Turkish Government",
+            "Indian Government"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Content Moderation Policies",
+            "Global Network Initiative Principles"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Facebook EU Content Removal Escalation",
+        "example_background": "In 2019, Facebook received requests from German authorities under the NetzDG law to remove over 1 million pieces of content alleged to be hate speech. Facebook's automated systems and human reviewers initially assessed content against the company's Community Standards. Requests that did not align with these standards, such as political satire or opinion pieces, were escalated to legal teams. Facebook challenged erroneous takedown orders in court and reported compliance rates, handling escalations through formal reporting to regulators.",
+        "process_and_outcome": "Facebook removed 88% of flagged content but appealed 12% of government requests internally and externally. German courts upheld several challenges, reducing over-removals. Outcomes tracked in Facebook's Community Standards Enforcement Report.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "German Federal Government",
+            "NetzDG Oversight Bodies"
+        ],
+        "applicable_regulations_or_policies": [
+            "NetzDG (Network Enforcement Act)",
+            "Facebook Community Standards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Google YouTube DMCA Notice Mishandling Fine",
+        "example_background": "In 2019, the U.S. District Court addressed a case where YouTube (Google) was accused of failing to properly handle DMCA takedown notices for copyright-infringing music videos. A record label submitted thousands of notices, but YouTube's automated Content ID system incorrectly reinstated some videos after counter-notices without adequate review. The platform did not escalate disputed notices to appropriate legal channels promptly, leading to prolonged availability of infringing content.",
+        "process_and_outcome": "The court ordered Google to pay $1 million in damages to the plaintiff and implement improved notice-handling processes. Google updated its DMCA policies to include better escalation for complex cases.",
+        "involved_parties": [
+            "Google LLC (YouTube)",
+            "UMG Recordings Inc.",
+            "U.S. District Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Digital Millennium Copyright Act (DMCA)",
+            "YouTube Copyright Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "TikTok Government Request Transparency",
+        "example_background": "TikTok published its first transparency report in 2021, detailing over 10,000 government requests to remove content related to misinformation, extremism, and illegal activities from countries including Indonesia and Brazil. TikTok routed all such requests through its internal escalation process, notifying its policy team to assess against TikTok Community Guidelines. Only content violating platform rules was removed, with rejections communicated back to governments via formal channels.",
+        "process_and_outcome": "TikTok complied with 68% of requests where guidelines were violated and rejected others, avoiding blanket removals. No fines imposed; enhanced reporting adopted.",
+        "involved_parties": [
+            "TikTok Inc.",
+            "Indonesian Government",
+            "Brazilian Authorities"
+        ],
+        "applicable_regulations_or_policies": [
+            "TikTok Community Guidelines",
+            "U.S. Transparency Reporting Standards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Reddit Christchurch Attack Video Handling",
+        "example_background": "Following the 2019 Christchurch mosque shootings, New Zealand authorities requested Reddit to remove all copies of the attacker's livestream video and related manifestos hosted on the platform. Reddit immediately actioned removals for content violating its violence and graphic content policies but escalated broader requests for manifesto discussions to its trust and safety team. Some subreddits hosting links were quarantined or banned after review.",
+        "process_and_outcome": "Reddit removed over 150 subreddits and thousands of posts, cooperating with the Christchurch Call initiative. No penalties; led to global content moderation improvements.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "New Zealand Government",
+            "Christchurch Call Partners"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Christchurch Call to Eliminate Terrorist Exploitation Online"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "MySpace User Data Warrant Non-Escalation",
+        "example_background": "In a 2007 case, MySpace failed to properly document and escalate law enforcement requests for user data related to underage user exploitation cases. Multiple subpoenas were processed informally without routing to legal compliance teams, leading to inconsistent responses and potential data mishandling.",
+        "process_and_outcome": "Resulted in congressional hearings and a $4.5 million settlement with victims' families. MySpace implemented mandatory escalation protocols for all legal notices.",
+        "involved_parties": [
+            "MySpace Inc.",
+            "U.S. Department of Justice",
+            "California Attorney General"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stored Communications Act",
+            "COPPA (Children's Online Privacy Protection Act)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2007"
+    },
+    {
+        "example_name": "Discord Government Takedown Escalation",
+        "example_background": "In 2022, Discord received requests from U.S. and EU authorities to remove servers hosting child exploitation material and terrorist recruitment content. Discord's trust and safety team systematically escalated each request via internal ticketing to legal, reviewing against Discord's Terms of Service and Community Guidelines before actioning permanent bans and data preservation for investigations.",
+        "process_and_outcome": "Over 90% compliance rate with valid requests; contributed to multiple arrests. Recognized in Discord's 2022 Safety Report.",
+        "involved_parties": [
+            "Discord Inc.",
+            "FBI",
+            "Europol"
+        ],
+        "applicable_regulations_or_policies": [
+            "Discord Community Guidelines",
+            "EARN IT Act Principles"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Tumblr Child Exploitation Content Failure",
+        "example_background": "In 2018, Tumblr faced backlash after failing to promptly remove known child sexual abuse material despite user reports and regulatory notices. The platform's moderation relied heavily on automation, which missed nuanced violations, and escalation to legal teams for government notices was delayed, leading to widespread content proliferation.",
+        "process_and_outcome": "Tumblr banned all adult content, overhauled moderation, and paid a $1.3 million settlement to New York AG. App store removal forced rapid changes.",
+        "involved_parties": [
+            "Tumblr (Oath/Verizon)",
+            "New York Attorney General"
+        ],
+        "applicable_regulations_or_policies": [
+            "New York Executive Law \u00a7 632-a",
+            "Tumblr Community Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Twitch Streamer Account Suspension for Embedding Violation",
+        "example_background": "A popular Twitch streamer integrated Reddit content embeds into their live streams and video-on-demand archives without adhering to Reddit's specified usage guidelines. The streamer displayed Reddit threads and images sourced from subreddit communities as part of gaming commentary sessions, exceeding the permitted display formats outlined in Reddit's Embeds Terms. This occurred over several months in 2022, during high-viewership events where the embeds were prominently featured alongside monetized content. The streamer's setup involved automated scripts to pull and display Reddit posts in real-time, which bypassed standard embed parameters and incorporated additional branding elements not allowed under the terms. Reddit's monitoring systems detected the non-compliant usage patterns, leading to notifications that were initially overlooked amid the streamer's rapid content growth.",
+        "process_and_outcome": "Reddit issued multiple warnings via email and restricted API access temporarily. After non-compliance persisted, Reddit enforced account-level restrictions, suspending the streamer's access to Reddit Embeds entirely. The streamer removed the embeds, appealed the decision unsuccessfully, and shifted to alternative content sourcing methods. No further actions were taken once compliance was achieved.",
+        "involved_parties": [
+            "Twitch Streamer (Content Creator)",
+            "Reddit Inc. (Platform Enforcer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "Reddit Developer Terms",
+            "Reddit User Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "BuzzFeed News Reddit Embed Integration",
+        "example_background": "BuzzFeed News incorporated Reddit Embeds into numerous articles throughout 2018-2020 to showcase user-generated content from viral subreddit threads. The embeds were used in investigative pieces and trend reports, pulling discussions on social issues, memes, and news events directly from Reddit. Each embed was implemented following Reddit's oEmbed protocol, displayed within standard iframe constraints without modifications to Reddit's branding or functionality. This practice aligned with Reddit's Press & Broadcast Guidelines, which permit such usage for journalistic purposes provided attribution and format rules are followed. The integration reached millions of readers, enhancing engagement without altering the embedded content's core presentation.",
+        "process_and_outcome": "No enforcement actions occurred; Reddit acknowledged the proper implementation during a 2019 partnership review. BuzzFeed continued the practice until shifting editorial strategies in 2023, with embeds remaining active and compliant throughout.",
+        "involved_parties": [
+            "BuzzFeed News (Media Publisher)",
+            "Reddit Inc. (Platform Provider)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "Reddit Press & Broadcast Guidelines",
+            "Reddit Brand Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Third-Party Widget Developer API Suspension",
+        "example_background": "A developer created a browser extension in 2021 that aggregated Reddit content using Embeds for personalized news feeds. The extension modified embed styles, removed Reddit attribution, and allowed users to download embedded media, contravening restrictions on customization and redistribution. Distributed via Chrome Web Store to over 50,000 users, it operated for 18 months before detection during Reddit's routine API audits. The tool was marketed for productivity, pulling embeds from diverse subreddits into customizable dashboards.",
+        "process_and_outcome": "Reddit terminated the developer's API key, demanded removal of the extension, and issued a cease-and-desist notice. The extension was delisted from app stores, and the developer publicly apologized, halting distribution.",
+        "involved_parties": [
+            "Widget Developer (Third-Party Creator)",
+            "Reddit Inc. (Terms Enforcer)",
+            "Google Chrome Web Store (Distribution Platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Developer Terms",
+            "Reddit Embeds Terms",
+            "Reddit Brand Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "The New York Times Reddit Embed Usage",
+        "example_background": "The New York Times utilized Reddit Embeds in digital articles from 2019 onward, particularly in features covering internet culture, politics, and user reactions to events. Embeds displayed full threads with upvotes and comments intact, embedded via official oEmbed endpoints without any alterations to size, style, or functionality. This followed consultations with Reddit's press team to ensure alignment with guidelines, including proper linking back to original posts and non-commercial editorial context. Usage spanned dozens of articles, maintaining consistent formatting across desktop and mobile platforms.",
+        "process_and_outcome": "Reddit reviewed and approved sample implementations; no issues arose, and the practice continued as a standard tool for sourcing authentic user voices in reporting.",
+        "involved_parties": [
+            "The New York Times (Publisher)",
+            "Reddit Inc. (Content Platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "Reddit Press & Broadcast Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Discord Bot Reddit Embed Misuse",
+        "example_background": "A Discord server administrator developed a bot in 2022 that fetched Reddit Embeds for community channels, but customized them by overlaying server branding and resizing beyond permitted dimensions. Used in a 100,000-member gaming server, the bot posted hundreds of modified embeds daily, violating display and attribution rules. The setup persisted for a year, enhancing server activity with live Reddit feeds.",
+        "process_and_outcome": "Reddit detected irregular embed traffic patterns, suspended the bot's access, and notified Discord. The bot was taken offline, and the admin received a formal warning against future non-compliant tools.",
+        "involved_parties": [
+            "Discord Server Admin (Bot Developer)",
+            "Reddit Inc. (Policy Holder)",
+            "Discord Inc. (Platform Host)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "Reddit Developer Terms",
+            "Reddit User Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "BBC News Proper Embed Practices",
+        "example_background": "BBC News integrated Reddit Embeds into online stories starting in 2020, focusing on global news threads and public sentiment analysis. Each embed adhered strictly to technical specifications, including responsive sizing, full attribution, and no interference with Reddit's interactive elements like voting. Training was provided to journalists on Reddit's guidelines, ensuring usage remained within bounds for non-commercial broadcasting purposes over multiple years.",
+        "process_and_outcome": "Periodic audits by Reddit confirmed compliance; BBC maintained the practice without interruptions or restrictions.",
+        "involved_parties": [
+            "BBC News (Broadcaster)",
+            "Reddit Inc. (Embed Provider)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "Reddit Press & Broadcast Guidelines",
+            "Reddit Brand Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "WordPress Plugin Reddit Embed Breach",
+        "example_background": "A WordPress plugin developer released an embed tool in 2023 that allowed site owners to insert Reddit content with custom CSS overrides and commercial overlays. Downloaded by thousands for blogs and e-commerce sites, it operated outside Reddit's terms by enabling persistent modifications and caching of embeds, which altered original presentation and potentially enabled unauthorized monetization through ad placements atop embeds.",
+        "process_and_outcome": "Reddit revoked API access for the plugin, contacted the developer and WordPress.org for removal. The plugin was pulled from repositories, with users instructed to uninstall.",
+        "involved_parties": [
+            "Plugin Developer",
+            "Reddit Inc.",
+            "WordPress.org"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Developer Terms",
+            "Reddit Embeds Terms",
+            "Reddit Brand Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Washington Post Compliant Embed Usage",
+        "example_background": "The Washington Post employed Reddit Embeds in interactive features and opinion pieces since 2017, embedding threads on topics like elections and social media trends. Implementation used vanilla oEmbed code, preserving Reddit's UI elements, links, and branding intact across all articles. Editorial guidelines mirrored Reddit's policies, with embeds limited to editorial contexts and proper sourcing credits.",
+        "process_and_outcome": "No compliance issues noted; Reddit and WaPo collaborated on best practices, sustaining long-term usage.",
+        "involved_parties": [
+            "The Washington Post (Media Outlet)",
+            "Reddit Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "Reddit User Agreement",
+            "Reddit Press & Broadcast Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Mobile App Reddit Feed Termination",
+        "example_background": "An independent mobile app launched in 2021 featured a Reddit section using Embeds to create a customized newsreader. The app resized embeds, disabled interactive features, and included in-app purchases tied to embed displays, running afoul of terms prohibiting such alterations and commercial tying. It garnered 200,000 downloads before Reddit's intervention.",
+        "process_and_outcome": "Reddit terminated app access to embeds, leading to feature removal and a significant user drop-off. The developer ceased Reddit integration.",
+        "involved_parties": [
+            "Mobile App Developer",
+            "Reddit Inc.",
+            "App Store (Apple/Google)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Embeds Terms",
+            "Reddit Developer Terms"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    }
+]

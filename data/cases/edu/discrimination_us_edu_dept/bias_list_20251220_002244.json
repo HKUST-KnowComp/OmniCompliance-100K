@@ -1,0 +1,2288 @@
+[
+    {
+        "example_name": "Title IX Investigation at Yale University",
+        "example_background": "Yale University faced scrutiny over its handling of sexual harassment complaints involving students. Multiple female students reported incidents of sexual misconduct by male students, alleging that university officials dismissed complaints or failed to conduct thorough investigations. The cases highlighted patterns where female complainants felt their experiences were not adequately addressed, while accused male students' rights were prioritized in some instances. This occurred amid broader campus climate surveys showing disparities in how male and female students perceived safety and response mechanisms. The university's policies were examined for equitable application across genders.",
+        "process_and_outcome": "The U.S. Department of Education's Office for Civil Rights conducted an investigation starting in 2011, finding the university deficient in prompt and equitable resolution of complaints. Yale entered into a voluntary resolution agreement in 2012, committing to policy revisions, training, and monitoring to ensure fair processes for all students regardless of gender.",
+        "involved_parties": [
+            "Yale University",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "University of Montana Sexual Assault Resolution Agreement",
+        "example_background": "The University of Montana was involved in handling numerous reports of sexual assault and harassment, with complaints from both male and female students. Investigations revealed inconsistencies in how cases were processed, including delays in investigations and lack of support for complainants. Both universities in the system (Missoula and main campus) were reviewed for their compliance with federal requirements to address gender-based discrimination in educational programs. Campus records showed over 20 incidents in one academic year, prompting concerns about equitable treatment.",
+        "process_and_outcome": "Following a 2011 complaint, the Office for Civil Rights investigated and reached a resolution agreement in 2013. The university implemented new policies, training programs for staff and students, and established a centralized reporting system to handle complaints uniformly.",
+        "involved_parties": [
+            "University of Montana",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Violence Against Women Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "UNC Chapel Hill Title IX Compliance Review",
+        "example_background": "The University of North Carolina at Chapel Hill underwent examination of its sexual misconduct policies after student reports indicated uneven application based on gender. Female students reported longer wait times for hearings compared to male students in similar situations. The review encompassed training for Title IX coordinators, grievance procedures, and interim measures for complainants and respondents. Data from 2014-2016 showed disparities in outcomes for cases involving opposite-gender parties.",
+        "process_and_outcome": "An Office for Civil Rights compliance review in 2017 led to findings of partial compliance, with directives for policy updates and staff training. UNC revised procedures by 2018 to standardize processes across all genders.",
+        "involved_parties": [
+            "University of North Carolina at Chapel Hill",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Stanford University Sexual Misconduct Investigation",
+        "example_background": "Stanford University was reviewed following complaints about its response to sexual assault allegations, particularly those involving athletes. A notable case involved a female student swimmer and male swim team members, where the university's disciplinary process was criticized for lacking transparency and fairness to the complainant. Broader audits revealed inconsistencies in how male and female students' complaints were handled, with some female reports not advancing to full hearings.",
+        "process_and_outcome": "The Office for Civil Rights opened an investigation in 2014, resulting in a 2015 voluntary resolution agreement. Stanford enhanced its policies, increased coordinator resources, and implemented climate surveys to monitor equity.",
+        "involved_parties": [
+            "Stanford University",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Harvard University Title IX Resolution",
+        "example_background": "Harvard faced allegations of gender bias in its handling of sexual harassment cases within the Faculty of Arts and Sciences. Complaints from 2014 highlighted that female graduate students experienced dismissive responses compared to male peers. The university's decentralized model across 18 schools led to varying standards, prompting a system-wide review for consistent application of non-discrimination principles.",
+        "process_and_outcome": "A 2014 Office for Civil Rights investigation concluded with a 2016 resolution agreement. Harvard centralized training, unified policies, and reported annual data on case handling to ensure equity.",
+        "involved_parties": [
+            "Harvard University",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Michigan State University Nassar Scandal",
+        "example_background": "Michigan State University employed physician Larry Nassar, who treated female athletes and was later convicted of abusing over 250 girls and women. University staff received complaints from female gymnasts starting in 2014 but did not escalate them adequately, allowing continued access to victims. This case underscored failures in protecting female students from gender-based harm in athletic and medical contexts.",
+        "process_and_outcome": "The Office for Civil Rights investigated from 2018, finding Title IX violations. MSU paid $500 million in settlements, implemented reforms, and faced ongoing monitoring. Nassar received a 175-year prison sentence.",
+        "involved_parties": [
+            "Michigan State University",
+            "U.S. Department of Education Office for Civil Rights",
+            "Larry Nassar"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Clery Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Florida State University Jameis Winston Case",
+        "example_background": "Florida State University investigated a sexual assault allegation against quarterback Jameis Winston by a female student in 2012. The Title IX process was delayed, and the complainant reported inadequate support. The case drew attention to potential favoritism toward male athletes and inconsistencies in procedural fairness for female accusers.",
+        "process_and_outcome": "Office for Civil Rights probed the handling, leading to a 2015 resolution agreement. FSU updated policies, trained staff, and improved support services for all parties involved in complaints.",
+        "involved_parties": [
+            "Florida State University",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Brown University's Transgender Rights Settlement",
+        "example_background": "Brown University addressed complaints from a transgender student excluded from female housing in 2014 due to policies not accommodating gender identity. This raised issues of discrimination based on sex stereotypes, affecting access to educational facilities equally for all students.",
+        "process_and_outcome": "The investigation ended in a 2016 voluntary resolution agreement. Brown revised housing policies, provided training, and ensured inclusive accommodations moving forward.",
+        "involved_parties": [
+            "Brown University",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "University of Mary Washington Compliant Conference Policy",
+        "example_background": "The University of Mary Washington implemented policies for student conferences and events ensuring equal participation regardless of gender. Annual reviews from 2015-2020 confirmed that leadership programs and academic conferences selected speakers and attendees based on merit, with balanced representation from male and female students and faculty.",
+        "process_and_outcome": "External audits and internal equity reports verified adherence, with no complaints filed under Title IX related to conference exclusions. The university received commendations for inclusive practices in Department of Education reviews.",
+        "involved_parties": [
+            "University of Mary Washington",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Yale University Title IX Investigation 2011",
+        "example_background": "Yale University faced complaints regarding an environment that permitted sexual harassment and assault against female students. Multiple female undergraduates reported incidents of sexual harassment by male students, including public acts of sexual aggression and verbal abuse tied to gender. The university's handling of these complaints was questioned, with reports indicating inadequate responses and failure to address patterns of behavior. Investigations revealed that Yale did not consistently provide supportive measures or interim protections for complainants, and some accused individuals remained on campus without restrictions despite repeated allegations. This occurred in the context of undergraduate residential colleges where such incidents were witnessed by peers.",
+        "process_and_outcome": "The U.S. Department of Education's Office for Civil Rights conducted an investigation starting in 2011, finding Yale in violation of Title IX for failing to eliminate a hostile environment based on sex. Yale entered into a resolution agreement in 2012, committing to revise policies, train staff, conduct climate surveys, and report annually on compliance efforts. No monetary fine was imposed, but ongoing monitoring was required.",
+        "involved_parties": [
+            "Yale University (recipient institution)",
+            "U.S. Department of Education Office for Civil Rights (investigator and enforcer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Title IX regulations 34 C.F.R. Part 106"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "University of Montana Sexual Assault Settlement 2013",
+        "example_background": "The University of Montana and Missoula School District faced scrutiny over handling of sexual assault and harassment complaints, particularly those involving female students. Numerous reports emerged of sexual assaults on campus and in the community, with allegations that university officials inadequately responded to complaints, discouraged reporting, and failed to support victims. This included cases where accused perpetrators continued participation in university activities. The broader context involved a joint investigation covering both the university and local high school, highlighting systemic issues in addressing sex-based discrimination.",
+        "process_and_outcome": "OCR investigated from 2011, resulting in a 2013 resolution agreement requiring comprehensive policy overhauls, mandatory training, equitable grievance procedures, and climate assessments. The university implemented changes and was released from monitoring in 2016 after demonstrating sustained compliance.",
+        "involved_parties": [
+            "University of Montana (recipient)",
+            "Missoula School District (recipient)",
+            "U.S. Department of Education Office for Civil Rights (investigator)",
+            "U.S. Department of Justice (co-investigator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Title IV of the Civil Rights Act of 1964"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "North Carolina Agricultural and Technical State University Title IX Case 2019",
+        "example_background": "North Carolina A&T State University was investigated for its response to sexual harassment complaints from female students. Specific incidents involved failure to provide supportive measures, inadequate investigations, and delays in processing reports of sexual assault and stalking by male students. The university's Title IX office was found lacking in promptness and thoroughness, with some complainants facing retaliation or continued contact with respondents.",
+        "process_and_outcome": "OCR launched a compliance review in 2016, concluding in 2019 with findings of Title IX violations. The university signed a resolution agreement mandating policy revisions, staff training, and monitoring through 2023.",
+        "involved_parties": [
+            "North Carolina Agricultural and Technical State University (recipient)",
+            "U.S. Department of Education Office for Civil Rights (investigator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "University of Kentucky Pregnancy Discrimination Resolution 2017",
+        "example_background": "A female student at the University of Kentucky reported discrimination based on pregnancy in an athletic training program. She was dismissed from the program after informing supervisors of her pregnancy, with officials citing concerns over her ability to meet physical requirements during and post-pregnancy. The student alleged unequal treatment compared to non-pregnant peers, lack of accommodations, and exclusion from program benefits.",
+        "process_and_outcome": "OCR investigated the 2012 complaint, finding Title IX violations in 2017. The university agreed to compensatory damages of $237,500 to the student, policy changes on pregnancy accommodations, training, and self-reporting mechanisms.",
+        "involved_parties": [
+            "University of Kentucky (recipient)",
+            "Complainant student",
+            "U.S. Department of Education Office for Civil Rights (investigator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Title IX regulations on pregnancy 34 C.F.R. \u00a7 106.40(b)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Georgia State University Title IX Compliance Review 2015",
+        "example_background": "Georgia State University underwent a proactive compliance review amid concerns over its policies and practices for addressing sexual harassment and assault. Issues included insufficient training for responders, delays in investigations, and lack of clear procedures for supportive measures. Multiple complaints from female students highlighted inconsistencies in handling reports of sex-based misconduct.",
+        "process_and_outcome": "OCR's 2014 review found violations, leading to a 2015 resolution agreement. The university updated policies, enhanced training programs, and implemented ongoing assessments, achieving compliance by 2018.",
+        "involved_parties": [
+            "Georgia State University (recipient)",
+            "U.S. Department of Education Office for Civil Rights (investigator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Stanford University Sexual Harassment Resolution 2013",
+        "example_background": "Stanford University was examined for its handling of sexual harassment complaints involving faculty and students. A notable case involved a female graduate student reporting repeated harassment by a male professor, with the university's initial response deemed inadequate in terms of investigation speed and protective actions. Broader patterns showed gaps in faculty training and reporting mechanisms.",
+        "process_and_outcome": "Following a 2012 OCR investigation, Stanford entered a 2013 voluntary resolution agreement, committing to improved grievance procedures, annual training, climate surveys, and advisor programs for complainants.",
+        "involved_parties": [
+            "Stanford University (recipient)",
+            "U.S. Department of Education Office for Civil Rights (investigator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Brown University Title IX Agreement 2015",
+        "example_background": "Brown University faced allegations of failing to respond adequately to sexual assault reports from female students. Complaints detailed delays in investigations, lack of interim measures like no-contact orders, and insufficient support services. The university's policies were criticized for not clearly delineating responsibilities across departments.",
+        "process_and_outcome": "OCR investigated multiple complaints from 2011-2014, resulting in a 2015 resolution agreement. Brown revised its sexual misconduct policy, expanded training, and agreed to three years of monitoring.",
+        "involved_parties": [
+            "Brown University (recipient)",
+            "U.S. Department of Education Office for Civil Rights (investigator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Arcadia Unified School District Pregnancy Discrimination 2012",
+        "example_background": "A pregnant high school student in Arcadia Unified School District was excluded from participation in cheerleading and other school activities after becoming pregnant. School officials informed her she could not continue due to her pregnancy status, denying her benefits available to other students and effectively treating pregnancy as a disqualifying condition.",
+        "process_and_outcome": "OCR investigated the 2010 complaint, finding Title IX violations in 2012. The district paid $4,000 in damages to the student, provided training to staff, and updated policies to include pregnancy accommodations.",
+        "involved_parties": [
+            "Arcadia Unified School District (recipient)",
+            "Complainant student",
+            "U.S. Department of Education Office for Civil Rights (investigator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. \u00a7 106.40(b) (pregnancy provisions)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "University of New Mexico Sexual Violence Resolution 2014",
+        "example_background": "The University of New Mexico was reviewed for its procedures in addressing sexual violence and harassment complaints. Female students reported inadequate investigations, failure to notify complainants of outcomes, and lack of equitable processes for both parties. The university's decentralized approach across departments contributed to inconsistencies.",
+        "process_and_outcome": "OCR's compliance review in 2013 led to a 2014 resolution agreement. UNM centralized its Title IX office, trained personnel, and conducted audits, completing requirements in 2017.",
+        "involved_parties": [
+            "University of New Mexico (recipient)",
+            "U.S. Department of Education Office for Civil Rights (investigator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Boy Scouts of America Bankruptcy and Sexual Abuse Claims",
+        "example_background": "The Boy Scouts of America, a longstanding youth organization with membership traditionally limited to boys under 19 years of age, faced extensive allegations from thousands of former members who reported instances of sexual abuse by scout leaders and volunteers spanning several decades. The organization maintained single-sex membership policies aligned with its historical traditions, operating camps, troop activities, and leadership training programs exclusively for male youth. These claims emerged publicly in the 2010s, prompting a reevaluation of internal safeguarding measures while the organization continued youth-focused outdoor and character-building initiatives.",
+        "process_and_outcome": "In 2020, the organization filed for Chapter 11 bankruptcy to manage over 84,000 abuse claims. A settlement fund of $2.46 billion was established in 2023, with contributions from the Boy Scouts' insurance policies and local councils. Operations continued with enhanced background checks and training protocols implemented post-filing.",
+        "involved_parties": [
+            "Boy Scouts of America (organization)",
+            "Survivors and claimants (plaintiffs)",
+            "U.S. Bankruptcy Court (oversight)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Internal youth protection policies",
+            "Chapter 11 Bankruptcy Code",
+            "Title IX of the Education Amendments (analogous)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Girl Scouts of USA Gender-Specific Programming Defense",
+        "example_background": "Girl Scouts of the USA, an organization with membership historically restricted to girls under 19, faced challenges in the 1990s and 2000s regarding its single-sex structure amid evolving gender equality discussions. The group delivered programs in leadership, STEM, outdoor skills, and community service tailored to female youth, maintaining separation from co-ed alternatives to preserve traditional bonding and development opportunities.",
+        "process_and_outcome": "Legal challenges were resolved in favor of the organization's single-sex exemption status, with courts affirming the policy's alignment with federal allowances for youth groups. The organization expanded inclusivity for transgender youth in some councils while retaining core single-sex membership.",
+        "involved_parties": [
+            "Girl Scouts of the USA (organization)",
+            "Various plaintiffs in discrimination suits",
+            "U.S. Department of Justice"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX exemption for single-sex youth organizations",
+            "IRS Section 501(c)(3) nonprofit status"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "YMCA Single-Sex Youth Program Challenges",
+        "example_background": "The Young Men's Christian Association operated youth programs in the mid-20th century that included single-sex groups for boys under 19, such as sports leagues and camping activities, consistent with its foundational charter. These initiatives provided structured physical, social, and spiritual development in environments separated by sex to match traditional membership patterns.",
+        "process_and_outcome": "Following Title IX enactment in 1972, the YMCA transitioned many programs to co-ed formats but retained exemptions for specific single-sex youth offerings. No major enforcement actions resulted, with the organization adapting policies to comply while preserving exempt activities.",
+        "involved_parties": [
+            "YMCA of the USA (organization)",
+            "U.S. Department of Health, Education, and Welfare (predecessor to OCR)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 CFR Part 106 (Title IX regulations)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Camp Fire Inclusion Policy Shift and Exemption Review",
+        "example_background": "Camp Fire, originally Camp Fire Girls with membership limited to girls under 19, underwent a name change to Camp Fire in 1975 to become co-ed, expanding beyond its traditional single-sex focus. Prior to this, it offered badge programs, camping, and crafts exclusively for female youth, operating under youth service organization frameworks.",
+        "process_and_outcome": "The shift to inclusivity occurred voluntarily without regulatory penalty, aligning with broader societal changes while historical operations fit exemption criteria. The organization now serves all genders with gender-specific subgroups in some locales.",
+        "involved_parties": [
+            "Camp Fire (organization)",
+            "Internal board and members"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX single-sex exemptions",
+            "IRS nonprofit youth organization guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Brown v. Boy Scouts of America (Louisiana Case)",
+        "example_background": "In a 1998 Louisiana state court case, parents challenged the Boy Scouts of America's policy excluding girls from certain Cub Scout programs, which were designated for boys under 19. The organization defended its traditional single-sex membership for den activities, advancement trails, and outdoor skills training.",
+        "process_and_outcome": "The court ruled in favor of the Boy Scouts, upholding the single-sex exemption under state and federal education nondiscrimination laws. No changes were mandated to the program's structure.",
+        "involved_parties": [
+            "Boy Scouts of America (defendant)",
+            "Brown family (plaintiffs)",
+            "Louisiana State Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Louisiana equal access laws",
+            "Title IX exemptions (34 CFR \u00a7 106.15)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "YWCA Title IX Compliance Audit",
+        "example_background": "The Young Women's Christian Association maintained women-only fitness and youth programs for girls under 19 in various branches during the 1980s, providing exercise classes, leadership workshops, and mentorship aligned with its historical single-sex tradition for female youth development.",
+        "process_and_outcome": "A federal compliance review by the Office for Civil Rights confirmed adherence to Title IX exemptions for such organizations, with no violations cited. Programs continued without modification.",
+        "involved_parties": [
+            "YWCA USA (organization)",
+            "U.S. Department of Education Office for Civil Rights (auditor)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments",
+            "34 CFR \u00a7 106.15(b)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Boy Scouts Transgender Membership Policy Litigation",
+        "example_background": "In 2018-2019, the Boy Scouts of America addressed policies for transgender youth in its boys-only troops, traditionally limited to male youth under 19, amid national debates on gender identity. Local councils handled registrations on a case-by-case basis while upholding core single-sex designations for most activities.",
+        "process_and_outcome": "No federal enforcement actions were taken; the organization updated guidelines in 2019 to defer to local determinations, maintaining operational continuity without penalties.",
+        "involved_parties": [
+            "Boy Scouts of America (organization)",
+            "Various local councils",
+            "Families and advocacy groups"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX regulations",
+            "BSA Youth Protection policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Girl Scouts Council of the Nation's Capital v. HHS",
+        "example_background": "A Girl Scout council sought to exclude a transgender girl from membership in 2016, citing its traditional limitation to female youth under 19 for troop meetings, cookie sales, and badge work, in line with historical practices.",
+        "process_and_outcome": "The case settled without court ruling on the merits; the council reversed its decision under pressure but affirmed its single-sex framework. No regulatory fines imposed.",
+        "involved_parties": [
+            "Girl Scouts Council of the Nation's Capital (organization)",
+            "Parent of transgender child (plaintiff)",
+            "U.S. Department of Health and Human Services"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX",
+            "Health Care Rights Law (Section 1557)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Kappa Alpha Psi Fraternity Hazing Investigation at University of Central Arkansas",
+        "example_background": "In 2019, members of the Kappa Alpha Psi fraternity at the University of Central Arkansas engaged in activities during a new member intake process that involved physical tasks and exercises performed by pledges. The university administration received reports from students and staff regarding these activities occurring on campus grounds. The incidents took place over several days and involved multiple participants from the fraternity chapter. Campus safety personnel documented the events, including observations of pledges performing calisthenics and other group exercises under supervision of chapter members. The university's student conduct office initiated a review to assess adherence to institutional guidelines on student organizations.",
+        "process_and_outcome": "The university suspended the fraternity chapter pending investigation. After review by the Office of Community Standards, the chapter received a three-year suspension, and individual members faced disciplinary hearings resulting in probationary statuses and mandatory training sessions.",
+        "involved_parties": [
+            "Kappa Alpha Psi Fraternity",
+            "University of Central Arkansas",
+            "Office of Community Standards"
+        ],
+        "applicable_regulations_or_policies": [
+            "University Student Handbook - Hazing Policy",
+            "Title IX of the Education Amendments",
+            "State anti-hazing laws"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Pi Kappa Alpha Fraternity Suspension at Florida State University",
+        "example_background": "During the fall semester of 2021, the Pi Kappa Alpha fraternity chapter at Florida State University conducted new member education activities that included group physical challenges and late-night sessions. Reports from other students and observations by university housing staff led to complaints filed with the Dean of Students office. The activities involved pledges participating in organized exercises and tasks as part of fraternity traditions, occurring in chapter facilities and off-campus locations affiliated with members.",
+        "process_and_outcome": "University officials conducted an investigation involving interviews with over 20 individuals. The chapter was placed on interim suspension, followed by a permanent revocation of recognition for five years. Several members were referred for individual conduct reviews.",
+        "involved_parties": [
+            "Pi Kappa Alpha Fraternity",
+            "Florida State University",
+            "Dean of Student Services"
+        ],
+        "applicable_regulations_or_policies": [
+            "FSU Fraternity and Sorority Life Policies",
+            "Anti-Hazing Statute (Florida)",
+            "Clery Act reporting"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Alpha Phi Alpha Fraternity Compliance Program at University of Virginia",
+        "example_background": "The Omicron Mu chapter of Alpha Phi Alpha at the University of Virginia implemented a structured membership intake process emphasizing mentorship, community service, and academic support without physical requirements. This approach was developed in response to prior institutional reviews and aligned with university expectations for recognized organizations. The program included weekly sessions focused on leadership development and volunteer activities over a 10-week period.",
+        "process_and_outcome": "The university's Inter-Fraternity Council audited the program and issued commendations for adherence to guidelines. The chapter maintained full recognition status and received awards for positive contributions to campus life.",
+        "involved_parties": [
+            "Alpha Phi Alpha Fraternity",
+            "University of Virginia",
+            "Inter-Fraternity Council"
+        ],
+        "applicable_regulations_or_policies": [
+            "UVA New Member Education Policy",
+            "National Pan-Hellenic Council Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Delta Tau Delta Hazing Fine at Michigan State University",
+        "example_background": "In 2017, the Delta Tau Delta fraternity at Michigan State University organized pledge activities involving repetitive physical exercises and sleep deprivation elements during the intake period. University police responded to noise complaints and welfare checks at the chapter house, documenting pledges engaged in group calisthenics late at night. Multiple pledges reported the activities to campus health services, prompting formal complaints.",
+        "process_and_outcome": "MSU's Office of Student Conduct investigated, leading to a $10,000 fine, two-year suspension, and required anti-hazing education for all members. The national fraternity also revoked the chapter's charter.",
+        "involved_parties": [
+            "Delta Tau Delta Fraternity",
+            "Michigan State University",
+            "Office of Student Conduct"
+        ],
+        "applicable_regulations_or_policies": [
+            "MSU Anti-Hazing Policy",
+            "Michigan Compiled Laws \u00a7 750.411j"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Phi Beta Sigma Mentorship Model at North Carolina A&T State University",
+        "example_background": "Phi Beta Sigma fraternity at North Carolina A&T implemented a non-physical intake process centered on professional development workshops, community outreach projects, and academic tutoring sessions. The program was designed collaboratively with university staff and ran for eight weeks, involving service at local nonprofits and guest speakers on career readiness.",
+        "process_and_outcome": "The university reviewed and approved the program annually, highlighting it as a model in Greek Life reports. The chapter earned recognition for exemplary practices and sustained active status.",
+        "involved_parties": [
+            "Phi Beta Sigma Fraternity",
+            "North Carolina A&T State University",
+            "Office of Fraternity and Sorority Life"
+        ],
+        "applicable_regulations_or_policies": [
+            "NPHC Membership Intake Guidelines",
+            "University Risk Management Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Sigma Alpha Epsilon Alcohol Policy Enforcement at University of Oklahoma",
+        "example_background": "In 2015, Sigma Alpha Epsilon members at the University of Oklahoma hosted a pre-game event with chants containing exclusionary language during a bus transport to a football game. Video footage recorded by passengers spread online, showing chapter members reciting phrases that referenced selective membership traditions. University leadership received the reports within hours.",
+        "process_and_outcome": "The university closed the chapter immediately, expelled two members, and suspended others. National headquarters disaffiliated the group, and legal settlements followed Title VI complaints.",
+        "involved_parties": [
+            "Sigma Alpha Epsilon",
+            "University of Oklahoma",
+            "Office of Civil Rights Compliance"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act",
+            "OU Student Code of Conduct",
+            "First Amendment considerations"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Girl Scouts of USA Inclusion Initiatives",
+        "example_background": "Girl Scouts of USA developed nationwide programs ensuring open participation in troops regardless of background, with training for leaders on inclusive practices. The organization expanded accessibility through scholarships, virtual troop options, and diversity-focused badges earned via community engagement projects.",
+        "process_and_outcome": "Annual audits by the national council confirmed policy adherence, leading to increased membership diversity and recognition from educational partners for equity efforts.",
+        "involved_parties": [
+            "Girl Scouts of USA",
+            "Local Councils",
+            "U.S. Department of Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX Education Amendments",
+            "Girl Scout Leadership Experience Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Boy Scouts of America BSA Membership Policy Litigation",
+        "example_background": "Boy Scouts of America maintained policies limiting adult leadership roles based on sexual orientation until 2015, leading to exclusions of qualified volunteers. Multiple families challenged denials of registration for gay parents and leaders at local troops across states.",
+        "process_and_outcome": "Facing lawsuits and public pressure, BSA revised policies in 2013-2015 to allow gay youth and then adults. A 2018 bankruptcy addressed thousands of abuse claims, resulting in a $2.7 billion settlement fund.",
+        "involved_parties": [
+            "Boy Scouts of America",
+            "Various Plaintiffs",
+            "U.S. Supreme Court (indirect)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VII (analogous)",
+            "First Amendment protections",
+            "State non-discrimination laws"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Omega Psi Phi Fraternity Intake Review at Florida A&M University",
+        "example_background": "In 2022, Omega Psi Phi chapter at Florida A&M University conducted membership activities including physical conditioning sessions for candidates. Campus security intervened after reports of pledges running laps and performing push-ups in university parking areas late at night.",
+        "process_and_outcome": "The university suspended the chapter for one year following investigation. Members completed educational programs, and the national organization imposed additional monitoring.",
+        "involved_parties": [
+            "Omega Psi Phi Fraternity",
+            "Florida A&M University",
+            "Student Judicial Affairs"
+        ],
+        "applicable_regulations_or_policies": [
+            "FAMU Hazing Prevention Policy",
+            "NPHC Standards"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Yale University Title IX Single-Sex Admissions Exemption",
+        "example_background": "Yale University, historically a men's college since its founding in 1701, initiated a transition to coeducation in 1969, admitting its first women undergraduates in the fall of 1969. This change was part of a broader movement among Ivy League institutions to open admissions to both sexes amid societal shifts toward gender equality in higher education. The university developed a detailed plan outlining facility expansions, curriculum adjustments, housing accommodations, and faculty hiring to support the integration of women students. The process involved consultations with alumni, faculty, and administrators to ensure a smooth implementation over several years, with full coeducation achieved by the early 1970s. This transition occurred just prior to the enactment of Title IX, positioning Yale to seek formal recognition under transitional provisions.",
+        "process_and_outcome": "The U.S. Department of Health, Education, and Welfare (HEW), predecessor to the Department of Education, reviewed and approved Yale's transition plan, granting exemptions from Title IX single-sex admissions prohibitions for the applicable periods. No enforcement actions were taken, and Yale successfully completed the change without penalties.",
+        "involved_parties": [
+            "Yale University",
+            "U.S. Department of Health, Education, and Welfare (HEW)",
+            "U.S. Department of Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972, 20 U.S.C. \u00a7 1681(a)(2)",
+            "34 C.F.R. \u00a7 106.17 (transitional exemptions for single-sex institutions)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Princeton University Coeducation Transition",
+        "example_background": "Princeton University, an all-male institution since 1746, began the process of admitting women undergraduates in 1969, with the first class entering in 1969. The decision followed extensive study by a trustee committee that recommended coeducation to better prepare students for modern society. The university's plan included constructing new residential colleges for women, increasing enrollment capacity, revising admissions criteria to evaluate male and female applicants comparably, and enhancing support services such as counseling and athletics for both sexes. Implementation spanned several years, with significant investments in infrastructure and policy changes to facilitate the integration.",
+        "process_and_outcome": "HEW approved Princeton's plan for changing from single-sex to coeducational status, providing Title IX transitional exemptions for one year from June 23, 1972, and extended periods up to seven years as applicable. The transition proceeded as planned without regulatory challenges.",
+        "involved_parties": [
+            "Princeton University",
+            "U.S. Department of Health, Education, and Welfare (HEW)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972, 20 U.S.C. \u00a7 1681(a)(2)",
+            "34 C.F.R. \u00a7 106.17"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Wellesley College Single-Sex Status Maintenance",
+        "example_background": "Wellesley College, founded in 1870 as a women's liberal arts college, continued its policy of admitting only female undergraduates through the 1970s and beyond. Facing pressures from Title IX but qualifying as a private undergraduate institution whose primary purpose was to provide a program with a focus on one sex, Wellesley did not initiate a change to coeducation. Instead, it emphasized its mission to empower women through education, maintaining separate admissions processes and arguing that its structure inherently advanced gender equity by providing opportunities tailored to women. The college engaged in ongoing dialogues with federal regulators regarding its exemption status.",
+        "process_and_outcome": "HEW and later the Department of Education granted and upheld Wellesley's exemption from Title IX coeducation requirements under the private single-sex institution provisions. No investigations or fines resulted from its admissions practices.",
+        "involved_parties": [
+            "Wellesley College",
+            "U.S. Department of Health, Education, and Welfare (HEW)",
+            "U.S. Department of Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972, 20 U.S.C. \u00a7 1681(a)(5)",
+            "34 C.F.R. \u00a7 106.16(b)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "William Smith College at Hobart Merger Investigation",
+        "example_background": "Hobart and William Smith Colleges in Geneva, New York, operated Hobart as a men's college and William Smith as a women's college under a coordinate college model since 1908. In the 1970s, amid Title IX implementation, the institutions considered merging admissions processes to become fully coeducational. A plan was developed involving unified application procedures, shared facilities, and joint governance, but implementation faced internal resistance and regulatory scrutiny over whether it met transitional approval criteria. The process highlighted tensions between preserving historical structures and complying with federal nondiscrimination mandates.",
+        "process_and_outcome": "The Department of Education investigated the coordinate structure and ultimately approved a plan for full coeducation in 1971, pre-dating Title IX, with transitional exemptions applied post-1972. The colleges merged admissions in 1970-1971 without fines.",
+        "involved_parties": [
+            "Hobart and William Smith Colleges",
+            "U.S. Department of Health, Education, and Welfare (HEW)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972, 20 U.S.C. \u00a7 1681(a)(2)",
+            "34 C.F.R. \u00a7 106.17"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Mississippi University for Women v. Hogan Enforcement",
+        "example_background": "Mississippi University for Women (MUW), chartered in 1884 as the first public college for women in the U.S., maintained a females-only undergraduate admissions policy into the 1980s. The institution justified its single-sex status based on historical tradition and claims of providing unique educational benefits for women. However, it admitted men to its graduate nursing program starting in 1974, creating inconsistency. Joe Hogan, a male nurse, applied to the undergraduate nursing school in 1979 and was denied admission solely due to his sex, prompting a challenge to the policy's legality under Title IX and constitutional equal protection standards.",
+        "process_and_outcome": "The U.S. Supreme Court ruled in 1982 that MUW's exclusion of men from the nursing program violated the Equal Protection Clause, as it did not serve important governmental objectives. MUW subsequently opened undergraduate admissions to men in 1982. No direct Title IX fine was imposed, but the decision prompted policy overhaul.",
+        "involved_parties": [
+            "Mississippi University for Women (MUW)",
+            "Joe Hogan (plaintiff)",
+            "U.S. Department of Education, Office for Civil Rights",
+            "U.S. Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972, 20 U.S.C. \u00a7 1681",
+            "Equal Protection Clause of the 14th Amendment"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Goucher College Coeducation Transition Plan",
+        "example_background": "Goucher College, established in 1885 as the Women's College of Baltimore, operated as a single-sex institution for women until 1976. In 1975, the board of trustees voted to admit men starting in the fall of 1976, following a multi-year study that included surveys of students, alumnae, and peer institutions. The transition plan detailed increased enrollment goals, new dormitory construction, adjustments to social and athletic programs, and marketing strategies to attract male applicants while retaining its women's college identity during the changeover. This occurred within the Title IX transitional window.",
+        "process_and_outcome": "The Department of Health, Education, and Welfare reviewed and approved Goucher's plan, granting Title IX exemptions for the one-year and extended six-to-seven-year periods during the change. The college successfully transitioned without enforcement actions.",
+        "involved_parties": [
+            "Goucher College",
+            "U.S. Department of Health, Education, and Welfare (HEW)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972, 20 U.S.C. \u00a7 1681(a)(2)",
+            "34 C.F.R. \u00a7 106.17"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Vassar College Early Coeducation Adoption",
+        "example_background": "Vassar College, founded in 1861 as a college for women, began admitting men in 1969 after a faculty-student committee recommended coeducation in response to declining female college attendance and competition from coed peers. The plan involved immediate implementation for transfer students and freshmen, with expansions in housing, faculty, and extracurriculars. By the time Title IX passed in 1972, Vassar had already been coeducational for three years, but it sought formal approval for any residual transitional considerations related to its prior single-sex history.",
+        "process_and_outcome": "HEW acknowledged Vassar's pre-Title IX transition and provided applicable exemptions, confirming compliance during the statutory periods. No investigations occurred.",
+        "involved_parties": [
+            "Vassar College",
+            "U.S. Department of Health, Education, and Welfare (HEW)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972, 20 U.S.C. \u00a7 1681(a)(2)",
+            "34 C.F.R. \u00a7 106.17"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "United States v. Virginia Military Institute (VMI) Challenge",
+        "example_background": "The Virginia Military Institute (VMI), established in 1839 as the nation's first state military college, admitted only men through the 1980s and 1990s, maintaining an adversative method focused on building character through rigorous physical and mental training. VMI argued its single-sex status was essential to its unique educational approach. In 1989, the Department of Justice sued after a woman was denied admission, leading to litigation over whether VMI's policy aligned with Title IX exemptions or equal protection.",
+        "process_and_outcome": "The U.S. Supreme Court ruled in 1996 that VMI's male-only admissions policy violated the Equal Protection Clause. Virginia created the Virginia Women's Institute for Leadership as a remedy, but it was deemed inadequate, leading VMI to admit women in 1997. No Title IX-specific fine, but policy change enforced.",
+        "involved_parties": [
+            "Virginia Military Institute (VMI)",
+            "U.S. Department of Justice",
+            "Commonwealth of Virginia",
+            "U.S. Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972, 20 U.S.C. \u00a7 1681",
+            "Equal Protection Clause of the 14th Amendment",
+            "34 C.F.R. \u00a7 106.16 (public single-sex exemptions)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Skidmore College Transition to Coeducation",
+        "example_background": "Skidmore College, founded in 1903 primarily as a women's college, began admitting men on a limited basis in the 1960s and fully transitioned to coeducation by 1971. The plan included expanding enrollment from 1,200 to 2,500 students, building new residence halls, and integrating men into all programs. This positioned Skidmore within Title IX's transitional framework upon the law's 1972 enactment.",
+        "process_and_outcome": "Federal regulators approved the pre-Title IX transition plan, extending exemptions as needed post-1972. The college completed the change seamlessly without penalties or investigations.",
+        "involved_parties": [
+            "Skidmore College",
+            "U.S. Department of Health, Education, and Welfare (HEW)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972, 20 U.S.C. \u00a7 1681(a)(2)",
+            "34 C.F.R. \u00a7 106.17"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "VMI Gender Integration Enforcement",
+        "example_background": "The Virginia Military Institute (VMI), a public undergraduate higher education institution established in 1839, maintained a policy from its founding of admitting only male students. This practice continued through the 20th century, with VMI operating as a state-supported military college emphasizing a rigorous physical and mental training regimen known as the 'rat line.' In the early 1990s, inquiries arose regarding whether this single-sex admissions policy aligned with constitutional equal protection principles under the Fourteenth Amendment. The institution defended its approach based on its long-standing tradition, arguing that the unique educational methodology relied on an all-male environment to achieve specific character-building outcomes. Legal challenges emerged from individuals denied admission due to gender, leading to federal court examination of the policy's historical continuity and its impact on access to public education benefits.",
+        "process_and_outcome": "The United States District Court initially upheld VMI's policy in 1990. The Fourth Circuit Court of Appeals affirmed this in 1991. The U.S. Supreme Court reviewed the case in 1996, ruling 7-1 that the policy constituted unconstitutional discrimination. VMI was directed to admit women starting in 1997, resulting in the enrollment of the first female cadets that year. The state discontinued a parallel women's leadership program it had created as an alternative.",
+        "involved_parties": [
+            "Virginia Military Institute (VMI)",
+            "United States Department of Justice",
+            "State of Virginia"
+        ],
+        "applicable_regulations_or_policies": [
+            "Equal Protection Clause of the Fourteenth Amendment",
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "The Citadel Female Admissions Case",
+        "example_background": "The Citadel, a public military college in South Carolina founded in 1842, operated with a continuous policy of admitting only male students for over 150 years. It provided a structured corps of cadets program focused on leadership development through military-style discipline. In the mid-1990s, Nancy Mellette and Shannon Faulkner sought admission but were rejected based on gender. Faulkner pursued legal action after being accepted following a court order, becoming the first woman to attend in 1995 amid significant public attention and institutional resistance. The college maintained that its transformative educational model depended on the single-sex composition established since inception.",
+        "process_and_outcome": "Federal courts ruled against The Citadel's policy in 1994, with the Fourth Circuit affirming it violated equal protection. Faulkner attended briefly before withdrawing due to health issues. The U.S. Supreme Court declined review in 1995. The Citadel opened admissions to women in 1996, with the first female graduates completing the program in 1999.",
+        "involved_parties": [
+            "The Citadel",
+            "United States Department of Justice",
+            "Shannon Faulkner"
+        ],
+        "applicable_regulations_or_policies": [
+            "Equal Protection Clause of the Fourteenth Amendment",
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "William & Mary Title IX Investigation",
+        "example_background": "The College of William & Mary, a public institution in Virginia, faced scrutiny in the 1970s following the enactment of Title IX. While primarily coeducational, certain programs and athletic teams operated with gender-segregated participation. The institution had historical roots dating to 1693 but evolved admissions practices over time. Complaints highlighted disparities in opportunities for women in intercollegiate athletics and leadership roles, prompting federal review of compliance with nondiscrimination mandates in federally funded education programs.",
+        "process_and_outcome": "The Department of Health, Education, and Welfare (HEW) initiated an investigation in 1976. William & Mary entered into a compliance agreement, implementing changes to equalize athletic participation, scholarships, and facilities access by 1980. No fines were imposed, but ongoing monitoring ensured adherence.",
+        "involved_parties": [
+            "College of William & Mary",
+            "U.S. Department of Health, Education, and Welfare (HEW)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. Part 106 (Title IX Regulations)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Mississippi University for Women Nursing Program Exclusion",
+        "example_background": "Mississippi University for Women (MUW), established in 1884 as the first public college for women in the U.S., maintained a policy of admitting only female students in its undergraduate nursing program despite broader coeducational shifts. This single-sex approach in the School of Nursing continued into the 1980s, justified by the program's focus on a supportive environment for women entering a female-dominated field. Joe Hogan, a registered nurse, applied and was denied admission based on gender, leading to a challenge against the program's exclusionary practice.",
+        "process_and_outcome": "The U.S. Supreme Court ruled 5-4 in 1982 that the policy did not meet intermediate scrutiny under equal protection, as it perpetuated gender stereotypes rather than compensating for past discrimination. MUW opened the nursing program to men, with Hogan enrolling shortly after.",
+        "involved_parties": [
+            "Mississippi University for Women (MUW)",
+            "Joe Hogan",
+            "United States Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Equal Protection Clause of the Fourteenth Amendment"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Deep Springs College Gender Policy Challenge",
+        "example_background": "Deep Springs College, a small public-supported two-year liberal arts institution in California founded in 1917, has continuously admitted only male students since establishment. Located on a remote ranch, it emphasizes self-governance, manual labor, and rigorous academics with just 26 students. The policy stems from its founding principles of building character through an all-male, isolated setting. In recent years, internal student votes and external pressures have debated opening admissions, but the board has upheld the traditional approach.",
+        "process_and_outcome": "In 2011-2013, students voted to admit women, but the board rejected the proposal in 2013, maintaining the policy. A 2018 lawsuit by a rejected female applicant was dismissed. The college continues single-sex admissions without federal intervention to date.",
+        "involved_parties": [
+            "Deep Springs College",
+            "Deep Springs Board of Trustees",
+            "Rejected Applicants"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX Exemption for Single-Sex Admissions (20 U.S.C. \u00a7 1681(a)(5))"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Morehouse College Single-Sex Policy Maintenance",
+        "example_background": "Morehouse College, a private historically Black men's college in Atlanta founded in 1867, has upheld a policy of admitting only male students since its establishment. Affiliated with the Atlanta University Center, it focuses on leadership development for African American men through a curriculum emphasizing ethics, service, and professional preparation. While cross-registration with coed sister institutions exists, undergraduate admissions remain male-only, rooted in its mission to address historical educational gaps for Black males.",
+        "process_and_outcome": "No major legal challenges have overturned the policy. Morehouse reaffirmed its commitment in 2019 after internal discussions, continuing operations with federal recognition of its single-sex status under applicable exemptions.",
+        "involved_parties": [
+            "Morehouse College"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX Exemption for Single-Sex Admissions (20 U.S.C. \u00a7 1681(a)(5))"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Wabash College Continued Men's Only Admissions",
+        "example_background": "Wabash College, a private liberal arts college in Indiana established in 1832, has maintained an all-male undergraduate admissions policy continuously since its founding. It emphasizes a close-knit community, immersion learning, and gentlemanly leadership through its 'Gentleman's Rule' honor code. The college has resisted pressures to become coeducational, arguing that the single-sex model uniquely fosters intellectual and personal growth tailored to male experiences.",
+        "process_and_outcome": "Wabash has faced no successful legal actions against its policy. It receives federal funding while operating under recognized exemptions, with enrollment stable and policy intact as of 2023.",
+        "involved_parties": [
+            "Wabash College"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX Exemption for Religiously Affiliated or Traditional Single-Sex Institutions"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "United States Air Force Academy Gender Integration",
+        "example_background": "The United States Air Force Academy, a public federal service academy established in 1954, initially admitted only male cadets as part of its military training mission. By the early 1970s, congressional debates addressed gender equity in military education. President Ford signed legislation in 1975 authorizing female admissions, reflecting shifts in defense policy while the academy maintained its rigorous, traditional structure.",
+        "process_and_outcome": "The first class of women entered in 1976, comprising 10% of the class. Integration proceeded with adjustments to physical training standards. Today, women make up about 25% of cadets, with full compliance to nondiscrimination policies.",
+        "involved_parties": [
+            "United States Air Force Academy",
+            "U.S. Congress",
+            "Department of Defense"
+        ],
+        "applicable_regulations_or_policies": [
+            "10 U.S.C. \u00a7 9342 (Service Academy Admissions)",
+            "Title IX"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Hillsdale College Title IX Opt-Out",
+        "example_background": "Hillsdale College, a private liberal arts institution in Michigan founded in 1844, has never accepted federal funding, thereby opting out of Title IX requirements. This allows it to maintain independent policies on admissions and programs without government oversight on sex discrimination. While coeducational, it demonstrates adherence to self-determined practices outside federal mandates.",
+        "process_and_outcome": "Hillsdale publicly affirmed its opt-out status in 2016 amid national Title IX debates, continuing operations without federal investigations or requirements for gender equity reporting.",
+        "involved_parties": [
+            "Hillsdale College"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX (Voluntarily Not Accepted)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Duquesne University Fraternity Suspension 2017",
+        "example_background": "In October 2017 at Duquesne University, members of the Theta Chi fraternity chapter organized and hosted a party themed around Mexican stereotypes, featuring students dressed in sombreros, ponchos, and fake mustaches, with decorations including a pi\u00f1ata and inflatable cactus. Attendees consumed alcohol and participated in activities that included chanting and gestures mimicking cultural tropes. Videos of the event circulated on social media, showing participants engaging in behaviors perceived as mocking Latino heritage. The university administration received complaints from students and community members who viewed the event as insensitive to cultural identities. The incident occurred during the academic semester when the fraternity's active membership consisted primarily of undergraduate students enrolled at the institution.",
+        "process_and_outcome": "University officials conducted an investigation involving interviews with fraternity members, witnesses, and review of video evidence. The Theta Chi chapter was suspended indefinitely, all activities ceased, and members faced individual disciplinary hearings. The national Theta Chi organization also revoked the chapter's charter. The university issued a public statement addressing the matter and implemented additional diversity training requirements for all Greek organizations.",
+        "involved_parties": [
+            "Duquesne University",
+            "Theta Chi Fraternity (local chapter)",
+            "Theta Chi Fraternity (national organization)",
+            "Student body and community members"
+        ],
+        "applicable_regulations_or_policies": [
+            "Duquesne University Code of Student Conduct",
+            "Title VI of the Civil Rights Act of 1964",
+            "Institutional policies on bias and discrimination",
+            "Higher education anti-discrimination guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "October 2017"
+    },
+    {
+        "example_name": "University of Oklahoma SAE Fraternity Expulsion 2015",
+        "example_background": "On March 8, 2015, members of the Sigma Alpha Epsilon (SAE) fraternity chapter at the University of Oklahoma were recorded on video during a bus ride chanting phrases containing racial slurs and references to lynching and violence against African Americans, specifically 'There will never be a n***** at SAE' and 'You can hang them from a tree.' The video was posted online, leading to widespread attention. The fraternity members were undergraduate students primarily attending the university, and the incident took place during an official chapter event transporting members to an event.",
+        "process_and_outcome": "University President David Boren expelled the students involved and closed the chapter permanently on March 9, 2015. The national SAE organization expelled the chapter. Federal Department of Education reviewed the incident under civil rights laws but closed the case after university actions. Two students sued the university for due process violations but lost the case. The fraternity house was vacated and turned into university housing.",
+        "involved_parties": [
+            "University of Oklahoma",
+            "Sigma Alpha Epsilon Fraternity (local and national)",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act of 1964",
+            "University of Oklahoma Student Code of Conduct",
+            "Higher Education Act anti-discrimination provisions"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Harvard University Jewish Students Lawsuit 2024",
+        "example_background": "In 2024, six current and former Jewish students at Harvard University filed a federal lawsuit alleging the institution permitted an environment hostile to Jewish students following the October 7, 2023, Hamas attack on Israel. Claims included tolerance of antisemitic harassment, such as physical assaults, vandalism of Jewish student group offices, and chants calling for violence against Jews during campus protests. Protesters occupied buildings, blocked Jewish students from classes, and used slogans perceived as targeting Jewish identity. The plaintiffs noted the active student membership in campus groups mirrored the primarily undergraduate composition typical of such organizations at higher education institutions.",
+        "process_and_outcome": "The lawsuit was filed in U.S. District Court in Massachusetts seeking injunctive relief and damages. Harvard faced additional scrutiny from congressional hearings where its president resigned amid questions on handling antisemitism. The Department of Education opened Title VI investigations into Harvard and other universities for potential failures to address discrimination complaints.",
+        "involved_parties": [
+            "Harvard University",
+            "Jewish students (plaintiffs)",
+            "U.S. Department of Education Office for Civil Rights",
+            "Congressional Committee on Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act of 1964",
+            "Section 501(a) exempt organizations policies (analogous)",
+            "Higher education Title IX and civil rights obligations"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "University of Alabama Sorority Recruitment Segregation 2013",
+        "example_background": "During sorority recruitment week in 2013 at the University of Alabama, prospective member Melanie Vines, a white student, reported being told that her chosen sorority, Kappa Delta, could not offer her a bid if she recommended her black friend, Amani Friend, due to the sorority's all-white membership history and alumnae influence. The sororities involved had active memberships primarily composed of undergraduate women at the university, operating as tax-exempt social organizations under section 501(a). This incident highlighted ongoing practices within some chapters despite prior desegregation efforts post-1963.",
+        "process_and_outcome": "University administrators met with sorority presidents, leading to an invitation extended to Friend. The national Kappa Delta headquarters investigated internally. Media coverage prompted public commitments from the university and sororities to address membership practices through diversity initiatives.",
+        "involved_parties": [
+            "University of Alabama",
+            "Kappa Delta Sorority",
+            "Alpha Phi Sorority (related)",
+            "National Panhellenic Conference"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act of 1964",
+            "University of Alabama Equal Opportunity policies",
+            "Panhellenic Council recruitment rules"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Michigan State University Fraternity Hazing and Alcohol Incidents 2018",
+        "example_background": "In 2018, the Beta Theta Pi fraternity at Michigan State University hosted an event where pledges consumed excessive alcohol, resulting in the hospitalization of multiple underage students. The chapter's active members were primarily undergraduates attending the university. Reports indicated a pattern of hazing rituals involving forced drinking and humiliation, occurring within the tax-exempt social fraternity structure.",
+        "process_and_outcome": "University police investigated, leading to suspension of the chapter for five years. National Beta Theta Pi revoked recognition. Criminal charges were filed against several members for providing alcohol to minors.",
+        "involved_parties": [
+            "Michigan State University",
+            "Beta Theta Pi Fraternity",
+            "East Lansing Police Department"
+        ],
+        "applicable_regulations_or_policies": [
+            "Michigan State University Interim Hazing Policy",
+            "Title IX protections",
+            "Higher education alcohol policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Northwestern University Fraternity Assault Case 2019",
+        "example_background": "In 2019, a Northwestern University student alleged that members of the Sigma Chi fraternity sexually assaulted her during a party at their house. The fraternity's membership consisted mainly of students enrolled at the university. The incident involved alcohol provision to an underage attendee and failure to intervene in the assault.",
+        "process_and_outcome": "University Title IX office investigated, resulting in suspension of Sigma Chi for several years. National organization placed the chapter on probation. The accuser filed a lawsuit against the university and fraternity, settled out of court.",
+        "involved_parties": [
+            "Northwestern University",
+            "Sigma Chi Fraternity",
+            "Title IX Coordinator"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Clery Act reporting",
+            "University sexual misconduct policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Yale University Delta Kappa Epsilon Hazing Suspension 2011",
+        "example_background": "In 2011, Yale University's Delta Kappa Epsilon fraternity chapter required pledges to perform chants outside the freshman women\u2019s dormitories that included sexually explicit and demeaning language toward women. The active membership was primarily Yale undergraduates, functioning as a 501(c)(7) exempt social organization.",
+        "process_and_outcome": "Yale banned the chapter from campus for five years following an investigation. National DKE headquarters suspended the group. The incident prompted university-wide reviews of fraternity conduct policies.",
+        "involved_parties": [
+            "Yale University",
+            "Delta Kappa Epsilon Fraternity",
+            "Yale College Executive Committee"
+        ],
+        "applicable_regulations_or_policies": [
+            "Yale Undergraduate Regulations",
+            "Title IX",
+            "Institutional non-discrimination policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "Pennsylvania State University Fraternity Hazing Death 2017",
+        "example_background": "In February 2017, Timothy Piazza, a pledge to the Beta Theta Pi fraternity at Penn State University, died after consuming excessive alcohol during a hazing ritual called the 'gauntlet,' where pledges were forced to drink large quantities of alcohol. The fraternity's active members were primarily students at the university.",
+        "process_and_outcome": "Centre County DA charged 18 members with manslaughter and related crimes; several convictions followed. University revoked the chapter's recognition permanently. National Beta Theta Pi banned alcohol at chapter houses nationwide.",
+        "involved_parties": [
+            "Pennsylvania State University",
+            "Beta Theta Pi Fraternity",
+            "Centre County District Attorney"
+        ],
+        "applicable_regulations_or_policies": [
+            "Penn State Hazing Policy",
+            "Clery Act",
+            "Pennsylvania anti-hazing law"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "February 2017"
+    },
+    {
+        "example_name": "University of Richmond Fraternity Racial Slurs Incident 2019",
+        "example_background": "In 2019, members of the Sigma Phi Epsilon fraternity at the University of Richmond were recorded using racial slurs during a party. The chapter's membership primarily consisted of undergraduate students at the institution, operating under 501(c)(7) tax-exempt status.",
+        "process_and_outcome": "University investigated and suspended the chapter. National headquarters closed it permanently. Mandatory bias training was required for all Greek life.",
+        "involved_parties": [
+            "University of Richmond",
+            "Sigma Phi Epsilon Fraternity"
+        ],
+        "applicable_regulations_or_policies": [
+            "University Honor Code",
+            "Title VI",
+            "Community standards on respect"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Harvard University Admissions Case",
+        "example_background": "Harvard University, a private undergraduate institution, faced allegations regarding its admissions processes for undergraduate programs. The university used a holistic review process that considered factors such as academic performance, extracurricular activities, personal qualities, and race as one element among many. Asian American applicants claimed that this approach resulted in lower admission rates for them compared to other groups, alleging that subjective criteria were applied in a manner that disadvantaged certain applicants based on race. The case examined data from multiple admissions cycles, showing disparities in ratings for personal qualities and extracurriculars. Harvard maintained that its process aimed to create a diverse class reflecting varied backgrounds and experiences, and that removing race consideration would significantly alter class composition. The litigation spanned years, involving statistical analyses, depositions, and expert testimonies on admissions practices.",
+        "process_and_outcome": "The U.S. District Court ruled in favor of Harvard in 2019. The First Circuit Court of Appeals affirmed the decision in 2020. The U.S. Supreme Court heard the case alongside UNC's and in 2023 issued Students for Fair Admissions v. Harvard, holding that Harvard's race-conscious admissions violated the Equal Protection Clause. Harvard discontinued the use of race in admissions following the ruling.",
+        "involved_parties": [
+            "Harvard University (defendant institution)",
+            "Students for Fair Admissions (plaintiff organization)",
+            "U.S. Department of Justice (intervenor)",
+            "U.S. Supreme Court (final adjudicator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act of 1964",
+            "Equal Protection Clause of the 14th Amendment",
+            "Grutter v. Bollinger (2003 precedent)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "University of North Carolina Admissions Case",
+        "example_background": "The University of North Carolina (UNC), a public undergraduate institution, employed race-conscious admissions policies for its undergraduate programs. The process involved considering race as a plus factor in a holistic review to achieve student body diversity, alongside academics, leadership, and other attributes. Plaintiffs argued that this led to Asian and white applicants receiving lower chances, supported by statistical evidence of admission rate differences. UNC defended the policy as necessary for educational benefits from diverse perspectives, citing precedents allowing limited race considerations. The case included extensive review of admissions data from 2008-2018, internal emails, and consultant reports on diversity goals.",
+        "process_and_outcome": "A district court ruled for UNC in 2021. The Fourth Circuit affirmed in 2023. The Supreme Court consolidated it with the Harvard case and ruled in June 2023 that UNC's use of race in admissions violated Title VI, ending such practices at public institutions.",
+        "involved_parties": [
+            "University of North Carolina (defendant institution)",
+            "Students for Fair Admissions (plaintiff)",
+            "U.S. Department of Education (oversight)",
+            "U.S. Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act of 1964",
+            "Equal Protection Clause",
+            "Regents of the University of California v. Bakke (1978)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2008"
+    },
+    {
+        "example_name": "University of Texas at Austin Admissions Challenge",
+        "example_background": "After Texas's Top Ten Percent Plan automatically admitted top high school performers, the University of Texas used race as a factor for remaining undergraduate spots via holistic review considering essays, recommendations, and demographics. Abigail Fisher, a white applicant, claimed denial despite qualifications exceeding some minority admits.",
+        "process_and_outcome": "The Supreme Court in Fisher v. University of Texas (2016) upheld the policy 4-3 as meeting strict scrutiny under Grutter. A subsequent challenge was dismissed. UT continues race-conscious review pending 2023 ruling impacts.",
+        "involved_parties": [
+            "University of Texas at Austin (defendant)",
+            "Abigail Fisher (plaintiff)",
+            "U.S. Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Equal Protection Clause",
+            "Title VI",
+            "Grutter v. Bollinger"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Yale Law School Admissions Investigation",
+        "example_background": "The U.S. Department of Education's Office for Civil Rights investigated Yale Law School, a graduate higher education institution, for potential race and national origin discrimination in admissions. The probe examined application files, selection criteria, and outcomes for protected groups from 2015-2018, focusing on whether policies disadvantaged certain applicants.",
+        "process_and_outcome": "In 2021, OCR cleared Yale after finding no systemic discrimination; admissions considered multiple factors without unlawful bias. Yale maintained its diversity goals aligned with legal standards.",
+        "involved_parties": [
+            "Yale Law School (investigated institution)",
+            "U.S. Department of Education Office for Civil Rights (investigator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act of 1964",
+            "Department of Education Title VI Regulations (34 C.F.R. Part 100)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Princeton Theological Seminary Title IX Case",
+        "example_background": "Princeton Theological Seminary, a private graduate institution, faced a complaint alleging sex discrimination in admissions decisions for its Master of Divinity program. The OCR reviewed whether gender influenced evaluations of applicant qualifications, credentials, and selections over several cycles.",
+        "process_and_outcome": "OCR's 2019 resolution agreement found insufficient evidence of discrimination; the seminary agreed to training and monitoring but no violations were substantiated, affirming fair processes.",
+        "involved_parties": [
+            "Princeton Theological Seminary (respondent)",
+            "U.S. Department of Education OCR (investigator)",
+            "Complainant (anonymous applicant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Title VI"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "California Proposition 209 Enforcement at UC System",
+        "example_background": "California's Proposition 209 banned race-based preferences in public university undergraduate admissions. The UC system transitioned to race-neutral processes emphasizing socioeconomic diversity, outreach, and holistic review without race. This applied to all UC campuses for undergraduate admissions post-1996.",
+        "process_and_outcome": "Multiple challenges upheld Prop 209. UC achieved increased diversity through non-racial factors, with enrollment data showing sustained representation without race preferences, setting a model for compliance.",
+        "involved_parties": [
+            "University of California System (implementer)",
+            "California Voters (via Prop 209)",
+            "Coalition for Economic Equity (challenger)"
+        ],
+        "applicable_regulations_or_policies": [
+            "California Constitution Article I, Section 31 (Prop 209)",
+            "Title VI",
+            "Equal Protection Clause"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "United States Naval Academy Gender Integration Case",
+        "example_background": "The United States Naval Academy, established in 1845 as a federal service academy with its primary purpose dedicated to training midshipmen for commissioning as officers in the United States Navy, faced legal challenges in the 1970s regarding the admission of women. Prior to 1976, the academy enrolled only male students, reflecting policies aligned with the military's operational needs at the time. In 1975, following a directive from President Gerald Ford and subsequent congressional legislation, the academy began integrating women into its student body. This change was part of broader Department of Defense efforts to open service academies to female candidates, addressing evolving personnel requirements for naval service. The academy's curriculum emphasizes engineering, naval architecture, and leadership training tailored specifically for naval officer roles, with all graduates commissioned into the Navy or Marine Corps. The integration process involved adjustments to physical training standards, barracks accommodations, and academic support to accommodate coeducation while maintaining the institution's focus on military preparation.",
+        "process_and_outcome": "The U.S. Supreme Court dismissed challenges to the integration in cases such as Anderson v. Laird (1972) and subsequent related litigation, affirming the academy's authority to implement coeducation under congressional mandate. Women now constitute approximately 25% of the Brigade of Midshipmen, and the academy continues to operate successfully, producing officers for military service without ongoing discrimination claims related to gender.",
+        "involved_parties": [
+            "United States Naval Academy",
+            "U.S. Department of Defense",
+            "U.S. Congress",
+            "U.S. Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972 (with military exemption)",
+            "10 U.S.C. \u00a7 4342 (USNA establishment)",
+            "Public Law 94-106 (admission of women to service academies)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "The Citadel Gender Admissions Litigation - Faulkner v. Jones",
+        "example_background": "The Citadel, a public military college in South Carolina founded in 1842, maintained an all-male Corps of Cadets policy for over 150 years, positioning itself as an institution providing military-style education and discipline primarily to prepare young men for military service and leadership roles. Its curriculum included mandatory military training, with many graduates entering active duty in the armed forces. In the 1990s, Shannon Faulkner applied for admission and was initially accepted but denied upon discovery of her gender, leading to a federal lawsuit. The institution argued its unique military educational model necessitated the single-sex environment to foster the intangibles of military discipline. During litigation, Faulkner briefly enrolled in 1995 but withdrew due to harassment and health issues. The case highlighted tensions between the college's military training focus and broader equal protection requirements, prompting state-level considerations of a parallel program at a nearby women's college.",
+        "process_and_outcome": "The U.S. District Court ruled against The Citadel's policy in 1994, finding it violated the Equal Protection Clause. The Fourth Circuit Court of Appeals affirmed in 1995, and the U.S. Supreme Court denied certiorari. The Citadel subsequently admitted its first female cadets in 1996, ending the all-male policy and integrating women into the Corps of Cadets program.",
+        "involved_parties": [
+            "The Citadel",
+            "State of South Carolina",
+            "Shannon Faulkner",
+            "U.S. Department of Justice"
+        ],
+        "applicable_regulations_or_policies": [
+            "Equal Protection Clause of the 14th Amendment",
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Virginia Military Institute (VMI) Gender Discrimination Case - United States v. Virginia",
+        "example_background": "Virginia Military Institute (VMI), established in 1839 as the nation's oldest state-supported military college, operated an exclusively all-male admissions policy for more than a century, with its core mission centered on providing a rigorous military training program known as the 'rat line' to develop citizen-soldiers for service in the Virginia National Guard, reserves, and active duty military. Approximately 45% of graduates historically entered military service upon completion. The institution maintained that its adversative method\u2014intense physical and psychological training\u2014was essential for producing leaders and could not be replicated in a coeducational setting. In response to a 1989 complaint, the state created the Virginia Women's Institute for Leadership (VWIL) as a parallel single-sex program at Mary Baldwin College to offer women similar leadership training, but with a less militaristic structure.",
+        "process_and_outcome": "The U.S. District Court upheld VMI's policy in 1990, but the Fourth Circuit reversed in 1996. The U.S. Supreme Court ruled 7-1 in 1996 that VMI's male-only admissions policy violated the Equal Protection Clause, rejecting the VWIL remedial program as inadequate. VMI integrated women starting in 1997, with the first female class graduating in 2001.",
+        "involved_parties": [
+            "Virginia Military Institute",
+            "Commonwealth of Virginia",
+            "United States Department of Justice",
+            "Virginia Women's Institute for Leadership"
+        ],
+        "applicable_regulations_or_policies": [
+            "Equal Protection Clause of the 14th Amendment",
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "United States Merchant Marine Academy Title IX Compliance Audit",
+        "example_background": "The United States Merchant Marine Academy (USMMA) in Kings Point, New York, operates under the U.S. Department of Transportation with a primary purpose of training midshipmen for licensure as merchant marine officers and potential service in the U.S. Navy Reserve or Coast Guard. Founded in 1943, it provides a tuition-free education in maritime engineering, navigation, and ship operations, with graduates receiving commissions as ensigns in the Navy Reserve. In recent years, the academy underwent scrutiny for its handling of sexual assault and harassment reports within its regiment of midshipmen, amid broader examinations of Title IX compliance at federal service academies. The environment involved structured military discipline, sea year training on commercial vessels, and a focus on producing officers for both military and civilian maritime sectors.",
+        "process_and_outcome": "A 2020 Government Accountability Office (GAO) report identified deficiencies in USMMA's Title IX processes, including delays in investigations and inadequate support for complainants. The academy implemented reforms, including new reporting protocols and training programs, under oversight from the Department of Transportation's Maritime Administration. No fines were imposed, but ongoing monitoring was required.",
+        "involved_parties": [
+            "United States Merchant Marine Academy",
+            "U.S. Department of Transportation",
+            "Maritime Administration",
+            "Government Accountability Office"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "46 U.S.C. \u00a7 51301 (USMMA establishment)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Texas A&M Corps of Cadets Racial Discrimination Investigation",
+        "example_background": "Texas A&M University maintains a voluntary Corps of Cadets program, one of the largest uniformed student bodies outside service academies, with a primary emphasis on leadership development and military training for participants interested in commissioning into the U.S. armed forces. Established in 1876, the Corps trains approximately 2,500 students annually, with many pursuing ROTC paths to officer commissions. In the early 2000s, complaints emerged regarding racial slurs and exclusionary practices within certain Corps units, prompting an internal review. The incidents involved hazing rituals and social dynamics that allegedly marginalized African American and other minority cadets, despite the program's official non-discriminatory stance and its role in preparing students for integrated military service.",
+        "process_and_outcome": "Texas A&M conducted an internal investigation in 2003-2004, leading to disciplinary actions against involved cadets, policy revisions to strengthen anti-discrimination training, and diversity initiatives within the Corps. No external regulatory fines were issued, but the university settled related lawsuits out of court.",
+        "involved_parties": [
+            "Texas A&M University",
+            "Corps of Cadets",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act of 1964",
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "United States Air Force Academy Sexual Assault Scandals",
+        "example_background": "The United States Air Force Academy (USAFA) in Colorado Springs, with its primary mission to train cadets for commissioning as Air Force officers, encountered significant issues in the early 2000s when over 60 female cadets reported sexual assaults and harassment dating back to 1993. The academy's structured environment includes rigorous academic, military, and athletic training designed to instill discipline and leadership for aviation and combat roles. Reports indicated a culture where complaints were not properly escalated, supervisors failed to act, and some assaults occurred within cadet squadrons. This led to congressional inquiries into the academy's adherence to equal opportunity policies amid its military-focused operations.",
+        "process_and_outcome": "A 2003 Department of Defense task force investigation resulted in leadership changes, including the superintendent's resignation, implementation of a dedicated sexual assault response team, and revised training protocols. The academy received external oversight and has since reported improved handling of cases, with annual climate surveys showing progress.",
+        "involved_parties": [
+            "United States Air Force Academy",
+            "U.S. Department of Defense Inspector General",
+            "U.S. Congress"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "10 U.S.C. \u00a7 9343 (USAFA establishment)",
+            "DoD Instruction 6495.02 (SAPR Program)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Kings Point Merchant Marine Academy Sea Year Sexual Abuse Cases",
+        "example_background": "The U.S. Merchant Marine Academy's 'Sea Year' program places midshipmen on commercial vessels for practical training in maritime operations, aligning with the institution's core purpose of preparing graduates for merchant marine and military maritime service. In 2015, numerous female midshipmen reported sexual harassment, assault, and retaliation by ship crews during these voyages. Investigations revealed systemic failures in pre-voyage training, emergency reporting mechanisms, and vessel operator oversight, despite the program's critical role in licensing cadets for sea service.",
+        "process_and_outcome": "The Maritime Administration suspended Sea Year in 2016, commissioned an independent review, and resumed it in 2017 with enhanced safeguards including chaperone programs and real-time tracking. Several lawsuits were settled, and the academy faced congressional hearings, leading to policy overhauls without monetary penalties.",
+        "involved_parties": [
+            "United States Merchant Marine Academy",
+            "Maritime Administration",
+            "U.S. Coast Guard",
+            "U.S. Congress"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "33 CFR Part 273 (MARAD regulations)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "VMI Post-Integration Diversity Compliance Success",
+        "example_background": "Following the 1996 Supreme Court decision mandating coeducation, Virginia Military Institute transitioned to admit women while preserving its primary purpose of delivering military training through the rat line and barracks system to prepare cadets for National Guard and active duty service. The integration process involved facility upgrades, adjusted physical standards, and cultural shifts to include female cadets equally in the adversative training model that characterizes the institution.",
+        "process_and_outcome": "By 2023, women comprised 13% of the Corps, with female cadets achieving top honors and commissioning rates comparable to males. External audits and alumni reports confirm sustained operational effectiveness without discrimination claims, demonstrating model adherence to equal access in a military training context.",
+        "involved_parties": [
+            "Virginia Military Institute",
+            "Commonwealth of Virginia",
+            "U.S. Department of Justice"
+        ],
+        "applicable_regulations_or_policies": [
+            "Equal Protection Clause of the 14th Amendment",
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Bob Jones University v. United States",
+        "example_background": "Bob Jones University, a private Christian university in South Carolina, maintained policies from 1950 to 1971 that prohibited interracial dating and marriage among students, based on the institution's interpretation of biblical principles. The university viewed these restrictions as essential to its religious mission. From 1971 to 1975, the policy was adjusted to prohibit only interracial marriage, with dating permitted under certain conditions. These rules were enforced through student handbooks and disciplinary actions. The IRS revoked the university's tax-exempt status in 1970, arguing that such practices were contrary to public policy against racial discrimination. The university continued operations, enrolling students who adhered to its codes, and relied on tuition and donations. The case reached the Supreme Court after lower courts upheld the IRS decision, highlighting tensions between religious freedom exemptions and federal anti-discrimination policies in education.",
+        "process_and_outcome": "The Supreme Court ruled 8-1 in 1983 that the IRS properly revoked tax-exempt status, as the university's policies violated fundamental public policy against racial discrimination. The university was denied injunctive relief and continued without tax exemption until 2000, when it publicly repented and revised policies, regaining tax-exempt status from the IRS.",
+        "involved_parties": [
+            "Bob Jones University (educational institution)",
+            "Internal Revenue Service (IRS, regulator)",
+            "United States Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Internal Revenue Code Section 501(c)(3)",
+            "Title VI of the Civil Rights Act of 1964",
+            "Public policy against racial discrimination"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Goldsboro Christian Schools Inc. v. United States",
+        "example_background": "Goldsboro Christian Schools, a private religious K-12 institution in North Carolina affiliated with fundamentalist Christian beliefs, enforced a policy from its founding in 1963 that admitted only white students. The school cited religious convictions interpreting scripture as opposing racial integration in education and prohibiting interracial marriage. This policy was detailed in admission forms and parent agreements. The IRS revoked the school's tax-exempt status in 1978 following similar actions against other institutions. The school continued operations with private funding and appealed, arguing the policy aligned with its faith-based tenets. The case paralleled Bob Jones University, focusing on whether religious exemptions under tax law permitted racially restrictive admissions.",
+        "process_and_outcome": "The Supreme Court affirmed the IRS revocation in 1986 by an 8-1 vote, ruling that racially discriminatory admissions policies were inconsistent with charitable purposes under Section 501(c)(3). The school lost tax-exempt status and related benefits.",
+        "involved_parties": [
+            "Goldsboro Christian Schools (educational institution)",
+            "Internal Revenue Service (IRS, regulator)",
+            "United States Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Internal Revenue Code Section 501(c)(3)",
+            "Title VI of the Civil Rights Act of 1964"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Cornerstone Christian Schools Tax Exemption Revocation",
+        "example_background": "Cornerstone Christian Schools in Paducah, Kentucky, operated as a religious K-12 academy with policies limiting enrollment to Caucasian students, justified by interpretations of biblical separation. The school maintained this practice into the 1970s, aligning with its faith-based governance structure controlled by a religious organization. The IRS scrutinized the institution amid broader reviews of religious schools' tax status post-civil rights era legislation. The policy was enforced through explicit admission criteria, reflecting the organization's tenets on race and education.",
+        "process_and_outcome": "The IRS revoked tax-exempt status in the late 1970s, upheld in subsequent proceedings, as the admissions policy contravened public policy. The school operated without exemption thereafter.",
+        "involved_parties": [
+            "Cornerstone Christian Schools (educational institution)",
+            "Internal Revenue Service (IRS, regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Internal Revenue Code Section 501(c)(3)",
+            "Public policy against racial discrimination"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Moody Bible Institute Housing Policy Challenge",
+        "example_background": "Moody Bible Institute, a Chicago-based evangelical Christian institution founded in 1886, enforced separate dormitory policies for male and female students based on its religious tenets emphasizing biblical gender roles and chastity. The policy required unmarried opposite-sex students to live in gender-segregated housing. In the 1970s, the Department of Health, Education, and Welfare (HEW) investigated potential Title IX violations. The institute argued exemption under religious organization provisions due to control by its faith-based board and consistency with doctrinal standards on sexuality.",
+        "process_and_outcome": "HEW granted exemption in 1978 after review, recognizing the policies aligned with religious tenets. The institute retained federal funding and continued operations without alteration.",
+        "involved_parties": [
+            "Moody Bible Institute (educational institution)",
+            "Department of Health, Education, and Welfare (HEW, regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Religious exemption provisions"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Brigham Young University Honor Code Enforcement",
+        "example_background": "Brigham Young University (BYU), owned and operated by The Church of Jesus Christ of Latter-day Saints, maintains an Honor Code requiring adherence to church standards, including chastity (no sexual relations outside heterosexual marriage), dress codes, and prohibitions on homosexual behavior. These rules stem from the church's religious doctrines on morality and family. The university, as a religious institution, applies the code to all students, faculty, and staff. In 2019, public scrutiny arose over handling of sexual assault reports where victims faced discipline for honor code violations while reporting. The church controls the university's board and policies.",
+        "process_and_outcome": "BYU revised reporting processes in 2020 to de-emphasize honor code investigations in assault cases, but retained core tenets. No regulatory penalties imposed, as policies qualify under religious exemptions. Operations continue with code enforcement.",
+        "involved_parties": [
+            "Brigham Young University (educational institution)",
+            "The Church of Jesus Christ of Latter-day Saints (controlling organization)",
+            "U.S. Department of Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Religious exemption under Title IX"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Liberty University Title IX Exemption Approval",
+        "example_background": "Liberty University, founded by evangelical leader Jerry Falwell and governed by the Liberty University Board (aligned with Southern Baptist principles), sought exemption from Title IX provisions on sexual misconduct, contraception, and transgender policies. The university cited religious tenets opposing premarital sex, homosexuality, and gender identity changes, as outlined in its doctrinal statement. In 2021, amid lawsuits over handling of assault claims, Liberty requested formal exemption to align federal compliance with faith standards.",
+        "process_and_outcome": "The U.S. Department of Education granted the exemption in 2021, permitting policies consistent with religious beliefs. No fines or sanctions; university continues with tailored Title IX processes.",
+        "involved_parties": [
+            "Liberty University (educational institution)",
+            "U.S. Department of Education (regulator)",
+            "Liberty University Board (religious control)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "20 U.S.C. \u00a7 1681(a)(3) religious exemption"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Franciscan University of Steubenville Contraception Exemption",
+        "example_background": "Franciscan University of Steubenville, a Catholic institution controlled by the Franciscan University of Steubenville Board and aligned with Roman Catholic teachings, refused to provide contraceptive coverage in student health plans. The university's policies reflect church doctrine from Humanae Vitae opposing artificial contraception. Under the Affordable Care Act mandate, the institution sought exemption, arguing compliance would burden religious exercise. The university serves primarily Catholic students adhering to these tenets.",
+        "process_and_outcome": "The Department of Health and Human Services granted religious exemption in 2014, relieving the mandate. No penalties; health plans remain without contraceptive coverage.",
+        "involved_parties": [
+            "Franciscan University of Steubenville (educational institution)",
+            "U.S. Department of Health and Human Services (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Affordable Care Act contraceptive mandate",
+            "Religious Freedom Restoration Act",
+            "20 U.S.C. \u00a7 1681(a)(3)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Christian Legal Society v. Martinez (Hastings College Exemption Denial)",
+        "example_background": "At Hastings College of the Law (public institution), the Christian Legal Society (CLS) chapter required leaders to adhere to religious beliefs, including sexual morality standards prohibiting non-marital sex and active homosexual conduct. Hastings' 'all-comers' policy denied registered student organization status to groups with discriminatory criteria. CLS argued religious tenets exempted them, but Hastings lacked religious control.",
+        "process_and_outcome": "Supreme Court ruled 5-4 in 2010 upholding Hastings' policy; CLS denied recognition but could operate unofficially. Demonstrates limits of exemptions absent religious institutional control.",
+        "involved_parties": [
+            "Christian Legal Society (student group)",
+            "Hastings College of the Law (institution)",
+            "U.S. Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "First Amendment (free association)",
+            "Public accommodation policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Regents of the University of California v. Bakke Religious Analog",
+        "example_background": "While primarily race-based admissions, the case involved University of California Davis Medical School's quotas. Analogous religious institutions faced scrutiny; however, Supreme Court struck down quotas in 1978. Religious schools like those above navigated via exemptions, contrasting public institutions without religious tenets.",
+        "process_and_outcome": "Court ruled quotas unconstitutional under Title VI; white applicant Allan Bakke admitted. Highlights boundaries for religious exemptions in admissions.",
+        "involved_parties": [
+            "UC Davis Medical School",
+            "Allan Bakke (plaintiff)",
+            "U.S. Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act of 1964",
+            "Equal Protection Clause"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "American Legion Girls State Discrimination Lawsuit 2019",
+        "example_background": "In 2019, the American Legion's Girls State program in Oklahoma faced a complaint when a transgender girl was denied participation in the annual Girls State conference. The event is a week-long leadership and civic education program for high school girls, organized by American Legion posts and departments. The denial occurred because organizers determined the participant did not align with the program's definition of a girl based on biological sex at birth. This led to a federal civil rights complaint filed with the U.S. Department of Justice, highlighting tensions between the program's participant selection criteria and evolving interpretations of sex discrimination in educational programs. The incident drew attention to how such conferences structure eligibility to maintain separate programs for boys and girls, mirroring the structure of Boys State programs.",
+        "process_and_outcome": "The U.S. Department of Justice investigated the complaint under Title IX. After review, the DOJ declined to pursue enforcement action, effectively allowing the American Legion to continue its sex-based eligibility policy for Girls State. No fines or changes to the program structure were imposed.",
+        "involved_parties": [
+            "American Legion",
+            "U.S. Department of Justice (Civil Rights Division)",
+            "Oklahoma Girls State organizers",
+            "Complainant (transgender student)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "38 U.S.C. \u00a7 501(c) (American Legion programs exemption)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Boys State Film Exclusion Controversy 2020",
+        "example_background": "The 2020 documentary 'Boys State,' produced by HBO and directed by Jesse Moss and Amanda McBaine, followed participants at the American Legion Boys State conference in Austin, Texas. During production, female journalists and filmmakers were initially denied full access to the event, which is designated exclusively for male high school students. Organizers cited the program's tradition of gender-segregated conferences, intended to simulate government structures in a single-sex environment. The filmmakers negotiated limited access, but the incident underscored the strict gender separation maintained by American Legion conferences, paralleling Girls State operations.",
+        "process_and_outcome": "No formal legal action resulted. Access was granted under conditions, and the documentary was released to critical acclaim, winning awards including an Oscar nomination. The American Legion continued its gender-specific program format without alteration.",
+        "involved_parties": [
+            "American Legion Boys State (Texas)",
+            "HBO Documentary Films",
+            "Filmmakers Jesse Moss and Amanda McBaine"
+        ],
+        "applicable_regulations_or_policies": [
+            "American Legion Department of Texas Boys State policies",
+            "Title IX educational program guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "American Legion v. LGBTQ Exclusion Challenge 2021",
+        "example_background": "A 2021 challenge arose when an LGBTQ advocacy group questioned the American Legion's Girls Nation program for excluding participants based on gender identity. Girls Nation is the capstone event following Girls State conferences, where select delegates participate in a simulated national government in Washington, D.C. The program specifies eligibility for rising high school seniors who are girls, leading to the exclusion of a non-binary identifying delegate selected from a state Girls State. This case examined the intersection of the organization's congressionally chartered programs and anti-discrimination standards in federally supported educational activities.",
+        "process_and_outcome": "Internal review by American Legion leadership upheld the eligibility criteria. No regulatory intervention occurred, and the program proceeded with its standard selection process.",
+        "involved_parties": [
+            "American Legion National Headquarters",
+            "LGBTQ advocacy group",
+            "State Girls State program"
+        ],
+        "applicable_regulations_or_policies": [
+            "38 U.S.C. Chapter 14 (Veterans Organizations)",
+            "Internal American Legion conference guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Oklahoma Girls State Transgender Participation Ruling 2022",
+        "example_background": "In 2022, another incident at Oklahoma Girls State involved a transgender female student seeking admission. The American Legion Department of Oklahoma maintained that participation was limited to those assigned female at birth, consistent with the program's historical design to provide gender-specific civic education. The student applied through standard channels, but organizers reviewed eligibility based on birth certificates and school records, denying entry. This event reflected ongoing debates about sex-based classifications in youth leadership programs sponsored by veterans' organizations.",
+        "process_and_outcome": "State-level officials confirmed the decision aligned with program rules. No external enforcement actions were taken, preserving the program's structure.",
+        "involved_parties": [
+            "American Legion Department of Oklahoma",
+            "Oklahoma Girls State",
+            "Transgender applicant"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX sex-segregated program allowances",
+            "American Legion Charter and Bylaws"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "American Legion Boys Nation Gender Policy Affirmation 2018",
+        "example_background": "During the 2018 Boys Nation conference, queries about admitting female participants were raised amid national discussions on gender inclusivity. Boys Nation, held at the American Legion headquarters and U.S. sites, selects top delegates from state Boys State programs, exclusively male. Organizers reaffirmed the program's dedication to single-sex education, citing its role in fostering leadership among young men, separate from Girls Nation.",
+        "process_and_outcome": "American Legion issued a policy statement supporting continued gender separation. The conference proceeded as planned with no disruptions.",
+        "involved_parties": [
+            "American Legion National",
+            "Boys Nation Program",
+            "Media and advocacy inquiries"
+        ],
+        "applicable_regulations_or_policies": [
+            "Congressional Charter 36 U.S.C. \u00a7 300101 et seq.",
+            "Educational program sex-segregation exemptions"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Virginia Girls State Eligibility Dispute 2017",
+        "example_background": "A 2017 dispute in Virginia involved a student challenging exclusion from Girls State based on gender nonconformity. The American Legion's Virginia Girls State program required participants to be high school juniors identifying and living as female, verified through documentation. The challenge prompted a review of selection processes for the conference, which includes mock government simulations and civic training.",
+        "process_and_outcome": "Program directors upheld the criteria after consultation with national headquarters. The event continued without policy changes.",
+        "involved_parties": [
+            "American Legion Department of Virginia",
+            "Virginia Girls State",
+            "Challenging student"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX regulations on single-sex programs",
+            "American Legion operational guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "American Legion Successful Diversity Training in Conferences 2023",
+        "example_background": "In 2023, the American Legion implemented bias awareness training for staff and volunteers involved in Boys State and Girls State conferences across multiple states. The training focused on neutral facilitation of program activities while adhering to eligibility rules, ensuring an environment free from harassment or unequal treatment among admitted participants. This was part of broader organizational efforts to address discrimination concerns in educational programs.",
+        "process_and_outcome": "Training rollout was completed without incidents, and participant feedback indicated positive experiences. No complaints were filed during the conference season.",
+        "involved_parties": [
+            "American Legion National",
+            "State conference organizers",
+            "Training providers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Internal American Legion anti-discrimination policy",
+            "Title VI of the Civil Rights Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Florida Boys State Religious Accommodation Case 2016",
+        "example_background": "During the 2016 Florida Boys State conference, a participant requested accommodation for religious practices, raising questions about bias in program operations. The American Legion accommodated the request while maintaining the program's structure, demonstrating handling of diversity within the confines of sex-specific eligibility.",
+        "process_and_outcome": "Accommodation was provided promptly, and the conference concluded successfully with commendations for inclusive practices.",
+        "involved_parties": [
+            "American Legion Department of Florida",
+            "Boys State participant"
+        ],
+        "applicable_regulations_or_policies": [
+            "First Amendment religious freedoms",
+            "American Legion program policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "American Legion Girls State Harassment Resolution 2020",
+        "example_background": "In 2020, a reported incident of peer harassment at a Girls State conference in the Midwest was addressed through the American Legion's internal protocols. The program emphasizes civic education and leadership, with safeguards against discrimination among participants meeting eligibility standards.",
+        "process_and_outcome": "Investigation led to corrective actions, including mediation and additional training. The matter was resolved internally without escalation.",
+        "involved_parties": [
+            "American Legion state department",
+            "Girls State staff",
+            "Involved participants"
+        ],
+        "applicable_regulations_or_policies": [
+            "Internal compliance guidelines",
+            "Title IX anti-harassment provisions"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "American Legion Boys State Gender Exclusion Challenge",
+        "example_background": "The American Legion, a veterans organization, sponsors Boys State and Boys Nation programs designed as educational civic training conferences exclusively for male high school students selected from each state. These programs simulate government operations and have operated since 1935, providing participants with hands-on experience in elections, legislation, and public service. In 2019, a 17-year-old female student from California sought participation but was denied based on the program's male-only policy. The programs maintain separate Girls State and Girls Nation initiatives for females, arguing distinct experiences. This setup has been a longstanding tradition across all 50 states, with thousands of participants annually attending week-long sessions at college campuses. The policy stems from historical post-WWII efforts to engage youth in patriotism and civics, with gender segregation justified as preserving unique program dynamics. The student's exclusion drew attention amid broader debates on gender equity in youth programs.",
+        "process_and_outcome": "The student filed a formal complaint with the California Department of Fair Employment and Housing. After review, the department determined the gender restriction did not constitute unlawful discrimination under state law, as the programs are short-term educational conferences sponsored by a private nonprofit. No enforcement action was taken, and the programs continued unchanged.",
+        "involved_parties": [
+            "The American Legion (program sponsor)",
+            "California Department of Fair Employment and Housing (regulator)",
+            "Student complainant"
+        ],
+        "applicable_regulations_or_policies": [
+            "California Fair Employment and Housing Act (FEHA)",
+            "Unruh Civil Rights Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Boys State Program Continuation Post-DFEH Review",
+        "example_background": "Following the 2019 challenge, Boys State programs persisted nationwide without policy alterations. Each state American Legion post organizes its own Boys State, selecting boys through Americanism exams and recommendations. Activities include mock elections, bill drafting, and judicial proceedings. Parallel Girls State programs mirror this structure for girls. The framework emphasizes leadership development, with alumni including notable figures like Bill Clinton from Boys Nation. Annual attendance exceeds 25,000 across both genders, with funding from Legion dues and donations. The gender-separated model is presented as enabling tailored mentorship and historical reenactment of governmental processes.",
+        "process_and_outcome": "No further regulatory interventions occurred; programs operated as usual in 2020 and beyond, adapting to virtual formats during COVID-19 while retaining eligibility criteria.",
+        "involved_parties": [
+            "American Legion departments in 50 states (sponsors)",
+            "State education departments"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972 (exemption for single-sex programs)",
+            "State civil rights laws"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "HBO Documentary 'Boys State' Coverage of Selection Process",
+        "example_background": "The 2020 HBO documentary 'Boys State' chronicled the Missouri Boys State conference, highlighting the all-male participant selection, competitive political simulations, and interpersonal dynamics. Directed by Amanda McBaine and Jesse Moss, it followed 1,000 boys divided into political parties, campaigning for governor and other offices. The film captured debates on issues like abortion and gun rights, showcasing the program's intensity. It explicitly noted the absence of girls, paralleling the separate Girls State event. Produced over 18 months, the documentary drew from archival footage and participant interviews, portraying the conference as a microcosm of American democracy with gender-specific framing.",
+        "process_and_outcome": "The documentary received critical acclaim, including Emmy nominations, and prompted no legal challenges to the program's structure; it aired without restrictions.",
+        "involved_parties": [
+            "HBO (producer)",
+            "American Legion Boys State (subject)",
+            "Missouri Boys State participants"
+        ],
+        "applicable_regulations_or_policies": [
+            "First Amendment protections for expressive programs"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Elk Grove Girls State Annual Operation",
+        "example_background": "In California, the American Legion Auxiliary runs Girls State at Elk Grove High School, a week-long residential program for 400 selected female juniors. Participants engage in simulated government, forming city councils, state legislatures, and electing officials. Curriculum covers civics, public speaking, and leadership, with visitors from state officials. Established in 1939, it complements Boys State, providing identical structure but for girls. Selection via essays and interviews ensures diverse representation. Funding comes from Legion Auxiliary sources, with no co-ed integration.",
+        "process_and_outcome": "The program runs annually without incident, producing alumnae leaders; in 2023, it celebrated its 84th session.",
+        "involved_parties": [
+            "American Legion Auxiliary (sponsor)",
+            "Elk Grove High School (host)"
+        ],
+        "applicable_regulations_or_policies": [
+            "California Education Code provisions for youth leadership programs"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Boys Nation Congressional Experience Gender Policy",
+        "example_background": "Boys Nation, the capstone to Boys State, sends two boys from each state to Washington, D.C., for a week of seminars with federal officials, White House visits, and mock Senate sessions. Operational since 1947, it features 100 participants engaging in bill-writing and lobbying. Girls Nation operates similarly for female delegates. The separation allows focused interaction with mentors in a gender-specific environment, with past presidents like Bill Clinton hosting as alumni.",
+        "process_and_outcome": "Program maintained its format through 2023, with no successful challenges to gender exclusivity.",
+        "involved_parties": [
+            "The American Legion (national sponsor)",
+            "U.S. Congress members (visitors)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Federal guidelines on nonprofit youth programs"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Texas Boys State Longstanding Tradition",
+        "example_background": "Texas Boys State, hosted at Texas A&M University since 1940, gathers 600 boys for government simulations including primaries, conventions, and law enforcement roles. Girls State occurs concurrently at Texas Woman's University. The programs emphasize military courtesy and patriotism, with daily routines mirroring state government. Over 300,000 alumni have participated, many entering public service.",
+        "process_and_outcome": "Continued operation yearly, with expansions for capacity; no policy changes mandated.",
+        "involved_parties": [
+            "American Legion Texas (sponsor)",
+            "Texas A&M University (host)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Texas Education Code Chapter 34 (youth organizations)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Florida Girls State Civil Rights Review",
+        "example_background": "Florida's Girls State program selects 400 juniors for a week at Florida State University, focusing on legislative processes and elections. Amid 1970s civil rights expansions, the gender-separated format was scrutinized for potential bias in civic education access.",
+        "process_and_outcome": "State attorneys general reviewed and upheld the structure as compliant with equal protection principles for voluntary, private programs.",
+        "involved_parties": [
+            "American Legion Auxiliary Florida (sponsor)",
+            "Florida Attorney General"
+        ],
+        "applicable_regulations_or_policies": [
+            "Florida Civil Rights Act of 1992"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "New York Boys State Participant Diversity Policy",
+        "example_background": "New York Boys State at Colgate University admits boys statewide, with efforts to include diverse socioeconomic and ethnic backgrounds while maintaining male exclusivity. Program includes Supreme Court simulations and gubernatorial races.",
+        "process_and_outcome": "Operates continuously since 1935, with inclusive recruitment but firm gender lines.",
+        "involved_parties": [
+            "American Legion Department of New York (sponsor)",
+            "Colgate University"
+        ],
+        "applicable_regulations_or_policies": [
+            "New York Human Rights Law exemptions"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "National Title IX Exemption Application to Youth Conferences",
+        "example_background": "Under Title IX, single-sex educational programs like Boys/Girls State qualify for exemptions when not receiving federal funds directly and focused on vocational or leadership training. These conferences avoid mixed-gender formats to simulate specific civic engagement models.",
+        "process_and_outcome": "U.S. Department of Education guidance affirmed exemptions; programs remain operational.",
+        "involved_parties": [
+            "U.S. Department of Education (regulator)",
+            "American Legion (program operators)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX, 20 U.S.C. \u00a7 1681 et seq.",
+            "34 C.F.R. \u00a7 106.34"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Fisher v. University of Texas",
+        "example_background": "The University of Texas at Austin admitted 75% of in-state students via automatic criteria based on class rank, then used race as a factor for the remaining 'top 10% minus' spots to achieve diversity. Abigail Fisher, a white applicant not in the top 10%, was denied admission.",
+        "process_and_outcome": "The Supreme Court in 2013 vacated and remanded, then in 2016 upheld the program under strict scrutiny as narrowly tailored.",
+        "involved_parties": [
+            "University of Texas at Austin (defendant)",
+            "Abigail Fisher (plaintiff)",
+            "U.S. Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Equal Protection Clause of the 14th Amendment",
+            "Title VI of the Civil Rights Act of 1964"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "San Francisco Unified School District NAP Selection Bias",
+        "example_background": "The San Francisco Unified School District assigned students to elite high schools like Lowell High School using race-conscious policies that adjusted admission thresholds differently for racial groups. Black and Hispanic students received preferential treatment in selection for competitive academic programs.",
+        "process_and_outcome": "A 2021 federal court settlement ended the race-based system, mandating merit-based lottery and GPA criteria starting in 2022.",
+        "involved_parties": [
+            "San Francisco Unified School District (defendant)",
+            "Coalition for Equal Educational Opportunities (plaintiffs)",
+            "U.S. District Court for Northern District of California"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act of 1964",
+            "14th Amendment Equal Protection Clause"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Yale University Women's Conference Selection",
+        "example_background": "Yale University's Jackson School of Global Affairs organized the first 'Women's Leadership in Action' conference in 2023, exclusively inviting female students and limiting participation based on gender. Selection criteria prioritized women to foster leadership development in global affairs.",
+        "process_and_outcome": "The event proceeded as planned, drawing praise for promoting gender equity, though it prompted discussions on inclusive practices.",
+        "involved_parties": [
+            "Yale University Jackson School of Global Affairs (organizer)",
+            "Female students (selectees)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Institutional diversity policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "University of California System Post-Proposition 209 Compliance",
+        "example_background": "Following California's Proposition 209 in 1996, the University of California system eliminated race and gender considerations in admissions and program selections across its campuses. Holistic review focused on academic merit, socioeconomic factors, and life experiences without reference to demographics.",
+        "process_and_outcome": "The system maintained high academic standards and diversity through outreach, achieving compliance with state bans on preferences while filling classes.",
+        "involved_parties": [
+            "University of California system (implementer)",
+            "California voters (Proposition 209)",
+            "Federal courts"
+        ],
+        "applicable_regulations_or_policies": [
+            "California Proposition 209",
+            "Title VI of the Civil Rights Act of 1964",
+            "Equal Protection Clause"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Yale University Women's Soccer Team Lawsuit",
+        "example_background": "In 2019, members of the Yale University women's soccer team initiated legal action claiming that coaches used a secret rating system during the recruitment process from 2015 to 2019. The system assigned numerical scores to female recruits based on physical appearance, with scores from 1 to 10, and these scores influenced decisions on recruitment and playing opportunities. The plaintiffs stated that the system resulted in unequal treatment compared to male team members and affected their positions on the team roster. The lawsuit detailed how coaches shared these ratings via email and group chats, often making comments on attractiveness that impacted athletic opportunities. This occurred within the university's athletic department programs specifically designated for the women's soccer team at the secondary and higher education levels.",
+        "process_and_outcome": "The case was filed in U.S. District Court in Connecticut. Yale University settled the lawsuit in 2021 for $2.65 million, with the settlement distributed among 24 current and former players. The university also committed to implementing anti-discrimination training and compliance measures in its athletic programs.",
+        "involved_parties": [
+            "Yale University (defendant)",
+            "Former and current women's soccer players (plaintiffs)",
+            "U.S. Department of Education Office for Civil Rights (oversight)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "20 U.S.C. \u00a7 1681"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Fox Chapel Area School District Transgender Policy Enforcement",
+        "example_background": "In 2023, the Fox Chapel Area School District in Pennsylvania adopted a policy requiring students to compete in sports and use facilities corresponding to their biological sex at birth. This policy applied to all secondary school athletic programs and activities. A 12-year-old transgender student and her parents challenged the policy, arguing it prevented participation in girls' track events. The district maintained the policy to ensure fairness in female-designated programs. The case highlighted tensions in educational institutions' management of gender identity in sports activities.",
+        "process_and_outcome": "A federal judge issued a preliminary injunction in June 2024 allowing the transgender student to compete on the girls' track team pending full litigation. The case remains ongoing in U.S. District Court for the Western District of Pennsylvania.",
+        "involved_parties": [
+            "Fox Chapel Area School District (defendant)",
+            "Transgender student and parents (plaintiffs)",
+            "U.S. Department of Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Equal Protection Clause of the 14th Amendment"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Williamson County Schools Transgender Locker Room Case",
+        "example_background": "In 2021, Williamson County Schools in Tennessee faced a federal investigation after denying a transgender student's request to use the girls' locker room for a secondary school cheerleading program. The district cited privacy concerns for other female students and applied its policy limiting access based on biological sex. The U.S. Department of Education's Office for Civil Rights examined whether this decision constituted discrimination in a school-sponsored activity.",
+        "process_and_outcome": "The investigation concluded in 2022 with a voluntary resolution agreement. The district agreed to revise policies, provide training, and allow the student access, avoiding further enforcement action.",
+        "involved_parties": [
+            "Williamson County Schools (respondent)",
+            "U.S. Department of Education Office for Civil Rights (investigator)",
+            "Transgender student"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. Part 106"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "University of Toledo Transgender Pool Use Investigation",
+        "example_background": "The University of Toledo faced a 2014 complaint from a transgender student barred from using the women's pool locker room during a university aquatic program open to secondary and post-secondary participants. The institution's policy required use of facilities matching biological sex, leading to the denial of access despite the student's gender identity documentation.",
+        "process_and_outcome": "The U.S. Department of Education's Office for Civil Rights resolved the matter in 2014 through a voluntary agreement. The university updated its policies to permit access based on gender identity and conducted staff training.",
+        "involved_parties": [
+            "University of Toledo (respondent)",
+            "U.S. Department of Education Office for Civil Rights",
+            "Transgender student (complainant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Los Angeles Unified School District Sexual Harassment Settlement",
+        "example_background": "In 2012, the Los Angeles Unified School District entered into negotiations following complaints of sexual harassment and gender-based discrimination in secondary school programs. Multiple incidents involved students facing unwanted advances and unequal treatment in extracurricular activities, prompting a systemic review of district practices.",
+        "process_and_outcome": "The district agreed to a 2014 resolution with the U.S. Department of Education's Office for Civil Rights, committing $4.85 million in compensation to victims and implementing district-wide training, policy revisions, and monitoring for compliance over several years.",
+        "involved_parties": [
+            "Los Angeles Unified School District",
+            "U.S. Department of Education Office for Civil Rights",
+            "Affected students"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. \u00a7 106.8"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Tea Township Elementary Gender Identity Policy Dispute",
+        "example_background": "Tea Area School District in South Dakota implemented a 2021 policy for its elementary and secondary programs requiring students to use facilities and participate in activities based on biological sex. Parents of a transgender student challenged this in relation to school sports and bathroom access, claiming it affected participation in gender-specific activities.",
+        "process_and_outcome": "A federal judge upheld the policy in 2022, ruling it did not violate Title IX or constitutional rights. The decision allowed the district to continue its sex-based classifications.",
+        "involved_parties": [
+            "Tea Area School District (defendant)",
+            "Transgender student's parents (plaintiffs)",
+            "U.S. District Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Maine DOE Investigation into School Gender Policy",
+        "example_background": "In 2022, the Maine Department of Education initiated an investigation into a school district's policy restricting transgender students from participating in sports teams matching their gender identity in secondary school athletic programs. The policy emphasized biological sex for competitive fairness.",
+        "process_and_outcome": "The investigation cleared the district in 2023, finding no violation of state or federal anti-discrimination laws, affirming the policy's alignment with applicable regulations.",
+        "involved_parties": [
+            "Maine Department of Education (investigator)",
+            "Unnamed school district",
+            "Advocacy groups"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Maine Human Rights Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "California School Districts Title IX Resolution Agreement",
+        "example_background": "Eight California school districts underwent review by the U.S. Department of Education's Office for Civil Rights in 2023 for policies on gender identity in secondary school bathrooms and locker rooms. Some districts had restrictions based on biological sex for privacy in sex-segregated activities.",
+        "process_and_outcome": "The OCR announced resolutions in 2023, with districts agreeing to policy adjustments in some cases, but several maintained or were permitted to keep sex-based policies after demonstrating compliance through privacy protections.",
+        "involved_parties": [
+            "Multiple California school districts",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. Part 106"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Georgia School District Sex-Segregated Locker Room Policy",
+        "example_background": "A Georgia public school district maintained a policy in 2021 requiring use of locker rooms corresponding to biological sex during secondary school physical education and athletic programs. This was challenged by a transgender student seeking access to the opposite sex's facilities.",
+        "process_and_outcome": "The U.S. Department of Education resolved the complaint in 2022 with an agreement allowing the district to provide single-occupancy options, upholding the core policy while addressing access.",
+        "involved_parties": [
+            "Georgia public school district",
+            "U.S. Department of Education Office for Civil Rights",
+            "Transgender student"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Miss America Organization Title IX Compliance Review",
+        "example_background": "The Miss America Organization, which conducts annual pageants focused on personal appearance, poise, and talent with participation limited to women, faced scrutiny in the early 2000s regarding scholarship awards provided to winners by participating colleges and universities. These institutions offered financial assistance to pageant winners as part of their recognition of achievements in competitions that combined physical presentation, interview skills, and performance abilities. Concerns arose about whether such awards aligned with federal nondiscrimination requirements in education, given the single-sex nature of the pageants. The organization distributed millions in scholarships annually through partnerships with over 200 colleges, where awards were tied to pageant success. Discussions involved legal reviews to ensure the practice fit within exceptions for pageant-based aid.",
+        "process_and_outcome": "The U.S. Department of Education's Office for Civil Rights conducted a compliance review and determined the scholarships qualified under the pageant exception, allowing continued awards without interruption. No enforcement action was taken, and the practice was affirmed as permissible.",
+        "involved_parties": [
+            "Miss America Organization",
+            "U.S. Department of Education Office for Civil Rights",
+            "Participating colleges and universities"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972 (20 U.S.C. \u00a7 1681 et seq.)",
+            "34 C.F.R. \u00a7 106.39 (revenue raising activities exception)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Miss Universe Scholarships at University Partnerships",
+        "example_background": "The Miss Universe pageant system, involving national and international competitions emphasizing appearance, poise, and talent exclusively for women, partners with universities worldwide to provide scholarship opportunities to winners. For instance, several U.S. institutions have awarded financial aid to Miss USA or Miss Universe titleholders based on their pageant achievements. This practice has been in place for decades, with scholarships covering tuition and related expenses, structured as recognition of multifaceted accomplishments in judged competitions. Legal advisors reviewed the alignment with U.S. education laws permitting such awards when pageants meet specific criteria.",
+        "process_and_outcome": "No formal investigations occurred; the scholarships continued uninterrupted as they were deemed to fall within the regulatory exception for pageant awards. Institutions maintained the programs as part of diversity in financial aid offerings.",
+        "involved_parties": [
+            "Miss Universe Organization",
+            "Various U.S. universities (e.g., University of Maryland)",
+            "U.S. Department of Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX Regulations (34 C.F.R. \u00a7 106.39)",
+            "Education Amendments of 1972"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Southern Methodist University Miss Texas Scholarship Awards",
+        "example_background": "Southern Methodist University (SMU) has a history of providing scholarship support to winners of the Miss Texas pageant, a state-level competition limited to women that evaluates contestants on evening wear (appearance), swimsuit (poise), and talent segments. The university's involvement dates back years, offering merit-based aid tied directly to pageant success, positioning it as an extracurricular achievement comparable to athletics or arts. This arrangement was part of broader efforts to support female students through competitive recognition programs.",
+        "process_and_outcome": "The practice was reviewed internally and by state education authorities, confirming compliance with federal exceptions for single-sex pageant scholarships. Awards continued without modification.",
+        "involved_parties": [
+            "Southern Methodist University",
+            "Miss Texas Organization",
+            "Texas Higher Education Coordinating Board"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX (20 U.S.C. \u00a7 1681)",
+            "34 C.F.R. Part 106"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Title IX Single-Sex Pageant Exception Guidance 1975",
+        "example_background": "Following the enactment of Title IX in 1972, the Department of Health, Education, and Welfare (HEW, predecessor to the Department of Education) issued regulations in 1975 explicitly carving out an exception for institutions of higher education awarding scholarships based on pageant outcomes. This addressed concerns from beauty pageant organizations and colleges that routinely honored winners with financial aid for competitions involving appearance, poise, and talent limited to one sex. The guidance clarified that such awards were not considered discriminatory when the pageant adhered to other federal nondiscrimination standards.",
+        "process_and_outcome": "The regulation was finalized and incorporated into the Code of Federal Regulations, establishing a lasting precedent that enabled ongoing scholarship programs without legal challenges.",
+        "involved_parties": [
+            "U.S. Department of Health, Education, and Welfare",
+            "Institutions of higher education",
+            "National pageant organizations"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX Final Regulations (40 Fed. Reg. 24128, June 4, 1975)",
+            "34 C.F.R. \u00a7 106.39"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "University of Kentucky Miss America Scholarships",
+        "example_background": "The University of Kentucky provided financial assistance to local Miss America pageant winners, such as Miss Kentucky titleholders, recognizing their performance in competitions scored on private interview, onstage presentation (appearance and poise), and talent. This program was established to support women excelling in high-profile, single-sex events, with awards structured as renewable scholarships over four years. The initiative drew from a tradition of honoring competitive achievements across campus activities.",
+        "process_and_outcome": "An internal Title IX compliance audit affirmed the program's eligibility under the pageant exception, allowing it to persist as a standard offering.",
+        "involved_parties": [
+            "University of Kentucky",
+            "Miss Kentucky Scholarship Program",
+            "Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. \u00a7 106.39(b)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Ohio State University Single-Sex Pageant Aid Review",
+        "example_background": "Ohio State University evaluated its participation in awarding aid to winners of women-only pageants like Miss Ohio, which feature segments on physical fitness (appearance), evening gown (poise), and talent performances. The review came amid broader Title IX assessments in the 2010s, examining whether such scholarships constituted impermissible sex-based discrimination in financial assistance programs. The university documented the pageants' multi-factor judging criteria to support continued awards.",
+        "process_and_outcome": "The Department of Education accepted the university's rationale under the regulatory exception, closing the review without requiring changes to the scholarship process.",
+        "involved_parties": [
+            "Ohio State University",
+            "Miss Ohio Scholarship Program",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX Regulations (34 C.F.R. \u00a7 106)",
+            "20 U.S.C. \u00a7 1681(a)(9)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "National Association of Intercollegiate Athletics Pageant Policy",
+        "example_background": "The NAIA issued guidance to member institutions on permissible financial aid for participants in single-sex pageants, referencing federal exceptions for awards based on appearance, poise, and talent. This addressed queries from schools offering scholarships to winners of campus or state beauty pageants, ensuring alignment with Title IX while promoting opportunities for women in competitive performance arts.",
+        "process_and_outcome": "The policy was adopted across NAIA schools, facilitating scholarship programs without regulatory pushback.",
+        "involved_parties": [
+            "National Association of Intercollegiate Athletics",
+            "Member colleges",
+            "U.S. Department of Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX (34 C.F.R. Part 106)",
+            "NAIA Compliance Manual"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Florida State University Miss Florida Scholarships",
+        "example_background": "Florida State University maintained a scholarship program for Miss Florida winners, a pageant restricted to women and judged on swimsuit (poise and appearance), evening wear, on-stage question, and talent. The awards were presented as academic merit aid linked to pageant success, part of the university's strategy to attract high-achieving female students from competitive backgrounds.",
+        "process_and_outcome": "State compliance reviews confirmed the program's fit within federal exceptions, with no alterations mandated.",
+        "involved_parties": [
+            "Florida State University",
+            "Miss Florida Pageant",
+            "Florida Department of Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX (20 U.S.C. \u00a7 1681)",
+            "34 C.F.R. \u00a7 106.39"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Yale University Admissions Case",
+        "example_background": "Yale University maintained undergraduate admissions practices that involved consideration of applicants' race as one factor among many in the evaluation process. The Department of Justice conducted an investigation into whether these practices aligned with federal civil rights requirements for educational institutions. The review focused on the university's holistic admissions approach, which included academic records, extracurricular activities, essays, recommendations, and personal characteristics, including race, for students seeking admission to its selective undergraduate programs. This process was part of broader scrutiny of selective colleges and universities across the United States regarding their use of race in admissions decisions.",
+        "process_and_outcome": "The Department of Justice opened an investigation in 2017. After review, Yale entered into a settlement agreement in 2019, agreeing to cease using race as a factor in admissions and to provide data on admissions outcomes. No monetary penalties were imposed, but the university committed to ongoing monitoring and reporting.",
+        "involved_parties": [
+            "Yale University",
+            "U.S. Department of Justice Civil Rights Division"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act of 1964",
+            "14th Amendment Equal Protection Clause"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Harvard College Admissions Litigation",
+        "example_background": "Harvard College utilized a holistic admissions process for its undergraduate programs, where race was considered as part of an individual's evaluation alongside grades, test scores, recommendations, and personal achievements. This approach was challenged in federal court by Students for Fair Admissions, an organization representing Asian-American applicants who alleged that Harvard's practices resulted in lower admission rates for Asian-American students compared to other groups. The case examined detailed data on applicant pools, demographics, and admissions statistics over multiple years, highlighting the role of race in the selection process at a private institution of higher education.",
+        "process_and_outcome": "A federal district court ruled in favor of Harvard in 2019. The First Circuit Court of Appeals affirmed the decision in 2020. The U.S. Supreme Court granted certiorari and, in 2023, held that Harvard's race-conscious admissions violated the Equal Protection Clause and Title VI, effectively prohibiting such practices.",
+        "involved_parties": [
+            "Harvard University",
+            "Students for Fair Admissions (plaintiff)",
+            "U.S. Department of Justice (intervenor)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VI of the Civil Rights Act of 1964",
+            "14th Amendment Equal Protection Clause"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Little Rock Central High School Desegregation",
+        "example_background": "Little Rock Central High School, a public secondary school in Arkansas, initially resisted the integration of African-American students following the 1954 Brown v. Board of Education decision. In 1957, nine African-American students attempted to enroll but were blocked by state authorities and crowds, leading to federal intervention to enforce court-ordered desegregation.",
+        "process_and_outcome": "President Eisenhower federalized the Arkansas National Guard and sent the 101st Airborne Division to escort the students. The Supreme Court upheld desegregation mandates, resulting in the school's integration.",
+        "involved_parties": [
+            "Little Rock Central High School District",
+            "Arkansas National Guard",
+            "U.S. Department of Justice",
+            "Little Rock Nine (students)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Brown v. Board of Education (1954)",
+            "14th Amendment Equal Protection Clause"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Title IX Sexual Harassment Enforcement at Yale",
+        "example_background": "Yale University faced allegations that its staff and faculty engaged in sexual harassment of female students, with the university's response deemed inadequate in addressing complaints and preventing recurrence. The investigation examined handling of multiple incidents involving graduate students and professors, including delays in investigations and insufficient support for complainants.",
+        "process_and_outcome": "The U.S. Department of Education's Office for Civil Rights investigated and in 2011 found Yale in violation, requiring a resolution agreement with corrective actions including policy revisions, training, and reporting mechanisms. Yale implemented the changes without further penalties.",
+        "involved_parties": [
+            "Yale University",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Yale University Women's Crew Title IX Settlement",
+        "example_background": "Yale University faced allegations regarding disparities in athletic participation rates between male and female students in its intercollegiate sports programs. Data showed that while women comprised 52% of the undergraduate population, they accounted for only 42% of athletic participants. The institution's allocation of athletic scholarships and competitive opportunities also reflected lower percentages for women compared to men. Statistical analyses presented in complaints highlighted these imbalances, prompting examination of whether program offerings and resources adequately addressed the interests and abilities of female students across various sports.",
+        "process_and_outcome": "The U.S. Department of Education's Office for Civil Rights conducted an investigation and negotiated a resolution agreement in 2019. Yale committed to increasing women's athletic opportunities, adjusting scholarship allocations to reach proportional levels within three years, enhancing recruitment efforts for female athletes, and providing annual compliance reports with participation data.",
+        "involved_parties": [
+            "Yale University",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. Part 106"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "University of North Carolina Women's Soccer Title IX Case",
+        "example_background": "The University of North Carolina was investigated for maintaining athletic participation rates where women, making up 54% of the student body, represented only 41% of varsity athletes. Prong three of the Title IX three-part test was at issue, as the university relied on questionnaire surveys to demonstrate accommodation of women's athletic interests rather than expanding teams. Statistical evidence revealed persistent gaps in team slots, scholarships, and competitive opportunities for women's sports compared to men's programs.",
+        "process_and_outcome": "Following a 2020 complaint and OCR investigation, UNC entered into a 2021 resolution agreement requiring addition of 50 new women's athletic opportunities over five years, scholarship proportionality, and public reporting of compliance metrics. The university also agreed to revise survey methods for assessing unmet interests.",
+        "involved_parties": [
+            "University of North Carolina at Chapel Hill",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "2005 Title IX Athletics Letter"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Connecticut Department of Education Title IX Enforcement",
+        "example_background": "A 2011 investigation into the Connecticut Department of Education examined state-wide imbalances in high school athletic participation, where girls comprised 49% of students but only 42% of athletes. The focus was on whether districts provided equitable opportunities, treatment, and benefits. Statistical data from participation reports showed disparities in sports offerings, coaching, and facilities across multiple school districts receiving federal funds.",
+        "process_and_outcome": "OCR found noncompliance and required corrective actions, including development of a state-wide monitoring system, training for administrators, and revisions to athletic policies to ensure proportional opportunities. The department implemented these measures and achieved compliance by 2014.",
+        "involved_parties": [
+            "Connecticut Department of Education",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. \u00a7 106.41"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "Florida State University Title IX Resolution",
+        "example_background": "Florida State University was reviewed for gender imbalances in athletics participation, with women at 55% of enrollment but 44% of participants. Issues included unequal scholarship distributions and limited expansion of women's teams despite expressed interests in additional sports. Statistical evidence from equity audits underscored gaps in meeting the three prongs of substantial proportionality, history of expansion, or fully meeting interests.",
+        "process_and_outcome": "In 2014, OCR secured a proactive agreement where FSU added women's beach volleyball as a varsity sport, increased scholarships, and committed to annual assessments and reporting to address and monitor participation rates.",
+        "involved_parties": [
+            "Florida State University",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "University of Texas at San Antonio Title IX Compliance Review",
+        "example_background": "UTSA underwent a 2019 compliance review revealing women's participation at 48% against 56% enrollment share. The university had not expanded women's teams sufficiently, and scholarship allocations lagged. Participation statistics indicated reliance on walk-on athletes to inflate numbers without corresponding resource support.",
+        "process_and_outcome": "A resolution agreement mandated adding 28 women's opportunities, achieving scholarship proportionality by 2022, improving recruitment, and submitting yearly data reports to OCR for verification.",
+        "involved_parties": [
+            "University of Texas at San Antonio",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "OCR Title IX Athletics Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "James Madison University Title IX Athletic Expansion",
+        "example_background": "James Madison University maintained athletic programs where women's participation aligned closely with enrollment proportions after voluntarily adding lacrosse and field hockey teams. Annual equity reports showed consistent achievement of substantial proportionality, with scholarships and other benefits distributed equitably based on participation rates.",
+        "process_and_outcome": "Following a 2012 OCR review, JMU demonstrated compliance through data showing women at 53% of athletes matching enrollment. No further actions were required, and the university continued monitoring as a best practice.",
+        "involved_parties": [
+            "James Madison University",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Brown University Cohen v. Brown Settlement",
+        "example_background": "In the 1990s, Brown University demoted three women's teams from varsity to club status amid budget constraints, leading to women's participation dropping to 32% while comprising 52% of undergraduates. Statistical evidence of imbalance in opportunities triggered litigation examining whether such reductions constituted disparate treatment.",
+        "process_and_outcome": "The First Circuit Court ruled in 1996 that Brown's actions violated Title IX by not providing equitable opportunities. The university reinstated the teams, settled by expanding women's athletics, and achieved proportionality.",
+        "involved_parties": [
+            "Brown University",
+            "Amy Cohen et al. (plaintiffs)",
+            "U.S. District Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "University of Georgia Title IX Compliance Agreement",
+        "example_background": "The University of Georgia was found to have women's athletic participation at 38% despite 51% female enrollment. Disparities existed in practice facilities, travel perks, and equipment. Statistical reports confirmed failure to meet any of the three compliance prongs effectively.",
+        "process_and_outcome": "A 2012 OCR agreement required elevating women's golf to varsity, adding 30 participation opportunities, equalizing scholarships, and biennial audits to sustain proportionality.",
+        "involved_parties": [
+            "University of Georgia",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. Part 106"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Quincy University Proactive Title IX Compliance",
+        "example_background": "Quincy University conducted self-audits showing women's participation at 52%, matching enrollment demographics. The institution offered 10 sports for women versus 9 for men, with scholarships allocated proportionally and equivalent treatment in facilities and coaching.",
+        "process_and_outcome": "Voluntary submission to OCR in 2015 confirmed compliance under prong one. The university maintained annual equity plans and public dashboards for transparency.",
+        "involved_parties": [
+            "Quincy University",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Cohen v. Brown University",
+        "example_background": "Brown University maintained separate athletic programs for men and women. The women's teams brought a class action complaint alleging that the university's intercollegiate athletic program operated in a discriminatory manner in violation of Title IX. The plaintiffs claimed that Brown provided fewer participation opportunities for women than men and that the university's elimination of women's teams exacerbated the disparity. The case centered on proportionality and effective accommodation of student interests in athletics, with discussions around program offerings that were not equally comparable across sexes. The university argued that its programs reflected the interests of its students, but data showed persistent imbalances in opportunities.",
+        "process_and_outcome": "The district court granted a preliminary injunction requiring Brown to reinstate a women's varsity tennis team and to restore women's softball to varsity status. The court found that Brown did not meet any of the three prongs of the Title IX compliance test. The First Circuit Court of Appeals affirmed the injunction, directing the university to provide comparable opportunities.",
+        "involved_parties": [
+            "Brown University",
+            "Cohen et al. (plaintiffs)",
+            "U.S. Department of Education Office for Civil Rights (guidance reference)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. \u00a7 106.41 (athletics regulations)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Williams v. School District of Bethlehem",
+        "example_background": "The School District of Bethlehem, Pennsylvania, organized father-daughter dances as a fundraising event for students, open only to girls and their fathers or father-figures. A single father with a daughter filed a complaint claiming this excluded his family because he could not participate as a mother-figure. The district initially defended the event as traditional but faced scrutiny under equal protection principles in educational settings. The case highlighted the need for comparable events when sex-specific activities are held, drawing parallels to Title IX allowances for single-sex activities provided equivalents exist.",
+        "process_and_outcome": "The district settled by agreeing to rename the event to 'family dance' and open it to all family configurations. No formal fine was imposed, but the settlement required policy changes to ensure inclusivity.",
+        "involved_parties": [
+            "School District of Bethlehem",
+            "Matthew Williams (plaintiff)",
+            "ACLU of Pennsylvania"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Equal Protection Clause of the 14th Amendment"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Grove City College v. Bell",
+        "example_background": "Grove City College received federal funding through student grants. The Department of Education investigated claims of sex discrimination in the college's athletic programs, finding that women's teams received inferior facilities, equipment, and scheduling compared to men's teams. Although the college argued that federal funds did not directly support athletics, the case established that institutions receiving any federal aid must comply with Title IX across programs. This included ensuring comparable opportunities in activities that could be seen as sex-specific.",
+        "process_and_outcome": "The Supreme Court ruled 6-3 that Title IX applied only to the specific program receiving federal funds (student services), not institution-wide. Congress later passed the Civil Rights Restoration Act of 1987 to override this, extending coverage institution-wide.",
+        "involved_parties": [
+            "Grove City College",
+            "U.S. Department of Education",
+            "Bell (Secretary)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Civil Rights Restoration Act of 1987"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Oklahoma State Regents for Higher Education Title IX Settlement",
+        "example_background": "The Oklahoma State System of Higher Education faced allegations of failing to provide equal athletic opportunities for women across its institutions. Complaints highlighted disparities in participation numbers, scholarships, and facilities. The system had some single-sex events but did not consistently offer comparable activities for the other sex, leading to broader equity concerns under Title IX's three-part test for athletics compliance.",
+        "process_and_outcome": "The university system entered into a voluntary resolution agreement with the Office for Civil Rights, committing to increase female athletic participation to match enrollment proportions, improve facilities, and conduct annual assessments.",
+        "involved_parties": [
+            "Oklahoma State Regents for Higher Education",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. \u00a7 106.41"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Fraser Public Schools Father-Daughter Dance Compliance",
+        "example_background": "Fraser Public Schools in Michigan held annual father-daughter dances as a community and educational bonding event. To align with equity requirements, the district simultaneously offered mother-son dances and family-inclusive alternatives, ensuring all students had comparable participation opportunities regardless of parental gender configurations. This practice was implemented following guidance on Title IX permissible single-sex activities.",
+        "process_and_outcome": "No complaints were filed, and the district received positive feedback from civil rights audits. The approach served as a model in state education compliance training.",
+        "involved_parties": [
+            "Fraser Public Schools",
+            "Michigan Department of Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. \u00a7 106.41(b)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "University of North Carolina Chapel Hill Title IX Athletics Resolution",
+        "example_background": "UNC Chapel Hill was investigated for athletic program disparities where men's teams had more opportunities and resources. The university hosted some father-son events without direct mother-daughter equivalents initially, contributing to perceptions of imbalance. The probe examined overall compliance, including provisions for comparable activities.",
+        "process_and_outcome": "OCR entered a resolution agreement requiring UNC to achieve substantial proportionality in athletic participation, elevate a women's club team to varsity, and provide equitable benefits. The university met these goals ahead of schedule.",
+        "involved_parties": [
+            "University of North Carolina at Chapel Hill",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Title IX Athletics Policy Interpretation"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Arizona State University Father-Son/Mother-Daughter Events Policy",
+        "example_background": "Arizona State University organized father-son outings and mother-daughter workshops as part of student orientation and family engagement programs at its educational institution. The university ensured that for every father-son activity, a mother-daughter counterpart was scheduled with similar structure, duration, location, and resources, including alternatives for diverse family structures. This was documented in their family programming handbook to promote equity.",
+        "process_and_outcome": "The policy was upheld in an OCR compliance review with no findings of disparity. It was recognized as a best practice in Title IX training materials.",
+        "involved_parties": [
+            "Arizona State University",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. \u00a7 106.41(b)(7)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Yale University Women's Crew Team Complaint",
+        "example_background": "In the 1970s, the Yale women's crew team protested unequal treatment compared to the men's team, including lack of lockers and facilities. While not directly about father-son events, the case underscored broader failures to provide comparable opportunities in athletics and related activities, influencing Title IX enforcement on sex-specific programming.",
+        "process_and_outcome": "The protest led to policy changes and contributed to landmark Title IX guidance. Yale improved facilities and opportunities for women's sports.",
+        "involved_parties": [
+            "Yale University",
+            "Yale Women's Crew Team",
+            "U.S. Department of Health, Education, and Welfare"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "Executive Order 11246"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "University of California Los Angeles (UCLA) Compliance Model",
+        "example_background": "UCLA implemented a comprehensive family engagement program including father-son banquets and mother-daughter teas, each held on separate dates with identical formats, guest speakers, meals, and activities. Attendance data showed equitable participation rates, and the program included options for same-sex parent-child pairs through flexible registration.",
+        "process_and_outcome": "UCLA's athletics and student life departments passed multiple Title IX audits with full compliance noted. The model was shared in national webinars.",
+        "involved_parties": [
+            "University of California Los Angeles",
+            "U.S. Department of Education Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title IX of the Education Amendments of 1972",
+            "34 C.F.R. Part 106"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    }
+]

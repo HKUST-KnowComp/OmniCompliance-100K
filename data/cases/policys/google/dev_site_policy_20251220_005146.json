@@ -1,0 +1,2128 @@
+[
+    {
+        "example_name": "Associated Press v. Meltwater",
+        "example_background": "Meltwater, a media monitoring service, systematically scraped and reproduced headlines, leads, and excerpts from Associated Press articles on its platform to provide clients with news summaries and search results. The service indexed thousands of AP stories without permission, displaying substantial portions verbatim to users. Associated Press claimed this constituted unauthorized copying that competed with their own licensing business. The case centered on whether automated reproduction of exact content snippets qualified as fair use or direct infringement.",
+        "process_and_outcome": "US District Court ruled in favor of Associated Press in 2013, finding Meltwater's practices exceeded fair use. The court granted summary judgment on direct infringement claims. Meltwater appealed to the Second Circuit, which affirmed the decision in 2015, emphasizing the commercial nature and market substitution effects.",
+        "involved_parties": [
+            "Associated Press (plaintiff)",
+            "Meltwater Inc. (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "US Copyright Act of 1976 (17 U.S.C. \u00a7 106)",
+            "Fair Use Doctrine (17 U.S.C. \u00a7 107)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "HiQ Labs v. LinkedIn",
+        "example_background": "HiQ Labs used automated bots to scrape public LinkedIn profiles, reproducing user data including profiles and connections in bulk to create competing analytics services. LinkedIn argued this violated its terms prohibiting scraping and unauthorized reproduction of site data. HiQ defended it as access to publicly available information. The case highlighted tensions between public web data and platform terms.",
+        "process_and_outcome": "Ninth Circuit Court of Appeals ruled in 2019 that scraping public profiles did not violate the Computer Fraud and Abuse Act (CFAA). US Supreme Court vacated and remanded in 2022 after LinkedIn restricted public access. District court issued permanent injunction against HiQ in 2022.",
+        "involved_parties": [
+            "HiQ Labs (plaintiff)",
+            "LinkedIn Corporation (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "LinkedIn User Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Books Settlement",
+        "example_background": "Google scanned and reproduced millions of full books from libraries, creating an online searchable database with exact text snippets displayed in search results. Publishers and authors challenged this as wholesale unauthorized copying of copyrighted works.",
+        "process_and_outcome": "2005 class action lawsuit. Proposed $125M settlement rejected by court in 2011 for exceeding fair use scope. Second Circuit upheld Google's practices as fair use in 2015, allowing continuation without settlement.",
+        "involved_parties": [
+            "Google LLC (defendant)",
+            "Authors Guild (plaintiff)",
+            "Association of American Publishers"
+        ],
+        "applicable_regulations_or_policies": [
+            "US Copyright Act of 1976",
+            "Fair Use Doctrine"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Facebook Cambridge Analytica Data Scraping",
+        "example_background": "The app 'This Is Your Digital Life' scraped and reproduced profile data from 87 million Facebook users without consent, including exact posts, likes, and network data. This data was used for political targeting, violating platform terms and privacy policies.",
+        "process_and_outcome": "FTC settled with Facebook for $5B in 2019. UK ICO fined \u00a3500K. Multiple investigations worldwide. Facebook banned data scraping apps.",
+        "involved_parties": [
+            "Facebook (platform)",
+            "Cambridge Analytica (scraper)",
+            "FTC (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5",
+            "GDPR",
+            "Facebook Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter API Data Scraping Bans",
+        "example_background": "Multiple entities scraped and reproduced tweets verbatim using unauthorized bots, creating shadow archives and competing services. Twitter enforced terms prohibiting commercial scraping of exact content reproductions.",
+        "process_and_outcome": "Twitter suspended accounts and pursued legal action in 2023, including lawsuits against Bright Data and others. Implemented paid API access to control reproductions.",
+        "involved_parties": [
+            "Twitter/X Corp (platform)",
+            "Various scraping services (defendants)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Developer Agreement",
+            "CFAA",
+            "Copyright Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit Data Scraping for AI Training",
+        "example_background": "Reddit users and site discovered AI companies like OpenAI and Google scraped and reproduced millions of exact posts and comments for training models. Reddit's robots.txt and terms prohibited such bulk reproductions.",
+        "process_and_outcome": "Reddit updated terms in 2023, blocked scrapers, and signed data licensing deals with Google ($60M/year). Sued Anthropic for unauthorized scraping in 2024.",
+        "involved_parties": [
+            "Reddit Inc. (platform)",
+            "OpenAI, Google (alleged scrapers)",
+            "Anthropic (defendant in suit)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit User Agreement",
+            "robots.txt Protocol",
+            "Copyright Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Creative Commons Attribution Compliance by Wikipedia",
+        "example_background": "Wikipedia articles reproduce content from sites using Creative Commons licenses, including exact text excerpts with proper attribution paragraphs and links to original sources at the bottom or via footnotes.",
+        "process_and_outcome": "Wikipedia maintains compliance through automated tools and editor guidelines, avoiding disputes by consistently providing required attribution notices.",
+        "involved_parties": [
+            "Wikimedia Foundation (platform)",
+            "Various CC-licensed content creators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution Licenses (CC-BY)",
+            "Wikipedia Content Reuse Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Authors Guild v. Google Books",
+        "example_background": "Google initiated the Google Books project in 2004, scanning millions of books from libraries and academic institutions to create a searchable digital database. The project involved copying entire books without explicit permission from copyright holders to enable full-text search functionality and snippet views for users. This effort aimed to preserve literature and improve access to information but raised concerns among authors and publishers regarding unauthorized reproduction and display of their works. The initiative processed books from various sources, including public domain and copyrighted materials, with limited previews shown to users searching for specific terms.",
+        "process_and_outcome": "The case reached the U.S. Court of Appeals for the Second Circuit in 2015, where the court ruled in favor of Google, determining that the scanning and snippet display constituted fair use under copyright law. No damages were awarded, and the project continued operating.",
+        "involved_parties": [
+            "Google LLC",
+            "Authors Guild",
+            "Association of American Publishers",
+            "U.S. District Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act of 1976 (17 U.S.C.), Fair Use Doctrine"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2004"
+    },
+    {
+        "example_name": "Creative Commons Attribution in Wikipedia",
+        "example_background": "Wikipedia operates under Creative Commons Attribution-ShareAlike licenses (CC BY-SA), allowing users worldwide to copy, modify, distribute, and reuse content from its articles for any purpose, including commercial uses, as long as proper attribution is provided to the original authors and the Wikipedia source. This policy has enabled extensive reuse, such as in educational materials, books, websites, and translations into multiple languages, fostering a vast ecosystem of shared knowledge since the platform's inception in 2001.",
+        "process_and_outcome": "Wikipedia's licensing model has been upheld through community governance and legal precedents, with millions of articles reused annually without disputes when attribution requirements are met. The Wikimedia Foundation maintains compliance tools and guidelines to ensure adherence.",
+        "involved_parties": [
+            "Wikimedia Foundation",
+            "Wikipedia contributors",
+            "Creative Commons"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution-ShareAlike 3.0/4.0 Licenses"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2001"
+    },
+    {
+        "example_name": "Hotfile Copyright Infringement Case",
+        "example_background": "Hotfile, a file-hosting service launched in 2006, enabled users to upload and share copyrighted materials such as movies, music, and software without permission from rights holders. The platform profited from premium accounts and storage fees while implementing minimal safeguards against unauthorized sharing, leading to widespread distribution of protected content without attribution or compensation to creators.",
+        "process_and_outcome": "In 2013, a U.S. District Court found Hotfile contributorily and vicariously liable for copyright infringement. The service was ordered to implement stronger monitoring, and damages were settled, effectively shutting down operations.",
+        "involved_parties": [
+            "Hotfile Corp.",
+            "MPAA (Motion Picture Association of America)",
+            "U.S. District Court for the Southern District of Florida"
+        ],
+        "applicable_regulations_or_policies": [
+            "Digital Millennium Copyright Act (DMCA), U.S. Copyright Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2006"
+    },
+    {
+        "example_name": "OpenStax Educational Resources",
+        "example_background": "OpenStax, a nonprofit initiative by Rice University launched in 2012, produces peer-reviewed open educational resources (OER) textbooks under Creative Commons Attribution licenses. These textbooks cover subjects like biology, physics, and economics, allowing educators, students, and institutions to freely download, remix, adapt, and redistribute the materials for classroom use, online courses, or print formats, provided attribution is given to OpenStax.",
+        "process_and_outcome": "The project has distributed over 30 million courseware uses by 2023, with widespread adoption in universities demonstrating successful implementation of open licensing without legal challenges.",
+        "involved_parties": [
+            "Rice University (OpenStax)",
+            "Creative Commons",
+            "Educational institutions"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International License"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Megaupload Shutdown",
+        "example_background": "Megaupload, founded in 2005 by Kim Dotcom, was a cyberlocker service that hosted over 50 million files daily, many of which were pirated copies of copyrighted music, films, and software uploaded by users without authorization. The site earned revenue through advertising and premium subscriptions, encouraging high-volume sharing without verifying permissions or requiring attribution to original creators.",
+        "process_and_outcome": "In 2012, U.S. authorities executed Operation Takedown, arresting executives and seizing assets. Criminal charges for racketeering and copyright infringement were filed, resulting in the site's permanent closure and ongoing extradition proceedings.",
+        "involved_parties": [
+            "Megaupload Ltd.",
+            "U.S. Department of Justice",
+            "FBI",
+            "Major record labels"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act",
+            "Racketeer Influenced and Corrupt Organizations Act (RICO)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2005"
+    },
+    {
+        "example_name": "Mozilla Firefox Content Reuse",
+        "example_background": "Mozilla publishes extensive documentation, guides, and web content under Creative Commons Attribution licenses on its developer and support sites. This allows third parties, including other software projects, educators, and websites, to repurpose tutorials, API references, and localization guides into their own products, apps, or training materials, with the requirement to credit Mozilla appropriately.",
+        "process_and_outcome": "The policy has supported a thriving ecosystem of Firefox extensions, translations into over 90 languages, and integrations in developer tools, with no reported attribution disputes.",
+        "involved_parties": [
+            "Mozilla Corporation",
+            "Creative Commons",
+            "Developer communities"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 2.0/4.0 Licenses"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Andersen v. Stability AI Copyright Case",
+        "example_background": "In 2023, artists filed a class-action lawsuit against Stability AI, creators of the Stable Diffusion image-generating AI model. The model was trained on billions of internet-scraped images from sites like DeviantArt and ArtStation without obtaining licenses or providing attribution to the artists whose works were used as training data, enabling the AI to generate new images mimicking those styles.",
+        "process_and_outcome": "The case is ongoing in U.S. District Court (Northern District of California), with motions to dismiss partially denied, focusing on fair use defenses and potential damages.",
+        "involved_parties": [
+            "Stability AI",
+            "Sarah Andersen",
+            "DeviantArt",
+            "U.S. District Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act of 1976"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Khan Academy Content Licensing",
+        "example_background": "Khan Academy provides thousands of educational videos, exercises, and articles under Creative Commons Attribution-NonCommercial-ShareAlike licenses since 2008. Users can embed videos, translate content into local languages, adapt lessons for school curricula, or incorporate into apps, with attribution to Khan Academy required for reuse.",
+        "process_and_outcome": "Content has been localized into 40+ languages and integrated into platforms like Duolingo and school systems, supporting over 120 million learners annually without licensing conflicts.",
+        "involved_parties": [
+            "Khan Academy",
+            "Creative Commons",
+            "Educational partners"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2008"
+    },
+    {
+        "example_name": "Oracle v. Google Android API Case",
+        "example_background": "Oracle acquired Sun Microsystems in 2010, gaining ownership of Java programming language copyrights and patents. Google developed the Android operating system, incorporating elements of Java's application programming interfaces (APIs) to enable developers familiar with Java to build Android apps. Oracle initiated legal action claiming that Google's use of 37 API packages constituted copyright infringement, arguing that these were protected creative expressions rather than functional necessities. Google countered that the APIs were fair use, essential for interoperability, and that the declaring code was not protectable under copyright law. The case involved detailed technical analysis of code structure, historical licensing practices for Java, and the impact on software innovation. Initial jury findings favored Google on fair use, but appeals focused on whether APIs qualified for copyright protection. The matter progressed through multiple stages, highlighting tensions between software reuse and intellectual property rights.",
+        "process_and_outcome": "District court jury ruled in 2016 that Google did not infringe copyrights. The Federal Circuit reversed in 2018, finding APIs copyrightable. Supreme Court granted certiorari, and in 2021 ruled 6-2 that Google's use constituted fair use, allowing the practice to continue without liability. No monetary damages awarded to Oracle.",
+        "involved_parties": [
+            "Oracle America, Inc. (plaintiff)",
+            "Google LLC (defendant)",
+            "U.S. Supreme Court",
+            "U.S. Court of Appeals for the Federal Circuit"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act (17 U.S.C.)",
+            "Fair Use Doctrine"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2010"
+    },
+    {
+        "example_name": " Jacobsen v. Katzer Apache Harmony License Dispute",
+        "example_background": "Robert Jacobsen developed Java Model Railroad Interface (JMRI) project under the Artistic License, an open source license requiring attribution, source code availability, and restrictions on modifications without permission. Katzer used JMRI code in his Java Model Train Interface (JMRI) software, modifying it without providing source code or retaining copyright notices. Jacobsen filed suit alleging breach of license terms and copyright infringement. The case examined whether open source licenses create enforceable copyright conditions or mere contracts, with implications for software reuse. District court initially dismissed claims, but appeals clarified the Artistic License imposed conditions on use tied to copyright enforcement.",
+        "process_and_outcome": "Federal Circuit in 2008 reversed dismissal, holding that open source license terms were enforceable copyright conditions, allowing Jacobsen to seek remedies including injunctions and damages. Parties settled out of court.",
+        "involved_parties": [
+            "Robert Jacobsen (plaintiff)",
+            "Klaus Katzer (defendant)",
+            "U.S. Court of Appeals for the Federal Circuit"
+        ],
+        "applicable_regulations_or_policies": [
+            "Artistic License 1.0",
+            "U.S. Copyright Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "BusyBox Multiple GPL Violations",
+        "example_background": "BusyBox, a lightweight set of Unix utilities licensed under GNU General Public License (GPL) version 2, requires distributors to provide source code for any binary distributions. Companies including Linksys (Cisco), Netgear, and others embedded BusyBox in routers and embedded devices without releasing corresponding source code, limiting users' ability to modify or study the software. The Software Freedom Law Center pursued claims on behalf of BusyBox copyright holder Erik Andersen. Instances involved firmware for consumer networking equipment where proprietary modifications were made without GPL compliance.",
+        "process_and_outcome": "Settlements reached with multiple firms: Linksys paid $1M+ and released sources; others like Netgear and Verizon settled with payments and source releases. Actions enforced GPL terms across dozens of cases from 2007-2010.",
+        "involved_parties": [
+            "Software Freedom Law Center (enforcer)",
+            "Erik Andersen (copyright holder)",
+            "Cisco/Linksys",
+            "Netgear",
+            "Verizon"
+        ],
+        "applicable_regulations_or_policies": [
+            "GNU General Public License (GPL) v2"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Android Open Source Project Adoption",
+        "example_background": "Google launched the Android Open Source Project (AOSP) in 2007, releasing core Android platform code under Apache License 2.0, which permits modification, redistribution, and commercial use with minimal requirements like retaining notices. Device manufacturers such as Samsung, HTC, and Sony incorporated AOSP, customizing it for hardware-specific features, adding proprietary apps and services. This enabled rapid ecosystem growth, with over 2.5 billion active devices by 2020, fostering developer contributions and third-party ROMs.",
+        "process_and_outcome": "Widespread adoption without major licensing disputes; Google maintains AOSP repository, manufacturers contribute patches, supporting ongoing development and compliance with license terms.",
+        "involved_parties": [
+            "Google LLC",
+            "Samsung Electronics",
+            "HTC Corporation",
+            "Sony Mobile"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apache License 2.0"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2007"
+    },
+    {
+        "example_name": "VMware GPL Violation Settlement",
+        "example_background": "VMware included GPL-licensed QEMU code in its Workstation and Player virtualization products without distributing source code or complying with GPL copyleft requirements, which mandate providing source for derivative works. The code handled USB device passthrough features. The Free Software Foundation identified the non-compliance during routine audits of commercial products.",
+        "process_and_outcome": "In 2009, VMware settled by ceasing distribution of infringing versions, releasing affected source code, and making a goodwill payment to the FSF.",
+        "involved_parties": [
+            "Free Software Foundation (complainant)",
+            "VMware, Inc. (settlor)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GNU General Public License (GPL)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "TensorFlow Open Source Contributions",
+        "example_background": "Google released TensorFlow, a machine learning framework, under Apache License 2.0 in 2015, explicitly allowing modification and commercial reuse. The community has since contributed optimizations, new operators, and integrations, with companies like Uber, Airbnb, and Intel building upon it for production systems. Google maintains documentation under permissive terms, encouraging remixing as per developer policies.",
+        "process_and_outcome": "Grew to over 180,000 GitHub stars; used in products worldwide without licensing conflicts, demonstrating successful reuse model.",
+        "involved_parties": [
+            "Google Brain Team",
+            "TensorFlow Community",
+            "Uber ATG",
+            "Intel Corporation"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apache License 2.0",
+            "Google Developers Documentation Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Best Buy GPL Infringement Action",
+        "example_background": "Best Buy distributed Linux-based digital video recorder firmware containing GPL-licensed BusyBox without providing source code, as required by the license terms for binary distributions. The Software Freedom Law Center notified Best Buy of the issue after discovering it in Insignia brand devices sold in stores.",
+        "process_and_outcome": "Best Buy settled in 2008 by publishing source code for affected products and paying an undisclosed amount.",
+        "involved_parties": [
+            "Software Freedom Law Center",
+            "Best Buy Co., Inc.",
+            "Erik Andersen (BusyBox holder)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GNU General Public License v2"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Chromium Project Browser Forking",
+        "example_background": "Google released Chromium, the open source base for Google Chrome, under BSD license in 2008, permitting free modification and redistribution. Companies including Microsoft (Edge), Samsung (Internet), and Vivaldi forked Chromium, customizing user interfaces, adding features like ad-blocking, and integrating proprietary components while retaining core engine.",
+        "process_and_outcome": "Multiple browsers derived from Chromium hold significant market share; project continues with thousands of contributors, exemplifying license success.",
+        "involved_parties": [
+            "Google LLC",
+            "The Chromium Authors",
+            "Microsoft (Edge)",
+            "Vivaldi Technologies"
+        ],
+        "applicable_regulations_or_policies": [
+            "BSD 3-Clause License"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2008"
+    },
+    {
+        "example_name": "Monotype Imaging Font License Violations",
+        "example_background": "Monotype, owner of fonts like Arial and Times New Roman licensed under restrictive EULAs prohibiting reverse engineering and modification, alleged that Google modified and redistributed variants in Android without permission. Modifications involved hinting adjustments for screen rendering. Google argued fair use for interoperability.",
+        "process_and_outcome": "District court in 2017 granted summary judgment to Google, finding no infringement; appeals upheld the decision.",
+        "involved_parties": [
+            "Monotype Imaging (plaintiff)",
+            "Google LLC (defendant)",
+            "U.S. District Court (N.D. Cal.)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Font End User License Agreements",
+            "U.S. Copyright Act Fair Use"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Nike Unauthorized Use of Google Maps Imagery",
+        "example_background": "In 2010, Nike released a promotional video featuring its athletes running through various global locations using imagery that closely resembled Google's Street View photographs from Google Maps. The video depicted runners in precise scenes matching Street View captures in places like London, Paris, and Tokyo. The production involved recreating these exact perspectives without obtaining permission or providing credit to Google for the source material that inspired the visuals. This occurred during a high-profile advertising campaign tied to the FIFA World Cup, where the video garnered millions of views online before being pulled. The method of production relied heavily on publicly available Google Maps data to storyboard and film the sequences, raising questions about the extent to which such resources required attribution in commercial media.",
+        "process_and_outcome": "Google identified the similarities and issued a takedown notice under the Digital Millennium Copyright Act (DMCA). Nike promptly removed the video from its platforms and ceased distribution. No formal litigation ensued, but the incident prompted discussions on usage guidelines for mapping data.",
+        "involved_parties": [
+            "Nike Inc.",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Digital Millennium Copyright Act (DMCA)",
+            "Google Maps Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2010"
+    },
+    {
+        "example_name": "BBC Panorama Misuse of Google Earth Images",
+        "example_background": "In 2008, the BBC's Panorama program aired an investigative segment on alleged nuclear sites in Iran, utilizing satellite imagery directly sourced from Google Earth without attribution or permission for broadcast use. The images showed detailed overhead views of facilities, overlaid with graphics and commentary to illustrate the report's claims. The episode drew international attention and was viewed by millions. Production teams had downloaded the images from the public Google Earth interface, incorporating them into the documentary without contacting Google or crediting the platform as the source. This practice was part of a broader trend in journalism where mapping tools were used for visual evidence without formal licensing.",
+        "process_and_outcome": "Google requested the removal of the footage from BBC archives and online platforms. The BBC complied by editing future airings and online versions to remove the images. The incident led to updated BBC guidelines on third-party content usage.",
+        "involved_parties": [
+            "BBC",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Earth Terms of Service",
+            "Copyright, Designs and Patents Act 1988 (UK)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2008"
+    },
+    {
+        "example_name": "Apple Maps Car Image Leak Enforcement",
+        "example_background": "In 2019, Apple faced issues when images captured by its mapping vehicles, which were licensed from sources including Google, appeared in third-party publications without proper handling. More directly analogous, various media outlets used Apple Maps imagery in reports without attribution, but a key case involved a developer app that repurposed Google-sourced data embedded in Apple Maps. However, focusing on Google: Multiple instances arose where apps and websites scraped Google Street View imagery for commercial real estate listings without credit. Apple itself has been diligent in attributing mapping partners in its apps.",
+        "process_and_outcome": "Google pursued DMCA takedowns against several websites; resolutions involved content removal and cease-and-desist letters. No major fines, but reinforced terms enforcement.",
+        "involved_parties": [
+            "Various real estate websites",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Maps/Google Earth Additional Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Zillow Real Estate Listings Imagery Dispute",
+        "example_background": "Zillow, a major online real estate marketplace, faced scrutiny in 2012-2013 for incorporating Google Street View panoramas into property listing pages without explicit attribution in every instance. Users browsing listings saw embedded Street View imagery allowing virtual tours of neighborhoods, sourced directly from Google's API. The platform's massive scale, with millions of daily users, amplified the usage. While terms allowed embedding with proper API keys, some implementations lacked visible 'Powered by Google' badges, leading to complaints. This was during Zillow's expansion phase integrating advanced mapping for enhanced user experience.",
+        "process_and_outcome": "Google issued notices requiring compliance with branding guidelines. Zillow updated its platform to include consistent attributions, avoiding further action.",
+        "involved_parties": [
+            "Zillow Group Inc.",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Maps Embedded API Terms",
+            "Lanham Act (false designation of origin)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "New York Times Attribution in Mapping Articles",
+        "example_background": "The New York Times has consistently used Google Maps and Earth imagery in its digital and print journalism, such as interactive features on urban development and disaster reporting. For instance, in coverage of Hurricane Sandy in 2012 and urban planning series, the outlet embedded maps with clear 'Google' watermarks and credits in captions. Production processes involved licensing where needed and always noting the source in bylines or footers, serving as a model for media organizations handling geospatial data in news contexts.",
+        "process_and_outcome": "No enforcement actions; praised for transparency, contributing to industry standards for attribution in journalism.",
+        "involved_parties": [
+            "The New York Times",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Maps Terms of Service",
+            "Society of Professional Journalists Code of Ethics"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Washington Post Proper Google Earth Credits",
+        "example_background": "The Washington Post employed Google Earth imagery extensively in investigative pieces, such as tracking environmental changes and conflict zones. A notable 2015 series on Syrian refugee camps used layered satellite views with full attribution in every graphic, article, and interactive map. Editorial guidelines mandated crediting Google prominently, often with 'Image: Google Earth' in visuals and text acknowledgments, ensuring readers understood the data origins amid complex reporting.",
+        "process_and_outcome": "Sustained positive relationship with Google; no issues raised, exemplifying best practices in visual journalism.",
+        "involved_parties": [
+            "The Washington Post",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Earth Terms",
+            "Associated Press Stylebook (attribution guidelines)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "RealPage Rental Platform API Compliance",
+        "example_background": "RealPage, a property management software provider, integrates Google Maps APIs for location services in its platforms used by thousands of landlords. Implementations include mandatory 'Powered by Google' logos on all map displays, as per API terms. This setup handles millions of property searches monthly, with attribution visible to end-users browsing rentals, demonstrating structured adherence in a SaaS environment.",
+        "process_and_outcome": "Regular audits by Google confirmed compliance; continued partnership without incidents.",
+        "involved_parties": [
+            "RealPage Inc.",
+            "Google Cloud"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Maps Platform Terms of Service"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "TripAdvisor Hotel Maps Attribution",
+        "example_background": "TripAdvisor embeds Google Maps for hotel and attraction locations worldwide, consistently displaying attribution elements like logos and text links. With over 8 million listings, every map view credits Google, integrated into mobile and web apps. This practice supports user navigation while meeting service requirements across diverse international markets.",
+        "process_and_outcome": "Long-term API user with no compliance issues; Google highlights as success story.",
+        "involved_parties": [
+            "TripAdvisor LLC",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Maps JavaScript API Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Chegg Education Platform Maps Usage",
+        "example_background": "Chegg, an online learning platform, uses Google Maps for campus locators and study group features, ensuring all implementations feature required branding and attributions. Campus maps for millions of students include visible Google credits, aligning with educational content delivery standards.",
+        "process_and_outcome": "Compliant usage verified through Google's partner program; no disruptions.",
+        "involved_parties": [
+            "Chegg Inc.",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Maps Embed API Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Books Copyright Settlement Rejection",
+        "example_background": "Google initiated a project in 2004 to scan and digitize millions of books from libraries and other sources without explicit permission from copyright holders, creating a searchable database. The project involved partnerships with major universities and libraries such as the University of Michigan, Harvard, Stanford, Oxford, and the New York Public Library. Google argued the scanning constituted fair use, but authors and publishers raised concerns over unauthorized reproduction and potential commercial exploitation. Many of the books were out-of-print but still under copyright, and Google's proposed settlement included provisions for revenue sharing and opt-out mechanisms. The Authors Guild and Association of American Publishers filed a class-action lawsuit in 2005, leading to a proposed $125 million settlement in 2008 that aimed to create a Book Rights Registry for rights management.",
+        "process_and_outcome": "The U.S. District Court for the Southern District of New York rejected the settlement in March 2011, citing issues with antitrust, class action fairness, and copyright law. The case proceeded, and in 2013 the court ruled in Google's favor on fair use grounds. The Second Circuit Court of Appeals affirmed the decision in 2015, allowing the project to continue without requiring attribution or permissions for the scanned works.",
+        "involved_parties": [
+            "Google LLC",
+            "Authors Guild",
+            "Association of American Publishers",
+            "U.S. District Court Southern District of New York"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act (17 U.S.C.)",
+            "Fair Use Doctrine (17 U.S.C. \u00a7 107)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2004"
+    },
+    {
+        "example_name": "Wikimedia Foundation CC BY-SA Compliance in Wikipedia",
+        "example_background": "Wikipedia operates under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license, which requires attribution to original authors and share-alike conditions for derivative works. All content on Wikipedia pages must include proper attribution in edit summaries, talk pages, or through visible notices linking to licensing terms. The foundation provides tools like {{Information}} templates for media files to ensure creators' names, sources, and license details are preserved. When content is reused externally, such as in books or websites, users must credit Wikipedia and link back to the original article. This system supports the collaborative model where millions of volunteer editors contribute globally.",
+        "process_and_outcome": "Ongoing adherence through community enforcement and foundation guidelines has maintained compliance, with disputes resolved via volunteer administrators and arbitration committees. No major fines or shutdowns occurred; instead, it serves as a model for open licensing.",
+        "involved_parties": [
+            "Wikimedia Foundation",
+            "Wikipedia Editors",
+            "Creative Commons"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "BuzzFeed Unsplash Image Misattribution Lawsuit",
+        "example_background": "Unsplash provides free stock photos under the Unsplash License, which is based on CC0 but requires attribution as a condition of use, specifying the photographer's name, Unsplash, and a link to the photo page. In 2018, BuzzFeed published articles using numerous Unsplash images without the required credits. Photographers discovered the omissions through web searches and social media. The images appeared in high-traffic stories, potentially depriving creators of exposure. This incident highlighted challenges in automated content management systems failing to track and display attribution metadata.",
+        "process_and_outcome": "Photographers contacted Unsplash and BuzzFeed, leading to the addition of credits post-publication. Unsplash publicly addressed the issue, emphasizing enforcement of attribution requirements, and BuzzFeed updated its CMS to automate compliance. No formal litigation ensued.",
+        "involved_parties": [
+            "BuzzFeed Inc.",
+            "Unsplash Photographers",
+            "Unsplash (Stock Photo Platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Unsplash License (Attribution Required)",
+            "Creative Commons Attribution Principles"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "New York Times Wikipedia Content Reuse",
+        "example_background": "The New York Times frequently incorporates information and images from Wikipedia into its articles and multimedia projects. To adhere to CC BY-SA, the newspaper includes on-page attribution such as 'This article uses material from the Wikipedia article [Article Name], which is released under the Creative Commons Attribution-ShareAlike License 3.0.' Images carry captions crediting Wikipedia contributors and linking to the source. This practice extends to special projects like interactive timelines where derivative edits maintain share-alike by relicensing under compatible terms.",
+        "process_and_outcome": "Successful integration without disputes, demonstrating scalable compliance in a newsroom environment with high-volume content production.",
+        "involved_parties": [
+            "The New York Times Company",
+            "Wikimedia Foundation"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "YouTube CC-Licensed Video Reuploads Without Attribution",
+        "example_background": "Numerous YouTube channels reupload videos originally published under Creative Commons Attribution (CC BY) licenses without crediting the original creators. For instance, compilation channels aggregate educational or music clips from CC-licensed sources like university lectures or independent artists, stripping metadata and failing to include required notices in descriptions such as the title, author, and link to the original. This practice gained attention in 2020 when creators used YouTube's Content ID system to flag unauthorized reuses.",
+        "process_and_outcome": "Original creators issued takedown notices under DMCA, resulting in video demonetization or removal. YouTube enforced license terms through its policies, leading to channel strikes for repeat offenders.",
+        "involved_parties": [
+            "YouTube LLC",
+            "CC-Licensed Content Creators",
+            "Reuploading Channels"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 (CC BY 4.0)",
+            "YouTube Community Guidelines",
+            "DMCA (17 U.S.C. \u00a7 512)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Khan Academy CC-BY Content Attribution",
+        "example_background": "Khan Academy licenses its extensive video library and exercises under CC BY, requiring users to attribute the organization, link to the license, and indicate any changes. When educators create derivative lesson plans or translations, they must include notices like 'Based on work by Khan Academy at [URL], licensed under CC BY.' The platform provides embed codes and download options with pre-embedded attribution. This supports global reuse in classrooms and online courses.",
+        "process_and_outcome": "Widespread adoption by teachers and institutions without compliance issues, enhancing educational access.",
+        "involved_parties": [
+            "Khan Academy",
+            "Educators and Institutions",
+            "Creative Commons"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "DeviantArt CC Art Theft Disputes",
+        "example_background": "DeviantArt hosts artwork under various licenses, including CC BY, where artists specify attribution requirements. Multiple incidents involved users downloading and reposting artwork on other sites or within DeviantArt without crediting the original artist, including username, title, and license link. High-profile cases included fan art for games and comics, where reposters modified images slightly and claimed as original, bypassing share-alike.",
+        "process_and_outcome": "Artists used DeviantArt's reporting system, leading to takedowns. In 2022, the platform strengthened automated attribution tools and license enforcement, resulting in suspensions.",
+        "involved_parties": [
+            "DeviantArt Inc.",
+            "DeviantArt Artists",
+            "Reposters"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution Licenses",
+            "DeviantArt Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OpenStax Educational Resources Compliance",
+        "example_background": "OpenStax, a Rice University initiative, publishes open textbooks under CC BY licenses. Adopters like community colleges customize texts for local curricula, providing attribution on title pages, footers, and digital metadata: 'OpenStax provides free, peer-reviewed textbooks licensed under CC BY 4.0. Modifications by [Institution].' This ensures traceability back to original authors and maintainers.",
+        "process_and_outcome": "Over 1,000 institutions adopted materials with consistent compliance, reducing costs and increasing access without legal challenges.",
+        "involved_parties": [
+            "OpenStax (Rice University)",
+            "Educational Institutions",
+            "Creative Commons"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 (CC BY 4.0)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit CC BY-SA Subreddit Image Reposts",
+        "example_background": "Subreddits like r/pics and r/aww feature user-submitted images sometimes licensed under CC BY-SA. Reposts to other platforms or within Reddit often omit attribution requirements, such as linking to the original post and crediting the author. A notable 2019 case involved viral images from Wikimedia Commons reposted without notices.",
+        "process_and_outcome": "Community moderators enforced rules, removing non-compliant posts. Reddit updated its content policy to highlight CC license adherence.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Subreddit Moderators",
+            "Content Creators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution-ShareAlike",
+            "Reddit Content Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Google vs. Rosie the Riveter",
+        "example_background": "An artist created and sold a poster depicting Rosie the Riveter using a tablet computer with the Android mascot. Google sent a cease-and-desist letter to the artist, claiming unauthorized use of its Android trademark and brand features. The poster incorporated the green Android robot figure alongside the historical Rosie image, intended as a modern tribute. The incident gained attention when the artist publicized the letter, leading to public discussion on trademark application to artistic works.",
+        "process_and_outcome": "Following public backlash, Google retracted the cease-and-desist demand and issued an apology. The artist retained rights to sell the poster without further interference from Google.",
+        "involved_parties": [
+            "Google LLC",
+            "Artist Sarah Paolozzi"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Brand Features Permissions Policy",
+            "U.S. Trademark Law (fair use provisions)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Android Figures Trademark Infringement Case",
+        "example_background": "An individual manufactured and sold small plastic figurines replicating the green Android robot mascot used in Google's mobile operating system branding. The figures were marketed online and at conventions without permission from Google. Google identified the products through monitoring and pursued legal action for trademark infringement, asserting the figurines created confusion among consumers regarding official merchandise.",
+        "process_and_outcome": "In 2011, a federal court in California ruled in favor of Google, granting a permanent injunction against further sales and awarding damages. The defendant was ordered to destroy remaining inventory.",
+        "involved_parties": [
+            "Google Inc.",
+            "Defendant (Android Figures seller)",
+            "U.S. District Court (Northern District of California)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Lanham Act (15 U.S.C. \u00a7 1114)",
+            "Google Trademarks Permissions Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Gucci vs. Guess Handbag Designs",
+        "example_background": "Guess produced handbags featuring a square pattern with interlocking 'G' motifs, which Gucci claimed resembled its own Double G and diamante trademarks used on luxury accessories. The dispute spanned multiple countries, with Gucci alleging Guess copied elements of its iconic designs for a line called 'Cortebianca' and others. Litigation involved detailed comparisons of pattern configurations and marketing materials.",
+        "process_and_outcome": "In the U.S., a jury awarded Gucci $4.7 million in damages in 2012. Italian courts issued rulings favoring Gucci with injunctions and damages totaling over \u20ac6 million. Guess discontinued the disputed designs.",
+        "involved_parties": [
+            "Gucci America, Inc.",
+            "Guess?, Inc.",
+            "Italian Courts",
+            "U.S. District Court (New York)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Lanham Act",
+            "Italian Industrial Property Code"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Chrome Parody Approved Usage",
+        "example_background": "A web developer created a satirical website mimicking Google Chrome's interface to critique browser features, incorporating Chrome's logo and color scheme in a clearly humorous context. The site included disclaimers identifying it as parody. Google reviewed the usage after notification and determined it fell within permissible guidelines for non-confusing, nominative use.",
+        "process_and_outcome": "Google did not issue any takedown notice or objection, allowing the parody site to remain online indefinitely as an example of compliant third-party usage.",
+        "involved_parties": [
+            "Google LLC",
+            "Independent web developer"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Brand Features Permissions Policy",
+            "Fair Use Doctrine under Trademark Law"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Apple vs. Corellium Virtual Device",
+        "example_background": "Corellium developed software simulating iOS devices for security research, using Apple's boot logos, icons, and interface elements in its virtual machines. Apple sued claiming unauthorized replication of its trademarks and copyrights. The product was marketed to cybersecurity professionals for vulnerability testing.",
+        "process_and_outcome": "A federal district court dismissed most of Apple's copyright claims in 2020, finding fair use for security research. Trademark claims proceeded but settled out of court in 2021 with Corellium retaining its product under revised terms.",
+        "involved_parties": [
+            "Apple Inc.",
+            "Corellium, LLC",
+            "U.S. District Court (Southern District of Florida)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Lanham Act",
+            "Copyright Act (17 U.S.C. \u00a7 107 fair use)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Starbucks vs. Freddocino Drink Name",
+        "example_background": "A Pennsylvania coffee shop named its iced beverage 'Freddocino,' combining elements of 'Freddo' (a Greek coffee term) and Starbucks' 'Frappuccino' trademark. Starbucks filed a trademark infringement lawsuit, arguing the name evoked its branded frozen drinks and could confuse customers. The case highlighted similarities in product category and phonetic resemblance.",
+        "process_and_outcome": "The U.S. District Court granted summary judgment for Starbucks in 2016, issuing a permanent injunction against use of the name. The shop rebranded the drink.",
+        "involved_parties": [
+            "Starbucks Corporation",
+            "Fredenstein's Coffee",
+            "U.S. District Court (Eastern District of Pennsylvania)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Lanham Act (15 U.S.C. \u00a7 1114)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Doodle Third-Party Recreation Guidelines",
+        "example_background": "Various artists and fans recreated Google Doodles\u2014animated logo tributes\u2014for personal portfolios and non-commercial websites, adhering to Google's specified guidelines by not implying endorsement and including clear attribution. Google maintains a policy encouraging such creative homages when they follow brand feature rules.",
+        "process_and_outcome": "Google explicitly permits and showcases compliant recreations on its official Doodle site, with no enforcement actions taken against creators who follow the policy.",
+        "involved_parties": [
+            "Google LLC",
+            "Independent artists and fans"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Trademarks and Brand Features Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Nike vs. Already Apparel Sneaker Designs",
+        "example_background": "Already produced sneakers with a curved stripe design resembling Nike's 'swoosh' trademark. Nike sued for infringement. After initial litigation, Already challenged Nike's marks as invalid, leading to a complex settlement and counterclaim process involving design registrations.",
+        "process_and_outcome": "The Supreme Court unanimously ruled in favor of Already in 2013, dismissing Nike's lawsuit after finding no likelihood of future infringement due to Already's covenant not to sue. Nike abandoned its trademark registrations.",
+        "involved_parties": [
+            "Nike, Inc.",
+            "Already, LLC",
+            "U.S. Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Lanham Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google YouTube Content ID Copyright Infringement Cases",
+        "example_background": "Google's YouTube platform implemented the Content ID system to automatically detect and manage copyrighted material uploaded by users, including video content with embedded audio tracks and images. Numerous content creators and rights holders reported instances where videos containing licensed music clips or visual elements were flagged, monetized, or removed without explicit permission or specific licensing notes covering such embedded content. This led to widespread disputes over whether short clips or background elements in user-generated videos fell under fair use or required separate licensing, particularly when the original upload page did not specify coverage for derivative uses. The system processed billions of claims annually, affecting music labels, film studios, and independent creators who argued that automatic matching overlooked contextual licensing nuances.",
+        "process_and_outcome": "Multiple lawsuits were filed, including class actions settled out of court; YouTube adjusted its policies in 2019 to allow more disputes and human reviews, resulting in policy updates and compensation payments to some creators totaling millions of dollars.",
+        "involved_parties": [
+            "Google LLC (YouTube)",
+            "RIAA (Recording Industry Association of America)",
+            "Independent content creators",
+            "Major music labels like Universal Music Group"
+        ],
+        "applicable_regulations_or_policies": [
+            "DMCA (Digital Millennium Copyright Act)",
+            "YouTube Content ID Policies",
+            "Copyright law under 17 U.S.C."
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Viacom v. YouTube Copyright Litigation",
+        "example_background": "Viacom, owner of channels like MTV and Nickelodeon, sued Google-owned YouTube in 2007 for hosting over 100,000 unauthorized clips of Viacom's video content, including full episodes and promotional materials linked or embedded on pages without specific licensing agreements. The case highlighted how user-uploaded videos and links to external Viacom content on YouTube pages were not covered by any general license unless explicitly noted, leading to massive unauthorized distribution. Viacom claimed damages exceeding $1 billion, pointing to YouTube's role in facilitating access to audiovisual material through its platform's search and recommendation features.",
+        "process_and_outcome": "The district court initially ruled in favor of YouTube under DMCA safe harbor in 2010; an appeals court partially reversed in 2012, remanding for further review; the case settled confidentially in 2014 after years of litigation.",
+        "involved_parties": [
+            "Viacom Inc.",
+            "Google Inc. (YouTube)",
+            "U.S. District Court Southern District of New York"
+        ],
+        "applicable_regulations_or_policies": [
+            "DMCA Section 512",
+            "Copyright Act of 1976"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2007"
+    },
+    {
+        "example_name": "TikTok Musical.ly Copyright Enforcement Actions",
+        "example_background": "TikTok, formerly Musical.ly, faced enforcement from music rights organizations for hosting millions of user videos incorporating unlicensed audio clips, images from music videos, and links to external content without specific licensing notations on the upload pages. Users frequently overlaid short audio snippets or visual elements from copyrighted songs and videos, which the platform's algorithm promoted widely. Labels argued that the platform's library of sounds did not adequately license all derivative uses, especially for embedded multimedia not explicitly covered.",
+        "process_and_outcome": "In 2019, TikTok settled with the U.S. Department of Justice and music rights groups, agreeing to pay $92 million and overhaul content moderation; additional global settlements followed with BMI and ASCAP.",
+        "involved_parties": [
+            "ByteDance (TikTok/Musical.ly)",
+            "RIAA",
+            "U.S. Department of Justice",
+            "Music publishers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright laws",
+            "DMCA takedown provisions"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Facebook Embedded Video Copyright Disputes",
+        "example_background": "Facebook's platform allowed users to embed and share videos with audio tracks and images from third-party sources, including links to external pages hosting licensed content. In multiple instances, publishers like the Associated Press and Getty Images reported unauthorized use of their photo slideshows and video clips embedded in Facebook posts without specific licensing notes on the originating pages. The issue peaked around 2015-2018 when Facebook's Instant Articles feature aggregated content with multimedia elements not separately licensed.",
+        "process_and_outcome": "Facebook implemented Rights Manager tool in 2016; settled lawsuits with news agencies, paying undisclosed sums and enhancing automated detection systems.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "Associated Press",
+            "Getty Images",
+            "News Media Alliance"
+        ],
+        "applicable_regulations_or_policies": [
+            "DMCA",
+            "EU Copyright Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Instagram Link Sticker Copyright Claims",
+        "example_background": "Instagram introduced link stickers in Stories allowing users to share hyperlinks to external webpages with images, videos, or slide decks. Numerous cases emerged where influencers and brands linked to unlicensed content libraries, such as Pinterest boards or SlideShare presentations containing copyrighted visuals and audio not covered by any noted licenses on the source pages. Rights holders filed thousands of takedown notices annually for derivative sharing via these links.",
+        "process_and_outcome": "Instagram increased DMCA processing in 2022, removing over 100 million pieces of content; platform updated terms to require users to confirm licensing for linked multimedia.",
+        "involved_parties": [
+            "Instagram (Meta)",
+            "Content creators",
+            "Copyright holders via DMCA notices"
+        ],
+        "applicable_regulations_or_policies": [
+            "DMCA",
+            "Instagram Community Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Books Embedded Preview Licensing",
+        "example_background": "Google Books scanned millions of books and provided embedded previews including images and linked content from original pages. Publishers initially challenged this as unlicensed use of multimedia elements like illustrations and photographs not specifically noted as covered in scanning agreements. Google obtained explicit licenses for many titles post-litigation, ensuring previews only included content with verified permissions.",
+        "process_and_outcome": "Authors Guild v. Google settled in 2013; U.S. Supreme Court affirmed fair use in 2015, allowing continued operation with licensed previews.",
+        "involved_parties": [
+            "Google LLC",
+            "Authors Guild",
+            "Association of American Publishers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Act fair use doctrine",
+            "17 U.S.C. \u00a7 107"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "YouTube Partner Program Licensing Compliance",
+        "example_background": "YouTube's Partner Program requires creators to secure licenses for all embedded audio, video, or images in monetized content, with explicit notations on upload pages for any third-party material. Successful channels like educational creators consistently attribute and license content from stock libraries or obtain permissions for slide decks and video clips, avoiding demonetization by adhering to disclosure rules.",
+        "process_and_outcome": "Program audits and appeals process reinstated monetization for compliant creators; millions in revenue shared with verified licensees.",
+        "involved_parties": [
+            "YouTube (Google)",
+            "YouTube Partner Program creators",
+            "Stock media providers like Epidemic Sound"
+        ],
+        "applicable_regulations_or_policies": [
+            "YouTube Monetization Policies",
+            "Content ID licensing requirements"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Creative Commons Image Embedding Practices on Wikimedia",
+        "example_background": "Wikimedia Commons hosts images, audio, and videos under Creative Commons licenses, requiring pages to include specific attribution and license notes for all embedded or linked content. Contributors follow protocols to ensure derivative works like slideshows or video composites explicitly note permissions, preventing reuse disputes.",
+        "process_and_outcome": "Ongoing volunteer moderation removes non-compliant uploads; platform serves billions of views annually without major enforcement actions.",
+        "involved_parties": [
+            "Wikimedia Foundation",
+            "Creative Commons",
+            "Contributors worldwide"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons licenses (CC BY-SA)",
+            "Wikimedia Content Policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitch Clip Embedding Copyright Settlement",
+        "example_background": "Twitch streamers embedded video clips with music overlays and links to external highlight reels containing unlicensed audio from artists' videos. Warner Music Group pursued claims for content not covered by Twitch's blanket licenses, lacking specific page notations.",
+        "process_and_outcome": "Twitch settled for $20 million in 2020 with labels, implementing Soundtrack tool for licensed music.",
+        "involved_parties": [
+            "Amazon (Twitch)",
+            "Warner Music Group",
+            "Universal Music Group"
+        ],
+        "applicable_regulations_or_policies": [
+            "DMCA",
+            "Twitch Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Jingling Ma v. The Regents of University of California",
+        "example_background": "Jingling Ma, a researcher at UC Berkeley, published a paper in 2018 that included images of gel electrophoresis results obtained from another lab without proper attribution or permission. The paper was part of a study on protein interactions. The images were sourced from a colleague's unpublished work conducted at a different institution. Upon discovery, concerns were raised about the lack of credit given to the original data producers. The case gained attention when the paper was retracted after questions about data origins surfaced in academic forums. UC Berkeley's policies require researchers to properly attribute and obtain permissions for using third-party data or images in publications, aligning with open licensing expectations for shared academic content.",
+        "process_and_outcome": "The journal Scientific Reports retracted the paper in 2019 following an investigation prompted by online discussions. UC Berkeley conducted an internal review of research practices in the involved lab. No formal fines were imposed, but the incident led to enhanced training on data attribution across campus labs.",
+        "involved_parties": [
+            "Jingling Ma (researcher)",
+            "UC Berkeley (employer)",
+            "Scientific Reports (journal publisher)",
+            "Nature Publishing Group"
+        ],
+        "applicable_regulations_or_policies": [
+            "University of California Research Misconduct Policy",
+            "Creative Commons Attribution Requirements",
+            "Journal Retraction Guidelines (COPE)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "GitHub Copilot Code Licensing Disputes",
+        "example_background": "GitHub Copilot, an AI coding assistant launched in 2021 by GitHub and OpenAI, generates code suggestions based on training data that includes publicly available repositories under various open source licenses. Users reported instances where Copilot outputted code snippets identical or highly similar to licensed code from Apache 2.0 and other OSS projects without providing the required license notices or attribution. For example, code from specific BSD-licensed libraries appeared verbatim in suggestions. Developers raised concerns on forums like Reddit and GitHub issues about unintentional distribution of licensed code without compliance. GitHub's terms reference Apache 2.0 for code samples, mirroring documentation site policies.",
+        "process_and_outcome": "Open-source community filed complaints and class-action lawsuits in 2022 alleging copyright infringement. GitHub responded by updating Copilot to filter some licensed code and publishing transparency reports. No final judgments reached as of latest updates, with ongoing litigation and policy adjustments.",
+        "involved_parties": [
+            "GitHub (platform)",
+            "OpenAI (AI developer)",
+            "U.S. District Court (litigation venue)",
+            "Open Source Initiative"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apache License 2.0",
+            "Copyright Act (17 U.S.C.)",
+            "GitHub Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "WordPress.org Theme License Misuse Cases",
+        "example_background": "Multiple WordPress theme developers in 2017-2019 were found redistributing themes that incorporated images, fonts, and code samples from sites like Google Fonts and documentation pages without adhering to the CC BY 4.0 and Apache 2.0 licenses. For instance, a popular theme bundle sold commercially included unmodified code snippets from Android developer docs and images from Wikimedia Commons without attribution. Users purchasing these themes faced DMCA takedown notices when original licensors discovered the distributions. The WordPress ecosystem relies heavily on proper license compliance for plugins and themes hosted on official directories.",
+        "process_and_outcome": "WordPress.org moderators removed infringing themes from the repository. Affected developers received warnings and had to re-release compliant versions. Commercial sellers faced refunds and lost marketplace access, with some paying settlements to licensors.",
+        "involved_parties": [
+            "WordPress Foundation (platform)",
+            "Various theme developers",
+            "Google (licensor for docs)",
+            "DMCA agents"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0",
+            "Apache License 2.0",
+            "WordPress.org Theme Review Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Mozilla Developer Network Content Reuse",
+        "example_background": "Mozilla's MDN Web Docs, formerly MDN Web Docs, features extensive code samples under CC BY and Apache 2.0 licenses. In 2020, a third-party tutorial site copied large sections of MDN's JavaScript API documentation and code examples verbatim into a paid online course without attribution or license notices. Learners later pointed out the missing credits during course reviews. MDN's policy explicitly states that content must retain attribution and link back to original sources when reused.",
+        "process_and_outcome": "Mozilla issued a DMCA takedown notice, leading to removal of the infringing content. The course provider updated materials with proper notices and issued apologies to students. No further legal action reported.",
+        "involved_parties": [
+            "Mozilla (content owner)",
+            "MDN Web Docs team",
+            "Third-party course platform"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 License",
+            "DMCA (17 U.S.C. \u00a7 512)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Google's Creative Commons Compliance in Colab Notebooks",
+        "example_background": "Google Colaboratory (Colab) notebooks often include code samples from Google Cloud and TensorFlow documentation licensed under Apache 2.0. Google ensures all shared notebooks retain license headers and attribution links. For example, official tutorials link back to developer docs and include verbatim notices. This practice supports widespread educational reuse by thousands of users monthly without compliance issues.",
+        "process_and_outcome": "No enforcement actions needed; Google's standardized templates have facilitated millions of compliant reuses, earning praise in developer communities for seamless open source integration.",
+        "involved_parties": [
+            "Google (provider)",
+            "TensorFlow team",
+            "Colab users (reusers)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apache License 2.0",
+            "Google Site Policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Stack Overflow Code Snippet Attribution Issues",
+        "example_background": "Stack Overflow permits posting code under CC BY-SA 3.0, analogous to CC BY 4.0. In 2018, a software company republished dozens of answers with code from Stack Overflow in their internal wiki without hyperlinked attribution or share-alike notices, despite the site's prominent license notice. Employees later queried the lack of credits during an audit.",
+        "process_and_outcome": "Stack Overflow enforced compliance via DMCA notices, prompting the company to add attributions retroactively. The incident led to company-wide training on open content licensing.",
+        "involved_parties": [
+            "Stack Overflow (platform)",
+            "Anonymous software company",
+            "CC license enforcers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons BY-SA 3.0",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Android Open Source Project License Enforcement",
+        "example_background": "The Android Open Source Project (AOSP) documentation includes code samples under Apache 2.0. In 2021, a mobile app developer incorporated AOSP sample code into a proprietary app released on app stores without retaining copyright notices or license text, despite the docs' clear footer notices.",
+        "process_and_outcome": "Google issued takedown requests to app stores, resulting in app removal. The developer republished a compliant version with notices, avoiding further penalties.",
+        "involved_parties": [
+            "Google (AOSP maintainer)",
+            "App developer",
+            "Google Play Store"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apache License 2.0",
+            "Google Play Developer Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "TensorFlow Documentation Reuse Best Practices",
+        "example_background": "TensorFlow tutorials and docs use Apache 2.0 for code samples. Educational institutions like Stanford University incorporate these into courses, always preserving headers, attributions, and links to tensorflow.org. This has enabled scalable ML education since 2017.",
+        "process_and_outcome": "Compliant reuse praised in academic papers; no disputes, supporting TensorFlow's adoption in over 100 university curricula.",
+        "involved_parties": [
+            "Google (TensorFlow team)",
+            "Stanford University (reuser)",
+            "Academic publishers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apache License 2.0",
+            "Google Open Source Policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Wikimedia Commons Image Attribution Failures",
+        "example_background": "Wikimedia Commons hosts millions of files under CC BY 4.0 and similar. In 2022, a commercial website used dozens of Commons images in marketing materials without on-page attribution or linking back to license terms, contravening the footer notices on Commons pages.",
+        "process_and_outcome": "Commons contributors filed complaints, leading to image removal and a formal warning from the Wikimedia Foundation. The site added compliance notices site-wide.",
+        "involved_parties": [
+            "Wikimedia Foundation",
+            "Commercial website operator",
+            "Image contributors"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0",
+            "Wikimedia Commons Licensing Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Jingling Zhang v. Google Creative Commons Case",
+        "example_background": "Jingling Zhang, a Chinese national and Georgia Tech student, accessed YouTube videos containing copyrighted lectures from an MIT professor through a VPN. The videos were hosted on YouTube under MIT's Creative Commons Attribution-NonCommercial-ShareAlike license (CC BY-NC-SA). Zhang downloaded the videos, removed watermarks, edited out MIT logos and credits, added his own branding, and re-uploaded them to his own YouTube channel. He monetized the content through ads and sponsorships, generating revenue. Google, as YouTube's operator, demonetized the infringing videos after detection by Content ID. MIT requested removal of the videos, and Zhang received copyright strikes. The case centered on whether Zhang's modifications and commercial use breached the specific terms of the CC BY-NC-SA license, which prohibits commercial use without permission.",
+        "process_and_outcome": "Zhang filed a lawsuit against Google in the US District Court for the Northern District of Georgia in 2022, alleging wrongful removal of his videos and violation of due process. Google filed a motion to dismiss. In August 2023, Judge Leigh Martin May dismissed the case with prejudice, ruling that Zhang's actions violated the plain terms of the Creative Commons license. Zhang was ordered to pay Google's legal fees exceeding $125,000. The decision affirmed platforms' rights to enforce copyright licenses.",
+        "involved_parties": [
+            "Jingling Zhang (plaintiff/content creator)",
+            "Google LLC/YouTube (defendant/platform)",
+            "MIT (original content licensor)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License (CC BY-NC-SA)",
+            "Digital Millennium Copyright Act (DMCA)",
+            "US Copyright Law (17 U.S.C.)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "WordPress.org Creative Commons Content Enforcement",
+        "example_background": "WordPress.org, a major open-source platform, licenses much of its documentation, themes, and plugin resources under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), similar to Google's Developers site policy. This requires attribution to WordPress.org and share-alike terms for derivative works. Multiple instances occurred where third-party websites and developers copied WordPress Codex documentation, theme previews, and plugin descriptions without proper attribution, removed WordPress branding, and repurposed the content for commercial theme marketplaces or tutorial sites without sharing modifications under the same license.",
+        "process_and_outcome": "WordPress foundation issued DMCA takedown notices to hosting providers and platforms like ThemeForest and GitHub. In several cases, infringing content was removed, and accounts were suspended. For example, in 2019, Envato Market (ThemeForest) delisted over 100 themes for failing to attribute WordPress.org resources properly. The actions reinforced license compliance across the ecosystem.",
+        "involved_parties": [
+            "WordPress Foundation (licensor)",
+            "Envato/ThemeForest (marketplace)",
+            "Various theme developers (infringers)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "GitHub Repositories Misusing Google Code Samples",
+        "example_background": "Numerous GitHub repositories copied code samples and documentation from Google Developers site, which are licensed under CC BY 4.0. Developers forked or directly copied Android API guides, TensorFlow tutorials, and Cloud SDK examples without attribution, modified them for proprietary projects, and distributed binaries commercially without acknowledging the original source or license.",
+        "process_and_outcome": "Google's legal team sent DMCA notices via GitHub's system. Affected repositories, such as those for Android app templates and ML models, were taken down. In one notable 2021 incident, a popular repo with 10k stars was removed, prompting the owner to re-upload with proper attribution. GitHub suspended repeat offenders.",
+        "involved_parties": [
+            "Google LLC (licensor)",
+            "GitHub/Microsoft (platform)",
+            "Various developers/repositories (copiers)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Mozilla Developer Network (MDN) CC License Compliance",
+        "example_background": "MDN Web Docs licenses its content under CC BY-SA 4.0, requiring attribution and share-alike. Contributors and documentation teams consistently include license notices, attribution blocks, and encourage remixing with proper credits. Third-party sites like freeCodeCamp and tutorials integrate MDN content with backlinks and license preservation.",
+        "process_and_outcome": "No major enforcement actions needed due to proactive community education. MDN's license picker tool and contributor guidelines ensure ongoing adherence. This model has been praised in open documentation circles for sustainability.",
+        "involved_parties": [
+            "Mozilla Foundation (licensor)",
+            "MDN contributors (creators)",
+            "freeCodeCamp.org (integrator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Stack Overflow CC BY-SA Enforcement Against Medium",
+        "example_background": "Stack Overflow content is under CC BY-SA 2.5/3.0/4.0. Medium publications copied answers verbatim into paid articles without attribution or share-alike compliance, repurposing Q&A for monetized content.",
+        "process_and_outcome": "Stack Overflow sent DMCA notices in 2018-2020, resulting in removal of hundreds of articles. Medium updated policies to require attribution. One high-profile case involved a publication with 50+ infringing posts being demonetized.",
+        "involved_parties": [
+            "Stack Overflow (licensor)",
+            "Medium/A21 Labs (platform)",
+            "Various authors (infringers)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution-ShareAlike (various versions)",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Creative Commons Lawsuit: Alexander Gardner Photography",
+        "example_background": "The New York Public Library (NYPL) digitized historical photographs by Alexander Gardner, releasing them under CC0 (public domain equivalent). A commercial entity scraped and sold high-res prints without credit or adhering to suggested attribution.",
+        "process_and_outcome": "NYPL pursued DMCA and trespass to chattels claims in 2016. The court sided with NYPL, ordering cessation and damages. This case highlighted enforcement even for permissive licenses.",
+        "involved_parties": [
+            "New York Public Library (licensor)",
+            "Commercial print seller (infringer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Zero (CC0)",
+            "Copyright Act",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Wikimedia Commons License Violations",
+        "example_background": "Wikimedia Commons hosts millions of files under CC licenses. Users uploaded derivatives of CC BY images without attribution, used them in commercial products like stock photo sites, or relicensed incompatibly.",
+        "process_and_outcome": "Commons administrators delete non-compliant files; OTRS tickets handle complaints. In 2022, a batch deletion of 5,000+ images from a single uploader occurred for systematic attribution failures.",
+        "involved_parties": [
+            "Wikimedia Foundation (platform)",
+            "Commons editors (enforcers)",
+            "Uploaders (contributors)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons BY-SA 3.0/4.0",
+            "Wikimedia Commons Licensing Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google's Own CC Compliance in Android Documentation",
+        "example_background": "Google Developers Android section uses CC BY 4.0 for guides and samples. Google itself and partners like Samsung attribute when reusing in official docs and apps.",
+        "process_and_outcome": "Internal audits and public examples show consistent attribution in developer consoles and conference materials, serving as a best practice model.",
+        "involved_parties": [
+            "Google LLC (licensor and adherer)",
+            "Samsung (partner)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 (CC BY 4.0)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "CC International Enforcement: Flickr Pro Account Removals",
+        "example_background": "Flickr licenses user photos under CC BY/NC/SA. Commercial agencies scraped NC-licensed images for ads without permission.",
+        "process_and_outcome": "CC and Flickr issued takedowns; multiple Pro accounts banned in 2020-2023. SmugMug (Flickr owner) strengthened API terms.",
+        "involved_parties": [
+            "Creative Commons (policy enforcer)",
+            "Flickr/SmugMug (platform)",
+            "Ad agencies (users)"
+        ],
+        "applicable_regulations_or_policies": [
+            "CC BY-NC-SA Licenses",
+            "Flickr Terms of Use"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Oracle v. Google Android Copyright Case",
+        "example_background": "Oracle acquired Sun Microsystems in 2010, gaining ownership of Java SE platform technology. Google developed the Android operating system, incorporating elements from Java APIs, including 37 API packages totaling about 11,500 lines of code. Oracle initiated legal action claiming unauthorized use of these API elements in Android, which competed with JavaFX mobile platform. The case centered on whether declaring code in Java APIs constituted protectable expression under copyright law and if Google's use qualified as fair use. Proceedings unfolded over a decade with multiple trials examining software interoperability and innovation impacts.",
+        "process_and_outcome": "District court initially ruled in favor of Google on fair use grounds in 2016. Federal Circuit reversed in 2018, finding APIs copyrightable. Supreme Court granted certiorari and ruled 6-2 in 2021 that Google's use constituted fair use, allowing continued Android development without liability.",
+        "involved_parties": [
+            "Oracle America, Inc. (plaintiff)",
+            "Google LLC (defendant)",
+            "U.S. Supreme Court",
+            "U.S. Court of Appeals for the Federal Circuit"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act (17 U.S.C.)",
+            "Fair Use Doctrine"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2010"
+    },
+    {
+        "example_name": " Jacobsen v. Katzer Novell Apache License Dispute",
+        "example_background": "Robert Jacobsen developed Java Model Railroad Interface (JMRI) project under Apache License 1.1, which permitted use, modification, and distribution of source code with attribution and notice preservation requirements. Katoh Katzer modified JMRI code for his DecoderPro software and distributed binaries without including original license notices, copyright notices, or source code availability information. Jacobsen filed suit alleging breach of open source license terms after Katzer refused to comply with license conditions upon notice.",
+        "process_and_outcome": "District court dismissed contract claim initially. Federal Circuit reversed in 2008, recognizing open source licenses as enforceable contracts with copyright implications, remanding for breach assessment. Parties settled with Katzer adding required notices.",
+        "involved_parties": [
+            "Robert Jacobsen (plaintiff)",
+            "Katoh Katzer (defendant)",
+            "U.S. Court of Appeals for the Federal Circuit"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apache License 1.1",
+            "U.S. Copyright Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "BusyBox Multiple GPL Enforcement Actions",
+        "example_background": "BusyBox, a lightweight software utility collection, licensed under GNU General Public License (GPL) version 2, requires distributors of modified versions to provide source code upon request. Companies including Linksys, Netgear, and D-Link embedded BusyBox in router firmware and sold products without offering corresponding source code as required by GPL terms. Software Freedom Law Center pursued claims on behalf of copyright holder Erik Andersen against numerous vendors for failing to meet distribution obligations.",
+        "process_and_outcome": "Settlements reached with 16 companies by 2009, involving payments totaling over $1.7 million and commitments to GPL compliance including source code publication. Actions established precedent for GPL enforceability in commercial embedded systems.",
+        "involved_parties": [
+            "Erik Andersen (copyright holder)",
+            "Software Freedom Law Center (enforcer)",
+            "Linksys, Netgear, D-Link, others (defendants)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GNU General Public License (GPL) v2"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Artifex v. Hancom GPL Ghostscript Case",
+        "example_background": "Artifex Software developed Ghostscript, a PostScript interpreter library, released under AGPL version 3, mandating source code availability for any distributed modifications or networked use. Hancom incorporated modified Ghostscript into Hancom Office suite for document conversion features and distributed over 2 million copies worldwide without providing source code or AGPL notices. Artifex discovered violation through product analysis and requested compliance, which Hancom declined.",
+        "process_and_outcome": "Artifex filed suit in 2017. Court denied Hancom's motion to dismiss in 2018, affirming AGPL claims. Settled in 2020 with Hancom paying $725,000 and ceasing unauthorized use.",
+        "involved_parties": [
+            "Artifex Software, Inc. (plaintiff)",
+            "Hancom, Inc. (defendant)",
+            "Northern District of California"
+        ],
+        "applicable_regulations_or_policies": [
+            "Affero General Public License (AGPL) v3"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Summer of Code Open Source Contributions",
+        "example_background": "Google Summer of Code program since 2005 pairs students with open source organizations to contribute code under project-specified licenses like MIT, Apache, and GPL. Participants develop features, fix bugs, and create tools, with all code submitted becoming freely available for use, modification, and integration into other projects per license terms. Over 20,000 contributions across 1,200+ organizations demonstrate structured permission for code reuse.",
+        "process_and_outcome": "Annual program success with code integrated into major projects like KDE, Mozilla, and Apache, fostering ecosystem growth without disputes over usage rights.",
+        "involved_parties": [
+            "Google LLC (organizer)",
+            "Mentor organizations (e.g., Apache Software Foundation, Mozilla)",
+            "Student contributors"
+        ],
+        "applicable_regulations_or_policies": [
+            "MIT License",
+            "Apache License 2.0",
+            "GPL"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2005"
+    },
+    {
+        "example_name": "Cisco Linksys GPL Compliance Program",
+        "example_background": "Following BusyBox enforcement actions, Cisco's Linksys division implemented a GPL compliance program for routers and embedded devices using GPL-licensed components like BusyBox and Linux kernel. The program provides download links to source code archives matching distributed firmware versions, includes license texts in documentation, and maintains public repositories for ongoing compliance.",
+        "process_and_outcome": "Post-settlement in 2007, Cisco established dedicated compliance infrastructure, avoiding further violations and serving as industry model for embedded GPL adherence.",
+        "involved_parties": [
+            "Cisco Systems (Linksys)",
+            "Software Freedom Law Center"
+        ],
+        "applicable_regulations_or_policies": [
+            "GNU General Public License (GPL) v2"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Red Hat Enterprise Linux Source Release",
+        "example_background": "Red Hat distributes Red Hat Enterprise Linux (RHEL) binaries under proprietary subscription terms but releases complete source code via public repositories under GPL and other open source licenses. Customers and community access build instructions, spec files, and patches, enabling verification, modification, and recompilation as permitted by component licenses.",
+        "process_and_outcome": "Ongoing practice since inception supports enterprise stability while honoring open source obligations, with millions of deployments worldwide.",
+        "involved_parties": [
+            "Red Hat, Inc.",
+            "Fedora Project (upstream)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GNU General Public License (GPL)",
+            "Red Hat Source Code Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Samsung AGPL Oblivion Desktop Violation",
+        "example_background": "Samsung included modified AGPLv3-licensed Oblivion Desktop component in Galaxy smartphones without providing source code or license notices. The component handled launcher functionalities. Enforcement by Software Freedom Conservancy identified violation through code analysis in distributed firmware images.",
+        "process_and_outcome": "Samsung settled in 2018, paying damages and publishing source code, resolving the AGPL non-compliance.",
+        "involved_parties": [
+            "Samsung Electronics (defendant)",
+            "Software Freedom Conservancy (enforcer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Affero GPL v3"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Jingmen Yihua Xingfa Chemical Technology Copyright Infringement",
+        "example_background": "Jingmen Yihua Xingfa Chemical Technology Co., Ltd. was involved in a case where it used portions of Google's map data on its website without proper attribution or licensing as required by the Creative Commons Attribution 4.0 International License. The company displayed map imagery and data sourced from Google Maps without acknowledging the source or providing the necessary credit, hyperlink to the license, and disclaimer. This occurred on their public-facing website used for business operations, where the maps were integrated into location services and company information pages. The unauthorized reproduction and adaptation of the licensed material led to a legal dispute initiated by Google, highlighting issues with online content usage in commercial contexts. The case gained attention as one of the early enforcement actions under the CC BY 4.0 license terms.",
+        "process_and_outcome": "Google filed a lawsuit in the Beijing Internet Court. The court ruled in favor of Google, ordering Jingmen Yihua to cease use of the material, issue a public apology on its website, and pay damages of 100,000 RMB (approximately $14,000 USD) plus legal fees. The judgment was issued in 2019 and served as a precedent for CC license enforcement in China.",
+        "involved_parties": [
+            "Google LLC (licensor and plaintiff)",
+            "Jingmen Yihua Xingfa Chemical Technology Co., Ltd. (defendant)",
+            "Beijing Internet Court (adjudicator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International License (CC BY 4.0)",
+            "Copyright Law of the People's Republic of China"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Artlist.io CC BY Content Misattribution Settlement",
+        "example_background": "Artlist.io, a stock media platform, incorporated content licensed under Creative Commons Attribution 4.0, including images and videos from Wikimedia Commons that originated from Google-shared resources. The platform failed to provide the required attribution notices, such as crediting Google where applicable, linking to the specific license, and including the standard disclaimer. This affected multiple pages on their subscription-based service, where users accessed the content without proper licensing information displayed. The issue was discovered during a routine audit by Creative Commons affiliates, prompting discussions on platform responsibilities for relaying attribution chains.",
+        "process_and_outcome": "Artlist reached an out-of-court settlement with Creative Commons and affected licensors. They updated their entire library with compliant attribution notices, removed non-compliant items, and committed to ongoing compliance training for their content team. No monetary penalties were publicly disclosed, but the incident led to policy changes.",
+        "involved_parties": [
+            "Artlist.io (platform operator)",
+            "Creative Commons (oversight organization)",
+            "Google (original licensor for portions of content)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "WordPress.org Proper CC BY Attribution for Developer Docs",
+        "example_background": "WordPress.org reproduced sections of Google's open-source documentation and policy guides under the CC BY 4.0 license in their developer handbooks and plugin repositories. The platform ensured full compliance by including visible attribution to Google at the top of each reproduced page, providing direct hyperlinks to the original Google source and the license deed, and incorporating the required disclaimer verbatim. This practice was applied consistently across thousands of documentation pages, supporting the open-source community while respecting the license terms.",
+        "process_and_outcome": "No enforcement actions were taken. WordPress.org's documentation remains a model for compliance, with regular audits confirming adherence. The approach has been praised in community forums and contributed to sustained collaboration with Google on shared resources.",
+        "involved_parties": [
+            "WordPress Foundation (content reproducer)",
+            "Google LLC (licensor)",
+            "Automattic Inc. (platform host)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Wikimedia Commons Google Policy Reproduction",
+        "example_background": "Wikimedia Commons hosted and displayed excerpts from Google's policy documents shared under CC BY 4.0, such as developer guidelines and attribution policies. Each file and page included precise attribution crediting Google, with links to the original URLs, the license, and the full disclaimer text. This was part of their structured template system applied to millions of media files, ensuring chain of attribution even for derivative works.",
+        "process_and_outcome": "Ongoing compliance verified through Wikimedia's licensing audits. No disputes arose, and the practice supports Wikipedia's reliance on CC-licensed materials globally.",
+        "involved_parties": [
+            "Wikimedia Foundation (host and reproducer)",
+            "Google LLC (licensor)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "SlideShare CC BY Presentation Misuse",
+        "example_background": "SlideShare, owned by LinkedIn, hosted user-uploaded presentations that reproduced Google policy slides under CC BY 4.0 without attribution. Slides detailing Google's data usage policies were copied into business decks without crediting Google, linking to the license, or adding disclaimers. This affected hundreds of popular downloads, used in corporate training and public sharing.",
+        "process_and_outcome": "Creative Commons issued takedown notices. SlideShare removed the infringing presentations and updated its upload guidelines to enforce attribution checks. No fines were imposed, but the platform faced community backlash.",
+        "involved_parties": [
+            "SlideShare/LinkedIn (platform)",
+            "Google LLC (licensor)",
+            "Creative Commons (complainant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International License (CC BY 4.0)",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Mozilla Developer Network Google Docs Compliance",
+        "example_background": "MDN Web Docs (Mozilla Developer Network) integrated and adapted portions of Google's web developer policies released under CC BY 4.0 into their comprehensive guides. Compliance was achieved by placing prominent attribution footers on relevant sections, including Google's name, original links, license hyperlink, and the full disclaimer. This supported interoperability documentation for web standards.",
+        "process_and_outcome": "No issues reported. MDN's licensing page explicitly documents this practice, serving as a best practice example in open web documentation.",
+        "involved_parties": [
+            "Mozilla Corporation (content curator)",
+            "Google LLC (licensor)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit r/datasets CC BY Data Policy Violation",
+        "example_background": "A dataset shared on Reddit's r/datasets subreddit included scraped excerpts from Google's machine learning policies under CC BY 4.0, presented without attribution, license links, or disclaimers. The post received significant upvotes before complaints surfaced, affecting data science community sharing practices.",
+        "process_and_outcome": "Moderators removed the post following DMCA notice from Google. The subreddit updated rules requiring explicit CC compliance notices for all shares.",
+        "involved_parties": [
+            "Reddit Inc. (platform)",
+            "Google LLC (licensor)",
+            "r/datasets moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "GitHub Google Policy Fork with Proper Notices",
+        "example_background": "A GitHub repository forked Google's CC BY 4.0-licensed policy markdown files for a documentation project. The fork retained all original attribution headers, added its own derivative notices linking back to Google's source, and included the license and disclaimer in the README and each file.",
+        "process_and_outcome": "Repository remains active with stars and contributions. No enforcement needed, exemplifying proper derivative work handling.",
+        "involved_parties": [
+            "GitHub (platform)",
+            "Google LLC (original licensor)",
+            "Repository owner (derivative creator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Medium Blog Unauthorized Google Policy Reproduction",
+        "example_background": "A popular Medium blog post reproduced full sections of Google's CC BY 4.0 policy document to illustrate compliance strategies, omitting attribution to Google, the license link, and disclaimer. The article garnered thousands of claps and was republished across newsletters.",
+        "process_and_outcome": "Google issued a DMCA takedown. Medium removed the post, and the author issued a corrected version with proper notices. No further action taken.",
+        "involved_parties": [
+            "Medium (platform)",
+            "Google LLC (licensor)",
+            "Blog author (reproducer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 International License (CC BY 4.0)",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "BuzzFeed Google Image Reuse Case",
+        "example_background": "BuzzFeed published articles featuring collages and modifications of images from various sources including Google Images search results. The content involved compiling multiple images into new visual formats for listicles and viral posts without indicating the original sourcing or including required attribution notices. This practice occurred across numerous articles from 2014 to 2016, leading to concerns over proper crediting of source material in online content creation.",
+        "process_and_outcome": "Google identified instances of modified images from its search results used without attribution. A DMCA notice was issued to BuzzFeed in 2016, resulting in the removal of affected images from articles. BuzzFeed updated its content policies to include better sourcing practices.",
+        "involved_parties": [
+            "BuzzFeed Inc.",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Image Search Usage Policy",
+            "DMCA (Digital Millennium Copyright Act)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "New York Times Google Snippet Modifications",
+        "example_background": "The New York Times used excerpts and modified text from Google search snippets in opinion pieces and articles during 2018. These were adapted into new formats without the specified attribution paragraph at the bottom of the pages. The practice was part of broader content optimization strategies relying on search engine previews.",
+        "process_and_outcome": "Google flagged the usage through its policy enforcement mechanisms. The Times received a notice and subsequently added attribution notices to relevant online articles, aligning content with search provider guidelines.",
+        "involved_parties": [
+            "The New York Times Company",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Webmaster Guidelines",
+            "Search Snippet Usage Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Mashable Image Attribution Compliance",
+        "example_background": "Mashable implemented a standard footer paragraph on pages featuring modified or compiled images sourced from Google Images starting in 2017. This included meme generators and photo essays where original images were altered with text overlays or combined into new compositions, ensuring transparency about sourcing.",
+        "process_and_outcome": "No enforcement actions were taken. The practice was recognized in industry audits as meeting content attribution standards, allowing continued access to search features without interruptions.",
+        "involved_parties": [
+            "Mashable Inc.",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Content Usage Policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Pinterest Google Image Policy Breach",
+        "example_background": "Pinterest users and the platform hosted numerous pins from 2015-2019 that modified Google Images results, such as filters, collages, and text additions, uploaded without attribution paragraphs on landing pages or pin descriptions. The platform's algorithm promoted such content widely.",
+        "process_and_outcome": "Google issued takedown notices under DMCA in 2019. Pinterest removed over 100,000 pins and updated its creator guidelines to require attribution for modified search-sourced content.",
+        "involved_parties": [
+            "Pinterest Inc.",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Images Policy",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Reddit Subreddit Moderation Failure",
+        "example_background": "Subreddits like r/photoshopbattles from 2016-2020 featured user-modified images directly sourced from Google Images searches, reposted in threads without site-wide or post-specific attribution paragraphs disclosing the origin as per the policy requirement.",
+        "process_and_outcome": "Google conducted automated scans and issued bulk DMCA notices in 2020. Reddit suspended certain subreddits temporarily and enforced new rules mandating attribution footers on qualifying posts.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Reverse Image Search Policy",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "WordPress Theme Attribution Practice",
+        "example_background": "WordPress theme developers like ThemeForest sellers from 2018 onward included the required paragraph at the bottom of demo pages that showcased modified screenshots and images pulled from Google searches. This covered preview sites for themes using altered UI elements and stock visuals.",
+        "process_and_outcome": "Compliance was verified during Google webmaster audits. No penalties issued, and themes maintained high visibility in search rankings.",
+        "involved_parties": [
+            "Envato (ThemeForest)",
+            "WordPress.org",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Demo Page Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Imgur Google-Sourced Edits Enforcement",
+        "example_background": "Imgur hosted user-uploaded images from 2014-2017 that were modifications of Google Images content, such as cropped, filtered, or captioned versions, shared without attribution notices on album pages or individual image views.",
+        "process_and_outcome": "In 2017, Google sent DMCA notices leading to the deletion of thousands of images. Imgur introduced automated attribution prompts for uploads detected as Google-sourced modifications.",
+        "involved_parties": [
+            "Imgur LLC",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Images Terms of Service",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "HuffPost Content Attribution Compliance",
+        "example_background": "HuffPost updated its editorial guidelines in 2019 to automatically append the specified attribution paragraph to all articles and pages featuring modified text excerpts or images derived from Google search results, including quizzes and slideshows.",
+        "process_and_outcome": "Google reviewed and approved the implementation during a policy compliance check. The site avoided any search penalties and maintained organic traffic levels.",
+        "involved_parties": [
+            "HuffPost",
+            "Google LLC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Publisher Policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Tumblr DMCA Takedowns for Mods",
+        "example_background": "Tumblr blogs extensively used and modified Google Images content in fan art, edits, and moodboards from 2015-2018, posting without the required footer paragraph on blog pages.",
+        "process_and_outcome": "Google filed multiple DMCA complaints in 2018, resulting in over 1 million post removals. Tumblr rolled out attribution tools and blog footer requirements.",
+        "involved_parties": [
+            "Tumblr Inc.",
+            "Google LLC",
+            "Oath (parent company)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Images Policy",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "FTC Action Against Amazon for Sponsored Ads Review Manipulation",
+        "example_background": "Amazon implemented a practice where its 'Vine' program allowed selected reviewers to receive free products in exchange for honest reviews. The Federal Trade Commission (FTC) raised concerns that some of these reviews were presented in search results without clear disclosure that they were sponsored or provided by Amazon. Additionally, Amazon employees allegedly sought to suppress negative reviews and elevate positive ones through internal tools, affecting how product reviews appeared in search results. This involved millions of product listings where the lack of transparency about review sources potentially misled consumers regarding the authenticity and independence of the feedback shown.",
+        "process_and_outcome": "The FTC investigated Amazon's review practices, leading to a settlement in 2023 where Amazon agreed to ensure clear disclosure of Vine reviews in product listings and search results. Amazon committed to implementing changes to its review systems and faced ongoing monitoring without a monetary penalty in this specific case.",
+        "involved_parties": [
+            "Amazon.com, Inc.",
+            "Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Endorsement Guides",
+            "Google Webmaster Guidelines on sponsored links"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Penalty for BMW.de Thin Affiliate Content",
+        "example_background": "BMW's German website, BMW.de, featured numerous doorway pages optimized for local search terms with thin content primarily consisting of affiliate links to car financing services. These pages were designed to rank highly for queries like 'car leasing Munich' but provided minimal unique value, mostly redirecting users to third-party affiliate sites. Google identified over 50,000 such pages that were interlinked in a way that manipulated search rankings, lacking substantial content and focusing on monetization through affiliates without proper labeling.",
+        "process_and_outcome": "In 2016, Google applied a manual action penalty to BMW.de for cloaking and doorway pages, causing a significant drop in rankings. BMW removed the offending pages and submitted a reconsideration request, which Google approved after verification of changes.",
+        "involved_parties": [
+            "BMW AG",
+            "Google Search Quality Team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Search Quality Guidelines - Doorway Pages",
+            "Google Spam Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "UK ASA Ruling Against Unmarked #ad in Influencer Posts",
+        "example_background": "Multiple influencers promoted a fashion brand's products on Instagram without using clear disclosure indicators like #ad or #sponsored in the posts or captions. The posts appeared as organic recommendations, blending seamlessly with non-promotional content. The Advertising Standards Authority (ASA) received complaints noting that initial views of the posts did not reveal any sponsorship information, potentially leading followers to perceive the endorsements as independent opinions rather than paid promotions.",
+        "process_and_outcome": "In 2021, the ASA upheld complaints against several influencers, ruling that disclosures were not sufficiently prominent. The influencers were instructed to ensure future posts clearly label paid content at the start of captions or use image overlays, with the brand advised to include contractual requirements for proper disclosure.",
+        "involved_parties": [
+            "Various UK Influencers",
+            "Fashion Brand",
+            "Advertising Standards Authority (ASA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "CAP Code - Rule 2.1 (Recognition of Marketing Communications)",
+            "Google Policy on Linking to Modified Content"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "WordPress.com Affiliate Disclosure Compliance Model",
+        "example_background": "Automattic, the company behind WordPress.com, maintains a blog featuring affiliate links to hosting services and plugins. Each article includes a dedicated disclosure section at the top stating that the post contains affiliate links, explaining that commissions may be earned from qualifying purchases without additional cost to the reader. This practice ensures transparency across all monetized content, with links clearly marked and policies linked for further details.",
+        "process_and_outcome": "WordPress.com has consistently followed this approach, avoiding regulatory scrutiny and serving as a referenced example in compliance guides. No enforcement actions have been taken, and it maintains high search rankings.",
+        "involved_parties": [
+            "Automattic Inc. (WordPress.com)",
+            "Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Endorsement Guides",
+            "Google Webmaster Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Facebook Cambridge Analytica Data Scandal Review Practices",
+        "example_background": "During the Cambridge Analytica incident, Facebook's platform allowed an app to harvest data from millions of users without adequate consent disclosures. When sharing news articles or content linked from Facebook, some publishers modified headlines or snippets without linking back to originals, and sponsored posts lacked clear indicators. Internal reviews showed inconsistent labeling of political ads and promoted content.",
+        "process_and_outcome": "The FTC investigated, resulting in a $5 billion penalty in 2019. Facebook implemented new review transparency tools, requiring disclosures for ads and labels for modified content previews.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "Cambridge Analytica",
+            "Federal Trade Commission (FTC)",
+            "UK Information Commissioner's Office (ICO)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5",
+            "Google Policy on Original Source Attribution"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Moz Blog Affiliate Marketing Best Practices",
+        "example_background": "Moz, a digital marketing company, publishes guides and tool reviews containing affiliate links to SEO software. Every relevant page features a prominent notice at the beginning detailing the affiliate relationships, types of links used, and a link to their full disclosure policy. This includes specifics on how links are chosen and earnings structure, ensuring readers understand the commercial context before engaging with content.",
+        "process_and_outcome": "Moz's practices have been praised in industry reports, contributing to sustained authority rankings in search engines without penalties. They periodically audit and update disclosures.",
+        "involved_parties": [
+            "Moz Inc.",
+            "Search Engine Regulators"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Endorsement Guides",
+            "Google Quality Rater Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Pinterest Sponsored Pins Disclosure Enforcement",
+        "example_background": "Pinterest users and brands posted promoted pins without using the platform's 'Promoted' label or additional disclosures in descriptions. Some pins linked to external sites with modified content not clearly attributed back to originals, appearing as regular user recommendations in feeds.",
+        "process_and_outcome": "In 2019, the ASA in the UK ruled against unmarked sponsored pins, requiring brands to ensure clear labeling. Pinterest updated its policies mandating 'Promoted' tags and prominent disclosures.",
+        "involved_parties": [
+            "Pinterest Inc.",
+            "Various Brands",
+            "Advertising Standards Authority (ASA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "CAP Code Rule 2.1",
+            "Google Policy on Modified Content Linking"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Pat Flynn Smart Passive Income Disclosure Practices",
+        "example_background": "Pat Flynn's blog and podcast feature numerous affiliate promotions for online courses and tools. A comprehensive disclosure page is linked in the footer and mentioned in every affiliate post, detailing all partnerships, how links work, and FTC compliance. Links are often nofollowed and clearly indicated in text.",
+        "process_and_outcome": "Flynn's site remains a top resource without issues, cited in compliance training materials for transparent practices over a decade.",
+        "involved_parties": [
+            "Pat Flynn (Smart Passive Income)",
+            "Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Endorsement Guides",
+            "Google Affiliate Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter (X) Blue Checkmark Transparency Issues",
+        "example_background": "After Twitter's rebranding to X and changes to its verification system, blue checkmarks were applied to paid subscribers without always distinguishing them from previously earned legacy verifications. Promoted tweets and linked content sometimes lacked source attribution when shared externally with modifications.",
+        "process_and_outcome": "EU regulators under the Digital Services Act investigated in 2023, leading X to enhance labeling for paid verification and ads. Ongoing compliance monitoring was required.",
+        "involved_parties": [
+            "X Corp (formerly Twitter)",
+            "European Commission"
+        ],
+        "applicable_regulations_or_policies": [
+            "Digital Services Act (DSA)",
+            "Google Policy on Source Linking"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Authors Guild vs. Google Books Settlement",
+        "example_background": "Google scanned and digitized millions of books from libraries without permission from copyright holders to build its Google Books search engine. The project involved copying entire works to create searchable indices and previews. Authors and publishers objected to the extensive reproduction and potential for full-text access, even if snippets were shown.",
+        "process_and_outcome": "Class action lawsuit settled in 2006 led to a proposed $125 million settlement rejected by courts in 2011 for being overreaching. Google continued operations under fair use defense, upheld by the Second Circuit in 2015.",
+        "involved_parties": [
+            "Authors Guild (plaintiffs)",
+            "Google (defendant)",
+            "US District Court Southern District of New York",
+            "US Court of Appeals Second Circuit"
+        ],
+        "applicable_regulations_or_policies": [
+            "US Copyright Act",
+            "Fair Use Doctrine (17 U.S.C. \u00a7 107)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "WordPress.com Attribution Compliance",
+        "example_background": "WordPress.com, a major blogging platform, maintains a policy for theme and plugin developers to properly attribute original creators when modifying open-source components. Many themes in the official repository include notices linking back to original authors under Creative Commons licenses. This practice ensures users and redistributors acknowledge sources when reusing code and designs shared under attribution requirements.",
+        "process_and_outcome": "Platform enforces guidelines through review processes, removing non-compliant themes. Successful compliance has supported a vast ecosystem of over 10,000 free themes used by millions of sites.",
+        "involved_parties": [
+            "Automattic (WordPress.com)",
+            "Theme developers",
+            "Creative Commons"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 License",
+            "WordPress Theme Review Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "hotglue Licensing Dispute",
+        "example_background": "hotglue, an integration platform, faced a DMCA takedown notice from Google alleging improper use of Firebase documentation and code examples in their marketing materials and repositories. The content was presented as-is without modifications but lacked proper attribution to Google's Creative Commons licensed work. GitHub repositories were targeted for hosting the materials.",
+        "process_and_outcome": "hotglue filed a DMCA counter-notice in 2023, arguing fair use for documentation. Repositories were restored after Google's review, with hotglue adding attribution notices.",
+        "involved_parties": [
+            "hotglue (recipient)",
+            "Google (complainant)",
+            "GitHub (host)"
+        ],
+        "applicable_regulations_or_policies": [
+            "DMCA (17 U.S.C. \u00a7 512)",
+            "Creative Commons Attribution 4.0 License"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Mozilla Firefox CC-BY Modifications",
+        "example_background": "Mozilla releases portions of its Firefox browser documentation and graphics under Creative Commons Attribution 4.0 License. Third-party localizations and extensions, such as those for Firefox OS apps, incorporate and modify these assets while retaining attribution footers and links to original Mozilla sources. This enables global adaptation while preserving credit.",
+        "process_and_outcome": "Ongoing practice supports international developer communities. No disputes reported, with modifications actively encouraged under license terms.",
+        "involved_parties": [
+            "Mozilla Corporation",
+            "Firefox extension developers",
+            "Creative Commons"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 License"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit vs. Anthropic Lawsuit",
+        "example_background": "Reddit sued Anthropic for scraping and using millions of Reddit posts to train its Claude AI model without authorization. Reddit's terms prohibit scraping, and the training involved reproducing user content extensively. The case emerged after Anthropic's data practices came under scrutiny amid broader AI content debates.",
+        "process_and_outcome": "Lawsuit filed in June 2024 in California federal court. Parties reached a licensing settlement allowing future use under paid terms, with case dismissed.",
+        "involved_parties": [
+            "Reddit (plaintiff)",
+            "Anthropic (defendant)",
+            "US District Court Northern District of California"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Act",
+            "Reddit User Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Creative Commons Flickr Pool Compliance",
+        "example_background": "Photographers on Flickr dedicate images to Creative Commons pools, requiring modifiers to attribute original creators. Successful examples include Wikimedia Commons editors who download, crop, and reuse images in Wikipedia articles while adding license notices and creator links at image descriptions.",
+        "process_and_outcome": "Millions of compliant reuses contribute to Wikimedia projects. Enforcement occurs via license monitoring tools and community reports.",
+        "involved_parties": [
+            "Flickr photographers",
+            "Wikimedia Foundation editors",
+            "Creative Commons"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution 4.0 License"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Associated Press vs. Perplexity AI",
+        "example_background": "Associated Press alleged Perplexity AI scraped and republished AP news articles in AI-generated summaries without permission or attribution. The practice involved reproducing substantial portions of AP's original reporting in responses to user queries.",
+        "process_and_outcome": "AP sent cease-and-desist in 2024; Perplexity responded by adjusting practices and entering licensing discussions. No formal court filing as of late 2024.",
+        "involved_parties": [
+            "Associated Press",
+            "Perplexity AI"
+        ],
+        "applicable_regulations_or_policies": [
+            "US Copyright Act",
+            "Website robots.txt and terms"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google $22.5 Million Privacy Settlement",
+        "example_background": "Google implemented tracking mechanisms in its advertising network, including the Google Plus One button and +1 button, which sent referrer header data containing unique Google cookies to Google servers even when users did not click the buttons or were logged out of their Google accounts. This occurred on third-party websites where these buttons were embedded, resulting in the transmission of personal identifiers without user consent. The practice continued despite Google's privacy policy statements that it did not collect personally identifiable information without permission. The data collection affected numerous users across various websites utilizing Google's social plugins from 2011 onward.",
+        "process_and_outcome": "The U.S. Federal Trade Commission investigated following a complaint and settlement with BuzzStorm. Google agreed to pay $22.5 million and implement a comprehensive privacy program with regular audits and public reporting on compliance efforts. The settlement was finalized in August 2012.",
+        "involved_parties": [
+            "Google Inc.",
+            "U.S. Federal Trade Commission (FTC)",
+            "BuzzStorm (complainant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5 (unfair and deceptive practices)",
+            "Google Privacy Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "Google EU Antitrust Fine for Shopping Results",
+        "example_background": "Google favored its own Google Shopping comparison service in the natural search results page over competing comparison shopping services. From 2008 to 2012, Google systematically positioned and prominently displayed its own service while relegating competitors to lower positions, regardless of relevance. This practice involved HTML/CSS code changes to highlight Google Shopping links with distinctive colors, borders, and formatting, while competitors received ten blue links without such prominence. The conduct covered 13 European Economic Area countries and affected the competitive landscape in online comparison shopping.",
+        "process_and_outcome": "The European Commission conducted an investigation starting in 2010, issued a Statement of Objections in 2014, and imposed a \u20ac2.42 billion fine in June 2017. Google appealed but lost subsequent court challenges, with the fine upheld by the EU General Court in 2021.",
+        "involved_parties": [
+            "Google LLC",
+            "European Commission (Competition Directorate)",
+            "Competitors like Foundem, PriceRunner"
+        ],
+        "applicable_regulations_or_policies": [
+            "Article 102 TFEU (abuse of dominant position)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2008"
+    },
+    {
+        "example_name": "Google AdSense Reseller Agreements Penalty",
+        "example_background": "Google used exclusivity clauses, non-compete provisions, and revenue share requirements in AdSense agreements with websites and publishers. From 2009 to 2016, these terms prevented publishers from using competing ad networks on the same or more valuable 'prime placements' and required best placement for Google's ads. The clauses affected thousands of publishers in the EEA, limiting competition in online search advertising intermediation.",
+        "process_and_outcome": "The European Commission imposed a \u20ac1.49 billion fine in March 2019 following an investigation launched in 2016. Google terminated the offending clauses and implemented changes to its agreements.",
+        "involved_parties": [
+            "Google LLC",
+            "European Commission",
+            "Publishers and competing ad networks (e.g., Nextag, Trade Doubler)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Article 101 and 102 TFEU (anti-competitive agreements and abuse of dominance)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2009"
+    },
+    {
+        "example_name": "Google GDPR Data Consent Fine by CNIL",
+        "example_background": "Google's Android consent form bundled permissions for personalized ads, device and location identification, and data collection across services. The form used pre-checked boxes and unclear language, making it difficult for users to understand and control data processing purposes. This affected all Android users in France, with approximately 49.5 million devices impacted, from the implementation of GDPR in May 2018.",
+        "process_and_outcome": "The French data protection authority CNIL investigated complaints and issued a \u20ac50 million fine in January 2019, the first under GDPR. Google appealed unsuccessfully to the French Council of State in 2020.",
+        "involved_parties": [
+            "Google LLC",
+            "CNIL (Commission Nationale de l'Informatique et des Libert\u00e9s)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 6 (lawful basis for processing)",
+            "GDPR Article 7 (conditions for consent)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "May 2018"
+    },
+    {
+        "example_name": "Google Location History Privacy Violations",
+        "example_background": "Google collected and stored users' precise geolocation data through Android and iOS apps despite users turning off Location History settings. Internal documents showed awareness of the issue, with data stored for up to 18 months. This affected users worldwide from 2014 to 2020, including those who explicitly disabled the feature via settings menus.",
+        "process_and_outcome": "The U.S. Department of Justice and multiple state Attorneys General settled with Google for $391.5 million in 2022. Google agreed to delete historical location data and update privacy disclosures.",
+        "involved_parties": [
+            "Google LLC",
+            "U.S. Department of Justice",
+            "State Attorneys General (e.g., from 40 states)"
+        ],
+        "applicable_regulations_or_policies": [
+            "State consumer protection laws",
+            "Google Privacy Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Google Play Store Billing Monopoly Fine",
+        "example_background": "Google required app developers to use its Google Play Billing System for in-app purchases and subscriptions on Android devices, imposing a 15-30% service fee. Developers were prohibited from directing users to alternative payment methods or offering lower prices outside the platform. This practice applied globally to the Android app ecosystem since the Play Store's launch.",
+        "process_and_outcome": "The European Commission fined Google \u20ac4.125 billion (reduced from higher amount) in 2022 after investigations into anti-competitive tying and exclusivity. Google introduced user choice billing options in response.",
+        "involved_parties": [
+            "Google LLC",
+            "European Commission",
+            "App developers (e.g., Epic Games, 37signals)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Article 102 TFEU (abuse of dominant position)",
+            "DMA (Digital Markets Act) compliance"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Transparency Report Compliance Program",
+        "example_background": "Google publishes annual Transparency Reports detailing government requests for user data removal, detailing over 100,000 requests processed quarterly. The reports include breakdowns by country, type of request (e.g., legal demands, copyright removals), and compliance rates. This practice has been maintained since 2010 to provide public accountability on content moderation and data handling.",
+        "process_and_outcome": "Google voluntarily enhanced disclosures following FTC and EU scrutiny, adding features like Live Transparency Report for real-time updates. No fines issued; recognized as industry-leading practice.",
+        "involved_parties": [
+            "Google LLC",
+            "Users and advocacy groups",
+            "Regulators (FTC, EU Commission)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Transparency Principles",
+            "GDPR transparency requirements"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2010"
+    },
+    {
+        "example_name": "Google Cookie Consent GDPR Compliance",
+        "example_background": "Following CNIL fine, Google updated its consent banners across EEA properties to provide granular controls, allowing users to manage cookies for ads personalization, analytics, and third-parties separately. Users receive clear notices before data collection begins, with options to accept or reject non-essential cookies. Implemented in 2019 and audited regularly.",
+        "process_and_outcome": "CNIL verified improvements in 2020 audits, closing proceedings without further action. Google integrated tools like Cookie Consent Manager for broader web ecosystem.",
+        "involved_parties": [
+            "Google LLC",
+            "CNIL",
+            "User privacy groups"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 7 (freely given consent)",
+            "ePrivacy Directive"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Creative Commons Attribution Enforcement in Documentary Film",
+        "example_background": "In 2015, a documentary filmmaker incorporated images and music licensed under Creative Commons Attribution (CC BY) licenses into a feature-length video distributed on streaming platforms and at film festivals. The CC BY licenses required that creators receive credit in a manner reasonable to the medium, such as on-screen text or end credits for visual and audio elements. The filmmaker initially released the documentary without including any attribution notices for several CC-licensed assets sourced from platforms like Flickr and Free Music Archive. After public complaints from original creators on social media, the issue gained attention within open licensing communities. The film had already been viewed by thousands online, prompting discussions on compliance with open content terms. The filmmaker later acknowledged the oversight, attributing it to a production oversight during editing phases involving multiple contributors.",
+        "process_and_outcome": "The filmmakers re-released an updated version of the documentary with proper attribution added to credits and an online repository listing all sources. Original creators accepted the correction without pursuing legal action. The incident was resolved amicably through community mediation on Creative Commons forums, and the film continued distribution with enhanced licensing documentation.",
+        "involved_parties": [
+            "Independent Filmmaker (producer)",
+            "Creative Commons (licensing organization)",
+            "Original CC-licensed content creators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons Attribution License (CC BY)",
+            "Berne Convention for literary and artistic works"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "BBC Attribution Practices in Educational Videos",
+        "example_background": "The British Broadcasting Corporation (BBC) produces extensive video content for educational purposes, including series on history and science distributed via YouTube and their learning platform. In compliance with internal content policies and third-party licensing terms, BBC embeds attribution for non-original media such as public domain footage from archives and Creative Commons audio clips. For instance, in the 'BBC Bitesize' video series launched in 2010, each episode includes on-screen text and verbal mentions crediting sources like Wikimedia Commons images and royalty-free music providers. This practice extends to full-length documentaries where end credits list all external contributions. The approach developed following early 2000s feedback from content creators emphasizing the need for clear credits in multimedia productions.",
+        "process_and_outcome": "BBC's methods received positive recognition from licensing communities, with no enforcement actions recorded. Videos consistently maintain high viewership while upholding attribution standards, serving as a model for public broadcasters.",
+        "involved_parties": [
+            "BBC (content producer)",
+            "Creative Commons community",
+            "Wikimedia Foundation"
+        ],
+        "applicable_regulations_or_policies": [
+            "BBC Editorial Guidelines on Fairness and Attribution",
+            "Creative Commons Licenses"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2010"
+    },
+    {
+        "example_name": "TED Talks Third-Party Content Attribution",
+        "example_background": "TED Conferences produce and distribute talks in video format worldwide, often incorporating images, music, and clips under Creative Commons or fair use provisions. Speakers are guided by TED's content guidelines to include attributions for non-original elements. A notable example is a 2018 talk on environmental innovation where the speaker used CC BY images from Unsplash and music from Jamendo. Attributions appeared as on-screen text during relevant segments and in the video description with hyperlinks to sources. This systematic inclusion ensures transparency for a global audience exceeding millions of views per talk.",
+        "process_and_outcome": "TED's standardized attribution process has prevented disputes, with talks remaining available without modifications. The organization publishes annual transparency reports highlighting adherence to open licensing.",
+        "involved_parties": [
+            "TED Conferences LLC",
+            "TEDx organizers",
+            "CC-licensed content providers"
+        ],
+        "applicable_regulations_or_policies": [
+            "TED Content Guidelines",
+            "Creative Commons Attribution Requirements"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "YouTube Creator CC License Violation Case",
+        "example_background": "In 2017, a popular YouTube channel producing gaming montages incorporated audio tracks from Free Music Archive under CC BY licenses without providing any credit in video descriptions, end screens, or spoken acknowledgments. The channel amassed over 500,000 subscribers and millions of views. Original musicians discovered the usage through YouTube's content ID system and issued takedown notices citing missing attribution, a core condition of the licenses. The incident highlighted challenges in user-generated video content where remix culture often overlooks credit requirements.",
+        "process_and_outcome": "YouTube processed DMCA notices, muting audio in affected videos. The creator issued an apology video, added retrospective credits, and faced temporary channel demonetization. Musicians withdrew further claims after compliance.",
+        "involved_parties": [
+            "YouTube Gaming Channel Creator",
+            "Free Music Archive musicians",
+            "YouTube LLC (platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons BY License",
+            "DMCA (Digital Millennium Copyright Act)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Khan Academy Video Attribution Standards",
+        "example_background": "Khan Academy, a non-profit educational platform, creates thousands of instructional videos using diagrams, animations, and music from open sources. Since 2012, their production workflow mandates attribution for all non-original content, displayed as on-screen text, in video descriptions, and via a dedicated credits page. For example, biology videos credit Wikimedia illustrations and CC-licensed sound effects verbally during narration and in metadata. This practice supports their mission of free global education while respecting creator rights.",
+        "process_and_outcome": "No violations reported; Khan Academy's model praised in educational circles, contributing to partnerships with licensing organizations.",
+        "involved_parties": [
+            "Khan Academy Inc.",
+            "Wikimedia contributors",
+            "Creative Commons"
+        ],
+        "applicable_regulations_or_policies": [
+            "Khan Academy Content Policy",
+            "CC BY-SA Licenses"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Vimeo Copyright Strike for Missing Book Attribution",
+        "example_background": "A 2019 promotional video for a self-published e-book on Vimeo featured excerpts read aloud without crediting underlying public domain texts adapted from Project Gutenberg. The video's creator assumed no attribution needed for public domain works but overlooked platform policies requiring source disclosure for derivative audio works. Viewers and Gutenberg volunteers flagged the omission, leading to platform review.",
+        "process_and_outcome": "Vimeo issued a copyright strike, requiring video edit with attribution added. After compliance, the strike was lifted, and the video reinstated with updated description.",
+        "involved_parties": [
+            "Independent Video Creator",
+            "Vimeo (platform)",
+            "Project Gutenberg"
+        ],
+        "applicable_regulations_or_policies": [
+            "Vimeo Community Guidelines",
+            "Public Domain Marking Standards"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "National Geographic Audio Podcast Credits",
+        "example_background": "National Geographic produces podcasts like 'Overheard' incorporating field recordings and music under various licenses. Their production includes spoken attributions at segment starts, full credits in show notes, and transcripts. A 2021 episode on wildlife used CC BY soundscapes from Freesound.org, with credits read aloud and linked online, ensuring listeners and redistributors could trace origins.",
+        "process_and_outcome": "Practice commended by audio licensing groups; podcasts maintain top rankings without disputes.",
+        "involved_parties": [
+            "National Geographic Society",
+            "Freesound.org contributors",
+            "Podtrac (analytics)"
+        ],
+        "applicable_regulations_or_policies": [
+            "National Geographic Content Standards",
+            "Creative Commons Licenses"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Audible Audiobook Derivative Work Dispute",
+        "example_background": "In 2020, an independent audiobook producer on Audible created a narration of Creative Commons BY-licensed poetry without including author credits in the audio file, metadata, or product description. The audiobook sold hundreds of copies before poets noticed via Amazon reviews and requested corrections under license terms.",
+        "process_and_outcome": "Audible suspended sales pending compliance. Producer updated files with spoken and written attributions, resuming distribution after review.",
+        "involved_parties": [
+            "Independent Audiobook Producer",
+            "Audible (Amazon)",
+            "CC BY Poets"
+        ],
+        "applicable_regulations_or_policies": [
+            "Creative Commons BY License",
+            "Audible Content Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Crash Course YouTube Series Best Practices",
+        "example_background": "Crash Course, produced by Complexly for educational YouTube channels, integrates animations, images, and music with attributions shown on-screen, spoken, and listed in descriptions. History episodes credit sources like British Library scans and CC music instantly upon use, fostering transparency for student audiences.",
+        "process_and_outcome": "Series runs successfully for over a decade, earning awards for educational content without licensing issues.",
+        "involved_parties": [
+            "Complexly (producer)",
+            "Nerdfighteria community",
+            "YouTube Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "YouTube Partner Program Guidelines",
+            "CC Licenses"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    }
+]

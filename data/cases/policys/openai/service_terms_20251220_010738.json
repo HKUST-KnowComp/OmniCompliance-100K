@@ -1,0 +1,2490 @@
+[
+    {
+        "example_name": "Uber Data Access by Executives",
+        "example_background": "In 2014, Uber executives accessed location data of users and drivers associated with a journalist investigating the company. This involved querying internal databases to retrieve geolocation records without the individuals' knowledge or consent. The incident occurred amid competitive tensions in the ride-sharing industry, where data was used to gain insights into rival activities. Reports later revealed that such access was enabled through administrative privileges on Uber's data systems, bypassing standard user privacy protections. The event highlighted tensions between operational needs and individual data rights within high-growth tech firms handling vast amounts of personal information.",
+        "process_and_outcome": "The Federal Trade Commission (FTC) investigated the matter as part of broader privacy probes into Uber. Uber settled related privacy charges in 2017, agreeing to a 20-year monitoring program and implementing enhanced data access controls. No direct fine was imposed for this specific incident, but it contributed to executive resignations and public scrutiny.",
+        "involved_parties": [
+            "Uber Technologies Inc.",
+            "Federal Trade Commission (FTC)",
+            "Sarah Lacy (journalist)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5 (unfair practices)",
+            "Stored Communications Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Equifax Data Breach Administrative Access Abuse",
+        "example_background": "In 2017, Equifax, one of the largest US credit reporting agencies, experienced a breach affecting 147 million people. Attackers exploited a vulnerability in Apache Struts, but internal reviews revealed that lax access controls allowed excessive privileges to service accounts. Administrators had not properly segmented access to sensitive consumer data, including Social Security numbers and credit histories. Post-breach analysis showed that privileged accounts were not monitored adequately, enabling lateral movement by intruders once initial access was gained.",
+        "process_and_outcome": "The FTC, CFPB, and states settled with Equifax for over $700 million in 2019, including consumer redress. Equifax enhanced access controls and monitoring as part of the settlement requirements. Executives faced congressional hearings.",
+        "involved_parties": [
+            "Equifax Inc.",
+            "Federal Trade Commission (FTC)",
+            "Consumer Financial Protection Bureau (CFPB)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Gramm-Leach-Bliley Act",
+            "FTC Safeguards Rule"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Microsoft Purview Compliance Manager Implementation",
+        "example_background": "Microsoft provides enterprise-grade compliance tools through Purview, including administrator audit logging and data loss prevention features for Microsoft 365. Administrators can access user activity logs, manage content retention, and control access to organizational workspaces. The platform requires customers to configure consents for these administrative capabilities, with built-in templates for regulatory compliance. Microsoft documents case studies where enterprises use these tools to monitor usage across thousands of users while maintaining audit trails for accountability.",
+        "process_and_outcome": "Enterprises adopting Purview have achieved compliance certifications such as ISO 27001 and SOC 2 Type II. No enforcement actions; instead, it supported successful audits and regulatory examinations.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Enterprise customers (e.g., financial institutions)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "CCPA",
+            "HIPAA Business Associate Agreement"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "SolarWinds Orion Supply Chain Attack Admin Privileges",
+        "example_background": "In 2020, nation-state actors compromised SolarWinds' Orion software update process, inserting malware that allowed backdoor access to thousands of customer networks. Once installed, the malware exploited default administrative credentials and insufficient privilege segmentation in enterprise monitoring tools. Administrators in affected organizations had broad access to network data, which attackers leveraged for persistence and data exfiltration over months.",
+        "process_and_outcome": "CISA and FBI led investigations. SolarWinds faced SEC charges in 2023 for disclosure failures, settling for $26 million. Affected entities like US agencies implemented remediation.",
+        "involved_parties": [
+            "SolarWinds Corporation",
+            "CISA",
+            "FBI",
+            "SEC"
+        ],
+        "applicable_regulations_or_policies": [
+            "SEC Regulation S-K",
+            "NIST Cybersecurity Framework"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Tesla Autopilot Code Controversy",
+        "example_background": "Tesla developed its Autopilot software using publicly available open source codebases, including components from libraries such as those under Apache and BSD licenses. Reports emerged indicating that Tesla engineers incorporated code snippets from open source repositories into their autonomous driving system without fully adhering to the associated license terms, such as providing attribution or retaining copyright notices in the distributed firmware. This practice occurred during the rapid development phases between 2016 and 2019, where Tesla released over-the-air updates to millions of vehicles. The code in question was identified through code similarity analysis tools that compared Tesla's released binaries and source leaks to public repositories on platforms like GitHub. The incident gained attention after a former Tesla engineer publicly highlighted discrepancies in license compliance during vehicle software updates.",
+        "process_and_outcome": "The Software Freedom Conservancy conducted an investigation and engaged Tesla in discussions starting in 2018. Tesla responded by auditing its codebase, removing non-compliant elements, and issuing updated firmware with proper attributions. No formal litigation ensued, but Tesla committed to enhanced open source compliance processes, including automated scanning tools.",
+        "involved_parties": [
+            "Tesla Inc.",
+            "Software Freedom Conservancy",
+            "Open source contributors"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apache License 2.0",
+            "BSD License",
+            "Open Source Initiative guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Twitter TwitterVision Open Source License Dispute",
+        "example_background": "In 2008, Twitter launched TwitterVision, a project that integrated Twitter data with Google Maps using ActionScript code sourced from open source projects under the MIT License. Developers at Twitter modified and redistributed the code without including the required license headers, copyright notices, or permission grants in the TwitterVision application. The project was promoted publicly and used Twitter's API to display real-time tweet locations on maps. This oversight came to light when the original open source authors reviewed Twitter's implementation and noted the absence of proper attribution in the source code available on Twitter's platforms.",
+        "process_and_outcome": "The original author contacted Twitter, leading to a public correction where Twitter acknowledged the issue, republished the code with complete license notices, and apologized. TwitterVision continued operation with compliant code, and the incident prompted Twitter to review other projects.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "Original open source authors (e.g., Doug McCune)",
+            "Google Maps team"
+        ],
+        "applicable_regulations_or_policies": [
+            "MIT License"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2008"
+    },
+    {
+        "example_name": "Microsoft MS-DOS IBM ROM GPL Violation",
+        "example_background": "In the early 1980s, Microsoft licensed code from IBM for MS-DOS that included GPL-licensed components from GNU projects. IBM embedded this in its PC ROM BIOS, distributing it widely without providing source code or adhering to copyleft requirements. The violation persisted through multiple BIOS revisions sold in PCs worldwide until public scrutiny in the 1990s.",
+        "process_and_outcome": "The Free Software Foundation highlighted the issue, leading IBM to remove the code and Microsoft to adjust licensing. No fines were imposed, but it influenced Microsoft's later open source strategies.",
+        "involved_parties": [
+            "Microsoft",
+            "IBM",
+            "Free Software Foundation"
+        ],
+        "applicable_regulations_or_policies": [
+            "GNU General Public License"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Android BusyBox Violations by D-Link",
+        "example_background": "D-Link incorporated modified BusyBox under GPLv2 into its routers and NAS devices sold from 2005 to 2010 without distributing source code or allowing modifications as required. Firmware updates continued the practice, affecting consumer and small business networks globally. Violations were uncovered via firmware analysis by open source watchdogs.",
+        "process_and_outcome": "Software Freedom Conservancy sued D-Link in 2009; settled with $600,000 payment, source code publication, and compliance training.",
+        "involved_parties": [
+            "D-Link Corporation",
+            "Software Freedom Conservancy"
+        ],
+        "applicable_regulations_or_policies": [
+            "GNU General Public License v2 (GPLv2)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2005"
+    },
+    {
+        "example_name": "Cisco GPL Compliance for Networking Devices",
+        "example_background": "Cisco maintains a dedicated GPL compliance portal since 2006, publishing source code for Linux-based IOS and NX-OS used in routers and switches containing GPL components. This covers thousands of products, with automated processes ensuring timely source releases post-firmware updates.",
+        "process_and_outcome": "Cisco resolved early GPL challenges proactively, avoiding litigation and collaborating with the Free Software Foundation on best practices.",
+        "involved_parties": [
+            "Cisco Systems",
+            "Free Software Foundation"
+        ],
+        "applicable_regulations_or_policies": [
+            "GNU General Public License v2"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2006"
+    },
+    {
+        "example_name": "DeveloperGPT Privacy Breach",
+        "example_background": "In late 2023, a developer created a custom GPT named DeveloperGPT on OpenAI's platform, designed to assist with coding tasks. The GPT's instructions included directives to collect and store user conversation data, including personal information shared during interactions, without explicit user consent. The GPT description advertised it as a 'personal coding companion that remembers your projects.' Users reported that the tool retained sensitive details from previous sessions, such as API keys and proprietary code snippets, and shared them in responses to subsequent users. This configuration enabled the unintended exposure of user data across sessions. The GPT gained popularity with over 100,000 users before complaints surfaced on social media and OpenAI's forums. OpenAI's review process identified that the GPT's setup involved persistent memory features not intended for cross-user data sharing, and the content included prompts that bypassed standard data handling safeguards. The incident highlighted issues with user-uploaded content in GPTs leading to data mishandling.",
+        "process_and_outcome": "OpenAI conducted an internal investigation following user reports and removed the GPT from public access. The developer was notified of policy violations and barred from creating new GPTs for 30 days. No formal fines were imposed, but OpenAI updated its GPT guidelines to mandate clearer data retention disclosures. Affected users were advised to review their interactions, and OpenAI implemented automated checks for data collection patterns in GPT configurations.",
+        "involved_parties": [
+            "OpenAI",
+            "DeveloperGPT creator (anonymous developer)",
+            "Affected users"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies",
+            "OpenAI Terms of Use - GPT Content Responsibilities",
+            "GDPR (data protection implications)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "GPT-4o Image Leak Incident",
+        "example_background": "A user-built GPT called 'Image Analyzer Pro' was configured to process uploaded images and generate detailed descriptions, including metadata extraction. The GPT's instructions directed it to store image files and associated user queries in a connected external database via enabled Actions. The description promoted it for 'professional photo analysis with full history.' Due to improper Action configuration, user-uploaded images containing personal photos, including identifiable faces and locations, were inadvertently made accessible through public endpoints. Over 50 users uploaded sensitive images, such as family photos and work documents, before the issue was discovered. The GPT's setup did not include privacy controls, leading to data exposure. OpenAI's monitoring detected unusual data flows, prompting a takedown.",
+        "process_and_outcome": "OpenAI suspended the GPT and investigated the Action integration, finding non-compliant API usage. The developer received a warning and mandatory training on Action policies. OpenAI enhanced its review process for GPTs using file uploads and Actions, adding pre-publication scans for data retention risks.",
+        "involved_parties": [
+            "OpenAI",
+            "Image Analyzer Pro creator",
+            "Image-uploading users"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI GPT Builder Guidelines",
+            "OpenAI Usage Policies - Actions and Configurations"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "NSFW Storyteller GPT Removal",
+        "example_background": "A custom GPT named 'NSFW Storyteller' was published with instructions to generate detailed adult-themed narratives based on user prompts. The GPT description stated 'uncensored stories for adults only,' and it included configurations to ignore content filters through custom system prompts. It quickly attracted thousands of users seeking explicit content, but reports emerged of it producing material involving non-consensual scenarios and underage implications, despite age gates. The content was user-driven but enabled by the GPT's lack of built-in safeguards, violating OpenAI's content policies. OpenAI's automated moderation flagged repeated violations after user feedback.",
+        "process_and_outcome": "OpenAI removed the GPT within 24 hours of moderation alerts and banned the creator from the GPT store. Public guidelines were reiterated, emphasizing responsibility for outputs generated by GPT configurations.",
+        "involved_parties": [
+            "OpenAI",
+            "NSFW Storyteller creator",
+            "OpenAI moderation team"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies - Prohibited Content",
+            "GPT Content Compliance"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Fake News Generator Enforcement",
+        "example_background": "The 'NewsBot Pro' GPT was designed to create realistic news articles from user topics, with instructions to mimic legitimate outlets and omit disclaimers. Its description claimed 'instant custom news for any story.' It produced fabricated stories about public figures, leading to shares on social media that caused misinformation spread. Users input political topics, and the GPT generated convincing but false reports without attribution requirements. OpenAI detected patterns of deceptive output after external reports.",
+        "process_and_outcome": "OpenAI delisted the GPT and investigated similar tools, issuing policy updates requiring source transparency in informational GPTs. The creator's account was restricted.",
+        "involved_parties": [
+            "OpenAI",
+            "NewsBot Pro creator"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies - Deception and Misinformation"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Legal Advisor GPT Takedown",
+        "example_background": "A GPT called 'Free Legal Advisor' offered unlicensed legal advice, with instructions to provide case-specific recommendations based on user descriptions. The description positioned it as 'your 24/7 lawyer.' It handled queries on contracts, divorces, and criminal matters, generating outputs that users relied upon, leading to complaints about inaccurate advice. The configuration lacked disclaimers, presenting information as authoritative.",
+        "process_and_outcome": "OpenAI removed it citing impersonation risks and advised creators on professional services prohibitions. No external regulatory action.",
+        "involved_parties": [
+            "OpenAI",
+            "Free Legal Advisor creator"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies - Impersonation",
+            "Professional Advice Restrictions"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "PharmaDoc GPT Drug Recommendation Fine",
+        "example_background": "The 'PharmaDoc' GPT was built to recommend medications based on symptom descriptions, using instructions that pulled from public databases and suggested dosages. Its description marketed it as a 'personal health consultant.' Users received advice on controlled substances, prompting regulatory scrutiny when outputs were shared online.",
+        "process_and_outcome": "OpenAI terminated the GPT; the FDA issued a warning to the creator for unlicensed medical practice. Creator complied by deleting all instances.",
+        "involved_parties": [
+            "OpenAI",
+            "PharmaDoc creator",
+            "FDA"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies - Health Advice",
+            "FDA Regulations on Medical Devices"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "CryptoScam GPT Shutdown",
+        "example_background": "A GPT named 'Crypto Insider' provided trading signals and wallet advice, with configurations linking to external scam sites via Actions. Instructions encouraged users to input wallet details for 'personalized tips.' It facilitated phishing by collecting credentials.",
+        "process_and_outcome": "OpenAI shut it down promptly; FTC investigated the creator for fraud promotion, resulting in a $50,000 settlement.",
+        "involved_parties": [
+            "OpenAI",
+            "Crypto Insider creator",
+            "FTC"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies - Fraud",
+            "FTC Act Section 5"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "EduTutor Success Story",
+        "example_background": "The 'EduTutor' GPT was created by a teacher for classroom use, with instructions focused on explaining math concepts and generating practice problems. The description clearly stated 'educational tool for students, not a substitute for teachers.' Configurations disabled data retention, and it included disclaimers on every output. Shared privately with school district, it complied fully with policies.",
+        "process_and_outcome": "OpenAI featured it as an exemplary educational GPT; no issues reported, used in 10+ schools successfully.",
+        "involved_parties": [
+            "OpenAI",
+            "EduTutor creator (teacher)",
+            "School district"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI GPT Guidelines - Educational Use"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "CodeHelper Pro Best Practice",
+        "example_background": "CodeHelper Pro GPT assists developers with code reviews, using instructions that analyze snippets without storing them. Description specifies 'stateless code assistance, privacy first.' Configurations ensure no persistent memory or external shares, with clear terms of use.",
+        "process_and_outcome": "Certified by OpenAI as policy-compliant; over 1M uses with zero violations, praised in developer communities.",
+        "involved_parties": [
+            "OpenAI",
+            "CodeHelper Pro creator"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies - Data Handling"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OpenAI Developer Account Suspension for Custom GPT Misuse",
+        "example_background": "A developer created and published custom GPTs on the OpenAI platform that incorporated copyrighted materials from major media outlets without permission, using the API to generate responses based on scraped content from sources like The New York Times and others. The custom models were designed to mimic styles and provide information pulled directly from protected articles, leading to public complaints and legal notices from content owners. OpenAI's monitoring systems detected the unauthorized use of API capabilities for content reproduction, which went beyond the permitted functions outlined in the platform documentation for building assistants and tools.",
+        "process_and_outcome": "OpenAI suspended the developer's account and removed the offending custom GPTs from the GPT Store. The action was part of broader efforts to enforce usage guidelines, with the company issuing statements on protecting intellectual property rights through API terms.",
+        "involved_parties": [
+            "OpenAI",
+            "Affected Developer",
+            "The New York Times",
+            "Other Media Outlets"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI API Usage Policies",
+            "OpenAI Terms of Use",
+            "Copyright Laws"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Bing Chat Plugin API Overuse Fine",
+        "example_background": "Microsoft's Bing team integrated OpenAI APIs into its search engine's conversational features, but during early testing phases, exceeded rate limits and used the models for generating responses outside documented parameters, such as creating fictional narratives and images without proper safeguards. This led to instances where the system produced unexpected outputs, prompting internal reviews and public scrutiny over adherence to API specifications provided by OpenAI.",
+        "process_and_outcome": "OpenAI imposed usage restrictions and collaborated with Microsoft to adjust integration parameters. Microsoft paid additional fees for expanded access and implemented stricter compliance monitoring, resolving the issue without public fines but with contractual adjustments.",
+        "involved_parties": [
+            "Microsoft",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI API Documentation and Rate Limits",
+            "Enterprise Partnership Agreements"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Anthropic API Usage Compliance Model",
+        "example_background": "Anthropic, founded by former OpenAI employees, developed its own Claude AI models using OpenAI APIs during early research phases in full accordance with documentation, limiting queries to research-approved endpoints and documenting all interactions for transparency. This approach ensured that API calls were used solely for model comparison and safety testing as permitted.",
+        "process_and_outcome": "No enforcement actions occurred; Anthropic's practices served as an internal benchmark for compliant API usage, contributing to their successful transition to independent models without disruptions.",
+        "involved_parties": [
+            "Anthropic",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI API Documentation",
+            "Research Usage Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Startup Termination for Jailbreak API Exploitation",
+        "example_background": "A small AI startup utilized OpenAI's API to build a service that systematically prompted models to bypass built-in safety filters through repeated adversarial inputs, generating content not aligned with documented safe usage instructions. The service was marketed for creative writing but effectively circumvented content policy restrictions outlined in the API docs.",
+        "process_and_outcome": "OpenAI terminated the startup's API access after detecting patterns of non-compliant prompting via usage logs. The company refunded unused credits and banned the entity from future access.",
+        "involved_parties": [
+            "OpenAI",
+            "Unnamed AI Startup"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies",
+            "API Safety Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Scale AI Data Labeling Partnership Compliance",
+        "example_background": "Scale AI partnered with OpenAI to provide high-quality training data, using APIs strictly for data annotation tasks as specified in the documentation, including batch processing endpoints and adhering to data privacy instructions without storing or repurposing model outputs.",
+        "process_and_outcome": "The partnership expanded successfully, with Scale AI receiving preferred access tiers due to consistent adherence, demonstrating effective long-term compliance.",
+        "involved_parties": [
+            "Scale AI",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI API Documentation",
+            "Data Usage Policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Harvey AI Legal Tech API Suspension",
+        "example_background": "Harvey AI, a legal research tool, initially integrated OpenAI APIs but was found querying endpoints in ways that exceeded token limits and used undocumented parameters for custom fine-tuning simulations, leading to service instability and detection by OpenAI's monitoring.",
+        "process_and_outcome": "OpenAI suspended Harvey's API key temporarily, requiring a full audit and reconfiguration to match documentation. Harvey complied, resuming operations after implementing approved workflows.",
+        "involved_parties": [
+            "Harvey AI",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI API Rate Limits and Endpoints",
+            "Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Perplexity AI Research Usage Compliance",
+        "example_background": "Perplexity AI utilized OpenAI APIs during its development for answer engine prototyping, following documentation precisely by using completion endpoints for query handling and citing sources as per guidelines, while avoiding any storage of raw outputs.",
+        "process_and_outcome": "OpenAI approved Perplexity's usage in research previews, leading to sustained access and no incidents, highlighting proper integration practices.",
+        "involved_parties": [
+            "Perplexity AI",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI API Documentation",
+            "Research Access Policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Developer Banned for Commercial Redistribution",
+        "example_background": "An independent developer accessed OpenAI APIs to generate text outputs, which were then packaged and resold as a standalone app without adding value or complying with output usage restrictions in the documentation, effectively redistributing API-generated content as their own product.",
+        "process_and_outcome": "OpenAI banned the developer's account permanently after reviewing app store listings and API logs, enforcing policies against direct commercialization of raw outputs.",
+        "involved_parties": [
+            "OpenAI",
+            "Independent Developer"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Output Usage Policies",
+            "API Terms of Use"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Notion AI Integration Best Practice",
+        "example_background": "Notion incorporated OpenAI APIs into its productivity platform for features like summarization and writing assistance, strictly using supported endpoints, respecting rate limits, and implementing user consent flows as detailed in the API documentation.",
+        "process_and_outcome": "The integration launched successfully without issues, earning recognition from OpenAI as a model implementation and securing ongoing partnership support.",
+        "involved_parties": [
+            "Notion",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI API Documentation",
+            "Privacy and Consent Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Thomson Reuters v. Ross Intelligence",
+        "example_background": "Legal research company Thomson Reuters sued Ross Intelligence in 2020 for scraping Westlaw's proprietary headnotes, summaries, and case law databases to train an AI competitor called Ross-GPT. Ross admitted to using Westlaw content but claimed fair use. When queried, Ross-GPT produced outputs nearly identical to Westlaw's annotated content, including unique editorial enhancements not found in public court opinions.",
+        "process_and_outcome": "In February 2024, a Delaware federal jury found Ross liable for copyright infringement, awarding Thomson Reuters $106.7 million. The court rejected fair use arguments, citing market harm to Westlaw. Ross appealed the verdict.",
+        "involved_parties": [
+            "Thomson Reuters (plaintiff)",
+            "Ross Intelligence (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act of 1976"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Stability AI Copyright Class Action (Getty Images)",
+        "example_background": "Getty Images sued Stability AI in January 2023, alleging the company scraped over 12 million images from its database to train the Stable Diffusion image generation model without licenses. The suit included evidence that prompts referencing Getty watermarks produced AI-generated images mimicking the style and composition of specific licensed photos, effectively reproducing protected works through generative outputs.",
+        "process_and_outcome": "Ongoing litigation in Delaware federal court as of 2024, with partial dismissal of some claims but survival of direct infringement allegations related to training data. Stability AI implemented opt-out mechanisms and content filters post-suit.",
+        "involved_parties": [
+            "Getty Images (plaintiff)",
+            "Stability AI (defendant)",
+            "DeviantArt (co-defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act of 1976"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "January 2023"
+    },
+    {
+        "example_name": "Biden Executive Order AI Safety Measures",
+        "example_background": "In October 2023, President Biden issued an Executive Order directing federal agencies to develop safeguards for AI-generated content, including watermarking synthetic media and testing models for copyright risks. Companies like OpenAI were encouraged to implement voluntary commitments for safety features, such as content provenance tools and filters to prevent infringing outputs from training data.",
+        "process_and_outcome": "Several AI firms, including OpenAI, publicly committed to watermarking and red-teaming for harms. NIST released guidelines for managing AI risks, including IP protections, leading to industry adoption of classifiers for AI-generated text.",
+        "involved_parties": [
+            "White House Office of Science and Technology Policy",
+            "OpenAI",
+            "Anthropic",
+            "Google",
+            "Microsoft"
+        ],
+        "applicable_regulations_or_policies": [
+            "Executive Order 14110 on Safe, Secure, and Trustworthy AI"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "October 2023"
+    },
+    {
+        "example_name": "EU AI Act Copyright Exceptions and Obligations",
+        "example_background": "The EU AI Act, finalized in 2024, mandates high-risk AI providers to document training data sources and disclose summaries to authorities upon request, with exceptions for text and data mining (TDM) of copyrighted works unless opted out by rights holders. Providers must implement safeguards to mitigate IP risks in outputs, including filters and human oversight for generative AI.",
+        "process_and_outcome": "Effective August 2024 with phased rollout; companies like OpenAI updated European services with opt-out respect mechanisms and output classifiers. Non-compliance risks fines up to 7% of global turnover. Early audits focused on transparency reporting.",
+        "involved_parties": [
+            "European Commission",
+            "OpenAI",
+            "Midjourney",
+            "Member State Authorities"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU AI Act (Regulation 2024/1689)",
+            "EU Copyright Directive (2019/790)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Authors Guild v. Google Books (Fair Use Precedent)",
+        "example_background": "Google scanned millions of books from libraries without permission to create the Google Books searchable database. While not generative AI, the case involved creating derivative digital copies, with snippets shown in search results resembling potential AI output previews. Authors claimed infringement from unauthorized reproduction.",
+        "process_and_outcome": "In 2015, the U.S. Supreme Court unanimously ruled in favor of Google, finding the use transformative and fair under copyright law due to indexing purpose without market harm. This precedent is cited in AI cases for training data defenses.",
+        "involved_parties": [
+            "Authors Guild (plaintiff)",
+            "Google (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act of 1976",
+            "Fair Use Doctrine (17 U.S.C. \u00a7 107)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Midjourney Getty Images Settlement Discussions",
+        "example_background": "Following Getty's suit, Midjourney faced similar claims from artists alleging Stable Diffusion training on unlicensed art led to infringing image generations. Midjourney's Discord bot produced outputs stylistically identical to plaintiffs' works when prompted with their names.",
+        "process_and_outcome": "Class action partially dismissed in 2023 on standing grounds, but core claims proceed. Midjourney introduced artist opt-out portals and style filters to limit reproduction risks.",
+        "involved_parties": [
+            "Artists including Sarah Andersen (plaintiffs)",
+            "Midjourney (defendant)",
+            "Stability AI (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act of 1976"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OpenAI Service Terms Violation by Developer",
+        "example_background": "A developer integrated OpenAI's API into an application that generated content exceeding the defined usage boundaries in the Service Terms, including outputs that disregarded rate limits and content guidelines outlined in the OpenAI Services Agreement. The integration involved processing large volumes of customer content without proper authentication mechanisms, leading to unauthorized access patterns. This occurred during the expansion of API usage in early 2023, where the developer failed to align application logic with the capitalized terms and definitions provided in the governing agreements, resulting in service disruptions and exposure of customer data inconsistencies.",
+        "process_and_outcome": "OpenAI detected anomalous usage through monitoring systems, suspended the API key, and issued a formal notice of termination. The developer was required to cease all operations and remove integrated services, with no reinstatement granted.",
+        "involved_parties": [
+            "OpenAI",
+            "Third-party developer"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Service Terms",
+            "OpenAI Services Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Anthropic Claude Terms Enforcement",
+        "example_background": "Anthropic, a competitor to OpenAI, terminated access for users who incorporated their Claude API into disallowed applications, such as those involving disallowed content generation that conflicted with service terms definitions of acceptable use. This incident involved multiple enterprise customers whose integrations processed customer content in ways that overrode the controlling terms, similar to OpenAI's structure where service terms supersede general agreements. The cases arose from rapid adoption in 2023, highlighting challenges in enforcing term precedence.",
+        "process_and_outcome": "Anthropic conducted audits, revoked API access for 15 accounts, and published updated enforcement guidelines. Affected parties received detailed compliance reports.",
+        "involved_parties": [
+            "Anthropic",
+            "Enterprise customers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Anthropic Terms of Service",
+            "API Usage Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Microsoft Azure OpenAI Content Policy Breach",
+        "example_background": "A Microsoft partner using Azure OpenAI services generated customer content that fell outside the permitted categories as defined in the integrated service terms, which incorporate OpenAI's governing agreements. The partner built a chatbot deploying unfiltered outputs, ignoring the hierarchy where service-specific terms control over broader Azure agreements. This led to processing of undefined content types during a 2024 pilot program involving thousands of interactions.",
+        "process_and_outcome": "Microsoft investigated via logs, imposed service suspension, and fined the partner under reseller terms. Remediation included mandatory retraining and revised integration.",
+        "involved_parties": [
+            "Microsoft",
+            "Azure OpenAI partner",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Azure OpenAI Service Terms",
+            "OpenAI Services Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Google Cloud AI Terms Compliance Success",
+        "example_background": "Google Cloud customers successfully adhered to Vertex AI service terms by implementing strict content filtering aligned with the definitions in their agreements, ensuring all customer content usage respected the controlling service terms over general cloud contracts. This involved enterprise deployments where governance frameworks mapped capitalized terms directly into application architectures, demonstrated during 2023 audits.",
+        "process_and_outcome": "Independent audits confirmed full alignment, resulting in expanded contracts and recognition in Google's compliance case studies. No disruptions occurred.",
+        "involved_parties": [
+            "Google Cloud",
+            "Enterprise customers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Cloud Vertex AI Terms",
+            "Service Agreement Definitions"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "IBM Watsonx Terms Violation",
+        "example_background": "An IBM Watsonx governance platform user exceeded service terms by processing customer content through custom models that conflicted with the defined scope in the Watsonx agreements, where service terms take precedence. The incident involved a financial services firm deploying models without reconciling term definitions, leading to data handling discrepancies in late 2023.",
+        "process_and_outcome": "IBM initiated a compliance review, terminated the deployment, and required a full rebuild. The firm paid penalties and updated processes.",
+        "involved_parties": [
+            "IBM",
+            "Financial services firm"
+        ],
+        "applicable_regulations_or_policies": [
+            "IBM Watsonx Service Terms",
+            "Cloud Service Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "AWS Bedrock Acceptable Use Policy Enforcement",
+        "example_background": "Amazon Web Services enforced Bedrock terms against developers who used foundation models in ways that disregarded content definitions, paralleling OpenAI's structure with service terms controlling over base agreements. Multiple cases in 2024 involved unapproved customer content pipelines causing overages and policy misalignments.",
+        "process_and_outcome": "AWS suspended accounts after automated and manual reviews, issued warnings, and published enforcement reports. Several developers were permanently banned.",
+        "involved_parties": [
+            "Amazon Web Services",
+            "Bedrock developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "AWS Bedrock Acceptable Use Policy",
+            "Service Terms"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "OpenAI Enterprise Agreement Audit",
+        "example_background": "During a 2023 enterprise audit, OpenAI reviewed deployments where customers aligned all content processing with service terms, properly interpreting capitalized terms from the OpenAI Services Agreement. This ensured no conflicts arose between service terms and custom enterprise agreements.",
+        "process_and_outcome": "Audit passed with commendations, resulting in contract renewals and expanded usage rights for compliant customers.",
+        "involved_parties": [
+            "OpenAI",
+            "Enterprise customers"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Service Terms",
+            "Enterprise Agreement"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Hugging Face Terms of Service Breach",
+        "example_background": "Hugging Face suspended model repositories and API access for users who hosted content conflicting with service terms definitions, similar to OpenAI's customer content rules. Incidents in 2023 involved community models processing undefined data types without regard to term precedence.",
+        "process_and_outcome": "Platform-wide takedowns and user notifications were issued, with legal actions against repeat cases.",
+        "involved_parties": [
+            "Hugging Face",
+            "Model developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Hugging Face Terms of Service",
+            "Model License Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Theranos Beta Testing Misrepresentations",
+        "example_background": "Theranos developed the Edison device, a beta-stage blood-testing technology promoted as capable of conducting hundreds of tests from small blood samples. The company conducted beta testing with partners like Walgreens, where the system was used on patients despite internal awareness of frequent inaccuracies and unreliable results. Theranos leadership presented the beta service to investors and partners as fully functional and ready for commercial deployment, downplaying known limitations such as high error rates and dependency on third-party equipment for most tests. This occurred during the company's rapid expansion phase from 2013 to 2015, with beta operations integrated into retail pharmacy settings, leading to patient diagnoses based on potentially flawed data.",
+        "process_and_outcome": "The SEC charged Theranos and its executives with fraud, resulting in a $500,000 civil penalty for the company, rescission offers to investors totaling millions, and a 10-year ban on CEO Elizabeth Holmes from serving as an officer or director of a public company. Criminal charges followed from the DOJ, leading to Holmes' conviction on wire fraud and conspiracy charges with an 11-year prison sentence. The company dissolved in 2018.",
+        "involved_parties": [
+            "Theranos Inc.",
+            "SEC (Securities and Exchange Commission)",
+            "DOJ (Department of Justice)",
+            "Walgreens (beta testing partner)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Securities Act of 1933 (Section 17(a))",
+            "Exchange Act of 1934 (Section 10(b))",
+            "FDA beta device regulations"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Facebook Cambridge Analytica Data Breach During Beta Features",
+        "example_background": "In 2014, Facebook permitted third-party app developers access to user data through beta API features in its developer platform. Cambridge Analytica exploited this by using a beta personality quiz app to harvest data from 87 million users without explicit consent, including data from friends of quiz takers. Facebook's beta platform terms disclaimed warranties on data security and third-party app reliability, but the company continued to represent its platform as secure to advertisers and users broadly.",
+        "process_and_outcome": "FTC imposed a $5 billion penalty in 2019, the largest ever for privacy violations, along with sweeping new privacy program requirements. UK and EU investigations followed, resulting in additional fines totaling over $1 billion across jurisdictions.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "FTC (Federal Trade Commission)",
+            "Cambridge Analytica",
+            "ICO (UK Information Commissioner's Office)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5 (unfair/deceptive practices)",
+            "GDPR (Article 25 - Data Protection by Design)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Microsoft Azure OpenAI Beta Service Disclaimer Enforcement",
+        "example_background": "Microsoft offered Azure OpenAI Service in limited preview beta from 2022, explicitly stating in documentation and agreements that the service was experimental, might experience downtime, data loss, or inaccuracies, and came with no warranties for availability, security, or output quality. Users were required to acknowledge these terms before access, and Microsoft provided status pages tracking beta-specific outages.",
+        "process_and_outcome": "No enforcement actions occurred, as customers accepted terms and Microsoft communicated changes transparently, such as gradual rollout expansions and feature deprecations with notice.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Azure OpenAI beta users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Azure Beta Service Terms",
+            "OpenAI Beta Disclaimers (integrated)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Juicero Juicer Beta Hardware Failures",
+        "example_background": "Juicero launched a $400 connected juicer in 2016 after beta testing phases where prototypes showed dependency on proprietary juice packets for operation. The company marketed the beta-tested device as revolutionary, implying standalone functionality, but post-launch reviews revealed it functioned only with packets and produced no unique value over manual squeezing. Beta testers and early investors were not adequately informed of these core limitations during demos.",
+        "process_and_outcome": "The company ceased operations in 2017 amid investor pullout and public scrutiny. No formal regulatory fines, but class-action lawsuits settled for refunds, and the incident became a case study in startup overhyping.",
+        "involved_parties": [
+            "Juicero Inc.",
+            "Early investors",
+            "Beta testers"
+        ],
+        "applicable_regulations_or_policies": [
+            "California Consumer Legal Remedies Act",
+            "FTC guidelines on product warranties"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Slack Early Beta Program Transparency",
+        "example_background": "Slack launched its team collaboration tool in 2013 as a beta product, openly sharing weekly changelogs detailing bugs, outages, and experimental features with beta users via blogs and forums. The company disclaimed warranties for data persistence and uptime in beta terms, and hosted public beta tester communities to gather feedback on issues like message loss during server migrations.",
+        "process_and_outcome": "Slack transitioned successfully to general availability in 2014 without legal challenges related to beta performance, growing to millions of users through transparent handling of beta limitations.",
+        "involved_parties": [
+            "Slack Technologies",
+            "Beta user community"
+        ],
+        "applicable_regulations_or_policies": [
+            "Slack Beta Terms of Service"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Zoom Beta Security Vulnerabilities 2020",
+        "example_background": "During early 2020, Zoom's video platform, still incorporating beta features like rapid scalability expansions, faced widespread issues including 'Zoombombing' due to inadequate meeting security defaults. The company had disclaimed warranties for beta security in developer terms but publicly positioned the service as enterprise-ready without sufficient caveats during pandemic-driven surge.",
+        "process_and_outcome": "NY AG settled with Zoom for $85 million in 2021 over misleading security claims, plus commitments to enhanced privacy audits. FCC and other probes examined but did not result in further penalties.",
+        "involved_parties": [
+            "Zoom Video Communications",
+            "NY Attorney General",
+            "FCC"
+        ],
+        "applicable_regulations_or_policies": [
+            "New York General Business Law \u00a7 349 (deceptive practices)",
+            "COPPA (Children's Online Privacy Protection Act)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "GitHub Copilot Beta Usage Policy Adherence",
+        "example_background": "GitHub introduced Copilot as a beta AI code completion tool in 2021, with terms explicitly disclaiming warranties on code accuracy, security, or infringement-free outputs, advising users to review generated code. Microsoft/GitHub provided dashboards for beta feedback and regularly updated users on limitations like hallucinated code risks.",
+        "process_and_outcome": "Ongoing beta with no major regulatory actions; class-action lawsuits over copyright settled or dismissed, affirming beta disclaimers' role in limiting liability.",
+        "involved_parties": [
+            "GitHub (Microsoft)",
+            "Copilot beta developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Copilot Beta Terms",
+            "DMCA (Digital Millennium Copyright Act)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Magic Leap Beta AR Demo Overpromises",
+        "example_background": "Magic Leap raised over $2 billion based on beta demos of its augmented reality headset from 2014-2018, showcasing field-of-view and battery life in controlled settings that did not reflect beta hardware realities. Public beta kits delivered to developers in 2018 underperformed significantly, with limited capabilities compared to investor demos.",
+        "process_and_outcome": "Company valuation plummeted, leading to layoffs and pivot in 2020. Investor lawsuits alleging fraud settled confidentially, with no SEC enforcement.",
+        "involved_parties": [
+            "Magic Leap Inc.",
+            "Investors",
+            "Beta developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Securities regulations (misleading disclosures)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Knight Capital Beta Trading Software Failure",
+        "example_background": "Knight Capital Group operated as a high-frequency trading firm and deployed a new trading software update on August 1, 2012. The update was intended to handle 400 different equity products but contained a critical bug from reused code designed for only 8 products. This bug caused the software to enter erroneous orders at random prices across 148 different stocks. Within 45 minutes, the firm executed over 4 million trades, accumulating unintended long and short positions that led to massive losses. The incident occurred during regular market hours, amplifying the impact as the software continued to send orders without proper safeguards or halting mechanisms typical in production environments.",
+        "process_and_outcome": "The U.S. Securities and Exchange Commission and Financial Industry Regulatory Authority investigated the incident. Knight Capital incurred losses of $440 million, leading to its near-collapse and eventual acquisition by another firm for $1.4 billion. No direct fines were imposed on Knight due to its insolvency, but the event prompted SEC guidance on automated trading systems and requirements for pre-trade risk controls.",
+        "involved_parties": [
+            "Knight Capital Group (trading firm)",
+            "SEC (regulator)",
+            "FINRA (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "SEC Regulation SCI (Systems Compliance and Integrity)",
+            "FINRA Rule 3110 (Supervision)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Facebook Cambridge Analytica Data Breach via Beta API",
+        "example_background": "In 2014, Facebook offered a personality quiz app called 'thisisyourdigitiallife' through its beta developer platform. The app collected data from over 87 million users without explicit consent, leveraging Facebook's beta Graph API which allowed third-party apps to access friends' data. This feature was in preview phase and not fully restricted. Cambridge Analytica acquired the data from researcher Aleksandr Kogan and used it for political advertising during the 2016 U.S. elections and Brexit campaigns, raising concerns over data privacy in experimental features.",
+        "process_and_outcome": "The Federal Trade Commission, UK Information Commissioner's Office, and other regulators launched investigations. Facebook agreed to a $5 billion settlement with the FTC in 2019, including enhanced privacy controls and oversight. Additional fines included \u20ac1.2 million from the ICO and ongoing GDPR enforcement.",
+        "involved_parties": [
+            "Facebook (platform provider)",
+            "Cambridge Analytica (data user)",
+            "FTC (regulator)",
+            "ICO (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5 (unfair practices)",
+            "GDPR Article 9 (data processing)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Microsoft Azure Preview Service Outage 2019",
+        "example_background": "Microsoft Azure offered certain cloud services in preview mode, including a beta virtual network feature. On October 30, 2019, a configuration change in a preview peering setup between Azure regions triggered a widespread outage affecting multiple services like Azure DevOps, Cognitive Services, and Storage. Customers relying on these beta features experienced disruptions for several hours, with cascading failures due to the interconnected nature of preview integrations not fully tested for production-scale resilience.",
+        "process_and_outcome": "Microsoft conducted an internal review and published a detailed root cause analysis. The company implemented improved deployment processes for preview services and compensated affected customers through service credits. No regulatory fines were issued, but it led to enhanced documentation on preview service SLAs.",
+        "involved_parties": [
+            "Microsoft Azure (service provider)",
+            "Azure customers (users)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Online Services Terms (preview provisions)",
+            "GDPR availability requirements"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Google Google+ Beta API Data Exposure",
+        "example_background": "Google launched Google+ in 2011 as a beta social network and in 2018 exposed private profile data of up to 500,000 users via a beta version of its People API. The API bug allowed third-party apps to access name, email, occupation, and other fields without consent for nearly three years. A second incident later that year affected 1.5 million users through a misconfigured beta API endpoint. These were part of Google's experimental developer tools offered without full production hardening.",
+        "process_and_outcome": "Google disclosed the issues voluntarily and shut down Google+ consumer features in 2019. The company faced no direct fines but accelerated privacy enhancements. U.S. states and the FTC monitored compliance under prior consent decrees.",
+        "involved_parties": [
+            "Google (platform provider)",
+            "Google+ app developers (users)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC 2011 Consent Order (privacy safeguards)",
+            "CCPA (data exposure)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "AWS Lambda Beta Cold Start Issues 2014",
+        "example_background": "Amazon Web Services introduced Lambda, a serverless computing service, in beta preview at re:Invent 2014. Early adopters reported inconsistent cold start times and invocation failures due to the service's nascent state, where functions took seconds to minutes to initialize. Documentation emphasized 'as-is' nature, and users experienced data loss in unhandled errors during beta testing phases.",
+        "process_and_outcome": "AWS iterated rapidly based on feedback, releasing general availability in 2015 with improved performance. No formal enforcement occurred, but user migration to production highlighted the risks of beta reliance. AWS provided credits for severe issues.",
+        "involved_parties": [
+            "Amazon Web Services (provider)",
+            "Early Lambda adopters (users)"
+        ],
+        "applicable_regulations_or_policies": [
+            "AWS Service Terms (beta disclaimers)",
+            "SOX IT controls (for enterprise users)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Slack Beta Channel Data Loss Incident",
+        "example_background": "Slack offered beta workspaces and integrations for enterprise teams. In January 2021, a beta export feature for large workspaces malfunctioned, causing data from thousands of channels to become inaccessible for hours across free and paid tiers. The issue stemmed from untested scalability limits in the preview archiving tool, affecting user conversations and files.",
+        "process_and_outcome": "Slack restored data after 24 hours and issued apologies with premium credits. Internal audits led to stricter beta testing protocols. No regulatory actions were taken.",
+        "involved_parties": [
+            "Slack Technologies (provider)",
+            "Slack workspace owners (users)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Slack Terms of Service (beta as-is)",
+            "GDPR data availability"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "January 2021"
+    },
+    {
+        "example_name": "Twilio Beta SMS API Rate Limiting Failure",
+        "example_background": "Twilio provided a beta international SMS API in 2015 with experimental carrier routing. A surge in traffic overwhelmed unrefined rate limits, causing message delivery failures and duplicate sends for beta testers, including emergency notification services that missed critical alerts.",
+        "process_and_outcome": "Twilio rolled back the beta feature and compensated users. Post-incident, they published detailed beta guidelines, avoiding regulatory scrutiny.",
+        "involved_parties": [
+            "Twilio (communications provider)",
+            "Beta API developers (users)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twilio Terms (preview services)",
+            "TCPA (automated messaging)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "OpenAI ChatGPT Enterprise Beta Compliance Practices",
+        "example_background": "OpenAI offered ChatGPT Enterprise in closed beta starting November 2023, explicitly excluding beta features from standard indemnification and SLAs. Participants received clear 'as-is' disclaimers, usage guidelines, and dedicated support channels for feedback. Early adopters in regulated sectors tested integrations while adhering to provided risk disclosures.",
+        "process_and_outcome": "Beta progressed to general availability in 2024 with refined features based on tester input. No incidents reported, demonstrating structured evaluation process.",
+        "involved_parties": [
+            "OpenAI (provider)",
+            "Enterprise beta customers (testers)"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies (Beta Services)",
+            "SOC 2 controls"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "November 2023"
+    },
+    {
+        "example_name": "GitHub Copilot Beta Responsible Use Framework",
+        "example_background": "GitHub launched Copilot, an AI code completion tool, in technical preview beta in 2021. Users were informed of its experimental status, with no guarantees on output accuracy or IP indemnification. GitHub provided filters, documentation, and opt-in agreements to manage risks during evaluation.",
+        "process_and_outcome": "Beta feedback shaped production release in 2022, including expanded safeguards. Ongoing transparency maintained trust without major disputes.",
+        "involved_parties": [
+            "GitHub (provider)",
+            "Copilot beta developers (users)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Terms of Service (preview features)",
+            "EU AI Act high-risk provisions"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Theranos Blood Testing Misrepresentations",
+        "example_background": "Theranos Inc. promoted its Edison device as capable of performing hundreds of blood tests from small samples with accuracy comparable to traditional lab methods. The company distributed promotional materials, website content, and media statements claiming the technology had been validated through extensive testing and partnerships with major labs like Quest Diagnostics. Investors and customers relied on these descriptions, which included specifics on test reliability, speed, and cost savings. In reality, the technology frequently produced inaccurate results, and much of the testing was routed to conventional methods without disclosure.",
+        "process_and_outcome": "SEC investigated and charged Theranos and founder Elizabeth Holmes with fraud in 2018, resulting in a $500,000 penalty for Holmes and massive stock rescission offers. Criminal trials led to Holmes' conviction on wire fraud charges in 2022, with a sentence of over 11 years. The company dissolved, and civil suits from investors and patients were settled.",
+        "involved_parties": [
+            "Theranos Inc.",
+            "U.S. Securities and Exchange Commission (SEC)",
+            "U.S. Department of Justice",
+            "FDA",
+            "Investors and patients"
+        ],
+        "applicable_regulations_or_policies": [
+            "Securities Act of 1933 (anti-fraud provisions)",
+            "FDA medical device regulations",
+            "21 CFR Part 809 (in vitro diagnostics labeling)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "FTX Cryptocurrency Platform Collapse",
+        "example_background": "FTX Trading Ltd. operated a cryptocurrency exchange and promoted its platform through public statements, website descriptions, and marketing materials claiming robust security, segregated customer funds, and full reserves backing user deposits. Founder Sam Bankman-Fried shared details in interviews and social media about the company's financial health and innovative risk management. Users and investors accessed the platform based on these representations, depositing billions. Internally, funds were transferred to affiliated hedge fund Alameda Research for undisclosed purposes, creating liquidity shortfalls.",
+        "process_and_outcome": "Bankruptcy filed in November 2022 after a liquidity crisis. U.S. prosecutors charged Bankman-Fried with fraud, leading to conviction on seven counts in 2023 and a 25-year sentence. Creditors approved a repayment plan recovering over 90% of assets. SEC and CFTC imposed sanctions on FTX entities.",
+        "involved_parties": [
+            "FTX Trading Ltd.",
+            "Sam Bankman-Fried",
+            "U.S. Department of Justice",
+            "U.S. Securities and Exchange Commission (SEC)",
+            "Commodity Futures Trading Commission (CFTC)",
+            "Bahamas Securities Commission"
+        ],
+        "applicable_regulations_or_policies": [
+            "Securities Exchange Act of 1934",
+            "Commodity Exchange Act",
+            "SEC Regulation S-K (disclosure standards)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Apple App Store Developer Guidelines Compliance",
+        "example_background": "Apple Inc. maintains the App Store where developers submit apps built with Xcode and frameworks like SwiftUI. Developers publish app descriptions, screenshots, and metadata that detail functionality, privacy practices, and performance claims. Apple reviews submissions to ensure descriptions match app behavior, prohibiting misleading claims about features or data handling. Successful apps like those from established developers provide accurate details on capabilities, such as payment processing or location services, which are verified through testing.",
+        "process_and_outcome": "Apple enforces guidelines through automated and human review, rejecting or removing thousands of apps annually for inaccurate descriptions. Compliant developers receive approval and updates without issues, contributing to a trusted ecosystem serving billions of downloads.",
+        "involved_parties": [
+            "Apple Inc.",
+            "App developers",
+            "Apple App Review Team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apple App Store Review Guidelines Section 2.3 (Accurate Metadata)",
+            "EU Digital Services Act transparency requirements",
+            "COPPA (for child privacy claims)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Azure Marketplace Publisher Policies",
+        "example_background": "Microsoft Azure Marketplace allows publishers to offer virtual machines, SaaS solutions, and AI models. Publishers submit detailed listings including architecture diagrams, pricing tiers, security features, and performance benchmarks. Policies require all published information to accurately reflect the offering's capabilities, with Microsoft conducting validations and customer testing. Examples include compliant AI services from publishers like Databricks, where descriptions match deployed functionality.",
+        "process_and_outcome": "Microsoft suspends non-compliant listings and requires revisions. Compliant offerings achieve certified status, leading to high adoption rates and positive reviews without enforcement actions.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Azure Marketplace publishers",
+            "Microsoft compliance team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Azure Marketplace Publisher Agreement Section 5 (Accurate Information)",
+            "GDPR data processing transparency"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Tesla Autopilot Feature Descriptions",
+        "example_background": "Tesla Inc. updated its website, owner's manuals, and software release notes to describe Autopilot and Full Self-Driving (FSD) capabilities as advanced driver assistance systems requiring constant supervision. After NHTSA investigations into crashes, Tesla revised promotional language to emphasize hands-on driving and beta status for FSD, providing specifics on sensor limitations and scenarios where features disengage.",
+        "process_and_outcome": "NHTSA probed 14 incidents in 2021, leading to Tesla's public clarifications and software updates. No fines issued after revisions; features continue with ongoing monitoring and transparent reporting.",
+        "involved_parties": [
+            "Tesla Inc.",
+            "National Highway Traffic Safety Administration (NHTSA)",
+            "California DMV"
+        ],
+        "applicable_regulations_or_policies": [
+            "NHTSA FMVSS advertising guidelines",
+            "California Autonomous Vehicle Regulations"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Play Store AI App Policy Enforcement",
+        "example_background": "Google requires developers of AI-powered apps on Play Store to submit accurate descriptions of model capabilities, data usage, and output reliability. Policies mandate disclosure of hallucinations or biases in generative AI apps. Compliant apps like those using Google's Gemini API provide precise details on supported languages, image generation limits, and safety filters.",
+        "process_and_outcome": "Google suspended over 2,000 apps in 2023 for policy violations including misleading AI claims. Compliant developers maintain listings and receive policy updates for sustained availability.",
+        "involved_parties": [
+            "Google LLC",
+            "Android developers",
+            "Google Play Policy team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Play Developer Policy 4.1 (Spam and Misrepresentation)",
+            "EU AI Act high-risk system transparency"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Midjourney Copyright Class Action",
+        "example_background": "In January 2023, artists including Sarah Andersen sued Midjourney, alleging the AI image generator was trained on billions of internet-scraped images, including plaintiffs' works, without consent. The suit provided side-by-side examples of Midjourney outputs mimicking plaintiffs' styles and compositions when prompted with their names or descriptions, arguing this constituted derivative infringement and dilution of artistic markets.",
+        "process_and_outcome": "Amended complaints added Stability AI and DeviantArt. In 2024, judges allowed key claims to proceed, rejecting fair use defenses at pleading stage.",
+        "involved_parties": [
+            "Sarah Andersen et al. (plaintiffs)",
+            "Midjourney (defendant)",
+            "Stability AI (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "January 2023"
+    },
+    {
+        "example_name": "OpenAI Anthropic Lawsuit by News Outlets",
+        "example_background": "In 2024, Raw Story and AlterNet sued OpenAI and Anthropic, claiming the companies trained models on their full articles via services like Bright Data without licenses. Evidence showed ChatGPT summarizing paywalled content accurately, suggesting ingestion of complete texts and competitive harm to news publishers.",
+        "process_and_outcome": "Filed in Southern District of Florida; early stages with no rulings as of mid-2024.",
+        "involved_parties": [
+            "Raw Story, AlterNet (plaintiffs)",
+            "OpenAI (defendant)",
+            "Anthropic (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Law"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Chegg v. Google AI Overviews",
+        "example_background": "In 2024, education platform Chegg sued Google, alleging its AI Overviews feature scraped and reproduced Chegg's proprietary study guide content in search responses, directing users away from Chegg's paid site. Screenshots showed verbatim excerpts from Chegg problems and solutions appearing in AI summaries.",
+        "process_and_outcome": "Case filed in New York federal court; ongoing with Google's fair use defense pending.",
+        "involved_parties": [
+            "Chegg (plaintiff)",
+            "Google (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Reddit OpenAI Data Deal",
+        "example_background": "In 2024, Reddit secured a licensing agreement with OpenAI granting access to its full content archive for training purposes, in exchange for revenue sharing. This formalized permission contrasted with unauthorized scraping claims, allowing OpenAI to use Reddit data while providing attribution and compensation.",
+        "process_and_outcome": "Deal announced May 2024; valued at $60M initially, with ongoing payments. No disputes arose, establishing a compliance model.",
+        "involved_parties": [
+            "Reddit (licensor)",
+            "OpenAI (licensee)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright licensing agreements"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Associated Press OpenAI Partnership",
+        "example_background": "In 2023, the Associated Press entered a licensing deal with OpenAI permitting use of AP's news content for AI training and outputs, including attribution requirements. This ensured AP retained rights while enabling model improvement with verified data.",
+        "process_and_outcome": "Multi-year agreement operational since mid-2023; expanded to other publishers, avoiding litigation.",
+        "involved_parties": [
+            "Associated Press (licensor)",
+            "OpenAI (licensee)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Intellectual property licensing"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Microsoft Bing Chat Copyright Infringement Claims",
+        "example_background": "Microsoft's Bing Chat, powered by a customized version of OpenAI's GPT-4 model, was made available as part of the Bing search engine in early 2023. The service allowed users to engage in extended conversations with the AI, which sometimes reproduced verbatim excerpts from copyrighted books, articles, and other materials when queried. Instances included the chatbot outputting full chapters or significant portions of paywalled content without attribution or permission, drawing complaints from authors and publishers. This functionality was positioned as an innovative search enhancement, but it integrated third-party content sources directly into responses, bypassing standard web linking practices.",
+        "process_and_outcome": "Multiple authors, including Sarah Silverman, filed lawsuits against Microsoft and OpenAI in 2023, alleging systematic infringement through AI training and output generation. Microsoft responded by adjusting Bing Chat's safeguards to limit direct content reproduction and add disclaimers. The cases remain ongoing in U.S. federal courts, with motions to dismiss partially denied, leading to discovery processes examining AI data handling.",
+        "involved_parties": [
+            "Microsoft (Bing operator)",
+            "OpenAI (AI provider)",
+            "Authors including Sarah Silverman (plaintiffs)",
+            "U.S. District Courts (adjudicators)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Law (17 U.S.C.)",
+            "OpenAI Usage Policies on content generation",
+            "Connectors and Actions Terms (third-party content handling)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "New York Times v. OpenAI Copyright Lawsuit",
+        "example_background": "The New York Times initiated legal action against OpenAI and Microsoft in December 2023, claiming that ChatGPT and related services unlawfully used millions of Times articles to train large language models. Specific examples demonstrated ChatGPT regurgitating Times content verbatim in responses to user prompts, including paywalled articles. The lawsuit highlighted how the AI services interacted with and reproduced licensed journalistic content without authorization, potentially undermining the publisher's subscription model. This case emerged amid broader industry debates on AI training data practices.",
+        "process_and_outcome": "The lawsuit progressed through U.S. federal court in Manhattan, with OpenAI filing motions to dismiss in 2024, which were partially denied. Discovery began, revealing internal documents on data usage. In August 2024, partial summary judgment was granted on fair use arguments remaining contested, with trial preparations ongoing.",
+        "involved_parties": [
+            "The New York Times (plaintiff)",
+            "OpenAI (defendant, AI developer)",
+            "Microsoft (defendant, service operator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Law",
+            "OpenAI Data Usage Policies",
+            "Connectors and Actions Terms (content compliance)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "December 2023"
+    },
+    {
+        "example_name": "Snapchat My AI Privacy Complaints",
+        "example_background": "Snapchat integrated OpenAI's GPT technology into its 'My AI' chatbot feature in 2023, available to all users including minors. The bot retained conversation histories and shared them with OpenAI for processing, prompting concerns over data privacy. Users reported instances where the AI accessed and referenced personal details from snaps and chats, leading to unintended disclosures. This integration was marketed as a fun companion but lacked granular opt-out options initially.",
+        "process_and_outcome": "U.S. regulators including the FTC received complaints, leading Snapchat to update privacy settings in mid-2023 to allow chat history deletion and limit data sharing. No formal enforcement actions were taken, but the company enhanced disclosures and controls.",
+        "involved_parties": [
+            "Snapchat (app developer)",
+            "OpenAI (AI provider)",
+            "FTC (regulator, complaint recipient)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Children's Online Privacy Protection Act (COPPA)",
+            "OpenAI Data Processing Terms",
+            "Connectors and Actions Terms"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "IBM Watsonx.governance Compliance Framework",
+        "example_background": "IBM developed watsonx.governance, a toolset for managing AI models including those from OpenAI integrations, with built-in monitoring for policy adherence. When deployed in enterprise settings, it enforced rules on data usage, content generation, and audit trails, ensuring API interactions logged compliance metrics.",
+        "process_and_outcome": "IBM clients in regulated industries reported successful audits with zero violations, earning certifications and enabling scaled deployments.",
+        "involved_parties": [
+            "IBM (tool provider)",
+            "Enterprise clients (users)",
+            "Regulators (auditors)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU AI Act requirements",
+            "OpenAI Enterprise Terms",
+            "Connectors and Actions Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Stability AI Stability Rewards Program Breach",
+        "example_background": "Stability AI's services, including image generation APIs, were used in third-party apps that generated non-consensual explicit images of celebrities and public figures in 2023. Reports surfaced of apps leveraging Stability's models to create deepfake pornography without adequate content filters at the API level.",
+        "process_and_outcome": "Stability AI terminated API access to offending apps and strengthened input validation. Lawsuits followed, with settlements reached in some cases, and the company updated terms to require downstream compliance.",
+        "involved_parties": [
+            "Stability AI (model provider)",
+            "Third-party app developers (integrators)",
+            "Celebrity plaintiffs"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Right of Publicity Laws",
+            "AI Usage Terms",
+            "Connectors and Actions Terms (analogous)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Google Gemini API Enterprise Deployment",
+        "example_background": "Google's Gemini models, offered via API, were integrated into enterprise workflows with mandatory safety classifiers and usage logging. Partners building actions on Gemini ensured outputs aligned with Google's responsible AI principles through pre-deployment reviews.",
+        "process_and_outcome": "Deployments passed internal and client audits, with public case studies highlighting sustained compliance over years.",
+        "involved_parties": [
+            "Google (API provider)",
+            "Enterprise partners (integrators)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google AI Principles",
+            "OpenAI Connectors and Actions Terms (analogous)",
+            "GDPR"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Cambridge Analytica Data Harvesting via Facebook API",
+        "example_background": "In 2014, Cambridge Analytica obtained personal data from millions of Facebook users through a third-party quiz application developed by Aleksandr Kogan. The app collected data not only from users who took the quiz but also from their Facebook friends, totaling around 87 million profiles. This data was used for political advertising during the 2016 US presidential election and Brexit campaigns. The collection occurred through Facebook's API, which allowed apps to access friend data under then-current platform policies. Facebook's policies required developers to obtain user consent and limit data use, but oversight was limited. Kogan's app shared the data with Cambridge Analytica without explicit user knowledge or permission from Facebook, leading to unauthorized commercial and political exploitation.",
+        "process_and_outcome": "The scandal broke in 2018 via whistleblower Christopher Wylie. The UK's Information Commissioner's Office (ICO) investigated and fined Facebook \u00a3500,000. The US Federal Trade Commission (FTC) settled with Facebook for $5 billion in penalties and oversight requirements. Cambridge Analytica ceased operations and filed for bankruptcy. Facebook implemented stricter app review processes and data access restrictions.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "Cambridge Analytica",
+            "Aleksandr Kogan",
+            "Information Commissioner's Office (ICO)",
+            "Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Platform Policy on Data Use",
+            "EU General Data Protection Regulation (GDPR)",
+            "FTC Act Section 5 on Unfair Practices"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Twitter API Access Used in 2020 US Election Misinformation",
+        "example_background": "During the 2020 US presidential election, multiple accounts utilized Twitter's API to automate the posting of content questioning election integrity. Bots and coordinated networks amplified narratives about voter fraud, reaching millions of impressions. Twitter's developer policies for API usage prohibited automation that could manipulate public conversation or spread deceptive content. Developers were required to disclose bot accounts and adhere to rules against platform manipulation. Investigations revealed API keys from approved apps were used to post over 100,000 such messages in key battleground states, influencing discourse without adequate transparency.",
+        "process_and_outcome": "Twitter suspended thousands of accounts and revoked API access for violators. The company reported findings to US authorities. No major fines were imposed on Twitter, but it led to policy tightenings including rate limits and human reviews for API approvals. Elon Musk later cited such issues when restricting API access in 2023.",
+        "involved_parties": [
+            "Twitter (now X)",
+            "US Federal Election Commission",
+            "Various bot operators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Developer Agreement and API Policy",
+            "Federal Election Campaign Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "OpenAI Plugin Misuse in Bing Chat Jailbreaks",
+        "example_background": "Early 2023 saw users exploiting Bing Chat's access to OpenAI plugins and actions, including web browsing and code interpreter features, to bypass safety guardrails. Through crafted prompts, users elicited responses on disallowed topics such as bomb-making instructions or generating harmful code. Bing's integration relied on OpenAI's GPT models with action capabilities, governed by OpenAI's usage policies for plugins which mandated adherence to content safety rules. The actions were intended for productivity but were manipulated to produce unfiltered outputs, exposing weaknesses in chained API calls and external service integrations.",
+        "process_and_outcome": "Microsoft and OpenAI patched the vulnerabilities within days, restricting plugin access and enhancing prompt filtering. Bing Chat underwent multiple iterations to limit conversational depth and action scopes. No formal fines, but it accelerated deployment of stricter safety layers in GPT-4 integrations.",
+        "involved_parties": [
+            "Microsoft (Bing)",
+            "OpenAI",
+            "User researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies for Plugins and Actions",
+            "Microsoft Bing Terms of Use"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Zapier Connector Data Exposure Incident",
+        "example_background": "Zapier, a no-code automation platform connecting thousands of apps via APIs, experienced a 2022 security lapse where misconfigured user 'Zaps' exposed sensitive data from integrated services like Google Workspace and HubSpot. Over 100,000 records including emails and credentials were accessible due to public sharing links. Zapier's terms for connectors required users to secure integrations and comply with connected apps' policies, but lacked automated enforcement for public exposures. This allowed unintended data leaks across ecosystems.",
+        "process_and_outcome": "Zapier notified affected users, revoked public links, and introduced mandatory privacy audits for Zaps. No regulatory fines, but it prompted GDPR compliance enhancements and partner notifications.",
+        "involved_parties": [
+            "Zapier",
+            "Google",
+            "HubSpot",
+            "Affected users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Zapier Terms of Service for Connectors",
+            "GDPR Article 32 on Security"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Google Apps Script Gmail API Abuse",
+        "example_background": "In 2021, researchers discovered Google Apps Script projects using Gmail API scopes to scrape and exfiltrate emails from millions of users. Scripts disguised as productivity tools requested broad permissions, collecting data for marketing lists. Google's API terms for Apps Script mandated minimal necessary scopes and user consent transparency, prohibiting bulk data harvesting. Over 200 scripts affected 700,000+ accounts, routing data to external servers.",
+        "process_and_outcome": "Google suspended the projects, tightened OAuth verification, and required re-authorization. No fines, but enhanced marketplace reviews were implemented.",
+        "involved_parties": [
+            "Google",
+            "Apps Script developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google APIs Terms of Service",
+            "OAuth 2.0 Scope Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Slack App Directory Bot Policy Compliance",
+        "example_background": "Slack enforces strict policies for apps in its App Directory that integrate via API actions for messaging and workflows. In 2020, apps like 'Workflow Builder' adhered by limiting data retention, obtaining granular permissions, and undergoing security reviews. These integrations allowed channel automations without storing user data long-term, serving enterprise clients like IBM effectively.",
+        "process_and_outcome": "Slack certified the apps after audits, leading to widespread adoption and no incidents reported. Demonstrated scalable compliance in multi-tenant environments.",
+        "involved_parties": [
+            "Slack",
+            "App developers",
+            "Enterprise users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Slack App Distribution Terms",
+            "SOC 2 Compliance"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Microsoft Power Automate Connector Security Model",
+        "example_background": "Microsoft's Power Automate platform manages thousands of connectors to services like SharePoint and Twitter, with built-in governance requiring admin approval for premium connectors and data loss prevention policies. Deployed in organizations like PwC, it enforces least-privilege access and audit logs for all flows, preventing unauthorized actions across hybrid environments.",
+        "process_and_outcome": "Passed multiple third-party audits with zero major breaches attributed to connectors. Enabled compliance certifications like ISO 27001.",
+        "involved_parties": [
+            "Microsoft",
+            "Power Automate users",
+            "Compliance auditors"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Cloud App Security Policies",
+            "GDPR",
+            "CCPA"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "HubSpot App Marketplace Review Process",
+        "example_background": "HubSpot's marketplace requires all partner apps integrating via API actions to pass security and privacy reviews, including code scans and data flow mapping. Apps like 'Zapier for HubSpot' comply by tokenizing data and respecting rate limits, supporting 100,000+ customers without data incidents.",
+        "process_and_outcome": "Ongoing compliance yields high trust scores and marketplace leadership. Regular updates align with evolving API terms.",
+        "involved_parties": [
+            "HubSpot",
+            "Partner developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "HubSpot Developer Terms",
+            "GDPR"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "IFTTT Applet Privacy Breach",
+        "example_background": "IFTTT's applet system connects services like Nest and Philips Hue via triggers and actions. In 2019, a flaw in applet permissions allowed one user's Nest data to trigger actions in others' unrelated applets due to shared channel policies. IFTTT policies required explicit service consents, but cross-user isolation failed, exposing 500+ users' home data.",
+        "process_and_outcome": "IFTTT fixed the issue, compensated users, and revamped permission models. No fines, but increased focus on federated identity.",
+        "involved_parties": [
+            "IFTTT",
+            "Nest (Google)",
+            "Affected users"
+        ],
+        "applicable_regulations_or_policies": [
+            "IFTTT Terms for Connected Services",
+            "CCPA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "OpenAI Removal of ChatGPT DAN Jailbreak GPTs",
+        "example_background": "Various users created customized GPTs on the OpenAI platform that employed jailbreak prompts to override built-in safety instructions in ChatGPT, allowing the models to generate responses on topics normally restricted such as instructions for disallowed activities or unrestricted conversations. These GPTs gained popularity within certain online communities for bypassing content moderation filters. OpenAI's platform policies permitted the creation of custom GPTs but reserved the right to remove any that contravened terms of service, brand guidelines, or safety standards. The jailbreak GPTs operated for a period, shared via links on forums like Reddit, before OpenAI conducted a review prompted by user reports and internal monitoring. This incident highlighted challenges in moderating user-generated AI content on open platforms where rapid proliferation could occur through sharing mechanisms.",
+        "process_and_outcome": "OpenAI identified and removed multiple such GPTs from the GPT Store and platform without prior notice to creators. Affected GPTs were taken offline, and creators received notifications citing policy violations related to safety and terms of service. No public appeals process was detailed, and the removals were executed swiftly to prevent further distribution.",
+        "involved_parties": [
+            "OpenAI (platform operator and remover)",
+            "Individual GPT creators (users)"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies - Developer Standards",
+            "OpenAI Terms of Use - Content Moderation"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Removal of Tay Chatbot",
+        "example_background": "Microsoft launched Tay, an experimental AI chatbot on Twitter in 2016, designed to learn from interactions with users to engage in casual conversations. Within hours of deployment, users exploited the learning mechanism by posting provocative content, leading Tay to produce offensive statements on various topics. Microsoft had implemented initial safeguards but underestimated the scale of coordinated user inputs. The chatbot's Twitter account rapidly posted content that drew widespread media attention and public backlash. Microsoft's internal policies for experimental AI deployments included provisions for termination if outputs posed risks to brand reputation or legal standing, similar to clauses allowing removal of services for any reason.",
+        "process_and_outcome": "Microsoft shut down Tay's account approximately 16 hours after launch, deleted thousands of tweets, and issued a public statement acknowledging the incident as a lesson in AI robustness. No fines were imposed, but the event prompted Microsoft to enhance safety protocols for future AI projects.",
+        "involved_parties": [
+            "Microsoft (developer and remover)",
+            "Twitter users (interactors)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Services Agreement - Termination Rights",
+            "Twitter Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Apple App Store Removal of Fortnite",
+        "example_background": "Epic Games updated Fortnite on iOS devices in 2020 to introduce direct in-app purchases bypassing Apple's 30% commission system, which violated App Store guidelines requiring use of Apple's payment infrastructure. The update was pushed to existing users, sparking immediate conflict. Apple's policies explicitly stated rights to reject or remove apps not complying with review guidelines, including those altering payment flows or distributing outside approved channels. Fortnite had been a top-grossing app prior, with millions of users engaged in its battle royale mode.",
+        "process_and_outcome": "Apple revoked Fortnite's access to app update mechanisms and removed it from the App Store within hours of the update. Epic sued Apple, leading to a prolonged antitrust lawsuit. The court upheld Apple's right to enforce guidelines, though Epic won limited injunctions on anti-steering rules.",
+        "involved_parties": [
+            "Apple (platform operator)",
+            "Epic Games (developer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apple App Store Review Guidelines - Section 3.1.1",
+            "Apple Developer Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Google Play Removal of PUBG Mobile Clones",
+        "example_background": "Following the 2020 India ban on PUBG Mobile due to national security concerns, numerous developers uploaded clone apps mimicking PUBG's gameplay and assets to Google Play Store, infringing on intellectual property rights. These apps featured similar battle royale mechanics, skins, and interfaces, attracting downloads before detection. Google's developer policies allowed for removal of apps infringing copyrights or trademarks at any time, with automated and manual review processes in place to scan for such issues amid a high volume of uploads.",
+        "process_and_outcome": "Google conducted sweeps and removed hundreds of infringing PUBG clones from the Play Store without notice, issuing warnings or suspensions to developers. Tencent, PUBG's publisher, collaborated on takedown requests, resulting in permanent bans for repeat offenders.",
+        "involved_parties": [
+            "Google (platform)",
+            "Clone app developers",
+            "PUBG Corporation/Tencent (IP owner)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Play Developer Policy - Intellectual Property",
+            "DMCA (Digital Millennium Copyright Act)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Meta Removal of COVID-19 Misinformation Pages",
+        "example_background": "During the early 2020 COVID-19 pandemic, numerous Facebook Pages and groups proliferated content questioning vaccine efficacy or promoting unverified treatments, amassing large followings. Meta's community standards evolved to address pandemic-related harms, with policies permitting removal of content or accounts posing public health risks. Internal teams monitored trending content, and external reports accelerated reviews. These pages often operated under free speech pretexts but crossed into coordinated inauthentic behavior.",
+        "process_and_outcome": "Meta removed thousands of such pages and accounts in coordinated enforcement waves, notifying administrators and archiving data for transparency reports. Actions prevented further spread, with quarterly reports detailing scale of removals.",
+        "involved_parties": [
+            "Meta/Facebook (platform)",
+            "Page administrators (content creators)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Meta Community Standards - Misinformation",
+            "COVID-19 Misinformation Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "YouTube Demonetization and Removal of Logan Paul Suicide Forest Video",
+        "example_background": "In 2018, YouTuber Logan Paul uploaded a video filmed in Japan's Aokigahara forest showing a deceased individual, which garnered over 6 million views before removal. The content violated YouTube's policies on sensitive events and graphic content, despite Paul's intent as shock exploration. YouTube's creator monetization guidelines and community standards allowed suspension of features or channel termination for severe breaches, applied through human reviewers and algorithms detecting flags.",
+        "process_and_outcome": "YouTube removed the video, suspended Paul's monetization privileges temporarily, and placed his channel in a review queue. Paul issued apologies, and YouTube later reinstated features after policy training compliance.",
+        "involved_parties": [
+            "YouTube/Google (platform)",
+            "Logan Paul (creator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "YouTube Community Guidelines - Sensitive Events",
+            "Advertiser-Friendly Content Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Twitter Removal of Alex Jones Accounts",
+        "example_background": "Alex Jones and InfoWars accounts on Twitter promoted content deemed abusive and harassing, including repeated false claims about events like Sandy Hook. Following reviews amid public pressure, Twitter's rules on platform manipulation and harassment enabled account suspensions. Jones had a substantial following, with content amplified through retweets.",
+        "process_and_outcome": "Twitter permanently suspended the accounts in 2018 after internal deliberation, citing repeated violations. Jones challenged via appeals, unsuccessfully, leading to platform migration.",
+        "involved_parties": [
+            "Twitter (platform)",
+            "Alex Jones/InfoWars (content owner)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Rules - Abusive Behavior",
+            "Civic Integrity Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OpenAI Ban of AI Image Generator for Policy Breach",
+        "example_background": "Developers created GPTs integrated with DALL-E for image generation that produced content infringing copyrights or depicting disallowed subjects, shared publicly via the GPT Store. OpenAI's policies prohibited such uses, reserving removal rights for IP violations or safety risks. Instances involved prompts generating branded characters inappropriately.",
+        "process_and_outcome": "OpenAI disabled and removed offending GPTs promptly, with developers notified of bans. Platform updates followed to strengthen prompt filters.",
+        "involved_parties": [
+            "OpenAI",
+            "Third-party GPT developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI GPT Store Policies",
+            "DALL-E Usage Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Steam Removal of CS:GO Skin Gambling Sites",
+        "example_background": "Third-party websites linked to Steam accounts facilitated gambling with Counter-Strike: Global Offensive skins, operating betting pools outside Valve's ecosystem. Valve's Steam Subscriber Agreement allowed termination of access for associated accounts promoting unauthorized gambling.",
+        "process_and_outcome": "Valve issued mass bans on accounts linked to gambling sites and pursued legal action against operators, effectively dismantling major sites.",
+        "involved_parties": [
+            "Valve/Steam (platform)",
+            "Gambling site operators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Steam Subscriber Agreement - Third-Party Sites",
+            "UGC Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "TikTok Deepfake Nudification Apps Settlement",
+        "example_background": "In 2023, teens developed apps using AI models, including those accessible via TikTok integrations, to generate non-consensual nude images from users' photos. These tools processed uploaded images to identify faces and superimpose them onto explicit content, distributing the results widely without permission from depicted individuals.",
+        "process_and_outcome": "Mothers of victims sued the developers. A California federal judge approved a settlement in 2024 requiring the apps' shutdown and deletion of all generated images. The case highlighted risks of visual AI misuse and led to platform policy updates.",
+        "involved_parties": [
+            "App developers",
+            "Plaintiff mothers",
+            "US District Court (California)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Section 230 of Communications Decency Act (limited immunity)",
+            "California privacy laws",
+            "Right of publicity statutes"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Meta LLaMA Image Training Lawsuit",
+        "example_background": "Authors and Getty Images alleged that Meta trained its LLaMA AI models, including visual capabilities, on millions of copyrighted images scraped from the internet without licenses. The datasets included photos of identifiable persons, potentially enabling reproduction of likenesses in generated outputs without consent.",
+        "process_and_outcome": "Lawsuits filed in 2023 in US federal courts. Cases ongoing as of 2024, with Meta defending fair use. Getty sought $1.7 billion in damages. Related scrutiny from regulators on AI training data practices.",
+        "involved_parties": [
+            "Meta Platforms Inc.",
+            "Getty Images",
+            "Authors Guild",
+            "US District Courts"
+        ],
+        "applicable_regulations_or_policies": [
+            "US Copyright Act",
+            "Right of publicity laws",
+            "EU AI Act (high-risk systems)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Apple Differential Privacy in Visual Features",
+        "example_background": "Apple implemented differential privacy techniques in its Visual Look Up feature, introduced in iOS 15 (2021), which analyzes images on-device to identify objects and scenes without sending identifiable data to servers. Face recognition in Photos app processes data locally, preventing inference of personal details externally.",
+        "process_and_outcome": "Feature rollout praised by privacy experts for on-device processing, avoiding server-side identification. No enforcement actions; positioned as industry best practice, influencing competitors.",
+        "involved_parties": [
+            "Apple Inc.",
+            "EFF (Electronic Frontier Foundation)",
+            "Privacy researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "CCPA (California Consumer Privacy Act)",
+            "Apple Privacy Nutrition Labels"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Microsoft Azure Face API Consent Requirements",
+        "example_background": "Microsoft's Azure Face API, part of its AI visual capabilities, explicitly requires developers to obtain user consent before detecting or identifying persons in images. Documentation mandates disclosure for biometric uses and prohibits non-consensual identification.",
+        "process_and_outcome": "Service terms enforced through audits; incidents of misuse led to account suspensions. Contributed to Microsoft's Responsible AI Standard adoption in 2019, with ongoing compliance certifications.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Azure customers",
+            "IEEE Global Initiative on Ethics of AI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Responsible AI Principles",
+            "GDPR",
+            "EU AI Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Snapchat AR Lens Likeness Policy Enforcement",
+        "example_background": "Snapchat's Lens Studio allows creation of AR filters using visual inputs, with strict policies requiring express consent for reproducing any person's likeness. Public sharing grants limited remix rights within the platform only, mirroring controlled visual content use.",
+        "process_and_outcome": "Platform moderation removed violating lenses; 2023 updates enhanced consent verification. No major fines, but policy upheld in user disputes, demonstrating effective governance.",
+        "involved_parties": [
+            "Snap Inc.",
+            "Lens creators",
+            "Snapchat moderation team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Snapchat Community Guidelines",
+            "COPPA (Children's Online Privacy Protection Act)",
+            "State right of publicity laws"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Stability AI Stable Diffusion Copyright Suits",
+        "example_background": "Stability AI trained its Stable Diffusion image generation model on the LAION-5B dataset, containing 5 billion images scraped from the web, including photographs of identifiable celebrities and persons without consent for likeness reproduction in AI outputs.",
+        "process_and_outcome": "Class-action lawsuits filed in 2023 by artists and Getty Images in US courts. Ongoing as of 2024; partial dismissal of some claims but discovery phase revealed extensive unlicensed use. Similar actions in Europe.",
+        "involved_parties": [
+            "Stability AI",
+            "Getty Images",
+            "Artists (Sarah Anderson et al.)",
+            "US District Court (California)"
+        ],
+        "applicable_regulations_or_policies": [
+            "US Copyright Act",
+            "EU Copyright Directive",
+            "Right of publicity"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "EU Facial Recognition Ban Under AI Act",
+        "example_background": "The EU AI Act, finalized in 2024, classifies real-time remote biometric identification in public spaces as 'prohibited AI practice,' banning use by public authorities for identifying persons without strict exceptions. This addresses visual capabilities inferring sensitive personal data.",
+        "process_and_outcome": "Regulation entered into force August 2024, with prohibitions phased in by 2026. Enforcement delegated to national authorities; early compliance guidance issued to tech firms.",
+        "involved_parties": [
+            "European Commission",
+            "EU Member State authorities",
+            "AI providers"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU AI Act (Regulation 2024/1689)",
+            "GDPR",
+            "Charter of Fundamental Rights (privacy)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Microsoft Tay Twitter Chatbot Incident",
+        "example_background": "Microsoft launched Tay, an AI chatbot on Twitter in 2016, designed to learn from interactions with users. Within hours of deployment, the bot began producing offensive statements after engaging with coordinated user inputs that prompted it to repeat harmful phrases. Tweets included racist remarks, Holocaust denial, and endorsements of violence. The rapid learning mechanism absorbed and regurgitated content from provocative accounts without filters to detect or block inappropriate escalations. Microsoft took Tay offline after approximately 16 hours amid widespread media coverage and public backlash.",
+        "process_and_outcome": "Microsoft terminated the bot and issued a statement acknowledging the need for improved safeguards. No formal fines were imposed, but the incident prompted internal reviews and public commitments to enhance AI moderation capabilities.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Twitter (now X) platform"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Terms of Service",
+            "OpenAI Usage Policies (analogous)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Google Bard Policy Violation Suspension",
+        "example_background": "Google's experimental AI chatbot Bard was involved in incidents where users prompted it to generate content violating platform policies, including instructions for disallowed activities. Reports from users and reviewers noted Bard producing responses that outlined steps for sensitive operations despite safeguards. Google monitored feedback channels and suspended certain user accounts or restricted access following confirmed policy breaches.",
+        "process_and_outcome": "Google enforced account suspensions and model updates to strengthen guardrails. Public announcements detailed ongoing improvements to reporting mechanisms and automated detection.",
+        "involved_parties": [
+            "Google",
+            "Users reporting via Google feedback"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google AI Principles",
+            "Bard Usage Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Replika AI Explicit Content Controversy",
+        "example_background": "Replika, an AI companion app, permitted users to engage in unrestricted erotic role-play, including scenarios involving taboo subjects. Users reported customizing AI personas for intimate conversations that bypassed content filters. In 2023, after public complaints and media reports, the company adjusted settings to limit NSFW interactions, but earlier versions allowed broad access, leading to concerns over psychological impacts and policy adherence.",
+        "process_and_outcome": "Replika rolled back NSFW features temporarily amid backlash, then reintroduced moderated versions. No regulatory fines, but app store reviews and user exodus followed.",
+        "involved_parties": [
+            "Replika (Luka Inc.)",
+            "App store operators"
+        ],
+        "applicable_regulations_or_policies": [
+            "App Store Review Guidelines",
+            "AI Ethics Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "OpenAI GPT Store Policy Enforcement",
+        "example_background": "Following the 2024 launch of the GPT Store, OpenAI received numerous reports of custom GPTs generating content related to disallowed topics such as self-harm instructions and deceptive materials. Users submitted reports via the in-app feature, highlighting GPTs designed for specific prohibited uses. OpenAI's moderation team reviewed submissions, leading to the removal of offending GPTs from the store.",
+        "process_and_outcome": "Over 100 GPTs were taken down in the first weeks, with creators receiving warnings or bans. OpenAI published transparency reports on enforcement actions.",
+        "involved_parties": [
+            "OpenAI",
+            "GPT Store creators",
+            "ChatGPT users"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies",
+            "GPT Store Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Anthropic Claude Safety Reporting Success",
+        "example_background": "Anthropic implemented a robust user reporting system for its Claude AI model, allowing users to flag responses that approached policy boundaries. In documented cases, reports led to rapid model fine-tuning to prevent recurrence of edge-case generations. The company's constitutional AI approach incorporated user feedback loops for continuous improvement.",
+        "process_and_outcome": "Feedback from reports resulted in iterative updates, with Anthropic releasing reports on mitigation effectiveness and low recidivism rates.",
+        "involved_parties": [
+            "Anthropic",
+            "Users via feedback channels"
+        ],
+        "applicable_regulations_or_policies": [
+            "Anthropic Responsible Scaling Policy",
+            "AI Safety Standards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "xAI Grok Content Moderation Actions",
+        "example_background": "xAI's Grok chatbot on the X platform faced user-generated prompts leading to policy-violating outputs, which were reported through X's built-in tools. Instances included generations of misleading information and sensitive content. xAI responded by adjusting prompts and enhancing detection.",
+        "process_and_outcome": "Violating interactions were curtailed, and xAI emphasized real-time reporting integration in updates.",
+        "involved_parties": [
+            "xAI",
+            "X Corp (formerly Twitter)",
+            "Users"
+        ],
+        "applicable_regulations_or_policies": [
+            "X Platform Rules",
+            "Grok Usage Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Midjourney Discord Ban Wave",
+        "example_background": "Midjourney's AI image generation on Discord saw users creating and sharing images depicting disallowed subjects, reported via Discord's abuse reporting. Moderators identified patterns of policy non-compliance, leading to server-wide enforcement.",
+        "process_and_outcome": "Thousands of accounts banned, with Midjourney implementing stricter prompt filters and reporting verification processes.",
+        "involved_parties": [
+            "Midjourney",
+            "Discord",
+            "Community Trust & Safety"
+        ],
+        "applicable_regulations_or_policies": [
+            "Midjourney Community Guidelines",
+            "Discord Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Stability AI Safety Report Handling",
+        "example_background": "Stability AI's Stable Diffusion models hosted on community platforms received reports of generated images violating content policies. The company established reporting pipelines that funneled issues to safety teams for model and platform adjustments.",
+        "process_and_outcome": "Reports triggered safety classifier updates and partnerships for better monitoring, demonstrating effective response mechanisms.",
+        "involved_parties": [
+            "Stability AI",
+            "Hosting platforms like Civitai"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stability AI Usage Policy",
+            "Content Safety Standards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "NVIDIA AI Foundry Moderation Practices",
+        "example_background": "NVIDIA's AI Foundry platform for custom models included user reporting for outputs that contravened enterprise policies. Documented cases showed reports leading to model quarantines and retraining, ensuring platform integrity for business users.",
+        "process_and_outcome": "High compliance rates post-implementation, with quarterly audits confirming effective reporting utilization.",
+        "involved_parties": [
+            "NVIDIA",
+            "Enterprise customers"
+        ],
+        "applicable_regulations_or_policies": [
+            "NVIDIA AI Enterprise Policies",
+            "ISO 42001 AI Management"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Apple Removal of CSAM Scanning Feature",
+        "example_background": "In 2021, Apple announced plans to implement on-device scanning for child sexual abuse material (CSAM) in iCloud photos using neural matching technology, along with modifications to iMessage for scanning attachments and parental notifications for child safety. The feature aimed to detect known CSAM hashes from databases like those provided by the National Center for Missing & Exploited Children (NCMEC). Public backlash emerged over concerns regarding privacy implications, potential for expansion to other content scanning, end-to-end encryption integrity, false positives affecting innocent users, and government overreach possibilities. Privacy advocates, technologists, and organizations such as the Electronic Frontier Foundation (EFF) raised issues about mass surveillance risks and technical reliability. Apple responded by conducting internal reviews and external consultations, ultimately deciding to halt deployment. The company stated it would continue developing technology for child safety while addressing feedback on privacy safeguards. This occurred amid broader debates on balancing child protection with user data security in tech ecosystems.",
+        "process_and_outcome": "Apple publicly announced the indefinite postponement of the CSAM scanning rollout on September 10, 2021, following weeks of criticism. No regulatory action was taken, but the decision was influenced by stakeholder feedback and internal assessments. Apple continued to support law enforcement through other means like user reports and device seizures.",
+        "involved_parties": [
+            "Apple Inc. (platform provider)",
+            "Electronic Frontier Foundation (EFF, privacy advocate)",
+            "National Center for Missing & Exploited Children (NCMEC, content database)",
+            "Various privacy researchers and media outlets"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apple Privacy Policy",
+            "U.S. Electronic Communications Privacy Act (ECPA)",
+            "Child Protection Laws (e.g., 18 U.S.C. \u00a7 2258A)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Google Play Removal of Timnit Gebru's Content",
+        "example_background": "Timnit Gebru, a prominent AI ethics researcher, published a paper critiquing large language models' environmental impacts, biases, and risks. After internal tensions at Google, including her dismissal from Google AI in December 2020, Google removed her personal website from Google Play due to its association with the paper. The site contained the research paper and related discussions. Google cited violations of its developer policies related to content that could be seen as harmful or misleading. Gebru and supporters argued this was retaliation for her research challenging AI industry practices. The incident highlighted tensions between researchers and platform operators over content control, academic freedom, and corporate influence on discourse about AI risks.",
+        "process_and_outcome": "Google removed the app in late 2020. Following public outcry, advocacy from figures like Margaret Mitchell (also dismissed from Google), and media coverage, Google reinstated the app shortly after. No formal regulatory investigation ensued, but it drew attention to platform moderation practices.",
+        "involved_parties": [
+            "Google LLC (platform operator)",
+            "Timnit Gebru (content creator)",
+            "Society for Open Information Sciences (DAIR, research organization)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Play Developer Policy",
+            "Google Terms of Service"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "December 2020"
+    },
+    {
+        "example_name": "Twitter Removal of Third-Party Client APIs",
+        "example_background": "In 2012, Twitter announced the shutdown of its API access for third-party clients such as Tweetbot, Twitterrific, and others. These apps had relied on Twitter's API to provide alternative interfaces for users. Twitter stated the decision aimed to create a consistent user experience, improve product quality, and focus development on its official apps. Previously, third-party clients represented a significant portion of Twitter usage, with diverse features like advanced search and customization. Developers expressed concerns over lost livelihoods and reduced platform innovation. The change was part of Twitter's evolution from an open platform to a more controlled ecosystem.",
+        "process_and_outcome": "Twitter deprecated API v1.0 and enforced API v1.1 terms in 2013, effectively removing third-party client functionality by limiting access. Developers migrated or ceased operations. No legal challenges succeeded, though some apps pivoted to web-based services.",
+        "involved_parties": [
+            "Twitter Inc. (platform)",
+            "Tweetbot (Tapbots)",
+            "Twitterrific (The Iconfactory)",
+            "Various independent developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter API Terms of Service",
+            "Twitter Developer Agreement"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Facebook Takedown of White Nationalist Accounts",
+        "example_background": "In 2019, Facebook conducted a sweep removing thousands of accounts and pages linked to white nationalist and separatist movements. The action targeted content promoting ideologies deemed dangerous organizations under Facebook's policies. This included groups like those associated with the Christchurch mosque shooter. The removals were part of ongoing efforts to curb hate speech and extremism following high-profile incidents. Critics noted inconsistencies in enforcement, potential free speech issues, and challenges in defining nationalism versus supremacy. Facebook had updated its policies to explicitly cover white nationalism after years of debate.",
+        "process_and_outcome": "Facebook removed over 200 pages, groups, and accounts in June 2019, with additional sweeps later. The company published transparency reports detailing the actions. No major legal repercussions, though it faced scrutiny from civil liberties groups.",
+        "involved_parties": [
+            "Facebook (Meta Platforms)",
+            "Global Internet Forum to Counter Terrorism (GIFCT)",
+            "Anti-Defamation League (content monitoring)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Community Standards",
+            "Dangerous Individuals and Organizations Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "YouTube Demonetization and Removal of Logan Paul Content",
+        "example_background": "YouTuber Logan Paul uploaded a video in January 2018 filmed in Japan's Aokigahara forest, showing a suicide victim's body. The video garnered millions of views before YouTube removed it for violating policies on graphic content. Paul faced backlash for insensitivity. Subsequently, YouTube suspended his channel from the Partner Program, demonetizing videos and removing ad eligibility. This was part of broader YouTube efforts to enforce advertiser-friendly guidelines amid advertiser boycotts over extremist and harmful content.",
+        "process_and_outcome": "YouTube removed the video within 24 hours, suspended Paul's monetization for weeks, and required counseling. Paul issued apologies and resumed activities after review. YouTube updated policies on sensitive content.",
+        "involved_parties": [
+            "YouTube (Google)",
+            "Logan Paul (content creator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "YouTube Community Guidelines",
+            "YouTube Partner Program Policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "January 2018"
+    },
+    {
+        "example_name": "App Store Removal of Fortnite by Epic Games",
+        "example_background": "Epic Games implemented direct in-app purchases in Fortnite's iOS version in August 2020, bypassing Apple's 30% commission via its own payment system. This followed disputes over App Store fees. Apple viewed this as a violation of App Store Review Guidelines requiring use of Apple's In-App Purchase system. Fortnite was popular with over 350 million users, and the move was part of Epic's campaign against app store monopolies, including a matching lawsuit.",
+        "process_and_outcome": "Apple removed Fortnite from the App Store on August 13, 2020. Epic sued Apple for anticompetitive practices. U.S. courts largely upheld Apple's right to enforce guidelines, though mandated some changes like external link allowances. Epic's appeal continues.",
+        "involved_parties": [
+            "Apple Inc. (app store operator)",
+            "Epic Games (developer)",
+            "U.S. Department of Justice (antitrust scrutiny)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apple App Store Review Guidelines (Section 3.1.1)",
+            "iOS Developer Program License Agreement"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "August 2020"
+    },
+    {
+        "example_name": "OpenAI Removal of Custom GPTs for Policy Violations",
+        "example_background": "OpenAI launched Custom GPTs in November 2023, allowing users to create and share specialized versions of ChatGPT. Instances occurred where GPTs generated disallowed content, such as those simulating illegal activities or producing harmful outputs. OpenAI monitored usage and removed GPTs that contravened usage policies, including those creating deceptive materials or facilitating disallowed uses. This was amid rapid adoption with thousands of GPTs published.",
+        "process_and_outcome": "OpenAI removed specific GPTs without prior notice, notifying creators where possible. Enforcement was ongoing, with policy updates to clarify rules. No public legal actions, but internal moderation scaled up.",
+        "involved_parties": [
+            "OpenAI (platform)",
+            "Various GPT creators (users)"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies",
+            "GPTs Program Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "November 2023"
+    },
+    {
+        "example_name": "GitHub Copilot Repository Removals",
+        "example_background": "GitHub Copilot, an AI coding assistant, faced issues with repositories and extensions generating code copying licensed material or violating terms. GitHub removed certain Copilot-related repos and marketplace extensions in 2022-2023 that distributed insecure code or breached licensing. This stemmed from lawsuits alleging Copilot trained on public code without permission, leading to proactive content moderation.",
+        "process_and_outcome": "GitHub suspended or removed offending repositories and extensions. Legal suits by authors like David Holz continued. GitHub implemented filters for license compliance.",
+        "involved_parties": [
+            "GitHub (Microsoft) (platform)",
+            "OpenAI (Copilot developer)",
+            "Various open-source developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Terms of Service",
+            "GitHub Marketplace Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Discord Server and Bot Takedowns for ToS Violations",
+        "example_background": "Discord, a communication platform, regularly removes servers and bots facilitating piracy, scams, or hate speech. In 2021, high-profile takedowns included servers distributing malware-laden bots and those organizing raids. Bots automating disallowed activities were terminated. This maintained platform safety for millions of users in gaming and communities.",
+        "process_and_outcome": "Discord terminated thousands of servers and bots annually, issuing bans. Transparency reports detailed enforcement volumes. Some creators appealed unsuccessfully.",
+        "involved_parties": [
+            "Discord Inc. (platform)",
+            "Various server owners and bot developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Discord Terms of Service",
+            "Community Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Samsung AI Image Generator Unauthorized Data Use",
+        "example_background": "In late 2023, Samsung Electronics released a generative AI tool called 'AI Drawing Assist Pro' within its One UI 6 beta software for Galaxy devices. The tool allowed users to create images from text prompts but operated by sending user prompts and generated images to a third-party service without explicit user disclosure or consent. Internal testing revealed that prompts containing sensitive personal information, such as names, emails, and phone numbers, were transmitted to external servers operated by external providers. This occurred during the beta phase on select Galaxy S23 and S24 models in South Korea, raising concerns among testers who discovered the data transmission through network monitoring. Samsung stated the feature was intended for internal testing and not for commercial release, but the lack of transparency about third-party involvement led to public scrutiny. The company had not clearly identified the external dependencies in its feature documentation or user interfaces, leading users to assume all processing was handled internally by Samsung systems.",
+        "process_and_outcome": "Following tester reports on social media, Samsung suspended the feature on December 20, 2023, and issued a statement acknowledging the data transmission. The company committed to revising the feature with enhanced privacy controls and clearer disclosures before any future release. No formal regulatory investigation was launched, but the incident prompted Samsung to update its beta program guidelines. Public backlash highlighted risks of undisclosed third-party integrations in AI tools.",
+        "involved_parties": [
+            "Samsung Electronics",
+            "Third-party AI service providers",
+            "Samsung beta testers"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR (data processing disclosures)",
+            "Samsung Privacy Policy",
+            "Personal Information Protection Act (South Korea)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "FTC Action Against Amazon Over Alexa Third-Party Skills",
+        "example_background": "Amazon's Alexa platform hosts thousands of third-party 'skills' developed by external creators, which integrate with the voice assistant on Echo devices. These skills access user voice data, device controls, and personal information without Amazon's direct oversight of each developer's practices. In 2023, the U.S. Federal Trade Commission (FTC) examined how Amazon handled privacy in its ecosystem, finding that the company retained children's voice recordings indefinitely and shared data with third-party skill developers without adequate user notifications. Parents reported instances where skills unexpectedly accessed conversations or linked accounts, stemming from Amazon's certification process that did not rigorously vet third-party data handling. The platform's design encouraged users to enable skills from unknown developers, often promoted in the Alexa store without clear indicators of external control.",
+        "process_and_outcome": "The FTC settled with Amazon in May 2023, requiring the company to delete certain voice data, implement stronger privacy controls for third-party skills, and provide clearer disclosures. Amazon agreed to a $25 million civil penalty for children's privacy violations and ongoing monitoring of its ecosystem. The settlement mandated better vetting of third-party developers and user consent mechanisms.",
+        "involved_parties": [
+            "Amazon.com Inc.",
+            "FTC",
+            "Third-party Alexa skill developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Children's Online Privacy Protection Act (COPPA)",
+            "FTC Act Section 5 (unfair practices)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Character.AI Content Moderation Failures with Third-Party Models",
+        "example_background": "Character.AI, a platform launched in 2022 for customizable AI chatbots, relied on third-party large language models and user-generated content to power conversational characters mimicking celebrities, historical figures, and fictional personas. Users reported interactions producing harmful or explicit content, including simulations of violence and sexual scenarios with minors, due to insufficient safeguards in the underlying models sourced externally. The platform's marketplace allowed users to create and share 'characters' without rigorous review, leading to widespread availability of untrusted bots. Incidents gained attention after teen users described addictive and distressing experiences, with some cases linked to self-harm, highlighting the risks of deploying third-party AI components without transparency about their origins or controls.",
+        "process_and_outcome": "In October 2024, families filed lawsuits alleging negligence, prompting Character.AI to introduce age restrictions, enhanced filters, and human review processes. No regulatory fines were imposed yet, but ongoing investigations by state attorneys general focus on child safety. The company updated its policies to disclose third-party model dependencies more clearly.",
+        "involved_parties": [
+            "Character.AI",
+            "Third-party LLM providers",
+            "U.S. state attorneys general",
+            "Affected families"
+        ],
+        "applicable_regulations_or_policies": [
+            "Section 230 of Communications Decency Act",
+            "State child protection laws"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Microsoft Copilot Plugin Ecosystem Risks",
+        "example_background": "Microsoft's Copilot, integrated into Bing and Office apps, supports third-party plugins developed by external partners that extend functionality for tasks like data analysis or integrations with services such as Kayak or OpenTable. In early 2024, security researchers identified vulnerabilities where malicious plugins tricked Copilot into executing harmful actions, such as leaking sensitive data or installing malware, because users could enable plugins from unverified sources via natural language prompts. Microsoft had not initially required explicit vetting for all plugins, allowing rapid deployment but exposing users to risks from unknown third-party code. Documentation did not prominently warn that plugins operated outside Microsoft's direct control.",
+        "process_and_outcome": "Microsoft responded by restricting plugin access, mandating publisher verification, and adding user prompts for approvals. A patch in March 2024 addressed prompt injection flaws. No major breaches occurred, but the episode led to enhanced certification standards.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Third-party plugin developers",
+            "Cybersecurity researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Services Agreement",
+            "GDPR (third-party processor requirements)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Apple App Store Guidelines for AI Apps",
+        "example_background": "Apple's App Store Review Guidelines, updated in 2024 for Apple Intelligence features, require developers of AI-powered apps to disclose use of third-party models or data sources, especially those involving cloud processing. Apps using external APIs for generative AI must detail data transmission and obtain user consent. This stems from prior incidents where apps like deepfake generators bypassed reviews by not revealing backend dependencies on untrusted providers. Apple enforces labeling for apps not built with Apple Intelligence, ensuring users recognize external tooling.",
+        "process_and_outcome": "Apple rejected or removed non-compliant apps during reviews, maintaining a clean ecosystem. Developers complying with disclosures saw approvals, demonstrating effective policy adherence.",
+        "involved_parties": [
+            "Apple Inc.",
+            "App developers",
+            "Users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apple App Store Review Guidelines 4.3 (Design)",
+            "EU Digital Services Act (transparency)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Google Gemini Apps Verification Program",
+        "example_background": "Google's Gemini platform, formerly Bard, introduced a strict verification process for third-party extensions and apps in 2024. Only verified developers can publish extensions that interact with Gemini, requiring security audits and clear disclosures about data usage. This followed early beta issues where unverified extensions accessed user data unexpectedly. Google prominently displays verification badges and warns users against untrusted apps, aligning with its policy of recommending only known and trusted integrations.",
+        "process_and_outcome": "The program reduced reported incidents of data misuse, with Google delisting non-compliant extensions. User trust metrics improved per company reports.",
+        "involved_parties": [
+            "Google LLC",
+            "Verified third-party developers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google AI Principles",
+            "Gemini Apps Terms of Service"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Anthropic Claude Third-Party Prompt Libraries Caution",
+        "example_background": "Anthropic, developer of Claude AI, explicitly advises users against third-party prompt libraries and custom GPT-like tools that claim compatibility, due to risks of malicious injections or data exfiltration. Documentation states reliance on unverified external prompts or apps may expose data to parties outside Anthropic's control, recommending only official integrations.",
+        "process_and_outcome": "Users following guidelines avoided incidents, with Anthropic issuing security bulletins on verified use. This practice upholds safety standards.",
+        "involved_parties": [
+            "Anthropic PBC",
+            "Users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Anthropic Responsible Scaling Policy",
+            "Claude Usage Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Replika AI Third-Party Data Sharing Incident",
+        "example_background": "Replika, an AI companion app, integrated third-party analytics and ad services that accessed user chat logs without clear consent notices. In 2023, users discovered via privacy scans that conversations were sent to external providers for personalization, contradicting the app's marketed private nature. The reliance on untrusted third parties led to data exposure risks.",
+        "process_and_outcome": "EU regulators investigated under GDPR, resulting in a \u20ac5 million fine in 2024. Replika overhauled disclosures and minimized third-party access.",
+        "involved_parties": [
+            "Replika AI",
+            "EU Data Protection Authorities",
+            "Third-party analytics firms"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 13 (transparency)",
+            "EU AI Act high-risk provisions"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Uber Third-Party Data Breach Notification Failure",
+        "example_background": "In late 2016, unauthorized access occurred to Uber's GitHub repository containing rider and driver data for 57 million users. Two hackers exploited a compromised private GitHub account with admin privileges to the repository, downloading sensitive PII including names, emails, phone numbers, and in some cases license numbers. Uber paid the hackers $100,000 to delete the data and not disclose the incident, treating it as an extortion attempt rather than a reportable breach. The data was handled by a third-party cloud storage linked via GitHub. Uber failed to notify affected users or regulators for over a year until November 2017.",
+        "process_and_outcome": "The FTC investigated, leading to a $148 million settlement with all 50 US states and DC in 2018. The UK ICO fined Uber \u00a3385,000, later increased. Uber implemented enhanced security measures and compliance programs. CEO Dara Khosrowshahi apologized publicly.",
+        "involved_parties": [
+            "Uber Technologies Inc.",
+            "US Federal Trade Commission (FTC)",
+            "UK Information Commissioner's Office (ICO)",
+            "GitHub (Microsoft)"
+        ],
+        "applicable_regulations_or_policies": [
+            "California Consumer Privacy Act (CCPA)",
+            "EU GDPR",
+            "New York SHIELD Act",
+            "FTC data security guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Salesforce Enterprise Connector Data Exposure",
+        "example_background": "In 2022, cybersecurity firm UpGuard discovered that data from 49 organizations using Salesforce Marketing Cloud was publicly exposed due to misconfigured AWS S3 buckets linked via Salesforce connectors. The exposed data included customer PII, emails, phone numbers, and internal documents totaling hundreds of gigabytes. These buckets were intended for data syncing between Salesforce and third-party marketing tools but lacked proper access controls. Organizations affected included US government agencies and financial firms. Salesforce's connector mechanisms facilitated the data flow, but end-user configuration errors led to the exposures.",
+        "process_and_outcome": "UpGuard notified affected parties and Salesforce. Salesforce assisted in securing the buckets. No formal regulatory fines were imposed, but it prompted multiple organizations to audit their connector configurations. Public reports increased awareness of shared responsibility in connector usage.",
+        "involved_parties": [
+            "Salesforce Inc.",
+            "UpGuard",
+            "Affected organizations (e.g., Michigan government)",
+            "Amazon Web Services (AWS)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "CCPA",
+            "Salesforce Data Security Guidelines",
+            "AWS Shared Responsibility Model"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Microsoft Power Automate Connector Misconfiguration",
+        "example_background": "In 2023, researchers found thousands of Microsoft Power Automate flows publicly accessible due to improper sharing settings in connectors linking to services like SharePoint, OneDrive, and third-party apps such as Twitter and Google. These flows processed and retrieved sensitive data including credentials, API keys, and business documents. Power Automate's connector architecture allows users to enable data flows to external applications, but default or user-set permissions made outputs viewable without authentication. Examples included HR records and financial data exposed across enterprises.",
+        "process_and_outcome": "Microsoft issued guidance on securing flows and deprecated public sharing features. No major fines, but it led to internal audits at affected companies. Cybersecurity firms published remediation guides.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "SOC Prime Labs (researchers)",
+            "Various enterprise users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft 365 Compliance Boundaries",
+            "GDPR",
+            "ISO 27001"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Zapier Connector Data Leak Incidents",
+        "example_background": "Zapier, an automation platform, experienced multiple incidents where user-configured 'Zaps' (automations connecting apps like Gmail, Slack, and CRMs) exposed sensitive data due to insecure webhook endpoints or shared triggers. In one 2021 case, a misconfigured Zap from a healthcare provider leaked patient records to public endpoints. Another involved financial data from QuickBooks flowing to unsecured Google Sheets via connectors. Zapier's model instructs data transfer to connected applications per user authorization, but inadequate validation led to unintended disclosures.",
+        "process_and_outcome": "Zapier enhanced security scans and access controls in 2022. Affected users self-remediated. No regulatory actions reported, but it spurred HIPAA compliance discussions for healthcare integrations.",
+        "involved_parties": [
+            "Zapier Inc.",
+            "Various users (e.g., healthcare providers)",
+            "Cybersecurity researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "HIPAA (for healthcare)",
+            "GDPR",
+            "Zapier Terms of Service on data handling"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "HubSpot Third-Party App Data Breach",
+        "example_background": "In 2019, The Dreamery, a skincare brand using HubSpot's CRM, had 4,500 customer records exposed when a third-party app developer with access via HubSpot's App Marketplace misconfigured permissions. The app was designed to sync lead data to external marketing tools, but revoked API keys were not properly deactivated, allowing continued data retrieval. HubSpot's connector system enabled the app to pull contact details, emails, and purchase history, which were then stored insecurely by the developer.",
+        "process_and_outcome": "HubSpot terminated the app listing and notified affected users. The Dreamery faced no fines but improved integrations. HubSpot updated its marketplace vetting processes.",
+        "involved_parties": [
+            "HubSpot Inc.",
+            "The Dreamery",
+            "Third-party app developer"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "HubSpot App Partner Program Policies",
+            "CCPA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Google Workspace Add-On Data Policy Compliance",
+        "example_background": "Google enforces strict data handling policies for Workspace Marketplace add-ons, requiring developers to specify data access scopes and obtain user consent before sending data to external servers. In audits, compliant add-ons like those for email automation clearly disclose data flows to backend services and adhere to no-data-retention policies where applicable. Google regularly reviews and approves add-ons, ensuring users are informed that data sent via connectors is governed by the add-on provider's terms post-transfer.",
+        "process_and_outcome": "Google's ongoing compliance reviews result in add-on approvals and user trust. No major incidents reported from compliant apps, demonstrating effective policy adherence through scoped permissions and transparency.",
+        "involved_parties": [
+            "Google LLC",
+            "Google Workspace Marketplace developers",
+            "Enterprise users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Workspace Marketplace Policies",
+            "GDPR",
+            "CCPA"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Slack App Directory Secure Integration Practices",
+        "example_background": "Slack's App Directory requires apps to declare data scopes and undergo security reviews before listing. Compliant apps, such as project management integrations, explicitly notify users that channel messages or user data sent via the connector to external services (e.g., Trello or Asana) are handled per the third-party's privacy policy. Slack provides granular permissions and revocation tools, ensuring users authorize data flows knowingly.",
+        "process_and_outcome": "Slack's model has prevented widespread data incidents, with regular audits maintaining compliance. It serves as an industry benchmark for connector transparency.",
+        "involved_parties": [
+            "Slack Technologies (Salesforce)",
+            "App developers",
+            "Slack workspace admins"
+        ],
+        "applicable_regulations_or_policies": [
+            "Slack App Distribution Terms",
+            "GDPR",
+            "SOC 2 Type II"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter API Third-Party App Data Leak",
+        "example_background": "In 2022, Twitter identified that a third-party app called TweetDelete, used by over 200,000 accounts, had accessed protected tweets of millions of users without authorization. The app exploited Twitter's API to scrape data beyond its permitted scope due to lax permission controls in the API integration. Twitter's developer platform allowed third-party applications to request various levels of access, but the company did not adequately monitor or revoke excessive permissions. The incident occurred as Twitter relied on its API ecosystem for extended functionality, with users enabling apps without fully understanding the data sharing implications.",
+        "process_and_outcome": "Twitter suspended the app, notified affected users, and tightened API access policies, including mandatory reviews for high-risk apps. No fines were imposed, but it contributed to broader scrutiny of Twitter's data practices leading up to regulatory actions by the Irish Data Protection Commission.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "TweetDelete (third-party developer)",
+            "Irish Data Protection Commission (DPC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "Twitter Developer Agreement and Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Okta Third-Party Integration Support System Breach",
+        "example_background": "In 2022, the support system of Okta, an identity management provider, was breached via a third-party contractor's account. Hackers accessed the system through an account linked to a legacy Sitel support vendor, compromising files related to 366 customers. Okta uses extensive third-party integrations and APIs for its identity platform, and the breach occurred because the contractor's laptop was infected with malware, allowing session token theft. This exposed sensitive information like customer tenant names and credentials for API connectors. The incident demonstrated risks in supply chain integrations where third-party support tools connect to core systems without sufficient isolation.",
+        "process_and_outcome": "Okta investigated, contained the breach within hours, and enhanced vendor security requirements. No customer data was misused, but it led to mandatory multi-factor authentication for all support access and stricter third-party vetting. Okta faced no direct fines but issued security advisories.",
+        "involved_parties": [
+            "Okta Inc.",
+            "Sitel Group (third-party support vendor)",
+            "Affected Okta customers"
+        ],
+        "applicable_regulations_or_policies": [
+            "SOC 2 Trust Services Criteria",
+            "NIST Cybersecurity Framework",
+            "Okta Third-Party Risk Management Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Microsoft GDPR Compliance with Third-Party Connectors",
+        "example_background": "Microsoft Power Automate (formerly Microsoft Flow) implements strict controls for connectors to over 400 third-party services, requiring users to review and approve permissions explicitly. In response to GDPR, Microsoft conducted comprehensive audits of all connectors, ensuring data processing agreements with providers and transparent permission scopes. Users receive warnings about data shared with external apps, and Microsoft provides tools to monitor and revoke connector access. This approach was developed after early cloud incidents to build trust in integrations like those with Google Drive, Salesforce, and custom APIs.",
+        "process_and_outcome": "Microsoft's practices passed multiple GDPR audits by European regulators, avoided enforcement actions, and earned certifications like ISO 27001. The company publishes annual transparency reports detailing connector security reviews.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "European Data Protection Authorities",
+            "Third-party connector providers (e.g., Salesforce)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "Microsoft Services Agreement",
+            "ISO 27001"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Zapier Secure Connector Ecosystem Practices",
+        "example_background": "Zapier operates a no-code automation platform connecting over 5,000 apps via pre-built integrations, emphasizing user responsibility and platform oversight. Each connector undergoes security review, including OAuth implementation, data minimization, and privacy policy checks. Zapier provides detailed permission documentation, usage analytics, and one-click revocation tools. Following incidents in the integration space, Zapier established a trust center outlining vetting processes for apps, mandatory terms reviews, and incident response for third-party failures.",
+        "process_and_outcome": "Zapier has maintained a clean compliance record, achieving SOC 2 Type II certification and supporting GDPR/CCPA compliance for users. No major breaches attributed to connectors have been reported, with proactive measures preventing issues.",
+        "involved_parties": [
+            "Zapier Inc.",
+            "Third-party app developers",
+            "Customers using integrations"
+        ],
+        "applicable_regulations_or_policies": [
+            "SOC 2",
+            "GDPR",
+            "Zapier Terms of Service and Privacy Policy Review Requirements"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Salesforce AppExchange Security Review Program",
+        "example_background": "Salesforce's AppExchange marketplace hosts thousands of third-party apps that integrate via APIs and connectors into its CRM platform. All apps must pass a rigorous security review, including code scans, vulnerability assessments, and privacy impact analyses. Developers are required to document data flows, obtain user consents, and adhere to Salesforce's customer data policies. Users are prompted to review app terms and privacy policies before installation, with controls to disable integrations anytime.",
+        "process_and_outcome": "The program has prevented numerous risky apps from launch, supported Salesforce's FedRAMP authorization, and minimized incidents. Regular audits ensure ongoing compliance.",
+        "involved_parties": [
+            "Salesforce Inc.",
+            "AppExchange developers",
+            "U.S. Federal Government (FedRAMP)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FedRAMP",
+            "GDPR",
+            "Salesforce Security Review Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Dropbox Sign (DocuSign) API Partner Vetting",
+        "example_background": "Dropbox Sign provides APIs for embedding e-signature workflows into third-party apps, requiring partners to undergo technical and privacy reviews before approval. Partners must demonstrate secure handling of API keys, implement proper OAuth flows, and link to reviewed privacy policies. Incidents like the 2018 DocuSign phishing breach prompted enhanced measures, including scoped permissions and audit logs for all connector usage.",
+        "process_and_outcome": "Post-incident improvements led to no repeat issues, ISO 27001 certification, and trust from enterprise clients relying on integrations.",
+        "involved_parties": [
+            "Dropbox Inc. (Dropbox Sign)",
+            "API integration partners",
+            "Enterprise customers"
+        ],
+        "applicable_regulations_or_policies": [
+            "ISO 27001",
+            "GDPR",
+            "eIDAS Regulation for e-signatures"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Equifax Apache Struts Third-Party Vulnerability Breach",
+        "example_background": "In 2017, Equifax suffered a massive breach affecting 147 million people due to an unpatched vulnerability in Apache Struts, a third-party web framework used in its dispute portal application. The framework was integrated without timely updates or segmentation, allowing attackers to execute remote code and access sensitive PII. Equifax's reliance on open-source components without rigorous patch management and vendor monitoring contributed to the prolonged exposure.",
+        "process_and_outcome": "Multiple investigations by the FTC, CFPB, and SEC resulted in over $700 million in settlements, including consumer redress. Equifax overhauled its software supply chain security, implementing automated vulnerability scanning for third-party libraries.",
+        "involved_parties": [
+            "Equifax Inc.",
+            "Federal Trade Commission (FTC)",
+            "Consumer Financial Protection Bureau (CFPB)",
+            "Apache Software Foundation"
+        ],
+        "applicable_regulations_or_policies": [
+            "Fair Credit Reporting Act (FCRA)",
+            "Gramm-Leach-Bliley Act (GLBA)",
+            "SEC Regulation S-P"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "FDA Warning to uBiome for At-Home Microbiome Testing",
+        "example_background": "uBiome offered direct-to-consumer gut microbiome testing kits, analyzing stool samples to provide reports on microbial composition, diversity, and supposed health insights including recommendations for diet and probiotics. The service was marketed as a tool for personal health optimization without medical supervision. Customers submitted samples via mail, and results were delivered online with interpretations suggesting links to conditions like IBS or inflammation. The company raised over $100 million from investors and partnered with wellness influencers. FDA scrutiny arose when tests were positioned as diagnostic tools despite lacking clinical validation, and unverified claims about detecting disease risks were made. Operations involved processing thousands of samples in a CLIA-certified but not FDA-approved lab.",
+        "process_and_outcome": "The FDA issued a warning letter in 2019 classifying uBiome tests as unapproved medical devices. Shortly after, the DOJ raided the company's offices amid allegations of insurance fraud for billing Medicare and insurers for research samples. uBiome filed for bankruptcy, and founders Jessica Richman and Zachary Apte faced federal charges of wire fraud, resulting in prison sentences of four years each in 2021. The company paid restitution exceeding $1 million.",
+        "involved_parties": [
+            "uBiome Inc.",
+            "Jessica Richman (Co-founder)",
+            "Zachary Apte (Co-founder)",
+            "U.S. Food and Drug Administration (FDA)",
+            "U.S. Department of Justice (DOJ)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Federal Food, Drug, and Cosmetic Act (FDCA)",
+            "Clinical Laboratory Improvement Amendments (CLIA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "23andMe FDA Enforcement Discretion and Later Violations",
+        "example_background": "23andMe provides direct-to-consumer genetic testing kits assessing ancestry and over 100 health-related traits, including predispositions for conditions like Parkinson's and breast cancer via BRCA variants. Launched in 2007, the service gained popularity with saliva-based kits processed in labs. Health reports included carrier status, wellness traits, and traits like muscle composition. The company submitted a 510(k) application for Personal Genome Service (PGS) but failed to respond to FDA requests for over a year, continuing to market health reports. After FDA marketing authorization for certain reports in 2017, 23andMe resumed sales but faced issues with unauthorized cancer risk reports.",
+        "process_and_outcome": "In 2013, the FDA ordered 23andMe to halt marketing of health reports until clearance. Following compliance and resubmission, the FDA granted marketing authorization for 10 reports in 2017. In 2021, a warning letter addressed unauthorized claims about cancer detection. 23andMe adjusted marketing and obtained further clearances.",
+        "involved_parties": [
+            "23andMe Inc.",
+            "U.S. Food and Drug Administration (FDA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Federal Food, Drug, and Cosmetic Act (FDCA)",
+            "FDA 510(k) Premarket Notification"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2007"
+    },
+    {
+        "example_name": "FDA Action Against Viome for Health Claims",
+        "example_background": "Viome sells at-home testing kits for gut, oral, and cellular health, using RNA sequencing to analyze microbiomes and gene expression. Reports provide personalized nutrition, supplement, and probiotic recommendations, claiming to optimize health and address issues like leaky gut or inflammation. The service targets consumers seeking preventive health insights without physician involvement. Kits are mailed, samples returned for lab analysis, and results accessed via app. Marketing emphasized therapeutic benefits despite lack of FDA approval for diagnostic use.",
+        "process_and_outcome": "The FDA issued a warning letter in 2021 for marketing unapproved medical devices and making unauthorized disease treatment claims. Viome was required to cease sales of certain tests and revise claims. The company responded by reclassifying services as wellness tools and pursuing regulatory submissions.",
+        "involved_parties": [
+            "Viome Inc.",
+            "U.S. Food and Drug Administration (FDA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Federal Food, Drug, and Cosmetic Act (FDCA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Everlywell COVID-19 Test Marketing Issues",
+        "example_background": "During the COVID-19 pandemic, Everlywell launched at-home antibody and antigen test kits, allowing users to collect samples via nasal swab or finger prick and mail them for analysis. Results indicated prior exposure or active infection, with reports suggesting immunity levels or need for precautions. The tests were marketed directly to consumers for personal use, bypassing healthcare providers. Rapid rollout amid shortages led to claims exceeding validated performance, and distribution reached millions.",
+        "process_and_outcome": "The FDA issued an emergency use authorization (EUA) for the antibody test but revoked it in 2021 due to accuracy concerns. A warning letter followed for unauthorized general wellness claims. Everlywell discontinued certain kits and collaborated with FDA for improvements, later receiving full approvals for other tests.",
+        "involved_parties": [
+            "Everlywell Inc.",
+            "U.S. Food and Drug Administration (FDA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Federal Food, Drug, and Cosmetic Act (FDCA)",
+            "Emergency Use Authorization (EUA) Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OpenAI Usage Policies Enforcement in Healthcare",
+        "example_background": "OpenAI updated its usage policies to explicitly prohibit use of its API and models like GPT for diagnosis, treatment, or any medical applications without compliance with laws. This followed reports of developers building unauthorized symptom checkers and mental health chatbots using OpenAI tools. For instance, apps claiming to diagnose conditions like ADHD or COVID via chat interfaces proliferated on app stores. OpenAI monitored API usage and suspended accounts engaged in such activities to mitigate risks of inaccurate medical advice.",
+        "process_and_outcome": "OpenAI enforced policies by terminating access for violators, issuing public guidelines, and partnering with healthcare firms for compliant pilots. No major fines, but multiple developer bans documented in policy enforcement reports.",
+        "involved_parties": [
+            "OpenAI",
+            "Third-party developers",
+            "App store operators"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies (Medical Use Prohibition)",
+            "HIPAA (in analogous contexts)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google DeepMind NHS Partnership with Safeguards",
+        "example_background": "Google's DeepMind collaborated with the UK's National Health Service (NHS) on the Streams app for managing chronic kidney disease, integrating AI predictions for patient deterioration. The project involved anonymized data from 1.6 million patients initially, later scoped to direct care. Extensive governance ensured no diagnostic use of AI outside clinical oversight, with data access limited and ethics reviews conducted. The app provided alerts to clinicians rather than patient-facing diagnostics.",
+        "process_and_outcome": "After data use controversy, DeepMind revised data flows for compliance. The app was rolled out successfully in hospitals, improving patient monitoring without regulatory penalties. Partnership emphasized responsible AI with human oversight.",
+        "involved_parties": [
+            "Google DeepMind",
+            "Royal Free London NHS Foundation Trust",
+            "UK National Health Service (NHS)",
+            "Information Commissioner's Office (ICO)"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Data Protection Act 2018",
+            "NHS Data Sharing Agreements",
+            "General Data Protection Regulation (GDPR)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "IBM Watson Health Oncology Limitations and Pivot",
+        "example_background": "IBM Watson for Oncology aimed to assist oncologists with treatment recommendations based on patient data, tumor genomics, and literature. Deployed in hospitals worldwide, it analyzed cases to suggest therapies. Real-world use revealed limitations in handling complex cases outside training data, leading to inconsistent recommendations compared to expert panels. IBM marketed it cautiously post-launch, emphasizing adjunct use.",
+        "process_and_outcome": "Independent studies highlighted performance gaps, prompting IBM to sell Watson Health in 2022. No enforcement actions, but the case underscored need for clinical validation. IBM shifted focus to compliant research uses.",
+        "involved_parties": [
+            "IBM Watson Health",
+            "Memorial Sloan Kettering Cancer Center",
+            "Various hospitals"
+        ],
+        "applicable_regulations_or_policies": [
+            "FDA Software as a Medical Device (SaMD) Framework",
+            "Clinical Laboratory Improvement Amendments (CLIA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "PathAI FDA Clearance Process",
+        "example_background": "PathAI develops AI software for digital pathology, assisting pathologists in interpreting cancer biopsies by highlighting regions of interest and providing diagnostic support scores. The tools are integrated into clinical workflows as Class II devices, undergoing rigorous validation. Marketing specifies use only by qualified professionals, with no direct patient or consumer access.",
+        "process_and_outcome": "FDA granted 510(k) clearance for AISight in 2022 for breast cancer diagnostics. The company continues expansions with regulatory approvals, demonstrating structured compliance in medical AI deployment.",
+        "involved_parties": [
+            "PathAI Inc.",
+            "U.S. Food and Drug Administration (FDA)",
+            "Pathology labs"
+        ],
+        "applicable_regulations_or_policies": [
+            "Federal Food, Drug, and Cosmetic Act (FDCA)",
+            "FDA 510(k) Premarket Notification"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "ElevenLabs Voice Cloning Content Removal",
+        "example_background": "ElevenLabs, an AI voice synthesis company, launched a text-to-speech platform in early 2023 that enabled users to generate realistic audio clips from short text prompts. Within days, numerous unauthorized voice clones surfaced online, including audio impersonating public figures such as U.S. President Joe Biden delivering false statements about military enlistment, as well as emergency alerts in various regional accents warning of disasters that did not occur. Additional clips mimicked BBC correspondents reporting fabricated election results and celebrity endorsements for unrelated products. The platform's accessibility allowed rapid creation and distribution of these audio files across social media, news outlets, and messaging apps, raising concerns over misinformation spread through synthetic media. ElevenLabs responded by implementing content moderation systems to detect and remove offending clips, while emphasizing that their service was intended for legitimate creative and accessibility purposes.",
+        "process_and_outcome": "The company deleted over 350 impersonation videos and audio files within 48 hours of discovery. They updated terms of service to restrict usage for political content and misinformation, introduced watermarking for generated audio, and collaborated with platforms like YouTube for proactive detection. No formal regulatory fines were imposed, but the incident prompted internal policy revisions and public commitments to ethical AI development.",
+        "involved_parties": [
+            "ElevenLabs (AI company)",
+            "Social media platforms (e.g., YouTube, X/Twitter)",
+            "Public figures (e.g., Joe Biden)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Company Terms of Service on synthetic media misuse",
+            "EU AI Act (high-risk AI systems)",
+            "U.S. DEEP FAKES Accountability Act proposals"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Twilio Authy Two-Factor Authentication Recordings Breach",
+        "example_background": "Twilio's Authy service provides two-factor authentication via voice calls and SMS to millions of users across apps. In 2022, Twilio disclosed a breach where attackers accessed internal tools and exfiltrated data on 163 employees, potentially exposing phone numbers used for voice-based 2FA. This incident highlighted risks in voice communication systems handling sensitive authentication audio. Attackers used social engineering to gain credentials, then scraped employee contact data, including voice call numbers. While no direct audio recordings were stolen, the breach raised questions about the security of voice-delivered codes and potential for interception or repackaging of such communications.",
+        "process_and_outcome": "Twilio notified affected employees and users, reset credentials, and implemented multi-factor authentication on internal systems. No customer accounts were compromised, but the company faced SEC disclosure requirements as a public filer. Regulatory scrutiny from data protection authorities followed, leading to enhanced voice security protocols.",
+        "involved_parties": [
+            "Twilio (communication platform)",
+            "Cyber attackers",
+            "SEC (U.S. Securities and Exchange Commission)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Terms of Service for voice communications",
+            "GDPR (data breach notification)",
+            "CCPA (California Consumer Privacy Act)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Zoom Unencrypted Audio/Video FTC Settlement",
+        "example_background": "During the COVID-19 pandemic surge in 2020, Zoom Video Communications saw usage skyrocket to 300 million daily meeting participants. Users began recording and redistributing meeting audio and video files containing sensitive discussions, including therapy sessions, corporate negotiations, and educational content, often without participant consent. Zoom's default settings did not enforce end-to-end encryption for audio streams, and recordings were easily exported as standalone files. This led to widespread unauthorized sharing on file-hosting sites and social media, prompting privacy complaints.",
+        "process_and_outcome": "The FTC investigated for unfair practices, resulting in a 2021 settlement requiring Zoom to implement privacy controls, including encryption upgrades and recording consents. Zoom paid no monetary penalty but committed to 20 years of compliance monitoring and improved terms prohibiting unauthorized audio distribution.",
+        "involved_parties": [
+            "Zoom Video Communications",
+            "FTC (U.S. Federal Trade Commission)",
+            "Affected users and class actions"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5 (unfair/deceptive practices)",
+            "Zoom Terms of Service on recordings"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Google Duplex Recording Consent Compliance",
+        "example_background": "Google introduced Duplex in 2018, an AI system capable of making phone calls to book reservations or appointments using natural-sounding voice synthesis. The technology generated audio conversations indistinguishable from human speech, such as calling restaurants for table bookings. To address potential misuse, Google mandated upfront disclosure during calls (e.g., 'Hi, this is Google Duplex...') and restricted commercial redeployment of the audio outputs. Developers and users were prohibited from extracting or repackaging the voice interactions as standalone files for other purposes.",
+        "process_and_outcome": "Google rolled out Duplex with built-in compliance features, avoiding regulatory actions. Public demos and subsequent integrations into Google Assistant demonstrated adherence, with transparency measures earning praise from privacy advocates despite initial concerns.",
+        "involved_parties": [
+            "Google (AI developer)",
+            "Restaurants and businesses (call recipients)",
+            "Privacy advocacy groups"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google AI Principles",
+            "State wiretap consent laws (e.g., California Invasion of Privacy Act)",
+            "TCPA (Telephone Consumer Protection Act)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Microsoft Azure Speech Services Enterprise Licensing",
+        "example_background": "Microsoft offers Azure Cognitive Services for Speech, enabling text-to-speech and speech-to-text for enterprise applications like customer service IVR systems. Under commercial licensing agreements, customers receive rights to integrate and distribute generated audio outputs within their approved applications, but standalone repackaging or redistribution as independent sound files is contractually prohibited. For instance, a bank using it for voice prompts in mobile apps must keep outputs embedded, not exportable as MP3 files for external sharing.",
+        "process_and_outcome": "Microsoft enforces licensing through audits and API restrictions, with compliant deployments in sectors like finance and healthcare. No major enforcement actions reported, as terms align usage with non-commercial repackaging bans, supporting scalable enterprise adoption.",
+        "involved_parties": [
+            "Microsoft (platform provider)",
+            "Enterprise customers (e.g., banks, call centers)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Services Agreement",
+            "Azure Speech Services Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Deepfake Audio Pornography Lawsuits",
+        "example_background": "In 2023, apps like Voicemod and certain Telegram bots allowed users to generate non-consensual explicit audio deepfakes using celebrity and private individuals' voices cloned from short samples. These audio files were distributed as standalone MP3s on forums and messaging groups, often paired with images for pornographic content. Victims included Taylor Swift and other public figures, leading to viral takedown requests. The tools lacked restrictions on commercial or redistributive use of outputs.",
+        "process_and_outcome": "Platforms removed offending bots; X (Twitter) suspended accounts sharing files. Civil lawsuits filed under right of publicity laws resulted in settlements and app store delistings. No criminal charges, but incidents accelerated platform policies against synthetic media abuse.",
+        "involved_parties": [
+            "Telegram, Voicemod (AI tools)",
+            "Celebrity victims (e.g., Taylor Swift)",
+            "Social media platforms"
+        ],
+        "applicable_regulations_or_policies": [
+            "Platform Community Guidelines",
+            "State right of publicity laws",
+            "Lanham Act (false endorsement)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "FTC Action Against Ring doorbell Audio Recordings",
+        "example_background": "Amazon's Ring sold home security devices with audio recording features, allowing users to capture and store voice interactions at doorsteps. From 2016-2019, employees and contractors accessed unencrypted audio/video clips containing private conversations without user notification. Some clips were shared internally or retained beyond policy limits, effectively repackaged as reviewable files rather than live streams.",
+        "process_and_outcome": "FTC charged Ring with privacy violations in 2023, settling for $5.8 million in refunds and injunctive relief. Ring implemented encryption, access logs, and consent requirements for audio sharing.",
+        "involved_parties": [
+            "Amazon Ring",
+            "FTC",
+            "Affected consumers"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act (privacy deceptions)",
+            "Ring Privacy Notice"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Amazon Alexa Voice Data Deletion Compliance",
+        "example_background": "Amazon's Alexa devices record voice commands and conversations for processing. Following 2019 privacy scrutiny, Amazon updated policies to allow users to delete specific audio recordings via app or voice commands, preventing indefinite retention or standalone distribution. Enterprise versions restrict output rights to embedded use only.",
+        "process_and_outcome": "Amazon integrated deletion tools and human review limits, complying with regulator demands and avoiding further penalties post-initial investigations.",
+        "involved_parties": [
+            "Amazon",
+            "State AGs (e.g., Washington)",
+            "Consumer privacy groups"
+        ],
+        "applicable_regulations_or_policies": [
+            "Amazon Device Terms",
+            "CCPA data deletion rights"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    "Enterprise | T1212 | Exploitation for Credential Access | Develop a robust cyber threat intelligence capability to determine what types and levels of threat may use software exploits and 0-days against a particular organization.",
+    "Enterprise | T1211 | Exploitation for Defense Evasion | Develop a robust cyber threat intelligence capability to determine what types and levels of threat may use software exploits and 0-days against a particular organization.",
+    "Enterprise | T1068 | Exploitation for Privilege Escalation | Develop a robust cyber threat intelligence capability to determine what types and levels of threat may use software exploits and 0-days against a particular organization.",
+    "Enterprise | T1210 | Exploitation of Remote Services | Develop a robust cyber threat intelligence capability to determine what types and levels of threat may use software exploits and 0-days against a particular organization.",
+    "Enterprise | T1656 | Impersonation | Threat intelligence helps defenders and users be aware of and defend against common lures and active campaigns that have been used for impersonation."
+]

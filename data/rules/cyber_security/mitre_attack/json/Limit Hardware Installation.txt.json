@@ -1,0 +1,9 @@
+[
+    "Enterprise | T1052 | Exfiltration Over Physical Medium | Limit the use of USB devices and removable media within a network.",
+    " |  | .001 | Exfiltration over USB | Limit the use of USB devices and removable media within a network.",
+    "Enterprise | T1200 | Hardware Additions | Block unknown devices and accessories by endpoint security configuration and monitoring agent.",
+    "Enterprise | T1674 | Input Injection | Limit the use of USB devices and removable media within a network.",
+    "Enterprise | T1219 | Remote Access Tools | Block the use of IP-based KVM devices within the network if they are not required.",
+    " |  | .003 | Remote Access Hardware | Block the use of IP-based KVM devices within the network if they are not required.",
+    "Enterprise | T1091 | Replication Through Removable Media | Limit the use of USB devices and removable media within a network."
+]

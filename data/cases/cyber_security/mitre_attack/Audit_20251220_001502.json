@@ -1,0 +1,481 @@
+[
+    {
+        "example_name": "SolarWinds Supply Chain Compromise",
+        "example_background": "In 2020, the SolarWinds Orion software platform was altered during its build process by threat actors who inserted unauthorized code into software updates. These updates were distributed to approximately 18,000 customers worldwide, including numerous government agencies and private enterprises. The alterations allowed remote access capabilities to affected systems for an extended period. The incident was discovered after security researchers identified anomalous network traffic originating from the software. The event highlighted challenges in securing software development pipelines and verifying the integrity of deployed software components across enterprise networks.",
+        "process_and_outcome": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) issued emergency directives. Multiple investigations were launched by the FBI, CISA, and private firms. SolarWinds enhanced its security practices, and affected entities conducted extensive remediation efforts. No direct fines were imposed on SolarWinds, but the incident prompted widespread regulatory scrutiny and executive orders on cybersecurity.",
+        "involved_parties": [
+            "SolarWinds Corporation",
+            "U.S. Cybersecurity and Infrastructure Security Agency (CISA)",
+            "Federal Bureau of Investigation (FBI)",
+            "Various U.S. government agencies"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST Cybersecurity Framework",
+            "Executive Order 14028 on Improving the Nation's Cybersecurity",
+            "MITRE ATT&CK T1195.01 Supply Chain Compromise"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Codecov Bash Uploader Incident",
+        "example_background": "In April 2021, Codecov, a code coverage testing tool provider, disclosed that its bash uploader script had been modified by an unauthorized actor. The modification involved injecting code that redirected uploads to an external server, occurring between February 5 and April 1, 2021. This affected thousands of organizations using the tool in their continuous integration pipelines, potentially exposing credentials and data. The issue stemmed from a CI/CD environment where the script was downloadable, underscoring risks in third-party tool integration.",
+        "process_and_outcome": "Codecov conducted a full incident response, rotated all credentials, and published indicators of compromise. No regulatory fines were issued, but the event led to industry-wide recommendations for artifact integrity verification. Customers implemented additional scanning and rebuilt environments.",
+        "involved_parties": [
+            "Codecov",
+            "Mandiant (investigator)",
+            "Numerous enterprises using CI/CD pipelines"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST SP 800-53 Supply Chain Protection",
+            "MITRE ATT&CK T1190 Exploit Public-Facing Application"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "April 2021"
+    },
+    {
+        "example_name": "Docker Hub Credential Breach",
+        "example_background": "In 2022, Docker Hub experienced a data exposure incident where automated access tokens belonging to approximately 190,000 repositories were accessed without authorization. These tokens allowed pushes to public repositories, raising concerns about potential image tampering. The incident was linked to overly permissive automated access in the platform's infrastructure, affecting open-source projects relied upon by enterprises for container deployments.",
+        "process_and_outcome": "Docker recommended token rotation and multi-factor authentication enforcement. Investigations by security firms like Aqua Security detailed the scope. No fines were levied, but it accelerated adoption of image signing practices across the industry.",
+        "involved_parties": [
+            "Docker Inc.",
+            "Aqua Security",
+            "Open-source maintainers"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST SP 800-218 Secure Software Development Framework",
+            "MITRE ATT&CK T1203 Exploitation for Client Execution"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "PyPI XZ Utils Backdoor",
+        "example_background": "In March 2024, a maintainer of the XZ Utils library on PyPI introduced gradual modifications over two years, embedding unauthorized code that created a backdoor in SSH capabilities. This nearly propagated to major Linux distributions like Fedora, affecting build processes for software packages used in enterprise environments. The attempt was halted by a developer noticing build anomalies, preventing widespread deployment of the altered library.",
+        "process_and_outcome": "Microsoft security team assisted in analysis. Linux distributions rolled back changes, and the open-source community enhanced maintainer vetting. No regulatory actions targeted specific entities, but it influenced supply chain security guidelines.",
+        "involved_parties": [
+            "XZ Utils project",
+            "Red Hat/Fedora",
+            "Microsoft Security Response Center"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST SSDF Practices",
+            "MITRE ATT&CK T1204.003 User Execution: Malicious Image"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "March 2024"
+    },
+    {
+        "example_name": "Capital One AWS S3 Breach via Malicious Image Execution",
+        "example_background": "In 2019, a former Amazon employee exploited a misconfigured web application firewall in Capital One's AWS environment, accessing data of over 100 million customers. The attack involved executing code through serverless functions and containerized workloads, where inadequate image scanning allowed unauthorized access escalation. The incident exposed personal information stored in S3 buckets.",
+        "process_and_outcome": "The U.S. Department of Justice charged the perpetrator. Capital One paid a $80 million fine to the Office of the Comptroller of the Currency and enhanced its cloud security posture, including stricter container auditing.",
+        "involved_parties": [
+            "Capital One Financial Corporation",
+            "Paige Thompson (perpetrator)",
+            "Office of the Comptroller of the Currency (OCC)",
+            "Amazon Web Services"
+        ],
+        "applicable_regulations_or_policies": [
+            "Gramm-Leach-Bliley Act",
+            "NIST SP 800-53",
+            "MITRE ATT&CK T1204 User Execution"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Red Hat Sigstore Cosign Implementation",
+        "example_background": "Red Hat adopted Sigstore's Cosign tool in 2021 to sign and verify container images across its OpenShift platform and Quay registry. This process ensures that images pulled into enterprise Kubernetes clusters have verifiable provenance and integrity, preventing substitution with altered versions during deployment. The implementation integrates with CI/CD pipelines to automate signing, supporting transparency in software supply chains.",
+        "process_and_outcome": "The adoption has been recognized as a best practice, with no incidents reported due to image tampering in signed repositories. It aligns with industry shifts toward zero-trust supply chains and has been scaled enterprise-wide.",
+        "involved_parties": [
+            "Red Hat Inc.",
+            "Sigstore Project",
+            "CNCF (Cloud Native Computing Foundation)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Executive Order 14028",
+            "NIST SP 800-218",
+            "SLSA Framework"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Google Container Analysis Tool",
+        "example_background": "Google Cloud's Container Analysis service scans container images in Artifact Registry and Container Registry for vulnerabilities and misconfigurations before deployment. Enterprises using Google Kubernetes Engine (GKE) integrate this to audit images, generating attestations and blocking non-compliant ones. The tool supports Binary Authorization for enforced policy checks in production environments.",
+        "process_and_outcome": "Widely adopted by Google Cloud customers, it has prevented numerous vulnerability exposures. Case studies show reduced attack surfaces, with ongoing enhancements based on threat intelligence.",
+        "involved_parties": [
+            "Google Cloud",
+            "Google Kubernetes Engine users"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST Cybersecurity Framework",
+            "CIS Docker Benchmarks",
+            "SLSA Supply-chain Levels for Software Artifacts"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "JFrog Xray Container Scanning",
+        "example_background": "JFrog's Xray platform provides runtime and build-time scanning for container images in Artifactory, detecting known vulnerabilities, secrets, and license issues. Enterprises deploy it to audit images from public registries like Docker Hub before internal use, integrating with DevSecOps pipelines for continuous verification.",
+        "process_and_outcome": "Used by thousands of organizations, it has identified and blocked thousands of risky images annually, contributing to compliance with security standards without reported breaches from overlooked image issues.",
+        "involved_parties": [
+            "JFrog Ltd.",
+            "Enterprise DevOps teams"
+        ],
+        "applicable_regulations_or_policies": [
+            "MITRE ATT&CK T1204",
+            "OWASP Container Security",
+            "NIST SP 800-190 Application Container Security"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "NotPetya Malware via Compromised Ukrainian Accounting Software",
+        "example_background": "In June 2017, the NotPetya wiper malware spread globally through updates to M.E.Doc, a Ukrainian tax accounting software. The updates contained code that executed upon user interaction, encrypting files and propagating via SMB. It impacted enterprises like Maersk and Merck, causing billions in damages due to reliance on unverified software updates akin to container images.",
+        "process_and_outcome": "Attributed to Russian actors by U.S. and UK governments. Companies faced massive operational disruptions and insurance claims. No direct fines on software provider, but led to stricter update verification policies worldwide.",
+        "involved_parties": [
+            "M.E.Doc (software provider)",
+            "Maersk",
+            "Merck",
+            "U.S. Department of Justice"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST SP 800-53",
+            "MITRE ATT&CK T1204.002 Malicious File"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "June 2017"
+    },
+    {
+        "example_name": "SolarWinds Supply Chain Compromise 2020",
+        "example_background": "SolarWinds, a provider of network management software, had its Orion platform update mechanism compromised in 2020. Malicious code was inserted into software builds between March and June 2020, affecting up to 18,000 customers who downloaded the tainted updates. The insertion occurred in the build process, allowing persistence in customer environments. Notable organizations including U.S. government agencies and Fortune 500 companies were impacted. The company's software development and release processes lacked sufficient code signing verification and integrity checks at the time. Detection was challenging due to the sophisticated nature of the code insertion, which evaded standard antivirus detection. SolarWinds relied on third-party build tools without comprehensive supply chain security measures.",
+        "process_and_outcome": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) issued emergency directives. Investigations by the SEC and CISA followed. SolarWinds enhanced its security posture by implementing stricter code review, multi-factor authentication for builds, and continuous monitoring. No direct fines were imposed on SolarWinds initially, but customers faced remediation costs. The event prompted industry-wide adoption of software bill of materials (SBOM) and supply chain risk management.",
+        "involved_parties": [
+            "SolarWinds Corporation",
+            "Cybersecurity and Infrastructure Security Agency (CISA)",
+            "U.S. Securities and Exchange Commission (SEC)",
+            "Affected customers (e.g., U.S. Treasury, Microsoft)"
+        ],
+        "applicable_regulations_or_policies": [
+            "SEC Cybersecurity Disclosure Rules",
+            "NIST Cybersecurity Framework",
+            "Executive Order 14028 on Improving Cybersecurity"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Colonial Pipeline Ransomware Incident 2021",
+        "example_background": "Colonial Pipeline, operator of a major U.S. fuel pipeline, shut down operations in May 2021 following unauthorized access to its networks. Credentials were compromised via a leaked VPN password, allowing ransomware deployment. The company proactively halted pipeline operations to contain the spread, leading to fuel shortages on the East Coast. Billing systems and operational technology networks were affected. Prior to the event, multi-factor authentication was not enabled on all remote access points, and network segmentation between IT and OT was incomplete. The decision to pay ransom was made to expedite recovery, highlighting recovery planning gaps.",
+        "process_and_outcome": "The FBI investigated and recovered part of the ransom. Colonial implemented OT-IT segmentation, zero-trust architecture, and enhanced endpoint detection. No regulatory fines were issued, but the event accelerated TSA cybersecurity directives for pipelines. Operations resumed after five days, with improved resilience measures adopted.",
+        "involved_parties": [
+            "Colonial Pipeline Company",
+            "Federal Bureau of Investigation (FBI)",
+            "Transportation Security Administration (TSA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "TSA Pipeline Security Directives",
+            "NIST SP 800-53"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "May 2021"
+    },
+    {
+        "example_name": "Microsoft Discovery of SolarWinds Intrusion",
+        "example_background": "Microsoft identified suspicious activity in its systems during the 2020 SolarWinds event and conducted a thorough analysis. The company's threat intelligence team isolated affected systems and analyzed the malicious code. Microsoft shared indicators of compromise (IOCs) globally within hours of confirmation. Security operations centers monitored for lateral movement, and rapid patching was applied. This response demonstrated effective exposure detection and mitigation processes integrated into daily operations.",
+        "process_and_outcome": "Microsoft published detailed threat reports, contributing to global remediation efforts. No customer data loss occurred, and the company's Digital Defense Report highlighted lessons learned. Enhancements included AI-driven threat hunting and cross-industry information sharing via Microsoft Threat Intelligence Center.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Cybersecurity and Infrastructure Security Agency (CISA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST Cybersecurity Framework",
+            "GDPR Article 33 (Breach Notification)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Marriott International Data Exposure 2018",
+        "example_background": "Marriott's Starwood reservation system was accessed without authorization starting in 2014, discovered in 2018. Approximately 500 million guest records were affected, including passport numbers, payment card details, and travel history. The acquisition of Starwood by Marriott in 2016 brought the issue to light during due diligence, but full extent was not initially assessed. Legacy systems lacked modern encryption and monitoring capabilities. Detection relied on anomaly alerts from a third-party security tool.",
+        "process_and_outcome": "The FTC and UK ICO investigated. Marriott paid $124 million to the ICO and faced a $23.8 million FTC proposed settlement. The company upgraded systems with encryption, segmentation, and continuous monitoring, offering identity protection to guests.",
+        "involved_parties": [
+            "Marriott International",
+            "Federal Trade Commission (FTC)",
+            "Information Commissioner's Office (ICO)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "PCI DSS",
+            "EU-U.S. Privacy Shield"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Capital One Data Exposure 2019",
+        "example_background": "A former Amazon Web Services employee accessed Capital One's AWS S3 bucket configurations in 2019, exposing data of over 100 million customers. A misconfigured web application firewall (WAF) allowed traversal of security groups. Credit application data including names, addresses, and credit scores were stored in the bucket. Capital One detected the activity through AWS CloudTrail logs within hours and contained it by revoking access.",
+        "process_and_outcome": "The U.S. Office of the Comptroller of the Currency (OCC) assessed practices and issued a consent order requiring enhanced cloud security governance, penetration testing, and patch management. No monetary penalty was levied, but the bank invested in configuration management tools and employee training. The perpetrator was arrested.",
+        "involved_parties": [
+            "Capital One Financial Corporation",
+            "Office of the Comptroller of the Currency (OCC)",
+            "Amazon Web Services (AWS)"
+        ],
+        "applicable_regulations_or_policies": [
+            "OCC Cloud Computing Guidance",
+            "FFIEC IT Examination Handbook"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "CrowdStrike Falcon Sensor Update Issue 2024",
+        "example_background": "CrowdStrike pushed a defective content update to its Falcon sensor on July 19, 2024, causing Windows systems to enter boot loops worldwide. The update validation process failed to catch a logic error in channel files for specific hardware configurations. Airlines, hospitals, and businesses experienced outages. CrowdStrike's quality assurance included manual testing but missed this edge case. Rapid detection occurred via customer reports and telemetry.",
+        "process_and_outcome": "CrowdStrike issued remediation guidance, deployed fixes, and conducted a root cause analysis. CEO testified before Congress. The company enhanced update testing with canary deployments and automated validation, demonstrating swift exposure reduction.",
+        "involved_parties": [
+            "CrowdStrike Holdings Inc.",
+            "U.S. Senate Homeland Security Committee",
+            "Affected customers (e.g., Delta Airlines)"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST SP 800-40 Patch Management",
+            "ISO 27001"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Target Data Breach 2013",
+        "example_background": "Target Corporation's point-of-sale systems were compromised via a third-party HVAC vendor in 2013. Stolen credentials allowed malware installation on POS terminals, capturing 40 million card details and 70 million customer records over 19 days. Network segmentation between vendor portals and payment systems was inadequate. Detection was delayed despite internal and FireEye alerts indicating unusual activity.",
+        "process_and_outcome": "Multiple lawsuits and regulatory probes resulted in $18.5 million in settlements with states and banks. Target overhauled security with chip-and-PIN adoption, tokenization, and improved monitoring. CEO resigned amid the fallout.",
+        "involved_parties": [
+            "Target Corporation",
+            "Federal Trade Commission (FTC)",
+            "State Attorneys General",
+            "Visa/Mastercard"
+        ],
+        "applicable_regulations_or_policies": [
+            "PCI DSS",
+            "Federal Trade Commission Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Cisco Systems Threat Response Practices",
+        "example_background": "Cisco maintains a Security Incident Response Team (Talos) that continuously monitors global threat intelligence. When exposures are identified in products, Cisco issues advisories and patches within 24-72 hours. For example, in response to Log4Shell (CVE-2021-44228) in 2021, Cisco analyzed impacts across its portfolio, provided mitigations, and updated appliances. Processes include fuzzing, static analysis, and customer notifications via PSIRT.",
+        "process_and_outcome": "Cisco's rapid response prevented widespread exploitation in its ecosystems. Annual transparency reports detail vulnerability handling metrics, with over 3,000 advisories published yearly. This approach has maintained customer trust and compliance with industry standards.",
+        "involved_parties": [
+            "Cisco Systems Inc.",
+            "Cisco Talos Intelligence Group"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST Cybersecurity Framework",
+            "ISO/IEC 27001"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Marriott International Starwood Data Breach 2018",
+        "example_background": "Marriott acquired Starwood Hotels in 2016, inheriting a reservation database that had been compromised since 2014. The breach affected 500 million guest records, exposing passport numbers, payment card details, and travel histories. Detection occurred in September 2018 after an anomalous query triggered security tools. Key issues included failure to segment the legacy Starwood system from Marriott's network, inadequate logging and monitoring, and lack of routine scans for weak encryption keys and database permissions that allowed prolonged unauthorized access.",
+        "process_and_outcome": "The UK's Information Commissioner's Office (ICO) fined Marriott \u00a318.4 million, and the company faced class-action lawsuits settling for $52 million in the U.S. Marriott enhanced its security program with annual penetration testing and vulnerability management.",
+        "involved_parties": [
+            "Marriott International",
+            "Starwood Hotels",
+            "ICO",
+            "New York Attorney General"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "NY SHIELD Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Microsoft's Zero Trust Implementation",
+        "example_background": "Microsoft undertook a multi-year initiative starting around 2019 to transition its enterprise environment to a zero-trust model. This involved comprehensive audits of all systems, identities, and permissions, including scanning for insecure configurations in Azure Active Directory and on-premises Active Directory. Regular vulnerability scans using Microsoft Defender and automated configuration management identified and remediated weaknesses in authentication materials, such as deprecated protocols and overly permissive service principals. The approach reduced the company's attack surface significantly.",
+        "process_and_outcome": "Microsoft published its Zero Trust guidance as an industry standard, influencing federal mandates. Internal metrics showed a 50% reduction in vulnerabilities, with no major breaches attributed to authentication weaknesses post-implementation.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "CISA"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST SP 800-207 Zero Trust Architecture",
+            "Executive Order 14028"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "CrowdStrike Falcon Sensor Deployment Best Practices",
+        "example_background": "CrowdStrike, a cybersecurity firm, maintains its global endpoint detection and response (EDR) platform by conducting continuous scans and audits of its Falcon sensor across millions of endpoints. This includes permission audits for least privilege access, configuration hardening against known CVEs, and behavioral analysis of authentication materials like API tokens. Regular simulated attack exercises ensure detection of potential weaknesses before exploitation.",
+        "process_and_outcome": "CrowdStrike's platform detected and mitigated threats for clients, earning high marks in MITRE ATT&CK evaluations. The company avoided major incidents and set benchmarks for EDR efficacy.",
+        "involved_parties": [
+            "CrowdStrike Holdings Inc.",
+            "MITRE"
+        ],
+        "applicable_regulations_or_policies": [
+            "MITRE ATT&CK Framework",
+            "NIST SP 800-53"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Log4Shell Vulnerability Response - Multiple Organizations",
+        "example_background": "The Log4j vulnerability (CVE-2021-44228), disclosed in December 2021, affected countless Java-based applications worldwide. Organizations that performed routine software composition analysis (SCA) scans and configuration audits detected the flaw early. For instance, companies using tools like Snyk or Black Duck identified vulnerable libraries in their supply chains and rotated affected authentication credentials promptly.",
+        "process_and_outcome": "CISA coordinated a response, with proactive scanners avoiding exploitation. Reactive organizations faced ransomware; scanners like Google's Chronicle detected widespread scans for the vuln.",
+        "involved_parties": [
+            "CISA",
+            "Apache Software Foundation",
+            "Snyk Ltd."
+        ],
+        "applicable_regulations_or_policies": [
+            "CISA Known Exploited Vulnerabilities Catalog",
+            "NIST SP 800-40 Patch Management"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Twitter Bitcoin Scam 2020",
+        "example_background": "In July 2020, high-profile Twitter accounts including those of Elon Musk, Barack Obama, and companies like Apple were hijacked to promote a Bitcoin scam. Attackers used social engineering to gain access to internal tools via a phone spear-phishing attack on a Twitter employee. This exposed weak permission models in Twitter's admin console, lack of multi-factor authentication on all internal systems, and insufficient auditing of tool access logs.",
+        "process_and_outcome": "The FBI investigated, leading to arrests. Twitter faced a $150 million FTC fine and overhauled its internal tooling with principle of least privilege and enhanced logging.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "FTC",
+            "FBI"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act",
+            "GLBA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "July 2020"
+    },
+    {
+        "example_name": "Code Spaces AWS Account Compromise 2014",
+        "example_background": "Code Spaces, a Git repository hosting provider, experienced a full account takeover in June 2014 when attackers gained initial access to the AWS Management Console through a compromised user account. From there, attackers queried the instance metadata service to obtain temporary credentials for the root account IAM role, which had unrestricted administrative permissions across all AWS services. Using these elevated credentials, they modified billing settings, deleted all S3 data, EBS snapshots, EC2 instances, and automated backups, effectively destroying the company's infrastructure. The incident highlighted the risks of overly permissive IAM roles attached to EC2 instances and lack of auditing for temporary credential usage and privilege escalations like policy modifications.",
+        "process_and_outcome": "The company ceased operations permanently due to irrecoverable data loss and inability to rebuild quickly. No regulatory fines were imposed as it was a small entity, but the incident became a case study in cloud security failures.",
+        "involved_parties": [
+            "Code Spaces Inc.",
+            "Amazon Web Services"
+        ],
+        "applicable_regulations_or_policies": [
+            "AWS Well-Architected Framework (Security Pillar)",
+            "CIS AWS Foundations Benchmark (1.1 Ensure IAM password policy)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "June 2014"
+    },
+    {
+        "example_name": "Uber S3 Data Exposure 2016",
+        "example_background": "Uber engineers inadvertently exposed an S3 bucket containing 57 million users' and drivers' personal data, including names, emails, phone numbers, and license numbers, due to a publicly accessible bucket with no authentication. Three individuals accessed the bucket using publicly available AWS credentials found online, which belonged to an IAM user with list and get permissions on the bucket. The credentials were from an account not following least privilege, allowing unauthorized data access. Administrators had not audited cloud accounts for necessary permissions or implemented controls to prevent credential exposure.",
+        "process_and_outcome": "Uber paid $148,000 in bug bounties to the accessors, faced investigations by all 50 U.S. state attorneys general and regulators in Europe, resulting in corrective actions and enhanced security training.",
+        "involved_parties": [
+            "Uber Technologies Inc.",
+            "U.S. State Attorneys General",
+            "European Data Protection Authorities"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Article 32 Security of Processing",
+            "AWS Shared Responsibility Model"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Microsoft Azure AD Tenant Compromise 2020",
+        "example_background": "Attackers compromised an Azure Active Directory tenant by exploiting a service principal with excessive application permissions, including role assignment capabilities. Using OAuth 2.0 client credentials flow, they obtained access tokens for the service principal and performed privilege escalation by creating new service principals and assigning high-privilege roles like Global Administrator. This allowed control over the entire tenant. The incident involved failure to audit application registrations, their necessary permissions, and monitoring OAuth token usage for escalatory actions like role modifications.",
+        "process_and_outcome": "Microsoft detected the activity through security monitoring, contained the incident, and published a security blog detailing the tactics. No customer data loss reported; led to industry-wide alerts on app permission auditing.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Attacker Group"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Cloud Security Benchmark (Identity 1.1)",
+            "OAuth 2.0 Security Best Current Practice (RFC 6819)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Okta OAuth Token Theft via Service Account 2022",
+        "example_background": "In January 2022, the hacking group LAPSUS$ compromised Okta's support systems by authenticating with valid credentials from a former employee's machine. They accessed OAuth tokens associated with a service account that had elevated permissions, allowing session hijacking and access to customer tenant data. The service account lacked time-bound tokens and had permissions broader than necessary for support functions. Okta's administrators had not disabled or limited temporary token issuance capabilities for service accounts nor audited actions performed via OAuth scopes.",
+        "process_and_outcome": "Okta contained the breach within hours, notified affected customers, faced no regulatory fines but implemented mandatory MFA and token rotation policies enterprise-wide.",
+        "involved_parties": [
+            "Okta Inc.",
+            "LAPSUS$ Hacking Group"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST SP 800-63B Digital Identity Guidelines",
+            "Okta API Access Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "January 2022"
+    },
+    {
+        "example_name": "Dropbox SSO OAuth Misconfiguration 2012",
+        "example_background": "Dropbox experienced unauthorized access to user files in 2012 due to an OAuth implementation flaw in its API where developers' apps received unintended read/write access to all linked accounts. This occurred because the OAuth grant did not properly scope permissions per user, allowing token misuse across accounts. Administrators failed to audit OAuth client applications for appropriate permissions and monitor token usage for privilege escalations.",
+        "process_and_outcome": "Dropbox reset all user passwords proactively, fixed the OAuth flaw, and compensated affected users, preventing widespread data loss.",
+        "involved_parties": [
+            "Dropbox Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "OAuth 2.0 Authorization Framework (RFC 6749)",
+            "California Consumer Privacy Act (data protection)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "AWS IAM Over-Permission Cleanup by Netflix",
+        "example_background": "Netflix implemented a comprehensive IAM auditing program using tools like Prowler and AWS Config to scan thousands of IAM roles and users across their multi-account AWS organization. They identified and removed excessive permissions, such as admin policies attached to production service roles, replacing them with least-privilege policies generated via analysis of CloudTrail logs. Temporary credentials via STS were restricted to just-in-time issuance with short TTLs, and cross-account role assumption was audited weekly for necessity.",
+        "process_and_outcome": "Reduced blast radius of potential breaches, passed multiple third-party security audits with zero high-risk findings, and shared anonymized findings via AWS blogs as best practice.",
+        "involved_parties": [
+            "Netflix Inc.",
+            "Amazon Web Services"
+        ],
+        "applicable_regulations_or_policies": [
+            "AWS Well-Architected Framework",
+            "NIST SP 800-53 (AC-6 Least Privilege)",
+            "SOC 2 Trust Services Criteria"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Cloud IAM Recommender Implementation",
+        "example_background": "Google Cloud's IAM Recommender analyzes access patterns from Cloud Audit Logs to suggest rightsizing permissions for IAM members. For example, it identifies service accounts with editor roles that only require viewer access based on historical API calls. Organizations like Spotify adopted this, disabling unnecessary service account keys, enforcing workload identity federation for temporary tokens, and setting org policies to block domain-wide delegation unless audited.",
+        "process_and_outcome": "Spotify reduced active service account keys by 90%, enabling zero-trust access model, achieving compliance with internal security policies and external audits.",
+        "involved_parties": [
+            "Google Cloud",
+            "Spotify Technology S.A."
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Cloud Security Command Center Recommendations",
+            "CIS Google Cloud Foundations Benchmark"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twilio OAuth API Key Exposure Remediation",
+        "example_background": "Twilio provides programmable APIs using OAuth 2.0 client credentials. After internal audits revealed developers generating long-lived API keys with full account permissions, Twilio enforced subaccounts with scoped permissions, rotated keys quarterly, and integrated with SIEM tools to monitor token usage for anomalous actions like resource creation or policy changes. Temporary tokens were restricted via short expiry and IP allowlisting.",
+        "process_and_outcome": "Prevented potential account takeovers, maintained 99.99% API uptime during audits, and used as case study in Twilio's security documentation.",
+        "involved_parties": [
+            "Twilio Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "PCI DSS Requirement 7.1 (Restrict Access)",
+            "OAuth 2.0 for Client Applications"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    }
+]

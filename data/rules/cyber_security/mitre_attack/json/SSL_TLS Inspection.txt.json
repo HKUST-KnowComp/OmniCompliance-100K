@@ -1,0 +1,6 @@
+[
+    "Enterprise | T1573 | Encrypted Channel | SSL/TLS inspection can be used to see the contents of encrypted sessions to look for network-based indicators of malware communication protocols.",
+    " |  | .002 | Asymmetric Cryptography | SSL/TLS inspection can be used to see the contents of encrypted sessions to look for network-based indicators of malware communication protocols.",
+    "Enterprise | T1090 | Proxy | If it is possible to inspect HTTPS traffic, the captures can be analyzed for connections that appear to be domain fronting.",
+    " |  | .004 | Domain Fronting | If it is possible to inspect HTTPS traffic, the captures can be analyzed for connections that appear to be domain fronting."
+]

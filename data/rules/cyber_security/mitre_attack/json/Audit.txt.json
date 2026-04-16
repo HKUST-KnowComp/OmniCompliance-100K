@@ -1,0 +1,6 @@
+[
+    "\" and take actions to reduce exposure when found.",
+    "Enterprise | T1550 | Use Alternate Authentication Material | Perform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
+    " |  | .001 | Application Access Token | Administrators should audit all cloud and container accounts to ensure that they are necessary and that the permissions granted to them are appropriate. Where possible, the ability to request temporary account tokens on behalf of another accounts should be disabled. Additionally, administrators can leverage audit tools to monitor actions that can be conducted as a result of OAuth 2.0 access. For instance, audit reports enable admins to identify privilege escalation actions such as role creations or policy modifications, which could be actions performed after initial access.",
+    "Enterprise | T1204 | .003 | User Execution:Malicious Image | Audit images deployed within the environment to ensure they do not contain any malicious components."
+]

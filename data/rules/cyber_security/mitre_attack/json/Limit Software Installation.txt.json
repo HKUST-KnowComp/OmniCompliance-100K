@@ -1,0 +1,19 @@
+[
+    "Enterprise | T1547 | .013 | Boot or Logon Autostart Execution:XDG Autostart Entries | Restrict software installation to trusted repositories only and be cautious of orphaned software packages.",
+    "Enterprise | T1059 | Command and Scripting Interpreter | Prevent user installation of unrequired command and scripting interpreters.",
+    " |  | .006 | Python | Prevent users from installing Python where not required.",
+    " |  | .011 | Lua | Prevent users from installing Lua where not required.",
+    "Enterprise | T1543 | Create or Modify System Process | Restrict software installation to trusted repositories only and be cautious of orphaned software packages.",
+    " |  | .002 | Systemd Service | Restrict software installation to trusted repositories only and be cautious of orphaned software packages.",
+    "Enterprise | T1564 | Hide Artifacts | Restrict the installation of software that may be abused to create hidden desktops, such as hVNC, to user groups that require it.",
+    " |  | .003 | Hidden Window | Restrict the installation of software that may be abused to create hidden desktops, such as hVNC, to user groups that require it.",
+    "Enterprise | T1021 | .005 | Remote Services:VNC | Restrict software installation to user groups that require it. A VNC server must be manually installed by the user or adversary.",
+    "Enterprise | T1072 | Software Deployment Tools | Restrict the use of third-party software suites installed within an enterprise network.",
+    "Enterprise | T1176 | Software Extensions | Only install extensions from trusted sources that can be verified.",
+    " |  | .001 | Browser Extensions | Only install browser extensions from trusted sources that can be verified. Browser extensions for some browsers can be controlled through Group Policy. Change settings to prevent the browser from installing extensions without sufficient permissions.",
+    " |  | .002 | IDE Extensions | Only install IDE extensions from trusted sources that can be verified.",
+    "Enterprise | T1195 | Supply Chain Compromise | Where possible, consider requiring developers to pull from internal repositories containing verified and approved packages rather than from external ones.[1]",
+    " |  | .001 | Compromise Software Dependencies and Development Tools | Where possible, consider requiring developers to pull from internal repositories containing verified and approved packages rather than from external ones.[1]",
+    "Enterprise | T1204 | User Execution | Where possible, consider requiring developers to pull from internal repositories containing verified and approved packages rather than from external ones.",
+    " |  | .005 | Malicious Library | Where possible, consider requiring developers to pull from internal repositories containing verified and approved packages rather than from external ones."
+]

@@ -1,0 +1,1268 @@
+[
+    {
+        "example_name": "Reddit Doxxing Incident in r/KenM Community",
+        "example_background": "In 2014, the r/KenM subreddit, dedicated to discussions about Ken M, saw users posting personal identifying information including full names, addresses, phone numbers, and photos of individuals associated with Ken M. The content involved compiling dossiers on family members and acquaintances, which circulated widely within the community. Moderators did not promptly remove the material, and the posts remained accessible, leading to real-world harassment claims from affected parties. Reddit's platform structure allowed such content to gain traction through upvotes and comments, highlighting challenges in maintaining open conversations while protecting user privacy in interest-based communities.",
+        "process_and_outcome": "Reddit administrators intervened by quarantining the subreddit and eventually banning it. Users involved faced suspensions, and Reddit updated its content policies to explicitly prohibit doxxing. No formal legal fines were imposed, but the incident prompted internal reviews of moderation tools.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/KenM moderators",
+            "Affected individuals"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy on Harassment and Doxxing",
+            "Reddit User Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "r/The_Donald Quarantine and Ban",
+        "example_background": "r/The_Donald, a large subreddit focused on political discussions around Donald Trump, grew to millions of subscribers by 2019. It featured content including memes, news shares, and commentary that frequently targeted other users, groups, and public figures with derogatory language and calls to action. Reports indicated repeated instances of hate speech, brigading other subreddits, and content that undermined site-wide civility standards. Despite moderator efforts, the volume of submissions and votes amplified problematic posts, conflicting with Reddit's emphasis on authentic and open community interactions.",
+        "process_and_outcome": "In June 2020, Reddit quarantined the subreddit, restricting access, and fully banned it in the same month amid broader site-wide enforcement against hate communities. This followed protests and advertiser concerns, leading to policy clarifications on hate speech.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/The_Donald moderators",
+            "Advertisers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Quarantine and Ban Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "r/WallStreetBets GameStop Stock Coordination",
+        "example_background": "In January 2021, r/WallStreetBets, a community centered on stock trading discussions, hobbies, and speculative investments, saw users collectively buying GameStop shares to counter short sellers. Posts included calls to action, price targets, and shared strategies, driving massive trading volume. The subreddit's voting and commenting system propelled select posts to prominence, creating rapid consensus among hundreds of thousands of participants on investment tactics.",
+        "process_and_outcome": "U.S. regulators like the SEC reviewed activities for potential market manipulation but found no enforcement actions against Reddit or users. The event boosted subreddit visibility and led Reddit to enhance rules on financial advice disclaimers.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/WallStreetBets users",
+            "SEC"
+        ],
+        "applicable_regulations_or_policies": [
+            "SEC Market Manipulation Rules",
+            "Reddit Rules on Financial Content"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "January 2021"
+    },
+    {
+        "example_name": "Reddit Hate Speech Purge 2020",
+        "example_background": "Reddit's communities encompassed diverse interests from hobbies to politics, but by 2020, numerous subreddits hosted content deemed to promote violence or hatred against protected groups. Examples included subreddits with posts targeting based on race, gender, and religion, often framed as discussions. The upvote system elevated such content, prompting complaints about the platform's authenticity and openness.",
+        "process_and_outcome": "Reddit banned over 2,000 subreddits in June 2020, including prominent ones like r/ChapoTrapHouse and r/GenderCritical. CEO Steve Huffman announced policy updates emphasizing content integrity, resulting in improved trust metrics.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Banned subreddit moderators",
+            "User advocacy groups"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy on Hate Speech"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "r/findareddit Moderation Success",
+        "example_background": "r/findareddit serves as a community where users request and receive recommendations for subreddits matching their specific interests, such as niche hobbies like model railroading or parenting styles. Moderators actively review submissions, vote outcomes, and comments to ensure helpfulness, preventing spam or off-topic promotions while fostering genuine connections to relevant communities.",
+        "process_and_outcome": "The subreddit maintains high engagement with positive user feedback, no major incidents, and serves as a model for discovery within Reddit's ecosystem, contributing to user retention.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/findareddit moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Moderator Best Practices",
+            "Content Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Jailbreak Chatbots on Reddit Promotion",
+        "example_background": "Various subreddits in 2023 hosted discussions and shares about AI jailbreak prompts designed to bypass safety filters on models like ChatGPT. Users submitted, upvoted, and commented on methods to generate unrestricted content, including sensitive topics, framing it as a hobby in AI experimentation and free speech exploration.",
+        "process_and_outcome": "Reddit removed specific posts violating terms but allowed broader discussions. No subreddit bans occurred, though it drew scrutiny from AI developers like OpenAI.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "AI hobbyist users",
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy on Illegal Content"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "r/AskScience Strict Moderation",
+        "example_background": "r/AskScience is a subreddit for science-related questions and discussions, where users submit queries on topics from physics to biology. Moderators enforce rules requiring sourced, evidence-based answers, removing speculative or unsourced comments to maintain high-quality, authentic conversations aligned with community standards.",
+        "process_and_outcome": "The approach has sustained the subreddit's reputation, with millions of subscribers and frequent features in media as an example of effective community governance.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/AskScience moderators",
+            "Contributors"
+        ],
+        "applicable_regulations_or_policies": [
+            "r/AskScience Rules",
+            "Reddit Content Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "r/place Collaborative Art Event",
+        "example_background": "In April 2022, Reddit launched r/place, an experiment where users collectively placed pixels on a shared canvas based on interests and creativity. Millions participated through submissions, votes on strategies in related threads, and real-time discussions, resulting in evolving artwork reflecting community passions from memes to flags.",
+        "process_and_outcome": "The event concluded successfully with archived canvas, boosting platform engagement and demonstrating positive use of community-driven features without major policy breaches.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/place participants"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Event Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "April 2022"
+    },
+    {
+        "example_name": "Child Exploitation Material on Reddit",
+        "example_background": "In 2019, reports emerged of subreddits and private groups sharing links to child sexual abuse material disguised as discussions or stories. Users voted on and commented within these spaces, exploiting the platform's structure for interest-based content to distribute illegal files.",
+        "process_and_outcome": "Reddit cooperated with the National Center for Missing & Exploited Children (NCMEC), removed thousands of posts, banned accounts, and enhanced detection tools. U.S. authorities investigated, leading to no fines for Reddit but ongoing monitoring.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "NCMEC",
+            "Law enforcement"
+        ],
+        "applicable_regulations_or_policies": [
+            "18 U.S.C. \u00a7 2252A",
+            "Reddit Content Policy on Child Sexual Abuse Material"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "r/jailbait Subreddit Ban",
+        "example_background": "The subreddit r/jailbait operated on Reddit for several years, featuring images and discussions centered on young women and girls in bikinis or similar attire, often described as borderline legal but suggestive content. The community grew to hundreds of thousands of subscribers and included posts that users and external observers noted as sexualized depictions of individuals who appeared underage. Reddit administrators initially allowed the subreddit under free speech principles but faced increasing pressure from media reports and advocacy groups highlighting the content's proximity to child exploitation material. The subreddit's rules stated it featured 'younger girls in bikinis or similar attire' with an age limit of 18, yet many posts featured models who looked younger, prompting debates on platform responsibility. External coverage amplified concerns about normalization of such content.",
+        "process_and_outcome": "In 2011, Reddit administrators banned r/jailbait and removed related content amid public backlash. The decision followed internal review and external media scrutiny, leading to subreddit shutdown and moderator account suspensions. Reddit updated content policies to strengthen prohibitions on suggestive minor content.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/jailbait moderators and users",
+            "Media outlets (e.g., Gawker)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Rules on sexual content involving minors",
+            "U.S. child protection standards"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "r/Creepshots Removal",
+        "example_background": "r/Creepshots was a subreddit where users posted unauthorized photographs of women in public settings, focusing on upskirt shots, cleavage, or other non-consensual images described as candid and revealing. Launched in 2011, it attracted over 6,000 subscribers and included content that users submitted anonymously, often without the subjects' knowledge or consent. The subreddit's existence raised issues of privacy invasion and objectification, aligning with broader platform concerns about harassment and non-consensual imagery. Reddit's hands-off approach to subreddits initially permitted it, but growing complaints from users and external critics led to reevaluation.",
+        "process_and_outcome": "In September 2012, Reddit administrators quarantined and then banned r/Creepshots following user reports and media attention. Moderators were notified, content was deleted, and the subreddit was removed, prompting Reddit to refine rules on harassment and non-consensual content.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/Creepshots moderators",
+            "Affected individuals and advocacy groups"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Rules on harassment and bullying",
+            "Reddit content policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "r/TheFappening Ban",
+        "example_background": "In 2014, following the iCloud celebrity photo hack known as The Fappening, the subreddit r/TheFappening emerged on Reddit to host and distribute thousands of private, nude images of celebrities including Jennifer Lawrence and Kate Upton, obtained without consent through hacking. The subreddit quickly amassed over 100,000 subscribers within days, featuring threads dedicated to downloading and sharing the images. This incident highlighted platform challenges with pirated intimate content and revenge porn-like distribution, drawing condemnation from celebrities and privacy advocates.",
+        "process_and_outcome": "Reddit banned r/TheFappening on September 21, 2014, after four days of operation. Administrators removed the content, suspended accounts involved, and issued a statement committing to better enforcement against involuntary pornography. This led to broader policy updates.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/TheFappening users",
+            "Celebrities (e.g., Jennifer Lawrence)",
+            "FBI (investigating hack)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Rules on involuntary pornography",
+            "U.S. privacy laws"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "r/Physical_Removal Suspension",
+        "example_background": "r/Physical_Removal was a subreddit created in 2015 associated with alt-right and pro-Trump communities, where users shared memes, videos, and discussions endorsing or depicting violence against protesters, particularly at political rallies. Posts included content celebrating confrontations and threats against individuals based on political views, contributing to an environment of targeted hostility. The subreddit grew during the 2016 U.S. election cycle, reflecting polarized online discourse.",
+        "process_and_outcome": "Reddit banned the subreddit in November 2016 for repeated violations of rules against threats of violence. Moderators and active users faced account suspensions, and content was purged as part of enforcement actions.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/Physical_Removal moderators",
+            "Political activists"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Rules on threats of violence",
+            "Reddit harassment policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "r/fatpeoplehate Quarantine and Ban",
+        "example_background": "r/fatpeoplehate, launched in 2013, was a subreddit with over 300,000 subscribers posting images and commentary mocking overweight individuals, often using derogatory language and edited photos for humiliation. Content included personal photos taken without consent and discussions promoting weight-based discrimination, fostering a hostile environment toward body types.",
+        "process_and_outcome": "In June 2015, Reddit quarantined the subreddit amid user complaints, then permanently banned it during a larger policy enforcement push. This action suspended hundreds of accounts and removed similar communities, coinciding with CEO changes and transparency reports.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/fatpeoplehate moderators",
+            "Users reporting content"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Rules on harassment and bullying"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "r/CoonTown Ban",
+        "example_background": "r/CoonTown operated from 2013 to 2015 as a subreddit promoting white nationalist views, using racial slurs extensively in posts and discussions targeting Black individuals and other minorities. It had tens of thousands of subscribers and featured content glorifying racial hierarchies and sharing inflammatory media.",
+        "process_and_outcome": "Reddit banned r/CoonTown in June 2015 as part of a crackdown on hate-based communities. The subreddit was removed, moderators banned, and it influenced subsequent hate speech policy refinements.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/CoonTown moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Rules on harassment",
+            "Reddit content policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "r/ChildFree Harassment Crackdown",
+        "example_background": "In r/ChildFree, a community for individuals opting out of parenthood, certain threads in 2017-2018 escalated into organized campaigns against users perceived as parents or 'breeders,' including doxxing attempts, threats, and brigade attacks on other subreddits. Moderators struggled with enforcement, leading to external reports.",
+        "process_and_outcome": "Reddit administrators intervened in 2018 by removing offending threads, suspending users involved in brigading, and warning moderators. This resulted in improved subreddit moderation and adherence to anti-harassment rules.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/ChildFree moderators",
+            "Targeted users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Rules on harassment and brigading",
+            "Reddit anti-doxxing policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Reddit's 2015 Anti-Harassment Policy Enforcement",
+        "example_background": "In response to ongoing issues with toxic communities, Reddit in 2015 implemented stricter anti-harassment measures following incidents like the fatpeoplehate bans. This involved new tools for reporting, moderator training, and transparent enforcement reports, aiming to balance free speech with user safety across millions of communities.",
+        "process_and_outcome": "The policy led to over 100 subreddit bans and thousands of account suspensions in 2015-2016. Reddit published quarterly transparency reports detailing removals, demonstrating consistent application and platform-wide improvements in content moderation.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Community moderators",
+            "Trust and Safety team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Rules on harassment, bullying, and violence threats"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "r/IAmA Minor Content Moderation",
+        "example_background": "During high-profile AMAs (Ask Me Anything) hosted by minors or young celebrities, users occasionally posted suggestive or inappropriate questions and comments. Reddit's volunteer moderators and automated tools monitored these large threads, which attract millions of views, to prevent violations.",
+        "process_and_outcome": "Moderators removed thousands of violating comments per AMA, with site-wide teams assisting on major events. This proactive approach prevented escalations and maintained compliance, as detailed in moderator after-action reports.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/IAmA moderators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Rules prohibiting sexual content involving minors"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit 2024 Transparency Report",
+        "example_background": "Reddit published its biannual Community Health Transparency Report in early 2024, detailing content moderation activities across its platform. The report covered data from July to December 2023, including actions taken by volunteer moderators and Reddit administrators. It provided metrics on content removals for policy violations such as harassment, hate speech, and spam, with breakdowns by subreddit category and enforcement type. Specific figures included over 12 million moderator removals and 1.2 million admin actions, alongside insights into automated detection systems and appeals processes. The report also highlighted trends in community health, such as reductions in certain violation categories due to policy updates and tool improvements.",
+        "process_and_outcome": "The report was released publicly as part of Reddit's ongoing commitment to transparency, receiving positive feedback from users and stakeholders for its detailed metrics and visualizations. No regulatory actions were taken.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Reddit Moderators",
+            "Reddit Users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Transparency Reporting Policy",
+            "FTC Guidelines on Online Platform Transparency"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Twitter Content Moderation Report 2021",
+        "example_background": "Prior to its rebranding, Twitter issued a detailed transparency report in 2021 covering account suspensions, tweet removals, and label applications from January to June. The report included data on government requests for content removal and user reports processed. Metrics showed over 7 million accounts suspended for policy violations including abuse and platform manipulation, with breakdowns by region and violation type. It also discussed the role of machine learning in flagging content and human review processes.",
+        "process_and_outcome": "The report was published on Twitter's blog, contributing to public discourse on platform accountability. It informed subsequent policy adjustments amid growing scrutiny.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "Global Governments"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Transparency Policy",
+            "EU Digital Services Act preparatory guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Facebook Oversight Board Case on Trump Suspension",
+        "example_background": "In 2021, Facebook established the Oversight Board to review content moderation decisions, starting with high-profile cases like the suspension of former President Donald Trump's accounts following the January 6 Capitol events. The board examined Facebook's risk assessments for real-world harm from user content, reviewing internal processes for policy enforcement and community standards application. Detailed case reports included thousands of pages of submissions from experts and stakeholders, assessing platform-wide moderation health.",
+        "process_and_outcome": "The board upheld the suspension but criticized Facebook's indefinite ban policy, recommending time-bound restrictions. This led to policy revisions and ongoing transparency in board decisions.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "Oversight Board",
+            "Donald Trump"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Community Standards",
+            "Oversight Board Charter"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "YouTube Community Guidelines Enforcement Report 2023",
+        "example_background": "YouTube released its quarterly Community Guidelines Enforcement Report in 2023, providing metrics on video removals, channel terminations, and warning strikes. Covering millions of videos reviewed, it detailed detection methods including human reviewers and algorithms, with data on violation categories like misinformation and harmful content. The report shared insights into platform health, such as quarterly trends in removals and appeal success rates, spanning global operations.",
+        "process_and_outcome": "Reports were made publicly available, aiding creator understanding and external audits. No enforcement actions against YouTube resulted.",
+        "involved_parties": [
+            "YouTube (Google)",
+            "Content Creators"
+        ],
+        "applicable_regulations_or_policies": [
+            "YouTube Community Guidelines",
+            "Google Transparency Principles"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "TikTok Transparency Report 2022",
+        "example_background": "TikTok published its 2022 Community Guidelines Enforcement Transparency Report, detailing enforcement actions on short-form videos and live streams. It included metrics on over 1 billion videos removed, categorized by violations like dangerous acts and hate speech, with regional breakdowns and information on proactive detection rates exceeding 90%. The report assessed platform safety efforts and moderator training programs.",
+        "process_and_outcome": "Released biannually, the report addressed regulatory inquiries in multiple jurisdictions and supported TikTok's safety center initiatives.",
+        "involved_parties": [
+            "TikTok (ByteDance)",
+            "Regulators in EU and US"
+        ],
+        "applicable_regulations_or_policies": [
+            "TikTok Community Guidelines",
+            "EU Digital Services Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "MySpace Predator Exposure 2006",
+        "example_background": "In 2006, MySpace faced public scrutiny after a 13-year-old girl was assaulted by a man she met on the platform. Investigations revealed multiple similar incidents where predators used fake profiles to target minors. The platform's content moderation relied heavily on user reports without systematic risk assessments or regular safety reports, leading to thousands of registered sex offenders on the site despite age restrictions.",
+        "process_and_outcome": "Congressional hearings ensued, prompting MySpace to partner with Sentinel for offender removal and improve safety features. No direct fines, but it accelerated industry-wide changes.",
+        "involved_parties": [
+            "MySpace",
+            "US Congress",
+            "Law Enforcement"
+        ],
+        "applicable_regulations_or_policies": [
+            "Children's Online Privacy Protection Act (COPPA)",
+            "MySpace Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2006"
+    },
+    {
+        "example_name": "FTC Enforcement Against Epic Games 2022",
+        "example_background": "Epic Games, maker of Fortnite, was investigated for failing to protect children on its platform, including exposure to chat features and default public settings. The platform did not conduct regular risk assessments of child safety features or publish transparency metrics on moderation, leading to millions of underage users engaging with strangers and facing unwanted interactions.",
+        "process_and_outcome": "FTC settled with Epic for $275 million in penalties and required implementation of privacy and safety programs with reporting obligations.",
+        "involved_parties": [
+            "Epic Games",
+            "US Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Children's Online Privacy Protection Act (COPPA)",
+            "FTC Act Section 5"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "EU DSA Investigation into X (Twitter) 2024",
+        "example_background": "The European Commission opened proceedings against X under the Digital Services Act in 2024 for inadequate content moderation transparency and risk assessments related to illegal content and disinformation. X's reporting on systemic risks and enforcement metrics was deemed insufficient, particularly post-acquisition changes reducing moderation staff.",
+        "process_and_outcome": "Ongoing investigation with potential fines up to 6% of global revenue; X submitted additional data in response.",
+        "involved_parties": [
+            "X Corp (formerly Twitter)",
+            "European Commission"
+        ],
+        "applicable_regulations_or_policies": [
+            "Digital Services Act (DSA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Discord COPPA Settlement 2023",
+        "example_background": "Discord settled with the FTC over privacy practices affecting minors, where servers allowed public voice and text chats without parental consent or adequate safeguards. The platform lacked regular public reporting on child safety moderation efforts and risk assessments for community interactions.",
+        "process_and_outcome": "Discord paid $275 million combined with Epic, agreed to privacy program audits and restrictions on data use for minors.",
+        "involved_parties": [
+            "Discord Inc.",
+            "US Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Children's Online Privacy Protection Act (COPPA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Google Sexual Harassment Settlement",
+        "example_background": "In 2017, Google faced widespread employee protests known as Google Walkout after revelations that the company had paid executive Andy Rubin $90 million upon his departure despite allegations of sexual misconduct. Employees raised concerns over the handling of sexual harassment claims, including instances where accusers were not informed of outcomes and some executives received lenient treatment. The protests involved over 20,000 employees across multiple offices globally, highlighting issues with internal reporting mechanisms and perceived lack of accountability in addressing workplace harassment.",
+        "process_and_outcome": "Google settled a shareholder lawsuit in 2022 for $118 million related to the mishandling of sexual harassment claims. The company also conducted internal reviews, updated its reporting procedures, and committed to greater transparency in handling complaints.",
+        "involved_parties": [
+            "Google LLC",
+            "Shareholder plaintiffs",
+            "U.S. Department of Labor"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VII of the Civil Rights Act of 1964",
+            "California Fair Employment and Housing Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Fox News Bill O'Reilly Harassment Scandal",
+        "example_background": "Fox News host Bill O'Reilly faced multiple allegations of sexual harassment from female colleagues and guests over years, including settlements totaling over $13 million paid by the company to five women. Reports detailed a pattern of inappropriate behavior, settlements with nondisclosure agreements, and company leadership awareness without sufficient intervention, contributing to a broader culture of tolerance for such conduct within the organization.",
+        "process_and_outcome": "O'Reilly was fired in 2017. Fox News paid $12 million to settle claims with the U.S. Equal Employment Opportunity Commission (EEOC) in 2020 and an additional $20 million to former host Gretchen Carlson. The company implemented new training and reporting policies.",
+        "involved_parties": [
+            "Fox News Network",
+            "Bill O'Reilly",
+            "EEOC"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VII of the Civil Rights Act",
+            "New York State Human Rights Law"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Uber Sexual Harassment Investigations",
+        "example_background": "In 2017, a former Uber engineer Susan Fowler published a blog post detailing experiences of sexual harassment, gender discrimination, and inaction by HR despite multiple complaints. This sparked investigations revealing systemic issues including over 200 complaints of sexual assault, harassment, or discrimination since 2014, with inadequate response mechanisms and a reported bro-culture environment.",
+        "process_and_outcome": "Uber hired Eric Holder's law firm Perkins Coie to conduct an investigation, leading to the firing of 20 employees and resignation of CEO Travis Kalanick. The company overhauled its HR policies, introduced mandatory training, and settled related lawsuits.",
+        "involved_parties": [
+            "Uber Technologies Inc.",
+            "Perkins Coie (investigator)",
+            "Susan Fowler"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VII of the Civil Rights Act",
+            "California employment laws"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Nike Workplace Harassment Reforms",
+        "example_background": "In 2018, Nike employees, primarily women, sent a letter to executives detailing a toxic culture involving sexual harassment, gender pay gaps, and retaliation against complainants. Reports highlighted supervisors using professional relationships for advances and HR dismissing complaints, affecting retention and morale across the organization.",
+        "process_and_outcome": "Nike conducted an internal investigation, fired several executives, and CEO Mark Parker retired early. The company revised its policies, improved reporting anonymity, and conducted company-wide training.",
+        "involved_parties": [
+            "Nike Inc.",
+            "Employee groups",
+            "U.S. Equal Employment Opportunity Commission"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VII of the Civil Rights Act",
+            "Oregon employment laws"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Microsoft Harassment Policy Enhancements",
+        "example_background": "Following #MeToo reports in 2019, Microsoft reviewed its handling of sexual harassment claims, identifying gaps in reporting and resolution processes. Employees reported instances where complaints were not escalated properly, leading to prolonged issues and lack of accountability for high-level perpetrators.",
+        "process_and_outcome": "Microsoft strengthened its policies by raising the evidentiary bar for claims, banning mandatory arbitration for harassment cases, and implementing annual training. The changes were praised for improving employee trust in the system.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Employee Resource Groups"
+        ],
+        "applicable_regulations_or_policies": [
+            "Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act",
+            "Title VII"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "EEOC v. Abercrombie & Fitch Discrimination Suit",
+        "example_background": "Abercrombie & Fitch faced allegations of religious discrimination by refusing to hire a Muslim woman wearing a hijab, citing its 'Look Policy' that prohibited headwear. The policy was applied uniformly but conflicted with religious accommodations, leading to broader scrutiny of the company's dress code practices.",
+        "process_and_outcome": "The U.S. Supreme Court ruled 8-1 in 2015 in favor of the EEOC, holding that job applicants do not need to explicitly request religious accommodation. Abercrombie settled for $40,000 and revised its policies.",
+        "involved_parties": [
+            "Abercrombie & Fitch",
+            "EEOC",
+            "Samantha Elauf"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VII of the Civil Rights Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Intel Diversity and Inclusion Program",
+        "example_background": "In 2015, Intel launched a $300 million initiative to achieve full representation of women and underrepresented minorities in its workforce by 2020. This included investments in training, recruiting, retention programs, and accountability metrics tied to executive compensation.",
+        "process_and_outcome": "Intel met many of its goals, increasing representation and becoming a leader in DEI reporting. The program included annual progress reports and expanded training on inclusion.",
+        "involved_parties": [
+            "Intel Corporation"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VII of the Civil Rights Act",
+            "EEOC guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Twitter (X) Child Safety Enforcement",
+        "example_background": "Twitter faced allegations of failing to remove child sexual abuse material (CSAM) and accounts promoting child exploitation promptly. Despite platform policies mandating swift content removal and reporting to authorities, internal audits revealed delays in moderation and inadequate proactive detection tools, affecting user safety on the service accessible via web and mobile apps.",
+        "process_and_outcome": "In 2023, the US Department of Justice investigated Twitter under the National Center for Missing & Exploited Children (NCMEC) reporting requirements. Twitter was referred for potential criminal liability, leading to policy overhauls and enhanced AI moderation tools post-acquisition by X Corp.",
+        "involved_parties": [
+            "Twitter (X Corp.)",
+            "US Department of Justice",
+            "National Center for Missing & Exploited Children (NCMEC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "18 U.S.C. \u00a7 2258A (NCMEC Reporting)",
+            "Twitter Safety Policy on Child Exploitation"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Instagram Mental Health Advertising Fine",
+        "example_background": "Instagram, part of Meta Platforms, allowed ads promoting unhealthy weight loss products and cosmetic procedures targeted at minors, despite platform policies prohibiting such advertising to vulnerable groups. The service, accessible via mobile apps and web, failed to enforce age and content restrictions effectively.",
+        "process_and_outcome": "The UK Competition and Markets Authority (CMA) investigated in 2021-2023 and secured commitments from Meta to strengthen ad review processes. No fine was issued, but operational changes were mandated to align with policies.",
+        "involved_parties": [
+            "Instagram (Meta Platforms)",
+            "UK Competition and Markets Authority (CMA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Advertising Standards Authority (ASA) Codes",
+            "Instagram Advertising Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit r/The_Donald Moderation Action",
+        "example_background": "The subreddit r/The_Donald, a large community on Reddit, repeatedly violated site-wide policies against harassment, vote manipulation, and incitement by posting content targeting individuals and groups. Despite warnings, moderators failed to comply, leading Reddit's administration to quarantine and eventually ban the subreddit in 2020 to maintain platform integrity.",
+        "process_and_outcome": "Reddit enforced its content policy, banned the subreddit, and suspended user accounts involved. This action was part of broader 2020 purges removing over 2,000 violating communities.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "r/The_Donald Moderators",
+            "Reddit Trust & Safety Team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Quarantine and Ban Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "LinkedIn GDPR Consent Fine",
+        "example_background": "LinkedIn processed user data for targeted advertising without valid consent, using pre-ticked boxes and unclear opt-out options on its professional networking platform accessible via web and mobile. This affected millions of EU users post-GDPR implementation.",
+        "process_and_outcome": "The French data protection authority CNIL fined LinkedIn \u20ac310 million in 2022 for unlawful processing. LinkedIn updated its consent mechanisms and privacy settings.",
+        "involved_parties": [
+            "LinkedIn (Microsoft)",
+            "CNIL (French Data Protection Authority)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR Articles 6 and 7 (Lawful Basis and Consent)",
+            "LinkedIn Privacy Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Snapchat Data Sharing with Advertisers",
+        "example_background": "Snapchat shared user geolocation data with advertisers without adequate disclosure or consent, contravening its privacy policy statements. The mobile-first platform collected precise location data from millions of users for ad targeting.",
+        "process_and_outcome": "In 2014, the FTC settled with Snapchat for $0 fine but mandated 20 years of privacy program audits and clearer disclosures after allegations of deceptive practices.",
+        "involved_parties": [
+            "Snap Inc. (Snapchat)",
+            "US Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5 (Unfair/Deceptive Practices)",
+            "Snapchat Privacy Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit Advertising Transparency Success",
+        "example_background": "Reddit implemented robust labeling for political and issue-based ads, requiring disclosure of funding sources and targeting information, aligning with its advertising policies for the platform used in the UK by Reddit Netherlands B.V. This enhanced user trust during elections.",
+        "process_and_outcome": "During 2020 US elections, Reddit's system was praised by watchdogs for compliance, with no major violations reported, leading to sustained policy adoption.",
+        "involved_parties": [
+            "Reddit Netherlands B.V.",
+            "Reddit Advertising Team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Advertising Standards",
+            "UK Online Safety Bill Principles"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "JPMorgan Chase 'London Whale' Trading Losses",
+        "example_background": "In 2012, JPMorgan Chase's Chief Investment Office engaged in complex derivatives trading that resulted in $6.2 billion in losses. Traders manipulated risk models and failed to properly report positions, bypassing internal risk controls. This incident highlighted gaps in employee understanding of risk management protocols and compliance with trading limits, despite existing training programs.",
+        "process_and_outcome": "The Office of the Comptroller of the Currency and Federal Reserve investigated, leading to a $920 million settlement. The bank enhanced its risk management training and internal controls as part of remediation efforts.",
+        "involved_parties": [
+            "JPMorgan Chase & Co.",
+            "Office of the Comptroller of the Currency (OCC)",
+            "Federal Reserve",
+            "Securities and Exchange Commission (SEC)",
+            "UK Financial Conduct Authority"
+        ],
+        "applicable_regulations_or_policies": [
+            "Dodd-Frank Act",
+            "Volcker Rule",
+            "Internal risk management policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Enron Corporate Fraud Collapse",
+        "example_background": "Enron Corporation, an energy trading company, used off-balance-sheet special purpose entities to hide billions in debt from 1997 to 2001. Executives misled investors and employees through accounting manipulations, while internal controls and ethical training failed to prevent the schemes. This led to one of the largest bankruptcies in U.S. history, wiping out $74 billion in shareholder value.",
+        "process_and_outcome": "The SEC investigated, leading to criminal convictions of executives including CEO Jeffrey Skilling and Chairman Kenneth Lay. Arthur Andersen was convicted of obstructing justice, resulting in its dissolution.",
+        "involved_parties": [
+            "Enron Corporation",
+            "Securities and Exchange Commission (SEC)",
+            "Department of Justice",
+            "Arthur Andersen (auditor)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Sarbanes-Oxley Act (post-incident)",
+            "Securities Exchange Act of 1934"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google's Project Aristotle Compliance Training Success",
+        "example_background": "Google conducted extensive internal research starting in 2012 known as Project Aristotle to understand effective team dynamics. This initiative included training programs on psychological safety, communication, and ethical decision-making, aligning with corporate values. The training was rolled out company-wide to improve collaboration and adherence to policies on diversity, inclusion, and integrity.",
+        "process_and_outcome": "The program led to measurable improvements in team performance and policy compliance, with no major regulatory issues arising from training gaps. It became an industry benchmark shared publicly.",
+        "involved_parties": [
+            "Google LLC",
+            "Internal HR and compliance teams"
+        ],
+        "applicable_regulations_or_policies": [
+            "EEOC guidelines",
+            "Internal code of conduct"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Microsoft Data Privacy Training Program",
+        "example_background": "Microsoft implemented mandatory annual training for all employees on data privacy, security, and ethical AI use as part of its Trustworthy Computing initiative launched in 2002. This includes onboarding modules and regular refreshers on handling customer data, complying with global privacy laws, and reporting incidents, fostering a culture of compliance across its operations.",
+        "process_and_outcome": "The program contributed to Microsoft avoiding major privacy fines and earning recognition for compliance leadership, with transparent reporting on training effectiveness.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Internal compliance division"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "CCPA",
+            "Internal privacy policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2002"
+    },
+    {
+        "example_name": "Salesforce Equality and Ethics Training",
+        "example_background": "Salesforce rolled out comprehensive Equality for All training programs starting in 2014, covering unconscious bias, inclusive leadership, and ethical sales practices. These are mandatory for new hires and annual refreshers, integrated into performance reviews to align with company values on diversity and customer trust.",
+        "process_and_outcome": "The initiative resulted in high employee engagement scores and no significant compliance failures related to discrimination or ethics, positioning Salesforce as a leader in corporate training.",
+        "involved_parties": [
+            "Salesforce.com, Inc.",
+            "Internal diversity and compliance teams"
+        ],
+        "applicable_regulations_or_policies": [
+            "Title VII of Civil Rights Act",
+            "Internal code of conduct"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Boeing 787 Supply Chain Labor Issues",
+        "example_background": "Boeing's supply chain for the 787 Dreamliner involved suppliers in multiple countries, including Italian firm Alenia Aeronautica. Reports emerged in 2010 that workers at a supplier facility were subjected to excessive overtime, poor living conditions, and passport confiscation resembling debt bondage. This occurred during the program's rushed production timeline, where global outsourcing led to oversight gaps in monitoring labor practices across tiers of suppliers. Investigations revealed that some migrant workers from Asia were recruited under misleading terms, paying high fees to agencies, and then faced deductions that trapped them in cycles of indebtedness while working long hours in factory conditions.",
+        "process_and_outcome": "Boeing conducted internal audits, terminated contracts with non-compliant suppliers, and enhanced its supplier code of conduct with mandatory human rights training and third-party audits. No direct fines were imposed on Boeing, but the incidents prompted industry-wide scrutiny and improvements in supply chain due diligence.",
+        "involved_parties": [
+            "Boeing Company",
+            "Alenia Aeronautica (supplier)",
+            "U.S. Department of Labor"
+        ],
+        "applicable_regulations_or_policies": [
+            "California Transparency in Supply Chains Act",
+            "Supplier Code of Conduct requirements"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2010"
+    },
+    {
+        "example_name": "Nestl\u00e9 Horsford Road Forced Labor Case",
+        "example_background": "In 2015, residents of Horsford Road in Trinidad were found working on a Nestl\u00e9 cocoa supplier's plantation under conditions of confinement and non-payment. Workers, including children, were recruited with promises of pay but held against their will, fed minimally, and beaten. This was part of broader cocoa supply chain issues in the Caribbean where poverty drives vulnerable populations into exploitative arrangements with local farmers supplying multinational buyers.",
+        "process_and_outcome": "Local authorities rescued 11 workers. Nestl\u00e9 suspended purchases from the supplier, conducted investigations, and contributed to community remediation. No fines were levied on Nestl\u00e9, but it strengthened traceability programs.",
+        "involved_parties": [
+            "Nestl\u00e9 S.A.",
+            "Local Trinidad supplier",
+            "Trinidadian police and labor ministry"
+        ],
+        "applicable_regulations_or_policies": [
+            "International Labour Organization Convention 29 (Forced Labour)",
+            "Nestl\u00e9 Responsible Sourcing Standard"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Microsoft Xbox Supplier Labor Abuses",
+        "example_background": "In 2019, BBC investigations revealed forced labor at a Malaysian factory supplying Microsoft Xbox components. Migrant workers from Bangladesh paid recruitment fees averaging $1,400 (equivalent to 6-12 months' wages), had passports confiscated, and lived in guarded dormitories with 16-hour shifts. Contracts bound them to repay debts, creating bonded labor conditions. This was uncovered amid Microsoft's push for affordable gaming hardware production.",
+        "process_and_outcome": "Microsoft audited the supplier (an unnamed electronics firm), imposed corrective actions including fee refunds and passport return, and published findings. The supplier improved conditions, and Microsoft expanded human rights due diligence across its supply chain.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Unnamed Malaysian supplier",
+            "BBC investigation team"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Modern Slavery Act 2015",
+            "Microsoft Supplier Code of Conduct"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Unilever Supplier Palm Oil Trafficking Issues",
+        "example_background": "In 2018, Amnesty International documented forced labor on palm oil plantations supplying Unilever in Indonesia. Migrant workers faced debt bondage from recruitment fees ($150-$1,000), passport retention, and squalid housing. Supervisors imposed quotas leading to 12-16 hour days. Unilever sources 100% sustainable palm oil but gaps in smallholder oversight allowed these practices to persist.",
+        "process_and_outcome": "Unilever severed ties with implicated suppliers, invested in grievance mechanisms, and improved mapping of indirect suppliers. No regulatory fines, but enhanced RSPO (Roundtable on Sustainable Palm Oil) compliance.",
+        "involved_parties": [
+            "Unilever PLC",
+            "Amnesty International",
+            "Indonesian palm oil suppliers"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Modern Slavery Act 2015",
+            "Unilever Responsible Sourcing Policy",
+            "ILO Convention 105"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Intel Conflict-Free Minerals Program",
+        "example_background": "Intel implemented a comprehensive supply chain program since 2012 to ensure conflict minerals (tin, tantalum, tungsten, gold) from its semiconductor suppliers do not fund armed groups in DRC. This includes supplier risk assessments, independent smelter audits via RMAP (Responsible Minerals Assurance Process), and 100% traceability for covered minerals, with annual reporting on progress.",
+        "process_and_outcome": "By 2020, Intel achieved RMAP conformance for all identified smelters, declared first major company with conflict-free microprocessors, and maintained compliance without enforcement actions.",
+        "involved_parties": [
+            "Intel Corporation",
+            "Responsible Minerals Initiative",
+            "Global smelters and suppliers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Dodd-Frank Act Section 1502",
+            "Intel Responsible Minerals Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Volkswagen Thailand Supplier Forced Labor",
+        "example_background": "In 2020, reports surfaced of Rohingya refugees working in forced labor conditions at a Volkswagen auto parts supplier in Thailand. Workers paid smuggling fees of $1,000+, had documents held, and worked 7 days/week with minimal pay. This was part of broader migrant labor exploitation in Southeast Asian auto supply chains amid labor shortages.",
+        "process_and_outcome": "Volkswagen investigated, ended the relationship with the supplier, and bolstered human rights due diligence including on-site visits and training. Thai authorities prosecuted labor brokers.",
+        "involved_parties": [
+            "Volkswagen AG",
+            "Unnamed Thai supplier",
+            "Thai Department of Employment"
+        ],
+        "applicable_regulations_or_policies": [
+            "German Supply Chain Due Diligence Act (LkSG)",
+            "Volkswagen Code of Conduct"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "TikTok \u20ac345 Million Fine for Children's Data in Ads",
+        "example_background": "In 2023, the Irish Data Protection Commission fined TikTok 345 million euros for mishandling children's data, particularly in relation to its advertising practices. The investigation found that TikTok's age verification processes were inadequate, allowing children under 13 to have public accounts and exposing their data to personalized ads without proper parental consent. Default privacy settings did not sufficiently protect minors, and data was processed for behavioral advertising purposes without granular consent options. This occurred platform-wide, affecting young users globally but focused on EU operations.",
+        "process_and_outcome": "The fine resulted from a multi-year probe initiated by complaints. TikTok committed to enhancing child safety features, including better age gates and private-by-default accounts for under-16s.",
+        "involved_parties": [
+            "TikTok (ByteDance)",
+            "Irish Data Protection Commission (DPC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "Children's Online Privacy Protection Act (COPPA, analogous)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Meta \u20ac1.2 Billion GDPR Fine for Data Transfers",
+        "example_background": "In 2023, the Irish DPC imposed a 1.2 billion euro fine on Meta for unlawful data transfers from the EU to the US via its Facebook service. Following the invalidation of the Privacy Shield by the Schrems II ruling, Meta continued using Standard Contractual Clauses without sufficient safeguards against US surveillance risks. This impacted data used for behavioral advertising, where user profiles were transferred and processed for ad targeting without adequate protection or consent granularity.",
+        "process_and_outcome": "The fine stemmed from investigations by multiple EU DPAs. Meta announced plans to appeal and shift to intra-EU data processing via EU-US Data Privacy Framework.",
+        "involved_parties": [
+            "Meta Platforms Ireland",
+            "Irish Data Protection Commission (DPC)",
+            "European Data Protection Board (EDPB)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR) Chapter V",
+            "Schrems II CJEU Ruling"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Twitter \u20ac450,000 Fine for Employment Ad Discrimination",
+        "example_background": "In 2021, Twitter was fined 450,000 euros by the Italian data protection authority for discriminatory advertising practices. The platform allowed advertisers to target job ads based on users' inferred gender, age, and location derived from profile data, potentially excluding certain demographics from opportunities. This violated equality principles in employment advertising, as job postings were shown preferentially to younger males in specific areas, affecting fairness in labor market access.",
+        "process_and_outcome": "Garante Privacy issued the fine after an investigation prompted by civil society complaints. Twitter updated its ad policies to prohibit such targeting for employment ads.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "Garante per la protezione dei dati personali (Italy)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "Italian Labor Code (non-discrimination)",
+            "Platform terms on discriminatory ads"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Reddit Ban on Involuntary Intimacy Content Sites",
+        "example_background": "In 2020, Reddit permanently banned subreddits and linked external sites promoting non-consensual intimate imagery, such as deepfakes and revenge porn, following years of moderator and user reports. This action aligned with Reddit's content policy prohibiting obscene and offensive material, including content that facilitates harm or exploitation. The move came amid pressure from advocacy groups and after high-profile incidents, ensuring the platform did not host or advertise such content.",
+        "process_and_outcome": "Reddit enforced the bans swiftly, removed thousands of posts, and enhanced automated detection tools. No fines were imposed, but it received praise for proactive moderation.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "User moderators",
+            "Advocacy groups like Revenge Porn Helpline"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy",
+            "Section 230 (US)",
+            "FOSTA-SESTA"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Google AdSense Human Trafficking Ads Removal",
+        "example_background": "In 2019, Google suspended thousands of AdSense accounts linked to websites promoting prostitution and escort services, which often masked human trafficking operations. The crackdown involved machine learning models and human reviewers scanning ad content for indicators of illegal services. This addressed violations of Google's advertising policies prohibiting content that facilitates illegal activities, including sex trafficking.",
+        "process_and_outcome": "Google terminated over 6,000 accounts and removed related ads, collaborating with law enforcement. The effort prevented millions in illicit ad revenue.",
+        "involved_parties": [
+            "Google LLC",
+            "Advertisers (suspended)",
+            "National Center for Missing & Exploited Children (NCMEC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Advertising Policies",
+            "FOSTA-SESTA (US)",
+            "13 U.S.C. \u00a7 2421 (Mann Act)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Snapchat \u20ac7 Million Fine for Illegal Gambling Ads",
+        "example_background": "In 2022, a Spanish court upheld a 7 million euro fine against Snapchat for allowing unauthorized online gambling advertisements targeted at minors. Ads from unlicensed operators appeared in users' feeds without age restrictions or proper disclosures, promoting betting services in violation of Spanish gambling laws and platform policies against illegal activities.",
+        "process_and_outcome": "Spain's Directorate General for Gambling Regulation investigated and fined Snapchat. The company improved ad review processes and geo-blocking for gambling content.",
+        "involved_parties": [
+            "Snap Inc.",
+            "Direcci\u00f3n General de Ordenaci\u00f3n del Juego (Spain)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Spanish Gambling Law 13/2011",
+            "Snapchat Advertising Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "LinkedIn \u20ac30 Million Fine for Cookie Consent in Ads",
+        "example_background": "In 2022, the Spanish AEPD fined LinkedIn 30 million euros for lacking valid consent for cookies used in tracking for personalized advertising. The platform's banner did not provide clear refusal options or granular controls, leading to automatic data processing for ad targeting without user agreement, affecting professional networking ads.",
+        "process_and_outcome": "The fine followed user complaints and audits. LinkedIn adjusted its cookie consent mechanisms across the EU.",
+        "involved_parties": [
+            "LinkedIn Ireland Unlimited Company",
+            "Agencia Espa\u00f1ola de Protecci\u00f3n de Datos (AEPD)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU ePrivacy Directive",
+            "EU General Data Protection Regulation (GDPR)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Apple Supplier Foxconn Labor Abuses",
+        "example_background": "Foxconn, a major supplier for Apple, operated factories in China where excessive overtime, poor living conditions, and underage labor were reported. A 2010 incident involved 18 worker suicides at the Shenzhen plant, sparking global attention to grueling work schedules exceeding 60 hours weekly, dormitory overcrowding, and management pressure. Earlier audits found workers under 16 years old and falsified age records. Apple's supply chain relied heavily on Foxconn for iPhone assembly, with components sourced globally. The issues reflected broader challenges in electronics manufacturing where cost pressures led to labor-intensive practices in regions with weak enforcement.",
+        "process_and_outcome": "Apple conducted audits, pressured Foxconn to raise wages by 30%, limit overtime to 49 hours weekly, and improve dormitories. Foxconn hired 100,000 more workers to reduce hours. In 2012, Apple joined the Fair Labor Association for independent monitoring. Changes included better supplier codes and training, reducing suicide rates and underage labor incidents.",
+        "involved_parties": [
+            "Apple Inc.",
+            "Foxconn Technology Group",
+            "Fair Labor Association",
+            "China Labor Watch"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Modern Slavery Act 2015",
+            "California Transparency in Supply Chains Act",
+            "International Labour Organization Conventions"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2010"
+    },
+    {
+        "example_name": "Unilever Modern Slavery Statement and Palm Oil Initiatives",
+        "example_background": "Unilever publishes annual modern slavery statements detailing risk assessments across its supply chains, particularly in palm oil, tea, and cocoa sourcing from high-risk areas like Indonesia, India, and West Africa. The company identified vulnerabilities such as migrant labor recruitment fees leading to bonded conditions and child labor in agriculture. Unilever implemented supplier codes requiring freedom of association, no forced labor, and traceability systems. Programs included the Unilever Sustainable Living Plan with partnerships for ethical sourcing, training 100,000+ smallholder farmers, and blockchain pilots for supply chain visibility.",
+        "process_and_outcome": "Unilever's efforts led to RSPO certification for 100% sustainable palm oil by 2019 target, grievance mechanisms resolving thousands of cases, and third-party audits. The statements received positive evaluations from KnowTheChain for transparency, demonstrating ongoing improvements without major enforcement actions.",
+        "involved_parties": [
+            "Unilever PLC",
+            "Roundtable on Sustainable Palm Oil (RSPO)",
+            "Supplier Ethical Data Exchange (Sedex)"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Modern Slavery Act 2015 Section 54",
+            "EU Conflict Minerals Regulation"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Boeing Supply Chain Forced Labor Audit Failures",
+        "example_background": "Boeing faced allegations of forced labor in its titanium supply chain linked to a Russian exporter connected to a labor camp in Kazakhstan. The supply chain involved VSMPO-AVISMA, a key titanium supplier, which sourced from factories using convict labor under harsh conditions. Reports detailed prisoners working long hours for minimal pay in unsafe environments to produce aircraft-grade titanium used in Boeing jets. The issue emerged amid U.S. sanctions on Russia post-2014 Crimea annexation, revealing opaque global supply chains in aerospace.",
+        "process_and_outcome": "Boeing terminated the supplier relationship in 2021 after a Reuters investigation. The company enhanced due diligence, requiring suppliers to map tier 2 and 3 sources. No direct fines were imposed, but it prompted industry-wide reviews and U.S. Customs holds on related shipments.",
+        "involved_parties": [
+            "Boeing Company",
+            "VSMPO-AVISMA Corporation",
+            "U.S. Customs and Border Protection",
+            "Reuters"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Modern Slavery Act 2015",
+            "Uyghur Forced Labor Prevention Act (analogous)",
+            "U.S. Section 307 Tariff Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Shein Fast Fashion Uyghur Labor Links",
+        "example_background": "Shein, a Chinese fast-fashion retailer, was accused of sourcing cotton from Xinjiang region where forced labor of Uyghur minorities was documented. U.S. investigations found Shein's supply chain included yarn and fabrics from factories linked to internment camps, with government programs transferring laborers under coercive conditions. Shein's rapid production model relied on opaque Chinese suppliers, making traceability difficult. Reports highlighted surveillance, restricted movement, and ideological training imposed on workers.",
+        "process_and_outcome": "U.S. Customs and Border Protection issued Withhold Release Orders in 2022 on Xinjiang cotton products. Shein faced lawsuits and delisting threats from U.S. exchanges. The company claimed enhanced audits but struggled with proof, leading to reputational damage and calls for better disclosure.",
+        "involved_parties": [
+            "Shein Group",
+            "U.S. Customs and Border Protection",
+            "U.S. Department of Homeland Security",
+            "Human Rights Watch"
+        ],
+        "applicable_regulations_or_policies": [
+            "Uyghur Forced Labor Prevention Act",
+            "UK Modern Slavery Act 2015",
+            "EU Forced Labor Regulation"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Modern Slavery Program",
+        "example_background": "Microsoft issues comprehensive modern slavery and human trafficking statements covering hardware manufacturing, software supply chains, and cloud services. High-risk areas include electronics assembly in Asia and data center construction. The company conducts risk assessments, supplier audits, and worker grievance hotlines. Initiatives include the Rework America program for ethical recruitment and partnerships with IOM to combat trafficking. Microsoft requires suppliers to adhere to Responsible Business Alliance standards and maps multi-tier suppliers.",
+        "process_and_outcome": "Annual reporting shows remediation of identified risks, with 100% of high-risk suppliers audited. Microsoft scored highly in KnowTheChain benchmarks for tech sector transparency, avoiding major violations through proactive measures.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Responsible Business Alliance",
+            "International Organization for Migration"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Modern Slavery Act 2015 Section 54",
+            "California Transparency in Supply Chains Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Volkswagen Xinjiang Battery Supply Chain",
+        "example_background": "Volkswagen's battery supplier, Contemporary Amperex Technology (CATL), has operations in Xinjiang linked to forced labor programs. CATL sourced materials from the region where Uyghur workers were transferred to factories under state-sponsored schemes involving quotas, surveillance, and restricted freedoms. Volkswagen's electric vehicle production depended on these batteries, with initial supply chain mapping failing to identify risks in lower tiers.",
+        "process_and_outcome": "Volkswagen initiated audits and discussed exiting Xinjiang operations in 2022. Shareholder pressure and NGO reports led to commitments for diversified sourcing. No fines yet, but ongoing scrutiny under German Supply Chain Due Diligence Law.",
+        "involved_parties": [
+            "Volkswagen AG",
+            "CATL (Contemporary Amperex Technology)",
+            "German Watch",
+            "Business & Human Rights Resource Centre"
+        ],
+        "applicable_regulations_or_policies": [
+            "German Supply Chain Due Diligence Act",
+            "UK Modern Slavery Act 2015",
+            "Uyghur Forced Labor Prevention Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "BMO Financial Group Anti-Slavery Framework",
+        "example_background": "Bank of Montreal (BMO) developed a robust anti-slavery program including enterprise-wide risk assessments across lending, investments, and procurement. Focus areas include construction, agriculture, and mining portfolios. The bank trains 50,000+ employees, integrates clauses in contracts prohibiting slavery, and uses third-party assurance for statements. BMO participates in the Global Slavery Index and supports client remediation.",
+        "process_and_outcome": "BMO's statements detail metrics like 95% supplier compliance rates and resolved grievances, earning recognition for leading practices in finance sector without enforcement actions.",
+        "involved_parties": [
+            "BMO Financial Group",
+            "Thomson Reuters",
+            "Walk Free Foundation"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Modern Slavery Act 2015 Section 54",
+            "Canadian Fighting Against Forced Labour and Child Labour in Supply Chains Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Coca-Cola Eritrea Bottler Forced Labor",
+        "example_background": "Coca-Cola's bottler in Eritrea, owned by local partners, relied on the National Service program where conscripts worked indefinitely for minimal pay in bottling plants. Workers faced military oversight, no exit rights, and beatings for absences. The program, post-1998 war, funneled youth into labor pools, affecting beverage production supplied to Coca-Cola.",
+        "process_and_outcome": "Human Rights Watch reported in 2015; Coca-Cola conducted reviews, engaged IOM for monitoring, and shifted to voluntary labor by 2019. Improved conditions reduced forced labor reliance.",
+        "involved_parties": [
+            "The Coca-Cola Company",
+            "Eritrean bottlers",
+            "Human Rights Watch",
+            "International Organization for Migration"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Modern Slavery Act 2015",
+            "U.S. Trafficking Victims Protection Reauthorization Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Boeing 737 MAX Supply Chain Issues",
+        "example_background": "Boeing, an aerospace manufacturer, relied on a global network of suppliers for components used in the 737 MAX aircraft. Issues arose with the Maneuvering Characteristics Augmentation System (MCAS) software, sourced from third-party developers, and manufacturing processes at Spirit AeroSystems facilities. Reports indicated that substandard parts and inadequate oversight of supplier production processes contributed to design flaws and quality control failures. Production pressures led to shortcuts in supplier quality assurance, including improper installation of parts and insufficient testing protocols across international supply chains involving suppliers in the United States, Japan, and other countries. These problems surfaced after two fatal crashes involving Lion Air and Ethiopian Airlines flights, prompting extensive scrutiny of Boeing's entire supply chain management practices.",
+        "process_and_outcome": "The U.S. Federal Aviation Administration (FAA) grounded the 737 MAX fleet for nearly two years. The U.S. Department of Justice charged Boeing with fraud, resulting in a $2.5 billion settlement in 2021. The Securities and Exchange Commission (SEC) imposed a $200 million fine for disclosure failures. Boeing enhanced supplier audits, implemented stricter quality controls, and faced ongoing production restrictions. Civil lawsuits from victims' families continued, with Boeing agreeing to additional compensation.",
+        "involved_parties": [
+            "Boeing Company",
+            "Spirit AeroSystems",
+            "Federal Aviation Administration (FAA)",
+            "U.S. Department of Justice",
+            "National Transportation Safety Board (NTSB)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Federal Aviation Regulations (FAR)",
+            "Sarbanes-Oxley Act",
+            "FAA Supplier Quality System Requirements"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Apple Supplier Code of Conduct Compliance Program",
+        "example_background": "Apple maintains a vast global supply chain for electronics manufacturing, sourcing components and assembly services from suppliers in China, Taiwan, Vietnam, and other regions. The company established a comprehensive Supplier Code of Conduct and Responsibility program that covers labor practices, environmental standards, health and safety, ethics, and management systems. Annual audits are conducted on hundreds of facilities, with corrective action plans for non-conformances. Suppliers provide services like component fabrication and assembly, akin to professional services in tech operations. Apple publishes detailed Supplier Responsibility Progress Reports, detailing audits, training, and improvements across its supply base.",
+        "process_and_outcome": "Independent third-party audits verified improvements, with over 800 audits performed annually. Apple invested over $20 million in supplier training and remediation. The program led to widespread adoption of standards by suppliers, reducing audit findings by significant margins year-over-year. No major regulatory penalties were issued related to supply chain practices.",
+        "involved_parties": [
+            "Apple Inc.",
+            "Foxconn (supplier)",
+            "Pegatron (supplier)",
+            "Fair Labor Association (auditor)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apple Supplier Code of Conduct",
+            "Electronic Industry Citizenship Coalition (EICC) Code",
+            "California Transparency in Supply Chains Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Volkswagen Dieselgate Supply Chain Emissions Scandal",
+        "example_background": "Volkswagen Group procured engine components and emissions control systems from global suppliers for its diesel vehicles. The scandal involved software defeat devices installed in engines to manipulate emissions tests during regulatory certification. Suppliers provided hardware like turbochargers and particulate filters, but Volkswagen engineers modified software at the integration stage. This affected supply chains spanning Europe, the United States, and Asia, with production facilities relying on just-in-time delivery from multiple vendors. The issue came to light after testing by the International Council on Clean Transportation revealed discrepancies in real-world versus lab emissions.",
+        "process_and_outcome": "The U.S. Environmental Protection Agency (EPA) and California Air Resources Board issued a Notice of Violation. Volkswagen paid over $30 billion in fines, buybacks, and settlements globally. Criminal charges led to guilty pleas and executive indictments. The company overhauled its supply chain governance, including enhanced emissions testing protocols.",
+        "involved_parties": [
+            "Volkswagen AG",
+            "EPA",
+            "California Air Resources Board",
+            "Bosch (supplier)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Clean Air Act",
+            "EU Emissions Standards",
+            "SEC Reporting Requirements"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Supply Chain Risk Management Program",
+        "example_background": "Microsoft operates a global supply chain for cloud infrastructure, software development tools, and office operations, sourcing hardware, cloud services, and professional services from providers worldwide. Following lessons from global disruptions, Microsoft implemented a robust Supply Chain Risk Management (SCRM) framework that includes mapping of Tier 1-3 suppliers, regular assessments, diversification strategies, and contingency planning. This covers services like data center construction, software licenses, and office furnishings across regions including the U.S., Europe, and Asia. The program emphasizes transparency and resilience for non-manufacturing inputs.",
+        "process_and_outcome": "The framework enabled Microsoft to navigate semiconductor shortages and geopolitical risks without major disruptions. Annual reports demonstrate high supplier compliance rates and proactive risk mitigation. Microsoft shared best practices through industry whitepapers, contributing to sector-wide improvements.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "NIST (standards body)",
+            "Various cloud and hardware suppliers"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST SP 800-161 Supply Chain Risk Management",
+            "Microsoft Corporate Social Responsibility Standards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Cloud Supplier Sustainability Initiative",
+        "example_background": "Google procures cloud computing hardware, data center services, office supplies, and professional services from a global supplier base. The company launched a Supplier Sustainability Initiative requiring all direct suppliers to achieve net-zero emissions by 2030, aligned with Google's own goals. This includes annual sustainability audits, carbon footprint reporting, and capacity-building programs for services like construction and IT support across offices worldwide.",
+        "process_and_outcome": "Over 90% of suppliers committed to science-based targets. Google provided $5 million in grants for supplier improvements. The program reduced Scope 3 emissions and set industry benchmarks, with transparent reporting in environmental reports.",
+        "involved_parties": [
+            "Google LLC",
+            "Supplier partners",
+            "Science Based Targets initiative (SBTi)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Supplier Code of Conduct",
+            "Task Force on Climate-related Financial Disclosures (TCFD)",
+            "EU Corporate Sustainability Due Diligence Directive"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta Platforms Vendor Management Framework",
+        "example_background": "Meta (formerly Facebook) sources software licenses, cloud services, professional consulting, and office-related supplies from global and local vendors to support its social media operations across worldwide offices. The company developed a Vendor Management Framework that includes risk tiering, due diligence questionnaires, contractual safeguards, and continuous monitoring for all suppliers, regardless of size or location. This ensures alignment with operational needs for services like data processing and facility management.",
+        "process_and_outcome": "The framework supported seamless scaling during growth phases, with regular audits showing high compliance. Meta published transparency reports on vendor risks, avoiding major disruptions or penalties related to supply chain issues.",
+        "involved_parties": [
+            "Meta Platforms Inc.",
+            "Various software and service vendors",
+            "Internal compliance teams"
+        ],
+        "applicable_regulations_or_policies": [
+            "Meta Vendor Code of Conduct",
+            "GDPR Vendor Management Requirements",
+            "SOC 2 Trust Services Criteria"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Equifax Data Breach via Supply Chain",
+        "example_background": "Equifax, a credit reporting agency, used Apache Struts software from a third-party open-source supplier in its web applications. Failure to patch a known vulnerability in this supply chain component led to a breach exposing sensitive data of 147 million people. The incident underscored risks in software procurement for services supporting core operations.",
+        "process_and_outcome": "The FTC settled for $575 million, with additional state settlements totaling $425 million. Equifax overhauled its patch management and third-party risk processes. CEO resigned, and congressional hearings followed.",
+        "involved_parties": [
+            "Equifax Inc.",
+            "Federal Trade Commission (FTC)",
+            "Consumer Financial Protection Bureau (CFPB)",
+            "Apache Software Foundation"
+        ],
+        "applicable_regulations_or_policies": [
+            "Gramm-Leach-Bliley Act",
+            "FTC Safeguards Rule",
+            "NIST Cybersecurity Framework"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter (X) Child Sexual Exploitation Content Removals",
+        "example_background": "Twitter identified and addressed a surge in child sexual exploitation material (CSEM) on its platform, including images, videos, and discussions shared via direct messages, tweets, and live streams. Reports from users, NCMEC, and internal monitoring tools flagged accounts distributing such content, often using hashtags, coded language, or private groups to evade detection. The platform's algorithms and human reviewers processed millions of reports annually, with particular focus on networks promoting or monetizing CSEM through subscriptions or ads.",
+        "process_and_outcome": "Twitter removed over 90% of reported CSEM within 24 hours, suspended millions of accounts, and collaborated with law enforcement leading to arrests. In 2022, it published transparency reports detailing proactive detections and policy enforcement actions, improving automated systems post-acquisition.",
+        "involved_parties": [
+            "Twitter (X Corp)",
+            "National Center for Missing & Exploited Children (NCMEC)",
+            "Law enforcement agencies"
+        ],
+        "applicable_regulations_or_policies": [
+            "18 U.S.C. \u00a7 2258A (CyberTipline Reporting)",
+            "Twitter Illegal Content Policies",
+            "NCMEC Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit Silk Road Marketplace Shutdown",
+        "example_background": "The Silk Road subreddit and related forums on Reddit discussed and linked to the dark web marketplace Silk Road, where users bought and sold illegal drugs, weapons, and other contraband using cryptocurrency. Posts included tutorials on accessing the site, vendor reviews, and transaction coordination. Moderators allowed content that skirted direct links but facilitated user traffic to the illegal marketplace. This occurred amid the site's operation from 2011-2013, drawing attention after IRS agent Ross Ulbricht's arrest.",
+        "process_and_outcome": "Reddit banned Silk Road-related subreddits and removed content following the 2013 site takedown by FBI. Ulbricht was convicted on drug trafficking charges and sentenced to life imprisonment. Reddit enhanced moderation tools for dark web content.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "FBI",
+            "Ross Ulbricht (Dread Pirate Roberts)",
+            "Silk Road operators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Controlled Substances Act",
+            "Reddit Content Policy (Illegal Activities)",
+            "21 U.S.C. \u00a7 841 (Drug Trafficking)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "TikTok Vote Manipulation During 2020 Harris Campaign",
+        "example_background": "During the 2020 U.S. election cycle, TikTok users engaged in coordinated campaigns to artificially boost a video of Vice Presidential candidate Kamala Harris in a 'vote' feature on the app, unrelated to actual ballots. Groups organized via external platforms to repeatedly vote, pushing the video to top trending spots. This distorted algorithmic recommendations, amplifying visibility beyond organic engagement. TikTok's systems detected unusual voting patterns from clusters of accounts.",
+        "process_and_outcome": "TikTok removed the manipulated content, suspended participating accounts, and adjusted algorithms to prevent recurrence. The incident was disclosed in platform transparency reports, leading to refined policies on engagement manipulation.",
+        "involved_parties": [
+            "TikTok (ByteDance)",
+            "User groups",
+            "TikTok moderation team"
+        ],
+        "applicable_regulations_or_policies": [
+            "TikTok Community Guidelines (Authenticity)",
+            "Federal Election Campaign Act (Indirectly)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "YouTube Child Grooming Network Dismantling",
+        "example_background": "YouTube hosted channels and comment sections where individuals groomed minors through private messages and live chats, sharing contact info and explicit requests. Networks used kid-friendly content like gaming videos to attract young viewers, then shifted to off-platform communication. Reports from users and Thorn detected patterns across hundreds of accounts.",
+        "process_and_outcome": "YouTube terminated over 900 accounts in 2020, removed millions of comments, and enhanced detection models. Collaboration with NCMEC resulted in 50+ law enforcement referrals. Policy updates mandated stricter age-gating and reporting.",
+        "involved_parties": [
+            "YouTube (Google)",
+            "Thorn",
+            "NCMEC",
+            "FBI"
+        ],
+        "applicable_regulations_or_policies": [
+            "COPPA (Children's Online Privacy Protection Act)",
+            "YouTube Community Guidelines (Child Safety)",
+            "18 U.S.C. \u00a7 2422 (Coercion and Enticement)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitch Bits Laundering Scheme",
+        "example_background": "Accounts on Twitch purchased and gifted 'Bits' (virtual currency) in large volumes to artificially inflate channel subscriptions and viewer counts. Rings of users cycled funds through low-tier donations, boosting rankings on leaderboards. This created false impressions of popularity, deceiving advertisers and the platform's algorithm.",
+        "process_and_outcome": "Twitch investigated suspicious transaction patterns, banned over 15,000 accounts in 2021, and recovered laundered funds. Policy changes included transaction limits and enhanced fraud detection.",
+        "involved_parties": [
+            "Twitch (Amazon)",
+            "Twitch Trust & Safety",
+            "Perpetrator accounts"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitch Terms of Service (Authenticity)",
+            "FTC Endorsement Guides"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Reddit COVID-19 Misinformation Subreddit Removals",
+        "example_background": "Subreddits such as r/NoNewNormal and others promoted unverified claims about COVID-19 vaccines, treatments, and origins, including content discouraging public health measures. Posts featured manipulated images, conspiracy narratives, and coordinated sharing to amplify reach. User reports and moderator inconsistencies led to reviews.",
+        "process_and_outcome": "Reddit quarantined or banned multiple subreddits in 2021, suspended accounts, and updated policies for health misinformation. Transparency reports detailed over 1,000 actions taken.",
+        "involved_parties": [
+            "Reddit Inc.",
+            "Health authorities (CDC, WHO)",
+            "Reddit Policy team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Reddit Content Policy (Misinformation)",
+            "Health Misinformation Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    }
+]

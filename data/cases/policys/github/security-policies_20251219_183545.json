@@ -1,0 +1,1722 @@
+[
+    {
+        "example_name": "HackerOne Unauthorized Access to Twitter",
+        "example_background": "A researcher participating in a bug bounty program identified a vulnerability in Twitter's system that allowed access to internal tools. The access occurred without prior explicit permission beyond the general bug bounty scope, leading to discovery of sensitive user data endpoints. The researcher documented the findings and reported them through the platform, but the method involved actions that extended beyond the defined program boundaries outlined in the platform's policies. Twitter's bug bounty program specifies certain restrictions on testing methods to prevent disruption, and the researcher's approach raised questions about adherence to those limits. The incident gained attention when details were shared publicly, prompting discussions on the boundaries of permitted security research under bug bounty safe harbors.",
+        "process_and_outcome": "Twitter acknowledged the report, fixed the vulnerability, and awarded a bounty to the researcher. No legal action was taken, as the disclosure was handled responsibly through the program channels, demonstrating the safe harbor's application despite the boundary-pushing approach.",
+        "involved_parties": [],
+        "applicable_regulations_or_policies": [
+            "HackerOne Bug Bounty Terms",
+            "Twitter Bug Bounty Program Policy",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Equifax Data Breach Discovery by Independent Researcher",
+        "example_background": "Prior to the major 2017 Equifax breach, a security researcher identified a patchable vulnerability in the Apache Struts framework used by Equifax. The researcher attempted to notify Equifax through various channels but received no response. Frustrated, the researcher escalated by demonstrating the issue publicly, which technically fell outside Equifax's lack of a formal bug bounty program and violated general terms of service regarding unauthorized access and testing on production systems. Equifax had no defined safe harbor or bug bounty policy at the time, making the researcher's actions non-exempt under standard site policies.",
+        "process_and_outcome": "Equifax did not engage with the researcher. The vulnerability remained unpatched, contributing to the massive breach affecting 147 million people. The researcher faced no charges, but the incident highlighted gaps in vulnerability disclosure processes without structured programs.",
+        "involved_parties": [
+            "Equifax Inc.",
+            "Independent security researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Equifax Terms of Service",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Uber Bug Bounty VPN Endpoint Discovery",
+        "example_background": "A researcher under Uber's HackerOne bug bounty program discovered an accessible VPN endpoint that allowed entry into Uber's internal network. The testing involved probing network infrastructure, which was within the expanded scope of Uber's private bug bounty program but pushed the limits of site policies restricting certain network reconnaissance activities. Uber's program provided safe harbor for actions aligned with the policy, and the researcher adhered to disclosure rules by not exploiting further and reporting promptly.",
+        "process_and_outcome": "Uber awarded the researcher $10,000 and remediated the issue. The safe harbor protected the researcher from legal repercussions, showcasing successful use of program exemptions.",
+        "involved_parties": [
+            "Uber Technologies Inc.",
+            "HackerOne",
+            "Researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Uber Bug Bounty Program Policy",
+            "HackerOne Safe Harbor Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Yahoo Vulnerability Disclosure Jailbreak",
+        "example_background": "Researchers found a critical flaw in Yahoo Mail allowing account takeovers. Yahoo lacked a bug bounty program, and researchers bypassed restrictions by scripting automated access to demonstrate impact. This action contravened Yahoo's site policies prohibiting automated tools and unauthorized testing, with no safe harbor exemption available due to the absence of a formal program.",
+        "process_and_outcome": "Yahoo patched the issue after disclosure but banned the researchers from its services. No bounties were paid, and the incident underscored risks of research outside structured programs.",
+        "involved_parties": [
+            "Yahoo Inc.",
+            "Researchers (independent)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Yahoo Terms of Service",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "GitHub Bug Bounty XSS in Enterprise",
+        "example_background": "A researcher participating in GitHub's bug bounty program uncovered a cross-site scripting (XSS) vulnerability in GitHub Enterprise that could lead to session hijacking. The testing stayed within the program's defined scope for web application testing, respecting restrictions on social engineering and denial-of-service activities as per GitHub's policy. The safe harbor terms explicitly permitted such research activities.",
+        "process_and_outcome": "GitHub awarded a $5,000 bounty, credited the researcher, and deployed a fix. The process exemplified adherence to program guidelines.",
+        "involved_parties": [
+            "GitHub Inc.",
+            "HackerOne",
+            "Researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Security Bug Bounty Program Policy",
+            "HackerOne Disclosure Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Tesla Researcher Vehicle Unlock",
+        "example_background": "Researchers remotely accessed and unlocked Tesla vehicles via a flaw in the mobile app, demonstrating potential physical access risks. Tesla had no public bug bounty program for physical systems at the time, and the actions violated terms of service prohibiting unauthorized access to vehicles or accounts, lacking any safe harbor exemption.",
+        "process_and_outcome": "Tesla patched the vulnerability after notification but pursued legal threats against the researchers. No bounty was offered, highlighting tensions without formal programs.",
+        "involved_parties": [
+            "Tesla Inc.",
+            "Researchers (Keen Security Lab)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Tesla Terms of Service",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft M365 Defender Bypass",
+        "example_background": "Under Microsoft's bounty program on HackerOne, a researcher bypassed security controls in Microsoft 365 Defender. The testing adhered to the program's scope for endpoint detection research, avoiding disallowed disruption activities, thus qualifying under the safe harbor provisions of the policy.",
+        "process_and_outcome": "Microsoft paid a $20,000 bounty and resolved the issue. The researcher received public recognition.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "HackerOne",
+            "Researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Bug Bounty Program",
+            "HackerOne Safe Harbor"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Shopify Unauthorized Endpoint Testing",
+        "example_background": "A researcher tested undocumented API endpoints on Shopify's platform outside the bug bounty scope, leading to data access. Shopify's program has strict policies on permitted testing surfaces, and this exceeded them without exemption, violating site terms.",
+        "process_and_outcome": "Shopify investigated, banned the researcher from the program, and no bounty was awarded. The vulnerability was fixed internally.",
+        "involved_parties": [
+            "Shopify Inc.",
+            "Researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Shopify Bug Bounty Scope Policy",
+            "Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Facebook Bug Bounty Account Cloning",
+        "example_background": "Researchers in Facebook's program demonstrated a method to clone accounts via a verification bypass. The research followed the program's guidelines for account security testing, within safe harbor limits excluding spam or phishing simulations.",
+        "process_and_outcome": "Facebook issued a $15,000 bounty and patched the flaw, validating the compliant research process.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "Researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Bug Bounty Program Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "United States v. Aaron Swartz",
+        "example_background": "Aaron Swartz downloaded a large number of academic articles from JSTOR using a guest account at MIT by connecting a laptop to the network and using scripts to access the content. The activity involved accessing protected computer systems without explicit permission from JSTOR or MIT. Federal prosecutors pursued charges alleging unauthorized access to computers and data theft, leading to a high-profile case that highlighted tensions between research activities and computer access laws. Swartz faced significant legal pressure before his death in 2013.",
+        "process_and_outcome": "The U.S. Attorney's Office filed 13 charges including violations of the Computer Fraud and Abuse Act. The case was ongoing with Swartz facing up to 35 years in prison and $1 million in fines when he took his own life. No trial occurred, but it prompted widespread debate and legislative review of CFAA.",
+        "involved_parties": [
+            "Aaron Swartz (researcher)",
+            "U.S. Department of Justice (prosecutor)",
+            "MIT (network owner)",
+            "JSTOR (content provider)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Facebook Bug Bounty - HackerOne Disclosure",
+        "example_background": "A security researcher identified a cross-site scripting vulnerability in Facebook's platform that allowed potential session hijacking. The researcher followed Facebook's bug bounty program guidelines by discovering the issue, testing it in a controlled manner without exploiting user data or causing disruption, and submitting a detailed report through HackerOne. Facebook's policy explicitly authorized such testing within scope and promised no legal action for good faith disclosures.",
+        "process_and_outcome": "Facebook reviewed the report, confirmed the vulnerability, issued a patch, and awarded the researcher $20,000 as part of their bug bounty program. No legal proceedings ensued, and the researcher was recognized publicly.",
+        "involved_parties": [
+            "Facebook (company)",
+            "Security researcher (discloser)",
+            "HackerOne (platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Facebook Bug Bounty Program Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Twitter Bitcoin Scam Account Hack Disclosure",
+        "example_background": "In July 2020, attackers gained internal access to Twitter's tools and compromised high-profile accounts including those of Elon Musk, Barack Obama, and Joe Biden to promote a Bitcoin scam. A security researcher independently discovered related vulnerabilities in Twitter's internal systems prior to the incident and reported them responsibly. Following the breach, Twitter's bug bounty program researchers adhered to disclosure policies by providing details without further accessing systems.",
+        "process_and_outcome": "Twitter paid bounties to researchers for valid reports, fixed the issues, and conducted an internal investigation. The U.S. government also investigated the breach separately, but bounty participants faced no repercussions.",
+        "involved_parties": [
+            "Twitter (company)",
+            "Multiple security researchers",
+            "FBI (investigator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Twitter Bug Bounty Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "July 2020"
+    },
+    {
+        "example_name": "Keith M. v. United States (CFAA Academic Research Case)",
+        "example_background": "Graduate student Keith Martin accessed a university's computer system using credentials shared among students to conduct research on system security. The access exceeded the intended scope of the shared credentials, leading to allegations of unauthorized access despite no malicious intent or damage.",
+        "process_and_outcome": "The Ninth Circuit Court of Appeals ruled in 2016 that exceeding authorized access under CFAA requires violating technical restrictions, not just terms of use. The case was remanded, influencing CFAA interpretations for research activities.",
+        "involved_parties": [
+            "Keith Martin (researcher)",
+            "United States (prosecutor)",
+            "University (system owner)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Vulnerability Reward Program Success",
+        "example_background": "Google's Vulnerability Reward Program (VRP) allows researchers to test products like Chrome and Android for security issues. One researcher found a zero-day exploit in Chrome's sandboxing that could lead to remote code execution. The researcher adhered to Google's policy by not exploiting beyond proof-of-concept, avoiding production data, and submitting via the official channel.",
+        "process_and_outcome": "Google verified the issue, deployed a fix, and paid the researcher $605,000, the highest bounty at the time. The disclosure was handled without legal issues, demonstrating effective coordinated vulnerability disclosure.",
+        "involved_parties": [
+            "Google (company)",
+            "Security researcher",
+            "Google VRP Team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "DMCA",
+            "Google Vulnerability Reward Program Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Xbox Live Penetration Test",
+        "example_background": "Researchers under Microsoft's bug bounty tested Xbox Live services for vulnerabilities, including authentication bypasses. They followed scope rules, documented findings, and reported without disrupting live services or accessing user accounts beyond demonstration.",
+        "process_and_outcome": "Microsoft awarded bounties up to $50,000 per finding, patched the vulnerabilities, and published anonymized reports. No enforcement actions against researchers.",
+        "involved_parties": [
+            "Microsoft (company)",
+            "Bug bounty researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Microsoft Bug Bounty Program"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "hiQ Labs v. LinkedIn",
+        "example_background": "hiQ Labs scraped public LinkedIn profiles for data analytics without using login credentials. LinkedIn claimed this violated CFAA by accessing data against terms of service. The case examined whether public data access constitutes unauthorized entry under computer access laws.",
+        "process_and_outcome": "The Ninth Circuit ruled in 2019 and affirmed in 2022 that scraping public profiles does not violate CFAA, as no bypassing of access barriers occurred. The injunction against hiQ was lifted.",
+        "involved_parties": [
+            "hiQ Labs (data firm)",
+            "LinkedIn (platform)",
+            "U.S. Courts"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Van Buren v. United States",
+        "example_background": "Police sergeant Van Buren accessed a law enforcement database using valid credentials to run a license plate check for a private party, exceeding his authorized duties. Prosecutors charged him under CFAA for exceeding authorized access.",
+        "process_and_outcome": "The Supreme Court ruled unanimously in 2021 that exceeding authorized access under CFAA requires breaching technical barriers, not merely purpose restrictions. Van Buren's conviction was vacated.",
+        "involved_parties": [
+            "Nathan Van Buren (defendant)",
+            "U.S. Department of Justice",
+            "U.S. Supreme Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Apple Security Bounty Program - Sandbox Escape",
+        "example_background": "A researcher discovered an iOS sandbox escape vulnerability allowing apps to access restricted areas. The researcher tested within Apple's defined scope, created a minimal reproducible demo without targeting users, and submitted via the Apple Security Bounty portal.",
+        "process_and_outcome": "Apple confirmed, patched in the next iOS update, and paid $100,000 bounty. Disclosure credited publicly without legal pursuit.",
+        "involved_parties": [
+            "Apple Inc.",
+            "Security researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "DMCA",
+            "Apple Security Bounty Program"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "HackerOne Safe Harbor Program",
+        "example_background": "HackerOne operates a platform that connects organizations with security researchers through bug bounty programs. To encourage participation, HackerOne established a Safe Harbor Program that provides legal protections for researchers who follow the specific scope and rules outlined in participating companies' programs. This initiative ensures that good faith disclosures within defined boundaries do not lead to legal action from the organization. The program explicitly states that it applies only to actions taken in accordance with the policy and does not extend to third parties. Researchers are instructed to contact the organization if they have questions about whether a proposed action falls within the allowed scope. This framework has facilitated thousands of vulnerability reports across numerous companies, promoting coordinated disclosure without fear of reprisal.",
+        "process_and_outcome": "The Safe Harbor Program has been adopted by hundreds of organizations, resulting in coordinated vulnerability disclosures and no reported legal actions against compliant researchers. It serves as an industry standard for bug bounty legal protections.",
+        "involved_parties": [
+            "HackerOne",
+            "Participating organizations (e.g., Google, Microsoft)",
+            "Security researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "HackerOne Safe Harbor Policy",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "GitHub Bug Bounty Safe Harbor",
+        "example_background": "GitHub maintains a bug bounty program through HackerOne, explicitly stating that researchers who adhere to the program's scope and rules will not face legal consequences for good faith security research. The policy emphasizes coordination through the official program and advises researchers to seek clarification before undertaking actions that might exceed the defined boundaries. It clarifies that these protections do not apply to third parties and encourages direct communication with GitHub for any uncertainties. This approach has enabled the discovery and patching of numerous vulnerabilities in GitHub's services without legal disputes.",
+        "process_and_outcome": "Multiple vulnerabilities have been responsibly disclosed and rewarded under the program, with GitHub publicly acknowledging researchers and providing payments, demonstrating effective coordination.",
+        "involved_parties": [
+            "GitHub",
+            "HackerOne",
+            "Security researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Bug Bounty Program Policy",
+            "HackerOne Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Coordinated Vulnerability Disclosure Policy",
+        "example_background": "Microsoft's security response center outlines a policy for vulnerability disclosure that directs researchers to report findings through official channels. The policy provides assurances against legal action for good faith research conducted within specified guidelines, such as not accessing customer data or disrupting services. Researchers are encouraged to pause and consult Microsoft if an intended action appears to go beyond the policy's bounds. This structured approach has been key to Microsoft's bounty programs across products like Windows and Azure, handling thousands of reports annually.",
+        "process_and_outcome": "Microsoft has paid out millions in bounties and issued public thanks to researchers, with no legal pursuits against those following the process.",
+        "involved_parties": [
+            "Microsoft",
+            "Microsoft Security Response Center",
+            "Researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Vulnerability Disclosure Policy",
+            "Microsoft Bounty Programs"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Uber Bug Bounty Legal Action Against Researcher",
+        "example_background": "In 2016, a security researcher named Pablo Martinez participated in Uber's bug bounty program but extended his testing beyond the program's scope by accessing internal systems and downloading sensitive data without explicit authorization. Uber's policy required coordination through official channels and prohibited actions outside defined boundaries. The researcher proceeded without seeking clarification, leading to exposure of user data. Uber responded by involving law enforcement, highlighting the limits of bug bounty protections when rules are not followed.",
+        "process_and_outcome": "Uber reported the incident to authorities, resulting in criminal charges against the researcher under California's Computer Data Access and Fraud Act. The case was resolved with the researcher pleading guilty to one misdemeanor count.",
+        "involved_parties": [
+            "Uber",
+            "Pablo Martinez (researcher)",
+            "Santa Clara District Attorney's Office"
+        ],
+        "applicable_regulations_or_policies": [
+            "Uber Bug Bounty Program Policy",
+            "California Computer Data Access and Fraud Act (Penal Code \u00a7502)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Google Vulnerability Reward Program Safe Harbor",
+        "example_background": "Google's Vulnerability Reward Program (VRP) includes a safe harbor provision stating that researchers engaging in good faith security research consistent with the program's policy will not face legal action from Google. The policy defines strict scopes for testing, requires coordination through official reporting channels, and instructs researchers to contact Google before performing actions that might exceed boundaries. It explicitly notes that protections do not extend to third parties. This has supported disclosures across Google services like Chrome and Android.",
+        "process_and_outcome": "Google has awarded over $10 million in bounties, with coordinated fixes and researcher recognition, upholding the policy's framework.",
+        "involved_parties": [
+            "Google",
+            "Google Project Zero",
+            "Researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google VRP Policy",
+            "DMCA Exemption for Security Research"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Facebook Whitehat Safe Harbor Breach",
+        "example_background": "In 2015, a Norwegian researcher tested Facebook's mobile app billing mechanisms as part of their whitehat program but went beyond scope by creating multiple test accounts and exploiting a flaw to generate credits, then shared details publicly without prior coordination. Facebook's policy mandated reporting through the bug bounty program and prohibited actions outside defined testing scopes without approval. The researcher did not seek clarification despite the activity exceeding standard bounds.",
+        "process_and_outcome": "Facebook pursued legal action, leading to a settlement where the researcher admitted fault and Facebook dropped charges after policy adherence commitments.",
+        "involved_parties": [
+            "Facebook",
+            "Norwegian researcher",
+            "Norwegian authorities"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Whitehat Bug Bounty Policy",
+            "Norwegian Penal Code"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Apple Security Bounty Guidelines",
+        "example_background": "Apple's security bounty program specifies that researchers must follow the outlined scope and coordinate disclosures through designated channels to avoid legal issues. The policy provides assurances for good faith efforts within bounds and directs researchers to contact Apple for guidance on uncertain actions. It emphasizes that protections are limited to Apple's systems and do not cover third parties. This has enabled safe reporting of iOS and macOS vulnerabilities.",
+        "process_and_outcome": "Apple has issued significant bounties, up to $2 million for critical issues, with all compliant reports leading to fixes without legal repercussions.",
+        "involved_parties": [
+            "Apple Inc.",
+            "Security researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apple Security Bounty Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Yahoo Vulnerability Disclosure Incident",
+        "example_background": "In 2013, a researcher accessed Yahoo's internal systems beyond the scope of any authorized testing by exploiting a flaw and extracting user data without coordinating through Yahoo's nascent disclosure process. Yahoo lacked a formal bug bounty at the time but expected researchers to contact them before public disclosure or extensive testing. The researcher proceeded independently, notifying Yahoo only after obtaining data.",
+        "process_and_outcome": "Yahoo cooperated with law enforcement, leading to FBI investigation and charges against the researcher under the CFAA. The case underscored the need for clear policies.",
+        "involved_parties": [
+            "Yahoo",
+            "Researcher",
+            "FBI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Bugcrowd Safe Harbor for Coordinated Disclosure",
+        "example_background": "Bugcrowd's platform-wide Safe Harbor policy protects researchers who adhere to program scopes from legal action by participating organizations. It requires all testing to be coordinated through the platform, with researchers advised to pause and consult program owners for any actions potentially outside bounds. The policy disclaims protection for third-party systems. This has supported bug bounties for companies like Atlassian and Dropbox.",
+        "process_and_outcome": "Thousands of vulnerabilities reported and rewarded, with the policy preventing legal conflicts for compliant researchers.",
+        "involved_parties": [
+            "Bugcrowd",
+            "Participating companies",
+            "Researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Bugcrowd Safe Harbor Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "HackerOne George Hotz Facebook Incident",
+        "example_background": "In 2015, researcher George Hotz participated in Facebook's bug bounty program through HackerOne. He identified a cross-site scripting vulnerability in Facebook's Pages feature that allowed arbitrary JavaScript execution when users visited a crafted page. Hotz submitted a detailed report via the HackerOne platform, including proof-of-concept code and screenshots demonstrating the issue. The vulnerability stemmed from insufficient input sanitization in the page rendering process. Facebook's security team reviewed the submission promptly. Hotz adhered strictly to the program's scope, testing only on in-scope assets and avoiding any data access or disruption beyond demonstration. This incident highlighted the effectiveness of coordinated vulnerability disclosure platforms in identifying issues without unauthorized actions.",
+        "process_and_outcome": "Facebook triaged the report within hours, confirmed the vulnerability, and deployed a fix across production systems. Hotz received a bounty payment of $5,000. No further actions were required, and the resolution was publicly acknowledged on HackerOne's leaderboard.",
+        "involved_parties": [
+            "George Hotz (researcher)",
+            "Facebook (program operator)",
+            "HackerOne (platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Bug Bounty Program Policy",
+            "HackerOne Disclosure Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Uber Bug Bounty Source Code Leak",
+        "example_background": "In 2016, a researcher discovered and reported a misconfigured internal tool at Uber that exposed over 57 million users' and drivers' personal data, including names, emails, and phone numbers. The issue involved an AWS S3 bucket with overly permissive access controls. The researcher accessed the data but refrained from downloading or exfiltrating it beyond verification. Instead, the researcher immediately notified Uber through their HackerOne-managed bug bounty program, providing evidence of the exposure. Uber initially mishandled the disclosure by attempting to silence the researcher with threats of legal action, which drew public backlash.",
+        "process_and_outcome": "Uber fixed the configuration error within 24 hours after proper escalation. The researcher was eventually awarded a $10,000 bounty following media involvement. Uber faced internal investigations and leadership changes, including the resignation of their CSO.",
+        "involved_parties": [
+            "Uber Technologies (company)",
+            "Anonymous researcher",
+            "HackerOne (platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Uber Bug Bounty Program Rules",
+            "GDPR data protection principles"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Microsoft MSRC Bounty Program Success - CVE-2017-0144",
+        "example_background": "In 2017, multiple researchers submitted reports to Microsoft's Security Response Center (MSRC) bounty program regarding a remote code execution vulnerability in the SMBv1 protocol, later known as EternalBlue (CVE-2017-0144). The flaw allowed unauthenticated attackers to execute arbitrary code over the network. Researchers tested the issue on virtualized in-scope systems as permitted, providing detailed exploit code and mitigation recommendations without targeting live production environments or compromising data.",
+        "process_and_outcome": "Microsoft issued patches in March 2017 Patch Tuesday. Researchers received bounties totaling over $250,000. The coordinated disclosure prevented widespread exploitation prior to public release.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "MSRC researchers",
+            "Microsoft Security Response Center"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Bounty Program Terms",
+            "Coordinated Vulnerability Disclosure Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Twitter Bitcoin Scam Bug Bounty",
+        "example_background": "In 2019, researcher '@saelo' identified a vulnerability in Twitter's platform that allowed attackers to hijack any account's email address through a race condition in the account recovery flow. This could facilitate phishing and unauthorized access. The researcher demonstrated the issue using a test account within Twitter's bug bounty scope on HackerOne, capturing video proof without altering live user data or disrupting services. Twitter's scope explicitly permitted testing recovery mechanisms on owned accounts.",
+        "process_and_outcome": "Twitter reproduced and fixed the issue within days. The researcher was awarded a $5,520 bounty. Twitter published a thank-you disclosure on HackerOne.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "Saelo (researcher)",
+            "HackerOne"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Bug Bounty Policy",
+            "HackerOne Rules of Engagement"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Equifax Data Breach Unauthorized Disclosure",
+        "example_background": "In 2017, Equifax suffered a massive breach where attackers exploited an unpatched Apache Struts vulnerability (CVE-2017-5638), accessing sensitive PII of 147 million individuals. Prior to the breach becoming public, security researcher Matt O'Donnell reported the same vulnerability class to Equifax's bug bounty program on Bugcrowd but received no response. Independently, attackers accessed systems beyond any authorized scope, exfiltrated data to external servers, and monetized it on dark web markets, compromising far more data than permitted in any disclosure program.",
+        "process_and_outcome": "Equifax disclosed the breach in September 2017 after internal detection. The company faced FTC and CFPB investigations, resulting in $575 million settlement, $1.4 billion in remediation costs, and executive resignations. O'Donnell received no bounty.",
+        "involved_parties": [
+            "Equifax Inc.",
+            "Chinese military-linked hackers (attributed)",
+            "FTC, CFPB (regulators)",
+            "Matt O'Donnell (researcher)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Equifax Bug Bounty Rules",
+            "Gramm-Leach-Bliley Act",
+            "Computer Fraud and Abuse Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Shopify Bitcoin Payment Bug Bounty",
+        "example_background": "In 2018, researcher 'fs0c1al1ty' reported a critical flaw in Shopify's Bitcoin payment integration that allowed attackers to double-spend cryptocurrency by manipulating transaction confirmations. The issue involved improper validation of blockchain transactions during processing. The researcher crafted a proof-of-concept using testnet Bitcoin on Shopify's staging environment, strictly within the HackerOne program scope, and notified Shopify without executing real transactions or accessing customer data.",
+        "process_and_outcome": "Shopify verified and remediated the issue, paying a $20,000 bounty. The fix was deployed to production, and a disclosure was published.",
+        "involved_parties": [
+            "Shopify Inc.",
+            "fs0c1al1ty (researcher)",
+            "HackerOne"
+        ],
+        "applicable_regulations_or_policies": [
+            "Shopify Bug Bounty Program",
+            "PCI DSS Payment Standards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Yahoo Account Takeover Bounty",
+        "example_background": "In 2013, multiple researchers reported cross-account takeover vulnerabilities in Yahoo's login and recovery systems via their short-lived bug bounty program. One notable report involved a CSRF flaw allowing password resets without user interaction. Researchers limited testing to their own accounts and provided step-by-step reproduction without data exfiltration, adhering to Yahoo's guidelines which prohibited production disruption.",
+        "process_and_outcome": "Yahoo patched the issues and paid bounties up to $5,000 per report. This occurred prior to Yahoo's major breaches, demonstrating early program effectiveness.",
+        "involved_parties": [
+            "Yahoo Inc.",
+            "Multiple independent researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Yahoo Bug Bounty Terms",
+            "OWASP Testing Guide"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "GitHub Gollum RCE Bounty",
+        "example_background": "In 2019, researcher 'orange_8361' discovered a remote code execution vulnerability in GitHub's Gollum wiki software used internally. The flaw allowed arbitrary command execution via specially crafted wiki syntax. Testing was confined to a personal GitHub repository within the bug bounty scope, with PoC code submitted without executing on GitHub infrastructure.",
+        "process_and_outcome": "GitHub fixed the issue and awarded $20,000 bounty. Disclosure published on HackerOne hacktivity.",
+        "involved_parties": [
+            "GitHub Inc.",
+            "orange_8361 (researcher)",
+            "HackerOne"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Security Bug Bounty Program"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "HackerOne Unauthorized Disclosure of Vulnerabilities",
+        "example_background": "In 2015, a researcher participating in HackerOne's bug bounty program discovered critical vulnerabilities in a client's web application. The researcher publicly disclosed the findings on Twitter and a personal blog prior to receiving official authorization from the program coordinators, including full details that allowed replication of the issues. This action occurred during an active bounty engagement where the client had specified a 90-day disclosure timeline in their program policy. The disclosure drew attention from security media outlets and prompted immediate patching by the affected company, but it also led to internal review by HackerOne due to concerns over the client's reputation and potential legal exposure from the premature release of sensitive information.",
+        "process_and_outcome": "HackerOne investigated the incident, disqualified the researcher from future programs, suspended their account, and issued a public statement reinforcing disclosure guidelines. The client accelerated their patch deployment, and no further legal actions were taken against the researcher, though HackerOne updated its platform rules to emphasize safe harbor compliance.",
+        "involved_parties": [
+            "HackerOne (platform)",
+            "Affected client company",
+            "Researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "HackerOne Disclosure Guidelines",
+            "Client Bug Bounty Program Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "GitHub Bug Bounty - Uber Data Exposure",
+        "example_background": "In 2016, a security researcher identified a vulnerability in Uber's GitHub repository that exposed internal AWS keys and source code related to mapping services. The issue involved improperly configured private repositories inadvertently made accessible through GitHub's platform. The researcher submitted the finding through GitHub's Bug Bounty program, adhering to the outlined reporting process and withholding public details until resolution. Uber's engineering team was notified via GitHub's coordinated response mechanism, allowing for swift remediation without external exposure.",
+        "process_and_outcome": "GitHub facilitated the report, Uber revoked the exposed keys and secured the repositories within hours. The researcher received a $10,000 bounty payout under GitHub's program terms, and the incident was acknowledged in GitHub's bounty hall of fame.",
+        "involved_parties": [
+            "Uber Technologies",
+            "GitHub (platform)",
+            "Security researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Bug Bounty Program",
+            "GitHub Legal Safe Harbor Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Equifax Data Breach Unauthorized Access Report",
+        "example_background": "Prior to the major 2017 Equifax breach, a researcher found an Apache Struts vulnerability in Equifax's public-facing web application via reconnaissance on their hosted services. The researcher reported it through Bugcrowd's program associated with Equifax's vendor stack but chose to escalate publicly on social media when initial response was delayed beyond the program's 7-day acknowledgment window. This action highlighted the flaw months before the large-scale exploitation that affected 147 million individuals.",
+        "process_and_outcome": "Equifax acknowledged the report post-publication, patched the vulnerability, but the researcher was banned from Bugcrowd programs for violating coordinated disclosure terms. The incident contributed to broader scrutiny during the main breach investigations by the FTC and Congress.",
+        "involved_parties": [
+            "Equifax Inc.",
+            "Bugcrowd (platform)",
+            "Researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Bugcrowd Responsible Disclosure Policy",
+            "Equifax Vendor Security Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Microsoft Vulnerability Bounty Program Success",
+        "example_background": "In 2018, researchers uncovered a privilege escalation flaw in Microsoft Azure Active Directory through the company's bounty program. They documented the issue comprehensively, submitted it via the official MSRC portal linked to Microsoft's bounty guidelines, and adhered to the 90-day embargo period. During this time, Microsoft validated the report, developed a fix, and coordinated release timing to minimize user impact across cloud services.",
+        "process_and_outcome": "Microsoft awarded the researchers $20,000 in bounty and credited them publicly after patch deployment. The fix was rolled out globally via Windows Update, preventing widespread exploitation.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "MSRC (Microsoft Security Response Center)",
+            "Researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Bounty Program Rules",
+            "Coordinated Vulnerability Disclosure (CVD)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Yahoo Vulnerability Disclosure Breach",
+        "example_background": "During Yahoo's 2013-2014 data breaches, a hacker group known as 'Peace' accessed user databases and attempted to submit findings through Yahoo's nascent bug bounty program on HackerOne. Instead of following the private reporting channel, they publicly released proof-of-concept data samples and full database dumps on underground forums, claiming non-response to initial probes. This exposed credentials of hundreds of millions of accounts.",
+        "process_and_outcome": "Yahoo investigated post-disclosure, confirmed the breaches, notified affected users, and settled related class actions for $117.5 million. The actors faced no bounties and were pursued criminally by the FBI.",
+        "involved_parties": [
+            "Yahoo Inc.",
+            "HackerOne",
+            "Peace hacker group"
+        ],
+        "applicable_regulations_or_policies": [
+            "HackerOne Program Terms",
+            "Yahoo Bug Bounty Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Google Project Zero Coordinated Disclosure",
+        "example_background": "Project Zero, Google's vulnerability research team, identified zero-day exploits in Android kernel components in 2019. Researchers followed Google's public CVD policy by privately notifying OEM partners like Samsung and Qualcomm, providing detailed reproduction steps and proof-of-concepts. Disclosure occurred 90 days post-notification unless patches were delayed, with full technical reports published afterward on the Project Zero blog.",
+        "process_and_outcome": "Partners issued patches through monthly security updates, mitigating risks to billions of devices. Reports gained industry recognition, contributing to improved Android security standards.",
+        "involved_parties": [
+            "Google Project Zero",
+            "Samsung",
+            "Qualcomm"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Vulnerability Reward Program",
+            "Project Zero CVD Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Facebook Data Abuse Unauthorized Scraping Report",
+        "example_background": "In 2018, a researcher scraped public Facebook profile data using automated tools and reported it via the company's bug bounty program, alleging a design flaw in data exposure controls. Despite program rules limiting scraping, the researcher published a dataset sample externally before official triage, prompting debates on platform responsibilities for public data access.",
+        "process_and_outcome": "Facebook rejected the bounty claim citing violation of terms prohibiting scraping, temporarily suspended the researcher, and enhanced anti-scraping measures. The incident fueled congressional hearings on data practices.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "Researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Bug Bounty Program",
+            "Platform Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Apple Security Bounty Program - Kernel Exploit",
+        "example_background": "Researchers discovered a macOS kernel memory corruption vulnerability in 2020 and submitted it through Apple's Security Bounty Program. They provided a complete exploit chain, followed the private submission process via product-security@apple.com, and waited for the designated disclosure timeline while Apple developed mitigations for iOS and macOS updates.",
+        "process_and_outcome": "Apple awarded $2 million, the highest bounty at the time, and included the researchers in acknowledgments post-release. The patches were deployed in iOS 14.5 and macOS Big Sur 11.3.",
+        "involved_parties": [
+            "Apple Inc.",
+            "Researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apple Security Bounty Guidelines",
+            "Safe Harbor for Good-Faith Research"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Twitter API Vulnerability Public Dump",
+        "example_background": "In 2022, following Twitter's API changes, a developer exploited an undocumented endpoint to extract non-public user data and shared the method and samples publicly on GitHub without prior reporting. This occurred outside formal bounty channels but referenced Twitter's bug bounty as justification for open disclosure.",
+        "process_and_outcome": "Twitter shut down the endpoint, banned the account, and clarified API policies. No bounty was paid, and the developer faced platform suspension.",
+        "involved_parties": [
+            "Twitter (X Corp)",
+            "Developer"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Bug Bounty Program",
+            "Twitter Developer Agreement"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Marcus Hutchins Malware Arrest",
+        "example_background": "Marcus Hutchins, a cybersecurity researcher known online as MalwareTech, gained recognition for creating a kill switch that halted the WannaCry ransomware outbreak in 2017. Shortly after, authorities arrested him in the United States while he was traveling from the UK. The charges stemmed from his involvement several years earlier in developing and distributing Kronos banking malware, also known as Zeus Panda. Hutchins had authored the malware as part of underground activities before shifting to defensive security research. Federal investigators accessed logs and code repositories linking him to the malware distribution through command-and-control servers he operated. The case highlighted tensions between prior involvement in offensive tools and subsequent contributions to cybersecurity, as Hutchins' research activities did not have authorization from affected financial institutions whose systems were targeted by the malware.",
+        "process_and_outcome": "Hutchins faced indictment on 10 felony counts including conspiracy to commit computer fraud. After initial detention, he was released on bail, pleaded guilty to two counts, and received a time-served sentence with probation. The US government later granted him a pardon in 2023.",
+        "involved_parties": [
+            "Marcus Hutchins (researcher/defendant)",
+            "US Department of Justice (prosecutor)",
+            "FBI (investigator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Wire Fraud statutes"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Kevin Mitnick Unauthorized Access Conviction",
+        "example_background": "Kevin Mitnick conducted extensive explorations of corporate networks in the 1980s and 1990s, accessing systems belonging to companies such as Motorola, Nokia, Fujitsu, and Sun Microsystems without permission. He copied proprietary software source code, including cellular phone firmware, and monitored email communications. Mitnick's activities involved social engineering and exploiting vulnerabilities in third-party telecommunications and technology infrastructures. Although he shared some findings with contacts, he operated independently without formal authorization from the affected entities, leading to concerns over intellectual property theft and network security disruptions.",
+        "process_and_outcome": "The FBI pursued Mitnick as a fugitive for years before his arrest in 1995. He served five years in prison, including eight months in solitary confinement, and was released in 2000 under three years of supervised release prohibiting computer use.",
+        "involved_parties": [
+            "Kevin Mitnick (hacker/researcher)",
+            "FBI (law enforcement)",
+            "Motorola, Nokia, Sun Microsystems (victims)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Wiretap Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Weev AT&T Data Breach",
+        "example_background": "Andrew Auernheimer, known as Weev, discovered a configuration error in AT&T's customer portal that exposed millions of iPad users' email addresses and ICC-IDs through sequential ID enumeration. In 2010, he and a collaborator accessed and downloaded approximately 114,000 records without AT&T's permission. Auernheimer provided the data to media outlets like Gawker to highlight the vulnerability, arguing it served public interest in security awareness. However, AT&T had not authorized the access or disclosure, viewing it as unauthorized entry into their production systems.",
+        "process_and_outcome": "Federal prosecutors charged Auernheimer under the CFAA. A district court convicted him in 2012, sentencing him to 41 months imprisonment and three years supervised release. The Third Circuit vacated the conviction in 2014 on venue grounds, but no retrial occurred.",
+        "involved_parties": [
+            "Andrew Auernheimer (Weev, researcher)",
+            "US Department of Justice",
+            "AT&T (affected company)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2010"
+    },
+    {
+        "example_name": "HD Moore SSI Vulnerability Disclosure",
+        "example_background": "In 2012, security researcher HD Moore identified a SQL injection vulnerability in Server-Side Include (SSI) processing on thousands of websites, including those of the White House, CIA, and major corporations. Moore developed and released SSI Scan, a tool to detect vulnerable servers, and published a list of over 6,000 affected .gov domains. The disclosure occurred without prior coordination or permission from the targeted organizations, aiming to prompt rapid fixes but raising concerns among federal agencies about unapproved scanning of government networks.",
+        "process_and_outcome": "The US Department of Homeland Security's Computer Emergency Response Team (US-CERT) coordinated mitigations. No criminal charges resulted, but it sparked discussions on responsible disclosure; Moore emphasized public benefit over individual authorization.",
+        "involved_parties": [
+            "HD Moore (researcher)",
+            "US-CERT (coordinator)",
+            "US White House, CIA (affected entities)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "DHS binding operational directive practices"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "SWEETSENSATION HPE Probe",
+        "example_background": "Polish researcher Marcin Noga, under the handle SWEETSENSATION, reported a vulnerability in Hewlett Packard Enterprise (HPE) Intelligent Management Center (iMC) software in 2021. He accessed a test iMC instance provided by HPE for authorized research but exceeded its scope by chaining the flaw to compromise an unaffiliated third-party system at a US federal agency. Noga documented the path in his disclosure, which HPE initially rewarded with $10,000 before retracting it upon discovering the third-party impact.",
+        "process_and_outcome": "HPE terminated the bounty and referred the matter to US authorities. The FBI initiated a criminal probe into potential unauthorized access of government infrastructure, though no public charges were filed as of latest reports.",
+        "involved_parties": [
+            "SWEETSENSATION/Marcin Noga (researcher)",
+            "HPE (platform owner)",
+            "FBI (investigator)",
+            "US federal agency (third party)"
+        ],
+        "applicable_regulations_or_policies": [
+            "HPE Security Research Program Terms",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Microsoft MTP Participation",
+        "example_background": "Microsoft's Malware Protection Testing (MTP) and Bug Bounty programs authorize researchers to test security products against Microsoft's own simulated environments. Participants deploy test malware samples provided by Microsoft on isolated lab setups, ensuring no impact on external networks or third-party systems. This structured approach has identified improvements in Defender and other tools.",
+        "process_and_outcome": "Researchers receive bounties from $5,000 to $250,000 based on findings. No incidents of third-party complaints have arisen due to strict scoping.",
+        "involved_parties": [
+            "Microsoft Corporation (sponsor)",
+            "Authorized researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Bug Bounty Program Terms",
+            "Malware Protection Testing Rules"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "HackerOne Responsible Disclosure Platform",
+        "example_background": "HackerOne facilitates coordinated vulnerability disclosure for over 2,000 organizations. Researchers submit findings through private channels to program owners, who handle notifications and fixes. Policies strictly prohibit out-of-scope testing, including third-party systems, with legal protections like safe harbor letters provided only for authorized scopes. High-profile disclosures have included fixes at Shopify and Uber without unauthorized access.",
+        "process_and_outcome": "Over $100 million paid in bounties since 2012. Incidents of scope violations result in program bans, maintaining trust and compliance.",
+        "involved_parties": [
+            "HackerOne (platform)",
+            "Participating companies (e.g., GitHub, Uber)",
+            "Researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "HackerOne Disclosure Guidelines",
+            "Coordinated Vulnerability Disclosure policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "GitHub Bug Bounty Program",
+        "example_background": "GitHub operates a bug bounty program through HackerOne, explicitly authorizing research only on its own services like github.com and api.github.com. The policy warns participants that testing third-party repositories, forks, or hosted content falls outside scope and lacks authorization. Researchers must avoid actions impacting users' private data or external integrations, with indemnification limited to in-scope activities.",
+        "process_and_outcome": "Bounties range from $200 to $30,000. The program has resolved hundreds of vulnerabilities while enforcing scope to prevent third-party issues.",
+        "involved_parties": [
+            "GitHub (sponsor)",
+            "HackerOne (platform)",
+            "Approved researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Bug Bounty Program Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Patch Tuesday Vulnerability Handling",
+        "example_background": "Microsoft maintains a structured process for addressing security vulnerabilities in its products, including Windows, Office, and Azure services. Through its coordinated vulnerability disclosure program, Microsoft works with security researchers worldwide via the Microsoft Security Response Center (MSRC). For instance, vulnerabilities like CVE-2021-34473 (ProxyShell) in Exchange Server were responsibly reported by researchers, allowing Microsoft to investigate, patch, and release updates during monthly Patch Tuesday cycles or out-of-band releases. This approach ensures patches are tested and deployed globally without premature public exposure.",
+        "process_and_outcome": "Microsoft regularly acknowledges researchers through its Hall of Fame and provides bounties up to $250,000 for critical findings. Successful disclosures have prevented widespread exploitation, with patches mitigating risks for millions of users. No major incidents resulted from delayed patching in recent years due to this process.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Microsoft Security Response Center (MSRC)",
+            "Security Researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Coordinated Vulnerability Disclosure Policy",
+            "ISO/IEC 29147 (Vulnerability Disclosure)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Log4Shell Vulnerability Disclosure (Log4j) 2021",
+        "example_background": "In December 2021, a zero-day vulnerability (CVE-2021-44228) was discovered in the Apache Log4j logging library, a widely used open-source Java component affecting millions of applications, including those from Cloudflare, Apple, and U.S. government systems. Researcher Alvaro Mu\u00f1oz from Cloudflare identified the remote code execution flaw during internal testing and immediately coordinated with the Apache Software Foundation (ASF). ASF issued emergency patches within days, while initial disclosure was handled responsibly to allow preparation time.",
+        "process_and_outcome": "Apache released Log4j 2.15.0 on December 9, 2021, followed by further fixes. CISA added it to Known Exploited Vulnerabilities catalog, urging immediate patching. No penalties for ASF; the coordinated response limited damage despite massive scanning and exploitation attempts.",
+        "involved_parties": [
+            "Apache Software Foundation",
+            "Cloudflare",
+            "Cybersecurity and Infrastructure Security Agency (CISA)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apache Vulnerability Disclosure Policy",
+            "ISO/IEC 30111 (Vulnerability Handling Processes)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "December 2021"
+    },
+    {
+        "example_name": "WannaCry Ransomware Exploitation of EternalBlue 2017",
+        "example_background": "In March 2017, Microsoft released a patch for CVE-2017-0144 (EternalBlue), a Windows SMB vulnerability. Despite this, the Shadow Brokers leaked exploit code derived from NSA tools, enabling the WannaCry ransomware to spread globally in May 2017. WannaCry infected over 200,000 computers in 150 countries, exploiting unpatched systems in organizations like the UK's National Health Service (NHS), which lost access to critical systems. Many entities failed to apply available patches promptly.",
+        "process_and_outcome": "Microsoft issued emergency patches for unsupported systems like Windows XP. NHS incurred \u00a392 million in costs and disruptions. No direct fines on Microsoft, but it highlighted patch management failures; U.S. indicted North Korean operatives behind WannaCry.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "National Health Service (NHS)",
+            "U.S. Department of Justice"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Patch Management Guidelines",
+            "NIST SP 800-40 (Patch Management)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "March 2017"
+    },
+    {
+        "example_name": "Twitter Bitcoin Scam Account Hijackings 2020",
+        "example_background": "In July 2020, attackers gained access to internal tools at Twitter, compromising high-profile accounts including Barack Obama, Joe Biden, Elon Musk, and Bill Gates. They posted Bitcoin scam messages promising doubled returns. The breach involved social engineering of Twitter employees with access to admin panels, exposing flaws in internal access controls and vulnerability to phishing.",
+        "process_and_outcome": "Twitter locked high-profile accounts, conducted internal audits, and fired implicated employees. U.S. DOJ charged 17-year-old Graham Ivan Clark and others. Twitter enhanced multi-factor authentication and segmentation, settling related lawsuits.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "U.S. Department of Justice",
+            "FBI"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Security Guidelines",
+            "NIST SP 800-53 (Access Control)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "July 2020"
+    },
+    {
+        "example_name": "GitHub Coordinated Vulnerability Disclosure Example - Dependabot Alerts",
+        "example_background": "GitHub's security team maintains a vulnerability research program, exemplified by Dependabot, which scans repositories for known vulnerabilities in dependencies. In 2019, GitHub responsibly disclosed issues in its own ecosystem, such as vulnerabilities in GitHub Actions runners, coordinating with maintainers to patch before widespread notification. This proactive scanning and disclosure process integrates with GitHub's bug bounty program.",
+        "process_and_outcome": "Vulnerabilities patched upstream, with alerts pushed to millions of repositories. GitHub's program prevented exploitation, earning recognition for ecosystem-wide security improvements.",
+        "involved_parties": [
+            "GitHub Inc.",
+            "Open Source Maintainers"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Security Vulnerability Disclosure Policy",
+            "GitHub Bug Bounty Program"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Uber Data Breach 2016 Bug Bounty Cover-Up",
+        "example_background": "In late 2016, a 20-year-old researcher discovered a vulnerability in Uber's GitHub repository that allowed access to sensitive data including names, email addresses, and phone numbers of 57 million Uber users and 600,000 drivers worldwide. The researcher accessed the data via an AWS S3 bucket linked to Uber's private GitHub code. Uber paid the researcher $10,000 through its bug bounty program under HackerOne and asked him to delete the data under nondisclosure terms. Uber did not disclose the incident publicly for over a year, classifying it internally as a third-party data breach to avoid regulatory reporting requirements. The breach occurred due to misconfigured access controls on GitHub-integrated cloud storage.",
+        "process_and_outcome": "Investigations by the FTC, New York Attorney General, and others led to Uber paying $148 million in penalties across multiple jurisdictions. The FTC banned Uber from denying future breach notifications, and Uber's then-CSO and Chief Legal Officer resigned. Uber implemented mandatory breach disclosures and enhanced bug bounty processes.",
+        "involved_parties": [
+            "Uber Technologies Inc.",
+            "Federal Trade Commission (FTC)",
+            "New York Attorney General",
+            "HackerOne (bug bounty platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act",
+            "New York General Business Law \u00a7 899-aa",
+            "GDPR (for EU impacts)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Microsoft MS17-010 EternalBlue Vulnerability",
+        "example_background": "In March 2017, Microsoft disclosed CVE-2017-0144 (EternalBlue), a remote code execution vulnerability in Windows SMBv1 protocol. A patch was released for supported systems, but many organizations delayed deployment. The vulnerability was exploited by the WannaCry ransomware in May 2017, affecting over 200,000 systems in 150 countries, and NotPetya malware. Hospitals, businesses, and governments were impacted due to unpatched Windows systems. The NSA had known about the flaw since 2014 but did not disclose it promptly, allowing its leak via Shadow Brokers.",
+        "process_and_outcome": "Microsoft provided free patches even for unsupported systems. No direct fines on Microsoft, but the incident prompted global criticism and accelerated patch management practices. WannaCry attribution led to sanctions on North Korea.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "National Security Agency (NSA)",
+            "Shadow Brokers (hackers)",
+            "WannaCry operators"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST SP 800-40 (Patch Management)",
+            "CIS Controls (Continuous Vulnerability Management)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "March 2017"
+    },
+    {
+        "example_name": "GitHub GitDude Repository Vulnerability 2018",
+        "example_background": "In January 2018, security researcher Peter Hron reported a vulnerability in GitHub's Enterprise Server via its bug bounty program. The flaw, dubbed GitDude, allowed attackers to execute arbitrary code on GitHub Enterprise installations by exploiting unsafe deserialization in the git-http-backend process. This stemmed from processing specially crafted Git packets with long path names containing PHP code. Thousands of exposed GitHub Enterprise servers were at risk if publicly accessible. GitHub promptly validated and patched the issue after responsible disclosure.",
+        "process_and_outcome": "GitHub patched the vulnerability within days, issued security advisory GHSA-3v5h-9v7w-7r73, and credited the researcher with a bounty payment. No exploitation in the wild was reported, demonstrating effective coordinated disclosure.",
+        "involved_parties": [
+            "GitHub Inc.",
+            "Peter Hron (security researcher)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Bug Bounty Program",
+            "CVE Program"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "January 2018"
+    },
+    {
+        "example_name": "Facebook Bug Bounty Cambridge Analytica Indirect Link",
+        "example_background": "While primarily known for the 2018 Cambridge Analytica scandal involving data misuse via an app, Facebook's bug bounty program had previously rewarded reports of similar API flaws. In 2015, researchers reported vulnerabilities allowing apps to scrape friend data without consent, akin to the Kogan app exploit affecting 87 million users. Facebook's platform review processes failed to detect ongoing issues despite bounty disclosures. The scandal highlighted gaps between bounty findings and production safeguards.",
+        "process_and_outcome": "FTC imposed a $5 billion penalty on Facebook in 2019 for privacy failures. The company enhanced app review, data access APIs, and bounty program scope. Researchers received bounties for related flaws.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "Federal Trade Commission (FTC)",
+            "Cambridge Analytica",
+            "Security researchers via HackerOne"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Consent Decree (2012)",
+            "GDPR"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "HackerOne Google Bug Bounty XSS Flaw",
+        "example_background": "In 2019, a security researcher reported a cross-site scripting (XSS) vulnerability in Google's OAuth2 flow via HackerOne's platform, which Google uses for its Vulnerability Reward Program (VRP). The flaw allowed attackers to steal authorization codes by embedding malicious payloads in redirect URIs, potentially compromising user accounts across Google services. Google validated the report, fixed it promptly, and rewarded the researcher $10,000, showcasing the program's role in identifying high-impact issues before exploitation.",
+        "process_and_outcome": "Google issued a patch and credited the researcher publicly. No incidents occurred, reinforcing the effectiveness of proactive vulnerability hunting.",
+        "involved_parties": [
+            "Google LLC",
+            "HackerOne",
+            "Anonymous researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Vulnerability Reward Program (VRP)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Apple macOS Gatekeeper Bypass Bounty",
+        "example_background": "In 2021, researcher Ryan Govostes reported a logic error in Apple's macOS Gatekeeper via its Security Bounty program. The flaw allowed bypassing code-signing checks by exploiting how macOS handled quarantined files from iCloud, potentially enabling unsigned malware execution. Apple fixed the issue in macOS Monterey and awarded Govostes $35,000, the highest bounty at the time, demonstrating robust handling of critical desktop security reports.",
+        "process_and_outcome": "Apple released security update and CVE-2021-30973. No exploitation reported, crediting the program for preemptive mitigation.",
+        "involved_parties": [
+            "Apple Inc.",
+            "Ryan Govostes (researcher)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apple Security Bounty Program"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "Uber Greyball Tool Deployment",
+        "example_background": "Uber Technologies developed and used a software tool called Greyball to detect and evade regulators conducting investigations into its ride-hailing operations in various cities. The tool identified official government devices or accounts based on location data, prior app interactions, and other signals, then served those users a fake version of the app with no available rides or non-operational vehicles. This practice occurred in multiple locations including Philadelphia, where regulators attempted undercover checks to enforce local transportation laws requiring commercial licenses for ride-sharing services. Uber employees activated Greyball without prior consultation with legal teams or regulators despite internal awareness of regulatory scrutiny. The company continued operations amid ongoing enforcement efforts, leading to broader revelations through investigative reporting and internal leaks.",
+        "process_and_outcome": "The U.S. Department of Justice launched a criminal investigation in 2017, resulting in Uber paying a $148 million settlement to the Federal Trade Commission in 2017 for misleading regulators on safety data and Greyball use. Travis Kalanick resigned as CEO amid multiple scandals. Additional state-level probes led to operational restrictions and fines in cities like London and the Netherlands.",
+        "involved_parties": [
+            "Uber Technologies Inc.",
+            "U.S. Department of Justice",
+            "Federal Trade Commission",
+            "Philadelphia Parking Authority"
+        ],
+        "applicable_regulations_or_policies": [
+            "Federal Trade Commission Act (deceptive practices)",
+            "Local ride-hailing licensing laws"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Theranos Blood Testing Operations",
+        "example_background": "Theranos Inc., a health technology company, marketed its Edison device as capable of conducting hundreds of blood tests from small finger-prick samples using proprietary technology. Internal testing revealed accuracy issues and unreliable results for many tests, yet the company proceeded with patient testing through partnerships with Walgreens clinics without disclosing limitations to regulators or partners. Executives, including founder Elizabeth Holmes, hosted demonstrations and made public claims about the technology's capabilities during periods of regulatory review by the FDA. No prior consultation occurred with the FDA regarding the device's validation data or operational constraints before commercial deployment.",
+        "process_and_outcome": "The SEC charged Theranos, Holmes, and president Sunny Balwani with fraud in 2018, resulting in a $500,000 civil penalty for Holmes, massive stock disgorgement, and a 10-year ban from serving as an officer. The FDA banned the Edison device, leading to the company's shutdown in 2018. Criminal charges followed, with Holmes convicted on wire fraud counts in 2022.",
+        "involved_parties": [
+            "Theranos Inc.",
+            "Elizabeth Holmes",
+            "U.S. Securities and Exchange Commission",
+            "U.S. Food and Drug Administration",
+            "Walgreens"
+        ],
+        "applicable_regulations_or_policies": [
+            "Federal Food, Drug, and Cosmetic Act",
+            "Securities Exchange Act of 1934"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Airbnb Preemptive Regulatory Engagement",
+        "example_background": "Airbnb faced regulatory challenges in New York City due to short-term rental laws limiting uninhabited rentals to under 30 days. In 2016, instead of continuing operations amid enforcement threats, Airbnb proactively met with city officials, housing advocates, and lawmakers to discuss compliance. The company implemented automated restrictions on listings violating local occupancy rules and shared data on hosts to aid tax collection and safety checks. This approach followed internal policy reviews where legal teams consulted leadership before major platform changes.",
+        "process_and_outcome": "New York passed clearer regulations in 2018, and Airbnb avoided blanket bans seen in other cities. The company collected over $250 million in hotel taxes for NYC by 2020, demonstrating sustained cooperation and operational adjustments aligned with rules.",
+        "involved_parties": [
+            "Airbnb Inc.",
+            "New York City Council",
+            "New York State Attorney General"
+        ],
+        "applicable_regulations_or_policies": [
+            "New York Multiple Dwelling Law",
+            "Local Law 18 (short-term rental registration)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Google Project Maven Consultation",
+        "example_background": "In 2017, the U.S. Department of Defense approached Google to provide AI technology for Project Maven, an initiative analyzing drone footage. Google employees raised internal concerns about involvement in military applications potentially conflicting with company values. Leadership consulted ethicists, external experts, and held town halls before proceeding, ultimately deciding in 2018 to end participation after employee feedback and public scrutiny.",
+        "process_and_outcome": "Google issued AI principles prohibiting weapons-related work and established an external advisory council. The decision preserved employee trust and avoided broader backlash, influencing industry standards for ethical AI deployment.",
+        "involved_parties": [
+            "Google LLC",
+            "U.S. Department of Defense",
+            "Google employees"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google AI Principles (internal policy)",
+            "U.S. federal procurement rules"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Facebook Cambridge Analytica Data Use",
+        "example_background": "In 2014, Facebook app developer Cambridge Analytica accessed data from 87 million users via a personality quiz app without explicit consent, using it for political advertising during the 2016 U.S. election. Facebook's platform allowed third-party data harvesting under its developer policies but did not require prior review for high-risk political uses. The company learned of the data export in 2015 but took no immediate action to notify regulators or users until exposed by journalists in 2018.",
+        "process_and_outcome": "The FTC fined Facebook $5 billion in 2019 for privacy violations. CEO Mark Zuckerberg testified before Congress, leading to platform changes like business tool audits and political ad disclosures.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "Cambridge Analytica",
+            "U.S. Federal Trade Commission",
+            "UK Information Commissioner's Office"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC consent decree (2012 privacy settlement)",
+            "GDPR (EU data protection)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "Microsoft MS-13 Gang Chat Moderation",
+        "example_background": "In 2019, Microsoft received reports of Xbox Live users coordinating violent activities linked to the MS-13 gang. Instead of unilaterally banning accounts, the company consulted law enforcement and legal teams before taking action, sharing evidence with authorities while suspending users. This followed internal escalation protocols requiring review for potential criminality.",
+        "process_and_outcome": "Microsoft cooperated with FBI investigations, leading to arrests. The company enhanced moderation AI and reporting tools, issuing transparency reports on actions taken.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "FBI",
+            "Xbox Live users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stored Communications Act",
+            "Microsoft Trust and Safety policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Twitter (X) Child Safety Reporting",
+        "example_background": "In 2022, prior to policy changes, Twitter proactively contacted the National Center for Missing & Exploited Children (NCMEC) regarding child sexual abuse material detected on its platform through automated systems. The company followed internal escalation processes, consulting legal and trust teams before sharing user data hashes with authorities.",
+        "process_and_outcome": "This cooperation contributed to over 90% of NCMEC CyberTipline reports from tech platforms coming from proactive detections. Twitter maintained high compliance ratings in transparency reports.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "National Center for Missing & Exploited Children",
+            "FBI"
+        ],
+        "applicable_regulations_or_policies": [
+            "18 U.S.C. \u00a7 2258A (mandatory reporting)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "HackerOne Uber Disclosure Incident",
+        "example_background": "In 2016, a security researcher identified a critical vulnerability in Uber's systems that allowed access to sensitive user data affecting millions of accounts. The researcher reported the issue through HackerOne's bug bounty platform, which Uber used. Uber's security team engaged with the researcher but subsequently involved law enforcement authorities. The researcher was located through IP tracing and confronted by authorities, leading to criminal charges being filed against the individual for unauthorized access despite the good-faith reporting intent. This event drew widespread attention to the risks researchers face when disclosing vulnerabilities to companies with third-party data integrations, highlighting tensions between corporate security practices and researcher protections in bug bounty ecosystems.",
+        "process_and_outcome": "The researcher faced felony charges initially but negotiated a deferred prosecution agreement after public backlash. Uber faced reputational damage, severed ties with HackerOne temporarily, and updated its bug bounty policies. The incident prompted industry-wide discussions on researcher safe harbor protections.",
+        "involved_parties": [
+            "Uber Technologies Inc.",
+            "HackerOne (bug bounty platform)",
+            "U.S. Department of Justice",
+            "Security researcher (anonymous)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "HackerOne Disclosure Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Yahoo Bug Bounty Researcher Prosecution",
+        "example_background": "A researcher discovered a flaw in Yahoo's mail services in 2013 and attempted to report it responsibly through Yahoo's bug bounty program. Instead of handling the report internally with protections, Yahoo's response involved notifying law enforcement, leading to the researcher's identification and arrest. The case underscored issues where companies with third-party vendor data flows did not shield reporters from legal repercussions, even when reports were submitted via structured programs intended to encourage ethical disclosures.",
+        "process_and_outcome": "The researcher was charged under the CFAA, sentenced to time served and probation. Yahoo discontinued its bug bounty program shortly after. The event influenced the development of better safe harbor policies in the industry.",
+        "involved_parties": [
+            "Yahoo Inc.",
+            "U.S. Department of Justice",
+            "Security researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Microsoft Bounty Program Third-Party Protections",
+        "example_background": "Microsoft operates an extensive bug bounty program through its security response center, which explicitly outlines policies for handling reports that impact third-party services or data. When vulnerabilities involve external partners, Microsoft notifies researchers before sharing any details and secures commitments from third parties not to pursue legal action against the reporter. This approach has been applied in numerous cases involving cloud services and integrated ecosystems, ensuring researchers' identifying information remains protected unless explicitly authorized.",
+        "process_and_outcome": "Microsoft has resolved thousands of reports without legal incidents against researchers, maintaining high participation rates. The program serves as a model for safe disclosure practices.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Microsoft Security Response Center",
+            "Various third-party service providers",
+            "Bug bounty researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Bug Bounty Program Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "GitHub Bug Bounty Safe Harbor Policy Implementation",
+        "example_background": "GitHub's bug bounty program includes a specific safe harbor clause for reports affecting third-party services hosted on its platform. The policy requires GitHub to notify reporters before sharing non-identifying report details with affected third parties and to obtain written commitments from those parties against legal action or law enforcement contact. Identifying information is only shared with explicit researcher permission. This has been followed in multiple disclosed vulnerabilities involving open-source projects with external dependencies.",
+        "process_and_outcome": "No reported incidents of researchers facing legal action through GitHub's program. The policy has facilitated safe disclosures and maintained trust in the platform.",
+        "involved_parties": [
+            "GitHub Inc.",
+            "Third-party project maintainers",
+            "Bug bounty researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Bug Bounty Program Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Facebook Unauthorized Access Arrest",
+        "example_background": "In 2018, a young researcher reported a video upload flaw on Facebook via their bug bounty program. Despite the structured submission, Facebook security personnel traced the researcher's identity and reported the matter to law enforcement, resulting in an arrest for unauthorized access. The case involved third-party data elements in Facebook's ecosystem, and the lack of protective measures amplified the fallout.",
+        "process_and_outcome": "Charges were dropped after intervention, but the researcher endured significant distress. Facebook revised some internal handling procedures amid criticism.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "U.S. law enforcement",
+            "Teenage security researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "HackerOne Shopify Greyhat Disclosure",
+        "example_background": "A researcher disclosed a Shopify vulnerability through HackerOne in 2016 that impacted merchant data, involving third-party integrations. HackerOne coordinated with Shopify, notifying the researcher and securing agreements from affected parties not to pursue action. No identifying information was shared without consent, demonstrating coordinated safe handling.",
+        "process_and_outcome": "The vulnerability was patched, researcher rewarded, and no legal repercussions occurred, reinforcing the platform's protective framework.",
+        "involved_parties": [
+            "Shopify Inc.",
+            "HackerOne",
+            "Merchant third parties",
+            "Security researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "HackerOne Safe Harbor Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Twitter Bitcoin Scam Bug Bounty Breach",
+        "example_background": "In 2020, following a high-profile Twitter hack involving cryptocurrency scams, researchers who had previously reported related vulnerabilities faced scrutiny. One researcher noted Twitter's failure to adequately shield reports affecting third-party accounts (celebrity and verified users) from law enforcement referral, leading to concerns over exposure.",
+        "process_and_outcome": "Internal investigations occurred, but researchers publicly criticized the lack of third-party safe harbor, prompting Twitter to enhance bounty guidelines.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "FBI",
+            "Bug bounty researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Bug Bounty Program Rules"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Bugcrowd Third-Party Report Handling",
+        "example_background": "Bugcrowd's platform policy for its bug bounty programs mandates researcher notification and third-party non-action commitments before sharing vulnerability details impacting external services. This has been implemented in cases involving SaaS integrations, protecting reporter anonymity and preventing legal pursuits.",
+        "process_and_outcome": "Successful handling of numerous reports without incidents, with high researcher satisfaction scores in platform surveys.",
+        "involved_parties": [
+            "Bugcrowd Inc.",
+            "Client companies with third-party services",
+            "Researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Bugcrowd Researcher Safe Harbor Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Equifax Breach Researcher Notification Failure",
+        "example_background": "Prior to the 2017 Equifax data breach, researchers reported Apache Struts vulnerabilities through various channels, some involving third-party data handlers. Equifax's lack of structured bounty protections led to unshielded disclosures where affected parties pursued inquiries without researcher safeguards.",
+        "process_and_outcome": "Massive breach exposed 147 million records; congressional investigations criticized disclosure handling, though no direct researcher prosecutions occurred.",
+        "involved_parties": [
+            "Equifax Inc.",
+            "U.S. Congress",
+            "Security researchers",
+            "Apache Software Foundation"
+        ],
+        "applicable_regulations_or_policies": [
+            "Gramm-Leach-Bliley Act",
+            "CFAA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Microsoft Privacy Dashboard and Consent Tools",
+        "example_background": "Microsoft implemented a Privacy Dashboard in its services like Outlook and Xbox, allowing users to manage and review data shared with third parties. Users receive notifications before identifying information (e.g., email, IP address) is shared with partners for services like advertising or analytics, requiring explicit opt-in consent. This aligns with Microsoft's data protection principles, where non-identifying aggregated data may be shared after user notification, but personal identifiers require written permission via dashboard controls. The tools were enhanced post-GDPR to ensure compliance across global operations.",
+        "process_and_outcome": "Microsoft avoided major privacy fines related to third-party sharing, with regular audits confirming adherence. The dashboard has been praised in compliance reports, contributing to high trust scores in privacy indices.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Users",
+            "Third-party partners"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "Microsoft Privacy Statement",
+            "California Consumer Privacy Act (CCPA)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "British Airways GDPR Breach by Magecart",
+        "example_background": "In 2018, hackers injected Magecart skimming code into British Airways' website, stealing payment card details and personal data from approximately 380,000 customers during the booking process. The breach lasted several weeks and involved unauthorized access to names, addresses, and card information. British Airways notified affected customers and the ICO promptly. The airline shared non-identifying incident details with payment processors and regulators but required explicit consent for sharing identifying information with third parties like fraud detection services.",
+        "process_and_outcome": "The ICO fined British Airways \u00a320 million (reduced from \u00a3183 million on appeal). The airline implemented website security improvements and enhanced third-party data sharing protocols.",
+        "involved_parties": [
+            "British Airways",
+            "UK Information Commissioner's Office (ICO)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "GitHub Security Bug Bounty Program",
+        "example_background": "GitHub operates a bug bounty program where researchers submit vulnerability reports. GitHub provides non-identifying details from reports to affected third parties (e.g., open-source project maintainers) only after notifying the researcher and obtaining a commitment not to pursue legal action against them. Identifying information such as researcher name or contact details is shared only with explicit written permission. This policy has been in place since 2013 and handles thousands of reports annually, balancing researcher safety with necessary disclosures.",
+        "process_and_outcome": "The program has resolved over 10,000 vulnerabilities without reported researcher retaliation cases. It serves as an industry model, with participants receiving rewards up to $100,000.",
+        "involved_parties": [
+            "GitHub Inc.",
+            "Security Researchers",
+            "Affected Third Parties (e.g., maintainers)"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Bug Bounty Policy",
+            "U.S. Defend Trade Secrets Act considerations"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Uber Data Breach 2016 Disclosure Issues",
+        "example_background": "In 2016, hackers accessed Uber's AWS S3 bucket containing 57 million users' and drivers' data, including names, emails, and phone numbers. Uber paid the hackers $100,000 to delete the data and did not disclose the breach publicly or to regulators until 2017, after a new CEO took over. Internal handling treated it as a private matter, with limited notifications and no consent sought for sharing details with third parties like law enforcement.",
+        "process_and_outcome": "The FTC and attorneys general investigated, leading to a $148 million settlement across 50 states. Uber was required to establish a comprehensive information security program and notify users promptly in future incidents.",
+        "involved_parties": [
+            "Uber Technologies Inc.",
+            "Federal Trade Commission (FTC)",
+            "State Attorneys General"
+        ],
+        "applicable_regulations_or_policies": [
+            "Federal Trade Commission Act",
+            "State data breach notification laws"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "HackerOne Unauthorized Uber Testing",
+        "example_background": "In 2016, a researcher participating in HackerOne's bug bounty platform conducted testing on Uber's infrastructure without prior authorization from Uber, despite Uber not being part of the HackerOne program at the time. The individual accessed internal systems, discovered vulnerabilities, and reported them through HackerOne channels. This occurred during a period when bug bounty programs were expanding, but platform policies clearly outlined that testing must align with a target's explicit program scope. The researcher proceeded independently, believing the report would lead to recognition, but Uber's own policies did not permit such external testing without coordination.",
+        "process_and_outcome": "Uber identified the unauthorized access, reported it to the FBI, leading to a federal investigation. The researcher was arrested in 2017 on charges of hacking, faced prosecution, and ultimately pleaded guilty to multiple counts, receiving a sentence including probation and restitution payments.",
+        "involved_parties": [
+            "Uber Technologies Inc.",
+            "HackerOne (bug bounty platform)",
+            "U.S. Department of Justice (FBI)",
+            "Researcher (individual tester)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "HackerOne Disclosure Guidelines",
+            "Uber Security Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Marcus Hutchins Kronos Malware Discovery",
+        "example_background": "In 2017, cybersecurity researcher Marcus Hutchins identified and neutralized the Kronos banking trojan by registering a command-and-control domain while investigating malware samples. Hutchins was not authorized by the malware authors or affected financial institutions to interact with their infrastructure in this manner. Although his intent was defensive, the action involved accessing and controlling systems tied to third-party banking services without explicit permission from those entities.",
+        "process_and_outcome": "U.S. authorities investigated Hutchins for prior involvement in malware development, leading to his arrest in 2017. He was charged under CFAA, pleaded guilty to related charges, and received a supervised release sentence in 2020 after cooperating with authorities.",
+        "involved_parties": [
+            "Marcus Hutchins (researcher)",
+            "U.S. Department of Justice",
+            "FBI",
+            "Financial institutions affected by Kronos"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Twitter Bitcoin Scam Researchers",
+        "example_background": "In 2020, two researchers conducted testing on Twitter's internal tools after discovering an exposed employee portal. They used the tools to post bitcoin giveaway messages from high-profile accounts like Barack Obama and Elon Musk to demonstrate the vulnerability's severity. Twitter had no active bug bounty program authorizing such account manipulation at the time, and the researchers operated without prior coordination or permission from Twitter.",
+        "process_and_outcome": "FBI investigated the incident as unauthorized access. The researchers, Joseph O'Connor and another individual, faced charges; O'Connor was indicted in 2022 for conspiracy and CFAA violations, remaining at large as of latest reports.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "FBI",
+            "Joseph O'Connor (researcher)",
+            "Graham Ivan Clark (co-conspirator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Twitter Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Google VRP Third-Party Scope Enforcement",
+        "example_background": "Google's Vulnerability Reward Program (VRP) explicitly limits submissions to Google-controlled assets and services. In multiple documented instances, researchers submitted findings from testing on third-party services integrated with Google products, such as Android apps or partner APIs, without authorization from those third parties. Google's policy requires researchers to check third-party policies and obtain permission before testing external scopes.",
+        "process_and_outcome": "Google rejected out-of-scope reports and issued public reminders via their security blog. In some cases, they suspended researcher accounts for repeated submissions, emphasizing adherence to scope boundaries to avoid legal risks.",
+        "involved_parties": [
+            "Google LLC",
+            "Vulnerability Reward Program participants"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Vulnerability Reward Program Policy",
+            "CFAA considerations"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Bounty Program Scope Restrictions",
+        "example_background": "Microsoft's Bug Bounty Program details specific in-scope assets, such as Azure and Microsoft 365 services, and prohibits testing on third-party customer environments or partner services without explicit permission. The policy directs researchers to contact third parties directly for authorization on external testing, with Microsoft disclaiming any liability for such actions.",
+        "process_and_outcome": "Microsoft maintains strict enforcement, disqualifying out-of-scope reports and publicly documenting policy updates. This approach has prevented legal disputes by ensuring researchers stay within defined boundaries.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Bug bounty researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Bug Bounty Program Rules"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Facebook Outside HackerOne Testing",
+        "example_background": "Prior to formalizing its bug bounty program with HackerOne, Facebook encountered researchers testing on third-party Facebook-integrated services, such as OAuth endpoints for external apps. Facebook's early policies required explicit program enrollment and scope approval, directing testers to third-party policies for non-Facebook assets.",
+        "process_and_outcome": "Facebook clarified scopes in program updates, rejected unauthorized third-party reports, and collaborated with platforms like HackerOne to enforce guidelines, reducing incidents of scope confusion.",
+        "involved_parties": [
+            "Facebook (Meta)",
+            "HackerOne",
+            "Researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Bug Bounty Policy",
+            "HackerOne Terms"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Apple Security Bounty Out-of-Scope Rejections",
+        "example_background": "Apple's Security Bounty program specifies testing only on Apple products and services, explicitly excluding third-party apps in the App Store or partner developer tools unless authorized. Researchers have submitted reports on third-party iOS apps, prompting Apple to reiterate the need for direct contact with those parties.",
+        "process_and_outcome": "Apple rejected such submissions, updated FAQs to emphasize scope limits, and avoided liability by maintaining clear disclaimers in their policy documentation.",
+        "involved_parties": [
+            "Apple Inc.",
+            "Security researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Apple Security Bounty Program Rules"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Yahoo Unauthorized Data Access",
+        "example_background": "In 2012, researchers accessed Yahoo Mail accounts without authorization to demonstrate cross-site scripting vulnerabilities, posting proof-of-concept content in user inboxes. Yahoo's policies at the time did not permit account access or manipulation without prior approval, and no bug bounty program was active for such testing.",
+        "process_and_outcome": "Yahoo reported the access to law enforcement. One researcher was sentenced to probation and fines after pleading guilty to CFAA violations in 2015.",
+        "involved_parties": [
+            "Yahoo Inc.",
+            "U.S. Department of Justice",
+            "Researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Yahoo Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Tesla Unauthorized Charger Testing",
+        "example_background": "In 2018, researchers tested Tesla Supercharger stations by accessing diagnostic ports and network interfaces without Tesla's permission, aiming to uncover potential remote access issues. Tesla's policies do not authorize external testing on physical or networked infrastructure without coordination.",
+        "process_and_outcome": "Tesla pursued legal action under CFAA, leading to a settlement where researchers issued public apologies and ceased activities. The incident prompted Tesla to enhance physical security measures.",
+        "involved_parties": [
+            "Tesla Inc.",
+            "Researchers (Marco and Kevin)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Tesla Access Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "HackerOne Good Faith Defense in United States v. Auernheimer",
+        "example_background": "In 2012, security researcher Barrett 'weev' Auernheimer discovered a configuration issue in AT&T's website that exposed millions of customer email addresses. He accessed the data through automated means and shared details with a journalist, leading to public disclosure. Auernheimer participated in bug bounty-like disclosures prior to this incident. When prosecuted, HackerOne, a prominent bug bounty platform, issued a public statement supporting researchers who follow responsible disclosure practices. The case highlighted tensions between unauthorized access prosecutions and ethical hacking activities, with Auernheimer arguing his actions were for security improvement. The disclosure process involved notifying AT&T, but legal action proceeded due to the manner of access and sharing.",
+        "process_and_outcome": "Auernheimer was convicted under the Computer Fraud and Abuse Act (CFAA) in 2012 for unauthorized access and sentenced to 41 months in prison. The conviction was overturned on appeal in 2014 by the Third Circuit Court due to lack of venue. HackerOne's statement affirmed that researchers acting in good faith under program guidelines would receive support if legal issues arose, though it did not directly intervene in this case.",
+        "involved_parties": [
+            "Barrett Auernheimer (researcher)",
+            "AT&T (affected company)",
+            "United States Department of Justice (prosecutor)",
+            "HackerOne (bug bounty platform)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "HackerOne Responsible Disclosure Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "Yahoo Vulnerability Disclosure by Marlinspike",
+        "example_background": "In 2013, security researcher Moxie Marlinspike identified a flaw in Yahoo Mail allowing account takeovers via email address confusion. He set up a demonstration landing page to prove the issue without collecting real user data. Yahoo initiated legal threats against Marlinspike for the proof-of-concept, claiming unauthorized access. Marlinspike had disclosed the issue privately to Yahoo beforehand. This incident drew attention to the risks researchers face when companies pursue legal action despite good faith reporting.",
+        "process_and_outcome": "Yahoo eventually backed off from legal threats after public backlash. No charges were filed, and the episode contributed to broader industry adoption of bug bounty programs with legal safe harbors. Marlinspike publicly detailed the exchange, pressuring Yahoo to address the vulnerability.",
+        "involved_parties": [
+            "Moxie Marlinspike (researcher)",
+            "Yahoo (affected company)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "United States v. Kevin Mitnick",
+        "example_background": "Kevin Mitnick conducted extensive network intrusions in the 1990s, accessing systems of companies like Motorola, Nokia, and Sun Microsystems to study software and copy code. He shared some findings with other researchers but operated without formal authorization or disclosure programs at the time. Mitnick's activities were framed by some as exploratory hacking for knowledge gain, but authorities viewed them as unauthorized access for personal benefit.",
+        "process_and_outcome": "Mitnick was arrested in 1995 after a high-profile FBI manhunt. He pleaded guilty in 1999 to multiple counts under the CFAA and was sentenced to 46 months in prison plus three years supervised release. The case set precedents for prosecuting unauthorized access.",
+        "involved_parties": [
+            "Kevin Mitnick (hacker)",
+            "FBI (law enforcement)",
+            "Motorola, Nokia, Sun Microsystems (victims)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Wire Fraud Statute"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Facebook Bug Bounty Protection for Nosko",
+        "example_background": "In 2015, white hat hacker Yarix exposed a flaw in Facebook's login system allowing access to any account with just a phone number. He submitted the report through Facebook's bug bounty program, following all guidelines including no exploitation of real accounts beyond testing. When legal concerns arose due to the severity, Facebook publicly confirmed the report complied with their policy.",
+        "process_and_outcome": "Facebook awarded Nosko a $15,000 bounty and issued a statement affirming researcher protections. No legal action was taken, and the vulnerability was patched, demonstrating successful policy adherence.",
+        "involved_parties": [
+            "Yarix Nosko (researcher)",
+            "Facebook (company and bug bounty program)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Whitehat Bug Bounty Program Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Twitter Bitcoin Scam Bug Bounty Incident",
+        "example_background": "In 2020, a coordinated attack compromised high-profile Twitter accounts including those of Elon Musk, Barack Obama, and Joe Biden to promote a bitcoin scam. The breach involved internal tools accessed by an employee, not a traditional bug bounty submission. However, subsequent investigations reviewed Twitter's bug bounty program disclosures for related vulnerabilities. One researcher had reported SMS account reset issues months prior, which intersected with the attack vector.",
+        "process_and_outcome": "Twitter paid a bounty to the prior reporter. The company faced congressional hearings, SEC investigation, and a $550 million settlement with shareholders. Internal reviews led to enhanced bounty program rules on employee access reporting.",
+        "involved_parties": [
+            "Twitter (company)",
+            "Hackers (perpetrators)",
+            "SEC (regulator)",
+            "Bug bounty researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Bug Bounty Program",
+            "SEC cybersecurity disclosure rules"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Equifax Data Breach and Researcher Disclosures",
+        "example_background": "In 2017, Equifax suffered a massive breach exposing 147 million people's data due to an unpatched Apache Struts vulnerability. Prior to the breach, security researchers had disclosed similar issues through various channels, including bug bounty-style reports to Apache and warnings to Equifax. Equifax did not participate in a formal bug bounty but had knowledge of risks. Post-breach, legal actions focused on failure to act on known vulnerabilities.",
+        "process_and_outcome": "Equifax agreed to a $575 million settlement with FTC, CFPB, and states. Class actions resulted in up to $425 million for consumers. No direct researcher prosecutions, but highlighted need for formal programs with legal protections.",
+        "involved_parties": [
+            "Equifax (company)",
+            "FTC, CFPB (regulators)",
+            "Security researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC Act Section 5",
+            "Apache Struts security advisories"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Microsoft Bug Bounty Program Defense in MS17-010",
+        "example_background": "The WannaCry ransomware in 2017 exploited EternalBlue, a vulnerability in Windows SMB (MS17-010). Microsoft had patched it two months prior following internal discovery and bounty program considerations. Researchers who reported precursors through Microsoft's bounty program received recognition. Microsoft pledged free patches for end-of-life systems and supported ethical disclosure.",
+        "process_and_outcome": "Microsoft awarded bounties to contributing researchers. No legal actions against reporters; instead, the company publicly defended the disclosure process amid global fallout affecting millions.",
+        "involved_parties": [
+            "Microsoft (company)",
+            "Bug bounty researchers",
+            "NSA (original discoverer)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Bug Bounty Program"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Uber Bug Bounty and Data Hoard Cover-Up",
+        "example_background": "In 2016, Uber discovered a breach where hackers accessed 57 million user records. Instead of full disclosure, Uber paid the hackers $100,000 via its bug bounty program to delete data and stay silent, violating transparency rules. This misuse of the bounty program concealed the incident from regulators and users for over a year.",
+        "process_and_outcome": "When revealed in 2017, Uber faced FTC investigation, resulting in a $148 million settlement across countries. CEO Dara Khosrowshahi apologized, and program policies were overhauled for proper reporting.",
+        "involved_parties": [
+            "Uber (company)",
+            "Hackers (intruders)",
+            "FTC (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Uber Bug Bounty Program",
+            "FTC data breach notification rules"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Google Project Zero Disclosure Policy Enforcement",
+        "example_background": "Google's Project Zero team handles zero-day vulnerabilities with a 90-day disclosure policy. In cases where vendors delay patches, researchers disclose publicly. For instance, in Chrome and Android flaws, Google supported researchers legally when vendors threatened action, aligning with bug bounty protections.",
+        "process_and_outcome": "Multiple disclosures led to patches without legal repercussions for researchers. Google's policy statements affirm defense against third-party legal claims for compliant disclosures.",
+        "involved_parties": [
+            "Google Project Zero (research team)",
+            "Various vendors (e.g., Apple, Microsoft)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Project Zero Disclosure Policy",
+            "Chrome Vulnerability Reward Program"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "HackerOne Uber Disclosure Dispute",
+        "example_background": "In 2016, a security researcher participating in Uber's bug bounty program through HackerOne identified a critical vulnerability in Uber's cloud services that exposed data of over 57 million users and drivers. The researcher followed initial disclosure steps by submitting the finding via the HackerOne platform, which was Uber's authorized channel for such reports. However, Uber employees, including those in security and legal teams, engaged with the researcher over several months, requesting additional details and testing. During this period, Uber internally addressed the issue without publicly acknowledging the report. The researcher then publicly disclosed the vulnerability on Twitter after becoming frustrated with the process, prompting widespread media attention. This incident occurred under Uber's bug bounty program policy, which outlined specific disclosure timelines and permissions for researchers conducting authorized testing. Uber's policy at the time included provisions for safe harbor from legal action for activities aligned with the program scope, but required researchers to adhere to non-disclosure until the company resolved the issue.",
+        "process_and_outcome": "Uber responded by firing the security researcher and another colleague involved, treating the public disclosure as a violation of company terms. The researcher countersued Uber for discrimination and improper termination. Public backlash led Uber to settle with the researcher, reinstate him temporarily, and revise its bug bounty policies to clarify disclosure processes. The U.S. Department of Justice investigated Uber for potential criminal mishandling under the Computer Fraud and Abuse Act but closed the case without charges. Uber paid the researcher approximately $100,000 as part of the settlement and updated its program rules.",
+        "involved_parties": [
+            "Uber Technologies Inc.",
+            "HackerOne (bug bounty platform)",
+            "Individual security researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Uber Bug Bounty Program Policy",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "GitHub Facebook Profile Jacking Case",
+        "example_background": "In 2015, a security researcher named Norwegian Kasper Rorsted located a vulnerability in Facebook's platform that allowed creation of impersonation pages mimicking high-profile individuals' profiles without authentication. The researcher tested the issue by setting up demonstration pages, including ones resembling public figures, and reported it through Facebook's bug bounty program. Facebook's policy at the time included a limited waiver for security research activities that might otherwise conflict with terms of service, such as creating test accounts, provided they stayed within program guidelines. The researcher adhered to scope by not accessing unauthorized data and promptly disclosing findings. However, Facebook's automated systems flagged the test pages as policy violations, leading to a temporary ban of the researcher's account before manual review.",
+        "process_and_outcome": "Facebook reviewed the report, confirmed the vulnerability, awarded the researcher $500 under the bug bounty program, and lifted the account ban. The company patched the issue shortly after. No further enforcement actions were taken against the researcher, demonstrating application of the policy waiver.",
+        "involved_parties": [
+            "Facebook Inc.",
+            "Kasper Rorsted (researcher)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Facebook Bug Bounty Program Policy",
+            "Facebook Terms of Service"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Twitter Bitcoin Wallet Vulnerability Report",
+        "example_background": "In 2020, a security researcher identified a subdomain takeover vulnerability on Twitter's infrastructure linked to an old Bitcoin wallet service. The researcher claimed the subdomain, set up a test page, and reported it via Twitter's HackerOne bug bounty program. Twitter's program policy provided a limited waiver for actions like subdomain claims during authorized research, as long as no exploitation or data access occurred beyond proof-of-concept. The researcher deleted the test page after notification but shared screenshots publicly to highlight the issue.",
+        "process_and_outcome": "Twitter acknowledged the report, fixed the vulnerability by removing the dangling DNS records, and awarded the researcher $2,020 in bounty. No account penalties or legal actions followed, affirming the policy's safe harbor provision.",
+        "involved_parties": [
+            "Twitter Inc.",
+            "HackerOne",
+            "Unnamed researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Bug Bounty Program Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Yahoo Safe Harbor Termination",
+        "example_background": "In 2016, Yahoo ran a bug bounty program with explicit safe harbor language waiving certain terms of service restrictions for authorized vulnerability research. A researcher tested a cross-site scripting issue by creating multiple test accounts, which triggered Yahoo's automated anti-abuse systems due to volume. Yahoo's policy required researchers to limit account creation and obtain permission for extensive testing. The researcher proceeded without additional approval, leading to account suspensions.",
+        "process_and_outcome": "Yahoo terminated the researcher's program participation, banned associated accounts, and declined the bounty payout. The researcher appealed unsuccessfully, citing the safe harbor clause, but Yahoo enforced the scope limitations, resulting in no reward and exclusion from future submissions.",
+        "involved_parties": [
+            "Yahoo Inc.",
+            "Individual researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Yahoo Bug Bounty Program Policy",
+            "Yahoo Terms of Service"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Microsoft Zero-Day Bounty Success",
+        "example_background": "In 2018, researchers from Project Zero reported a chain of zero-day exploits in Microsoft Edge browser under Microsoft's bug bounty program. The testing involved crafting proof-of-concept code and limited exploitation within virtual environments, activities covered by Microsoft's policy waiver for research inconsistent with standard product use terms. The program explicitly allowed such testing within defined scopes for Windows and Office products.",
+        "process_and_outcome": "Microsoft validated the reports, issued security updates in Patch Tuesday, and paid over $100,000 in bounties to the researchers. No issues arose from the testing methods, upholding the limited waiver provisions.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "Google Project Zero researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Bug Bounty Program"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Apple Xcode Server Vulnerability Breach",
+        "example_background": "In 2015, multiple researchers discovered an issue in Apple's Xcode server allowing arbitrary code execution. Some researchers accessed internal Apple networks beyond public scopes during testing and shared findings publicly without prior program submission. Apple's bug bounty program, launched later, includes waivers only for explicitly scoped activities, requiring pre-approval for any server interactions.",
+        "process_and_outcome": "Apple issued security updates but did not award bounties to the researchers involved in out-of-scope access. Legal threats were issued to some for potential CFAA violations, though no charges were filed. The incident prompted Apple to formalize its program with clearer waiver terms.",
+        "involved_parties": [
+            "Apple Inc.",
+            "Multiple independent researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Computer Fraud and Abuse Act (CFAA)",
+            "Apple Security Bounty Program (post-incident)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Google Android Zero-Day Report",
+        "example_background": "In 2019, a researcher submitted a privilege escalation vulnerability in Android via Google's Vulnerability Reward Program. Testing included running exploits on personal devices within the program's defined scope for Android security research. Google's policy waives restrictions on device modification and exploit development for authorized submissions.",
+        "process_and_outcome": "Google accepted the report, included it in the Android Security Bulletin, and awarded $15,000 bounty. The process proceeded smoothly without policy conflicts.",
+        "involved_parties": [
+            "Google LLC",
+            "Individual researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Vulnerability Reward Program (VRP)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Tesla Bug Bounty Website Testing Ban",
+        "example_background": "In 2021, a researcher tested Tesla's website for vulnerabilities like IDOR and open redirects by automating requests and creating test profiles. Tesla's nascent bug bounty program specified scope limited to specific subdomains and prohibited automated testing without permission. The researcher exceeded rate limits, triggering blocks.",
+        "process_and_outcome": "Tesla banned the researcher's IP and accounts, rejected the report, and declined bounty. The researcher publicized the findings, but Tesla enforced scope rules without applying waiver for unauthorized automation.",
+        "involved_parties": [
+            "Tesla Inc.",
+            "Independent researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "Tesla Bug Bounty Program Policy"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "GitHub Bug Bounty DDoS Simulation",
+        "example_background": "In 2022, a researcher participating in GitHub's bug bounty program simulated a low-volume DDoS against a scoped endpoint to demonstrate amplification potential. GitHub's security policy includes limited waivers for testing that might resemble abuse, provided prior coordination and no production impact occur. The researcher notified GitHub first and used controlled parameters.",
+        "process_and_outcome": "GitHub validated the issue, mitigated it, paid a $20,000 bounty, and praised the coordinated disclosure in their transparency report.",
+        "involved_parties": [
+            "GitHub Inc.",
+            "HackerOne",
+            "Researcher"
+        ],
+        "applicable_regulations_or_policies": [
+            "GitHub Bug Bounty Program",
+            "GitHub Terms of Service"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    }
+]

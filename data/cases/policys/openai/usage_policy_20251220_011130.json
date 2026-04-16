@@ -1,0 +1,1477 @@
+[
+    {
+        "example_name": "OpenAI DALL-E Content Moderation Enforcement",
+        "example_background": "OpenAI's DALL-E image generation service implements built-in safeguards to prevent creation of content depicting violence, nudity, or hate symbols. These filters block prompts that could lead to disallowed outputs, such as depictions of public figures in compromising situations or scenes involving weapons, ensuring generated images align with safety guidelines.",
+        "process_and_outcome": "The system consistently rejects prohibited prompts, with transparency reports detailing moderation efficacy. OpenAI periodically updates filters based on red-teaming, maintaining high compliance rates without major incidents.",
+        "involved_parties": [
+            "OpenAI",
+            "Users of DALL-E"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies (protect people, no violence or non-consensual content)",
+            "Internal safety protocols"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Bard Launch Content Safety Measures",
+        "example_background": "Upon launching Bard in 2023, Google integrated extensive safety classifiers and human review processes to filter out responses promoting harm, illegal activities, or misinformation. Training data was curated to exclude sensitive content, and real-time monitoring prevented issues seen in prior AI mishaps.",
+        "process_and_outcome": "Bard successfully navigated initial public release without generating disallowed content, earning praise for responsible deployment. Ongoing updates refine safeguards based on usage data.",
+        "involved_parties": [
+            "Google",
+            "Bard users"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies (analogous: protect people, no violence or illicit activities)",
+            "Google AI Principles"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Character.AI Harassment Lawsuit",
+        "example_background": "Character.AI, a platform for customizable AI chatbots, faced allegations after a lawsuit claimed its service enabled interactions leading to a teenager's suicide. The suit argued that unmoderated role-play chats involved personas that engaged in disallowed topics like self-harm without sufficient safeguards.",
+        "process_and_outcome": "Filed in October 2024 in Texas federal court by the family of a 14-year-old user, the case seeks damages and is pending. Character.AI responded by enhancing parental controls and content filters post-incident.",
+        "involved_parties": [
+            "Character.AI (defendant)",
+            "Family of deceased user (plaintiff)"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies (no suicide or self-harm facilitation)",
+            "Section 230 of Communications Decency Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Midjourney Ban on Discord for Policy Breaches",
+        "example_background": "Midjourney, an AI art generator on Discord, encountered issues where users generated images depicting violence and public figures inappropriately. The service responded by implementing prompt filters and banning users who attempted to circumvent them to produce disallowed content.",
+        "process_and_outcome": "Multiple user bans and server-wide policy updates in 2022-2023 enforced compliance. Midjourney publishes moderation stats showing high rejection rates for sensitive prompts.",
+        "involved_parties": [
+            "Midjourney",
+            "Discord (platform)",
+            "Banned users"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies (no violence or non-consensual content)",
+            "Midjourney Community Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Replika AI Self-Harm Controversy",
+        "example_background": "Replika, an AI companion app, drew criticism in 2023 when users reported chats where the AI responded to self-harm discussions without redirecting to help resources. Some interactions allegedly continued conversations on sensitive topics, leading to public and media scrutiny over emotional safety.",
+        "process_and_outcome": "Replika updated its AI to include crisis hotlines and block harmful role-plays. No regulatory actions, but the company faced app store reviews and user exodus prompting policy changes.",
+        "involved_parties": [
+            "Replika (Luka Inc.)",
+            "App users",
+            "Media outlets"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies (no self-harm promotion)",
+            "Apple/Google app store guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "xAI Grok Content Guardrails",
+        "example_background": "xAI's Grok model incorporates humor-infused responses with strict underlying filters to refuse queries involving disallowed activities such as weapons development or system breaches. Designed for maximum truthfulness while adhering to safety, it transparently declines risky requests.",
+        "process_and_outcome": "Post-launch in 2023, Grok maintained clean safety records in public tests, with xAI emphasizing scalable oversight in its approach to frontier AI deployment.",
+        "involved_parties": [
+            "xAI",
+            "X platform users"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies (no weapons, violence, or cyber breaches)",
+            "xAI Safety Framework"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Azure Face API Privacy Audit",
+        "example_background": "Microsoft's Azure Face API enables developers to build applications for facial recognition, including emotion detection and identification, using images processed through cloud servers. The service stores biometric templates unless configured otherwise, and prior to 2018 updates, it retained data longer than necessary without clear consent mechanisms. It was used in public space applications like retail analytics and smart city surveillance, where cameras captured faces without individual permission, potentially creating databases of likenesses for commercial purposes.",
+        "process_and_outcome": "Following a 2018 noyb complaint to the Irish DPC alleging GDPR violations for lack of consent in biometric processing, Microsoft updated its practices, adding opt-out options and data deletion tools. No fines were issued, but the audit led to enhanced privacy controls and transparency reports.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "noyb (privacy advocacy group)",
+            "Irish Data Protection Commission"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Google Arts & Culture Portrait Deep Dive Removal",
+        "example_background": "In 2018, Google launched an experimental feature in its Arts & Culture app called 'Portrait Selfie,' which used AI to match users' selfie photos against millions of historical portraits in museum databases, generating likeness comparisons. The feature collected facial biometric data via smartphone cameras without explicit consent disclosures and shared results publicly unless opted out. It amassed data from users worldwide, raising concerns about unauthorized use of photorealistic likenesses in AI-generated art.",
+        "process_and_outcome": "After privacy complaints and media coverage, Google removed the feature from the app within days of its viral launch. The company cited insufficient privacy protections as the reason and committed to better consent flows in future AI experiments.",
+        "involved_parties": [
+            "Google LLC",
+            "Users and privacy advocates"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google AI Principles",
+            "GDPR"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "IBM Watson Facial Recognition Moratorium",
+        "example_background": "IBM developed facial recognition capabilities within its Watson AI platform for enterprise use, including real-time identification for security and marketing in public venues. Internal testing revealed bias issues, and external reports showed deployment in surveillance without data subject consent, building databases from public camera feeds. IBM supplied the technology to clients for biometric matching.",
+        "process_and_outcome": "In 2020, IBM announced it would cease facial recognition product sales and not develop new policing or surveillance tech, citing ethical concerns. This followed internal reviews and public pressure, leading to open-sourcing some models with privacy safeguards.",
+        "involved_parties": [
+            "IBM Corporation",
+            "Civil rights organizations"
+        ],
+        "applicable_regulations_or_policies": [
+            "IBM Principles for Trust and Transparency in AI"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OpenAI DALL-E Image Policy Enforcement",
+        "example_background": "OpenAI's DALL-E models generate photorealistic images from text prompts, including depictions resembling real individuals. Early versions allowed prompts creating likenesses of celebrities or private persons without consent, potentially confusing viewers about authenticity, such as deepfake-style portraits used in unauthorized contexts like advertising or misinformation.",
+        "process_and_outcome": "OpenAI updated policies in 2022 to block prompts naming real people and implemented safety filters. Ongoing moderation refinements and usage guidelines emphasize consent for likenesses, with reports of violations leading to account suspensions.",
+        "involved_parties": [
+            "OpenAI",
+            "Users"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "TikTok Deepfake Filter Removal",
+        "example_background": "TikTok introduced AI filters in 2020 that mimicked celebrities' voices and likenesses, such as turning users into photorealistic versions of stars like Nicolas Cage. These used biometric data from user videos without explicit consent, enabling viral content that blurred lines between real and generated media.",
+        "process_and_outcome": "After celebrity complaints and authenticity concerns, TikTok removed specific celebrity deepfake filters. The platform enhanced labeling for AI-generated content and consent requirements for voice/image use.",
+        "involved_parties": [
+            "ByteDance (TikTok)",
+            "Celebrities"
+        ],
+        "applicable_regulations_or_policies": [
+            "TikTok Community Guidelines"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "EU AI Act Prohibits Real-Time Biometric ID in Public",
+        "example_background": "The EU AI Act, adopted in 2024, categorizes real-time remote biometric identification in publicly accessible spaces as a 'prohibited AI practice' unless used for specific law enforcement exceptions with judicial oversight. This addresses systems deployed in cities for crowd monitoring using CCTV integrated with facial recognition databases built without consent.",
+        "process_and_outcome": "The regulation sets enforcement starting 2026, with member states preparing bans. Early compliance efforts by vendors include redesigning systems to avoid prohibited uses, demonstrating adherence framework.",
+        "involved_parties": [
+            "European Commission",
+            "EU Member States",
+            "AI Vendors"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU AI Act (Regulation 2024/1689)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Google Bard Launch Delay and Safety Review",
+        "example_background": "Google planned to release its conversational AI, initially named LaMDA and later Bard, but delayed the launch multiple times in 2022 and early 2023 to conduct extensive safety evaluations. Concerns arose internally about potential risks including misinformation generation and biases in responses. The company invested in red teaming exercises and iterative testing to ensure the model aligned with safety benchmarks before public deployment.",
+        "process_and_outcome": "Bard was released in March 2023 after refinements, with built-in safeguards and disclaimers for factual accuracy. Google continued to update the model based on user feedback.",
+        "involved_parties": [
+            "Google",
+            "Internal safety teams"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google AI Principles",
+            "Internal responsible AI frameworks"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "OpenAI o1 Model Safety Alignment",
+        "example_background": "OpenAI released the o1 model series in 2024, incorporating advanced reasoning capabilities trained with reinforcement learning from human feedback (RLHF) and process supervision. The development emphasized chain-of-thought reasoning traceable for safety, with extensive testing to mitigate deception risks and improve reliability in complex tasks.",
+        "process_and_outcome": "The model was launched with system cards detailing safety evaluations, showing reduced error rates and enhanced performance on safety benchmarks compared to prior versions.",
+        "involved_parties": [
+            "OpenAI"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Preparedness Framework",
+            "Model safety system cards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "EU AI Act High-Risk Compliance by Mistral AI",
+        "example_background": "Mistral AI, a European startup, designed its large language models like Mistral 7B and Mixtral with considerations for the upcoming EU AI Act. The company published model cards detailing training data sources, capabilities, and limitations, and implemented transparency measures such as open-weight releases under permissive licenses to facilitate regulatory scrutiny.",
+        "process_and_outcome": "Mistral positioned its models to qualify under lower-risk categories, avoiding high-risk designations through documentation and safeguards, aligning with EU requirements ahead of the Act's enforcement.",
+        "involved_parties": [
+            "Mistral AI",
+            "European Commission"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU AI Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Bard Launch Delay",
+        "example_background": "In February 2023, Google delayed the public launch of its Bard AI chatbot after an internal demo produced inaccurate information about the James Webb Space Telescope during a presentation. This incident underscored the need for rigorous accuracy checks and transparency in AI capabilities before deployment. Google proceeded with a controlled rollout, publishing system limitations and research on hallucinations.",
+        "process_and_outcome": "Google delayed release for weeks to refine the model, launched Bard with disclaimers on potential errors, and shared ongoing research updates. No fines resulted, but it influenced investor perceptions and accelerated internal safety protocols.",
+        "involved_parties": [
+            "Google",
+            "Alphabet Inc."
+        ],
+        "applicable_regulations_or_policies": [
+            "Google AI Principles",
+            "FTC guidelines on AI disclosures"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "February 2023"
+    },
+    {
+        "example_name": "Amazon Alexa Privacy Violations",
+        "example_background": "Between 2017-2019, Amazon employees accessed and annotated Alexa voice recordings without adequate user consent, including sensitive personal conversations. Bloomberg reporting revealed workers heard private discussions, leading to concerns over privacy safeguards in AI voice processing systems.",
+        "process_and_outcome": "FTC investigated; Amazon settled for $25 million in 2023, agreeing to delete stored voice data and enhance deletion tools. The company introduced opt-in features for human review and improved transparency reports.",
+        "involved_parties": [
+            "Amazon",
+            "FTC (US Federal Trade Commission)"
+        ],
+        "applicable_regulations_or_policies": [
+            "COPPA (Children's Online Privacy Protection Act)",
+            "GDPR"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Meta LLaMA Model Leak",
+        "example_background": "In March 2023, the full 65B parameter LLaMA model weights were leaked on torrent sites hours after Meta released it to approved researchers under license terms. Unauthorized redistribution enabled widespread use without safety mitigations, bypassing intended review processes for high-risk applications.",
+        "process_and_outcome": "Meta issued DMCA takedowns and restricted access; the incident spurred fine-tuning into uncensored models like Alpaca. No fines, but highlighted challenges in enforcing access controls for open research models.",
+        "involved_parties": [
+            "Meta",
+            "Researchers",
+            "Torrent communities"
+        ],
+        "applicable_regulations_or_policies": [
+            "LLaMA Research License",
+            "DMCA (Digital Millennium Copyright Act)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "March 2023"
+    },
+    {
+        "example_name": "IBM Watson Transparency Practices",
+        "example_background": "IBM's Watson for Oncology provides explainability features, model cards, and usage guidelines for healthcare AI. Since 2016, IBM has published research on limitations, collaborated with regulators, and offered developer tools for auditing and moderation in clinical settings.",
+        "process_and_outcome": "Deployed in hospitals with oversight; FDA cleared components, and IBM shares annual AI ethics reports. Contributed to successful patient outcomes without major compliance issues.",
+        "involved_parties": [
+            "IBM",
+            "FDA (US Food and Drug Administration)",
+            "Hospitals (e.g., Memorial Sloan Kettering)"
+        ],
+        "applicable_regulations_or_policies": [
+            "FDA SaMD Framework",
+            "IBM AI Ethics Principles"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "DeepMind AlphaFold Ethical Deployment",
+        "example_background": "Google DeepMind released AlphaFold2 in 2021 with open-source code, structure database, and detailed papers on capabilities and limitations. Safety measures include usage policies, misuse reporting, and partnerships for equitable access, addressing potential dual-use risks in protein design.",
+        "process_and_outcome": "Downloaded millions of times; enabled global research breakthroughs. DeepMind established governance for updates and monitoring, earning acclaim for responsible open science.",
+        "involved_parties": [
+            "DeepMind (Google)",
+            "EMBL-EBI (database host)"
+        ],
+        "applicable_regulations_or_policies": [
+            "DeepMind Ethics & Society",
+            "Wellcome Trust guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "OpenAI Account Suspension for Policy Misuse",
+        "example_background": "In 2023, OpenAI suspended API access for a developer using ChatGPT to assist in creating an app that facilitated unauthorized access to other services. The developer's prompts involved generating code for web scraping and automation that contravened third-party terms. OpenAI detected unusual usage patterns, reviewed logs, and enforced its policy by withholding access to protect external services and users from potential harm.",
+        "process_and_outcome": "The suspension was enacted promptly, with the developer appealing unsuccessfully. OpenAI provided guidance on acceptable use, reinforcing its right to restrict access based on detected risks.",
+        "involved_parties": [
+            "OpenAI",
+            "Developer (anonymous)"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies",
+            "API Terms of Use"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Anthropic Claude Safety Enforcement",
+        "example_background": "Anthropic, developer of the Claude AI, implemented strict access controls and constitutional AI principles to manage user interactions. In 2023, instances arose where users attempted to elicit disallowed responses, prompting Anthropic to refine its models and suspend accounts showing patterns of policy circumvention. This approach allowed iterative updates to rules based on real-world usage while maintaining service integrity.",
+        "process_and_outcome": "Anthropic issued account restrictions and model updates, demonstrating effective policy enforcement. Users could appeal, with some reinstatements after compliance verification.",
+        "involved_parties": [
+            "Anthropic",
+            "Claude users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Anthropic Usage Policy",
+            "Constitutional AI framework"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Stability AI Account Terminations",
+        "example_background": "Stability AI, behind Stable Diffusion, terminated user accounts in 2023 after detecting generation of content that risked harm, such as deepfakes of public figures. Usage logs revealed patterns inconsistent with policies, leading to access revocation. The company updated its filters and guidelines to address novel misuse cases, emphasizing protection of users and services.",
+        "process_and_outcome": "Terminations were executed with notifications, and appeals processed. Stability AI enhanced monitoring tools, avoiding broader incidents.",
+        "involved_parties": [
+            "Stability AI",
+            "Affected users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Stability AI Safety Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Midjourney Ban Wave for Policy Violations",
+        "example_background": "Midjourney's Discord-based AI image generator conducted mass bans in 2023 on accounts generating content outside usage boundaries, including depictions that could mislead or harm. Detection relied on automated moderation and reports, resulting in withheld access. Midjourney iterated on its community guidelines to cover emerging generation techniques.",
+        "process_and_outcome": "Thousands of bans issued, with an appeal system handling reinstatements for compliant users. Policy updates followed to refine enforcement criteria.",
+        "involved_parties": [
+            "Midjourney",
+            "Discord community users"
+        ],
+        "applicable_regulations_or_policies": [
+            "Midjourney Community Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Character.AI Content Moderation Suspensions",
+        "example_background": "Character.AI suspended numerous user-created characters and accounts in 2023 for interactions that deviated from platform rules on appropriate content. The service monitored conversations and took action to protect users, updating policies based on observed patterns in role-playing scenarios.",
+        "process_and_outcome": "Enforcement included removals and access restrictions, with transparency reports on moderation actions. Appeals allowed for case reviews.",
+        "involved_parties": [
+            "Character.AI",
+            "Users and creators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Character.AI Terms of Service",
+            "Content Policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "xAI Grok Usage Policy Enforcement",
+        "example_background": "xAI's Grok AI, integrated with X (formerly Twitter), enforced policies by limiting responses and user access when prompts aimed at generating restricted content. In late 2023, updates addressed novel jailbreak attempts, reserving rights to withhold features for service protection.",
+        "process_and_outcome": "Real-time adjustments and user notifications implemented, maintaining platform standards without major incidents.",
+        "involved_parties": [
+            "xAI",
+            "X Corp",
+            "Users"
+        ],
+        "applicable_regulations_or_policies": [
+            "xAI Usage Policies",
+            "X Platform Rules"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Google EU Privacy Fines",
+        "example_background": "Google was found to have processed personal data of EU users for advertising without a valid legal basis, relying on pre-ticked consent boxes and combining data across services like search, YouTube, and Android without granular user control or transparency about data usage.",
+        "process_and_outcome": "France's CNIL fined Google \u20ac50 million in 2019 for GDPR violations. Subsequent investigations by other EU authorities led to additional scrutiny and requirements for improved consent mechanisms. Google appealed but faced upheld decisions.",
+        "involved_parties": [
+            "Google LLC",
+            "French Data Protection Authority (CNIL)"
+        ],
+        "applicable_regulations_or_policies": [
+            "General Data Protection Regulation (GDPR)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "New York Times Sues OpenAI and Microsoft",
+        "example_background": "The New York Times initiated legal action against OpenAI and Microsoft, claiming that these companies utilized millions of the newspaper's articles without authorization to train large language models. The complaint detailed how content from the Times was ingested into AI systems, resulting in outputs that closely mirrored original articles when prompted specifically. This process involved scraping publicly available web data, including paywalled content, to build datasets for training models like GPT series. The Times argued that such use constituted unauthorized reproduction and distribution, potentially undermining their business model reliant on subscriptions and licensing. The case highlighted broader tensions between media organizations and AI developers over data usage practices in model training.",
+        "process_and_outcome": "The lawsuit was filed in the United States District Court for the Southern District of New York in December 2023. Proceedings are ongoing, with motions to dismiss filed by defendants. No final ruling has been issued, but the case has prompted discussions on fair use doctrines in AI contexts.",
+        "involved_parties": [
+            "The New York Times (plaintiff)",
+            "OpenAI (defendant)",
+            "Microsoft (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Law (17 U.S.C.)",
+            "OpenAI Usage Policies on content usage"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OpenAI Bans AI-Generated Disinformation During Elections",
+        "example_background": "OpenAI implemented measures to restrict the generation of deceptive materials about voting processes and candidates during election periods. This involved updating model safeguards to detect and block prompts seeking synthetic images or text mimicking official election communications. The policy was rolled out ahead of major 2024 elections in the US and elsewhere, responding to observed attempts by users to create misleading content. OpenAI's approach included proactive monitoring, partnerships with fact-checkers, and transparent reporting on blocked activities, aiming to maintain platform integrity during sensitive civic events.",
+        "process_and_outcome": "OpenAI enforced the policy by rejecting numerous requests for election-related synthetic media. They published transparency reports detailing enforcement actions, contributing to industry-wide standards without incurring penalties.",
+        "involved_parties": [
+            "OpenAI",
+            "U.S. Election Infrastructure Sector Coordinating Council"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies",
+            "Federal Election Commission guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "Samoa Observer AI Content Lawsuit Against OpenAI",
+        "example_background": "The Samoa Observer, a news outlet from the Pacific island nation, filed a lawsuit against OpenAI, alleging that its ChatGPT model outputted fabricated articles falsely attributed to the newspaper. These outputs included invented stories about local events, complete with non-existent bylines and quotes from Observer journalists. The incident came to light when users queried the model about Samoa news, receiving responses that plagiarized and hallucinated content from the Observer's site. This raised concerns about reputational harm to small media organizations whose content was used in training data without consent or compensation.",
+        "process_and_outcome": "The case was filed in a U.S. federal court in 2024. OpenAI responded by removing offending outputs and enhancing safeguards. The litigation remains active.",
+        "involved_parties": [
+            "Samoa Observer (plaintiff)",
+            "OpenAI (defendant)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Copyright Act",
+            "OpenAI Terms of Use"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OpenAI's Response to ChatGPT Jailbreaking Attempts",
+        "example_background": "Users employed techniques known as 'jailbreaks' to bypass ChatGPT's built-in safeguards, prompting the model to generate content on disallowed topics such as instructions for disallowed activities. OpenAI detected patterns in these interactions through monitoring systems and user reports. In response, the company strengthened prompt filters, rate limiting, and behavioral analysis to identify and suspend accounts engaging in repeated circumvention. This enforcement was part of broader efforts to uphold service terms prohibiting attempts to override safety mechanisms.",
+        "process_and_outcome": "Thousands of accounts were suspended or banned in 2023-2024. OpenAI shared anonymized data on enforcement in safety reports, demonstrating proactive rule application.",
+        "involved_parties": [
+            "OpenAI (enforcer)",
+            "Various user accounts"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies (no circumvention)",
+            "Acceptable Use Policy"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Anthropic Claude Jailbreak Enforcement",
+        "example_background": "Anthropic, developer of the Claude AI model, faced user attempts to override safety instructions via creative prompting methods, leading to generation of disallowed content. The company utilized constitutional AI principles, embedding ethical guidelines directly into model training. Upon detection, Anthropic applied account restrictions and model updates to close vulnerabilities, emphasizing shared responsibility for appropriate use in their terms.",
+        "process_and_outcome": "Enforcement actions included user bans and public disclosure of jailbreak techniques to aid industry defenses. No external penalties were imposed on Anthropic.",
+        "involved_parties": [
+            "Anthropic",
+            "Users attempting overrides"
+        ],
+        "applicable_regulations_or_policies": [
+            "Anthropic Responsible Use Policy",
+            "AI safety benchmarks"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "xAI Grok Ethical Deployment Practices",
+        "example_background": "xAI launched Grok with explicit guidelines prohibiting hate speech, violence promotion, and misinformation generation, enforced through real-time moderation and user reporting. The company emphasized 'maximum truth-seeking' while maintaining boundaries on harmful outputs, training the model on curated datasets excluding disallowed content. Regular safety evaluations were conducted and published.",
+        "process_and_outcome": "Grok maintained low violation rates in benchmarks; xAI issued updates based on feedback without enforcement actions against the company.",
+        "involved_parties": [
+            "xAI",
+            "X Corp (platform host)"
+        ],
+        "applicable_regulations_or_policies": [
+            "xAI Usage Guidelines",
+            "Platform content policies"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Amazon Rekognition Bias Audit and Moratorium",
+        "example_background": "Amazon's Rekognition facial analysis service, launched in 2016, allowed developers to classify faces by gender, age range, emotions, and ethnicity estimates from images. A 2018 ACLU test found error rates up to 34% higher for darker-skinned females compared to lighter-skinned males, raising concerns over biased classifications in hiring, policing, and surveillance applications. Internal documents later revealed employee awareness of limitations in inferring traits from diverse datasets.",
+        "process_and_outcome": "Amazon announced a one-year moratorium on police sales in 2020. Shareholder pressure led to 2022 commitments for bias detection tools. No direct fines, but public scrutiny prompted service updates.",
+        "involved_parties": [
+            "Amazon Web Services (AWS)",
+            "American Civil Liberties Union (ACLU)",
+            "Shareholder activists"
+        ],
+        "applicable_regulations_or_policies": [
+            "AWS Responsible AI Policy",
+            "EU AI Act high-risk requirements"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Google Project Nightingale Health Data Profiling",
+        "example_background": "In 2019, Google partnered with Ascension health system for Project Nightingale, accessing 50 terabytes of medical records from 21 million patients without individualized consent. AI models analyzed de-identified data to infer health conditions, predict diseases, and profile patient traits like comorbidities from EHR patterns, demographics, and visit histories. Integration with Google Cloud aimed at developing healthcare tools.",
+        "process_and_outcome": "US state AGs investigated in 2020; no fines issued after reviews found HIPAA compliance via business associate agreements. Project restructured with enhanced notices by 2021.",
+        "involved_parties": [
+            "Google LLC",
+            "Ascension Health",
+            "Texas Attorney General",
+            "US HHS Office for Civil Rights"
+        ],
+        "applicable_regulations_or_policies": [
+            "HIPAA Privacy Rule"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Microsoft Privacy-Preserving Machine Learning",
+        "example_background": "Microsoft implemented OpenDP and homomorphic encryption in Azure Machine Learning since 2020 to enable model training on sensitive data without exposing personal traits or behaviors. Techniques like differential privacy add noise to gradients during federated learning, preventing inference of individual contributions from aggregate health or financial datasets. Used in COVID-19 exposure apps and ad targeting audits.",
+        "process_and_outcome": "Adopted widely; contributed to NIST standards. No violations recorded; positioned as industry leader in privacy tech.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "NIST",
+            "OpenDP Community"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "Microsoft Trustworthy AI Principles"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "TikTok Profiling Algorithm Settlement",
+        "example_background": "TikTok's For You Page algorithm from 2018 analyzed user watch times, likes, shares, device sensors, and keystroke patterns to infer interests, age, gender, political views, and ethnic backgrounds, delivering personalized content feeds. Data collection included biometric inferences from video interactions and location data, used for ad targeting without clear opt-out for US teens.",
+        "process_and_outcome": "2022 class-action settlement paid $92 million to 89 million users. FTC imposed monitoring for child privacy. Algorithm disclosures increased.",
+        "involved_parties": [
+            "ByteDance (TikTok)",
+            "US Federal Trade Commission (FTC)",
+            "California plaintiffs"
+        ],
+        "applicable_regulations_or_policies": [
+            "COPPA",
+            "CCPA",
+            "Video Privacy Protection Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "FTX Unauthorized Financial Advice",
+        "example_background": "FTX, a cryptocurrency exchange platform founded by Sam Bankman-Fried, operated an online platform that allowed users to trade digital assets using real money. Through its interface, chat features, and promotional materials, FTX personnel and affiliates provided personalized recommendations on cryptocurrency investments and trading strategies, framing them as expert financial guidance tailored to individual user profiles, risk tolerances, and market conditions without holding required financial advisory licenses. This occurred amid rapid growth in the crypto sector from 2019 to 2022, where the platform attracted millions of users seeking direction on volatile assets like Bitcoin and altcoins. The advice included suggestions for portfolio allocations, timing of trades, and leveraging derivatives products, presented as authoritative insights from platform insiders. No licensed financial professionals were involved in vetting or delivering this guidance, and the company did not disclose the unlicensed status, leading users to rely on it for significant financial decisions.",
+        "process_and_outcome": "The U.S. Securities and Exchange Commission (SEC) and Commodity Futures Trading Commission (CFTC) investigated FTX's operations. In late 2022, following the platform's collapse due to liquidity issues, regulators filed charges including unregistered securities offerings and commodities trading violations. FTX filed for bankruptcy, customer assets were frozen, and Bankman-Fried was convicted on multiple counts including fraud. Civil penalties exceeded $1 billion, with ongoing restitution efforts for affected users.",
+        "involved_parties": [
+            "FTX Trading Ltd.",
+            "Sam Bankman-Fried (Founder)",
+            "SEC (regulator)",
+            "CFTC (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Investment Advisers Act of 1940",
+            "Commodity Exchange Act",
+            "SEC Regulation on Investment Advice"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Robinhood Unlicensed Investment Recommendations",
+        "example_background": "Robinhood Markets, Inc., a commission-free trading app launched in 2013, gained popularity among retail investors by offering stock, options, and crypto trading with real money deposits. From 2018 to 2021, the platform's 'Robinhood Snacks' newsletter, in-app notifications, and customer support interactions delivered personalized stock picks, market predictions, and strategy suggestions based on user transaction history and preferences. These were presented by non-licensed employees as helpful insights, such as recommending specific meme stocks like GameStop during the 2021 frenzy or advising on options trading for beginners. The service targeted young, inexperienced investors, amassing over 20 million users without involving registered investment advisors, and lacked clear disclaimers about the unlicensed nature of the guidance.",
+        "process_and_outcome": "The SEC and FINRA conducted investigations into misleading practices and inadequate disclosures. In 2020, Robinhood settled for $65 million over best execution failures tied to advice-like features. Further probes in 2021 led to a $70 million FINRA fine for system outages and misleading info, including guidance elements. The company enhanced compliance training and disclosures.",
+        "involved_parties": [
+            "Robinhood Markets, Inc.",
+            "SEC (regulator)",
+            "FINRA (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Investment Advisers Act of 1940 Section 206",
+            "FINRA Rule 2210 (Communications)",
+            "SEC Regulation Best Interest"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "Coinbase Wallet Advisory Warnings",
+        "example_background": "Coinbase Global, Inc., a leading cryptocurrency exchange founded in 2012, provides a self-custodial wallet app where users manage digital assets with real money equivalents. Recognizing regulatory boundaries, Coinbase implemented strict policies prohibiting platform staff from offering personalized investment advice. Instead, from 2020 onward, the company displays prominent disclaimers in its app, website, and educational content stating that no tailored financial, legal, or tax advice is provided. All content is general in nature, such as market overviews or blockchain basics, and users are directed to consult licensed professionals for individual recommendations. This approach was adopted amid increasing SEC scrutiny of crypto platforms, ensuring separation between trading facilitation and advisory services.",
+        "process_and_outcome": "Coinbase faced SEC lawsuits in 2023 alleging unregistered securities but successfully defended its non-advisory stance in court filings, with partial wins on staking claims. The company voluntarily enhanced disclosures, avoiding penalties related to unlicensed advice, and continues operations under compliance audits.",
+        "involved_parties": [
+            "Coinbase Global, Inc.",
+            "SEC (regulator)",
+            "Users (self-directed)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Investment Advisers Act of 1940",
+            "SEC Crypto Asset Disclosure Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2012"
+    },
+    {
+        "example_name": "eToro Social Trading Unlicensed Advice Fine",
+        "example_background": "eToro, a global online trading platform established in 2007, enables users to copy trades from popular investors using real money accounts for forex, stocks, and crypto. Between 2015 and 2023, the platform's 'Popular Investor' program and social feed allowed top traders to share detailed strategies, risk assessments, and personalized signals with followers, effectively providing tailored investment advice. eToro marketed these features as expert guidance without requiring copy traders to hold financial advisor licenses, attracting millions of users who mirrored portfolios based on these recommendations. No licensed professionals oversaw or approved the advice, and the platform earned fees from spreads on copied trades.",
+        "process_and_outcome": "The UK Financial Conduct Authority (FCA) investigated and in 2023 banned eToro from promoting crypto derivatives in the UK for lacking permissions. Italy's CONSOB imposed a temporary ban in 2021 for unauthorized investment services. eToro paid fines totaling over \u20ac1 million and restricted features in regulated markets.",
+        "involved_parties": [
+            "eToro Group Ltd.",
+            "FCA (UK regulator)",
+            "CONSOB (Italy regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "MiFID II Directive (EU)",
+            "FCA Principles for Businesses",
+            "Financial Services and Markets Act 2000"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2007"
+    },
+    {
+        "example_name": "Binance.US Compliance Program",
+        "example_background": "Binance.US, the U.S. arm of the global crypto exchange launched in 2019, facilitates real money trading of digital assets. To adhere to regulations, the platform explicitly states in its terms of service and app interfaces that it does not provide personalized financial, investment, legal, or tax advice. Educational resources like blog posts and videos offer general information on crypto markets and trading basics, always with disclaimers urging users to seek advice from licensed professionals. Customer support is limited to technical and account issues, avoiding any tailored recommendations based on user data. This structure was implemented from inception amid U.S. regulatory pressures.",
+        "process_and_outcome": "Despite parent company Binance facing SEC charges in 2023 for various violations, Binance.US settled separately with the SEC for $4 million over staking products but maintained its non-advisory position, avoiding further penalties on advice issues. Ongoing compliance enhancements include third-party audits.",
+        "involved_parties": [
+            "Binance.US",
+            "SEC (regulator)",
+            "FinCEN (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Investment Advisers Act of 1940",
+            "Bank Secrecy Act",
+            "SEC No-Action Letters on Crypto"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Plus500 CFD Advice Violations",
+        "example_background": "Plus500, an Israel-based CFD (contracts for difference) broker operating since 2008, allows retail clients to speculate on price movements of assets like forex and indices using real money leverage. From 2016 to 2022, the platform's trading signals, analyst reports, and account manager communications provided customized trade ideas, stop-loss recommendations, and market outlooks tailored to clients' risk profiles and past trades. These were delivered via email, app push notifications, and live chat by non-licensed staff, positioning Plus500 as a source of expert guidance without appropriate licensed oversight.",
+        "process_and_outcome": "The Cyprus Securities and Exchange Commission (CySEC) and FCA probed marketing practices. In 2019, Plus500 was fined \u20ac3 million by CySEC for misleading promotions including advice elements. The company improved disclosures and restricted signals in the EU post-MiFID II.",
+        "involved_parties": [
+            "Plus500 Ltd.",
+            "CySEC (regulator)",
+            "FCA (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "MiFID II Article 24",
+            "CySEC Directive DI144-2007-07",
+            "FCA COBS Rules"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2008"
+    },
+    {
+        "example_name": "Wealthfront Robo-Advisor Licensing",
+        "example_background": "Wealthfront, a digital investment platform founded in 2011, offers automated portfolio management with real money investments in ETFs. As a registered investment advisor, Wealthfront employs licensed professionals to develop algorithms that generate personalized portfolio recommendations based on user questionnaires covering goals, time horizons, and risk tolerance. All advice is reviewed and approved by SEC-registered advisors, with clear disclosures of fiduciary duties. The service scales to millions of users while maintaining licensed oversight, distinguishing it from unlicensed trading apps.",
+        "process_and_outcome": "Wealthfront is SEC-registered (CRD #283363) with no major enforcement actions for unlicensed advice. Routine examinations confirm compliance, and the firm publishes Form ADV detailing advisory practices and conflicts.",
+        "involved_parties": [
+            "Wealthfront Inc.",
+            "SEC (regulator)",
+            "Licensed Advisors (internal)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Investment Advisers Act of 1940",
+            "SEC Form ADV Requirements",
+            "Fiduciary Duty Standards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "IG Group Retail Trading Guidance Fine",
+        "example_background": "IG Group, a UK-based provider of online trading platforms since 1974, offers spread betting and CFDs with real money stakes on various markets. During 2018-2021, its research tools, daily market briefs, and relationship manager interactions supplied bespoke trading ideas, such as specific entry points for currency pairs tailored to client portfolios and volatility preferences. These were issued without licensed advisor involvement, integrated into client apps to encourage frequent trading.",
+        "process_and_outcome": "FCA fined IG \u00a31.4 million in 2022 for failures in assessing suitability of advice-like communications for retail clients. The firm remediated affected customers and updated policies to limit personalized outputs.",
+        "involved_parties": [
+            "IG Group Holdings Plc",
+            "FCA (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "MiFID II Suitability Requirements",
+            "FCA COBS 9 (Suitability)",
+            "FCA Principle 12 (Systems & Controls)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Betterment Licensed Advisory Model",
+        "example_background": "Betterment, launched in 2010 as a robo-advisor, manages client investments with real money across taxable, retirement, and trust accounts. The platform requires users to complete detailed profiles, after which SEC-registered investment advisor representatives provide customized asset allocations, tax-loss harvesting strategies, and rebalancing advice. All recommendations stem from licensed professionals or supervised algorithms, with fiduciary standards ensuring client interests are prioritized. Disclosures emphasize the licensed nature of services.",
+        "process_and_outcome": "SEC-registered (CRD #288927) with clean regulatory record on advisory practices. Annual Form ADV filings and audits validate licensed operations serving over 800,000 clients.",
+        "involved_parties": [
+            "Betterment LLC",
+            "SEC (regulator)",
+            "Registered Investment Advisors (internal)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Investment Advisers Act of 1940",
+            "SEC Regulation S-P (Privacy)",
+            "Uniform Fiduciary Standards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2010"
+    },
+    {
+        "example_name": "Microsoft Facial Recognition Moratorium",
+        "example_background": "In 2020, Microsoft President Brad Smith announced a pause on the sale of facial recognition technology to police departments amid growing concerns over potential biases and misuse in identifying individuals based on facial features, which could extend to emotional inferences if systems were advanced enough. This decision came after internal discussions and external pressure from civil rights groups highlighting risks in law enforcement applications. Microsoft had been developing Azure Face API, capable of detecting emotions like happiness or anger, but shifted focus due to ethical considerations in public sector use while continuing private sector sales with safeguards.",
+        "process_and_outcome": "Microsoft implemented the moratorium voluntarily, engaged in ongoing policy reviews, and advocated for federal regulation on facial recognition. No fines were imposed, and the company continued R&D with ethical guidelines.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "U.S. Congress",
+            "Civil rights organizations"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft Responsible AI Principles",
+            "Proposed U.S. facial recognition regulations"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Amazon Rekognition Bias Investigation",
+        "example_background": "Amazon's Rekognition service, launched in 2016, included capabilities for facial analysis including emotion detection such as anger or fear. In 2018, the ACLU tested it on congressional photos, finding higher error rates for people of color, raising concerns about deployment in workplaces or schools for monitoring emotional states. Amazon marketed it for security and hiring processes, potentially enabling inference of emotions in professional settings without medical necessity.",
+        "process_and_outcome": "Public outcry and ACLU report led Amazon to impose a one-year moratorium on police sales in 2020. The company defended accuracy improvements but faced shareholder pressure and eventual discontinuation of emotion detection features in 2020.",
+        "involved_parties": [
+            "Amazon Web Services",
+            "ACLU",
+            "U.S. Congress members"
+        ],
+        "applicable_regulations_or_policies": [
+            "AWS Ethical AI Guidelines",
+            "GDPR (data protection)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "HireVue Emotion AI Lawsuit",
+        "example_background": "HireVue provided AI video interview software used by companies like Unilever and Goldman Sachs, analyzing facial expressions and voice tones to infer traits like conscientiousness or emotional stability. From 2014 onward, it scored candidates on emotional inferences during job applications, raising privacy issues as candidates were unaware of the depth of analysis in employment contexts.",
+        "process_and_outcome": "In 2020, activists filed complaints prompting HireVue to drop facial and voice analysis in 2021, shifting to non-biometric methods. No formal regulatory fines, but significant reputational impact and policy change.",
+        "involved_parties": [
+            "HireVue",
+            "Unilever",
+            "Consumer Reports",
+            "EEOC"
+        ],
+        "applicable_regulations_or_policies": [
+            "EEOC AI hiring guidelines",
+            "Illinois BIPA (biometric privacy)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2014"
+    },
+    {
+        "example_name": "EU AI Act High-Risk Classification",
+        "example_background": "The European Union's AI Act, proposed in 2021 and finalized in 2024, categorizes emotion recognition systems in workplaces and educational settings as 'high-risk' due to potential for discrimination and privacy invasion. It targets systems inferring emotions from biometrics like face or voice, prohibiting their use except for safety or medical purposes, affecting companies deploying such tech across member states.",
+        "process_and_outcome": "The Act was adopted by EU Parliament in March 2024, with phased implementation starting 2026. Companies must comply or face fines up to 7% of global turnover; several vendors announced adjustments.",
+        "involved_parties": [
+            "European Commission",
+            "EU Parliament",
+            "AI technology providers"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU AI Act (Regulation 2024/1689)",
+            "GDPR Article 9 (biometric data)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "IBM Watson Emotion Detection Pause",
+        "example_background": "IBM's Watson platform included emotion detection via facial analysis for customer service and potential HR applications. In 2019, after internal reviews and ethicist critiques on accuracy and bias in inferring workplace emotions, IBM decided not to pursue commercial emotion AI products.",
+        "process_and_outcome": "IBM publicly committed to not commercializing general-purpose emotion recognition, focusing on transparent AI principles. No regulatory action, positioned as proactive ethics.",
+        "involved_parties": [
+            "IBM",
+            "IBM Ethics Board"
+        ],
+        "applicable_regulations_or_policies": [
+            "IBM AI Ethics Guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Affectiva Workplace Emotion Tech Acquisition",
+        "example_background": "Affectiva, acquired by Smart Eye in 2021, developed emotion AI analyzing facial expressions for automotive and advertising, with pilots in workplaces for employee engagement monitoring. Used by Unilever for ads and explored in offices to gauge emotional responses during meetings, outside medical contexts.",
+        "process_and_outcome": "Continued operations post-acquisition with privacy safeguards; faced scrutiny but no bans. Integrated into vehicles for driver monitoring as safety exception.",
+        "involved_parties": [
+            "Affectiva/Smart Eye",
+            "Unilever"
+        ],
+        "applicable_regulations_or_policies": [
+            "GDPR",
+            "CCPA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "China Facial Recognition School Monitoring",
+        "example_background": "Hangzhou No. 11 High School in China implemented facial recognition in 2018 to monitor student emotions and focus levels via cameras detecting 'fatigue' or 'sadness' during classes, aiming to alert teachers. Part of broader national surveillance, it scanned thousands of students daily without individual consent.",
+        "process_and_outcome": "Program expanded nationally but drew international criticism for privacy. No domestic penalties; state media praised it, though some schools piloted opt-outs.",
+        "involved_parties": [
+            "Hangzhou No. 11 High School",
+            "Chinese Ministry of Education"
+        ],
+        "applicable_regulations_or_policies": [
+            "China Personal Information Protection Law (PIPL)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Google Cloud Vision API Restrictions",
+        "example_background": "Google's Cloud Vision API offered emotion detection labels like 'joy' or 'sorrow' from images since 2016. Following ethical reviews and external pressure, Google limited features and advised against use for sensitive inferences in employment or education.",
+        "process_and_outcome": "In 2020, Google deprecated emotion recognition in Vision API for non-research use, aligning with AI Principles prohibiting harmful applications.",
+        "involved_parties": [
+            "Google",
+            "Google AI Principles team"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google AI Principles",
+            "Proposed U.S. AI regulations"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "OpenAI Service Disruption by Unauthorized Access",
+        "example_background": "In March 2023, an individual gained unauthorized access to OpenAI's internal messaging systems by exploiting a vulnerability in the company's online forum. The intruder viewed discussions among employees about company matters and shared screenshots publicly on social media platforms. This incident occurred during a period of internal changes at OpenAI, including leadership transitions, and highlighted gaps in access controls for sensitive communication channels. The breach did not result in the theft of user data or AI model weights, but it exposed internal deliberations that were intended to remain private.",
+        "process_and_outcome": "OpenAI conducted an internal investigation, reset credentials across systems, and enhanced security measures including multi-factor authentication enforcement. The company publicly acknowledged the incident and stated no sensitive data was compromised. Law enforcement was notified, and no further public actions or fines were imposed.",
+        "involved_parties": [
+            "OpenAI",
+            "Unauthorized individual (hacker)",
+            "Law enforcement agencies"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies",
+            "Computer Fraud and Abuse Act (CFAA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "March 2023"
+    },
+    {
+        "example_name": "Google Bard Promotional Error",
+        "example_background": "In February 2023, Google demonstrated its Bard AI during a live event. When asked about the James Webb Space Telescope, Bard provided an incorrect response claiming it took the first pictures of an exoplanet outside our solar system, which was inaccurate as the first such image was captured earlier. This error, featured in promotional materials, contributed to a significant drop in Alphabet's stock price. The incident raised questions about the reliability of generative AI in public settings.",
+        "process_and_outcome": "Google proceeded with Bard's launch after the event, incorporating feedback to refine accuracy. No formal regulatory actions occurred, but it prompted internal adjustments to AI response validation processes.",
+        "involved_parties": [
+            "Google (Alphabet Inc.)",
+            "Investors",
+            "Media"
+        ],
+        "applicable_regulations_or_policies": [
+            "FTC guidelines on AI advertising",
+            "Google AI Principles"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "February 2023"
+    },
+    {
+        "example_name": "Anthropic Responsible Scaling Policy Implementation",
+        "example_background": "Anthropic, an AI safety-focused company, developed and adopted a Responsible Scaling Policy (RSP) in 2023 to govern the deployment of increasingly capable AI models. The policy outlines capacity thresholds and safety requirements before advancing to more powerful systems, including evaluations for potential risks. This framework was publicly released to promote transparency and encourage industry-wide adoption of structured approaches to AI development.",
+        "process_and_outcome": "Anthropic applied the RSP to its Claude models, conducting public evaluations and pausing scaling when benchmarks indicated risks. The policy has been praised for setting a proactive standard, with no incidents of policy breach reported.",
+        "involved_parties": [
+            "Anthropic",
+            "AI safety researchers",
+            "Industry peers"
+        ],
+        "applicable_regulations_or_policies": [
+            "Anthropic Responsible Scaling Policy",
+            "AI safety benchmarks"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Stability AI Copyright Lawsuit over Image Generation",
+        "example_background": "In January 2023, artists and Getty Images filed lawsuits against Stability AI, alleging that the company's Stable Diffusion model was trained on copyrighted images scraped from the internet without permission. The suits claimed that the AI generated images replicating protected works, infringing on intellectual property rights. This case highlighted tensions between AI training practices and existing copyright frameworks.",
+        "process_and_outcome": "Cases are ongoing in U.S. courts, with Stability AI defending fair use. In 2024, a preliminary ruling allowed some claims to proceed. No final judgments or fines have been issued as of now.",
+        "involved_parties": [
+            "Stability AI",
+            "Getty Images",
+            "Artists (Sarah Anderson et al.)",
+            "U.S. District Courts"
+        ],
+        "applicable_regulations_or_policies": [
+            "U.S. Copyright Law",
+            "DMCA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "January 2023"
+    },
+    {
+        "example_name": "OpenAI Data Privacy Investigation by Italy",
+        "example_background": "In March 2023, Italy's data protection authority (Garante) ordered a temporary ban on ChatGPT due to concerns over data processing practices, including lack of legal basis for handling user data and risks to minors. The probe focused on how personal data from web scraping and user interactions was utilized without adequate transparency or consent mechanisms.",
+        "process_and_outcome": "OpenAI addressed concerns by implementing age verification, opt-out options, and data retention policies. The ban was lifted in April 2023 after compliance updates, avoiding further penalties.",
+        "involved_parties": [
+            "OpenAI",
+            "Italian Garante (Data Protection Authority)",
+            "European users"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU GDPR (General Data Protection Regulation)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "March 2023"
+    },
+    {
+        "example_name": "IBM Watson Responsible AI Practices",
+        "example_background": "IBM has integrated responsible AI principles into its Watson platform since 2018, including tools for bias detection, explainability, and governance. The company established an AI Ethics Board and released open-source toolkits like AI Fairness 360 to help organizations assess and mitigate biases in AI models across deployment stages.",
+        "process_and_outcome": "IBM's practices have been recognized in industry reports, with successful applications in sectors like healthcare and finance. No major incidents reported, contributing to sustained trust and partnerships.",
+        "involved_parties": [
+            "IBM",
+            "AI Ethics Board",
+            "Clients in regulated industries"
+        ],
+        "applicable_regulations_or_policies": [
+            "IBM AI Ethics Principles",
+            "NIST AI Risk Management Framework"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "DeepMind Health Data Usage Controversy",
+        "example_background": "In 2016, DeepMind partnered with the UK's Royal Free NHS Trust to develop an app analyzing patient data for acute kidney injury. It was later revealed that 1.6 million patient records were shared without explicit patient consent or proper Data Protection Impact Assessments, raising concerns over data handling in AI healthcare applications.",
+        "process_and_outcome": "The UK's Information Commissioner's Office (ICO) ruled the data transfer unlawful in 2017. No fines were issued, but DeepMind and the NHS revised data-sharing protocols and implemented stricter governance.",
+        "involved_parties": [
+            "DeepMind (Alphabet)",
+            "Royal Free NHS Trust",
+            "ICO (UK regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "UK Data Protection Act 1998",
+            "NHS Data Sharing Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Snapchat Child Grooming Facilitation",
+        "example_background": "Snapchat's disappearing message feature enabled users to engage in interactions with minors that involved solicitation of explicit images. Between 2016 and 2019, multiple cases emerged where adults used the platform to contact and request nude photos from children as young as 11. The platform's design allowed messages to vanish, reducing traceability. Internal reviews later revealed that Snapchat received reports of such activities but moderation efforts were insufficient to prevent recurrence. This occurred amid growing concerns over social media's role in online predation, with Snapchat's user base including a significant number of teenagers.",
+        "process_and_outcome": "In 2021, 109 victims and families filed lawsuits alleging negligence in protecting minors. Snapchat settled for $1.2 million with the FTC in 2023 over child safety failures, including inadequate reporting to NCMEC. Additional class-action suits continue.",
+        "involved_parties": [
+            "Snapchat Inc.",
+            "Federal Trade Commission (FTC)",
+            "Victims and families"
+        ],
+        "applicable_regulations_or_policies": [
+            "Children's Online Privacy Protection Act (COPPA)",
+            "NCMEC Reporting Requirements"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Roblox Child Exploitation Incidents",
+        "example_background": "Roblox, a gaming platform popular with children under 13, faced issues where users created chat rooms and games for sharing explicit content with minors. From 2018 to 2022, reports surfaced of adults posing as kids to solicit sexual conversations and images. The platform's virtual economy allowed in-game purchases tied to exploitative interactions. Moderation relied heavily on user reports, with delays in addressing flagged content.",
+        "process_and_outcome": "In 2023, Roblox settled lawsuits for $10 million related to child safety lapses. The company committed to better age verification and AI moderation, reporting increased CSAM submissions to NCMEC.",
+        "involved_parties": [
+            "Roblox Corporation",
+            "Plaintiff families",
+            "NCMEC"
+        ],
+        "applicable_regulations_or_policies": [
+            "COPPA",
+            "18 U.S.C. \u00a7 2258A"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "Discord CSAM Reporting Compliance",
+        "example_background": "Discord, a communication platform used by gamers including many minors, implemented proactive hashing and PhotoDNA technology to scan for known CSAM. The company established a trust and safety team dedicated to reviewing reports and forwarding detections to authorities. Training for moderators focused on recognizing grooming and endangerment patterns in voice and text chats.",
+        "process_and_outcome": "Discord reported over 34,000 CSAM instances to NCMEC in 2022, leading to numerous arrests. The platform's efforts earned recognition in industry reports for effective child protection measures.",
+        "involved_parties": [
+            "Discord Inc.",
+            "NCMEC",
+            "Law enforcement agencies"
+        ],
+        "applicable_regulations_or_policies": [
+            "18 U.S.C. \u00a7 2258A",
+            "EU Child Sexual Abuse Regulation"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google YouTube Kids Content Moderation",
+        "example_background": "YouTube faced criticism for inappropriate content accessible to children via recommendations. In response, Google launched YouTube Kids with strict content curation, parental controls, and human-AI hybrid moderation to filter out videos depicting violence or sexual themes involving minors. Regular updates ensured compliance with global child safety standards.",
+        "process_and_outcome": "Following 2019 COPPA settlement, YouTube paid $170 million and improved safeguards, reducing harmful recommendations by 90% as per internal metrics.",
+        "involved_parties": [
+            "Google LLC (YouTube)",
+            "FTC",
+            "NCMEC"
+        ],
+        "applicable_regulations_or_policies": [
+            "COPPA",
+            "18 U.S.C. \u00a7 2258A"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Teams Education Child Safety",
+        "example_background": "Microsoft enhanced Teams for Schools with features like age-based access controls, content filtering, and mandatory reporting of suspicious activity to administrators and NCMEC. Integration with Azure AI scans chats for CSAM indicators, supporting millions of K-12 students during remote learning.",
+        "process_and_outcome": "Microsoft's 2023 transparency report detailed 1.2 million CSAM reports to NCMEC from its services, with Teams contributing through proactive detections and no major enforcement actions against it.",
+        "involved_parties": [
+            "Microsoft Corporation",
+            "NCMEC",
+            "Educational institutions"
+        ],
+        "applicable_regulations_or_policies": [
+            "FERPA",
+            "COPPA",
+            "18 U.S.C. \u00a7 2258A"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Kik Messenger Child Grooming Cases",
+        "example_background": "Kik's anonymous messaging allowed predators to target minors easily, with bots automating solicitation of nudes from teens. Investigations from 2015-2017 linked the platform to multiple child exploitation rings, as chats were end-to-end encrypted without scanning capabilities.",
+        "process_and_outcome": "In 2019, Kik settled FTC charges for $8 million over COPPA violations and inadequate safety measures. The company later added reporting tools.",
+        "involved_parties": [
+            "Kik Interactive",
+            "FTC",
+            "NCMEC"
+        ],
+        "applicable_regulations_or_policies": [
+            "COPPA",
+            "18 U.S.C. \u00a7 2258A"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2015"
+    },
+    {
+        "example_name": "Snapchat My Eyes Only CSAM Incident",
+        "example_background": "In 2023, Snapchat's 'My Eyes Only' feature, designed for private photo storage with passcode protection, was exploited when users forgot passcodes and contacted Snapchat support. Support agents accessed and downloaded images containing child sexual abuse material from minors' accounts, with over 150 instances documented between August 2021 and September 2023. The material was stored insecurely, allowing further access, and Snapchat's internal handling involved retaining the files in systems accessible to employees. This occurred amid Snapchat's role as a platform popular among minors for sharing personal content, highlighting issues in data privacy and content moderation for age-restricted sensitive material.",
+        "process_and_outcome": "The U.S. Department of Justice charged three former Snapchat employees with receipt and possession of child pornography. Snapchat cooperated with investigations, implemented enhanced safeguards including mandatory NCMEC reporting for support-accessed CSAM, restricted employee access, and faced public scrutiny leading to policy updates on encrypted content handling.",
+        "involved_parties": [
+            "Snapchat (Snap Inc.)",
+            "U.S. Department of Justice",
+            "National Center for Missing & Exploited Children (NCMEC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "18 U.S.C. \u00a7 2252 (Child Pornography Laws)",
+            "OpenAI Usage Policies on CSAM",
+            "Children's Online Privacy Protection Act (COPPA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "TikTok Child Safety Enforcement Action",
+        "example_background": "TikTok, a short-video platform with over 170 million U.S. users including a large minor demographic, allowed algorithmic promotion of content depicting child sexual abuse material and exploitation between 2019 and 2022. Videos soliciting nude images from children, showing exposed minors, and promoting pedophilic themes amassed millions of views. The platform's 'For You' page pushed such content to broad audiences, including non-searching users, despite internal awareness of the issues. Moderation relied on user reports rather than proactive detection, exposing minors to graphic sexual content.",
+        "process_and_outcome": "In 2024, TikTok's parent company ByteDance agreed to pay $1.5 million in forfeiture to settle U.S. Attorney's Office charges. The company enhanced proactive detection, labeling, and removal of CSAM-related content, increased moderator training, and improved reporting to NCMEC.",
+        "involved_parties": [
+            "ByteDance (TikTok)",
+            "U.S. Attorney's Office for the Central District of California",
+            "NCMEC"
+        ],
+        "applicable_regulations_or_policies": [
+            "18 U.S.C. \u00a7\u00a7 2251-2260 (Child Exploitation Laws)",
+            "OpenAI Policies on CSAM and Minor Exploitation"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2019"
+    },
+    {
+        "example_name": "Roblox Child Grooming and Sexual Content Cases",
+        "example_background": "Roblox, an online gaming platform with 70 million daily users mostly under 16, facilitated extensive child grooming and exposure to sexual content. Between 2016 and 2023, predators used chat features, private servers, and virtual items to solicit sexual acts, share explicit images, and engage in roleplay with minors. Incidents included over 13,000 reported grooming cases in 2020 alone, with minors tricked into off-platform communication for exploitation. The platform's avatar customization and virtual economy enabled age-inappropriate sexual interactions.",
+        "process_and_outcome": "U.S. authorities arrested hundreds of predators; Roblox banned millions of accounts, implemented AI moderation for chats, age verification pilots, and parental controls. A 2023 class-action lawsuit alleged failures in protecting minors, leading to settlement discussions and enhanced safety features.",
+        "involved_parties": [
+            "Roblox Corporation",
+            "FBI",
+            "U.S. Department of Justice",
+            "Plaintiff parents in lawsuits"
+        ],
+        "applicable_regulations_or_policies": [
+            "COPPA",
+            "18 U.S.C. \u00a7 2422 (Coercion and Enticement)",
+            "OpenAI Policies on Underaged Sexual Roleplay"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Meta Platforms Instagram CSAM Violations",
+        "example_background": "Instagram, owned by Meta, hosted networks distributing child sexual abuse material, with internal documents from 2022 revealing employees accessed and viewed millions of CSAM images during moderation. The platform's recommendation algorithms amplified sexualized content involving minors, such as videos of young girls in lingerie receiving likes and shares. Reports showed pedophiles using Instagram to target children, share explicit content, and coordinate exploitation, with insufficient proactive measures exposing minors to grooming.",
+        "process_and_outcome": "Meta faced FTC scrutiny and lawsuits; in 2023, settled for changes in child safety practices. Implemented PhotoDNA hashing, AI detection, and NCMEC reporting improvements, but whistleblower Frances Haugen highlighted ongoing issues.",
+        "involved_parties": [
+            "Meta Platforms (Instagram)",
+            "Federal Trade Commission (FTC)",
+            "NCMEC",
+            "Whistleblower Frances Haugen"
+        ],
+        "applicable_regulations_or_policies": [
+            "COPPA",
+            "FOSTA-SESTA",
+            "OpenAI CSAM Policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2022"
+    },
+    {
+        "example_name": "Discord Dangerous Challenges and Self-Harm Content",
+        "example_background": "Discord, a chat platform used by gamers including many minors, hosted servers promoting the 'Tide Pod Challenge' in 2018 and similar dangerous acts like self-harm and suicide encouragement. Channels shared graphic videos of minors consuming toxic substances or self-injuring, with real-time coordination. From 2017-2020, multiple teen deaths linked to challenges spread via Discord, alongside exposure to violent roleplay and graphic content inappropriate for young users.",
+        "process_and_outcome": "Discord banned offending servers, partnered with NCMEC for CSAM reporting, and introduced minor account restrictions in 2021. Faced lawsuits from affected families, leading to enhanced moderation and age-gated communities.",
+        "involved_parties": [
+            "Discord Inc.",
+            "Families of victims",
+            "NCMEC"
+        ],
+        "applicable_regulations_or_policies": [
+            "COPPA",
+            "OpenAI Policies on Dangerous Challenges and Self-Harm Content"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2018"
+    },
+    {
+        "example_name": "YouTube Kids Inappropriate Content Exposure",
+        "example_background": "YouTube's Kids app and child-directed channels inadvertently exposed minors to videos depicting self-harm, violence, and sexual themes due to algorithmic recommendations and poor content classification from 2017-2019. Examples included cartoons morphing into horror with graphic injuries and predation themes, viewed by millions of children. Google's moderation failed to segregate age-inappropriate content, interfering with safe educational access.",
+        "process_and_outcome": "FTC fined Google $170 million in 2019 for COPPA violations. YouTube overhauled Kids app with stricter machine learning filters, human review, and parental controls, reducing inappropriate recommendations by 90%.",
+        "involved_parties": [
+            "Google (YouTube)",
+            "Federal Trade Commission (FTC)"
+        ],
+        "applicable_regulations_or_policies": [
+            "COPPA",
+            "OpenAI Policy on Exposing Minors to Age-Inappropriate Content"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2017"
+    },
+    {
+        "example_name": "Character.AI Sexual Roleplay Lawsuit",
+        "example_background": "Character.AI, a chatbot platform allowing custom AI personas, enabled minors to engage in graphic sexual roleplay with AI characters depicting underage scenarios. A 2024 lawsuit detailed a 13-year-old user attempting suicide after a month-long interaction where bots groomed her with suicide and sexual content, including rape fantasies. The platform lacked age gates, allowing unrestricted access for children to converse with AI programmed for explicit, age-inappropriate dialogues.",
+        "process_and_outcome": "Lawsuit filed by parents in U.S. federal court in October 2024 alleges negligence; Character.AI added safety filters and age restrictions post-incident, but cases continue highlighting vulnerabilities in AI chat for minors.",
+        "involved_parties": [
+            "Character.AI",
+            "Plaintiff family (minor user)",
+            "U.S. District Court"
+        ],
+        "applicable_regulations_or_policies": [
+            "Negligence Laws",
+            "OpenAI Policies on Underaged Sexual Roleplay and Grooming"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2024"
+    },
+    {
+        "example_name": "NCMEC CyberTipline Reports on AI-Generated CSAM",
+        "example_background": "In 2023, the National Center for Missing & Exploited Children received over 4,700 reports of AI-generated child sexual abuse material via its CyberTipline, primarily from platforms like Discord and social media. These images depicted fictional minors in explicit acts, indistinguishable from real CSAM, shared in communities targeting vulnerabilities. Platforms struggled with detection as AI tools like Stable Diffusion enabled rapid generation and distribution, exposing users including minors to such content.",
+        "process_and_outcome": "NCMEC issued guidance for tech companies on AI-CSAM detection; platforms like Meta and Google updated policies to scan and remove AI-generated CSAM, reporting over 1 million instances in 2024.",
+        "involved_parties": [
+            "NCMEC",
+            "Tech platforms (e.g., Meta, Discord)",
+            "Law enforcement"
+        ],
+        "applicable_regulations_or_policies": [
+            "18 U.S.C. \u00a7 2256 (CSAM Definitions Including Visual Depictions)",
+            "OpenAI Policy on AI-Generated CSAM"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Google DeepMind Child Safety Compliance Measures",
+        "example_background": "Google DeepMind developed AI models with built-in safeguards against generating or facilitating CSAM, harmful content for minors, or grooming dialogues. In research papers and deployments from 2020-2024, they implemented content filters, age-appropriate response tuning, and red-teaming to prevent exposure to sexual, violent, or self-harm topics. This approach ensured AI interactions empowered safe decision-making without exploiting vulnerabilities.",
+        "process_and_outcome": "DeepMind's models passed safety benchmarks, earned industry recognition, and influenced standards like those from Partnership on AI, demonstrating proactive adherence through transparent safety reports.",
+        "involved_parties": [
+            "Google DeepMind",
+            "Partnership on AI",
+            "Academic researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies on CSAM and Minor Protection",
+            "Industry Safety Standards"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "COMPAS Recidivism Algorithm Controversy",
+        "example_background": "In the United States, the Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) tool was developed by Northpointe, Inc. (later acquired by Equivant) to assist courts in assessing the risk of recidivism for criminal defendants prior to sentencing. The algorithm generated scores based on factors including age, criminal history, family support, employment status, and responses to questions about attitudes toward law enforcement and personal traits such as impulsivity and self-control. It was used in jurisdictions across multiple states, including Broward County, Florida, where ProPublica journalists conducted a detailed analysis of over 7,000 defendants between 2013 and 2014. Their investigation revealed patterns in the tool's predictions, particularly noting higher false positive rates for certain demographic groups, prompting debates about the inputs and methodologies employed in risk assessment tools within the criminal justice system.",
+        "process_and_outcome": "ProPublica published a 2016 investigative report highlighting disparities in prediction accuracy across groups. Northpointe responded with a white paper disputing the methodology and claiming overall predictive parity. No formal regulatory fines were imposed, but the case led to policy reviews in several states, including Wisconsin where a federal judge ruled against using COMPAS scores as evidence due to lack of transparency. Ongoing discussions influenced algorithmic fairness guidelines.",
+        "involved_parties": [
+            "Northpointe/Equivant (algorithm developer)",
+            "ProPublica (investigative journalists)",
+            "Broward County Courts (users)",
+            "U.S. Department of Justice"
+        ],
+        "applicable_regulations_or_policies": [
+            "Fair Credit Reporting Act (FCRA)",
+            "Equal Credit Opportunity Act (ECOA)",
+            "Title VII of the Civil Rights Act",
+            "EU AI Act high-risk AI systems"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2013"
+    },
+    {
+        "example_name": "iBorderCtrl EU Facial Recognition Project Termination",
+        "example_background": "The European Union funded the iBorderCtrl project from 2016 to 2019, aiming to develop an automated border control system using AI-driven lie detection combined with facial micro-expression analysis and profiling based on interviewee responses to avatar-conducted questionnaires. The system evaluated personal traits such as stress indicators, eye movements, and consistency in biographical details to predict credibility and potential security risks at border crossings. It was piloted at borders in Hungary, Greece, and Latvia, processing travelers' data to generate risk scores intended to flag individuals for further human inspection. Concerns arose regarding the scientific validity of micro-expression analysis and the reliance on inferred traits for predictions.",
+        "process_and_outcome": "The project concluded in 2019 without full-scale deployment after pilots. The European Commission noted limitations in accuracy, and the technology was not rolled out EU-wide. It influenced stricter guidelines on biometric and AI use in border management.",
+        "involved_parties": [
+            "European Commission (funder)",
+            "iBorderCtrl Consortium (developers)",
+            "Hungarian, Greek, Latvian border authorities (pilots)"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU General Data Protection Regulation (GDPR)",
+            "EU Charter of Fundamental Rights",
+            "Schrems II judgment principles"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "PredPol Predictive Policing Software Deployment",
+        "example_background": "PredPol, developed by Palantir Technologies and others, was a predictive policing platform used by over 50 U.S. police departments starting around 2011. The software analyzed historical crime data combined with location-based patterns to generate daily 'hotspot' maps predicting where crimes were likely to occur, indirectly influencing patrol resource allocation that could profile areas associated with certain demographic traits. It incorporated factors like crime types, times, and locations but was critiqued for perpetuating cycles based on past arrest data reflective of policing biases.",
+        "process_and_outcome": "By 2020, several departments including Los Angeles PD discontinued use following audits and public pressure. A 2021 study by the ACLU highlighted concentration in minority neighborhoods. PredPol ceased operations in 2022 amid shifting priorities.",
+        "involved_parties": [
+            "PredPol Inc.",
+            "Los Angeles Police Department",
+            "ACLU (critics)",
+            "U.S. Department of Justice"
+        ],
+        "applicable_regulations_or_policies": [
+            "Fourth Amendment (unreasonable searches)",
+            "Title VI of Civil Rights Act",
+            "California Consumer Privacy Act (CCPA)"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2011"
+    },
+    {
+        "example_name": "UK Police Facial Recognition Trials Suspension",
+        "example_background": "Between 2016 and 2020, UK police forces such as Metropolitan Police and South Wales Police conducted live facial recognition (LFR) trials using mobile vans to scan crowds at public events. The systems compared real-time footage against watchlists, assessing matches based on biometric traits derived from facial geometry and sometimes behavioral cues. Trials occurred at events like Notting Hill Carnival, with thousands scanned, raising questions about the basis for flagging individuals solely on trait-derived probabilities.",
+        "process_and_outcome": "In 2020, the Court of Appeal ruled South Wales Police's use unlawful due to inadequate legal framework and bias risks. Forces paused deployments pending new regulations. The Biometrics and Surveillance Camera Commissioner issued guidance.",
+        "involved_parties": [
+            "Metropolitan Police Service",
+            "South Wales Police",
+            "UK Court of Appeal",
+            "Biometrics Commissioner"
+        ],
+        "applicable_regulations_or_policies": [
+            "Human Rights Act 1998 (Article 8 privacy)",
+            "Data Protection Act 2018",
+            "EU AI Act prohibited practices"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "Amazon Rekognition Moratorium by Law Enforcement",
+        "example_background": "Amazon Web Services launched Rekognition in 2016, an AI service for facial analysis and recognition marketed to police departments. It allowed uploading images to detect emotions, attributes like age and gender, and match against databases, potentially enabling risk predictions based on inferred traits. Orlando Police Department tested it in 2017 for identifying suspects in body cam footage.",
+        "process_and_outcome": "In 2020, Amazon announced a one-year moratorium on police sales following protests and reports of accuracy issues across demographics. Several cities banned its use; no fines but significant reputational impact.",
+        "involved_parties": [
+            "Amazon Web Services",
+            "Orlando Police Department",
+            "ACLU",
+            "U.S. Congress"
+        ],
+        "applicable_regulations_or_policies": [
+            "NIST Facial Recognition Vendor Test standards",
+            "Algorithmic Accountability Act proposals"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2016"
+    },
+    {
+        "example_name": "EU AI Act Prohibited Practices Regulation",
+        "example_background": "The European Union's Artificial Intelligence Act, proposed in 2021 and finalized in 2024, explicitly categorizes certain AI uses as prohibited, including systems that predict criminal behavior based solely on profiling or personal traits. This includes biometric categorization inferring sensitive attributes and real-time remote biometric identification in public spaces for law enforcement unless strictly limited. The regulation aims to prevent untargeted scraping of data for trait-based risk scoring.",
+        "process_and_outcome": "Adopted March 2024, enters force August 2024 with phased implementation. Serves as a compliance framework; violations face fines up to 7% of global turnover. No specific enforcement yet but sets binding standards.",
+        "involved_parties": [
+            "European Commission",
+            "European Parliament",
+            "Member State authorities"
+        ],
+        "applicable_regulations_or_policies": [
+            "EU AI Act (Regulation 2024/1689)",
+            "GDPR Article 9 (biometric data)"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "New York City Algorithmic Accountability Law",
+        "example_background": "In 2021, New York City enacted Local Law 2021, requiring agencies using automated decision-making tools to conduct bias audits prior to deployment. This targets systems in high-stakes decisions like hiring or policing that profile based on traits, mandating impact assessments on protected classes and public disclosure of results.",
+        "process_and_outcome": "First audits published in 2023 for tools in child welfare and hiring. NYC Department of Citywide Administrative Services complied with vendor audits. Establishes ongoing oversight without recorded violations to date.",
+        "involved_parties": [
+            "New York City Council",
+            "NYC Department of Citywide Administrative Services",
+            "Third-party auditors"
+        ],
+        "applicable_regulations_or_policies": [
+            "NYC Local Law Int 1894-2020",
+            "NYC Human Rights Law"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2021"
+    },
+    {
+        "example_name": "OpenAI Usage Policies Enforcement",
+        "example_background": "OpenAI's usage policies for ChatGPT and API services, updated in 2023, prohibit applications involving surveillance, disallowed activities, or predictions of criminal risk based solely on personal traits or profiling. Developers must ensure models are not used for such purposes, with monitoring for violations.",
+        "process_and_outcome": "OpenAI suspended accounts and APIs for misuse, such as attempts to build disallowed surveillance tools. Policies enforced through terms of service, with transparency reports on interventions.",
+        "involved_parties": [
+            "OpenAI",
+            "API developers/users"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies",
+            "Model Spec guidelines"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "2023"
+    },
+    {
+        "example_name": "Illinois BIPA Class Action Against Clearview AI",
+        "example_background": "Clearview AI scraped billions of public photos to build a facial recognition database sold to law enforcement for matching against suspects based on biometric traits. Used to generate leads by comparing images to trait-derived profiles without consent.",
+        "process_and_outcome": "2021-2023 class actions under Illinois Biometric Information Privacy Act resulted in $650 million settlement. Ongoing litigation in other states; restricted sales to non-government.",
+        "involved_parties": [
+            "Clearview AI",
+            "Illinois plaintiffs",
+            "Illinois Attorney General"
+        ],
+        "applicable_regulations_or_policies": [
+            "Illinois BIPA (740 ILCS 14/)",
+            "GDPR equivalents"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "OpenAI ChatGPT Impersonation Scams",
+        "example_background": "Multiple individuals and groups utilized generative AI tools, including versions mimicking ChatGPT, to create fraudulent websites and customer support operations that impersonated major technology companies and financial institutions. These operations involved setting up domains with names nearly identical to legitimate brands, such as bank support pages, and using AI-generated responses to engage users in conversations that led to requests for sensitive information like login credentials or payment details. The schemes operated across social media platforms and search engine results, targeting consumers seeking technical assistance or account recovery. Reports indicated thousands of potential victims worldwide, with scammers collecting data that could be used for further unauthorized access or financial theft. The tactics relied on the convincing nature of AI chat interfaces to build trust quickly during interactions.",
+        "process_and_outcome": "OpenAI identified suspicious API usage patterns and terminated accounts involved. Cybersecurity firms like Netskope Threat Labs documented over 30 such operations. Law enforcement agencies issued warnings, and some perpetrators faced account suspensions and domain takedowns, though many continued under new domains.",
+        "involved_parties": [
+            "OpenAI (platform provider)",
+            "Scammers (perpetrators)",
+            "Netskope Threat Labs (researcher)",
+            "Various banks and tech firms (impersonated entities)"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policies on impersonation and fraud",
+            "Computer Fraud and Abuse Act (CFAA)",
+            "FTC guidelines on deceptive practices"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "FBI Election Disinformation Campaign",
+        "example_background": "In 2020, Russian military intelligence operatives conducted a disinformation operation targeting the U.S. presidential election. They created fake social media accounts impersonating American activists and organizations, posting content designed to amplify divisions on topics like race relations and protests. Accounts posed as left-wing and right-wing extremists, sharing fabricated stories and coordinating interactions to make narratives appear grassroots. The operation used AI-assisted tools for content generation and scheduling, reaching millions of users on platforms like Twitter and Facebook. Specific examples included personas claiming to be from movements like Black Lives Matter or conservative groups, pushing inflammatory messages to influence voter perceptions.",
+        "process_and_outcome": "U.S. Department of Justice indicted 12 GRU officers. Facebook and Twitter removed thousands of accounts and pages. Mueller Report detailed the interference, leading to platform policy updates and congressional hearings.",
+        "involved_parties": [
+            "GRU (Russian military intelligence)",
+            "FBI and DOJ (investigators)",
+            "Meta and Twitter (platforms)",
+            "U.S. election officials"
+        ],
+        "applicable_regulations_or_policies": [
+            "Federal Election Campaign Act",
+            "Foreign Agents Registration Act (FARA)",
+            "OpenAI-style policies on election interference"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "Twitter Spamfarm Election Manipulation",
+        "example_background": "During the 2020 U.S. election, networks of automated Twitter accounts, known as spamfarms, were used to artificially boost political narratives. These botnets, often controlled by state actors or partisan groups, posted repetitive messages, hashtags, and links to amplify candidates or discredit opponents. Analysis showed clusters of accounts with similar posting patterns, low follower counts, and coordinated timing around key events like debates. The activity aimed to influence public opinion and trending topics, with examples including promotion of conspiracy theories and attacks on election integrity.",
+        "process_and_outcome": "Twitter suspended over 300,000 accounts. Stanford Internet Observatory published reports identifying networks. U.S. government sanctions targeted linked foreign entities.",
+        "involved_parties": [
+            "Twitter (platform)",
+            "Spamfarm operators (perpetrators)",
+            "Stanford Internet Observatory (researchers)",
+            "CISA (U.S. cybersecurity agency)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Twitter Rules on platform manipulation and spam",
+            "Foreign interference laws",
+            "Election integrity policies"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "2020"
+    },
+    {
+        "example_name": "OpenAI Account Bans for Scam Promotion",
+        "example_background": "OpenAI suspended multiple ChatGPT accounts that users employed to generate scripts and content for cryptocurrency scams and phishing schemes. These accounts produced convincing email templates, social media posts, and chat responses promoting fake investment opportunities. One notable case involved a user directing the AI to create a detailed plan for a pig butchering scam, where victims were groomed over time with fabricated success stories. The generated materials were deployed on Telegram and Discord, leading to reported financial losses.",
+        "process_and_outcome": "OpenAI's safety team detected violations through monitoring and banned the accounts. Public statements from OpenAI highlighted proactive measures against misuse.",
+        "involved_parties": [
+            "OpenAI (platform)",
+            "Scam operators (users)",
+            "Cybersecurity researchers"
+        ],
+        "applicable_regulations_or_policies": [
+            "OpenAI Usage Policy on scams and fraud",
+            "Computer Fraud and Abuse Act"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Meta AI Moderation for Election Integrity",
+        "example_background": "Ahead of multiple global elections, Meta implemented enhanced AI-driven moderation systems on Facebook and Instagram to detect and limit political disinformation, spam, and coordinated inauthentic behavior. Tools identified fake accounts impersonating voters or officials, removed scam ads promising election-related favors, and demoted content interfering with civic processes. Training focused on nuanced detection of subtle manipulation tactics, with human reviewers verifying AI flags.",
+        "process_and_outcome": "Meta reported removing millions of violating items quarterly. Transparency reports detailed effectiveness, contributing to fewer disruptions in monitored elections.",
+        "involved_parties": [
+            "Meta Platforms (company)",
+            "Election integrity teams",
+            "Global regulators"
+        ],
+        "applicable_regulations_or_policies": [
+            "Meta Community Standards on spam and inauthentic behavior",
+            "EU Digital Services Act"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Google Ads Policy Enforcement Against Scam Networks",
+        "example_background": "Google suspended thousands of advertising accounts involved in tech support scams and impersonation schemes. Advertisers created fake pages mimicking companies like Microsoft or Apple, directing users to phone numbers where operators charged for unnecessary services. AI-generated landing pages evaded initial detection, but patterns in traffic and complaints triggered reviews.",
+        "process_and_outcome": "Google terminated accounts and blocked domains. FTC collaborated on takedowns, resulting in operator arrests in some cases.",
+        "involved_parties": [
+            "Google (platform)",
+            "Scam advertisers",
+            "FTC (regulator)"
+        ],
+        "applicable_regulations_or_policies": [
+            "Google Ads Policies on scams and impersonation",
+            "FTC Telemarketing Sales Rule"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Microsoft Copilot Safeguards Against Misuse",
+        "example_background": "Microsoft integrated strict guardrails into its Copilot AI to prevent generation of content supporting fraud, scams, or election misinformation. The system refused prompts for phishing emails, fake political endorsements, or deceptive campaign materials. Testing and red-teaming exercises ensured responses aligned with policies, with logging for ongoing monitoring.",
+        "process_and_outcome": "Microsoft published safety reports showing high block rates for prohibited queries. No major incidents of policy misuse reported post-launch.",
+        "involved_parties": [
+            "Microsoft (provider)",
+            "Internal safety teams"
+        ],
+        "applicable_regulations_or_policies": [
+            "Microsoft AI Principles",
+            "Responsible AI Standard"
+        ],
+        "relation_to_rule": "COMPLIES",
+        "dates": "None"
+    },
+    {
+        "example_name": "Iranian TikTok Influence Operation",
+        "example_background": "An Iranian network created fake U.S. personas on TikTok to influence opinions ahead of elections, posting videos impersonating conservative Americans criticizing political figures. Accounts used AI-edited images and scripted content to appear authentic, targeting young demographics with divisive topics.",
+        "process_and_outcome": "TikTok removed 10 accounts and related videos. Meta and Twitter also disrupted similar networks. U.S. State Department attributed to Iran.",
+        "involved_parties": [
+            "Iranian operatives",
+            "TikTok (platform)",
+            "U.S. State Department"
+        ],
+        "applicable_regulations_or_policies": [
+            "TikTok Community Guidelines on inauthentic behavior",
+            "FARA"
+        ],
+        "relation_to_rule": "VIOLATES",
+        "dates": "None"
+    }
+]
