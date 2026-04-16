@@ -3,920 +3,978 @@
         "example_name": "r/ChapoTrapHouse Subreddit Ban",
         "example_background": "r/ChapoTrapHouse operated as a discussion forum inspired by a podcast, attracting hundreds of thousands of members who shared political commentary, memes, and links. The space became known for intense exchanges targeting political opponents and public figures, with content often focusing on ideological differences. Moderators maintained a specific tone that encouraged group-based critiques. Following public scrutiny and internal reviews, Reddit highlighted patterns of content that did not align with community standards for civil interaction.",
         "process_and_outcome": "The subreddit was banned in June 2020 alongside others as part of Reddit's largest enforcement action, citing ongoing issues with policy adherence.",
+        "source_rule": "Rule 1 Remember the human. Reddit is a place for creating community and belonging, not for attacking marginalized or vulnerable groups of people. Everyone has a right to use Reddit free of harassment, bullying, and threats of violence. Communities and users that incite violence or that promote hate based on identity or vulnerability will be banned.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/ChapoTrapHouse moderators and users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy: Remember the Human",
             "Reddit Anti-Hate Speech Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "r/incels Subreddit Ban",
         "example_background": "r/incels served as a forum for individuals discussing personal experiences related to dating and social dynamics, growing to over 40,000 members. Posts often centered on frustrations with societal structures, physical appearances, and gender dynamics, leading to threads that generalized about groups based on perceived traits. Moderators attempted to steer discussions but faced challenges with recurring patterns. The community drew attention from researchers and media for its role in online discourse on vulnerability and identity.",
         "process_and_outcome": "Banned in November 2017 after multiple warnings, with Reddit stating it promoted content contrary to policies protecting users from targeted negativity.",
+        "source_rule": "Rule 1 Remember the human. Reddit is a place for creating community and belonging, not for attacking marginalized or vulnerable groups of people. Everyone has a right to use Reddit free of harassment, bullying, and threats of violence. Communities and users that incite violence or that promote hate based on identity or vulnerability will be banned.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/incels moderators and users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy: Remember the Human",
             "Reddit Harassment and Bullying Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "r/FatPeopleHate Subreddit Ban",
         "example_background": "r/FatPeopleHate was a subreddit dedicated to commentary on body size and lifestyle choices, with over 300,000 subscribers at its peak. Content included images, jokes, and discussions framing certain body types in group contexts, often linking to broader societal observations. It emerged from other fitness-related communities and gained traction through viral sharing. Moderators enforced rules specific to the theme but overlooked overlaps with site-wide expectations for respectful engagement.",
         "process_and_outcome": "Permanently banned in June 2015 during Reddit's 'AMA controversy' enforcement, removed along with several similar subreddits for policy infractions.",
+        "source_rule": "Rule 1 Remember the human. Reddit is a place for creating community and belonging, not for attacking marginalized or vulnerable groups of people. Everyone has a right to use Reddit free of harassment, bullying, and threats of violence. Communities and users that incite violence or that promote hate based on identity or vulnerability will be banned.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/FatPeopleHate moderators and users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy: Remember the Human",
             "Reddit Anti-Harassment Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "r/CoonTown Subreddit Ban",
         "example_background": "r/CoonTown functioned as a space for sharing content related to urban life, crime statistics, and cultural observations, amassing tens of thousands of members. Discussions frequently referenced racial demographics in data-driven posts and memes. It positioned itself as a counterpoint to other communities, leading to high visibility and conflicts with opposing groups. Moderators curated content to fit a narrative but encountered platform-level interventions.",
         "process_and_outcome": "Banned in June 2015 as part of a sweep targeting subreddits that contravened content guidelines on identity-based content.",
+        "source_rule": "Rule 1 Remember the human. Reddit is a place for creating community and belonging, not for attacking marginalized or vulnerable groups of people. Everyone has a right to use Reddit free of harassment, bullying, and threats of violence. Communities and users that incite violence or that promote hate based on identity or vulnerability will be banned.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/CoonTown moderators and users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy: Remember the Human",
             "Reddit Policy on Promoting Hate"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Facebook Groups Removal for Hate Speech",
         "example_background": "Facebook identified and acted on private and public groups where members shared content targeting ethnic, religious, and gender-based identities. These groups, some with millions of members, facilitated discussions that generalized vulnerabilities. The actions followed audits revealing gaps in proactive moderation, especially in non-English content.",
         "process_and_outcome": "In 2019, Facebook removed 265 groups and 77 pages with over 800,000 followers for violations. Ongoing quarterly reports detailed millions of pieces of content taken down.",
+        "source_rule": "Rule 1 Remember the human. Reddit is a place for creating community and belonging, not for attacking marginalized or vulnerable groups of people. Everyone has a right to use Reddit free of harassment, bullying, and threats of violence. Communities and users that incite violence or that promote hate based on identity or vulnerability will be banned.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Facebook (Meta)",
             "Group administrators and members"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Facebook Community Standards: Hate Speech",
             "Facebook Integrity Policies"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Reddit r/AgainstHateSubreddits Moderation Success",
         "example_background": "r/AgainstHateSubreddits emerged as a watchdog community reporting potential policy breaches across Reddit, focusing on spaces with patterns of identity-targeted content. Members documented examples, engaged with admins, and advocated for consistent enforcement. The subreddit grew to influence platform decisions through organized feedback.",
         "process_and_outcome": "Contributed to bans of multiple subreddits; remains active as a model for community-driven oversight without violating policies itself.",
+        "source_rule": "Rule 1 Remember the human. Reddit is a place for creating community and belonging, not for attacking marginalized or vulnerable groups of people. Everyone has a right to use Reddit free of harassment, bullying, and threats of violence. Communities and users that incite violence or that promote hate based on identity or vulnerability will be banned.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit Inc.",
             "r/AgainstHateSubreddits moderators and users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy: Remember the Human"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Twitter (X) Suspension of High-Profile Accounts",
         "example_background": "In late 2020, Twitter suspended accounts of public figures posting content that targeted groups based on political or ethnic identities, including replies and threads amplifying divisions. The decisions followed user reports and internal reviews amid election tensions.",
         "process_and_outcome": "Permanent suspensions issued, sparking debates on moderation; platform updated rules for transparency in 2021.",
+        "source_rule": "Rule 1 Remember the human. Reddit is a place for creating community and belonging, not for attacking marginalized or vulnerable groups of people. Everyone has a right to use Reddit free of harassment, bullying, and threats of violence. Communities and users that incite violence or that promote hate based on identity or vulnerability will be banned.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Twitter (X)",
             "Suspended account holders",
             "Reporting users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Twitter Rules: Abusive Behavior",
             "Civic Integrity Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2020"
     },
     {
         "example_name": "Reddit r/WallStreetBets GameStop Content Moderation Issues",
         "example_background": "In early 2021, the subreddit r/WallStreetBets experienced a massive influx of users discussing GameStop stock, leading to rapid price surges. Content within the community included memes, financial discussions, and promotional posts that were not clearly labeled for their speculative or high-risk nature. Some posts contained graphic imagery related to market volatility and offensive language targeting financial institutions. Reddit's moderation team faced challenges in applying consistent labeling for potentially misleading or inflammatory content, resulting in widespread media attention and regulatory scrutiny over whether the platform adequately warned users about the risks involved. The community grew from around 1.5 million to over 10 million subscribers in weeks, amplifying unmoderated discussions that influenced retail investor behavior.",
         "process_and_outcome": "Reddit administrators issued temporary restrictions on the subreddit, including private status and limits on new members. No formal fines were imposed on Reddit, but the incident prompted internal policy reviews and enhancements to content labeling tools. U.S. securities regulators monitored the situation without direct enforcement against Reddit.",
+        "source_rule": "Rule 6 Ensure people have predictable experiences on Reddit by properly labeling content and communities, particularly content that is graphic, sexually-explicit, or offensive.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/WallStreetBets moderators",
             "U.S. Securities and Exchange Commission (observer)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy on Labeling Graphic/Offensive Content",
             "SEC guidelines on market manipulation"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2021"
     },
     {
         "example_name": "r/Jailbait Subreddit Shutdown",
         "example_background": "Prior to 2012, r/Jailbait was a subreddit hosting images and discussions of underage girls in provocative poses, often skirting explicit nudity but containing sexually suggestive content without proper labeling or restrictions. The community had tens of thousands of subscribers and featured posts that blurred lines between legal imagery and child exploitation material. Moderators did not implement warning labels or age gates, allowing broad access to content that many users found disturbing. The subreddit's existence drew internal complaints and external media coverage, highlighting gaps in Reddit's early content categorization and community oversight mechanisms.",
         "process_and_outcome": "Reddit administrators banned the subreddit in September 2011 following public backlash. The action was part of a broader purge of problematic communities, leading to updated content policies emphasizing labeling for sensitive material.",
+        "source_rule": "Rule 6 Ensure people have predictable experiences on Reddit by properly labeling content and communities, particularly content that is graphic, sexually-explicit, or offensive.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/Jailbait moderators",
             "Media outlets (e.g., Gawker)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy Rule 6",
             "U.S. Child Protection Laws (18 U.S.C. \u00a7 2256)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2012"
     },
     {
         "example_name": "r/The_Donald Content Labeling Failures",
         "example_background": "r/The_Donald, a large political discussion community with over 700,000 subscribers by 2019, frequently featured offensive memes, graphic political imagery, and uncensored discussions without consistent NSFW or content warning labels. Posts often included violent rhetoric, conspiracy theories, and attacks on public figures presented in a humorous but unlabeled format. Moderators enforced a lax approach to Reddit's labeling requirements, prioritizing free speech over predictive user experience safeguards, which led to reports of harassment and doxxing incidents within the community.",
         "process_and_outcome": "Reddit quarantined the subreddit in 2019 and fully banned it in June 2020 for repeated violations of sitewide policies. The decision followed multiple warnings and was part of CEO Steve Huffman's push for stricter enforcement.",
+        "source_rule": "Rule 6 Ensure people have predictable experiences on Reddit by properly labeling content and communities, particularly content that is graphic, sexually-explicit, or offensive.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/The_Donald moderators",
             "Reddit Trust and Safety Team"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy Rule 6",
             "Reddit Anti-Harassment Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2019"
     },
     {
         "example_name": "r/DeepFakes Pornography Community Actions",
         "example_background": "In 2018, r/DeepFakes hosted AI-generated videos superimposing celebrities' faces onto pornographic content, much of which was graphic and sexually explicit without mandatory labeling or spoiler tags. The subreddit grew rapidly, attracting millions of views, but lacked clear warnings for users encountering non-consensual explicit material. Discussions included technical shares alongside unlabeled adult content, exposing younger or unsuspecting users to disturbing videos featuring real individuals.",
         "process_and_outcome": "Reddit banned r/DeepFakes and related subreddits in February 2018 after backlash from celebrities and advocacy groups. This led to policy clarifications requiring NSFW labels on all explicit content.",
+        "source_rule": "Rule 6 Ensure people have predictable experiences on Reddit by properly labeling content and communities, particularly content that is graphic, sexually-explicit, or offensive.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/DeepFakes moderators",
             "Digital Forensics Research Lab"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy Rule 6",
             "Reddit NSFW Labeling Requirements"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2018"
     },
     {
         "example_name": "Twitch Bikini Emotes Suspension",
         "example_background": "In 2022, Twitch streamer Atrioc faced backlash for viewing AI-generated deepfake pornography featuring female streamers, which was hosted on unlabeled platforms. Separately, Twitch banned numerous emotes depicting women in bikinis as part of a policy shift to reduce sexualized content on the homepage. These emotes lacked content warnings and appeared predictably to all users, including minors, contributing to complaints about platform predictability and safety.",
         "process_and_outcome": "Twitch issued a three-day ban to Atrioc and purged thousands of emotes. The platform updated guidelines mandating clearer labeling for suggestive content.",
+        "source_rule": "Rule 6 Ensure people have predictable experiences on Reddit by properly labeling content and communities, particularly content that is graphic, sexually-explicit, or offensive.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Twitch (Amazon)",
             "Streamer Atrioc",
             "Twitch Safety Team"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Twitch Community Guidelines on Sexual Content",
             "Analogous to Reddit Rule 6"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2022"
     },
     {
         "example_name": "Facebook Cambridge Analytica Content Oversight",
         "example_background": "During the 2016 U.S. election, Facebook pages spread misleading political ads and graphic videos without adequate labeling for misinformation or offensive content. The platform's algorithm promoted unlabeled divisive material to millions, including sexually suggestive or violent clips, without warnings that could have prepared users for the content. This contributed to widespread user exposure to unpredictable experiences amid data harvesting by Cambridge Analytica.",
         "process_and_outcome": "FTC fined Facebook $5 billion in 2019. The company overhauled labeling systems for ads and sensitive content, introducing warning screens.",
+        "source_rule": "Rule 6 Ensure people have predictable experiences on Reddit by properly labeling content and communities, particularly content that is graphic, sexually-explicit, or offensive.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Facebook (Meta)",
             "Cambridge Analytica",
             "U.S. Federal Trade Commission"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "FTC Consent Decree",
             "Analogous to Reddit Rule 6"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2016"
     },
     {
         "example_name": "Reddit NSFW Subreddit Labeling Improvements",
         "example_background": "Following multiple incidents, Reddit rolled out enhanced NSFW flagging and age-gating features in 2019-2020, requiring communities like r/gonewild and r/pornography to apply over-18 labels to all posts. This ensured users encountered warnings before accessing sexually explicit content, providing predictable experiences through blur previews and confirmation prompts. The changes were applied sitewide to graphic violence subs as well.",
         "process_and_outcome": "Implementation reduced user complaints by 40% per internal reports, with ongoing monitoring by Trust and Safety.",
+        "source_rule": "Rule 6 Ensure people have predictable experiences on Reddit by properly labeling content and communities, particularly content that is graphic, sexually-explicit, or offensive.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit Inc.",
             "NSFW Community Moderators",
             "Reddit Product Team"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy Rule 6"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2019"
     },
     {
         "example_name": "YouTube Restricted Mode and Age-Gating",
         "example_background": "YouTube introduced Restricted Mode in 2010 and refined it over years to automatically blur or hide sexually explicit, graphic violence, or offensive videos unless users opt out. Content creators must label videos appropriately, and machine learning flags unlabeled material, ensuring users have control over predictable experiences across billions of daily views.",
         "process_and_outcome": "Feature adoption exceeded 80% in family accounts, avoiding major regulatory fines and earning praise from child safety advocates.",
+        "source_rule": "Rule 6 Ensure people have predictable experiences on Reddit by properly labeling content and communities, particularly content that is graphic, sexually-explicit, or offensive.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "YouTube (Google)",
             "Content Creators",
             "Family Safety Groups"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "COPPA (Children's Online Privacy Protection Act)",
             "Analogous to Reddit Rule 6"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2010"
     },
     {
         "example_name": "TikTok Content Warning Labels Enforcement",
         "example_background": "TikTok implemented mandatory warning labels for videos containing graphic violence, sexual content, or offensive language starting in 2020. Users see screens prompting 'Are you sure?' before playback, applied to billions of videos. Moderation teams and AI scan for unlabeled content, maintaining user predictability especially for younger demographics.",
         "process_and_outcome": "Led to 90% compliance rate among creators, with reduced reports to authorities and positive FTC reviews.",
+        "source_rule": "Rule 6 Ensure people have predictable experiences on Reddit by properly labeling content and communities, particularly content that is graphic, sexually-explicit, or offensive.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "TikTok (ByteDance)",
             "Content Creators",
             "U.S. FTC"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "TikTok Community Guidelines",
             "Analogous to Reddit Rule 6"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2020"
     },
     {
         "example_name": "Reddit r/jailbreak Subreddit Shutdown",
         "example_background": "In 2023, Reddit administrators took action against the r/jailbreak community, which had grown to over 100,000 members sharing methods to bypass content filters on AI models like ChatGPT. Discussions included prompts designed to generate content depicting sexual scenarios with minors, alongside other restricted materials. Moderators had attempted to enforce rules, but the volume of posts overwhelmed efforts, prompting Reddit's Trust and Safety team to permanently ban the subreddit. This occurred amid broader scrutiny of AI safety on platforms, with users posting explicit examples of generated images and text involving underage characters.",
         "process_and_outcome": "Reddit Trust and Safety team reviewed reports and subreddit activity, leading to the subreddit's removal on September 5, 2023. No external regulatory involvement was reported, but the action aligned with platform-wide content moderation escalations.",
+        "source_rule": "Rule 4 Do not share or encourage the sharing of sexual, abusive, or suggestive content involving minors. Any predatory or inappropriate behavior involving a minor is also strictly prohibited.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/jailbreak moderators",
             "Reddit Trust and Safety team"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy (Prohibited Content involving minors)",
             "Reddit Moderator Code of Conduct"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2023"
     },
     {
         "example_name": "Substack Child Sexual Abuse Material Newsletter Removals",
         "example_background": "In April 2023, Substack faced public criticism after hosting newsletters that openly published fictional stories and essays depicting sexual interactions between adults and minors. One prominent newsletter by author Zvi Mowshowitz highlighted at least five such publications, including titles like 'Living The Dream,' which contained detailed narratives of underage involvement in sexual activities. The platform's hands-off approach to moderation allowed these to remain accessible to subscribers until external pressure mounted from journalists and activists.",
         "process_and_outcome": "Substack co-founder Hamish McKenzie issued a statement defending minimal moderation but removed several offending newsletters following media reports in The Atlantic. The company clarified it would act on illegal content but drew lines at fictional material, leading to ongoing debates.",
+        "source_rule": "Rule 4 Do not share or encourage the sharing of sexual, abusive, or suggestive content involving minors. Any predatory or inappropriate behavior involving a minor is also strictly prohibited.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Substack Inc.",
             "Various newsletter authors",
             "The Atlantic (media outlet)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "U.S. Federal child protection laws (18 U.S.C. \u00a7 2256)",
             "Substack Terms of Service"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "April 2023"
     },
     {
         "example_name": "r/nosleep Child Predator Story Removals",
         "example_background": "Reddit's r/nosleep subreddit, a popular forum for horror fiction with millions of subscribers, has repeatedly dealt with user-submitted stories containing graphic depictions of sexual abuse involving minors. Moderators enforce a strict no-child sexual abuse material policy, removing posts that include such elements even in fictional contexts. Notable incidents include multiple high-upvote stories in 2022-2023 that were deleted after reports, such as narratives involving child characters in abusive scenarios disguised as supernatural tales.",
         "process_and_outcome": "Subreddit moderators conducted reviews based on user reports and policy guidelines, resulting in post removals and user bans. The community guidelines were updated to explicitly prohibit any content sexualizing minors, maintaining the subreddit's status as a moderated space.",
+        "source_rule": "Rule 4 Do not share or encourage the sharing of sexual, abusive, or suggestive content involving minors. Any predatory or inappropriate behavior involving a minor is also strictly prohibited.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "r/nosleep moderators",
             "Reddit Inc.",
             "Community users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy",
             "r/nosleep Community Guidelines (No CSAM)"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2022"
     },
     {
         "example_name": "Backpage.com Shutdown for Child Sex Trafficking",
         "example_background": "Backpage.com, a classifieds website, facilitated a significant portion of U.S. online sex trafficking ads, many of which involved minors. From 2010 to 2018, the site hosted thousands of ads with code words and images indicating underage girls, generating over $500 million in revenue. Prosecutors documented cases where pimps used the platform to advertise children as young as 13, with internal emails showing awareness of the issue but prioritization of profits.",
         "process_and_outcome": "U.S. Department of Justice investigated, leading to the 2018 seizure of the site and criminal charges against CEO Carl Ferrer, who pleaded guilty to money laundering and conspiracy. Ferrer received probation and forfeiture of $10 million; the case set precedents for platform liability.",
+        "source_rule": "Rule 4 Do not share or encourage the sharing of sexual, abusive, or suggestive content involving minors. Any predatory or inappropriate behavior involving a minor is also strictly prohibited.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Backpage.com",
             "U.S. Department of Justice",
             "Carl Ferrer (CEO)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "18 U.S.C. \u00a7 1591 (Sex Trafficking)",
             "FOSTA-SESTA (Allow States and Victims to Fight Online Sex Trafficking Act)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2010"
     },
     {
         "example_name": "Discord Server Raids for CSAM Sharing",
         "example_background": "In 2022, the FBI conducted 'Operation Dark HunTOR,' targeting Discord servers used to share child sexual abuse material. Multiple servers with thousands of members distributed images and videos of minors, often under gaming or anime communities. One server, 'Pedo Empire,' had over 200 TB of content involving prepubescent children, with users role-playing abusive scenarios.",
         "process_and_outcome": "FBI and international partners arrested over 150 individuals, seized servers, and shut down the networks. Discord cooperated by providing user data, leading to convictions with sentences up to 30 years.",
+        "source_rule": "Rule 4 Do not share or encourage the sharing of sexual, abusive, or suggestive content involving minors. Any predatory or inappropriate behavior involving a minor is also strictly prohibited.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Discord Inc.",
             "FBI",
             "International law enforcement"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "18 U.S.C. \u00a7 2252 (Child Pornography)",
             "Discord Community Guidelines"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2022"
     },
     {
         "example_name": "Twitter CSAM Policy Enforcement Post-Musk",
         "example_background": "Following Elon Musk's 2022 acquisition, Twitter (now X) updated its policies to prohibit any content depicting sexual abuse of minors, including AI-generated or fictional depictions. In 2023, the platform removed millions of impressions of such material and suspended accounts sharing suggestive anime art or stories involving underage characters, amid reports of increased predatory behavior.",
         "process_and_outcome": "X's safety team reported banning 6.8 million accounts and removing 13.7 million posts for child safety violations in the first half of 2024. Partnerships with NCMEC enhanced automated detection.",
+        "source_rule": "Rule 4 Do not share or encourage the sharing of sexual, abusive, or suggestive content involving minors. Any predatory or inappropriate behavior involving a minor is also strictly prohibited.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "X Corp (formerly Twitter)",
             "National Center for Missing & Exploited Children (NCMEC)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "X Child Sexual Exploitation Policy",
             "18 U.S.C. \u00a7 2256"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2022"
     },
     {
         "example_name": "4chan /b/ Board CSAM Scandals",
         "example_background": "4chan's /b/ (random) board has long been a hub for anonymous posting of illegal content, including numerous threads dedicated to sharing images and discussions of sexual abuse involving minors since the site's inception in 2003. Incidents peaked in the 2010s with 'loli' threads featuring underage anime-style depictions transitioning to real images, drawing repeated law enforcement attention.",
         "process_and_outcome": "Multiple FBI operations traced users via IP addresses, leading to arrests (e.g., 2019 raid on a prolific poster). 4chan implemented intermittent moderation but faced criticism for lax enforcement.",
+        "source_rule": "Rule 4 Do not share or encourage the sharing of sexual, abusive, or suggestive content involving minors. Any predatory or inappropriate behavior involving a minor is also strictly prohibited.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "4chan (website)",
             "FBI"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "18 U.S.C. \u00a7 2252",
             "4chan Rules (no illegal content)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2003"
     },
     {
         "example_name": "NCMEC CyberTipline Reports to Platforms",
         "example_background": "The National Center for Missing & Exploited Children (NCMEC) operates the CyberTipline, receiving millions of reports annually from platforms like Reddit and Discord about content involving child sexual abuse. In 2023, Reddit submitted over 1.2 million reports, primarily from subreddits attempting to share suggestive images or stories under innocuous titles.",
         "process_and_outcome": "Platforms actioned reports by removing content and suspending accounts, with NCMEC forwarding tips to law enforcement, resulting in thousands of investigations. Reddit's proactive reporting increased 300% year-over-year.",
+        "source_rule": "Rule 4 Do not share or encourage the sharing of sexual, abusive, or suggestive content involving minors. Any predatory or inappropriate behavior involving a minor is also strictly prohibited.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "NCMEC",
             "Reddit Inc.",
             "Discord Inc."
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "23 U.S.C. \u00a7 3104 (CyberTipline Mandate)",
             "Platform reporting requirements under 18 U.S.C. \u00a7 2258A"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2023"
     },
     {
         "example_name": "Omegle Shutdown for Predatory Chats",
         "example_background": "Omegle, a random video chat platform launched in 2009, was rife with users engaging minors in sexual conversations and sharing abusive content. A 2023 lawsuit revealed over 50 incidents where children as young as 11 were exposed to nudity and grooming, with the site's unmoderated 'unmonitored' section facilitating such interactions for over a decade.",
         "process_and_outcome": "Following a $500,000 settlement in a lawsuit by a victim abused at age 11, founder Leif K-Brooks announced Omegle's permanent closure in November 2023, citing unsustainable child safety burdens.",
+        "source_rule": "Rule 4 Do not share or encourage the sharing of sexual, abusive, or suggestive content involving minors. Any predatory or inappropriate behavior involving a minor is also strictly prohibited.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Omegle",
             "U.S. District Court (Vermont)",
             "Victim plaintiffs"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Section 230 limitations via FOSTA-SESTA",
             "COPPA (Children's Online Privacy Protection Act)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2009"
     },
     {
         "example_name": "Reddit r/WallStreetBets GameStop Stock Discussion",
         "example_background": "In early 2021, the subreddit r/WallStreetBets saw extensive discussions among users about purchasing shares and call options in GameStop Corporation (GME). Participants shared strategies, memes, and market analysis, which contributed to a rapid increase in the stock price from under $20 to over $483 per share in January. This activity drew attention from financial regulators and media due to the scale of coordinated buying and potential influence on market dynamics. The platform hosted thousands of posts and comments encouraging collective investment actions during this period.",
         "process_and_outcome": "The U.S. Securities and Exchange Commission conducted a review of social media's role in the market events. No enforcement actions were taken against Reddit or the subreddit moderators. GameStop's stock volatility stabilized after the peak, and the incident prompted discussions on retail investor protections.",
+        "source_rule": "Rule 7 Keep it legal. Don't post illegal content, and don't solicit or facilitate illegal or prohibited transactions.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit Inc.",
             "r/WallStreetBets community",
             "U.S. Securities and Exchange Commission (SEC)",
             "GameStop Corporation"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "SEC Regulation Fair Disclosure",
             "Reddit Content Policy on Financial Advice",
             "Rule 7: Keep it legal"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2021"
     },
     {
         "example_name": "Backpage.com Facilitation of Trafficking",
         "example_background": "Backpage.com, a classifieds website, hosted advertisements for escort services and adult services that were frequently used to promote prostitution and human trafficking activities. From 2004 to 2018, the platform processed millions of such listings, generating substantial revenue from these sections. Investigations revealed that despite user reports and law enforcement notifications, the site continued to allow content that connected buyers and sellers of illegal sexual services across the United States.",
         "process_and_outcome": "The U.S. Department of Justice seized the domain in 2018. The founders were charged with money laundering and facilitating prostitution; CEO Carl Ferrer pleaded guilty in 2018 to money laundering and conspiracy, agreeing to forfeit assets. The case resulted in the shutdown of the site.",
+        "source_rule": "Rule 7 Keep it legal. Don't post illegal content, and don't solicit or facilitate illegal or prohibited transactions.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Backpage.com LLC",
             "U.S. Department of Justice",
             "FBI"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "18 U.S.C. \u00a7 1956 (Money Laundering)",
             "Communications Decency Act Section 230 (limited immunity)",
             "Reddit Rule 7 equivalent platform policies"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2004"
     },
     {
         "example_name": "Reddit r/jailbreakchat Moderation Action",
         "example_background": "The subreddit r/jailbreakchat, dedicated to discussions on iPhone jailbreaking, operated for several years allowing users to share tools, tutorials, and links to software for bypassing Apple device restrictions. While jailbreaking itself is not illegal in the U.S. under DMCA exemptions, threads occasionally veered into sharing cracked apps or piracy methods. Reddit administrators monitored and enforced site-wide policies to prevent content promoting unauthorized distribution.",
         "process_and_outcome": "The subreddit was banned in 2019 for repeated violations of Reddit's content policy on illegal activities. Moderators had quarantined it previously, but it was ultimately removed to align with platform standards.",
+        "source_rule": "Rule 7 Keep it legal. Don't post illegal content, and don't solicit or facilitate illegal or prohibited transactions.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/jailbreakchat moderators",
             "Apple Inc. (indirect)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "DMCA Anti-Circumvention Exemptions",
             "Reddit Rule 7: Keep it legal",
             "Content Policy on Illegal Content"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Craigslist Prostitution Listings Removal",
         "example_background": "Craigslist, a popular classifieds site, included an adult services section from 2004 to 2010 where users posted advertisements for sexual services, some of which involved minors or coerced individuals. The section generated fees per post and was used nationwide, leading to numerous law enforcement stings and investigations into trafficked persons advertised there.",
         "process_and_outcome": "In 2010, under pressure from U.S. Congress and state attorneys general, Craigslist shut down the adult services category worldwide. No direct fines were imposed on Craigslist due to Section 230 protections, but the action was taken to mitigate legal risks.",
+        "source_rule": "Rule 7 Keep it legal. Don't post illegal content, and don't solicit or facilitate illegal or prohibited transactions.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Craigslist Inc.",
             "U.S. Congress",
             "State Attorneys General"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Communications Decency Act Section 230",
             "FOSTA-SESTA (2018, retrospective)",
             "Reddit Rule 7 analogous policies"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2004"
     },
     {
         "example_name": "Reddit Doxxing Incident in r/KotakuInAction",
         "example_background": "During 2014-2015 GamerGate discussions on subreddit r/KotakuInAction, users shared personal information, addresses, and photos of individuals involved in gaming journalism ethics debates. This led to harassment campaigns and real-world threats against targets, with posts explicitly calling out private details obtained from public and private sources.",
         "process_and_outcome": "Reddit administrators quarantined and later banned r/KotakuInAction in 2020 for repeated violations including doxxing and harassment. Multiple users faced suspensions, and the incident contributed to Reddit's strengthened anti-harassment policies.",
+        "source_rule": "Rule 7 Keep it legal. Don't post illegal content, and don't solicit or facilitate illegal or prohibited transactions.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/KotakuInAction moderators",
             "Targeted individuals"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy on Harassment",
             "Rule 7: Keep it legal (doxxing prohibitions)",
             "State privacy laws"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2014"
     },
     {
         "example_name": "Twitter (X) Child Sexual Exploitation Content Crackdown",
         "example_background": "In 2023, following changes in platform leadership, Twitter (now X) identified and removed millions of posts containing child sexual abuse material (CSAM). The platform had previously faced criticism for insufficient moderation, with automated systems and user reports handling detection amid high volumes of user-generated content.",
         "process_and_outcome": "X reported removing 11 million CSAM posts and accounts in the first half of 2023, cooperating with the National Center for Missing & Exploited Children (NCMEC). This exceeded prior benchmarks and aligned with transparency reporting requirements.",
+        "source_rule": "Rule 7 Keep it legal. Don't post illegal content, and don't solicit or facilitate illegal or prohibited transactions.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "X Corp (formerly Twitter)",
             "National Center for Missing & Exploited Children (NCMEC)",
             "Internet Watch Foundation"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "18 U.S.C. \u00a7 2251 (Sexual Exploitation)",
             "NCMEC CyberTipline requirements",
             "Reddit Rule 7 equivalent"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2023"
     },
     {
         "example_name": "Facebook Marketplace Illegal Goods Sales",
         "example_background": "Facebook Marketplace, launched in 2016, facilitated peer-to-peer sales including prohibited items like firearms, drugs, and endangered animal products. Listings for AR-15 rifles, prescription pills, and ivory goods appeared in various cities, with users negotiating transactions directly via Messenger.",
         "process_and_outcome": "Facebook banned sales of firearms and accessories in 2016 and expanded prohibitions. Ongoing moderation uses AI and reports; a 2021 investigation found persistent issues, leading to policy updates and increased enforcement staff.",
+        "source_rule": "Rule 7 Keep it legal. Don't post illegal content, and don't solicit or facilitate illegal or prohibited transactions.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Facebook (Meta)",
             "Users/sellers",
             "Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Gun Control Act of 1968",
             "Facebook Commerce Policies",
             "Reddit Rule 7 analogous"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2016"
     },
     {
         "example_name": "Reddit Sock Puppet Scandal",
         "example_background": "In 2011, employees at Reddit created multiple fake accounts known as sock puppets to upvote content, participate in discussions, and promote specific posts on the platform. This activity occurred during a period when Reddit was expanding its user base and moderating content. The accounts were used to simulate genuine user engagement, influencing the visibility of certain threads and comments. Discovery happened when a moderator noticed unusual patterns in upvotes from newly created accounts with similar posting behaviors. Reddit's founder Alexis Ohanian addressed the issue publicly, noting that approximately a dozen such accounts existed. The incident highlighted early challenges in platform moderation as Reddit transitioned from a small community to a larger site. It involved staff members acting without clear authorization to boost perceived popularity.",
         "process_and_outcome": "Reddit terminated the involved employees, removed the fake accounts, and Ohanian issued a blog post apologizing to users. No formal regulatory action was taken, but the company implemented stricter internal guidelines on account usage. The event led to improved transparency in moderation practices.",
+        "source_rule": "Rule 5 Be authentic. You don't have to use your real name, but do not intentionally mislead others or impersonate an individual or entity in a deceptive manner.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "Alexis Ohanian (co-founder)",
             "Reddit moderators"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy on authenticity and sockpuppeting",
             "Reddit Transparency Guidelines"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2011"
     },
     {
         "example_name": "Twitter Bots and Elon Musk Lawsuit",
         "example_background": "In 2022, Elon Musk backed out of a $44 billion acquisition deal for Twitter, citing concerns over spam and fake accounts comprising less than 5% of users as per Twitter's SEC filings. Twitter sued Musk to enforce the merger. During discovery, Musk's team subpoenaed app developers and researchers, alleging Twitter overstated user authenticity. Internal Twitter data later showed sophisticated bot operations, including state-sponsored networks mimicking real users to influence discourse. The impersonation involved accounts posting as journalists, activists, and officials to spread narratives.",
         "process_and_outcome": "The Delaware court ruled in Twitter's favor in October 2022, forcing Musk to complete the purchase for $44 billion. Post-acquisition, Twitter (rebranded X) conducted bot purges and introduced verification changes to enhance authenticity.",
+        "source_rule": "Rule 5 Be authentic. You don't have to use your real name, but do not intentionally mislead others or impersonate an individual or entity in a deceptive manner.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Twitter (X Corp)",
             "Elon Musk",
             "Delaware Chancery Court"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Twitter Platform Manipulation Policy",
             "SEC disclosure requirements"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2022"
     },
     {
         "example_name": "FTC Case Against LendingClub Fake Reviews",
         "example_background": "LendingClub, a peer-to-peer lending platform, from 2014 to 2016 engaged third-party publishers to post fake positive reviews on sites like Google, Trustpilot, and Yelp. These reviews were written by affiliates posing as genuine customers, exaggerating satisfaction with loan services to attract borrowers. Over 1,000 such reviews were posted, misleading consumers about the company's reputation. The FTC investigation revealed affiliate agreements incentivized fabricated testimonials without disclosure.",
         "process_and_outcome": "In 2019, LendingClub settled with the FTC for $4 million in refunds and penalties, plus requirements for truthful reviews. The company updated its affiliate programs to prohibit undisclosed endorsements.",
+        "source_rule": "Rule 5 Be authentic. You don't have to use your real name, but do not intentionally mislead others or impersonate an individual or entity in a deceptive manner.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "LendingClub Corporation",
             "FTC"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "FTC Endorsement Guides",
             "Lanham Act (false advertising)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2014"
     },
     {
         "example_name": "Reddit User Verification Success",
         "example_background": "Reddit introduced special badges and verified flairs for public figures and organizations starting in 2016, allowing users to confirm identities through email or documentation. This system enables entities like NASA, celebrities, and companies to participate authentically without deceptive impersonation. For instance, official subreddits use verified badges to distinguish from fan-run communities. The process requires submission of proof, reducing confusion in discussions.",
         "process_and_outcome": "The verification program has been expanded, with thousands of accounts verified, improving trust in AMAs and official communications. No major incidents of verified account misuse reported.",
+        "source_rule": "Rule 5 Be authentic. You don't have to use your real name, but do not intentionally mislead others or impersonate an individual or entity in a deceptive manner.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit Inc.",
             "Verified users (e.g., NASA, Barack Obama)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Verified Accounts Policy",
             "Reddit Content Policy on authenticity"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2016"
     },
     {
         "example_name": "FTC Action Against Fake News Sites",
         "example_background": "In 2019, the FTC targeted sites like NutraClick and others impersonating legitimate news outlets to promote scam diet products. Operators created websites mimicking CNN and ABC News, publishing articles with fake endorsements from anchors. These sites drove traffic to deceptive sales pages, collecting millions from consumers. The impersonation used similar logos, layouts, and names to deceive readers into believing the content was from trusted sources.",
         "process_and_outcome": "FTC obtained settlements totaling over $10 million, asset freezes, and bans on fake endorsements. Defendants ceased operations.",
+        "source_rule": "Rule 5 Be authentic. You don't have to use your real name, but do not intentionally mislead others or impersonate an individual or entity in a deceptive manner.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "NutraClick operators",
             "FTC"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "FTC Act Section 5",
             "Guides Concerning the Use of Endorsements"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2019"
     },
     {
         "example_name": "Twitter Blue Verified Impersonations",
         "example_background": "After Twitter launched Twitter Blue in November 2022, users paying $8/month received blue checkmarks previously reserved for verified notables. Immediately, accounts impersonated Eli Lilly, Nintendo, and politicians like Ron DeSantis, posting misleading content such as 'insulin is free' or fake game delays. This caused market confusion and eroded trust, as the legacy verification was removed without clear distinctions.",
         "process_and_outcome": "Twitter suspended offending accounts, added parody labels, and refined verification rules. Elon Musk acknowledged the rollout issues publicly.",
+        "source_rule": "Rule 5 Be authentic. You don't have to use your real name, but do not intentionally mislead others or impersonate an individual or entity in a deceptive manner.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Twitter (X Corp)",
             "Elon Musk",
             "Impersonating users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Twitter Impersonation Policy",
             "Twitter Blue Subscription Terms"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "November 2022"
     },
     {
         "example_name": "Nextdoor Verified Neighbors Program",
         "example_background": "Nextdoor, a neighborhood social network, implemented a multi-step verification process requiring phone number, address confirmation via mailed codes, and cross-checks with public records. This ensures users represent real residents, preventing anonymous or fake profiles from posting local recommendations or alerts. Launched in 2011 and refined over years, it supports authentic community interactions.",
         "process_and_outcome": "The program has sustained high user trust, with over 70% verification rates in communities, leading to partnerships with law enforcement for verified crime reports.",
+        "source_rule": "Rule 5 Be authentic. You don't have to use your real name, but do not intentionally mislead others or impersonate an individual or entity in a deceptive manner.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Nextdoor Inc.",
             "Local residents"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Nextdoor Verification Policy",
             "COPPA compliance for authenticity"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2011"
     },
     {
         "example_name": "FTC Case Against Fake Veterans Charity",
         "example_background": "Cancer Fund of America and related entities from 2008-2012 raised $187 million by impersonating legitimate veterans and cancer charities. Telemarketers used scripts posing as representatives of patriotic organizations, directing funds to for-profit managers rather than beneficiaries. The operation featured misleading websites and calls mimicking real nonprofits.",
         "process_and_outcome": "In 2015, FTC secured largest charity fraud settlement, banning leaders and requiring asset liquidation for $55 million in relief.",
+        "source_rule": "Rule 5 Be authentic. You don't have to use your real name, but do not intentionally mislead others or impersonate an individual or entity in a deceptive manner.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Cancer Fund of America",
             "FTC",
             "All fifty state attorneys general"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "FTC Telemarketing Sales Rule",
             "Charity solicitation laws"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2008"
     },
     {
         "example_name": "Hunter Biden Laptop Photos Leak on Reddit",
         "example_background": "In October 2020, during the US presidential election period, images purportedly from Hunter Biden's laptop, including personal photographs showing intimate activities, were posted on subreddits such as r/politics and others. The content was shared by users claiming it originated from a laptop left at a Delaware repair shop, containing emails, documents, and media files. The posts gained significant traction, with thousands of upvotes and comments discussing the material. Reddit administrators removed the posts after reports of policy violations, citing the platform's rules against non-consensual intimate media. The incident drew attention from media outlets and political commentators, highlighting debates over privacy, consent, and content moderation during high-profile events.",
         "process_and_outcome": "Posts were deleted by Reddit moderators and administrators. Accounts involved faced suspensions. No formal legal action against posters, but the event prompted Reddit to reinforce its content policies and review processes for election-related content.",
+        "source_rule": "Rule 3 Respect the privacy of others. Instigating harassment, for example by revealing someone\u2019s personal or confidential information, is not allowed. Never post or threaten to post intimate or sexually-explicit media of someone without their consent.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "Users posting content",
             "Hunter Biden (subject)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy - Respect for Privacy and Non-Consensual Intimate Media"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "October 2020"
     },
     {
         "example_name": "Celebrity Nude Photo Hack Distribution (The Fappening)",
         "example_background": "In September 2014, hackers accessed iCloud accounts of numerous celebrities including Jennifer Lawrence, Kate Upton, and others, stealing private nude and sexually explicit photos. The images were uploaded to websites like 4chan and then shared across platforms including Reddit subreddits such as r/TheFappening and r/CelebGate. Reddit saw massive traffic to these threads, with users downloading, reposting, and commenting on the content. The platform initially allowed some subreddits to remain active before broader takedowns. The breach affected over 100 individuals, exposing personal devices' vulnerabilities and sparking discussions on digital privacy and platform responsibilities.",
         "process_and_outcome": "Reddit banned dedicated subreddits and removed thousands of images. FBI investigated the hack. Celebrities pursued lawsuits against hackers and sites like Google for aiding distribution. Reddit updated policies to prohibit such content proactively.",
+        "source_rule": "Rule 3 Respect the privacy of others. Instigating harassment, for example by revealing someone\u2019s personal or confidential information, is not allowed. Never post or threaten to post intimate or sexually-explicit media of someone without their consent.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "4chan users",
             "iCloud hackers",
             "Celebrities (e.g., Jennifer Lawrence)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy - Privacy and Doxxing",
             "US Computer Fraud and Abuse Act"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "September 2014"
     },
     {
         "example_name": "Revenge Porn Case: Reddit User Banned for Ex-Partner Photos",
         "example_background": "In 2018, a Reddit user posted intimate photos and videos of his former partner on a subreddit without her consent, including identifying details like her name and workplace. The content remained visible for several hours, receiving comments and upvotes before being reported. The post was part of a pattern where the user sought to embarrass the individual following a breakup. Moderators removed it after multiple flags, and the account was permanently banned. This incident exemplified individual actions on the platform that led to emotional distress for the victim, who later sought legal recourse.",
         "process_and_outcome": "Immediate content removal and account suspension by Reddit. The victim filed a police report, leading to a restraining order against the poster. No criminal charges due to jurisdictional issues, but it contributed to Reddit's improved reporting tools.",
+        "source_rule": "Rule 3 Respect the privacy of others. Instigating harassment, for example by revealing someone\u2019s personal or confidential information, is not allowed. Never post or threaten to post intimate or sexually-explicit media of someone without their consent.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "Posting user",
             "Victim (ex-partner)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy Rule 3 - Privacy",
             "Various state revenge porn laws"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2018"
     },
     {
         "example_name": "Reddit Doxxing Incident Involving Private Information Leak",
         "example_background": "In 2021, users on r/WallStreetBets and related forums shared personal details of short-seller firms' employees, including home addresses, phone numbers, and family member information, amid the GameStop stock surge. This was intended to pressure individuals perceived as opponents. The posts included screenshots from public records but compiled them in ways that encouraged visits or calls. Reddit administration intervened after reports from affected parties and media coverage, removing threads and suspending participants.",
         "process_and_outcome": "Content deleted across multiple subreddits. Accounts banned. GameStop saga continued, but doxxing elements led to policy clarifications. SEC monitored market impacts separately.",
+        "source_rule": "Rule 3 Respect the privacy of others. Instigating harassment, for example by revealing someone\u2019s personal or confidential information, is not allowed. Never post or threaten to post intimate or sexually-explicit media of someone without their consent.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/WallStreetBets moderators/users",
             "Citadel Securities employees (targets)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy - Doxxing and Privacy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2021"
     },
     {
         "example_name": "Twitter (X) Taylor Swift Deepfake Porn Removal",
         "example_background": "In January 2024, AI-generated explicit images of Taylor Swift proliferated on X (formerly Twitter), viewed over 47 million times before removal. The images depicted the singer in sexually explicit scenarios without consent, created using generative AI tools. Users shared and amplified the content rapidly. While not Reddit, it parallels platform handling of non-consensual intimate media, with X suspending accounts and restricting searches. Swift's team considered legal action, highlighting emerging risks from AI in privacy violations.",
         "process_and_outcome": "X removed images and banned accounts. White House criticized platforms for slow response. Led to calls for federal legislation on deepfakes.",
+        "source_rule": "Rule 3 Respect the privacy of others. Instigating harassment, for example by revealing someone\u2019s personal or confidential information, is not allowed. Never post or threaten to post intimate or sexually-explicit media of someone without their consent.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "X (Twitter)",
             "AI image generators",
             "Taylor Swift"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Platform terms on non-consensual nudity",
             "Proposed DEFIANCE Act"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "January 2024"
     },
     {
         "example_name": "Facebook Cambridge Analytica Privacy Breach",
         "example_background": "In 2018, it was revealed that Cambridge Analytica harvested personal data from 87 million Facebook users via a quiz app without explicit consent. Data included profiles, likes, and inferred traits, used for political targeting in elections. Facebook allowed the app despite policies, failing to enforce data protection. The scandal involved sharing identifiable information for non-transparent purposes, affecting users' privacy on a massive scale.",
         "process_and_outcome": "FTC fined Facebook $5 billion. UK ICO imposed \u00a3500,000 fine. CEO testified before Congress. Facebook enhanced privacy controls and audits.",
+        "source_rule": "Rule 3 Respect the privacy of others. Instigating harassment, for example by revealing someone\u2019s personal or confidential information, is not allowed. Never post or threaten to post intimate or sexually-explicit media of someone without their consent.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Facebook (Meta)",
             "Cambridge Analytica",
             "FTC",
             "ICO (UK)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "GDPR",
             "FTC Act Section 5"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2018"
     },
     {
         "example_name": "Reddit's Proactive Policy Enforcement on Harassment Subreddits",
         "example_background": "In 2020, Reddit conducted a site-wide review and banned over 2,000 subreddits dedicated to harassment, including those sharing personal information or non-consensual media of individuals. This included communities focused on specific persons or groups, where users posted doxxing material, revenge content, and explicit images. The action followed internal audits and user reports, aiming to align the platform with updated content policies emphasizing privacy.",
         "process_and_outcome": "Mass subreddit quarantines and bans. Transparency reports published. User migration to alternatives noted, but overall reduction in violations reported.",
+        "source_rule": "Rule 3 Respect the privacy of others. Instigating harassment, for example by revealing someone\u2019s personal or confidential information, is not allowed. Never post or threaten to post intimate or sexually-explicit media of someone without their consent.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit Inc.",
             "Subreddit moderators",
             "Affected users/communities"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy Rules 1-3 (Violence, Privacy, Harassment)"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2020"
     },
     {
         "example_name": "TikTok Non-Consensual Intimate Video Removals",
         "example_background": "TikTok reported removing over 100 million videos in 2023 for violations including non-consensual intimate content and privacy infringements. The platform uses AI and human moderators to detect uploads of revenge porn, deepfakes, and doxxing. This demonstrates ongoing efforts to scan and act on content breaching user privacy, with quarterly transparency reports detailing actions.",
         "process_and_outcome": "91% proactive removals via AI. Account bans and appeals process. Compliance with global regulations led to fewer violations over time.",
+        "source_rule": "Rule 3 Respect the privacy of others. Instigating harassment, for example by revealing someone\u2019s personal or confidential information, is not allowed. Never post or threaten to post intimate or sexually-explicit media of someone without their consent.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "TikTok (ByteDance)",
             "Content moderators",
             "Users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "TikTok Community Guidelines - Privacy",
             "DSA (EU Digital Services Act)"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2023"
     },
     {
         "example_name": "Snapchat My Eyes Only Privacy Feature Implementation",
         "example_background": "Snapchat introduced 'My Eyes Only' in 2016, allowing users to store photos and videos encrypted with a passcode, inaccessible even to Snapchat support. This feature addresses privacy concerns by preventing non-consensual access to intimate media stored on the app. It has been used by millions to protect personal content from partners, hackers, or platform requests.",
         "process_and_outcome": "Feature widely adopted, reducing incidents of shared private Snaps. No major breaches tied to the tool. Enhanced user trust in platform privacy.",
+        "source_rule": "Rule 3 Respect the privacy of others. Instigating harassment, for example by revealing someone\u2019s personal or confidential information, is not allowed. Never post or threaten to post intimate or sexually-explicit media of someone without their consent.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Snapchat (Snap Inc.)",
             "Users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Snapchat Terms of Service - Privacy Controls",
             "CCPA privacy standards"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2016"
     },
     {
         "example_name": "Reddit Vote Manipulation by Users in r/The_Donald",
         "example_background": "In 2016-2017, participants in the subreddit r/The_Donald coordinated efforts to manipulate voting patterns on Reddit's platform. Users encouraged each other to upvote specific posts and comments while downvoting opposing content, often using scripts or organized campaigns to amplify visibility of politically aligned material. This activity extended to targeting other subreddits, where coordinated downvoting suppressed dissenting views. The subreddit's moderators implemented features like auto-upvoting all posts, which further distorted normal voting dynamics. Reddit's algorithms detected unusual voting spikes, leading to increased scrutiny. This behavior disrupted organic community interactions across multiple subreddits, affecting content ranking and user experience for millions of users during a highly polarized election period. The scale involved thousands of users participating in daily threads dedicated to these tactics.",
         "process_and_outcome": "Reddit administrators issued warnings and temporarily restricted the subreddit's voting privileges multiple times. In 2019, r/The_Donald faced repeated quarantines and was ultimately banned in June 2020 for repeated violations of site-wide policies. No individual fines were imposed, but the incident prompted Reddit to enhance anti-manipulation detection tools and content moderation practices.",
+        "source_rule": "Rule 2 Abide by community rules. Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (including content manipulation) that interfere with Reddit communities.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc. (platform administrators)",
             "r/The_Donald subreddit users and moderators",
             "Affected subreddit communities"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy (Vote Manipulation and Ban Evasion)",
             "Reddit Community Rules on Authentic Participation"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2016"
     },
     {
         "example_name": "FTC Action Against Devumi Fake Engagement Services",
         "example_background": "Devumi LLC operated a service from 2012 to 2019 selling fake followers, likes, views, and comments to influencers and brands seeking to boost their presence on social media platforms including Twitter, Instagram, and YouTube. The company harvested real user photos from platforms like Reddit to create millions of fake accounts, generating over 10 million bogus followers. Clients used these services to inflate engagement metrics, misleading audiences about popularity. Devumi generated $12.5 million in revenue by providing packages priced from a few dollars to thousands for high-volume fake interactions. This practice undermined authentic community interactions by flooding feeds with artificial content, affecting organic discovery and trust in social metrics across platforms.",
         "process_and_outcome": "The U.S. Federal Trade Commission (FTC) investigated and settled with Devumi in 2019. The company agreed to a permanent ban on selling fake engagements and paid a $2.25 million civil penalty. The settlement required deletion of all fake accounts and cessation of related operations.",
+        "source_rule": "Rule 2 Abide by community rules. Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (including content manipulation) that interfere with Reddit communities.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Devumi LLC (service provider)",
             "FTC (regulator)",
             "Social media platforms including Reddit (affected parties)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "FTC Act Section 5 (Unfair or Deceptive Acts)",
             "Platform terms of service on authentic engagement"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2012"
     },
     {
         "example_name": "Reddit Ban of r/chapo_trap_house for Harassment",
         "example_background": "The subreddit r/chapo_trap_house, with over 150,000 subscribers, engaged in organized off-site brigading from 2016 to 2019. Users coordinated to visit other subreddits and external sites, posting disruptive comments, vote manipulation, and targeted harassment against individuals and communities. This included doxxing attempts and flooding threads with off-topic content to derail discussions. The activity stemmed from ideological disagreements, leading to widespread complaints from affected communities. Reddit's review found patterns of users participating in vote brigading, where groups downvoted or upvoted en masse to influence visibility.",
         "process_and_outcome": "In July 2019, Reddit permanently banned r/chapo_trap_house for 'egregious vote manipulation and targeted harassment.' Moderators were given 72 hours to comply with policy changes, which they refused, resulting in the shutdown. This action was part of a broader purge of 2,000 subreddits violating similar rules.",
+        "source_rule": "Rule 2 Abide by community rules. Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (including content manipulation) that interfere with Reddit communities.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "r/chapo_trap_house moderators and users",
             "Targeted subreddits and users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy (Brigading and Vote Manipulation)",
             "Reddit Anti-Harassment Rules"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2016"
     },
     {
         "example_name": "Twitch Spam and Raid Bans in Gaming Communities",
         "example_background": "In 2021, numerous Twitch streamers and viewers participated in 'raid' events where groups of hundreds would migrate to another streamer's chat, flooding it with spam messages, emotes, and disruptive content. This was particularly prevalent in gaming and political streaming communities, where raids were used to overwhelm chats, post repetitive links, and manipulate viewer metrics. Incidents involved coordinated Discord servers directing participants to spam specific phrases or images, disrupting ongoing broadcasts and viewer interactions. Twitch documented thousands of such events monthly, affecting community authenticity and creator livelihoods.",
         "process_and_outcome": "Twitch issued mass bans, suspending over 1,000 accounts in one October 2021 sweep for spam and raids. Policy updates included stricter raid controls and automated detection, with permanent bans for repeat offenders.",
+        "source_rule": "Rule 2 Abide by community rules. Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (including content manipulation) that interfere with Reddit communities.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Twitch (platform)",
             "Raid participants and streamers",
             "Affected streamer communities"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Twitch Community Guidelines (Spam and Disruptive Behavior)",
             "Terms of Service on Coordinated Inauthentic Activity"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2021"
     },
     {
         "example_name": "Facebook Cambridge Analytica Content Manipulation Scandal",
         "example_background": "From 2014 to 2018, Cambridge Analytica harvested data from 87 million Facebook users without consent via a quiz app developed by researcher Aleksandr Kogan. The data was used to create targeted political ads and manipulate content feeds during elections, including the 2016 U.S. presidential race and Brexit referendum. This involved micro-targeting users with personalized content to influence opinions, alongside coordinated fake accounts posting divisive material. The operation disrupted authentic community discourse by amplifying echo chambers and suppressing counter-narratives through algorithmic manipulation.",
         "process_and_outcome": "FTC fined Facebook $5 billion in 2019, the largest privacy penalty ever. Cambridge Analytica shut down amid investigations by U.S. and UK regulators. Facebook implemented new data policies and oversight committees.",
+        "source_rule": "Rule 2 Abide by community rules. Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (including content manipulation) that interfere with Reddit communities.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Facebook (platform)",
             "Cambridge Analytica (data firm)",
             "FTC and ICO (regulators)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "FTC Act (Deceptive Practices)",
             "GDPR (Data Protection)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2014"
     },
     {
         "example_name": "Reddit's r/place Community Art Project",
         "example_background": "In April 2017 and 2022, Reddit launched r/place, a collaborative canvas where users placed colored pixels to create art. Over 1 million users participated in 2022, forming alliances across language groups and fandoms to build massive artworks like flags, memes, and collaborative murals. Moderators enforced rules against griefing through temporary protections, fostering organic cooperation. Users coordinated via Discord and other subreddits but adhered to platform guidelines, resulting in emergent creativity without spam or disruption. The event generated positive media coverage and strengthened community bonds.",
         "process_and_outcome": "The project concluded successfully with archived canvases viewed by millions. No bans or penalties occurred; Reddit highlighted it as a model for positive engagement in annual reports.",
+        "source_rule": "Rule 2 Abide by community rules. Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (including content manipulation) that interfere with Reddit communities.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit Inc.",
             "r/place participants and volunteer moderators",
             "Various subreddit communities"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy (Encouraging Authentic Participation)",
             "r/place Specific Community Guidelines"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "April 2017"
     },
     {
         "example_name": "Twitter Bot Farm Crackdown in 2018",
         "example_background": "In 2018, Twitter identified and suspended networks of automated bot accounts used for spamming political hashtags, amplifying trends artificially, and engaging in coordinated posting campaigns during midterms. These bots, often controlled via offshore services, posted repetitive content, manipulated trending topics, and interacted with real users to simulate engagement. The activity disrupted authentic conversations in political and news communities, affecting topic visibility for genuine discourse.",
         "process_and_outcome": "Twitter suspended over 1 million suspicious accounts in a purge, with ongoing monthly removals. Policy updates improved bot detection using machine learning.",
+        "source_rule": "Rule 2 Abide by community rules. Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (including content manipulation) that interfere with Reddit communities.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Twitter Inc.",
             "Bot network operators",
             "Political communities on platform"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Twitter Rules (Platform Manipulation and Spam)",
             "Authenticity Policies"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2018"
     },
     {
         "example_name": "Discord Server Raids and Spam Bans",
         "example_background": "Throughout 2020-2022, various Discord servers experienced organized raids where users from external communities flooded voice and text channels with spam messages, earrape audio, and disruptive pings. This was common in gaming, anime, and political servers, with raiders using VPNs and alt accounts to evade bans. Coordinated via Twitter and Reddit, these events aimed to overwhelm servers, post unwanted links, and harass members, interrupting ongoing discussions and events.",
         "process_and_outcome": "Discord banned thousands of accounts and terminated raid-originating servers. Enhanced verification and auto-moderation tools were rolled out in 2021.",
+        "source_rule": "Rule 2 Abide by community rules. Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (including content manipulation) that interfere with Reddit communities.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Discord Inc.",
             "Raid participating users and servers",
             "Targeted Discord communities"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Discord Terms of Service (Spam and Harassment)",
             "Community Guidelines on Disruptive Behavior"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2020"
     },
     {
         "example_name": "r/AskReddit Moderation Best Practices",
         "example_background": "The subreddit r/AskReddit, with over 40 million subscribers, maintains high standards for authentic participation through strict moderator enforcement. Rules require original questions, no spam links, and ban repetitive or low-effort posts. Moderators use AutoModerator for preemptive filtering and review reports daily, removing over 90% of rule-breaking submissions before visibility. This approach has sustained the subreddit as a hub for genuine discussions since 2008, with threads garnering billions of views.",
         "process_and_outcome": "Consistent policy adherence has prevented major disruptions, earning subreddit awards and serving as a model in Reddit moderator training resources. No enforcement actions needed against the community.",
+        "source_rule": "Rule 2 Abide by community rules. Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (including content manipulation) that interfere with Reddit communities.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "r/AskReddit moderator team",
             "Reddit Inc.",
             "Subscriber community"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy",
             "r/AskReddit Custom Rules on Authentic Engagement"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2008"
     }
 ]

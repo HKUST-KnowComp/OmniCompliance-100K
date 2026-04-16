@@ -3,996 +3,1060 @@
         "example_name": "u/emilysteen Reddit Trademark Infringement Lawsuit",
         "example_background": "An individual user operating under the username u/emilysteen on Reddit created content that incorporated Reddit's trademarks and branding elements in a manner that implied an official connection to the platform. The content involved promotional materials for adult-oriented services where Reddit's logo and stylized elements were used alongside the user's profile, leading to user confusion about whether the account represented Reddit's official presence or endorsement. This occurred during a period when Reddit was actively enforcing its intellectual property rights to maintain brand integrity across user-generated content.",
         "process_and_outcome": "Reddit initiated legal action in federal court against the user for trademark infringement and dilution. The case resulted in a default judgment in favor of Reddit after the defendant failed to respond, with the court ordering the removal of infringing content and prohibiting future unauthorized use.",
+        "source_rule": "Use any Reddit trademarks or other brand assets in a way that suggests an affiliation with, an endorsement by, or a sponsorship by Reddit; or",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit, Inc.",
             "u/emilysteen (defendant)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act (15 U.S.C. \u00a7 1114)",
             "Reddit Trademark Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Reddit vs. South-Towner Magazine Trademark Dispute",
         "example_background": "South-Towner Magazine published articles and promotional content that utilized Reddit's trademarks, including the Reddit logo and references to Reddit communities, in a way that suggested partnership or official affiliation between the magazine and Reddit. The materials were distributed in print and online, featuring Reddit branding prominently alongside editorial content about Reddit's platform to attract readership.",
         "process_and_outcome": "Reddit sent a cease-and-desist letter, leading to the magazine agreeing to cease use of the trademarks. No further litigation ensued, but the incident highlighted Reddit's proactive monitoring of media usage.",
+        "source_rule": "Use any Reddit trademarks or other brand assets in a way that suggests an affiliation with, an endorsement by, or a sponsorship by Reddit; or",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit, Inc.",
             "South-Towner Magazine"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act",
             "Reddit Brand Guidelines"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "r/WallStreetBets ETF (RWSL) Trademark Infringement",
         "example_background": "The launch of the 'Reddit WallStreetBets ETF' (RWSL) by a financial firm used the 'WallStreetBets' name, directly referencing the popular Reddit subreddit r/wallstreetbets, in product naming and marketing materials. This implied an association or endorsement by the subreddit's community or Reddit itself, coinciding with heightened attention to the subreddit during market volatility events.",
         "process_and_outcome": "Reddit issued a trademark infringement notice, prompting the ETF issuer to rebrand the product to 'Social Sentiment ETF' to avoid litigation and remove all subreddit-related references from marketing.",
+        "source_rule": "Use any Reddit trademarks or other brand assets in a way that suggests an affiliation with, an endorsement by, or a sponsorship by Reddit; or",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit, Inc.",
             "Social Sentiment ETF issuer"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act",
             "Reddit Trademark Usage Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "ModiFace Unauthorized Reddit Endorsement Claim",
         "example_background": "ModiFace, a facial recognition software company, included statements in their promotional materials claiming endorsement or recommendation by Reddit, using Reddit's branding elements to suggest official support for their technology within Reddit communities.",
         "process_and_outcome": "Reddit sent a legal demand letter asserting trademark misuse, resulting in ModiFace retracting the claims and removing all Reddit-related references from their website and materials.",
+        "source_rule": "Use any Reddit trademarks or other brand assets in a way that suggests an affiliation with, an endorsement by, or a sponsorship by Reddit; or",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit, Inc.",
             "ModiFace"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Trademark Policy",
             "Lanham Act"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "TikTok Reddit Affiliate Marketing Takedown",
         "example_background": "TikTok influencers created videos using Reddit's trademarks, logos, and subreddit names to promote TikTok affiliate links, presenting the content as if endorsed by or affiliated with Reddit communities to drive traffic and conversions.",
         "process_and_outcome": "Reddit's moderation team and legal department coordinated takedowns of the videos and issued warnings, leading to content removal and cessation of the campaign by the creators.",
+        "source_rule": "Use any Reddit trademarks or other brand assets in a way that suggests an affiliation with, an endorsement by, or a sponsorship by Reddit; or",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit, Inc.",
             "TikTok influencers"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy",
             "Trademark Guidelines"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Official Reddit Brand Partnership with Hasbro",
         "example_background": "Reddit collaborated with Hasbro on a licensed product line featuring Reddit's Snoo mascot and trademarks, with all usage explicitly approved and co-branded to clearly indicate the official partnership.",
         "process_and_outcome": "The partnership proceeded successfully, with products launched without disputes, demonstrating proper licensed use of trademarks.",
+        "source_rule": "Use any Reddit trademarks or other brand assets in a way that suggests an affiliation with, an endorsement by, or a sponsorship by Reddit; or",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit, Inc.",
             "Hasbro"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Trademark Licensing Guidelines"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Reddit's Advertising Guidelines Compliance by Brands",
         "example_background": "Major advertisers like Nike and Wendy's ran official ad campaigns on Reddit adhering strictly to the platform's branding guidelines, avoiding any implication of subreddit or platform endorsement in their creative assets.",
         "process_and_outcome": "Campaigns ran without issues, contributing to successful engagement metrics and repeat advertising partnerships.",
+        "source_rule": "Use any Reddit trademarks or other brand assets in a way that suggests an affiliation with, an endorsement by, or a sponsorship by Reddit; or",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit, Inc.",
             "Nike",
             "Wendy's"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Advertising Policy",
             "Trademark Usage Policy"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Developer API Usage with Proper Attribution",
         "example_background": "Third-party Reddit apps like Apollo and Reddit Enhancement Suite integrated Reddit's trademarks with clear disclaimers stating no affiliation, following Reddit's developer branding guidelines for API clients.",
         "process_and_outcome": "Apps remained operational for years until API policy changes unrelated to branding, with no trademark disputes raised.",
+        "source_rule": "Use any Reddit trademarks or other brand assets in a way that suggests an affiliation with, an endorsement by, or a sponsorship by Reddit; or",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit, Inc.",
             "Apollo developer (Christian Selig)",
             "Reddit Enhancement Suite team"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit API Terms of Service",
             "Branding Guidelines"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Third-Party Site Reddit Branding Removal Demand",
         "example_background": "A website aggregator scraped and displayed Reddit content using Reddit's logo and trademarks to suggest it was an official Reddit service, misleading users about its origin.",
         "process_and_outcome": "Reddit demanded removal via DMCA notice and trademark claim, resulting in the site complying by stripping all Reddit branding.",
+        "source_rule": "Use any Reddit trademarks or other brand assets in a way that suggests an affiliation with, an endorsement by, or a sponsorship by Reddit; or",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit, Inc.",
             "Aggregator website operator"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "DMCA",
             "Reddit Trademark Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Reddit v. South Butt",
         "example_background": "In 2009, South Butt LLC launched a clothing line featuring the 'South Butt' trademark, which was positioned as a parody of the well-known 'North Face' outdoor apparel brand. The company produced T-shirts, sweatshirts, and other apparel with the South Butt logo, including imagery of a buttocks-shaped mountain, and marketed it through online sales and retail distribution. Reddit, Inc. was not the primary party in this case, but it serves as an analogous example of trademark parody disputes involving brand similarity. South Butt's branding used similar font styles, color schemes, and visual elements to evoke association with North Face, leading to consumer confusion in retail settings where products were displayed side by side. The company expanded to multiple states and secured trademark registration for 'South Butt' from the USPTO, further escalating the conflict. North Face argued that this imitation diluted their brand equity and misled consumers into believing there was an affiliation.",
         "process_and_outcome": "North Face filed a lawsuit in the U.S. District Court for the Northern District of California. The court issued a preliminary injunction halting South Butt's sales. Following trial, the court ruled in favor of North Face, finding likelihood of confusion and trademark dilution. South Butt was permanently enjoined from using the mark, ordered to destroy infringing goods, and faced potential damages. The case settled with South Butt ceasing operations.",
+        "source_rule": "Use, register, or otherwise claim rights in trademarks, trade names, company names, usernames, or domains that are identical, confusingly similar to, or contain any of Reddit\u2019s trademarks or brand assets; ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "The North Face (plaintiff, trademark owner)",
             "South Butt LLC (defendant, alleged infringer)",
             "U.S. District Court, Northern District of California"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act (15 U.S.C. \u00a7 1114)",
             "Trademark Dilution Revision Act",
             "USPTO trademark registration policies"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2009"
     },
     {
         "example_name": "Tiffany & Co. v. eBay",
         "example_background": "eBay, the online auction platform, facilitated the sale of numerous counterfeit Tiffany jewelry items through its marketplace from the late 1990s through the mid-2000s. Third-party sellers listed products using Tiffany's registered trademarks, such as 'Tiffany & Co.' and specific product names, often with images mimicking authentic items. eBay's search functionality and promotional features highlighted these listings, contributing to widespread availability of fakes. Tiffany conducted test purchases revealing high rates of counterfeits among listings bearing their marks. Despite eBay's notice-and-takedown system under DMCA, Tiffany claimed the platform profited from trademark-infringing sales without sufficient preventive measures, leading to brand dilution and consumer deception.",
         "process_and_outcome": "Tiffany sued eBay in the U.S. District Court for the Southern District of New York. After extensive litigation, the court granted summary judgment to eBay in 2008, ruling no direct or contributory trademark infringement as eBay responded to notices and did not sell the goods itself. The decision was affirmed on appeal by the Second Circuit in 2010.",
+        "source_rule": "Use, register, or otherwise claim rights in trademarks, trade names, company names, usernames, or domains that are identical, confusingly similar to, or contain any of Reddit\u2019s trademarks or brand assets; ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Tiffany & Co. (plaintiff, trademark owner)",
             "eBay Inc. (defendant, marketplace platform)",
             "U.S. District Court, SDNY; Second Circuit Court of Appeals"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act (15 U.S.C. \u00a7 1114)",
             "Digital Millennium Copyright Act (DMCA)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Starbucks v. Reddit User 'Starbucks' Impersonation",
         "example_background": "In 2010, a Reddit user registered the username 'Starbucks' on the platform, mimicking the famous coffee chain's trademarked name. The account posted content unrelated to coffee but used the name to gain visibility in discussions. Starbucks identified this as potential impersonation causing confusion among users who interacted with the account believing it official. Reddit's trademark policy prohibits usernames identical or confusingly similar to third-party brands without permission. Similar issues arose with other brands noticing parody or squatting accounts.",
         "process_and_outcome": "Reddit enforced its policy by suspending the 'Starbucks' username after a complaint from Starbucks. The account was renamed or removed, aligning with Reddit's Brand and Content Policy. No formal litigation ensued, but it exemplified platform moderation.",
+        "source_rule": "Use, register, or otherwise claim rights in trademarks, trade names, company names, usernames, or domains that are identical, confusingly similar to, or contain any of Reddit\u2019s trademarks or brand assets; ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Starbucks Corporation (complainant)",
             "Reddit, Inc. (platform enforcer)",
             "Reddit user (account holder)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Trademark Policy",
             "Lanham Act (analogous)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2010"
     },
     {
         "example_name": "Burger King 'Starbucks' Domain Registration",
         "example_background": "In a 2020 marketing campaign, Burger King Canada registered the domain 'starbucks.ca' to promote free coffee to students. The site redirected to Burger King's page with a message about trademark squatting awareness. Starbucks contested the registration, arguing confusion with their brand. Burger King relinquished the domain shortly after, but it highlighted opportunistic domain grabs using similar names to major brands.",
         "process_and_outcome": "Burger King transferred the domain back voluntarily after backlash. No UDRP or litigation proceeded, but it drew regulatory scrutiny under Canadian domain policies.",
+        "source_rule": "Use, register, or otherwise claim rights in trademarks, trade names, company names, usernames, or domains that are identical, confusingly similar to, or contain any of Reddit\u2019s trademarks or brand assets; ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Burger King Canada (registrant)",
             "Starbucks Corporation (complainant)",
             "CIRA (Canadian domain registrar)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "UDRP (Uniform Domain-Name Dispute-Resolution Policy)",
             "CIRA Domain Name Dispute Resolution Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2020"
     },
     {
         "example_name": "McDonald's 'McCurry' Case in Malaysia",
         "example_background": "McCurry Restaurant in Malaysia opened in 1996, using the name 'McCurry' for its Indian curry house chain. The branding included 'Mc' prefix similar to McDonald's golden arches style, with menu items like 'McChicken Roti'. McDonald's argued the name and logo created confusion, especially as McCurry expanded to multiple outlets. Consumers occasionally mistook it for a McDonald's venture.",
         "process_and_outcome": "McDonald's sued in Malaysian courts. In 2009, the Court of Appeal ruled for McCurry, finding no confusion due to distinct restaurant types. McDonald's appeal to Federal Court was dismissed in 2016.",
+        "source_rule": "Use, register, or otherwise claim rights in trademarks, trade names, company names, usernames, or domains that are identical, confusingly similar to, or contain any of Reddit\u2019s trademarks or brand assets; ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "McDonald's Corporation (plaintiff)",
             "McCurry Restaurant (defendant)",
             "Malaysian Courts"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Malaysian Trademarks Act 1976",
             "Passing Off Laws"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Reddit's Enforcement Against 'r/tesla' Squatters",
         "example_background": "Prior to official subreddit creation, users created 'r/tesla' and similar names mimicking Tesla's brand. Tesla requested official communities, and Reddit transferred or created verified ones, enforcing policies against confusingly similar subreddit names.",
         "process_and_outcome": "Reddit reassigned subreddit ownership to Tesla representatives, maintaining brand integrity without litigation.",
+        "source_rule": "Use, register, or otherwise claim rights in trademarks, trade names, company names, usernames, or domains that are identical, confusingly similar to, or contain any of Reddit\u2019s trademarks or brand assets; ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Tesla, Inc. (brand owner)",
             "Reddit, Inc. (platform)",
             "Community moderators"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy",
             "Reddit Trademark Policy"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Apple Corps v. Reddit 'Apple' Username Disputes",
         "example_background": "Reddit users have attempted usernames like 'AppleSupport' or similar to Apple's trademarks. Apple monitors and reports impersonations, leading Reddit to suspend accounts to prevent confusion with official support.",
         "process_and_outcome": "Reddit routinely removes or renames such accounts per policy, ensuring no ongoing confusion.",
+        "source_rule": "Use, register, or otherwise claim rights in trademarks, trade names, company names, usernames, or domains that are identical, confusingly similar to, or contain any of Reddit\u2019s trademarks or brand assets; ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Apple Inc. (complainant)",
             "Reddit, Inc. (enforcer)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Username Policy",
             "Lanham Act (analogous)"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Starbucks vs. Fred's Coffee",
         "example_background": "Fred's Brands operated a drive-through coffee stand named Fred's Fabulous Coffee & Donuts using a green circular logo with a white mermaid-like siren figure. Starbucks, known for its green siren logo, sent cease-and-desist letters alleging trademark infringement and dilution. Fred's continued operations, leading Starbucks to file suit in federal court. The case examined similarities in color, design elements, and trade channels between the logos used on coffee cups and signage.",
         "process_and_outcome": "In 2015, a Washington federal jury found Fred's liable for trademark infringement and awarded Starbucks $2.9 million in damages. The court issued a permanent injunction prohibiting Fred's from using the logo. Fred's appealed but settled out of court.",
+        "source_rule": "Reddit reserves the right to revoke any permission we have given to use any Reddit trademarks or other brand assets at any time, and to determine whether to approve or reject any request to use any Reddit trademarks or other brand assets that we consider to be inconsistent with the Reddit brand.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Starbucks Corporation (plaintiff)",
             "Fred's Brands Inc. (defendant)",
             "U.S. District Court for the Western District of Washington"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act trademark infringement",
             "Trademark dilution under 15 U.S.C. \u00a7 1125(c)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "New Era Cap vs. Christian Faith Fellowship",
         "example_background": "Christian Faith Fellowship Church purchased blank black-and-white MLB-logoed caps from New Era Cap Co. and had them embroidered with team logos and phrases like 'I \u2665 Jesus.' The church sold these at youth camps. New Era objected to the alterations, claiming they damaged brand reputation and violated exclusive MLB licensing rights.",
         "process_and_outcome": "A New York federal jury awarded New Era $464,000 in 2017 for trademark infringement and dilution. The court issued an injunction against further sales.",
+        "source_rule": "Reddit reserves the right to revoke any permission we have given to use any Reddit trademarks or other brand assets at any time, and to determine whether to approve or reject any request to use any Reddit trademarks or other brand assets that we consider to be inconsistent with the Reddit brand.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "New Era Cap Co. (plaintiff)",
             "Christian Faith Fellowship Church (defendant)",
             "U.S. District Court for the Western District of New York"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act",
             "MLB Licensing Agreement"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Red Bull GmbH vs. United Brands",
         "example_background": "United Brands marketed 'Red Helmet' energy drinks using a logo with two charging red bulls against a silver background, similar to Red Bull's two galloping bulls on a silver can. Red Bull claimed confusion among consumers in Argentina. The case involved side-by-side logo comparisons and evidence of actual confusion.",
         "process_and_outcome": "The Argentine Supreme Court ruled for Red Bull in 2019, confirming trademark infringement. United Brands was ordered to cease use and pay damages.",
+        "source_rule": "Reddit reserves the right to revoke any permission we have given to use any Reddit trademarks or other brand assets at any time, and to determine whether to approve or reject any request to use any Reddit trademarks or other brand assets that we consider to be inconsistent with the Reddit brand.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Red Bull GmbH (plaintiff)",
             "United Brands S.A. (defendant)",
             "Argentine Supreme Court"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Argentine Trademark Law No. 22,362",
             "Lanham Act principles"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Apple vs. Microsoft Windows Logo",
         "example_background": "Apple licensed its graphical user interface look and feel to Microsoft for Windows 1.0 in 1985. Disputes arose with Windows 2.0 and Excel, where Apple alleged copying of overlapping windows, icons, and menu structures. The case expanded to claim Microsoft exceeded the narrow license scope.",
         "process_and_outcome": "The parties settled in 1997. Microsoft agreed to revenue sharing from Intel sales and supported Apple financially. Copyright claims were dropped.",
+        "source_rule": "Reddit reserves the right to revoke any permission we have given to use any Reddit trademarks or other brand assets at any time, and to determine whether to approve or reject any request to use any Reddit trademarks or other brand assets that we consider to be inconsistent with the Reddit brand.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Apple Computer Inc. (plaintiff)",
             "Microsoft Corporation (defendant)",
             "U.S. District Court for the Northern District of California"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Copyright Act",
             "License agreement terms"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "GoPro vs. Leake",
         "example_background": "Xwaves Innovations founder Anthony Leake created the 'EnGo' action camera shaped like GoPro's HERO series with similar mounting mechanisms and button layouts. GoPro sent cease-and-desist notices, leading Leake to halt production. GoPro then sued over continued online marketing.",
         "process_and_outcome": "A California federal court granted GoPro a preliminary injunction in 2017, halting EnGo sales pending trial. The case settled with Leake agreeing to abandon the design.",
+        "source_rule": "Reddit reserves the right to revoke any permission we have given to use any Reddit trademarks or other brand assets at any time, and to determine whether to approve or reject any request to use any Reddit trademarks or other brand assets that we consider to be inconsistent with the Reddit brand.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "GoPro Inc. (plaintiff)",
             "Xwaves Innovations / Anthony Leake (defendant)",
             "U.S. District Court for the Northern District of California"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act trade dress protection",
             "7 U.S.C. \u00a7 1114 trademark infringement"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Burger King 'Whopper Detour' Campaign Approval",
         "example_background": "Burger King launched the 'Whopper Detour' app promotion directing users to McDonald's locations to unlock 1-cent Whoppers via geofencing technology. The campaign used McDonald's branding contextually in ads. Burger King sought pre-approval from McDonald's brand protection team, disclosing full details to ensure alignment with fair competition.",
         "process_and_outcome": "McDonald's reviewed and did not object. The campaign ran successfully in 2018, won multiple advertising awards, and drove significant app downloads without legal challenges.",
+        "source_rule": "Reddit reserves the right to revoke any permission we have given to use any Reddit trademarks or other brand assets at any time, and to determine whether to approve or reject any request to use any Reddit trademarks or other brand assets that we consider to be inconsistent with the Reddit brand.",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Burger King (campaign creator)",
             "McDonald's (brand referenced)",
             "IP lawyers for both parties"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act nominative fair use",
             "Internal brand protection policies"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Nike vs. MSCHF Lil Nas X Satan Shoes",
         "example_background": "MSCHF modified 666 pairs of Nike Air Max 97 shoes by adding red drops of human blood in the air bubble and 'Satan' satanic imagery, tied to Lil Nas X's music video. Sold for $1018 each, they referenced Nike branding prominently. Nike objected to the unauthorized alterations associating their trademark with satanic themes.",
         "process_and_outcome": "Nike sued MSCHF in April 2021 for trademark infringement. A New York federal judge granted a temporary restraining order, halting sales. The case settled with MSCHF agreeing to recall shoes and cease production.",
+        "source_rule": "Reddit reserves the right to revoke any permission we have given to use any Reddit trademarks or other brand assets at any time, and to determine whether to approve or reject any request to use any Reddit trademarks or other brand assets that we consider to be inconsistent with the Reddit brand.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Nike Inc. (plaintiff)",
             "MSCHF Product Studio (defendant)",
             "U.S. District Court Southern District of New York"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act \u00a7 1114(1)",
             "Trademark tarnishment under 15 U.S.C. \u00a7 1125(c)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Reddit v. South African Impersonator Account",
         "example_background": "An individual in South Africa created multiple Reddit accounts using Reddit's official trademarks and branding to impersonate Reddit staff and engage in solicitation activities. The accounts used Reddit's logo and name to contact users privately, requesting payments for supposed premium features or content access. This occurred over several months in 2018, affecting numerous users who believed they were interacting with official Reddit representatives. The impersonation led to financial losses for some users and damage to Reddit's platform trust. Reddit identified the activity through user reports and internal monitoring of trademark usage.",
         "process_and_outcome": "Reddit filed a lawsuit in the United States District Court for the Northern District of California against the individual operator. The court granted a default judgment in favor of Reddit, issuing a permanent injunction prohibiting further use of Reddit trademarks and ordering the transfer of the infringing domain names to Reddit. Monetary damages were also awarded.",
+        "source_rule": "Use any Reddit trademarks or other brand assets for anything that would violate Reddit\u2019s User Agreement, Reddit Rules, or Public Content Policy.  ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit, Inc.",
             "South African individual (defendant)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act (trademark infringement)",
             "Reddit Trademark Policy",
             "Reddit User Agreement"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2018"
     },
     {
         "example_name": "TakeThis.org Partnership with Reddit",
         "example_background": "TakeThis.org, a non-profit focused on mental health in gaming, collaborated with Reddit on initiatives like the 'Big Reddit Birthday Community Game' in 2019. They used Reddit-provided branding assets under strict licensing terms to promote mental health awareness during Reddit's anniversary event. The partnership involved custom badges and promotional materials featuring Reddit trademarks, distributed to users participating in community activities. All usage was pre-approved and aligned with Reddit's guidelines for external partners.",
         "process_and_outcome": "The collaboration proceeded without issues, resulting in over 100,000 user participations and increased awareness. No enforcement actions were taken, and it served as a model for compliant brand usage.",
+        "source_rule": "Use any Reddit trademarks or other brand assets for anything that would violate Reddit\u2019s User Agreement, Reddit Rules, or Public Content Policy.  ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit, Inc.",
             "TakeThis.org"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Brand Assets Guidelines",
             "Reddit User Agreement",
             "Reddit Public Content Policy"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2019"
     },
     {
         "example_name": "Reddit API Pricing Enforcement Against Brand Misuse",
         "example_background": "In 2023, several third-party developers created apps that incorporated Reddit trademarks in their interfaces and marketing materials without permission, presenting themselves as official Reddit tools. These apps scraped content and used Reddit logos to attract users, violating terms by not obtaining brand usage approval. This coincided with Reddit's announcement of API pricing changes, highlighting unauthorized commercial exploitation of Reddit's brand.",
         "process_and_outcome": "Reddit terminated API access to these apps and issued cease-and-desist notices. Several developers shut down operations, and Reddit reinforced its brand protection policies publicly.",
+        "source_rule": "Use any Reddit trademarks or other brand assets for anything that would violate Reddit\u2019s User Agreement, Reddit Rules, or Public Content Policy.  ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit, Inc.",
             "Third-party app developers"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit API Terms of Use",
             "Reddit Brand Guidelines",
             "Reddit User Agreement"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2023"
     },
     {
         "example_name": "Nexus Mods Official Reddit Community",
         "example_background": "Nexus Mods, a gaming mod platform, established an official subreddit with Reddit's approval, using Reddit's branding elements like the official community badge and subreddit flairs in their promotional materials on their website. This integration began in 2014 and continues, allowing Nexus Mods to link their content policy to Reddit's rules while directing users to their subreddit for discussions. All trademark usage was licensed through Reddit's partnership program.",
         "process_and_outcome": "The partnership has been ongoing successfully, with no disputes. It enhanced user engagement across platforms without any compliance issues.",
+        "source_rule": "Use any Reddit trademarks or other brand assets for anything that would violate Reddit\u2019s User Agreement, Reddit Rules, or Public Content Policy.  ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit, Inc.",
             "Nexus Mods"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Official Communities Guidelines",
             "Reddit Brand Assets Policy",
             "Reddit Rules"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2014"
     },
     {
         "example_name": "VSCO App Reddit Trademark Dispute",
         "example_background": "VSCO, a photo editing app, ran a marketing campaign in 2020 featuring mockups of Reddit interfaces with VSCO filters applied, using Reddit's trademarks and logos to promote cross-platform content sharing. The campaign appeared on social media and VSCO's app store listing, implying an official partnership that did not exist. Reddit received user complaints about confusion over the authenticity.",
         "process_and_outcome": "Reddit sent a cease-and-desist letter to VSCO, leading to the immediate removal of the infringing materials from VSCO's channels. No further legal action was pursued after compliance.",
+        "source_rule": "Use any Reddit trademarks or other brand assets for anything that would violate Reddit\u2019s User Agreement, Reddit Rules, or Public Content Policy.  ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit, Inc.",
             "VSCO (Visual Supply Company)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act",
             "Reddit Trademark Policy",
             "Reddit Public Content Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2020"
     },
     {
         "example_name": "r/ted Official TED Partnership",
         "example_background": "TED, the conference organization, partnered with Reddit to create the official r/ted subreddit in 2012. TED used Reddit's branding in their conference apps and websites to promote live discussions, including custom icons and links featuring Reddit trademarks. The usage was governed by a formal agreement ensuring alignment with Reddit's content policies and user agreement.",
         "process_and_outcome": "The subreddit grew to millions of members, hosting compliant discussions. The partnership remains active with periodic renewals and no incidents.",
+        "source_rule": "Use any Reddit trademarks or other brand assets for anything that would violate Reddit\u2019s User Agreement, Reddit Rules, or Public Content Policy.  ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit, Inc.",
             "TED Conferences, LLC"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Partnership Guidelines",
             "Reddit User Agreement",
             "Reddit Rules"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2012"
     },
     {
         "example_name": "Fan-Made Merchandise Takedown on Etsy",
         "example_background": "Multiple Etsy sellers in 2021-2022 offered merchandise like t-shirts and mugs featuring Reddit's Snoo mascot and 'Reddit' wordmark without license. These items were marketed as official Reddit gear, sold to users seeking platform-branded apparel. Reddit's monitoring detected over 50 listings violating brand usage terms.",
         "process_and_outcome": "Reddit issued DMCA takedown notices to Etsy, resulting in the removal of all infringing listings. Sellers received warnings, and repeat offenders faced account suspensions.",
+        "source_rule": "Use any Reddit trademarks or other brand assets for anything that would violate Reddit\u2019s User Agreement, Reddit Rules, or Public Content Policy.  ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit, Inc.",
             "Etsy sellers"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "DMCA",
             "Reddit Brand Assets Guidelines",
             "Reddit Trademark Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2021"
     },
     {
         "example_name": "Twitch Official Reddit Integration",
         "example_background": "Twitch, owned by Amazon, integrated Reddit sharing features into their streaming platform starting in 2019, using approved Reddit trademarks for buttons and overlays that allow streamers to share clips directly to subreddits. The implementation followed Reddit's developer guidelines, with assets provided via official API and branding kits.",
         "process_and_outcome": "The feature launched successfully and continues to be used by millions, with ongoing compliance audits ensuring adherence.",
+        "source_rule": "Use any Reddit trademarks or other brand assets for anything that would violate Reddit\u2019s User Agreement, Reddit Rules, or Public Content Policy.  ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit, Inc.",
             "Twitch Interactive, Inc."
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit API Terms",
             "Reddit Brand Guidelines",
             "Reddit User Agreement"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2019"
     },
     {
         "example_name": "Crypto Scam Using Reddit Branding",
         "example_background": "In 2022, scammers created fake websites mimicking Reddit's design, complete with Reddit trademarks and logos, to promote a cryptocurrency scheme. They directed users from Reddit posts to these sites, claiming official endorsement. The sites collected wallet information under the guise of Reddit rewards programs.",
         "process_and_outcome": "Reddit cooperated with law enforcement and domain registrars to shut down the sites. Affected users were notified, and Reddit enhanced anti-scam measures.",
+        "source_rule": "Use any Reddit trademarks or other brand assets for anything that would violate Reddit\u2019s User Agreement, Reddit Rules, or Public Content Policy.  ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit, Inc.",
             "Scammers (unknown operators)",
             "FBI"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Computer Fraud and Abuse Act",
             "Reddit Public Content Policy",
             "Reddit User Agreement"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2022"
     },
     {
         "example_name": "Reddit Action Against r/WallStreetBets Impersonators",
         "example_background": "During the 2021 GameStop stock surge, multiple fake subreddits and websites emerged using names and logos similar to r/WallStreetBets to promote cryptocurrency scams and fraudulent trading signals. These sites featured Reddit-style interfaces with upvote/downvote buttons and alien snoop avatars, misleading users into believing they were official Reddit communities. Reddit identified over 20 such impersonations across Discord servers, Telegram channels, and standalone websites, which directed traffic to scam exchanges and NFT projects exploiting the meme stock hype.",
         "process_and_outcome": "Reddit issued DMCA takedown notices and trademark infringement cease-and-desist letters, leading to the shutdown of 15+ domains by registrars like GoDaddy and Namecheap. Legal threats resulted in voluntary site closures, and Reddit banned associated accounts from its platform.",
+        "source_rule": "Reddit expends substantial resources to develop and protect its intellectual property, and Reddit\u2019s trademarks are widely recognized by online users globally. We seek registration of our trademarks, logos, and slogans across the globe. We also enforce our rights against third parties who misuse our trademarks and other brand assets, or who seek to misrepresent or impersonate Reddit communities. ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "Impersonating scammers (various anonymous operators)",
             "Domain registrars (GoDaddy, Namecheap)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act (trademark infringement)",
             "Reddit Trademark Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2021"
     },
     {
         "example_name": "Disney's Enforcement Against Unauthorized Mickey Mouse Use",
         "example_background": "Numerous online sellers and websites used Disney's Mickey Mouse trademarks in merchandise, apps, and social media profiles without permission, including clothing lines, mobile games, and parody videos that blurred into commercial exploitation. Disney maintains extensive global trademark registrations for its characters and actively monitors marketplaces like Etsy, Amazon, and AliExpress for unauthorized uses that could confuse consumers about official affiliation.",
         "process_and_outcome": "Disney sent thousands of takedown notices annually, resulting in the removal of over 100,000 listings in 2022 alone. Several lawsuits led to injunctions and damages exceeding $1 million in settled cases, with platforms suspending seller accounts.",
+        "source_rule": "Reddit expends substantial resources to develop and protect its intellectual property, and Reddit\u2019s trademarks are widely recognized by online users globally. We seek registration of our trademarks, logos, and slogans across the globe. We also enforce our rights against third parties who misuse our trademarks and other brand assets, or who seek to misrepresent or impersonate Reddit communities. ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "The Walt Disney Company",
             "Unauthorized sellers on Etsy/Amazon",
             "U.S. Patent and Trademark Office (USPTO)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act 15 U.S.C. \u00a7 1114",
             "Disney Trademark Guidelines"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Nike v. StockX NFT Trademark Case",
         "example_background": "StockX launched a NFT marketplace in 2022 featuring digital versions of Nike shoes under its Vault platform, using Nike's trademarks like 'Nike Dunk Low' without authorization. The platform tokenized physical sneakers owned by users, marketing them as 'StockX NFTs' with Nike branding, potentially creating consumer confusion about endorsement.",
         "process_and_outcome": "Nike filed a lawsuit in U.S. District Court alleging trademark infringement. The case is ongoing as of 2023, with preliminary rulings allowing discovery to proceed on likelihood of confusion claims.",
+        "source_rule": "Reddit expends substantial resources to develop and protect its intellectual property, and Reddit\u2019s trademarks are widely recognized by online users globally. We seek registration of our trademarks, logos, and slogans across the globe. We also enforce our rights against third parties who misuse our trademarks and other brand assets, or who seek to misrepresent or impersonate Reddit communities. ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Nike Inc.",
             "StockX LLC",
             "U.S. District Court (Southern District of New York)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act",
             "First Sale Doctrine defenses"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2022"
     },
     {
         "example_name": "Reddit's Takedown of Fake Alien Snoo NFT Sites",
         "example_background": "In 2021, several websites impersonated Reddit by using the Snoo mascot logo and subreddit-style designs to sell unauthorized NFTs tied to 'official' Reddit communities. These sites promised exclusive access to subreddits and airdrops, collecting user data and cryptocurrency payments.",
         "process_and_outcome": "Reddit coordinated with NFT platforms and domain providers to suspend 10+ sites. Public warnings were issued via blog posts, and infringing Twitter accounts were reported for suspension.",
+        "source_rule": "Reddit expends substantial resources to develop and protect its intellectual property, and Reddit\u2019s trademarks are widely recognized by online users globally. We seek registration of our trademarks, logos, and slogans across the globe. We also enforce our rights against third parties who misuse our trademarks and other brand assets, or who seek to misrepresent or impersonate Reddit communities. ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "NFT scammers (various)",
             "OpenSea, Twitter"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Brand and Content Policy",
             "DMCA"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2021"
     },
     {
         "example_name": "McDonald's Big Mac Trademark Renewal Success",
         "example_background": "McDonald's has protected its 'Big Mac' trademark since 1968 through continuous global enforcement, including monitoring fast-food menus, merchandise, and online uses. Supermac's, an Irish chain, attempted to register 'McMuffin' variants, leading to opposition based on dilution risks.",
         "process_and_outcome": "EUIPO ruled in McDonald's favor in 2019, invalidating Supermac's marks. McDonald's maintains active watch services and education for partners on proper logo use.",
+        "source_rule": "Reddit expends substantial resources to develop and protect its intellectual property, and Reddit\u2019s trademarks are widely recognized by online users globally. We seek registration of our trademarks, logos, and slogans across the globe. We also enforce our rights against third parties who misuse our trademarks and other brand assets, or who seek to misrepresent or impersonate Reddit communities. ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "McDonald's Corporation",
             "Supermac's (Ireland) Ltd.",
             "European Union Intellectual Property Office (EUIPO)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "EU Trademark Regulation 2017/1001",
             "McDonald's Trademark Policy"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Starbucks v. Freddocino Trademark Dispute",
         "example_background": "A small Oregon coffee shop named 'Freddocino' used a green circle logo and name mimicking Starbucks' Frappuccino line, selling similar frozen drinks. The shop's signage and cups featured comparable styling, leading to claims of passing off.",
         "process_and_outcome": "Starbucks sent a cease-and-desist, followed by a lawsuit settled out of court in 2002 with the shop rebranding to avoid further use.",
+        "source_rule": "Reddit expends substantial resources to develop and protect its intellectual property, and Reddit\u2019s trademarks are widely recognized by online users globally. We seek registration of our trademarks, logos, and slogans across the globe. We also enforce our rights against third parties who misuse our trademarks and other brand assets, or who seek to misrepresent or impersonate Reddit communities. ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Starbucks Corporation",
             "Black Bear Coffee Co.",
             "U.S. District Court"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act \u00a7 43(a)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Red Bull GmbH vs. Red Bull of Boston",
         "example_background": "Red Bull of Boston operated bars serving an energy drink-based cocktail called 'Red Bull Vodka' using cans of Red Bull GmbH's product prominently displayed with the full branding. Red Bull GmbH objected to the use of its trademarks in naming and promoting the drinks, fearing dilution and association with alcohol.",
         "process_and_outcome": "In 2004, the Massachusetts federal court granted a preliminary injunction against Red Bull of Boston, prohibiting use of the trademarks in the drink name. The case settled with the bar agreeing to rename drinks like 'R.B. Vodka' without full trademark usage.",
+        "source_rule": "Reddit is committed to bringing community, belonging and empowerment to everyone in the world. As we work towards our mission, we grow and create things people love. This is how we\u2019ve developed a substantial amount of intellectual property, which we are committed to protect - the same way we strive to protect our communities. Because of this, you must have our permission to use Reddit\u2019s trademarks and other brand assets, including as authorized under our brand guidelines. ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Red Bull GmbH",
             "Red Bull of Boston Inc.",
             "U.S. District Court for the District of Massachusetts"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act (Trademark Infringement and Dilution)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Burger King 'Whopper Detour' Campaign",
         "example_background": "Burger King launched a 2018 mobile app promotion directing users to McDonald's locations to unlock 1-cent Whopper coupons at nearby Burger King outlets, using McDonald's geolocation data indirectly. McDonald's sent cease-and-desist claiming trademark misuse by referencing competitor locations.",
         "process_and_outcome": "No lawsuit ensued; McDonald's internal memos leaked showing frustration but no formal action. Burger King proceeded with the campaign, which won advertising awards for creativity without legal repercussions.",
+        "source_rule": "Reddit is committed to bringing community, belonging and empowerment to everyone in the world. As we work towards our mission, we grow and create things people love. This is how we\u2019ve developed a substantial amount of intellectual property, which we are committed to protect - the same way we strive to protect our communities. Because of this, you must have our permission to use Reddit\u2019s trademarks and other brand assets, including as authorized under our brand guidelines. ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Burger King",
             "McDonald's Corporation"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act (Potential Nominative Use)"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2018"
     },
     {
         "example_name": "Apple's App Store Brand Guidelines Compliance",
         "example_background": "Apple maintains strict App Store Review Guidelines requiring developers to use 'App Store' marks only with permission and per specific logo usage rules. Developers like those creating apps for enterprise tools adhered by submitting mockups for review before using badges in marketing materials.",
         "process_and_outcome": "Apple approved compliant usages, allowing developers to display 'Available on the App Store' badges correctly, resulting in seamless integrations and no enforcement actions against adhering parties.",
+        "source_rule": "Reddit is committed to bringing community, belonging and empowerment to everyone in the world. As we work towards our mission, we grow and create things people love. This is how we\u2019ve developed a substantial amount of intellectual property, which we are committed to protect - the same way we strive to protect our communities. Because of this, you must have our permission to use Reddit\u2019s trademarks and other brand assets, including as authorized under our brand guidelines. ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Apple Inc.",
             "Third-party App Developers"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Apple App Store Brand Guidelines",
             "U.S. Trademark Law"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Nike vs. MSCHF's Lil Nas X Satan Shoes",
         "example_background": "MSCHF collaborated with Lil Nas X in 2021 to create limited-edition Nike Air Max 97 shoes modified with human blood in a pentagram vial, named 'Satan Shoes,' using Nike's 'Swoosh' logo and Flywire technology without permission. The shoes sold out instantly via lottery.",
         "process_and_outcome": "Nike sued MSCHF for trademark infringement. A New York federal court issued a temporary restraining order halting sales on April 2021. The case settled with MSCHF agreeing to cease production and sales.",
+        "source_rule": "Reddit is committed to bringing community, belonging and empowerment to everyone in the world. As we work towards our mission, we grow and create things people love. This is how we\u2019ve developed a substantial amount of intellectual property, which we are committed to protect - the same way we strive to protect our communities. Because of this, you must have our permission to use Reddit\u2019s trademarks and other brand assets, including as authorized under our brand guidelines. ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Nike Inc.",
             "MSCHF Product Studio Inc.",
             "U.S. District Court for the Southern District of New York"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2021"
     },
     {
         "example_name": "Coca-Cola Brand Protection Program Success",
         "example_background": "Coca-Cola implemented a global trademark enforcement program partnering with platforms like Amazon and Alibaba to monitor and report unauthorized uses of its Script logo, bottle shapes, and product names by counterfeit sellers and parody products.",
         "process_and_outcome": "Through proactive reporting and takedowns, Coca-Cola removed over 100,000 infringing listings annually, maintaining brand integrity without major litigation, as detailed in their 2022 sustainability report.",
+        "source_rule": "Reddit is committed to bringing community, belonging and empowerment to everyone in the world. As we work towards our mission, we grow and create things people love. This is how we\u2019ve developed a substantial amount of intellectual property, which we are committed to protect - the same way we strive to protect our communities. Because of this, you must have our permission to use Reddit\u2019s trademarks and other brand assets, including as authorized under our brand guidelines. ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "The Coca-Cola Company",
             "Amazon",
             "Alibaba Group",
             "USPTO"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Coca-Cola Trademark Guidelines",
             "Lanham Act"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Starbucks vs. Fred's Coffee Shop",
         "example_background": "Fred's Coffee Shop in Colorado used cups with green circles and mermaid-like designs similar to Starbucks' iconic logo. Starbucks initiated legal action alleging trademark infringement and dilution, claiming the designs created likelihood of confusion among customers. The case involved examination of logo similarities, market proximity, and consumer perception through discovery processes.",
         "process_and_outcome": "A federal jury in 2005 found Fred's liable for willful infringement. Starbucks was awarded $526,321 in damages plus attorney fees. Fred's appealed but settled, agreeing to cease use of the designs and pay additional compensation.",
+        "source_rule": "Reddit\u2019s trademarks and other brand assets are owned by Reddit. You may only use Reddit trademarks and brand assets in accordance with our brand guidelines and this policy or as otherwise permitted by Reddit in writing. You may not: ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Starbucks Corporation (plaintiff)",
             "Fred's Coffee Shop (defendant)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act trademark infringement",
             "Trademark dilution under 15 U.S.C. \u00a7 1125(c)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Red Bull Unauthorized Merchandise Seller Fine",
         "example_background": "An online seller offered T-shirts, hats, and stickers featuring Red Bull's red bull logo and slogan without permission. The products were marketed on e-commerce platforms targeting energy drink enthusiasts. Red Bull detected the listings through monitoring and issued cease-and-desist notices followed by litigation.",
         "process_and_outcome": "In 2018, a Florida federal court granted summary judgment to Red Bull, issuing a permanent injunction and ordering $101,000 in statutory damages for counterfeiting and infringement.",
+        "source_rule": "Reddit\u2019s trademarks and other brand assets are owned by Reddit. You may only use Reddit trademarks and brand assets in accordance with our brand guidelines and this policy or as otherwise permitted by Reddit in writing. You may not: ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Red Bull GmbH (plaintiff)",
             "Unnamed merchandise seller (defendant)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act \u00a7 1114 (infringement)",
             "Lanham Act \u00a7 1116 (counterfeiting)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Adidas vs. Payless 'Rip-Off' Shoes",
         "example_background": "Payless ShoeSource sold budget sneakers named 'Four Shoes' and 'Rip-Off' mimicking Adidas' three-stripe design with four stripes. The shoes were priced at $30 and marketed as alternatives. Adidas pursued claims after consumer surveys showed confusion rates over 20%.",
         "process_and_outcome": "A Oregon federal jury awarded Adidas $305 million in 2018 for willful infringement, the largest trademark verdict at the time. Payless filed bankruptcy but paid reduced $2.8 million settlement.",
+        "source_rule": "Reddit\u2019s trademarks and other brand assets are owned by Reddit. You may only use Reddit trademarks and brand assets in accordance with our brand guidelines and this policy or as otherwise permitted by Reddit in writing. You may not: ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Adidas AG (plaintiff)",
             "Payless Inc. (defendant)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act trade dress infringement",
             "15 U.S.C. \u00a7 1117 willful damages"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Apple vs. Franklin Phone Case",
         "example_background": "Franklin Covey sold phone cases featuring sliced apple designs resembling Apple's logo. The products were promoted on Amazon as iPhone accessories. Apple enforced its trademarks through demand letters and subsequent lawsuit over logo similarity.",
         "process_and_outcome": "In 2019, a California federal court issued a permanent injunction against Franklin, ordering destruction of inventory and $181,000 damages for counterfeiting.",
+        "source_rule": "Reddit\u2019s trademarks and other brand assets are owned by Reddit. You may only use Reddit trademarks and brand assets in accordance with our brand guidelines and this policy or as otherwise permitted by Reddit in writing. You may not: ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Apple Inc. (plaintiff)",
             "Franklin Covey Co. (defendant)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act \u00a7 1114(1)(a)",
             "Counterfeit Mark statutes"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Nike Brand Guidelines Compliance Program",
         "example_background": "Nike maintains detailed public brand guidelines specifying approved uses of swoosh, Just Do It slogan, and color schemes for partners, affiliates, and fan content. The company provides toolkits for compliant athlete endorsements and event sponsorships, requiring pre-approval for logo alterations.",
         "process_and_outcome": "Nike's program has enabled thousands of compliant activations annually, with regular audits ensuring adherence. Partners receive certification upon review, supporting global campaigns without disputes.",
+        "source_rule": "Reddit\u2019s trademarks and other brand assets are owned by Reddit. You may only use Reddit trademarks and brand assets in accordance with our brand guidelines and this policy or as otherwise permitted by Reddit in writing. You may not: ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Nike Inc. (brand owner)",
             "Marketing partners and licensees"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Nike Trademark and Brand Usage Guidelines",
             "Internal approval policies"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Coca-Cola Brand Asset Toolkit Usage",
         "example_background": "Coca-Cola offers a digital Brand Asset Toolkit to authorized bottlers and advertisers, including vector files of script logo, bottle silhouette, and color palette with strict spacing and sizing rules. Usage logs track downloads and applications across 200+ countries.",
         "process_and_outcome": "The toolkit facilitated compliant executions in Super Bowl ads and Olympics sponsorships, with zero enforcement actions against licensees due to pre-vetted designs.",
+        "source_rule": "Reddit\u2019s trademarks and other brand assets are owned by Reddit. You may only use Reddit trademarks and brand assets in accordance with our brand guidelines and this policy or as otherwise permitted by Reddit in writing. You may not: ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "The Coca-Cola Company (owner)",
             "Bottling partners, agencies"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Coca-Cola Brand Leadership Council Guidelines",
             "Trademark license agreements"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "South Butt v. North Face Trademark Dispute",
         "example_background": "The South Butt, a parody apparel company, produced clothing and accessories mimicking the North Face brand with names such as 'The South Butt' and logos featuring a mountain and tent design. The company operated an online store and gained attention for its satirical take on outdoor gear. North Face observed the similarities in branding and packaging, which included labels and hang tags resembling their own. South Butt expanded its product line to include jackets, shirts, and hats, all bearing the parody marks. The matter escalated when North Face issued a cease and desist letter demanding discontinuation of the products. South Butt responded by filing a lawsuit seeking declaration of non-infringement, leading to counterclaims from North Face alleging unauthorized use of trademarks.",
         "process_and_outcome": "The U.S. District Court for the Central District of California ruled in favor of North Face, granting a permanent injunction against South Butt's use of the marks and awarding over $500,000 in damages plus attorney fees. South Butt was ordered to destroy all infringing goods and packaging. The decision emphasized likelihood of consumer confusion despite parody claims.",
+        "source_rule": "Below is a non-exhaustive list of Reddit\u2019s trademarks. Reddit has not waived its rights in any logo or product name not included on this list.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "The North Face Apparel Corp (plaintiff)",
             "South Butt LLC (defendant)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act (15 U.S.C. \u00a7 1114)",
             "Trademark infringement laws"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "PepsiCo v. 'Pepsi' Domain Name Registrants",
         "example_background": "PepsiCo identified multiple domain names such as pepsi.com (initially registered by others) that incorporated its prominent 'Pepsi' trademark without authorization. These domains were used for websites offering unrelated content or parked pages, some redirecting traffic. PepsiCo, holder of federal trademark registrations for PEPSI since 1906, pursued claims under domain dispute policies. Similar issues arose with variations like drinkpepsi.com. The company systematically monitored domain registrations to protect its global brand identity used in beverages and merchandise.",
         "process_and_outcome": "Through the National Arbitration Forum and UDRP proceedings, PepsiCo prevailed in transferring numerous disputed domains to its control. Panels found bad faith registration and use, citing PepsiCo's prior rights and lack of legitimate interest by registrants.",
+        "source_rule": "Below is a non-exhaustive list of Reddit\u2019s trademarks. Reddit has not waived its rights in any logo or product name not included on this list.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "PepsiCo Inc. (complainant)",
             "Various domain registrants (respondents)",
             "National Arbitration Forum (arbitrator)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Uniform Domain-Name Dispute-Resolution Policy (UDRP)",
             "Lanham Act"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Tiffany & Co. v. eBay Trademark Case",
         "example_background": "Tiffany & Co., known for its jewelry and TIFFANY trademarks, observed widespread listings of counterfeit TIFFANY-marked products on eBay's auction platform. Counterfeiters used the exact TIFFANY word mark and signature blue box design on fake rings, necklaces, and bracelets sold to unsuspecting buyers. Tiffany provided notice of claimed infringement to eBay over years, tracking thousands of listings. eBay facilitated sales through its marketplace structure without initially verifying seller authenticity. The volume of infringing goods raised concerns about dilution of Tiffany's luxury brand reputation.",
         "process_and_outcome": "The U.S. District Court for the Southern District of New York ruled eBay not directly liable for trademark infringement due to lack of control over listings but held it contributorily liable in some aspects. Tiffany's direct claims against counterfeit sellers proceeded separately. The case set precedents for online marketplace responsibilities.",
+        "source_rule": "Below is a non-exhaustive list of Reddit\u2019s trademarks. Reddit has not waived its rights in any logo or product name not included on this list.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Tiffany & Co. (plaintiff)",
             "eBay Inc. (defendant)",
             "Counterfeit sellers"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act (15 U.S.C. \u00a7 1114)",
             "Trademark Counterfeiting Act"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Red Bull GmbH v. 'Red Bull' Unauthorized Merchandise Sellers",
         "example_background": "Red Bull identified numerous online sellers offering clothing, energy drinks, and accessories bearing unauthorized reproductions of its RED BULL word mark and 'two red bulls charging at a yellow sun' logo. These products appeared on platforms like Amazon and eBay, mimicking official merchandise in design and packaging. Red Bull, with registrations dating back to 1985, conducted sweeps and issued takedown notices to protect its brand associated with extreme sports and beverages.",
         "process_and_outcome": "Red Bull secured default judgments in U.S. federal courts against defendants, including statutory damages up to $2 million per mark, permanent injunctions, and destruction of goods. Multiple cases resulted in over $10 million in awards.",
+        "source_rule": "Below is a non-exhaustive list of Reddit\u2019s trademarks. Reddit has not waived its rights in any logo or product name not included on this list.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Red Bull GmbH (plaintiff)",
             "Various counterfeiters (defendants)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act",
             "Trademark Counterfeiting Act (18 U.S.C. \u00a7 2320)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "McDonald's Corp. v. 'McSleep' Hotel Chain",
         "example_background": "A Texas hotel named McSleep Inn & Suites used signage and promotions featuring 'McSleep' alongside golden arches-style designs resembling McDonald's golden arches. The name was used for budget lodging services. McDonald's, owner of extensive MC-family trademarks for food services, argued the name and logo evoked its marks, potentially confusing consumers about affiliation. The hotel operated multiple locations and advertised locally.",
         "process_and_outcome": "The U.S. District Court for the Northern District of Texas granted McDonald's summary judgment on infringement, issuing a permanent injunction and $567,000 in damages. The appeals court affirmed.",
+        "source_rule": "Below is a non-exhaustive list of Reddit\u2019s trademarks. Reddit has not waived its rights in any logo or product name not included on this list.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "McDonald's Corporation (plaintiff)",
             "McSleep Inn & Suites (defendant)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act (15 U.S.C. \u00a7 1114)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "New Era Cap v. 'Creative Products' Fake MLB Logos",
         "example_background": "New Era held exclusive licenses for MLB team logos on headwear. Creative Products manufactured and sold baseball caps bearing counterfeit MLB team names, logos, and designs identical to licensed products. These were distributed to wholesalers and retailers nationwide. New Era's monitoring revealed thousands of infringing caps entering the market, impacting official merchandise sales.",
         "process_and_outcome": "U.S. District Court for the Western District of New York awarded New Era $15 million in statutory damages, $1.1 million in profits, and injunctive relief. Criminal charges followed under counterfeiting statutes.",
+        "source_rule": "Below is a non-exhaustive list of Reddit\u2019s trademarks. Reddit has not waived its rights in any logo or product name not included on this list.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "New Era Cap Co. (plaintiff)",
             "Creative Products International (defendant)",
             "MLB (licensor)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act",
             "Trademark Counterfeiting Act"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Gucci America v. Duty Free Apparel Counterfeits",
         "example_background": "Duty Free Apparel operated a store selling handbags, wallets, and belts bearing exact copies of Gucci's GG monogram, bamboo handle designs, and GUCCI word mark. Products were sourced from overseas and retailed in New York. Gucci's investigators purchased samples confirming high-quality fakes indistinguishable from genuine items to casual observers.",
         "process_and_outcome": "Southern District of New York jury awarded Gucci $13 million in damages. Appeals upheld, with defendants paying enhanced statutory awards for willful infringement.",
+        "source_rule": "Below is a non-exhaustive list of Reddit\u2019s trademarks. Reddit has not waived its rights in any logo or product name not included on this list.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Gucci America Inc. (plaintiff)",
             "Duty Free Apparel Ltd. (defendant)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act",
             "18 U.S.C. \u00a7 2320"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Coca-Cola v. 'Koke' Beverage Competitor",
         "example_background": "In the 1920s, Koke Company of America produced and marketed a cola beverage under the 'Koke' name with packaging and advertising phonetically and visually similar to Coca-Cola's distinctive script logo and contour bottle. Koke targeted the same cola market, leading to dealer and consumer mix-ups. Coca-Cola enforced its long-standing COKE trademarks registered since 1893.",
         "process_and_outcome": "U.S. Supreme Court ruled in favor of Coca-Cola in 1920, permanently enjoining Koke's use of the name and confusingly similar trade dress across multiple states.",
+        "source_rule": "Below is a non-exhaustive list of Reddit\u2019s trademarks. Reddit has not waived its rights in any logo or product name not included on this list.",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "The Coca-Cola Company (plaintiff)",
             "Koke Company of America (defendant)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act predecessor statutes",
             "Common law trademark rights"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Burger King 'Whopper' Detour App Campaign",
         "example_background": "Burger King released a mobile app called 'Whopper Detour' in 2018 that prompted users to drive to a McDonald's location and enable geolocation services. Once at McDonald's, the app offered a 1-cent Whopper at Burger King locations. The app used the phrase 'McDonald's free food' in its description on app stores. McDonald's sent cease-and-desist letters alleging trademark infringement through the reference to its name and use of its location data. Burger King proceeded with the campaign, which generated significant media attention and app downloads.",
         "process_and_outcome": "McDonald's did not pursue further litigation, and the campaign concluded successfully for Burger King. The app was downloaded over 1.5 million times, driving substantial customer traffic and sales. No formal enforcement actions or penalties resulted from the dispute.",
+        "source_rule": "English Trademark Policy *Note that some of Reddit\u2019s trademarks need to be used with a generic term in addition to the trademark. We listed generic terms as suggestions above, but you may use other generic words that accurately describe the relevant goods or services. ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Burger King",
             "McDonald's Corporation"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act",
             "Trademark Use Guidelines"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2018"
     },
     {
         "example_name": "Red Bull vs. Bullsport",
         "example_background": "Red Bull GmbH, known for its energy drinks and extreme sports sponsorships, encountered a German company named Bullsport using a similar bull logo and name for clothing and accessories. Red Bull claimed the branding created confusion among consumers regarding the origin of the products. The dispute involved packaging, advertising, and point-of-sale displays where Bullsport's marks appeared alongside Red Bull products in some retail settings. Red Bull sought injunctions to halt the use.",
         "process_and_outcome": "German courts ruled in favor of Red Bull, issuing an injunction against Bullsport in 2019. Bullsport was ordered to cease use of the marks and destroy infringing goods. Red Bull was awarded damages for lost profits and legal costs.",
+        "source_rule": "English Trademark Policy *Note that some of Reddit\u2019s trademarks need to be used with a generic term in addition to the trademark. We listed generic terms as suggestions above, but you may use other generic words that accurately describe the relevant goods or services. ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Red Bull GmbH",
             "Bullsport GmbH",
             "German Federal Patent Court"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "EU Trademark Regulation (2017/1001)",
             "German Trademark Act (MarkenG)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Apple's App Store Nominative Use Guidelines",
         "example_background": "Apple maintains strict guidelines for its App Store where developers reference 'App Store' in app names and marketing materials. Apple requires use with generic descriptors, such as 'App Store app' or 'available on the App Store.' Numerous developers have complied by structuring app titles like 'MyApp - Available on the App Store' to inform users while distinguishing the source. Apple audits submissions and provides examples in its developer documentation.",
         "process_and_outcome": "Developers following these guidelines have apps approved and listed successfully. Apple has approved millions of apps adhering to these rules, contributing to the platform's growth without infringement claims.",
+        "source_rule": "English Trademark Policy *Note that some of Reddit\u2019s trademarks need to be used with a generic term in addition to the trademark. We listed generic terms as suggestions above, but you may use other generic words that accurately describe the relevant goods or services. ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Apple Inc.",
             "App Developers"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Apple App Store Review Guidelines 5.2.1",
             "Lanham Act Nominative Fair Use"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Nike vs. The Shoe Surgeon",
         "example_background": "Isaiah Michael Louis, operating as The Shoe Surgeon, customized and sold Nike sneakers featuring exact reproductions of Nike's Air Jordan trademarks and designs. Sales occurred through an online store with products marketed using Nike model names and logos prominently displayed. Nike initiated action claiming unauthorized commercial use of its trademarks on modified goods.",
         "process_and_outcome": "In 2020, a U.S. federal court granted Nike a preliminary injunction. The Shoe Surgeon was barred from using Nike trademarks, and existing inventory was subject to seizure. The case settled with ongoing restrictions on customization practices.",
+        "source_rule": "English Trademark Policy *Note that some of Reddit\u2019s trademarks need to be used with a generic term in addition to the trademark. We listed generic terms as suggestions above, but you may use other generic words that accurately describe the relevant goods or services. ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Nike, Inc.",
             "Isaiah Michael Louis dba The Shoe Surgeon",
             "U.S. District Court (CD Cal)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act (15 U.S.C. \u00a7 1114)",
             "Trademark Counterfeiting Laws"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Starbucks 'Starbucks Frappuccino' Generic Pairing",
         "example_background": "Starbucks licenses its 'Frappuccino' trademark for use in product descriptions paired with generic terms like 'Starbucks Frappuccino drink' or 'Starbucks Frappuccino bottled beverage.' Bottled versions sold in grocery stores by partners such as PepsiCo feature the trademark alongside descriptors indicating the beverage category. This practice appears on packaging, websites, and advertising materials.",
         "process_and_outcome": "Products have been distributed globally without trademark disputes. The licensing model supports expanded retail presence and revenue sharing between Starbucks and partners.",
+        "source_rule": "English Trademark Policy *Note that some of Reddit\u2019s trademarks need to be used with a generic term in addition to the trademark. We listed generic terms as suggestions above, but you may use other generic words that accurately describe the relevant goods or services. ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Starbucks Corporation",
             "PepsiCo North America"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Starbucks Trademark Licensing Guidelines",
             "USPTO Trademark Use Requirements"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Google's Android Trademark Guidelines Compliance",
         "example_background": "Google provides detailed guidelines for using 'Android' trademark, requiring pairing with generic terms like 'Android phone,' 'Android app,' or 'Android device.' Manufacturers such as Samsung and OnePlus follow these in product naming (e.g., 'Samsung Galaxy Android Smartphone') and marketing materials. Documentation includes examples and approved usages.",
         "process_and_outcome": "Devices and apps using compliant naming receive certification and access to Google Play Services. Thousands of products have been certified annually without issues.",
+        "source_rule": "English Trademark Policy *Note that some of Reddit\u2019s trademarks need to be used with a generic term in addition to the trademark. We listed generic terms as suggestions above, but you may use other generic words that accurately describe the relevant goods or services. ",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Google LLC",
             "Samsung Electronics",
             "OnePlus"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Google Android Trademark Terms of Use",
             "USPTO Generic Term Pairing"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Coca-Cola vs. Keurig Dr Pepper",
         "example_background": "Keurig introduced 'Coca-Cola Mini Fridge' branded appliances in 2019 using Coca-Cola's trademarks prominently on the exterior without prior licensing approval. The products were marketed as official Coca-Cola merchandise. Coca-Cola objected to the unauthorized use in retail and online sales.",
         "process_and_outcome": "Products were pulled from shelves following Coca-Cola's demand letters. Keurig discontinued the line and faced no litigation but adjusted future branding practices.",
+        "source_rule": "English Trademark Policy *Note that some of Reddit\u2019s trademarks need to be used with a generic term in addition to the trademark. We listed generic terms as suggestions above, but you may use other generic words that accurately describe the relevant goods or services. ",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Coca-Cola Company",
             "Keurig Dr Pepper"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Lanham Act",
             "Unauthorized Trademark Licensing"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2019"
     }
 ]

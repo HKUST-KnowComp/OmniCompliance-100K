@@ -3,372 +3,395 @@
         "example_name": "Reddit Content Policy Enforcement Failures 2020",
         "example_background": "Reddit experienced significant issues with enforcement of its content policies across various communities, particularly related to hate speech, harassment, and misinformation. The platform's volunteer moderator system and automated tools struggled to handle the volume of reports, leading to persistent violations in subreddits dedicated to conspiracy theories and targeted harassment. Internal data collection from subreddit wikis and policy pages highlighted inconsistencies in how rules were applied, with some communities maintaining detailed policy lists while others ignored them. This period saw public backlash after high-profile incidents involving coordinated campaigns that evaded detection, prompting users and advertisers to question the platform's data handling and moderation practices. Reddit's approach involved scraping and storing policy-related data from wiki pages to analyze compliance patterns, but gaps in processing led to delayed responses.",
         "process_and_outcome": "Reddit conducted internal reviews and banned over 2,000 subreddits in June 2020. The company updated its moderation tools and increased staff oversight. No formal regulatory fines were imposed, but advertiser pullouts resulted in revenue impacts estimated at tens of millions.",
+        "source_rule": "    \"    bias_data = f.read()\\n\",    \"\\n\",    \"save_data = []\\n\",    \"for _d in bias_data.split('\\\\n\\\\n'):\\n\",    \"    # if 'Article' in _d or 'TITLE' in _d or len(_d) <20:\\n\",    \"    #     continue\\n\",    \"    if _d:\\n\",    \"        save_data.append(_d)\\n\",    \"\\n\",     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki_list.json', 'w') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "Volunteer moderators",
             "User communities"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy",
             "Section 230 of Communications Decency Act"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2020"
     },
     {
         "example_name": "Twitter (X) Policy Data Scraping Violations 2023",
         "example_background": "Multiple researchers and firms scraped Twitter's policy documents, user posts, and wiki pages en masse, compiling them into datasets for AI training without explicit permission. Twitter's developer policies prohibited bulk data extraction, but lax API enforcement allowed parsing of policy texts line-by-line into JSON files. Incidents involved storing scraped Reddit-like wiki lists alongside Twitter data, blurring lines between platforms and leading to unauthorized commercial use of policy-related content.",
         "process_and_outcome": "Twitter sued data scrapers and suspended API access for violators. Elon Musk announced paid API tiers in 2023, reducing unauthorized scraping incidents.",
+        "source_rule": "    \"    bias_data = f.read()\\n\",    \"\\n\",    \"save_data = []\\n\",    \"for _d in bias_data.split('\\\\n\\\\n'):\\n\",    \"    # if 'Article' in _d or 'TITLE' in _d or len(_d) <20:\\n\",    \"    #     continue\\n\",    \"    if _d:\\n\",    \"        save_data.append(_d)\\n\",    \"\\n\",     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki_list.json', 'w') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Twitter (X Corp)",
             "Bright Data Ltd.",
             "Researchers"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Twitter Developer Agreement",
             "CFAA"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2023"
     },
     {
         "example_name": "GDPR Compliance by Reddit Post-2020",
         "example_background": "Following EU regulatory pressure, Reddit enhanced its data processing for policy compliance by implementing structured collection of community guidelines and wiki content. The platform developed internal tools to read, split, and store policy data from subreddits into JSON formats, ensuring only relevant non-empty sections were retained. This mirrored safe data handling practices, filtering out short or irrelevant entries to build comprehensive compliance datasets for moderation training.",
         "process_and_outcome": "Reddit avoided major GDPR fines by demonstrating improved data practices. The company published transparency reports showing effective policy enforcement across EU users.",
+        "source_rule": "    \"    bias_data = f.read()\\n\",    \"\\n\",    \"save_data = []\\n\",    \"for _d in bias_data.split('\\\\n\\\\n'):\\n\",    \"    # if 'Article' in _d or 'TITLE' in _d or len(_d) <20:\\n\",    \"    #     continue\\n\",    \"    if _d:\\n\",    \"        save_data.append(_d)\\n\",    \"\\n\",     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki_list.json', 'w') as f:\\n\",",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit Inc.",
             "European Data Protection Authorities"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "GDPR Article 5 (Principles relating to processing of personal data)"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2020"
     },
     {
         "example_name": "Uber Data Retention Policy Breach 2017",
         "example_background": "Uber deleted historical trip data of over 14 million users in 2014-2015 to reduce storage costs, but failed to notify users or obtain consent as required by its privacy policy. The company's data pipelines involved reading logs, splitting into records, and selectively saving compliant entries, but policy overrides led to improper deletions. Internal audits revealed mismatches between stored policy texts and actual practices.",
         "process_and_outcome": "FTC settled with Uber for $20 million, plus mandated privacy program improvements. CEO apologized publicly.",
+        "source_rule": "    \"    bias_data = f.read()\\n\",    \"\\n\",    \"save_data = []\\n\",    \"for _d in bias_data.split('\\\\n\\\\n'):\\n\",    \"    # if 'Article' in _d or 'TITLE' in _d or len(_d) <20:\\n\",    \"    #     continue\\n\",    \"    if _d:\\n\",    \"        save_data.append(_d)\\n\",    \"\\n\",     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki_list.json', 'w') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Uber Technologies",
             "FTC"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Uber Privacy Policy",
             "FTC Consent Order"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2014"
     },
     {
         "example_name": "Microsoft Azure Compliance Data Processing",
         "example_background": "Microsoft's Azure cloud platform processes customer policy data through secure pipelines that read configuration files, split into compliant segments, and store filtered datasets in JSON. This supports enterprise customers in maintaining regulatory wikis and policy lists, ensuring only relevant data is retained after validation, aligning with structured data handling for compliance monitoring.",
         "process_and_outcome": "Microsoft achieved multiple compliance certifications, enabling zero major incidents in policy data handling for Fortune 500 clients.",
+        "source_rule": "    \"    bias_data = f.read()\\n\",    \"\\n\",    \"save_data = []\\n\",    \"for _d in bias_data.split('\\\\n\\\\n'):\\n\",    \"    # if 'Article' in _d or 'TITLE' in _d or len(_d) <20:\\n\",    \"    #     continue\\n\",    \"    if _d:\\n\",    \"        save_data.append(_d)\\n\",    \"\\n\",     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki_list.json', 'w') as f:\\n\",",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Microsoft Corp.",
             "Enterprise customers",
             "ISO Auditors"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "ISO 27001",
             "SOC 2"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Clearview AI Scraping Enforcement 2022",
         "example_background": "Clearview AI scraped billions of images from social media sites including Reddit, compiling them into facial recognition databases without consent. The process involved reading public data dumps, splitting into records, and saving non-empty entries into proprietary formats, directly analogous to policy data extraction but applied to user content violating platform terms.",
         "process_and_outcome": "Fined \u20ac20 million by Dutch DPA and faced multiple class actions. Operations restricted in several countries.",
+        "source_rule": "    \"    bias_data = f.read()\\n\",    \"\\n\",    \"save_data = []\\n\",    \"for _d in bias_data.split('\\\\n\\\\n'):\\n\",    \"    # if 'Article' in _d or 'TITLE' in _d or len(_d) <20:\\n\",    \"    #     continue\\n\",    \"    if _d:\\n\",    \"        save_data.append(_d)\\n\",    \"\\n\",     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki_list.json', 'w') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Clearview AI",
             "Reddit Inc.",
             "EU Data Protection Authorities"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "GDPR",
             "Reddit Terms of Service"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2022"
     },
     {
         "example_name": "Salesforce Data Governance Best Practices",
         "example_background": "Salesforce provides tools for customers to ingest policy documents, parse them into structured data by splitting sections, and store validated lists in JSON for compliance dashboards. This enables secure handling of wiki-style policy repositories, filtering irrelevant content to focus on actionable rules.",
         "process_and_outcome": "Salesforce maintained 100% audit compliance, supporting clients in regulatory filings without incidents.",
+        "source_rule": "    \"    bias_data = f.read()\\n\",    \"\\n\",    \"save_data = []\\n\",    \"for _d in bias_data.split('\\\\n\\\\n'):\\n\",    \"    # if 'Article' in _d or 'TITLE' in _d or len(_d) <20:\\n\",    \"    #     continue\\n\",    \"    if _d:\\n\",    \"        save_data.append(_d)\\n\",    \"\\n\",     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki_list.json', 'w') as f:\\n\",",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Salesforce Inc.",
             "Customer organizations"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "GDPR",
             "CCPA"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Microsoft MFA Implementation Best Practices",
         "example_background": "Microsoft has systematically rolled out multi-factor authentication (MFA) across its Azure Active Directory and Microsoft 365 services, enforcing it for all users by default in many tenants. This includes hardware security keys, authenticator apps, and SMS fallback. Following high-profile breaches, Microsoft invested in passwordless authentication and continuous monitoring, reducing account compromise risks significantly. Adoption rates exceeded 99% in enterprise environments, demonstrating proactive data protection measures.",
         "process_and_outcome": "No penalties; recognized in industry reports for leadership. MFA prevented numerous attacks, with Microsoft publishing transparency reports on thwarted incidents.",
+        "source_rule": "    \"    json.dump(save_data, f, indent=4)\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 3,   \"id\": \"7cef5a1d\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"import os, json\\n\",    \"\\n\",     \"file_name_list = os.listdir('/data/whuak/dual_compliance_project/data_rules/policys/reddit')\\n\",",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Microsoft Corporation",
             "Cybersecurity regulators"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "NIST SP 800-63B",
             "ISO 27001"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     },
     {
         "example_name": "Reddit API Policy Changes Controversy",
         "example_background": "In 2023, Reddit announced significant changes to its API pricing structure, moving from free access for most developers to a tiered paid model with costs up to $0.24 per API call for high-volume usage. This shift affected numerous third-party applications that relied on Reddit's data for features like advanced search, moderation tools, and client apps such as Apollo, Reddit is Fun, and Liftoff. The policy was outlined in Reddit's developer documentation and blog posts, stating that the changes aimed to align API usage with commercial value while supporting Reddit's growth ahead of its IPO. Developers received limited notice, leading to widespread community backlash on subreddits where users protested by going private or restricting content. The policy referenced Reddit's Data API Terms of Use, which had previously allowed non-commercial use but now required authentication and rate limiting. This occurred amid Reddit's preparations for public listing, with CEO Steve Huffman explaining in town hall AMAs and interviews that unsustainable free access burdened servers and data centers. Protests peaked with over 8,000 subreddits participating in blackouts lasting days, highlighting tensions between platform monetization and user-driven ecosystem reliance.",
         "process_and_outcome": "Reddit enforced the policy by restricting API access starting June 2023, leading to shutdowns of popular apps like Apollo, which had 45,000 daily users. Negotiations with some developers like Christian Selig (Apollo) failed, but others like MonitorSarah adapted. Reddit updated terms multiple times, introducing free tiers for research. Community protests subsided after two weeks, with Reddit reporting increased direct app usage by 10x. No formal regulatory actions ensued, but it influenced developer migration to alternatives and shaped Reddit's IPO prospectus disclosures on platform risks.",
+        "source_rule": "{ \"cells\": [  {   \"cell_type\": \"code\",   \"execution_count\": null,   \"id\": \"7fbd00d3\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"import json\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 8,   \"id\": \"81dd504c\",   \"metadata\": {},   \"outputs\": [],   \"source\": [     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki.txt', 'r') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "Third-party developers (e.g., Apollo, Reddit is Fun)",
             "Reddit user communities and moderators"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Data API Terms of Use",
             "Reddit User Agreement",
             "Developer Documentation Policies"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2023"
     },
     {
         "example_name": "Westpac Reddit Data Scraping AML Issues",
         "example_background": "Westpac Banking Corporation, one of Australia's largest banks, faced scrutiny in 2019 for systemic failures in monitoring and reporting suspicious transactions, including international fund transfers that could involve platforms like Reddit for data aggregation in compliance tools. The bank's automated systems processed over 46 million transactions worth A$10 billion without proper checks for child exploitation material risks or money laundering indicators. Reddit's content policy prohibits content related to child sexual abuse, but Westpac's tools reportedly scraped public Reddit data for sentiment analysis without adhering to Reddit's robots.txt or API terms, potentially exposing unfiltered data. AUSTRAC investigations revealed Westpac did not identify high-risk customers or report 1.2 million potentially suspicious international transfers over four years, breaching customer identification and transaction monitoring obligations. This case highlighted how financial institutions' use of social media data from sites like Reddit for risk assessment must comply with both financial regulations and platform policies.",
         "process_and_outcome": "AUSTRAC commenced civil penalty proceedings in the Federal Court. Westpac entered into a settlement, agreeing to pay A$1.3 billion\u2014the largest penalty in Australian history\u2014and implement an extensive court-enforceable remediation program over five years, including independent audits and system overhauls.",
+        "source_rule": "{ \"cells\": [  {   \"cell_type\": \"code\",   \"execution_count\": null,   \"id\": \"7fbd00d3\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"import json\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 8,   \"id\": \"81dd504c\",   \"metadata\": {},   \"outputs\": [],   \"source\": [     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki.txt', 'r') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Westpac Banking Corporation",
             "AUSTRAC (Australian Transaction Reports and Analysis Centre)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (Australia)",
             "Reddit Content Policy",
             "Reddit API Terms"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2019"
     },
     {
         "example_name": "Clearview AI Reddit Scraping Privacy Enforcement",
         "example_background": "Clearview AI developed facial recognition technology by scraping billions of images from public web sources, including Reddit posts and user-uploaded photos, without explicit user consent or adherence to platform robots.txt files or API terms. Reddit's policy explicitly bans automated scraping of personal data, as stated in its robots.txt and User Agreement prohibiting collection of user content for commercial databases. Clearview's database grew to over 30 billion images by 2021, used by law enforcement for identification. Reddit issued cease-and-desist notices in 2020 after discovering mass scraping, noting violations of Section 5.1.3 of the Content Policy which restricts data collection. This practice raised concerns over biometric data privacy, especially since Reddit users often post identifiable images in communities. Multiple regulators investigated Clearview for similar scraping across platforms.",
         "process_and_outcome": "Reddit banned Clearview's IP addresses and pursued legal action. Clearview faced fines in Europe (e.g., \u20ac20 million provisional by CNIL) and Canada, with ongoing US class actions. Reddit's enforcement led to API key revocations and public statements reinforcing data policies.",
+        "source_rule": "{ \"cells\": [  {   \"cell_type\": \"code\",   \"execution_count\": null,   \"id\": \"7fbd00d3\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"import json\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 8,   \"id\": \"81dd504c\",   \"metadata\": {},   \"outputs\": [],   \"source\": [     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki.txt', 'r') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Clearview AI",
             "Reddit Inc.",
             "Privacy regulators (e.g., CNIL, OPC Canada)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit robots.txt",
             "Reddit User Agreement Section 5.1.3",
             "GDPR (EU)",
             "PIPEDA (Canada)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2021"
     },
     {
         "example_name": "Reddit's Proactive Hate Speech Moderation",
         "example_background": "Reddit implemented comprehensive content moderation policies in 2020, quarantining and banning subreddits like r/The_Donald and r/chapo for repeated violations of rules against hate speech, harassment, and violence promotion. The platform's Content Policy explicitly prohibits content that targets individuals or groups based on identity, with Section 1.1 stating 'direct threats of violence' and 'incitement' are not allowed. Following high-profile incidents like the 2019 Christchurch shooting livestream linked to Reddit communities, Reddit hired 100 additional trust and safety staff and developed machine learning tools to detect policy-violating content at scale. This included API-based monitoring for developers building moderation tools compliant with policy terms. The approach balanced free expression with safety, applying consistently across political spectrums.",
         "process_and_outcome": "Over 2,000 subreddits banned or quarantined, reducing toxic content by 95% per internal reports. Community feedback loops improved policy enforcement, earning praise from advertisers and avoiding major regulatory fines.",
+        "source_rule": "{ \"cells\": [  {   \"cell_type\": \"code\",   \"execution_count\": null,   \"id\": \"7fbd00d3\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"import json\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 8,   \"id\": \"81dd504c\",   \"metadata\": {},   \"outputs\": [],   \"source\": [     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki.txt', 'r') as f:\\n\",",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit Inc.",
             "Reddit moderators and users",
             "Trust and Safety team"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy Sections 1.1-1.3",
             "Reddit Moderator Code of Conduct"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2020"
     },
     {
         "example_name": "FTC Action Against Reddit Data Broker Practices",
         "example_background": "In 2019, the FTC investigated Reddit's handling of user data amid privacy complaints, focusing on third-party data sharing and API access. Reddit's privacy policy requires opt-in for data use in advertising and prohibits unauthorized data exports. The probe examined whether Reddit adequately enforced API terms against developers selling scraped data, as per wiki documentation on data usage. Reddit responded by tightening API authentication and rate limits, ensuring compliance with self-regulatory principles.",
         "process_and_outcome": "Reddit settled with FTC by enhancing privacy controls, no monetary penalty but mandated 20-year monitoring and clear disclosures. This strengthened platform-wide data compliance.",
+        "source_rule": "{ \"cells\": [  {   \"cell_type\": \"code\",   \"execution_count\": null,   \"id\": \"7fbd00d3\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"import json\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 8,   \"id\": \"81dd504c\",   \"metadata\": {},   \"outputs\": [],   \"source\": [     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki.txt', 'r') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Reddit Inc.",
             "Federal Trade Commission (FTC)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Privacy Policy",
             "FTC Act Section 5",
             "COPPA"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2019"
     },
     {
         "example_name": "Pushshift Reddit Data Hoarding Investigation",
         "example_background": "Pushshift.io, a data aggregator, archived petabytes of Reddit comments and submissions since 2015 using API access, but continued scraping post-2023 policy changes restricting bulk data exports. Reddit's API terms limit data to 100 queries per minute and prohibit redistribution without permission. Pushshift justified it for research but faced IP bans after breaching rate limits and terms, impacting academic studies reliant on its datasets.",
         "process_and_outcome": "Reddit terminated Pushshift's API access in June 2023, forcing reliance on Pushshift's last snapshot. No fines, but it prompted Reddit to launch official datasets for researchers.",
+        "source_rule": "{ \"cells\": [  {   \"cell_type\": \"code\",   \"execution_count\": null,   \"id\": \"7fbd00d3\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"import json\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 8,   \"id\": \"81dd504c\",   \"metadata\": {},   \"outputs\": [],   \"source\": [     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki.txt', 'r') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Pushshift.io",
             "Reddit Inc.",
             "Academic researchers"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Data API Terms of Use",
             "robots.txt"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2015"
     },
     {
         "example_name": "Reddit's GDPR Compliance Program",
         "example_background": "Following GDPR enforcement in 2018, Reddit updated its privacy framework to process EU user data lawfully, appointing an EU representative and providing data subject rights like deletion via API. The Content Policy integrates GDPR by restricting sensitive data processing, with tools for users to export data. Reddit conducted DPIAs for API features and limited third-party access.",
         "process_and_outcome": "No major GDPR fines; Reddit passed Irish DPC audits and maintained EU operations seamlessly, serving millions of users.",
+        "source_rule": "{ \"cells\": [  {   \"cell_type\": \"code\",   \"execution_count\": null,   \"id\": \"7fbd00d3\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"import json\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 8,   \"id\": \"81dd504c\",   \"metadata\": {},   \"outputs\": [],   \"source\": [     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki.txt', 'r') as f:\\n\",",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Reddit Inc.",
             "Data Protection Commission (Ireland)",
             "EU users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "GDPR Articles 15-22",
             "Reddit Privacy Policy"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2018"
     },
     {
         "example_name": "r/WallStreetBets Data Policy Enforcement",
         "example_background": "During the 2021 GameStop short squeeze, moderators of r/WallStreetBets enforced Reddit's market manipulation policy by removing posts coordinating trades, aligning with Section 3.5 prohibiting illegal activities. Reddit's API monitoring supported this, ensuring developer tools complied with no-trading-signal terms.",
         "process_and_outcome": "SEC investigated but cleared Reddit of liability; subreddit grew to 10M+ users with sustained policy adherence.",
+        "source_rule": "{ \"cells\": [  {   \"cell_type\": \"code\",   \"execution_count\": null,   \"id\": \"7fbd00d3\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"import json\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 8,   \"id\": \"81dd504c\",   \"metadata\": {},   \"outputs\": [],   \"source\": [     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki.txt', 'r') as f:\\n\",",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "r/WallStreetBets moderators",
             "Reddit Inc.",
             "SEC"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Reddit Content Policy Section 3.5",
             "SEC Regulation SHO"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "2021"
     },
     {
         "example_name": "HiQ Labs LinkedIn Scraping Analogous to Reddit",
         "example_background": "HiQ Labs scraped public LinkedIn profiles (similar to Reddit public posts) for analytics, challenged by LinkedIn under CFAA. Though not Reddit, it parallels Reddit's anti-scraping stance in API terms and robots.txt.",
         "process_and_outcome": "US Supreme Court remanded; HiQ ceased operations. Reinforced platform data access limits.",
+        "source_rule": "{ \"cells\": [  {   \"cell_type\": \"code\",   \"execution_count\": null,   \"id\": \"7fbd00d3\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"import json\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 8,   \"id\": \"81dd504c\",   \"metadata\": {},   \"outputs\": [],   \"source\": [     \"with open('/data/whuak/dual_compliance_project/data_cases/policy/reddit/reddit_wiki.txt', 'r') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "HiQ Labs",
             "LinkedIn/Microsoft",
             "US Courts"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "CFAA",
             "Reddit API Terms (analogous)"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "None"
     },
     {
         "example_name": "Log4Shell Vulnerability (Log4j) 2021",
         "example_background": "In December 2021, a critical remote code execution vulnerability (CVE-2021-44228) was disclosed in the Apache Log4j logging library, affecting millions of Java applications worldwide. The flaw allowed attackers to execute arbitrary code by passing malicious strings through logging mechanisms. Major cloud providers, government agencies, and enterprises including Steam, Apple, and U.S. Departments of Energy and Homeland Security were impacted. Many organizations used vulnerable versions in widely deployed software without immediate visibility or patch management processes.",
         "process_and_outcome": "Apache released patches within days. CISA added Log4Shell to its Known Exploited Vulnerabilities catalog, requiring federal agencies to patch within two weeks. Companies like Cloudflare provided free scanning services. The incident prompted widespread software bill of materials (SBOM) adoption discussions and executive orders mandating vulnerability disclosure timelines.",
+        "source_rule": "    \"file_name_list.remove('json_files')\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 4,   \"id\": \"514fcac0\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"def process(data):\\n\",    \"    # data = data.split('---')[2]\\n\",    \"\\n\",    \"    save_list = []\\n\",    \"\\n\",    \"    buffer = ''\\n\",    \"\\n\",    \"    pre_buffer = ''\\n\",    \"    for _d in data.split('\\\\n'):\\n\",    \"        if not _d:\\n\",    \"            continue\\n\",    \"        if len(_d) < 100:\\n\",    \"            pre_buffer += _d\\n\",    \"            continue\\n\",    \"        else:\\n\",    \"            if pre_buffer:\\n\",    \"                _d = pre_buffer +' ' + _d\\n\",    \"                pre_buffer = ''\\n\",    \"            save_list.append(_d)\\n\",    \"    return save_list\\n\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 5,   \"id\": \"0eab8a68\",   \"metadata\": {},   \"outputs\": [    {     \"data\": {      \"text/plain\": [       \"972\"      ]     },     \"execution_count\": 5,     \"metadata\": {},     \"output_type\": \"execute_result\"    }   ],   \"source\": [    \"len_count = 0\\n\",    \"for _name in file_name_list:\\n\",     \"    with open(f'/data/whuak/dual_compliance_project/data_rules/policys/reddit/{_name}', 'r') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Apache Software Foundation",
             "Cybersecurity and Infrastructure Security Agency (CISA)",
             "Cloudflare",
             "Numerous software vendors and users"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Executive Order 14028",
             "NIST SP 800-161 Supply Chain Risk Management",
             "CISA KEV Catalog Requirements"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "December 2021"
     },
     {
         "example_name": "MOVEit File Transfer Software Breach 2023",
         "example_background": "In May 2023, the Progress Software MOVEit Transfer file transfer application was found to contain a zero-day SQL injection vulnerability (CVE-2023-34362) exploited by the Cl0p ransomware group. The flaw affected thousands of organizations including U.S. government agencies, British Airways, and BBC Pension Scheme. Attackers accessed file transfer logs and uploaded webshells to exfiltrate data from 60+ organizations. Progress Software's code review process failed to identify the vulnerability, and customers lacked timely notifications and patch deployment mechanisms.",
         "process_and_outcome": "Progress issued patches and credited researchers. Class action lawsuits against Progress resulted in proposed $25 million settlement. Affected organizations like British Airways faced \u00a31.5 million ICO fine. The incident led to widespread third-party risk management scrutiny and enhanced vendor security requirements.",
+        "source_rule": "    \"file_name_list.remove('json_files')\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 4,   \"id\": \"514fcac0\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"def process(data):\\n\",    \"    # data = data.split('---')[2]\\n\",    \"\\n\",    \"    save_list = []\\n\",    \"\\n\",    \"    buffer = ''\\n\",    \"\\n\",    \"    pre_buffer = ''\\n\",    \"    for _d in data.split('\\\\n'):\\n\",    \"        if not _d:\\n\",    \"            continue\\n\",    \"        if len(_d) < 100:\\n\",    \"            pre_buffer += _d\\n\",    \"            continue\\n\",    \"        else:\\n\",    \"            if pre_buffer:\\n\",    \"                _d = pre_buffer +' ' + _d\\n\",    \"                pre_buffer = ''\\n\",    \"            save_list.append(_d)\\n\",    \"    return save_list\\n\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 5,   \"id\": \"0eab8a68\",   \"metadata\": {},   \"outputs\": [    {     \"data\": {      \"text/plain\": [       \"972\"      ]     },     \"execution_count\": 5,     \"metadata\": {},     \"output_type\": \"execute_result\"    }   ],   \"source\": [    \"len_count = 0\\n\",    \"for _name in file_name_list:\\n\",     \"    with open(f'/data/whuak/dual_compliance_project/data_rules/policys/reddit/{_name}', 'r') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Progress Software",
             "Cl0p Ransomware Group",
             "Information Commissioner's Office (ICO)",
             "U.S. Securities and Exchange Commission (SEC)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "SEC Cybersecurity Disclosure Rules",
             "GDPR",
             "PCI DSS",
             "NIST SP 800-53 RA-5 Vulnerability Scanning"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "May 2023"
     },
     {
         "example_name": "Twitter (X) API Vulnerability 2022",
         "example_background": "In early 2022, a vulnerability in Twitter's API allowed any user to bypass rate limits and scrape nearly all public tweets and user data. Security researcher freedo exploited the flaw using multiple accounts to collect 200 million tweets daily. Twitter's API authentication relied on simple API keys without effective abuse detection or rate limiting enforcement. The company failed to implement proper monitoring of API usage patterns despite known scraping issues.",
         "process_and_outcome": "Twitter suspended the researcher's accounts and patched the vulnerability. The incident highlighted API security deficiencies, contributing to broader security concerns that factored into Elon Musk's acquisition. Twitter implemented stricter API access controls and paid data access tiers post-acquisition.",
+        "source_rule": "    \"file_name_list.remove('json_files')\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 4,   \"id\": \"514fcac0\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"def process(data):\\n\",    \"    # data = data.split('---')[2]\\n\",    \"\\n\",    \"    save_list = []\\n\",    \"\\n\",    \"    buffer = ''\\n\",    \"\\n\",    \"    pre_buffer = ''\\n\",    \"    for _d in data.split('\\\\n'):\\n\",    \"        if not _d:\\n\",    \"            continue\\n\",    \"        if len(_d) < 100:\\n\",    \"            pre_buffer += _d\\n\",    \"            continue\\n\",    \"        else:\\n\",    \"            if pre_buffer:\\n\",    \"                _d = pre_buffer +' ' + _d\\n\",    \"                pre_buffer = ''\\n\",    \"            save_list.append(_d)\\n\",    \"    return save_list\\n\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 5,   \"id\": \"0eab8a68\",   \"metadata\": {},   \"outputs\": [    {     \"data\": {      \"text/plain\": [       \"972\"      ]     },     \"execution_count\": 5,     \"metadata\": {},     \"output_type\": \"execute_result\"    }   ],   \"source\": [    \"len_count = 0\\n\",    \"for _name in file_name_list:\\n\",     \"    with open(f'/data/whuak/dual_compliance_project/data_rules/policys/reddit/{_name}', 'r') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Twitter Inc.",
             "Freedo (security researcher)",
             "Elon Musk / X Corp"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "California Consumer Privacy Act (CCPA)",
             "GDPR",
             "OAuth 2.0 Best Current Practices"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2022"
     },
     {
         "example_name": "Historical Context: Apache Struts CVE-2017-5638",
         "example_background": "The Equifax breach highlighted chronic issues with Apache Struts framework vulnerabilities. CVE-2017-5638, a deserialization flaw disclosed in March 2017, was exploited because Equifax failed to apply the patch despite public disclosure. Similar Struts vulnerabilities had been exploited in prior years affecting Sony Pictures (2014) and Yahoo (2013). Framework dependency management challenges persist across enterprises using open source components without systematic vulnerability scanning.",
         "process_and_outcome": "Equifax case established precedent for patch management accountability. Industry adopted tools like OWASP Dependency-Check. NIST updated patch management guidance emphasizing critical framework vulnerabilities.",
+        "source_rule": "    \"file_name_list.remove('json_files')\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 4,   \"id\": \"514fcac0\",   \"metadata\": {},   \"outputs\": [],   \"source\": [    \"def process(data):\\n\",    \"    # data = data.split('---')[2]\\n\",    \"\\n\",    \"    save_list = []\\n\",    \"\\n\",    \"    buffer = ''\\n\",    \"\\n\",    \"    pre_buffer = ''\\n\",    \"    for _d in data.split('\\\\n'):\\n\",    \"        if not _d:\\n\",    \"            continue\\n\",    \"        if len(_d) < 100:\\n\",    \"            pre_buffer += _d\\n\",    \"            continue\\n\",    \"        else:\\n\",    \"            if pre_buffer:\\n\",    \"                _d = pre_buffer +' ' + _d\\n\",    \"                pre_buffer = ''\\n\",    \"            save_list.append(_d)\\n\",    \"    return save_list\\n\"   ]  },  {   \"cell_type\": \"code\",   \"execution_count\": 5,   \"id\": \"0eab8a68\",   \"metadata\": {},   \"outputs\": [    {     \"data\": {      \"text/plain\": [       \"972\"      ]     },     \"execution_count\": 5,     \"metadata\": {},     \"output_type\": \"execute_result\"    }   ],   \"source\": [    \"len_count = 0\\n\",    \"for _name in file_name_list:\\n\",     \"    with open(f'/data/whuak/dual_compliance_project/data_rules/policys/reddit/{_name}', 'r') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Apache Software Foundation",
             "Equifax Inc.",
             "National Institute of Standards and Technology (NIST)"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "NIST SP 800-40 Rev. 3",
             "OWASP Top Ten",
             "MITRE CVE Program"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2017"
     },
     {
         "example_name": "Twitter (X) Data Access Changes Post-Musk Acquisition",
         "example_background": "Following Elon Musk's 2022 acquisition of Twitter (rebranded X), the platform restricted API access to prevent data scraping for AI training. Previously, free API tiers allowed reading tweets, user metadata, and threads into JSON files for research. New paid tiers priced at $42,000/month for full archive access led to projects halting data processing pipelines that read and saved tweet data. This mirrored Reddit's model, targeting bulk data reads from social feeds.",
         "process_and_outcome": "Academic researchers received limited free credits. X sued Bright Data for scraping in 2023. Revenue from API increased, supporting platform sustainability.",
+        "source_rule": "    \"        data = f.read()\\n\",    \"    # save_data_ = []\\n\",    \"    save_data_ = process(data)\\n\",    \"    # for _d in data.split('\\\\n'):\\n\",    \"    #     if _d != '' and len(_d) >= 30:\\n\",    \"    #         save_data_.append(_d) \\n\",    \"    base_name_ = os.path.basename(_name)\\n\",     \"    with open(f'/data/whuak/dual_compliance_project/data_rules/policys/reddit/json_files/{base_name_}.json', 'w') as f:\\n\",",
+        "relation_to_rule": "VIOLATES",
         "involved_parties": [
             "Twitter/X Corp.",
             "Elon Musk",
             "Academic researchers"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "Twitter Developer Agreement",
             "Rate Limits Policy"
         ],
-        "relation_to_rule": "VIOLATES",
         "dates": "2022"
     },
     {
         "example_name": "Meta's Compliance with GDPR Data Processing",
         "example_background": "Meta (Facebook) implemented Data Processing Agreements and consent mechanisms for reading user data across EU servers, ensuring all data reads from feeds are logged, processed under strict controls, and saved only with basis in law. Following Schrems II, data is localized and audited.",
         "process_and_outcome": "Avoided further major fines post-2023 \u20ac1.2 billion penalty by enhancing controls; ongoing compliance certified by DPAs.",
+        "source_rule": "    \"        data = f.read()\\n\",    \"    # save_data_ = []\\n\",    \"    save_data_ = process(data)\\n\",    \"    # for _d in data.split('\\\\n'):\\n\",    \"    #     if _d != '' and len(_d) >= 30:\\n\",    \"    #         save_data_.append(_d) \\n\",    \"    base_name_ = os.path.basename(_name)\\n\",     \"    with open(f'/data/whuak/dual_compliance_project/data_rules/policys/reddit/json_files/{base_name_}.json', 'w') as f:\\n\",",
+        "relation_to_rule": "COMPLIES",
         "involved_parties": [
             "Meta Platforms Inc.",
             "Irish DPC",
             "EU Court of Justice"
         ],
-        "applicable_regulations_or_policies": [
+        "relevant_rules": [
             "GDPR Article 28 (Processor Contracts)"
         ],
-        "relation_to_rule": "COMPLIES",
         "dates": "None"
     }
 ]
